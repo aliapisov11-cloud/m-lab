@@ -1,7 +1,7 @@
 /**
  * M-LAB: Asosiy dastur mantig'i (O'zbek, Rus va Ingliz tillari 100% qo'llab-quvvatlanadi)
- * 81 ta to'liq tekshirilgan darslar, interaktiv formulalar, qadamlar va kalkulyatorlar.
- * Yuqori kontrastli qorong'u/yorug' rejim (Dark/Light mode).
+ * 100 ta to'liq tekshirilgan darslar, 3 xil qiyinlikdagi misol turlari (Oddiy, O'rtacha, Qiyin),
+ * interaktiv formulalar, qadamlar va kalkulyatorlar.
  */
 
 // Ilova holati (State)
@@ -10,6 +10,7 @@ const AppState = {
   currentTopicId: "kasrlar-oddiy",
   activeGrade: "all", // 'all' | '5' | '6' | '7' | '8' | '9' | '10' | '11'
   activeCategory: "all", // 'all' | 'algebra' | 'geometriya' | 'favorites'
+  activeExampleLevelIndex: 0, // 0: basic, 1: medium, 2: hard
   searchQuery: "",
   favorites: new Set(),
   theme: "light",
@@ -80,15 +81,17 @@ function setLanguage(lang) {
 function getLocalizedTopic(topic) {
   const l = AppState.lang;
   if (topic[l]) {
+    const loc = topic[l];
     return {
       ...topic,
-      title: topic[l].title || topic.title,
-      shortDesc: topic[l].shortDesc || topic.shortDesc,
-      description: topic[l].description || topic.description,
-      formulas: topic[l].formulas || topic.formulas,
-      steps: topic[l].steps || topic.steps,
-      example: topic[l].example || topic.example,
-      quiz: topic[l].quiz || topic.quiz
+      title: loc.title || topic.title,
+      shortDesc: loc.shortDesc || topic.shortDesc,
+      description: loc.description || topic.description,
+      formulas: loc.formulas || topic.formulas,
+      steps: loc.steps || topic.steps,
+      examples: loc.examples || (loc.example ? [loc.example] : topic.examples || [topic.example]),
+      example: (loc.examples && loc.examples[AppState.activeExampleLevelIndex]) || loc.example || topic.example,
+      quiz: loc.quiz || topic.quiz
     };
   }
   return topic;
@@ -425,6 +428,7 @@ function selectTopic(topicId) {
   AppState.currentTopicId = topicId;
   window.location.hash = topicId;
   AppState.quizAnswered = false;
+  AppState.activeExampleLevelIndex = 0; // reset to basic example
 
   renderSidebarList();
   renderTopicDetail(topicId);
@@ -517,6 +521,10 @@ function renderTopicDetail(topicId) {
 
   const calcConfig = topicCalculators[topic.calculatorType];
   const svgHtml = topic.svgType && svgTemplates[topic.svgType] ? svgTemplates[topic.svgType]() : "";
+
+  // Examples array with levels
+  const examplesList = topic.examples || [topic.example];
+  const currentExample = examplesList[AppState.activeExampleLevelIndex] || examplesList[0];
 
   let html = `
     <!-- 1. Header (Title, Grade, Actions) -->
@@ -666,25 +674,50 @@ function renderTopicDetail(topicId) {
       </div>
     </div>
 
-    <!-- 5. Hayotiy Misol va Yechimi -->
+    <!-- 5. Hayotiy Misollar va Masalalar Turlari (Oddiy, O'rtacha, Qiyin) -->
     <div class="space-y-4">
-      <div class="flex items-center justify-between">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
         <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
           <span class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-600 flex items-center justify-center font-bold text-sm">🌟</span>
           <span>${t('example_title', l)}</span>
         </h3>
-        <span class="text-xs text-amber-700 dark:text-amber-300 font-bold bg-amber-100 dark:bg-amber-950/70 px-2.5 py-1 rounded-xl">
+        <span class="text-xs text-amber-700 dark:text-amber-300 font-bold bg-amber-100 dark:bg-amber-950/70 px-2.5 py-1 rounded-xl self-start sm:self-auto">
           ${t('click_steps_hint', l)}
         </span>
       </div>
 
+      <!-- Problem Variations Tabs (Oddiy / O'rtacha / Qiyin) -->
+      ${examplesList.length > 1 ? `
+        <div class="flex items-center space-x-2 p-1.5 bg-slate-100 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="example-level-tabs">
+          ${examplesList.map((ex, exIdx) => {
+            const isLevelActive = exIdx === AppState.activeExampleLevelIndex;
+            const levelLabel = exIdx === 0 ? t('level_basic', l) : exIdx === 1 ? t('level_medium', l) : t('level_hard', l);
+            return `
+              <button 
+                class="example-level-tab-btn flex-1 min-w-[130px] py-2 px-3 rounded-xl text-xs font-extrabold transition-all text-center ${
+                  isLevelActive 
+                    ? 'bg-amber-500 text-white shadow-sm' 
+                    : 'text-slate-600 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 hover:text-amber-600 dark:hover:text-amber-400'
+                }"
+                data-example-index="${exIdx}"
+              >
+                ${levelLabel}
+              </button>
+            `;
+          }).join("")}
+        </div>
+      ` : ''}
+
+      <!-- Active Example Container -->
       <div class="p-5 sm:p-6 rounded-2xl bg-amber-50/40 dark:bg-slate-800/60 border border-amber-200/80 dark:border-slate-700 space-y-4">
         <div>
-          <span class="inline-block text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/40 px-2.5 py-0.5 rounded-md mb-2">
-            ${topic.example.title}
-          </span>
+          <div class="flex items-center justify-between mb-2">
+            <span class="inline-block text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/40 px-2.5 py-0.5 rounded-md">
+              ${currentExample.title}
+            </span>
+          </div>
           <div class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed">
-            ${topic.example.problem}
+            ${currentExample.problem}
           </div>
         </div>
 
@@ -699,7 +732,7 @@ function renderTopicDetail(topicId) {
           </div>
 
           <div class="space-y-3" id="solution-steps-list">
-            ${renderSolutionSteps(topic.example)}
+            ${renderSolutionSteps(currentExample)}
           </div>
         </div>
       </div>
@@ -788,6 +821,15 @@ function renderTopicDetail(topicId) {
   `;
 
   container.innerHTML = html;
+
+  // Level tabs listeners
+  container.querySelectorAll(".example-level-tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const idx = parseInt(btn.getAttribute("data-example-index"), 10);
+      AppState.activeExampleLevelIndex = idx;
+      renderTopicDetail(topicId);
+    });
+  });
 
   // Step accordion
   container.querySelectorAll(".step-card").forEach(card => {
