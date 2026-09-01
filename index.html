@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="uz" class="h-full scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M-LAB — Sodda va Tushunarli Maktab Matematikasi (5-11 sinf)</title>
+  <meta name="description" content="5-11 sinf o'quvchilari uchun algebra va geometriya bo'yicha eng sodda tushuntirishlar, asosiy formulalar, hayotiy misollar va interaktiv hisoblagichlar." />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              200: '#c7d2fe',
+              300: '#a5b4fc',
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              800: '#3730a3',
+              900: '#312e81',
+              950: '#1e1b4b',
+            },
+            slate: {
+              750: '#243044',
+              850: '#141d2e',
+            }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- KaTeX CSS & JS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="h-full bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 flex flex-col transition-colors duration-200">
+
+  <!-- ========================================== -->
+  <!-- TOP NAVIGATION HEADER                      -->
+  <!-- ========================================== -->
+  <header class="sticky top-0 z-40 w-full glass-panel border-b border-slate-200/80 dark:border-slate-800/80 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo & Mobile Toggle -->
+      <div class="flex items-center space-x-3 flex-shrink-0">
+        <button id="mobile-sidebar-toggle" aria-label="Menyuni ochish" class="md:hidden p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+        <a href="#" class="flex items-center space-x-2.5 group">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 via-indigo-500 to-violet-500 flex items-center justify-center text-white font-extrabold text-lg shadow-md shadow-brand-500/20 group-hover:scale-105 transition transform">
+            <span>M</span>
+          </div>
+          <div>
+            <div class="flex items-center space-x-1.5">
+              <span class="font-extrabold text-xl tracking-tight text-slate-900 dark:text-white" id="brand-title">M-LAB</span>
+              <span class="text-[10px] uppercase font-bold tracking-widest px-1.5 py-0.5 rounded-md bg-brand-100 dark:bg-brand-950/60 text-brand-700 dark:text-brand-300 border border-brand-200 dark:border-brand-800/50" id="brand-badge">Maktab</span>
+            </div>
+            <p class="text-[11px] text-slate-500 dark:text-slate-400 font-medium -mt-0.5 hidden sm:block" id="brand-subtitle">Sodda va Tushunarli Matematika</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Live Search Bar -->
+      <div class="flex-1 max-w-md mx-2 sm:mx-4">
+        <div class="relative">
+          <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Mavzu yoki formulani izlang... (Ctrl+K)" 
+            class="w-full pl-10 pr-9 py-2 text-sm rounded-xl border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/70 text-slate-800 dark:text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:bg-white dark:focus:bg-slate-800 transition"
+          />
+          <button id="search-clear-btn" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+            <i data-lucide="x" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Actions (Instant 1-Click Language Switcher, Theme Toggle, Bookmarks) -->
+      <div class="flex items-center space-x-2 flex-shrink-0">
+        
+        <!-- Instant 1-Click Language Switcher -->
+        <div class="flex items-center p-1 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 shadow-2xs" id="lang-switcher-container">
+          <button class="lang-pill-btn px-2.5 py-1 rounded-lg text-xs font-black transition-all bg-brand-600 text-white shadow-xs" data-lang="uz" title="O'zbekcha">
+            🇺🇿 UZ
+          </button>
+          <button class="lang-pill-btn px-2.5 py-1 rounded-lg text-xs font-black transition-all text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-white" data-lang="ru" title="Русский">
+            🇷🇺 RU
+          </button>
+          <button class="lang-pill-btn px-2.5 py-1 rounded-lg text-xs font-black transition-all text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-white" data-lang="en" title="English">
+            🇬🇧 EN
+          </button>
+        </div>
+
+        <button id="theme-toggle-btn" aria-label="Mavzuni almashtirish" class="p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition border border-slate-200/80 dark:border-slate-700 shadow-2xs" title="Qorong'i / Yorug' rejim">
+          <i data-lucide="sun" class="w-4 h-4 hidden dark:block text-amber-400"></i>
+          <i data-lucide="moon" class="w-4 h-4 block dark:hidden text-slate-600"></i>
+        </button>
+
+        <button id="quick-fav-btn" title="Saqlangan mavzular" class="relative p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition border border-slate-200/80 dark:border-slate-700 shadow-2xs">
+          <i data-lucide="bookmark" class="w-4 h-4"></i>
+          <span id="fav-badge-count" class="hidden absolute -top-1 -right-1 w-4 h-4 bg-amber-500 text-white text-[10px] font-bold rounded-full items-center justify-center">0</span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- ========================================== -->
+    <!-- SINFLAR BO'YICHA TEZKOR FILTR PANELI       -->
+    <!-- ========================================== -->
+    <div class="bg-white/80 dark:bg-slate-900/80 border-t border-slate-200/60 dark:border-slate-800/60 px-4 sm:px-6 lg:px-8 py-2.5 overflow-x-auto scrollbar-none">
+      <div class="max-w-7xl mx-auto flex items-center space-x-2 min-w-max" id="grades-filter-container">
+        <!-- Grade Filter Buttons rendered dynamically via app.js -->
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- MAIN APP CONTAINER                         -->
+  <!-- ========================================== -->
+  <div class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col md:flex-row gap-6">
+    
+    <!-- ========================================== -->
+    <!-- SIDEBAR / TOPIC LIST DRAWER                -->
+    <!-- ========================================== -->
+    <aside id="app-sidebar" class="fixed inset-y-0 left-0 z-50 w-80 md:w-72 lg:w-80 bg-white dark:bg-slate-850 p-4 border-r border-slate-200 dark:border-slate-800 flex flex-col transform -translate-x-full md:translate-x-0 md:static md:z-auto md:bg-transparent md:border-r-0 md:p-0 transition-transform duration-300 ease-in-out">
+      
+      <!-- Mobile Sidebar Header -->
+      <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-200 dark:border-slate-700 md:hidden">
+        <div class="flex items-center space-x-2">
+          <i data-lucide="book-open" class="w-5 h-5 text-brand-600"></i>
+          <span class="font-bold text-base text-slate-900 dark:text-white" id="sidebar-mobile-title">Mavzular ro'yxati</span>
+        </div>
+        <button id="mobile-sidebar-close" class="p-1.5 rounded-lg text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Subject Filter: Barchasi | Algebra | Geometriya -->
+      <div class="flex p-1 bg-slate-200/70 dark:bg-slate-800 rounded-xl mb-3 text-xs font-semibold" id="category-tabs-container">
+        <button class="category-filter-btn flex-1 py-1.5 px-2 rounded-lg text-center transition bg-white dark:bg-slate-700 text-brand-600 dark:text-white shadow-sm font-bold" data-category="all" id="tab-cat-all">
+          Barchasi
+        </button>
+        <button class="category-filter-btn flex-1 py-1.5 px-2 rounded-lg text-center transition text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-white" data-category="algebra" id="tab-cat-algebra">
+          Algebra
+        </button>
+        <button class="category-filter-btn flex-1 py-1.5 px-2 rounded-lg text-center transition text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-white" data-category="geometriya" id="tab-cat-geometriya">
+          Geometriya
+        </button>
+      </div>
+
+      <!-- Active Filter Status Indicator -->
+      <div id="filter-status-box" class="flex items-center justify-between px-3 py-1.5 mb-2 rounded-lg bg-slate-100 dark:bg-slate-800/60 text-[11px] text-slate-500 dark:text-slate-400 font-medium">
+        <span id="filter-status-text">Barcha mavzular</span>
+        <span id="filter-topics-count" class="font-bold text-brand-600 dark:text-brand-400">0 ta</span>
+      </div>
+
+      <!-- Topic List Container -->
+      <div class="flex-1 overflow-y-auto pr-1 space-y-1.5" id="topic-list-container">
+        <!-- Topic Items dynamically rendered here -->
+      </div>
+
+      <!-- Sidebar Footer Info -->
+      <div class="mt-4 pt-3 border-t border-slate-200 dark:border-slate-800/80 text-[11px] text-slate-400 dark:text-slate-500 text-center">
+        <span>M-LAB • Simple Math for Everyone</span>
+      </div>
+
+    </aside>
+
+    <!-- Sidebar Backdrop on Mobile -->
+    <div id="sidebar-backdrop" class="fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-40 hidden md:hidden"></div>
+
+    <!-- ========================================== -->
+    <!-- MAIN CONTENT VIEW (TOPIC DETAIL)           -->
+    <!-- ========================================== -->
+    <main class="flex-1 min-w-0" id="main-content-view">
+      
+      <!-- Topic Detail Card -->
+      <article id="topic-detail-card" class="bg-white dark:bg-slate-850 rounded-3xl border border-slate-200/80 dark:border-slate-800 shadow-sm p-6 sm:p-8 space-y-8 animate-fadeIn">
+        <!-- Content will be dynamically inserted here via app.js -->
+      </article>
+
+    </main>
+
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 pointer-events-none flex flex-col items-center space-y-2"></div>
+
+  <!-- ========================================== -->
+  <!-- JAVASCRIPT MODULES                         -->
+  <!-- ========================================== -->
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/svg-render.js"></script>
+  <script src="js/calculators.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
