@@ -82,6 +82,7 @@ function getLocalizedTopic(topic) {
   const l = AppState.lang;
   if (topic[l]) {
     const loc = topic[l];
+    const exs = loc.examples || (loc.example ? [loc.example] : topic.examples || [topic.example]);
     return {
       ...topic,
       title: loc.title || topic.title,
@@ -89,8 +90,8 @@ function getLocalizedTopic(topic) {
       description: loc.description || topic.description,
       formulas: loc.formulas || topic.formulas,
       steps: loc.steps || topic.steps,
-      examples: loc.examples || (loc.example ? [loc.example] : topic.examples || [topic.example]),
-      example: (loc.examples && loc.examples[AppState.activeExampleLevelIndex]) || loc.example || topic.example,
+      examples: exs,
+      example: exs[AppState.activeExampleLevelIndex] || exs[0] || loc.example || topic.example,
       quiz: loc.quiz || topic.quiz
     };
   }
@@ -441,7 +442,7 @@ function selectTopic(topicId) {
 // ==========================================
 function renderSolutionSteps(example) {
   const l = AppState.lang;
-  if (example.solutionSteps && example.solutionSteps.length > 0) {
+  if (example && example.solutionSteps && example.solutionSteps.length > 0) {
     return example.solutionSteps.map((step, idx) => `
       <div class="solution-step-card bg-white dark:bg-slate-800 rounded-2xl border border-amber-200/90 dark:border-slate-700 p-4 transition-all shadow-xs hover:border-amber-400 dark:hover:border-amber-500">
         <div class="flex items-center justify-between cursor-pointer solution-step-header" data-step-index="${idx}">
@@ -488,7 +489,7 @@ function renderSolutionSteps(example) {
         </div>
       </div>
     `).join("");
-  } else if (example.solution) {
+  } else if (example && example.solution) {
     return example.solution.map((sol) => `
       <div class="p-3.5 bg-white dark:bg-slate-800 rounded-xl text-xs sm:text-sm text-slate-700 dark:text-slate-200 font-medium border border-slate-200 dark:border-slate-700">
         ${sol}
@@ -688,16 +689,21 @@ function renderTopicDetail(topicId) {
 
       <!-- Problem Variations Tabs (Oddiy / O'rtacha / Qiyin) -->
       ${examplesList.length > 1 ? `
-        <div class="flex items-center space-x-2 p-1.5 bg-slate-100 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="example-level-tabs">
+        <div class="flex items-center space-x-2 p-1.5 bg-slate-200/70 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="example-level-tabs">
           ${examplesList.map((ex, exIdx) => {
             const isLevelActive = exIdx === AppState.activeExampleLevelIndex;
             const levelLabel = exIdx === 0 ? t('level_basic', l) : exIdx === 1 ? t('level_medium', l) : t('level_hard', l);
+            const activeColorClass = exIdx === 0 
+              ? 'bg-emerald-600 text-white shadow-sm' 
+              : exIdx === 1 
+                ? 'bg-amber-600 text-white shadow-sm' 
+                : 'bg-rose-600 text-white shadow-sm';
             return `
               <button 
-                class="example-level-tab-btn flex-1 min-w-[130px] py-2 px-3 rounded-xl text-xs font-extrabold transition-all text-center ${
+                class="example-level-tab-btn flex-1 min-w-[130px] py-2 px-3 rounded-xl text-xs font-black transition-all text-center ${
                   isLevelActive 
-                    ? 'bg-amber-500 text-white shadow-sm' 
-                    : 'text-slate-600 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 hover:text-amber-600 dark:hover:text-amber-400'
+                    ? activeColorClass 
+                    : 'text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 hover:text-brand-600 dark:hover:text-white font-bold'
                 }"
                 data-example-index="${exIdx}"
               >
@@ -709,7 +715,7 @@ function renderTopicDetail(topicId) {
       ` : ''}
 
       <!-- Active Example Container -->
-      <div class="p-5 sm:p-6 rounded-2xl bg-amber-50/40 dark:bg-slate-800/60 border border-amber-200/80 dark:border-slate-700 space-y-4">
+      <div class="p-5 sm:p-6 rounded-2xl bg-amber-50/40 dark:bg-slate-800/60 border border-amber-200/80 dark:border-slate-700 space-y-4 animate-fadeIn" id="current-example-wrapper">
         <div>
           <div class="flex items-center justify-between mb-2">
             <span class="inline-block text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/40 px-2.5 py-0.5 rounded-md">
