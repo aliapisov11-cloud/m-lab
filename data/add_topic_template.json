@@ -1,0 +1,165 @@
+{
+  "id": "yangi-mavzu-id",
+  "gradeNumber": 8,
+  "grade": "8-sinf",
+  "category": "algebra",
+  "icon": "zap",
+  "calculatorType": "linearEquation",
+  "svgType": "",
+  "uz": {
+    "title": "Yangi Mavzu Sarlavhasi",
+    "shortDesc": "Mavzuning 1 jumladagi qisqa va qiziqarli tavsifi.",
+    "description": "Oddiy qilib aytganda nima bu? Mavzuning insoniy va hayotiy tildagi tushuntirilishi.",
+    "formulas": [
+      {
+        "title": "Asosiy Formula",
+        "latex": "a^2 + b^2 = c^2",
+        "desc": "Formula nima ekanligi va undan qanday foydalanish."
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "1-qadam: Berilgan sonlarni yozib oling",
+        "desc": "Masaladagi ma'lumotlarni ajrating.",
+        "superSimple": "Bolalarcha oddiy tushuntirish: qog'ozga ma'lumotlarni yozing."
+      },
+      {
+        "step": 2,
+        "title": "2-qadam: Formulaga qo'ying",
+        "desc": "Sonlarni formuladagi harflar o'rniga qo'ying.",
+        "superSimple": "Sonlarni formula ichiga joylashtiring."
+      },
+      {
+        "step": 3,
+        "title": "3-qadam: Hisoblang va tekshiring",
+        "desc": "Amallarni bajaring va javobni toping.",
+        "superSimple": "Natijani hisoblab ko'ring."
+      }
+    ],
+    "example": {
+      "title": "Hayotiy Misol",
+      "problem": "Misol sharti: Ali 3 ta olma, ukasi 2 ta olma oldi. Jami nechta olma bo'ldi?",
+      "solutionSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Ma'lumotlarni yozamiz",
+          "formula": "3 + 2",
+          "why": "Nega bunday qilindi: Jami sonni topish uchun qo'shish kerak.",
+          "how": "Qanday hisoblandi: 3 + 2 = 5 ta olma.",
+          "tip": "Eslatma: Qo'shish amali ishlatiladi."
+        }
+      ]
+    },
+    "quiz": {
+      "question": "Savol matni?",
+      "options": ["To'g'ri javob", "Noto'g'ri 1", "Noto'g'ri 2", "Noto'g'ri 3"],
+      "correctIndex": 0,
+      "explanation": "To'g'ri javobning batafsil matematik izohi."
+    }
+  },
+  "ru": {
+    "title": "Название новой темы",
+    "shortDesc": "Краткое и понятное описание темы в одно предложение.",
+    "description": "Простыми словами: что это такое? Простое жизненное объяснение.",
+    "formulas": [
+      {
+        "title": "Основная формула",
+        "latex": "a^2 + b^2 = c^2",
+        "desc": "Описание формулы и как её применять."
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Шаг 1: Выпишите данные",
+        "desc": "Определите известные числовые значения.",
+        "superSimple": "Запишите известные числа на листке."
+      },
+      {
+        "step": 2,
+        "title": "Шаг 2: Подставьте в формулу",
+        "desc": "Подставьте числа вместо переменных.",
+        "superSimple": "Подставьте числа в формулу."
+      },
+      {
+        "step": 3,
+        "title": "Шаг 3: Вычислите результат",
+        "desc": "Выполните арифметические действия.",
+        "superSimple": "Посчитайте и проверьте ответ."
+      }
+    ],
+    "example": {
+      "title": "Жизненный пример",
+      "problem": "Условие задачи из реальной жизни.",
+      "solutionSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Записываем решение",
+          "formula": "3 + 2 = 5",
+          "why": "Почему так сделано: чтобы найти общее количество.",
+          "how": "Как рассчитано: складываем числа 3 и 2.",
+          "tip": "Совет: обратите внимание на действие сложения."
+        }
+      ]
+    },
+    "quiz": {
+      "question": "Текст вопроса теста?",
+      "options": ["Правильный ответ", "Неверный 1", "Неверный 2", "Неверный 3"],
+      "correctIndex": 0,
+      "explanation": "Подробное математическое объяснение правильного ответа."
+    }
+  },
+  "en": {
+    "title": "New Topic Title",
+    "shortDesc": "Clear and engaging one-sentence summary of the topic.",
+    "description": "In Simple Words: What is this? Intuitive and practical explanation.",
+    "formulas": [
+      {
+        "title": "Main Formula",
+        "latex": "a^2 + b^2 = c^2",
+        "desc": "Explanation of the formula and how to use it."
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Step 1: Identify given values",
+        "desc": "Extract all known numbers from the problem.",
+        "superSimple": "Write down the given numbers clearly."
+      },
+      {
+        "step": 2,
+        "title": "Step 2: Substitute into formula",
+        "desc": "Place numbers into the formula variables.",
+        "superSimple": "Plug the numbers into the formula."
+      },
+      {
+        "step": 3,
+        "title": "Step 3: Calculate and verify",
+        "desc": "Perform calculations and double check.",
+        "superSimple": "Compute the final answer."
+      }
+    ],
+    "example": {
+      "title": "Real-Life Example",
+      "problem": "Real-world scenario problem statement.",
+      "solutionSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Write down the solution",
+          "formula": "3 + 2 = 5",
+          "why": "Why this was done: to find the total sum.",
+          "how": "How it was calculated: adding 3 and 2 together.",
+          "tip": "Tip: ensure units match."
+        }
+      ]
+    },
+    "quiz": {
+      "question": "Quiz question statement?",
+      "options": ["Correct answer", "Incorrect 1", "Incorrect 2", "Incorrect 3"],
+      "correctIndex": 0,
+      "explanation": "Detailed explanation of why this option is correct."
+    }
+  }
+}
