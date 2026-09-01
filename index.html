@@ -527,7 +527,7 @@ function t(key, lang = "uz") {
   <script>
 /**
  * M-LAB: 5-11 Sinf Matematika (Algebra va Geometriya)
- * 100 ta to'liq darslar bazasi, 3 xil qiyinlikdagi misol turlari va 3 tadan mustaqil mashqlar (UZ, RU, EN).
+ * 100+ ta to'liq darslar bazasi, 3 xil qiyinlikdagi misollar va 3 tadan mustaqil mashqlar (UZ, RU, EN).
  */
 
 const mathTopicsData = [
@@ -71778,6 +71778,492 @@ const mathTopicsData = [
         "explanation": "Imtihon darajasidagi masalalarda barcha shartlar va qoidalar izchillik bilan tekshiriladi."
       }
     ]
+  },
+  {
+    "id": "modulli-tenglamalar",
+    "category": "algebra",
+    "grade": "8-sinf",
+    "gradeNumber": 8,
+    "icon": "split",
+    "svgType": "algebra_coords",
+    "calculatorType": "linear",
+    "uz": {
+      "title": "Modulli tenglamalar va tengsizliklar (|x - a| = b)",
+      "shortDesc": "Modul ta'rifi, sonlar o'qida masofa va ikki holatga ajratib yechish sirlari.",
+      "description": "Modul — bu sonning noldan qancha uzoqlikda joylashganini (masofani) bildiradi. Masofa hech qachon manfiy bo'lmaydi. Shuning uchun |x| = 5 bo'lsa, x soni +5 yoki -5 bo'lishi mumkin.",
+      "formulas": [
+        {
+          "title": "Modul ta'rifi",
+          "latex": "|x| = \\begin{cases} x, & x \\ge 0 \\\\ -x, & x < 0 \\end{cases}",
+          "desc": "Modul ichidagi ifoda musbat bo'lsa o'zi, manfiy bo'lsa qarama-qarshisi chiqadi."
+        },
+        {
+          "title": "Asosiy tenglama",
+          "latex": "|f(x)| = a \\implies f(x) = a \\quad \\text{yoki} \\quad f(x) = -a \\; (a \\ge 0)",
+          "desc": "O'ng tomon musbat bo'lsa, tenglama ikkita mustaqil holatga ajraladi."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "O'ng tomonni tekshiring",
+          "desc": "Agar modul teng bo'lgan son manfiy bo'lsa (masalan, |x| = -3), tenglama ildizga ega emas!",
+          "superSimple": "Masofa hech qachon minus bo'lmaydi, shuning uchun minus songa teng bo'lsa yechim yo'q!"
+        },
+        {
+          "step": 2,
+          "title": "Ikkita holatga ajrating",
+          "desc": "Modul ichidagi ifodani bir marta musbat songa, bir marta manfiy songa tenglashtiring.",
+          "superSimple": "Bitta plyusli, bitta minusli qilib 2 ta oddiy tenglama hosil qiling."
+        },
+        {
+          "step": 3,
+          "title": "Har ikkala tenglamani yeching",
+          "desc": "Chiqgan ikkala ildizni ham javob sifatida qabul qiling.",
+          "superSimple": "Ikkala natijani ham javob deb yozing."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 1-tur: Oddiy misol",
+          "title": "Oddiy modulli tenglama (|2x - 3| = 7)",
+          "problem": "\\(|2x - 3| = 7\\) tenglamaning ildizlarini toping.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Ikkita holatga ajratamiz",
+              "formula": "2x - 3 = 7 \\quad \\text{yoki} \\quad 2x - 3 = -7",
+              "why": "Modul ichidagi son +7 yoki -7 bo'lishi mumkin.",
+              "how": "1) 2x = 10 => x₁ = 5. 2) 2x = -4 => x₂ = -2.",
+              "tip": "Javob: x₁ = 5, x₂ = -2."
+            }
+          ]
+        },
+        {
+          "level": "medium",
+          "levelLabel": "🟡 2-tur: O'rtacha misol",
+          "title": "Modul tashqarisida son bo'lgan tenglama",
+          "problem": "\\(3|x + 1| - 5 = 10\\) tenglamani yeching.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Modulni yolg'iz qoldiramiz",
+              "formula": "3|x + 1| = 15 \\implies |x + 1| = 5",
+              "why": "-5 o'ngga +5 bo'lib o'tdi (10+5=15), so'ngra 3 ga bo'ldik (15/3=5).",
+              "how": "|x + 1| = 5.",
+              "tip": "Modul oldidagi koeffitsiyentdan qutulamiz."
+            },
+            {
+              "stepNumber": 2,
+              "title": "Ildizlarni topamiz",
+              "formula": "x + 1 = 5 \\implies x_1 = 4, \\quad x + 1 = -5 \\implies x_2 = -6",
+              "why": "5 va -5 holatlari.",
+              "how": "x₁ = 4, x₂ = -6.",
+              "tip": "Javob: x₁ = 4, x₂ = -6."
+            }
+          ]
+        },
+        {
+          "level": "hard",
+          "levelLabel": "🔴 3-tur: Qiyinroq misol",
+          "title": "Ikkita modul tengligi (|2x - 1| = |x + 5|)",
+          "problem": "\\(|2x - 1| = |x + 5|\\) tenglamani yeching.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Ikkita modul tengligini ochamiz",
+              "formula": "2x - 1 = x + 5 \\quad \\text{yoki} \\quad 2x - 1 = -(x + 5)",
+              "why": "|a| = |b| bo'lsa, a = b yoki a = -b bo'ladi.",
+              "how": "1) 2x - x = 5 + 1 => x₁ = 6. 2) 2x - 1 = -x - 5 => 3x = -4 => x₂ = -4/3.",
+              "tip": "Javob: x₁ = 6, x₂ = -1 1/3."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "\\(|x - 4| = 9\\) tenglamaning musbat ildizini toping:",
+          "options": [
+            "\\(13\\)",
+            "\\(5\\)",
+            "\\(-5\\)",
+            "\\(9\\)"
+          ],
+          "correctIndex": 0,
+          "explanation": "\\(x - 4 = 9 \\implies x = 13\\). (Manfiy ildiz: \\(x - 4 = -9 \\implies x = -5\\))."
+        },
+        {
+          "level": "medium",
+          "question": "\\(|3x| = -6\\) tenglamaning nechta ildizi bor?",
+          "options": [
+            "\\(2 \\text{ ta}\\)",
+            "\\(1 \\text{ ta}\\)",
+            "\\(0 \\text{ ta (Ildizga ega emas)}\\)",
+            "\\(4 \\text{ ta}\\)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Modul hech qachon manfiy songa teng bo'la olmaydi, shuning uchun ildizi yo'q."
+        },
+        {
+          "level": "hard",
+          "question": "\\(|x - 2| + |x + 3| = 5\\) tenglamaning ildizlar oralig'ini aniqlang:",
+          "options": [
+            "\\(x \\in [-3; 2]\\)",
+            "\\(x = 2\\)",
+            "\\(x = -3\\)",
+            "\\(x \\in (-\\infty; \\infty)\\)"
+          ],
+          "correctIndex": 0,
+          "explanation": "-3 va 2 nuqtalar orasidagi barcha sonlar uchun masofalar yig'indisi aynan 5 ga teng."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Уравнения и неравенства с модулем (|x - a| = b)",
+      "shortDesc": "Определение модуля, расстояние на числовой оси и методы решения.",
+      "description": "Модуль числа — это расстояние от нуля до этого числа. Расстояние не может быть отрицательным.",
+      "formulas": [
+        {
+          "title": "Определение модуля",
+          "latex": "|x| = \\begin{cases} x, & x \\ge 0 \\\\ -x, & x < 0 \\end{cases}",
+          "desc": "Модуль положительного числа равен ему самому, отрицательного — противоположному."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Проверьте правую часть",
+          "desc": "Если справа отрицательное число, решений нет.",
+          "superSimple": "Расстояние не бывает со знаком минус!"
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 1-й вид: Простой пример",
+          "title": "Простое уравнение с модулем",
+          "problem": "\\(|2x - 3| = 7\\). Найдите корни.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Раскрываем два случая",
+              "formula": "2x - 3 = 7 \\implies x_1 = 5, \\quad 2x - 3 = -7 \\implies x_2 = -2",
+              "why": "Модуль может быть равен +7 или -7.",
+              "how": "x₁ = 5, x₂ = -2.",
+              "tip": "Ответ: 5 и -2."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Найдите положительный корень |x - 4| = 9:",
+          "options": [
+            "13",
+            "5",
+            "-5",
+            "9"
+          ],
+          "correctIndex": 0,
+          "explanation": "x - 4 = 9 => x = 13."
+        }
+      ]
+    },
+    "en": {
+      "title": "Absolute Value Equations (|x - a| = b)",
+      "shortDesc": "Definition of absolute value as distance and case-by-case solving.",
+      "description": "Absolute value represents the distance of a number from zero on the number line.",
+      "formulas": [
+        {
+          "title": "Definition of Absolute Value",
+          "latex": "|x| = \\begin{cases} x, & x \\ge 0 \\\\ -x, & x < 0 \\end{cases}",
+          "desc": "Distance is always non-negative."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Check the right side",
+          "desc": "If the value is negative, there are no solutions.",
+          "superSimple": "Distance cannot be negative!"
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 Type 1: Basic Example",
+          "title": "Basic Absolute Value Equation",
+          "problem": "Solve \\(|2x - 3| = 7\\).",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Split into two cases",
+              "formula": "2x - 3 = 7 \\implies x_1 = 5, \\quad 2x - 3 = -7 \\implies x_2 = -2",
+              "why": "The inside can be +7 or -7.",
+              "how": "x₁ = 5, x₂ = -2.",
+              "tip": "Answer: 5 and -2."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Find the positive root of |x - 4| = 9:",
+          "options": [
+            "13",
+            "5",
+            "-5",
+            "9"
+          ],
+          "correctIndex": 0,
+          "explanation": "x - 4 = 9 => x = 13."
+        }
+      ]
+    }
+  },
+  {
+    "id": "limit-tushunchasi",
+    "category": "algebra",
+    "grade": "11-sinf",
+    "gradeNumber": 11,
+    "icon": "activity",
+    "svgType": "calculus_limit",
+    "calculatorType": "derivative",
+    "uz": {
+      "title": "Ketma-ketliklar limiti va Funksiya limiti (lim x → a)",
+      "shortDesc": "Limit nima? Noaniqliklarni ochish (0/0 va ∞/∞) va ajoyib limitlar.",
+      "description": "Limit — bu o'zgaruvchi biror songa cheksiz yaqinlashganda, funksiyaning qiymati qaysi songa intilishini ko'rsatuvchi matematik tushunchadir.",
+      "formulas": [
+        {
+          "title": "Limit ta'rifi",
+          "latex": "\\lim_{x \\to a} f(x) = L",
+          "desc": "x soni a ga intilganda f(x) funksiya L soniga intiladi."
+        },
+        {
+          "title": "1-Ajoyib limit",
+          "latex": "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1",
+          "desc": "Burchak nolga intilganda sinusning burchakka nisbati 1 ga intiladi."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Sonni to'g'ridan-to'g'ri qo'ying",
+          "desc": "Agar chekli aniq son chiqsa, o'sha son limitning javobi bo'ladi.",
+          "superSimple": "x o'rniga berilgan sonni qo'yib hisoblang."
+        },
+        {
+          "step": 2,
+          "title": "Noaniqlikni yo'qoting (0/0)",
+          "desc": "Agar 0/0 chiqsa, surat va maxrajni ko'paytuvchilarga ajratib qisqartiring.",
+          "superSimple": "0 chiqaruvchi qavslarni qisqartirib tashlang."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 1-tur: Oddiy misol",
+          "title": "To'g'ridan-to'g'ri qo'yish bilan limit hisoblash",
+          "problem": "\\(\\lim_{x \\to 3} (2x^2 - 4x + 1)\\) limitni hisoblang.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "x o'rniga 3 sonini qo'yamiz",
+              "formula": "2 \\cdot 3^2 - 4 \\cdot 3 + 1 = 2 \\cdot 9 - 12 + 1 = 18 - 12 + 1 = 7",
+              "why": "Hech qanday noaniqlik (0/0) yo'q.",
+              "how": "7.",
+              "tip": "Javob: 7."
+            }
+          ]
+        },
+        {
+          "level": "medium",
+          "levelLabel": "🟡 2-tur: O'rtacha misol",
+          "title": "0/0 noaniqlikni qisqartirish orqali ochish",
+          "problem": "\\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\) limitni toping.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Suratni kvadratlar ayirmasi qilamiz",
+              "formula": "\\frac{x^2 - 4}{x - 2} = \\frac{(x - 2)(x + 2)}{x - 2} = x + 2",
+              "why": "x = 2 qo'yganda 0/0 chiqadi.",
+              "how": "(x - 2) qisqaradi.",
+              "tip": "x + 2 qoladi."
+            },
+            {
+              "stepNumber": 2,
+              "title": "Limitni hisoblaymiz",
+              "formula": "\\lim_{x \\to 2} (x + 2) = 2 + 2 = 4",
+              "why": "Endi x = 2 ni qo'yamiz.",
+              "how": "4.",
+              "tip": "Javob: 4."
+            }
+          ]
+        },
+        {
+          "level": "hard",
+          "levelLabel": "🔴 3-tur: Qiyinroq misol",
+          "title": "1-Ajoyib limitni qo'llash",
+          "problem": "\\(\\lim_{x \\to 0} \\frac{\\sin 5x}{x}\\) limitni toping.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Maxrajni 5x shakliga keltiramiz",
+              "formula": "\\lim_{x \\to 0} \\frac{5 \\cdot \\sin 5x}{5x} = 5 \\cdot \\lim_{x \\to 0} \\frac{\\sin 5x}{5x}",
+              "why": "lim (sin u / u) = 1 formulani qo'llash uchun.",
+              "how": "5 * 1 = 5.",
+              "tip": "Javob: 5."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "\\(\\lim_{x \\to 4} (3x - 2)\\) limitni hisoblang:",
+          "options": [
+            "\\(10\\)",
+            "\\(14\\)",
+            "\\(12\\)",
+            "\\(0\\)"
+          ],
+          "correctIndex": 0,
+          "explanation": "\\(3 \\cdot 4 - 2 = 12 - 2 = 10\\)."
+        },
+        {
+          "level": "medium",
+          "question": "\\(\\lim_{x \\to 1} \\frac{x^2 - 1}{x - 1}\\) limitning qiymatini toping:",
+          "options": [
+            "\\(0\\)",
+            "\\(1\\)",
+            "\\(2\\)",
+            "\\(\\infty\\)"
+          ],
+          "correctIndex": 2,
+          "explanation": "\\(\\frac{(x-1)(x+1)}{x-1} = x + 1 \\implies 1 + 1 = 2\\)."
+        },
+        {
+          "level": "hard",
+          "question": "\\(\\lim_{x \\to \\infty} \\frac{4x^2 + 3}{2x^2 - 5}\\) limitni hisoblang:",
+          "options": [
+            "\\(2\\)",
+            "\\(4\\)",
+            "\\(0\\)",
+            "\\(\\infty\\)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Katta darajalar koeffitsiyentlari nisbati: \\(\\frac{4}{2} = 2\\)."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Предел функции и последовательности (lim x → a)",
+      "shortDesc": "Понятие предела, раскрытие неопределенностей (0/0, ∞/∞).",
+      "description": "Предел показывает число, к которому стремится функция при приближении аргумента к точке.",
+      "formulas": [
+        {
+          "title": "Предел",
+          "latex": "\\lim_{x \\to a} f(x) = L",
+          "desc": "Определение предела."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Подставьте точку",
+          "desc": "Если нет неопределенности, получаем ответ.",
+          "superSimple": "Подставьте x в выражение."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 1-й вид: Простой пример",
+          "title": "Простой предел",
+          "problem": "\\(\\lim_{x \\to 3} (2x + 1) = 7\\)",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Подстановка",
+              "formula": "2(3) + 1 = 7",
+              "why": "Подставляем x=3.",
+              "how": "7.",
+              "tip": "Ответ: 7."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "\\lim_{x \\to 4} (3x - 2):",
+          "options": [
+            "10",
+            "14",
+            "12",
+            "0"
+          ],
+          "correctIndex": 0,
+          "explanation": "3(4)-2=10."
+        }
+      ]
+    },
+    "en": {
+      "title": "Limits of Functions (lim x → a)",
+      "shortDesc": "Understanding limits, evaluating indeterminacies, and special limits.",
+      "description": "A limit is the value that a function approaches as the input approaches some value.",
+      "formulas": [
+        {
+          "title": "Definition of Limit",
+          "latex": "\\lim_{x \\to a} f(x) = L",
+          "desc": "Function approaches L."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Direct Substitution",
+          "desc": "Substitute the value directly into the function.",
+          "superSimple": "Plug in the value of x."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 Type 1: Basic Example",
+          "title": "Direct Substitution",
+          "problem": "Evaluate \\(\\lim_{x \\to 3} (2x + 1)\\).",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Substitute",
+              "formula": "2(3) + 1 = 7",
+              "why": "No 0/0 form.",
+              "how": "7.",
+              "tip": "Answer: 7."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Evaluate \\lim_{x \\to 4} (3x - 2):",
+          "options": [
+            "10",
+            "14",
+            "12",
+            "0"
+          ],
+          "correctIndex": 0,
+          "explanation": "3(4)-2=10."
+        }
+      ]
+    }
   }
 ];
 
