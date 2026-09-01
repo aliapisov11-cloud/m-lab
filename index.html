@@ -527,7 +527,7 @@ function t(key, lang = "uz") {
   <script>
 /**
  * M-LAB: 5-11 Sinf Matematika (Algebra va Geometriya)
- * 100+ ta to'liq darslar bazasi, 3 xil qiyinlikdagi misollar va 3 tadan mustaqil mashqlar (UZ, RU, EN).
+ * 105+ ta to'liq darslar bazasi, 3 xil qiyinlikdagi misollar va 3 tadan mustaqil mashqlar (UZ, RU, EN).
  */
 
 const mathTopicsData = [
@@ -72261,6 +72261,773 @@ const mathTopicsData = [
           ],
           "correctIndex": 0,
           "explanation": "3(4)-2=10."
+        }
+      ]
+    }
+  },
+  {
+    "id": "hajm-birliklari-litr",
+    "category": "geometriya",
+    "grade": "5-sinf",
+    "gradeNumber": 5,
+    "icon": "box",
+    "svgType": "box_3d",
+    "calculatorType": "cylinder",
+    "uz": {
+      "title": "Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)",
+      "shortDesc": "Akvarium, hovuz va xona hajmini hisoblash, litr va metr kub orasidagi bog'liqlik.",
+      "description": "Hajm — bu jismning fazoda qancha joy egallashidir. 1 metr kub (m³) bu tomoni 1 metr bo'lgan kubning ichiga sig'adigan hajm bo'lib, unga 1000 litr suv sig'adi!",
+      "formulas": [
+        {
+          "title": "Asosiy bog'liqlik",
+          "latex": "1 \\text{ dm}^3 = 1 \\text{ litr}, \\quad 1 \\text{ m}^3 = 1000 \\text{ litr} = 1000 \\text{ dm}^3",
+          "desc": "1 litr suv aynan 1 kub detsimetr (1 dm³) joyni egallaydi."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "O'lchamlarni bitta birlikka (detsimetrga) keltiring",
+          "desc": "Bo'yi, eni va balandligini detsimetrda ifodalang.",
+          "superSimple": "Santimetrlarni detsimetrga aylantiring (1 dm = 10 sm)."
+        },
+        {
+          "step": 2,
+          "title": "Uchta o'lchamni ko'paytiring",
+          "desc": "V = a * b * c formulasi bilan hajm litrda chiqadi.",
+          "superSimple": "Bo'yini, enini va balandligini ko'paytiring."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 1-tur: Oddiy misol",
+          "title": "Akvariumga necha litr suv sig'adi?",
+          "problem": "Bo'yi 5 dm, eni 4 dm va balandligi 3 dm bo'lgan akvariumga necha litr suv sig'adi?",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Hajmni hisoblaymiz",
+              "formula": "V = 5 \\cdot 4 \\cdot 3 = 60 \\text{ dm}^3 = 60 \\text{ litr}",
+              "why": "1 dm³ = 1 litr.",
+              "how": "5 * 4 * 3 = 60 litr.",
+              "tip": "Javob: 60 litr suv sig'adi."
+            }
+          ]
+        },
+        {
+          "level": "medium",
+          "levelLabel": "🟡 2-tur: O'rtacha misol",
+          "title": "Santimetrda berilgan idish hajmi",
+          "problem": "Bo'yi 50 sm, eni 20 sm va balandligi 30 sm bo'lgan idishning sig'imini litrda toping.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Santimetrlarni detsimetrga aylantiramiz",
+              "formula": "50 \\text{ sm} = 5 \\text{ dm}, \\quad 20 \\text{ sm} = 2 \\text{ dm}, \\quad 30 \\text{ sm} = 3 \\text{ dm}",
+              "why": "1 dm = 10 sm.",
+              "how": "5, 2 va 3 dm.",
+              "tip": "Detsimetrda hisoblash oson."
+            },
+            {
+              "stepNumber": 2,
+              "title": "Hajmni topamiz",
+              "formula": "V = 5 \\cdot 2 \\cdot 3 = 30 \\text{ dm}^3 = 30 \\text{ litr}",
+              "why": "5 * 2 * 3 = 30.",
+              "how": "30 litr.",
+              "tip": "Javob: 30 litr."
+            }
+          ]
+        },
+        {
+          "level": "hard",
+          "levelLabel": "🔴 3-tur: Qiyinroq misol",
+          "title": "Hovuzni to'ldirish va suv massasi",
+          "problem": "Bo'yi 4 m, eni 2.5 m va chuqurligi 2 m bo'lgan hovuzga necha litr suv ketadi va bu suvning og'irligi necha tonna?",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Hovuz hajmini m³ da topamiz",
+              "formula": "V = 4 \\cdot 2.5 \\cdot 2 = 20 \\text{ m}^3",
+              "why": "4 * 2.5 * 2 = 20 m³.",
+              "how": "20 m³.",
+              "tip": "1 m³ = 1000 litr."
+            },
+            {
+              "stepNumber": 2,
+              "title": "Litr va tonnaga aylantiramiz",
+              "formula": "20 \\text{ m}^3 = 20\\,000 \\text{ litr} = 20 \\text{ tonna suv}",
+              "why": "1 litr suv = 1 kg, demak 20 000 kg = 20 tonna.",
+              "how": "20 000 litr va 20 tonna.",
+              "tip": "Javob: 20 000 litr suv (20 tonna)."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "1 m³ da necha litr suv bor?",
+          "options": [
+            "100 litr",
+            "1000 litr",
+            "10 litr",
+            "10000 litr"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 m³ = 1000 dm³ = 1000 litr."
+        },
+        {
+          "level": "medium",
+          "question": "Hajmi 4000 sm³ bo'lgan idish necha litr bo'ladi?",
+          "options": [
+            "40 litr",
+            "4 litr",
+            "0.4 litr",
+            "400 litr"
+          ],
+          "correctIndex": 1,
+          "explanation": "4000 sm³ = 4 dm³ = 4 litr."
+        },
+        {
+          "level": "hard",
+          "question": "Tomoni 20 sm bo'lgan kub shaklidagi idishga necha litr suv sig'adi?",
+          "options": [
+            "8 litr",
+            "80 litr",
+            "0.8 litr",
+            "800 litr"
+          ],
+          "correctIndex": 0,
+          "explanation": "V = 2 dm * 2 dm * 2 dm = 8 dm³ = 8 litr."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Единицы объема и Литр (1 дм³ = 1 литр)",
+      "shortDesc": "Объем аквариума, бассейна, соотношение кубических метров и литров.",
+      "description": "Объем — это вместимость тела в пространстве. В 1 кубическом метре ровно 1000 литров!",
+      "formulas": [
+        {
+          "title": "Соотношение",
+          "latex": "1 \\text{ дм}^3 = 1 \\text{ л}, \\quad 1 \\text{ м}^3 = 1000 \\text{ л}",
+          "desc": "1 литр равен 1 кубическому дециметру."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Переведите в дециметры",
+          "desc": "1 дм = 10 см.",
+          "superSimple": "Переведите стороны в дециметры."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 1-й вид: Простой пример",
+          "title": "Объем аквариума",
+          "problem": "Аквариум 5х4х3 дм. Сколько в нем литров?",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Расчет",
+              "formula": "V = 5 * 4 * 3 = 60 \\text{ л}",
+              "why": "1 дм³ = 1 л.",
+              "how": "60 литров.",
+              "tip": "Ответ: 60 л."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Сколько литров в 1 м³?",
+          "options": [
+            "100",
+            "1000",
+            "10",
+            "10000"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 м³ = 1000 л."
+        }
+      ]
+    },
+    "en": {
+      "title": "Units of Volume and Liters (1 dm³ = 1 L)",
+      "shortDesc": "Volume of containers, pools, relationship between m³ and liters.",
+      "description": "Volume is the amount of 3D space occupied. 1 cubic meter contains 1,000 liters.",
+      "formulas": [
+        {
+          "title": "Volume Relationship",
+          "latex": "1 \\text{ dm}^3 = 1 \\text{ L}, \\quad 1 \\text{ m}^3 = 1000 \\text{ L}",
+          "desc": "1 liter equals 1 cubic decimeter."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Convert to decimeters",
+          "desc": "1 dm = 10 cm.",
+          "superSimple": "Convert lengths to dm."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 Type 1: Basic Example",
+          "title": "Aquarium Capacity",
+          "problem": "Dimensions: 5x4x3 dm. Find capacity in liters.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Multiply dimensions",
+              "formula": "V = 5 * 4 * 3 = 60 \\text{ L}",
+              "why": "1 dm³ = 1 L.",
+              "how": "60 L.",
+              "tip": "Answer: 60 L."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "How many liters in 1 m³?",
+          "options": [
+            "100",
+            "1000",
+            "10",
+            "10000"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 m³ = 1000 L."
+        }
+      ]
+    }
+  },
+  {
+    "id": "murakkab-bank-foizlari",
+    "category": "algebra",
+    "grade": "6-sinf",
+    "gradeNumber": 6,
+    "icon": "trending-up",
+    "svgType": "algebra_coords",
+    "calculatorType": "linear",
+    "uz": {
+      "title": "Murakkab foizlar va Bank omonati hisobi",
+      "shortDesc": "Foiz ustiga foiz hisoblash siri va yillik jamg'arma o'sishi.",
+      "description": "Murakkab foiz — bu har yili olingan foyda asosiy summaga qo'shilib, keyingi yil yangi kattaroq summaga foiz hisoblanishi demakdir. Bu pulning tez ko'payishiga olib keladi!",
+      "formulas": [
+        {
+          "title": "Murakkab foiz formulasi",
+          "latex": "S_n = S_0 \\cdot \\left(1 + \\frac{p}{100}\\right)^n",
+          "desc": "S₀ — boshlang'ich summa, p — yillik foiz stavkasi, n — yillar soni."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Boshlang'ich summa va foizni aniqlang",
+          "desc": "p foizni o'nli kasrga aylantiring (masalan, 20% = 0.2).",
+          "superSimple": "Foizni 100 ga bo'ling."
+        },
+        {
+          "step": 2,
+          "title": "Har bir yil uchun ketma-ket hisoblang",
+          "desc": "Summani (1 + p/100) ga har yili ko'paytirib boring.",
+          "superSimple": "Yangi summani har yili ko'paytiring."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 1-tur: Oddiy misol",
+          "title": "1 yillik bank omonati",
+          "problem": "Bankka 1 000 000 so'm yillik 20% stavka bilan qo'yildi. 1 yildan so'ng jami summa qancha bo'ladi?",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Yillik foydani hisoblaymiz",
+              "formula": "1\\,000\\,000 \\cdot 0.20 = 200\\,000 \\text{ so'm}",
+              "why": "1 000 000 ning 20% i.",
+              "how": "200 000 so'm.",
+              "tip": "Foyda: 200 000 so'm."
+            },
+            {
+              "stepNumber": 2,
+              "title": "Jami summani topamiz",
+              "formula": "1\\,000\\,000 + 200\\,000 = 1\\,200\\,000 \\text{ so'm}",
+              "why": "Asosiy summa + Foyda.",
+              "how": "1 200 000 so'm.",
+              "tip": "Javob: 1 200 000 so'm."
+            }
+          ]
+        },
+        {
+          "level": "medium",
+          "levelLabel": "🟡 2-tur: O'rtacha misol",
+          "title": "2 yillik murakkab foiz hisobi",
+          "problem": "1 000 000 so'm yillik 10% murakkab foiz bilan 2 yilga qo'yilsa, 2 yildan so'ng qancha bo'ladi?",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "1-yil oxiridagi summa",
+              "formula": "1\\,000\\,000 \\cdot 1.10 = 1\\,100\\,000 \\text{ so'm}",
+              "why": "100% + 10% = 110% = 1.1.",
+              "how": "1 100 000 so'm.",
+              "tip": "1-yil natijasi."
+            },
+            {
+              "stepNumber": 2,
+              "title": "2-yil oxiridagi summa",
+              "formula": "1\\,100\\,000 \\cdot 1.10 = 1\\,210\\,000 \\text{ so'm}",
+              "why": "Endi 1 100 000 ga 10% hisoblanadi.",
+              "how": "1 210 000 so'm.",
+              "tip": "Javob: 1 210 000 so'm."
+            }
+          ]
+        },
+        {
+          "level": "hard",
+          "levelLabel": "🔴 3-tur: Qiyinroq misol",
+          "title": "Oddiy va murakkab foiz farqi",
+          "problem": "10 000 000 so'm pul 3 yilga 20% stavkada oddiy foizda va murakkab foizda qancha farq qiladi?",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Oddiy foiz bo'yicha",
+              "formula": "10\\,000\\,000 \\cdot (1 + 0.20 \\cdot 3) = 10\\,000\\,000 \\cdot 1.6 = 16\\,000\\,000 \\text{ so'm}",
+              "why": "Har yili 2 000 000 so'mdan 3 yil = 6 000 000 foyda.",
+              "how": "16 mln.",
+              "tip": "Oddiy foiz: 16 mln."
+            },
+            {
+              "stepNumber": 2,
+              "title": "Murakkab foiz bo'yicha",
+              "formula": "10\\,000\\,000 \\cdot (1.20)^3 = 10\\,000\\,000 \\cdot 1.728 = 17\\,280\\,000 \\text{ so'm}",
+              "why": "1.2³ = 1.728.",
+              "how": "17.28 mln.",
+              "tip": "Murakkab foiz: 17.28 mln."
+            },
+            {
+              "stepNumber": 3,
+              "title": "Farqni topamiz",
+              "formula": "17\\,280\\,000 - 16\\,000\\,000 = 1\\,280\\,000 \\text{ so'm}",
+              "why": "Murakkab foiz 1 280 000 so'm ko'proq foyda beradi.",
+              "how": "1 280 000 so'm.",
+              "tip": "Javob: 1 280 000 so'm ko'p."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "500 000 so'mning 10% i qancha?",
+          "options": [
+            "5 000 so'm",
+            "50 000 so'm",
+            "500 so'm",
+            "25 000 so'm"
+          ],
+          "correctIndex": 1,
+          "explanation": "500 000 * 0.10 = 50 000 so'm."
+        },
+        {
+          "level": "medium",
+          "question": "1 000 000 so'm 20% murakkab foizda 2 yilda qancha bo'ladi?",
+          "options": [
+            "1 400 000 so'm",
+            "1 440 000 so'm",
+            "1 200 000 so'm",
+            "1 500 000 so'm"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 000 000 * (1.20)² = 1 440 000 so'm."
+        },
+        {
+          "level": "hard",
+          "question": "Murakkab foizda summa 2 marta oshishi uchun taxminan necha yil kerak (72 qoidasi bo'yicha, r=12%)?",
+          "options": [
+            "6 yil",
+            "12 yil",
+            "8 yil",
+            "4 yil"
+          ],
+          "correctIndex": 0,
+          "explanation": "72 / 12 = 6 yil."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Сложные проценты и Банковский вклад",
+      "shortDesc": "Проценты на проценты, формула сложного процента.",
+      "description": "Сложный процент начисляется на исходную сумму плюс накопленный доход.",
+      "formulas": [
+        {
+          "title": "Формула",
+          "latex": "S_n = S_0 (1 + p/100)^n",
+          "desc": "Формула сложного процента."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Примените формулу",
+          "desc": "Умножьте на (1+p/100) n раз.",
+          "superSimple": "Умножайте каждый год на процент."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 1-й вид: Простой пример",
+          "title": "Вклад на 1 год",
+          "problem": "1 млн сум под 20% годовых.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Расчет",
+              "formula": "1\\,000\\,000 * 1.2 = 1\\,200\\,000",
+              "why": "20% годовых.",
+              "how": "1.2 млн.",
+              "tip": "Ответ: 1.2 млн сум."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "10% от 500 000:",
+          "options": [
+            "5 000",
+            "50 000",
+            "500",
+            "25 000"
+          ],
+          "correctIndex": 1,
+          "explanation": "50 000 сум."
+        }
+      ]
+    },
+    "en": {
+      "title": "Compound Interest & Savings Formula",
+      "shortDesc": "Interest on interest, growth calculation over time.",
+      "description": "Compound interest earns interest on both the initial principal and accumulated interest.",
+      "formulas": [
+        {
+          "title": "Compound Formula",
+          "latex": "S_n = S_0 (1 + r)^n",
+          "desc": "Total accumulated amount."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Apply Formula",
+          "desc": "Multiply by (1+r) n times.",
+          "superSimple": "Multiply by rate factor each year."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 Type 1: Basic Example",
+          "title": "1-Year Interest",
+          "problem": "$1,000 at 20% interest.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Calculate",
+              "formula": "1000 * 1.2 = 1200",
+              "why": "20% rate.",
+              "how": "1200.",
+              "tip": "Answer: $1,200."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "10% of 500,000:",
+          "options": [
+            "5,000",
+            "50,000",
+            "500",
+            "25,000"
+          ],
+          "correctIndex": 1,
+          "explanation": "50,000."
+        }
+      ]
+    }
+  },
+  {
+    "id": "bikvadrat-tenglamalar",
+    "category": "algebra",
+    "grade": "9-sinf",
+    "gradeNumber": 9,
+    "icon": "cpu",
+    "svgType": "algebra_coords",
+    "calculatorType": "quadratic",
+    "uz": {
+      "title": "Bikvadrat tenglamalar (ax⁴ + bx² + c = 0)",
+      "shortDesc": "Yangi o'zgaruvchi t = x² kiritish orqali 4-darajali tenglamani yechish.",
+      "description": "Bikvadrat tenglama — bu faqat to'rtinchi va ikkinchi darajalar qatnashgan tenglamadir. x² = t deb belgilash orqali uni oddiy kvadrat tenglamaga aylantiramiz!",
+      "formulas": [
+        {
+          "title": "Bikvadrat tenglama ko'rinishi",
+          "latex": "ax^4 + bx^2 + c = 0 \\xrightarrow{t = x^2 \\; (t \\ge 0)} at^2 + bt + c = 0",
+          "desc": "t faqat musbat yoki nol bo'lishi shart, chunki kvadrat manfiy bo'lolmaydi."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Yangi o'zgaruvchi kiriting",
+          "desc": "x² = t deb belgilang, bu yerda t ≥ 0.",
+          "superSimple": "x² ni t harfiga almashtiring."
+        },
+        {
+          "step": 2,
+          "title": "Kvadrat tenglamani yeching",
+          "desc": "at² + bt + c = 0 dan t₁ va t₂ larni toping.",
+          "superSimple": "Diskriminant bilan t larni toping."
+        },
+        {
+          "step": 3,
+          "title": "x ga qayting",
+          "desc": "x = ±√t formulasidan haqiqiy ildizlarni hisoblang.",
+          "superSimple": "Har bir musbat t dan ildiz chiqaring."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 1-tur: Oddiy misol",
+          "title": "Klassik bikvadrat tenglama (x⁴ - 5x² + 4 = 0)",
+          "problem": "\\(x^4 - 5x^2 + 4 = 0\\) tenglamaning barcha ildizlarini toping.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "x² = t almashtirish kiritamiz",
+              "formula": "t^2 - 5t + 4 = 0 \\implies t_1 = 1, \\quad t_2 = 4",
+              "why": "Viyet orqali: 1 + 4 = 5, 1 * 4 = 4.",
+              "how": "t₁ = 1, t₂ = 4.",
+              "tip": "Ikkala t ham musbat."
+            },
+            {
+              "stepNumber": 2,
+              "title": "x larni topamiz",
+              "formula": "x^2 = 1 \\implies x = \\pm 1, \\quad x^2 = 4 \\implies x = \\pm 2",
+              "why": "±√1 = ±1 va ±√4 = ±2.",
+              "how": "x = -2, -1, 1, 2.",
+              "tip": "Javob: x = ±1, x = ±2 (4 ta ildiz)."
+            }
+          ]
+        },
+        {
+          "level": "medium",
+          "levelLabel": "🟡 2-tur: O'rtacha misol",
+          "title": "Bitta manfiy t chiqqan holat",
+          "problem": "\\(x^4 - 3x^2 - 4 = 0\\) tenglamani yeching.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "t bo'yicha kvadrat tenglamani yechamiz",
+              "formula": "t^2 - 3t - 4 = 0 \\implies t_1 = 4, \\quad t_2 = -1",
+              "why": "Viyet: 4 + (-1) = 3, 4 * (-1) = -4.",
+              "how": "t₁ = 4, t₂ = -1.",
+              "tip": "t₂ = -1 bo'sh to'plam, chunki x² ≥ 0!"
+            },
+            {
+              "stepNumber": 2,
+              "title": "Faqat t = 4 dan x ni topamiz",
+              "formula": "x^2 = 4 \\implies x = \\pm 2",
+              "why": "x² = -1 haqiqiy songa ega emas.",
+              "how": "x = ±2.",
+              "tip": "Javob: x = ±2 (2 ta ildiz)."
+            }
+          ]
+        },
+        {
+          "level": "hard",
+          "levelLabel": "🔴 3-tur: Qiyinroq misol",
+          "title": "Murakkab almashtirishli tenglama",
+          "problem": "\\((x^2 - 2x)^2 - 2(x^2 - 2x) - 3 = 0\\) tenglamaning haqiqiy ildizlari yig'indisini toping.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "x² - 2x = t deb belgilaymiz",
+              "formula": "t^2 - 2t - 3 = 0 \\implies t_1 = 3, \\quad t_2 = -1",
+              "why": "Qavs ichi bir xil bo'lgani uchun almashtiramiz.",
+              "how": "t₁ = 3, t₂ = -1.",
+              "tip": "2 ta holat hosil bo'ldi."
+            },
+            {
+              "stepNumber": 2,
+              "title": "1-holat: x² - 2x = 3",
+              "formula": "x^2 - 2x - 3 = 0 \\implies x_1 = 3, \\; x_2 = -1",
+              "why": "D = 4 + 12 = 16.",
+              "how": "x₁ = 3, x₂ = -1.",
+              "tip": "Ildizlar: 3 va -1."
+            },
+            {
+              "stepNumber": 3,
+              "title": "2-holat: x² - 2x = -1",
+              "formula": "x^2 - 2x + 1 = 0 \\implies (x - 1)^2 = 0 \\implies x_3 = 1",
+              "why": "To'la kvadrat.",
+              "how": "x₃ = 1.",
+              "tip": "Barcha ildizlar yig'indisi: 3 + (-1) + 1 = 3."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "\\(x^4 - 16 = 0\\) tenglamaning nechta haqiqiy ildizi bor?",
+          "options": [
+            "4 ta",
+            "2 ta",
+            "1 ta",
+            "0 ta"
+          ],
+          "correctIndex": 1,
+          "explanation": "\\(x^2 = 16 \\implies x = \\pm 4\\). (2 ta haqiqiy ildiz)."
+        },
+        {
+          "level": "medium",
+          "question": "\\(x^4 + 5x^2 + 6 = 0\\) tenglamaning haqiqiy ildizlari soni:",
+          "options": [
+            "4 ta",
+            "2 ta",
+            "0 ta (Ildizi yo'q)",
+            "1 ta"
+          ],
+          "correctIndex": 2,
+          "explanation": "\\(t^2 + 5t + 6 = 0 \\implies t = -2, t = -3\\). Kvadrat manfiy bo'lolmaydi, shuning uchun 0 ta."
+        },
+        {
+          "level": "hard",
+          "question": "\\(x^4 - 10x^2 + 9 = 0\\) tenglamaning eng katta ildizini toping:",
+          "options": [
+            "\\(9\\)",
+            "\\(3\\)",
+            "\\(1\\)",
+            "\\(-3\\)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ildizlar: \\(\\pm 3\\) va \\(\\pm 1\\). Eng kattasi 3."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Биквадратные уравнения (ax⁴ + bx² + c = 0)",
+      "shortDesc": "Замена переменной t = x², сведение к квадратному уравнению.",
+      "description": "Биквадратное уравнение решается заменой x² = t (t ≥ 0).",
+      "formulas": [
+        {
+          "title": "Замена",
+          "latex": "ax^4 + bx^2 + c = 0 \\implies at^2 + bt + c = 0",
+          "desc": "Замена t = x²."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Замена t = x²",
+          "desc": "Решите относительно t.",
+          "superSimple": "Замените x² на t."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 1-й вид: Простой пример",
+          "title": "Биквадратное уравнение",
+          "problem": "x⁴ - 5x² + 4 = 0.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Корни",
+              "formula": "t = 1, 4 \\implies x = \\pm 1, \\pm 2",
+              "why": "t = x².",
+              "how": "\\pm 1, \\pm 2.",
+              "tip": "Ответ: \\pm 1, \\pm 2."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Сколько корней у x⁴ - 16 = 0?",
+          "options": [
+            "4",
+            "2",
+            "1",
+            "0"
+          ],
+          "correctIndex": 1,
+          "explanation": "x = \\pm 2 (2 корня)."
+        }
+      ]
+    },
+    "en": {
+      "title": "Biquadratic Equations (ax⁴ + bx² + c = 0)",
+      "shortDesc": "Substitution method t = x² to solve 4th degree equations.",
+      "description": "Biquadratic equations contain only even powers and can be transformed using t = x².",
+      "formulas": [
+        {
+          "title": "Substitution",
+          "latex": "ax^4 + bx^2 + c = 0 \\xrightarrow{t = x^2} at^2 + bt + c = 0",
+          "desc": "Substitution t = x²."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Substitute t = x²",
+          "desc": "Solve for t, where t ≥ 0.",
+          "superSimple": "Replace x² with t."
+        }
+      ],
+      "examples": [
+        {
+          "level": "basic",
+          "levelLabel": "🟢 Type 1: Basic Example",
+          "title": "Standard Biquadratic",
+          "problem": "Solve x⁴ - 5x² + 4 = 0.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "title": "Roots",
+              "formula": "t = 1, 4 \\implies x = \\pm 1, \\pm 2",
+              "why": "t = x².",
+              "how": "\\pm 1, \\pm 2.",
+              "tip": "Answer: \\pm 1, \\pm 2."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Number of real roots of x⁴ - 16 = 0:",
+          "options": [
+            "4",
+            "2",
+            "1",
+            "0"
+          ],
+          "correctIndex": 1,
+          "explanation": "x = \\pm 2 (2 roots)."
         }
       ]
     }
