@@ -1,7 +1,7 @@
 /**
  * M-LAB: Asosiy dastur mantig'i (O'zbek, Rus va Ingliz tillari 100% qo'llab-quvvatlanadi)
- * 100 ta to'liq tekshirilgan darslar, 3 xil qiyinlikdagi misol turlari (Oddiy, O'rtacha, Qiyin),
- * interaktiv formulalar, qadamlar va kalkulyatorlar.
+ * 100 ta to'liq darslar bazasi, 3 xil qiyinlikdagi misol turlari (Oddiy, O'rtacha, Qiyin),
+ * 3 tadan mustaqil mashqlar (O'zingizni tekshiring), interaktiv formulalar va kalkulyatorlar.
  */
 
 // Ilova holati (State)
@@ -11,10 +11,11 @@ const AppState = {
   activeGrade: "all", // 'all' | '5' | '6' | '7' | '8' | '9' | '10' | '11'
   activeCategory: "all", // 'all' | 'algebra' | 'geometriya' | 'favorites'
   activeExampleLevelIndex: 0, // 0: basic, 1: medium, 2: hard
+  activeQuizIndex: 0, // 0, 1, 2 (Active practice question)
+  quizAnswers: {}, // { 0: { chosen: idx, correct: bool }, 1: ..., 2: ... }
   searchQuery: "",
   favorites: new Set(),
-  theme: "light",
-  quizAnswered: false
+  theme: "light"
 };
 
 // ==========================================
@@ -83,6 +84,7 @@ function getLocalizedTopic(topic) {
   if (topic[l]) {
     const loc = topic[l];
     const exs = loc.examples || (loc.example ? [loc.example] : topic.examples || [topic.example]);
+    const qs = loc.quizzes || (loc.quiz ? [loc.quiz] : topic.quizzes || [topic.quiz]);
     return {
       ...topic,
       title: loc.title || topic.title,
@@ -92,7 +94,8 @@ function getLocalizedTopic(topic) {
       steps: loc.steps || topic.steps,
       examples: exs,
       example: exs[AppState.activeExampleLevelIndex] || exs[0] || loc.example || topic.example,
-      quiz: loc.quiz || topic.quiz
+      quizzes: qs,
+      quiz: qs[AppState.activeQuizIndex] || qs[0] || loc.quiz || topic.quiz
     };
   }
   return topic;
@@ -428,8 +431,9 @@ function selectTopic(topicId) {
   if (AppState.currentTopicId === topicId) return;
   AppState.currentTopicId = topicId;
   window.location.hash = topicId;
-  AppState.quizAnswered = false;
   AppState.activeExampleLevelIndex = 0; // reset to basic example
+  AppState.activeQuizIndex = 0; // reset to first practice question
+  AppState.quizAnswers = {}; // reset answers
 
   renderSidebarList();
   renderTopicDetail(topicId);
@@ -526,6 +530,14 @@ function renderTopicDetail(topicId) {
   // Examples array with levels
   const examplesList = topic.examples || [topic.example];
   const currentExample = examplesList[AppState.activeExampleLevelIndex] || examplesList[0];
+
+  // 3 Practice Quizzes
+  const quizzesList = topic.quizzes || (topic.quiz ? [topic.quiz] : []);
+  const currentQuiz = quizzesList[AppState.activeQuizIndex] || quizzesList[0];
+
+  // Count correct answers for practice
+  const totalAnswered = Object.keys(AppState.quizAnswers).length;
+  const correctCount = Object.values(AppState.quizAnswers).filter(a => a && a.correct).length;
 
   let html = `
     <!-- 1. Header (Title, Grade, Actions) -->
@@ -766,33 +778,107 @@ function renderTopicDetail(topicId) {
       </div>
     ` : ''}
 
-    <!-- 7. O'zingizni tekshiring (Mini-test) -->
+    <!-- 7. O'zingizni tekshiring: 3 ta Mashq (Mini-Test) -->
     <div class="space-y-4">
-      <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
-        <span class="w-7 h-7 rounded-lg bg-purple-100 dark:bg-purple-950/60 text-purple-600 flex items-center justify-center font-bold text-sm">🎯</span>
-        <span>${t('quiz_heading', l)}</span>
-      </h3>
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
+          <span class="w-7 h-7 rounded-lg bg-purple-100 dark:bg-purple-950/60 text-purple-600 flex items-center justify-center font-bold text-sm">🎯</span>
+          <span>${t('quiz_heading', l)}</span>
+        </h3>
+        
+        <!-- Score and reset -->
+        <div class="flex items-center space-x-2">
+          <span class="text-xs font-bold px-3 py-1 rounded-xl bg-purple-100 dark:bg-purple-950/70 text-purple-700 dark:text-purple-300">
+            ${t('quiz_score_label', l)} ${correctCount} / ${quizzesList.length} ${correctCount === quizzesList.length ? '🏆' : '⭐️'}
+          </span>
+          <button id="quiz-reset-btn" class="text-xs font-bold text-slate-500 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-300 underline">
+            ${t('quiz_reset_btn', l)}
+          </button>
+        </div>
+      </div>
 
-      <div class="p-5 sm:p-6 rounded-2xl bg-purple-50/30 dark:bg-slate-800/60 border border-purple-200/70 dark:border-slate-700 space-y-4">
+      <!-- 3 Practice Question Tabs -->
+      ${quizzesList.length > 1 ? `
+        <div class="flex items-center space-x-2 p-1.5 bg-slate-200/70 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="practice-quiz-tabs">
+          ${quizzesList.map((q, qIdx) => {
+            const isQActive = qIdx === AppState.activeQuizIndex;
+            const qAns = AppState.quizAnswers[qIdx];
+            const qLabel = qIdx === 0 ? t('quiz_q1_tab', l) : qIdx === 1 ? t('quiz_q2_tab', l) : t('quiz_q3_tab', l);
+            const statusBadge = qAns ? (qAns.correct ? ' ✅' : ' ❌') : '';
+            return `
+              <button 
+                class="practice-tab-btn flex-1 min-w-[130px] py-2 px-3 rounded-xl text-xs font-black transition-all text-center ${
+                  isQActive 
+                    ? 'bg-purple-600 text-white shadow-sm' 
+                    : 'text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 hover:text-purple-600 dark:hover:text-white font-bold'
+                }"
+                data-quiz-index="${qIdx}"
+              >
+                ${qLabel}${statusBadge}
+              </button>
+            `;
+          }).join("")}
+        </div>
+      ` : ''}
+
+      <!-- Active Practice Question Container -->
+      <div class="p-5 sm:p-6 rounded-2xl bg-purple-50/30 dark:bg-slate-800/60 border border-purple-200/70 dark:border-slate-700 space-y-4 animate-fadeIn">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-extrabold uppercase tracking-wider text-purple-700 dark:text-purple-300">
+            ${AppState.activeQuizIndex + 1}-SAVOL (3 TADAN):
+          </span>
+        </div>
+
         <p class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed">
-          ${topic.quiz.question}
+          ${currentQuiz.question}
         </p>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5" id="quiz-options-box">
-          ${topic.quiz.options.map((opt, idx) => `
-            <button 
-              class="quiz-option-btn p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-left text-xs sm:text-sm font-medium text-slate-700 dark:text-slate-200 hover:border-brand-500 dark:hover:border-brand-400 transition flex items-center space-x-2.5 group"
-              data-option-index="${idx}"
-            >
-              <span class="w-6 h-6 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-bold text-xs flex items-center justify-center group-hover:bg-brand-600 group-hover:text-white transition">
-                ${String.fromCharCode(65 + idx)}
-              </span>
-              <span class="flex-1">${opt}</span>
-            </button>
-          `).join("")}
+          ${currentQuiz.options.map((opt, idx) => {
+            const currentAns = AppState.quizAnswers[AppState.activeQuizIndex];
+            let optClass = "quiz-option-btn p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-left text-xs sm:text-sm font-medium text-slate-700 dark:text-slate-200 hover:border-brand-500 dark:hover:border-brand-400 transition flex items-center space-x-2.5 group";
+            
+            if (currentAns) {
+              if (idx === currentQuiz.correctIndex) {
+                optClass = "quiz-option-btn p-3 rounded-xl border border-emerald-500 bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 font-bold flex items-center space-x-2.5";
+              } else if (idx === currentAns.chosen && !currentAns.correct) {
+                optClass = "quiz-option-btn p-3 rounded-xl border border-red-500 bg-red-50 dark:bg-red-950/60 text-red-800 dark:text-red-300 font-medium flex items-center space-x-2.5";
+              } else {
+                optClass += " opacity-50";
+              }
+            }
+
+            return `
+              <button 
+                class="${optClass}"
+                data-option-index="${idx}"
+              >
+                <span class="w-6 h-6 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-bold text-xs flex items-center justify-center group-hover:bg-brand-600 group-hover:text-white transition">
+                  ${String.fromCharCode(65 + idx)}
+                </span>
+                <span class="flex-1">${opt}</span>
+              </button>
+            `;
+          }).join("")}
         </div>
 
-        <div id="quiz-feedback-box" class="hidden text-xs sm:text-sm p-3.5 rounded-xl animate-fadeIn"></div>
+        <div id="quiz-feedback-box" class="${AppState.quizAnswers[AppState.activeQuizIndex] ? '' : 'hidden'} text-xs sm:text-sm p-3.5 rounded-xl animate-fadeIn">
+          ${AppState.quizAnswers[AppState.activeQuizIndex] ? `
+            ${AppState.quizAnswers[AppState.activeQuizIndex].correct ? `
+              <div class="flex items-center space-x-2 font-bold mb-1 text-emerald-800 dark:text-emerald-300">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i>
+                <span>${t("quiz_correct", l)}</span>
+              </div>
+              <div class="text-emerald-800 dark:text-emerald-200 font-medium">${currentQuiz.explanation}</div>
+            ` : `
+              <div class="flex items-center space-x-2 font-bold mb-1 text-red-800 dark:text-red-300">
+                <i data-lucide="alert-circle" class="w-4 h-4 text-red-600"></i>
+                <span>${t("quiz_incorrect", l)}</span>
+              </div>
+              <div class="text-red-800 dark:text-red-200 font-medium">${currentQuiz.explanation}</div>
+            `}
+          ` : ''}
+        </div>
       </div>
     </div>
 
@@ -835,6 +921,22 @@ function renderTopicDetail(topicId) {
       AppState.activeExampleLevelIndex = idx;
       renderTopicDetail(topicId);
     });
+  });
+
+  // Practice Quiz tabs listeners
+  container.querySelectorAll(".practice-tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const idx = parseInt(btn.getAttribute("data-quiz-index"), 10);
+      AppState.activeQuizIndex = idx;
+      renderTopicDetail(topicId);
+    });
+  });
+
+  // Reset quiz button
+  document.getElementById("quiz-reset-btn")?.addEventListener("click", () => {
+    AppState.quizAnswers = {};
+    AppState.activeQuizIndex = 0;
+    renderTopicDetail(topicId);
   });
 
   // Step accordion
@@ -901,7 +1003,7 @@ function renderTopicDetail(topicId) {
     if (calcContainer) calcConfig.init(calcContainer);
   }
 
-  initQuizListeners(topic.quiz);
+  initQuizListeners(currentQuiz, topicId);
 
   container.querySelectorAll(".copy-formula-btn").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -939,9 +1041,9 @@ function renderTopicDetail(topicId) {
 }
 
 // ==========================================
-// MIN-VIKTORINA MANTIG'I
+// 3 TA MUSTAQIL MASHQ (MINI-TEST) MANTIG'I
 // ==========================================
-function initQuizListeners(quiz) {
+function initQuizListeners(quiz, topicId) {
   const optionsBox = document.getElementById("quiz-options-box");
   const feedbackBox = document.getElementById("quiz-feedback-box");
   if (!optionsBox || !feedbackBox) return;
@@ -950,52 +1052,19 @@ function initQuizListeners(quiz) {
 
   optionsBox.querySelectorAll(".quiz-option-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-      if (AppState.quizAnswered) return;
-      AppState.quizAnswered = true;
+      const currentIdx = AppState.activeQuizIndex;
+      if (AppState.quizAnswers[currentIdx]) return; // Already answered this question
 
-      const chosenIdx = parseInt(btn.getAttribute("data-option-index"));
+      const chosenIdx = parseInt(btn.getAttribute("data-option-index"), 10);
       const isCorrect = chosenIdx === quiz.correctIndex;
 
-      optionsBox.querySelectorAll(".quiz-option-btn").forEach((b, idx) => {
-        if (idx === quiz.correctIndex) {
-          b.className = "quiz-option-btn p-3 rounded-xl border border-emerald-500 bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 font-bold flex items-center space-x-2.5";
-        } else if (idx === chosenIdx && !isCorrect) {
-          b.className = "quiz-option-btn p-3 rounded-xl border border-red-500 bg-red-50 dark:bg-red-950/60 text-red-800 dark:text-red-300 font-medium flex items-center space-x-2.5";
-        } else {
-          b.classList.add("opacity-50");
-        }
-      });
+      AppState.quizAnswers[currentIdx] = {
+        chosen: chosenIdx,
+        correct: isCorrect
+      };
 
-      feedbackBox.classList.remove("hidden");
-      if (isCorrect) {
-        feedbackBox.className = "text-xs sm:text-sm p-3.5 rounded-xl animate-fadeIn bg-emerald-100 dark:bg-emerald-950/60 border border-emerald-300 dark:border-emerald-800 text-emerald-800 dark:text-emerald-200 font-medium";
-        feedbackBox.innerHTML = `
-          <div class="flex items-center space-x-2 font-bold mb-1">
-            <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i>
-            <span>${t("quiz_correct", l)}</span>
-          </div>
-          <div>${quiz.explanation}</div>
-        `;
-      } else {
-        feedbackBox.className = "text-xs sm:text-sm p-3.5 rounded-xl animate-fadeIn bg-red-100 dark:bg-red-950/60 border border-red-300 dark:border-red-800 text-red-800 dark:text-red-200 font-medium";
-        feedbackBox.innerHTML = `
-          <div class="flex items-center space-x-2 font-bold mb-1">
-            <i data-lucide="alert-circle" class="w-4 h-4 text-red-600"></i>
-            <span>${t("quiz_incorrect", l)}</span>
-          </div>
-          <div>${quiz.explanation}</div>
-        `;
-      }
-
-      renderMathInElement(feedbackBox, {
-        delimiters: [
-          { left: "$$", right: "$$", display: true },
-          { left: "\\(", right: "\\)", display: false },
-          { left: "\\[", right: "\\]", display: true }
-        ],
-        throwOnError: false
-      });
-      refreshLucide();
+      // Re-render topic to show updated state, checkmarks, score, and explanation
+      renderTopicDetail(topicId);
     });
   });
 }
