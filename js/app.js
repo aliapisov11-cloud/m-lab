@@ -1360,10 +1360,22 @@ function startGeneratedTest() {
     });
   });
 
-  // Poolni aralashtiramiz (Shuffle)
+  // Poolni aralashtiramiz (Shuffle) va 100% takrorlanmas savollarni tanlaymiz
   pool.sort(() => Math.random() - 0.5);
 
-  const finalQuestions = pool.slice(0, AppState.testWizard.questionCount);
+  const finalQuestions = [];
+  const seenQuestionTexts = new Set();
+
+  for (const q of pool) {
+    const qClean = q.question.trim();
+    if (!seenQuestionTexts.has(qClean)) {
+      seenQuestionTexts.add(qClean);
+      finalQuestions.push(q);
+      if (finalQuestions.length >= AppState.testWizard.questionCount) {
+        break;
+      }
+    }
+  }
 
   AppState.activeTest = {
     questions: finalQuestions,

@@ -1,6 +1,6 @@
 /**
  * M-LAB: 5-11 Sinf Matematika (Algebra va Geometriya)
- * 108+ ta to'liq darslar bazasi, 100% ANIQ VA TO'G'RI MATEMATIK TESTLAR (UZ, RU, EN).
+ * 108+ ta to'liq darslar bazasi, 100% TAKRORLANMAS VA ANIQ MATEMATIK TESTLAR (UZ, RU, EN).
  */
 
 const mathTopicsData = [
@@ -995,39 +995,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(2\\frac{1}{3} + 3\\frac{1}{2}\\)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "\\(5\\frac{2}{5}\\)",
+            "\\(5\\frac{5}{6}\\)",
+            "\\(6\\frac{1}{6}\\)",
+            "\\(5\\frac{1}{6}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "2 + 3 = 5; 1/3 + 1/2 = 5/6 => 5 5/6"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Hisoblang: \\(4\\frac{1}{4} - 1\\frac{3}{4}\\)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "\\(2\\frac{3}{4}\\)",
+            "\\(3\\frac{1}{2}\\)",
+            "\\(2\\frac{1}{2}\\)",
+            "3"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "17/4 - 7/4 = 10/4 = 2 1/2"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Noto'g'ri kasrga aylantiring: \\(3\\frac{2}{5}\\)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "\\(\\frac{13}{5}\\)",
+            "\\(\\frac{15}{5}\\)",
+            "\\(\\frac{11}{5}\\)",
+            "\\(\\frac{17}{5}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "(3*5 + 2)/5 = 17/5"
         }
       ],
       "practiceExercises": [
@@ -1201,39 +1201,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(2\\frac{1}{3} + 3\\frac{1}{2}\\)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "\\(5\\frac{2}{5}\\)",
+            "\\(5\\frac{5}{6}\\)",
+            "\\(6\\frac{1}{6}\\)",
+            "\\(5\\frac{1}{6}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "2 + 3 = 5; 1/3 + 1/2 = 5/6 => 5 5/6"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Hisoblang: \\(4\\frac{1}{4} - 1\\frac{3}{4}\\)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "\\(2\\frac{3}{4}\\)",
+            "\\(3\\frac{1}{2}\\)",
+            "\\(2\\frac{1}{2}\\)",
+            "3"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "17/4 - 7/4 = 10/4 = 2 1/2"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Noto'g'ri kasrga aylantiring: \\(3\\frac{2}{5}\\)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "\\(\\frac{13}{5}\\)",
+            "\\(\\frac{15}{5}\\)",
+            "\\(\\frac{11}{5}\\)",
+            "\\(\\frac{17}{5}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "(3*5 + 2)/5 = 17/5"
         }
       ],
       "practiceExercises": [
@@ -1407,39 +1407,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(2\\frac{1}{3} + 3\\frac{1}{2}\\)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "\\(5\\frac{2}{5}\\)",
+            "\\(5\\frac{5}{6}\\)",
+            "\\(6\\frac{1}{6}\\)",
+            "\\(5\\frac{1}{6}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "2 + 3 = 5; 1/3 + 1/2 = 5/6 => 5 5/6"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Hisoblang: \\(4\\frac{1}{4} - 1\\frac{3}{4}\\)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "\\(2\\frac{3}{4}\\)",
+            "\\(3\\frac{1}{2}\\)",
+            "\\(2\\frac{1}{2}\\)",
+            "3"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "17/4 - 7/4 = 10/4 = 2 1/2"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Noto'g'ri kasrga aylantiring: \\(3\\frac{2}{5}\\)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "\\(\\frac{13}{5}\\)",
+            "\\(\\frac{15}{5}\\)",
+            "\\(\\frac{11}{5}\\)",
+            "\\(\\frac{17}{5}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "(3*5 + 2)/5 = 17/5"
         }
       ],
       "practiceExercises": [
@@ -1618,39 +1618,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(60 + 40 - 25\\)",
+        "question": "Hisoblang: \\(2\\frac{1}{3} + 3\\frac{1}{2}\\)",
         "options": [
-          "80",
-          "75",
-          "70",
-          "150"
+          "\\(5\\frac{2}{5}\\)",
+          "\\(5\\frac{5}{6}\\)",
+          "\\(6\\frac{1}{6}\\)",
+          "\\(5\\frac{1}{6}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "60 + 40 - 25 = 75"
+        "explanation": "2 + 3 = 5; 1/3 + 1/2 = 5/6 => 5 5/6"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+        "question": "Hisoblang: \\(4\\frac{1}{4} - 1\\frac{3}{4}\\)",
         "options": [
-          "9",
-          "11",
-          "10",
-          "20"
+          "\\(2\\frac{3}{4}\\)",
+          "\\(3\\frac{1}{2}\\)",
+          "\\(2\\frac{1}{2}\\)",
+          "3"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 20 => x = 10"
+        "explanation": "17/4 - 7/4 = 10/4 = 2 1/2"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+        "question": "Noto'g'ri kasrga aylantiring: \\(3\\frac{2}{5}\\)",
         "options": [
-          "40",
-          "22",
-          "18",
-          "20"
+          "\\(\\frac{13}{5}\\)",
+          "\\(\\frac{15}{5}\\)",
+          "\\(\\frac{11}{5}\\)",
+          "\\(\\frac{17}{5}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "5 + 15 = 20"
+        "explanation": "(3*5 + 2)/5 = 17/5"
       }
     ],
     "practiceExercises": [
@@ -1852,27 +1852,27 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "Yoyiq burchak necha gradusga teng?",
           "options": [
-            "\\(45^\\circ\\)",
+            "\\(360^\\circ\\)",
             "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(180^\\circ\\)",
+            "\\(270^\\circ\\)"
           ],
           "correctIndex": 2,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "Yoyiq burchak = 180°"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Burchak 75° bo'lsa, u qanday burchak turiga kiradi?",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(140^\\circ\\)",
-            "\\(50^\\circ\\)"
+            "\\(\\text{Yoyiq burchak}\\)",
+            "\\(\\text{O'tmas burchak}\\)",
+            "\\(\\text{To'g'ri burchak}\\)",
+            "\\(\\text{O'tkir burchak}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "0° < 75° < 90° bo'lgani uchun o'tkir burchak"
         }
       ],
       "practiceExercises": [
@@ -2060,27 +2060,27 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "Yoyiq burchak necha gradusga teng?",
           "options": [
-            "\\(45^\\circ\\)",
+            "\\(360^\\circ\\)",
             "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(180^\\circ\\)",
+            "\\(270^\\circ\\)"
           ],
           "correctIndex": 2,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "Yoyiq burchak = 180°"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Burchak 75° bo'lsa, u qanday burchak turiga kiradi?",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(140^\\circ\\)",
-            "\\(50^\\circ\\)"
+            "\\(\\text{Yoyiq burchak}\\)",
+            "\\(\\text{O'tmas burchak}\\)",
+            "\\(\\text{To'g'ri burchak}\\)",
+            "\\(\\text{O'tkir burchak}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "0° < 75° < 90° bo'lgani uchun o'tkir burchak"
         }
       ],
       "practiceExercises": [
@@ -2268,27 +2268,27 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "Yoyiq burchak necha gradusga teng?",
           "options": [
-            "\\(45^\\circ\\)",
+            "\\(360^\\circ\\)",
             "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(180^\\circ\\)",
+            "\\(270^\\circ\\)"
           ],
           "correctIndex": 2,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "Yoyiq burchak = 180°"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Burchak 75° bo'lsa, u qanday burchak turiga kiradi?",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(140^\\circ\\)",
-            "\\(50^\\circ\\)"
+            "\\(\\text{Yoyiq burchak}\\)",
+            "\\(\\text{O'tmas burchak}\\)",
+            "\\(\\text{To'g'ri burchak}\\)",
+            "\\(\\text{O'tkir burchak}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "0° < 75° < 90° bo'lgani uchun o'tkir burchak"
         }
       ],
       "practiceExercises": [
@@ -2481,27 +2481,27 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+        "question": "Yoyiq burchak necha gradusga teng?",
         "options": [
-          "\\(45^\\circ\\)",
+          "\\(360^\\circ\\)",
           "\\(90^\\circ\\)",
-          "\\(60^\\circ\\)",
-          "\\(120^\\circ\\)"
+          "\\(180^\\circ\\)",
+          "\\(270^\\circ\\)"
         ],
         "correctIndex": 2,
-        "explanation": "180° / 3 = 60°"
+        "explanation": "Yoyiq burchak = 180°"
       },
       {
         "level": "hard",
-        "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+        "question": "Burchak 75° bo'lsa, u qanday burchak turiga kiradi?",
         "options": [
-          "\\(90^\\circ\\)",
-          "\\(60^\\circ\\)",
-          "\\(140^\\circ\\)",
-          "\\(50^\\circ\\)"
+          "\\(\\text{Yoyiq burchak}\\)",
+          "\\(\\text{O'tmas burchak}\\)",
+          "\\(\\text{To'g'ri burchak}\\)",
+          "\\(\\text{O'tkir burchak}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "90° - 40° = 50°"
+        "explanation": "0° < 75° < 90° bo'lgani uchun o'tkir burchak"
       }
     ],
     "practiceExercises": [
@@ -2689,39 +2689,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(385 + 469 - 254\\)",
+          "question": "Hisoblang: \\(485 + 329 - 184\\)",
           "options": [
             "590",
-            "600",
+            "630",
             "610",
             "1200"
           ],
           "correctIndex": 1,
-          "explanation": "385 + 469 = 854; 854 - 254 = 600"
+          "explanation": "485 + 329 = 814; 814 - 184 = 630"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(45 \\cdot 18 - 360 : 6\\)",
+          "question": "Hisoblang: \\(35 \\cdot 24 - 450 : 9\\)",
           "options": [
             "760",
             "740",
-            "750",
+            "790",
             "810"
           ],
           "correctIndex": 2,
-          "explanation": "45 * 18 = 810; 360 / 6 = 60; 810 - 60 = 750"
+          "explanation": "35 * 24 = 840; 450 / 9 = 50; 840 - 50 = 790"
         },
         {
           "level": "hard",
-          "question": "175 sonini 12 ga bo'lgandagi qoldiqni toping.",
+          "question": "Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.",
           "options": [
             "1",
             "5",
             "8",
-            "7"
+            "2"
           ],
           "correctIndex": 3,
-          "explanation": "175 = 12 * 14 + 7, qoldiq 7"
+          "explanation": "158 = 13 * 12 + 2, qoldiq 2"
         }
       ],
       "practiceExercises": [
@@ -2895,39 +2895,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(385 + 469 - 254\\)",
+          "question": "Hisoblang: \\(485 + 329 - 184\\)",
           "options": [
             "590",
-            "600",
+            "630",
             "610",
             "1200"
           ],
           "correctIndex": 1,
-          "explanation": "385 + 469 = 854; 854 - 254 = 600"
+          "explanation": "485 + 329 = 814; 814 - 184 = 630"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(45 \\cdot 18 - 360 : 6\\)",
+          "question": "Hisoblang: \\(35 \\cdot 24 - 450 : 9\\)",
           "options": [
             "760",
             "740",
-            "750",
+            "790",
             "810"
           ],
           "correctIndex": 2,
-          "explanation": "45 * 18 = 810; 360 / 6 = 60; 810 - 60 = 750"
+          "explanation": "35 * 24 = 840; 450 / 9 = 50; 840 - 50 = 790"
         },
         {
           "level": "hard",
-          "question": "175 sonini 12 ga bo'lgandagi qoldiqni toping.",
+          "question": "Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.",
           "options": [
             "1",
             "5",
             "8",
-            "7"
+            "2"
           ],
           "correctIndex": 3,
-          "explanation": "175 = 12 * 14 + 7, qoldiq 7"
+          "explanation": "158 = 13 * 12 + 2, qoldiq 2"
         }
       ],
       "practiceExercises": [
@@ -3101,39 +3101,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(385 + 469 - 254\\)",
+          "question": "Hisoblang: \\(485 + 329 - 184\\)",
           "options": [
             "590",
-            "600",
+            "630",
             "610",
             "1200"
           ],
           "correctIndex": 1,
-          "explanation": "385 + 469 = 854; 854 - 254 = 600"
+          "explanation": "485 + 329 = 814; 814 - 184 = 630"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(45 \\cdot 18 - 360 : 6\\)",
+          "question": "Hisoblang: \\(35 \\cdot 24 - 450 : 9\\)",
           "options": [
             "760",
             "740",
-            "750",
+            "790",
             "810"
           ],
           "correctIndex": 2,
-          "explanation": "45 * 18 = 810; 360 / 6 = 60; 810 - 60 = 750"
+          "explanation": "35 * 24 = 840; 450 / 9 = 50; 840 - 50 = 790"
         },
         {
           "level": "hard",
-          "question": "175 sonini 12 ga bo'lgandagi qoldiqni toping.",
+          "question": "Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.",
           "options": [
             "1",
             "5",
             "8",
-            "7"
+            "2"
           ],
           "correctIndex": 3,
-          "explanation": "175 = 12 * 14 + 7, qoldiq 7"
+          "explanation": "158 = 13 * 12 + 2, qoldiq 2"
         }
       ],
       "practiceExercises": [
@@ -3312,39 +3312,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(385 + 469 - 254\\)",
+        "question": "Hisoblang: \\(485 + 329 - 184\\)",
         "options": [
           "590",
-          "600",
+          "630",
           "610",
           "1200"
         ],
         "correctIndex": 1,
-        "explanation": "385 + 469 = 854; 854 - 254 = 600"
+        "explanation": "485 + 329 = 814; 814 - 184 = 630"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\(45 \\cdot 18 - 360 : 6\\)",
+        "question": "Hisoblang: \\(35 \\cdot 24 - 450 : 9\\)",
         "options": [
           "760",
           "740",
-          "750",
+          "790",
           "810"
         ],
         "correctIndex": 2,
-        "explanation": "45 * 18 = 810; 360 / 6 = 60; 810 - 60 = 750"
+        "explanation": "35 * 24 = 840; 450 / 9 = 50; 840 - 50 = 790"
       },
       {
         "level": "hard",
-        "question": "175 sonini 12 ga bo'lgandagi qoldiqni toping.",
+        "question": "Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.",
         "options": [
           "1",
           "5",
           "8",
-          "7"
+          "2"
         ],
         "correctIndex": 3,
-        "explanation": "175 = 12 * 14 + 7, qoldiq 7"
+        "explanation": "158 = 13 * 12 + 2, qoldiq 2"
       }
     ],
     "practiceExercises": [
@@ -3537,15 +3537,15 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri to'rtburchakning bo'yi 9 sm, eni 6 sm. Uning yuzini hisoblang.",
+          "question": "To'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm. Uning perimetrini hisoblang.",
           "options": [
-            "\\(30 \\text{ sm}^2\\)",
-            "\\(54 \\text{ sm}^2\\)",
-            "\\(56 \\text{ sm}^2\\)",
-            "\\(48 \\text{ sm}^2\\)"
+            "\\(30 \\text{ sm}\\)",
+            "\\(26 \\text{ sm}\\)",
+            "\\(20 \\text{ sm}\\)",
+            "\\(40 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = 9 * 6 = 54 sm²"
+          "explanation": "P = 2*(8+5) = 26 sm"
         },
         {
           "level": "medium",
@@ -3561,15 +3561,15 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Bo'yi 12 sm va yuzi 60 sm² bo'lgan to'rtburchakning perimetrini hisoblang.",
+          "question": "Yuzi 60 sm² va bo'yi 12 sm bo'lgan to'g'ri to'rtburchakning enini toping.",
           "options": [
-            "\\(24 \\text{ sm}\\)",
-            "\\(30 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(34 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(5 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "Eni b = 60/12 = 5 sm; P = 2*(12+5) = 34 sm"
+          "explanation": "b = S / a = 60 / 12 = 5 sm"
         }
       ],
       "practiceExercises": [
@@ -3748,15 +3748,15 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri to'rtburchakning bo'yi 9 sm, eni 6 sm. Uning yuzini hisoblang.",
+          "question": "To'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm. Uning perimetrini hisoblang.",
           "options": [
-            "\\(30 \\text{ sm}^2\\)",
-            "\\(54 \\text{ sm}^2\\)",
-            "\\(56 \\text{ sm}^2\\)",
-            "\\(48 \\text{ sm}^2\\)"
+            "\\(30 \\text{ sm}\\)",
+            "\\(26 \\text{ sm}\\)",
+            "\\(20 \\text{ sm}\\)",
+            "\\(40 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = 9 * 6 = 54 sm²"
+          "explanation": "P = 2*(8+5) = 26 sm"
         },
         {
           "level": "medium",
@@ -3772,15 +3772,15 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Bo'yi 12 sm va yuzi 60 sm² bo'lgan to'rtburchakning perimetrini hisoblang.",
+          "question": "Yuzi 60 sm² va bo'yi 12 sm bo'lgan to'g'ri to'rtburchakning enini toping.",
           "options": [
-            "\\(24 \\text{ sm}\\)",
-            "\\(30 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(34 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(5 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "Eni b = 60/12 = 5 sm; P = 2*(12+5) = 34 sm"
+          "explanation": "b = S / a = 60 / 12 = 5 sm"
         }
       ],
       "practiceExercises": [
@@ -3959,15 +3959,15 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri to'rtburchakning bo'yi 9 sm, eni 6 sm. Uning yuzini hisoblang.",
+          "question": "To'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm. Uning perimetrini hisoblang.",
           "options": [
-            "\\(30 \\text{ sm}^2\\)",
-            "\\(54 \\text{ sm}^2\\)",
-            "\\(56 \\text{ sm}^2\\)",
-            "\\(48 \\text{ sm}^2\\)"
+            "\\(30 \\text{ sm}\\)",
+            "\\(26 \\text{ sm}\\)",
+            "\\(20 \\text{ sm}\\)",
+            "\\(40 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = 9 * 6 = 54 sm²"
+          "explanation": "P = 2*(8+5) = 26 sm"
         },
         {
           "level": "medium",
@@ -3983,15 +3983,15 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Bo'yi 12 sm va yuzi 60 sm² bo'lgan to'rtburchakning perimetrini hisoblang.",
+          "question": "Yuzi 60 sm² va bo'yi 12 sm bo'lgan to'g'ri to'rtburchakning enini toping.",
           "options": [
-            "\\(24 \\text{ sm}\\)",
-            "\\(30 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(34 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(5 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "Eni b = 60/12 = 5 sm; P = 2*(12+5) = 34 sm"
+          "explanation": "b = S / a = 60 / 12 = 5 sm"
         }
       ],
       "practiceExercises": [
@@ -4175,15 +4175,15 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "To'g'ri to'rtburchakning bo'yi 9 sm, eni 6 sm. Uning yuzini hisoblang.",
+        "question": "To'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm. Uning perimetrini hisoblang.",
         "options": [
-          "\\(30 \\text{ sm}^2\\)",
-          "\\(54 \\text{ sm}^2\\)",
-          "\\(56 \\text{ sm}^2\\)",
-          "\\(48 \\text{ sm}^2\\)"
+          "\\(30 \\text{ sm}\\)",
+          "\\(26 \\text{ sm}\\)",
+          "\\(20 \\text{ sm}\\)",
+          "\\(40 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "S = 9 * 6 = 54 sm²"
+        "explanation": "P = 2*(8+5) = 26 sm"
       },
       {
         "level": "medium",
@@ -4199,15 +4199,15 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Bo'yi 12 sm va yuzi 60 sm² bo'lgan to'rtburchakning perimetrini hisoblang.",
+        "question": "Yuzi 60 sm² va bo'yi 12 sm bo'lgan to'g'ri to'rtburchakning enini toping.",
         "options": [
-          "\\(24 \\text{ sm}\\)",
-          "\\(30 \\text{ sm}\\)",
-          "\\(36 \\text{ sm}\\)",
-          "\\(34 \\text{ sm}\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(5 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "Eni b = 60/12 = 5 sm; P = 2*(12+5) = 34 sm"
+        "explanation": "b = S / a = 60 / 12 = 5 sm"
       }
     ],
     "practiceExercises": [
@@ -4394,39 +4394,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 345, 576, 614, 712?",
+          "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?",
           "options": [
-            "345",
-            "576",
-            "614",
+            "451",
+            "234",
+            "623",
             "712"
           ],
           "correctIndex": 1,
-          "explanation": "5 + 7 + 6 = 18 (9 ga bo'linadi)"
+          "explanation": "2 + 3 + 4 = 9 (9 ga bo'linadi)"
         },
         {
           "level": "medium",
-          "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 72*4 soni 9 ga bo'linadi?",
+          "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?",
           "options": [
             "4",
-            "3",
-            "5",
-            "6"
+            "2",
+            "1",
+            "5"
           ],
           "correctIndex": 2,
-          "explanation": "7 + 2 + 5 + 4 = 18 (9 ga bo'linadi)"
+          "explanation": "5 + 4 + 1 + 2 = 12 (3 ga bo'linadi)"
         },
         {
           "level": "hard",
-          "question": "Qaysi son ham 2 ga, ham 3 ga bo'linadi: 412, 534, 625, 713?",
+          "question": "Qaysi son bir vaqtda ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?",
           "options": [
-            "713",
-            "412",
-            "625",
-            "534"
+            "725",
+            "345",
+            "614",
+            "520"
           ],
           "correctIndex": 3,
-          "explanation": "534 juft va 5+3+4 = 12 (3 ga bo'linadi)"
+          "explanation": "Oxiri 0 bilan tugagan sonlar 2 va 5 ga bo'linadi"
         }
       ],
       "practiceExercises": [
@@ -4605,39 +4605,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 345, 576, 614, 712?",
+          "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?",
           "options": [
-            "345",
-            "576",
-            "614",
+            "451",
+            "234",
+            "623",
             "712"
           ],
           "correctIndex": 1,
-          "explanation": "5 + 7 + 6 = 18 (9 ga bo'linadi)"
+          "explanation": "2 + 3 + 4 = 9 (9 ga bo'linadi)"
         },
         {
           "level": "medium",
-          "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 72*4 soni 9 ga bo'linadi?",
+          "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?",
           "options": [
             "4",
-            "3",
-            "5",
-            "6"
+            "2",
+            "1",
+            "5"
           ],
           "correctIndex": 2,
-          "explanation": "7 + 2 + 5 + 4 = 18 (9 ga bo'linadi)"
+          "explanation": "5 + 4 + 1 + 2 = 12 (3 ga bo'linadi)"
         },
         {
           "level": "hard",
-          "question": "Qaysi son ham 2 ga, ham 3 ga bo'linadi: 412, 534, 625, 713?",
+          "question": "Qaysi son bir vaqtda ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?",
           "options": [
-            "713",
-            "412",
-            "625",
-            "534"
+            "725",
+            "345",
+            "614",
+            "520"
           ],
           "correctIndex": 3,
-          "explanation": "534 juft va 5+3+4 = 12 (3 ga bo'linadi)"
+          "explanation": "Oxiri 0 bilan tugagan sonlar 2 va 5 ga bo'linadi"
         }
       ],
       "practiceExercises": [
@@ -4816,39 +4816,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 345, 576, 614, 712?",
+          "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?",
           "options": [
-            "345",
-            "576",
-            "614",
+            "451",
+            "234",
+            "623",
             "712"
           ],
           "correctIndex": 1,
-          "explanation": "5 + 7 + 6 = 18 (9 ga bo'linadi)"
+          "explanation": "2 + 3 + 4 = 9 (9 ga bo'linadi)"
         },
         {
           "level": "medium",
-          "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 72*4 soni 9 ga bo'linadi?",
+          "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?",
           "options": [
             "4",
-            "3",
-            "5",
-            "6"
+            "2",
+            "1",
+            "5"
           ],
           "correctIndex": 2,
-          "explanation": "7 + 2 + 5 + 4 = 18 (9 ga bo'linadi)"
+          "explanation": "5 + 4 + 1 + 2 = 12 (3 ga bo'linadi)"
         },
         {
           "level": "hard",
-          "question": "Qaysi son ham 2 ga, ham 3 ga bo'linadi: 412, 534, 625, 713?",
+          "question": "Qaysi son bir vaqtda ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?",
           "options": [
-            "713",
-            "412",
-            "625",
-            "534"
+            "725",
+            "345",
+            "614",
+            "520"
           ],
           "correctIndex": 3,
-          "explanation": "534 juft va 5+3+4 = 12 (3 ga bo'linadi)"
+          "explanation": "Oxiri 0 bilan tugagan sonlar 2 va 5 ga bo'linadi"
         }
       ],
       "practiceExercises": [
@@ -5026,39 +5026,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 345, 576, 614, 712?",
+        "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?",
         "options": [
-          "345",
-          "576",
-          "614",
+          "451",
+          "234",
+          "623",
           "712"
         ],
         "correctIndex": 1,
-        "explanation": "5 + 7 + 6 = 18 (9 ga bo'linadi)"
+        "explanation": "2 + 3 + 4 = 9 (9 ga bo'linadi)"
       },
       {
         "level": "medium",
-        "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 72*4 soni 9 ga bo'linadi?",
+        "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?",
         "options": [
           "4",
-          "3",
-          "5",
-          "6"
+          "2",
+          "1",
+          "5"
         ],
         "correctIndex": 2,
-        "explanation": "7 + 2 + 5 + 4 = 18 (9 ga bo'linadi)"
+        "explanation": "5 + 4 + 1 + 2 = 12 (3 ga bo'linadi)"
       },
       {
         "level": "hard",
-        "question": "Qaysi son ham 2 ga, ham 3 ga bo'linadi: 412, 534, 625, 713?",
+        "question": "Qaysi son bir vaqtda ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?",
         "options": [
-          "713",
-          "412",
-          "625",
-          "534"
+          "725",
+          "345",
+          "614",
+          "520"
         ],
         "correctIndex": 3,
-        "explanation": "534 juft va 5+3+4 = 12 (3 ga bo'linadi)"
+        "explanation": "Oxiri 0 bilan tugagan sonlar 2 va 5 ga bo'linadi"
       }
     ],
     "practiceExercises": [
@@ -5246,19 +5246,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Sonlarning o'rta arifmetigini hisoblang: 12, 16, 20, 24",
+          "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
           "options": [
-            "16",
             "18",
             "20",
-            "72"
+            "22",
+            "80"
           ],
           "correctIndex": 1,
-          "explanation": "(12+16+20+24)/4 = 72/4 = 18"
+          "explanation": "(14+18+22+26)/4 = 80/4 = 20"
         },
         {
           "level": "medium",
-          "question": "Baholar o'rtachasini hisoblang: 5, 4, 5, 4, 2",
+          "question": "Baholar o'rtachasini hisoblang: 5, 4, 3, 4",
           "options": [
             "3.8",
             "5",
@@ -5266,19 +5266,19 @@ const mathTopicsData = [
             "4.2"
           ],
           "correctIndex": 2,
-          "explanation": "(5+4+5+4+2)/5 = 20/5 = 4"
+          "explanation": "(5+4+3+4)/4 = 16/4 = 4"
         },
         {
           "level": "hard",
-          "question": "Uchta sonning o'rta arifmetigi 25 ga teng. Ularning yig'indisini toping.",
+          "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
           "options": [
-            "25",
-            "50",
-            "100",
-            "75"
+            "24",
+            "48",
+            "96",
+            "72"
           ],
           "correctIndex": 3,
-          "explanation": "25 * 3 = 75"
+          "explanation": "24 * 3 = 72"
         }
       ],
       "practiceExercises": [
@@ -5452,19 +5452,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Sonlarning o'rta arifmetigini hisoblang: 12, 16, 20, 24",
+          "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
           "options": [
-            "16",
             "18",
             "20",
-            "72"
+            "22",
+            "80"
           ],
           "correctIndex": 1,
-          "explanation": "(12+16+20+24)/4 = 72/4 = 18"
+          "explanation": "(14+18+22+26)/4 = 80/4 = 20"
         },
         {
           "level": "medium",
-          "question": "Baholar o'rtachasini hisoblang: 5, 4, 5, 4, 2",
+          "question": "Baholar o'rtachasini hisoblang: 5, 4, 3, 4",
           "options": [
             "3.8",
             "5",
@@ -5472,19 +5472,19 @@ const mathTopicsData = [
             "4.2"
           ],
           "correctIndex": 2,
-          "explanation": "(5+4+5+4+2)/5 = 20/5 = 4"
+          "explanation": "(5+4+3+4)/4 = 16/4 = 4"
         },
         {
           "level": "hard",
-          "question": "Uchta sonning o'rta arifmetigi 25 ga teng. Ularning yig'indisini toping.",
+          "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
           "options": [
-            "25",
-            "50",
-            "100",
-            "75"
+            "24",
+            "48",
+            "96",
+            "72"
           ],
           "correctIndex": 3,
-          "explanation": "25 * 3 = 75"
+          "explanation": "24 * 3 = 72"
         }
       ],
       "practiceExercises": [
@@ -5658,19 +5658,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Sonlarning o'rta arifmetigini hisoblang: 12, 16, 20, 24",
+          "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
           "options": [
-            "16",
             "18",
             "20",
-            "72"
+            "22",
+            "80"
           ],
           "correctIndex": 1,
-          "explanation": "(12+16+20+24)/4 = 72/4 = 18"
+          "explanation": "(14+18+22+26)/4 = 80/4 = 20"
         },
         {
           "level": "medium",
-          "question": "Baholar o'rtachasini hisoblang: 5, 4, 5, 4, 2",
+          "question": "Baholar o'rtachasini hisoblang: 5, 4, 3, 4",
           "options": [
             "3.8",
             "5",
@@ -5678,19 +5678,19 @@ const mathTopicsData = [
             "4.2"
           ],
           "correctIndex": 2,
-          "explanation": "(5+4+5+4+2)/5 = 20/5 = 4"
+          "explanation": "(5+4+3+4)/4 = 16/4 = 4"
         },
         {
           "level": "hard",
-          "question": "Uchta sonning o'rta arifmetigi 25 ga teng. Ularning yig'indisini toping.",
+          "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
           "options": [
-            "25",
-            "50",
-            "100",
-            "75"
+            "24",
+            "48",
+            "96",
+            "72"
           ],
           "correctIndex": 3,
-          "explanation": "25 * 3 = 75"
+          "explanation": "24 * 3 = 72"
         }
       ],
       "practiceExercises": [
@@ -5869,19 +5869,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Sonlarning o'rta arifmetigini hisoblang: 12, 16, 20, 24",
+        "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
         "options": [
-          "16",
           "18",
           "20",
-          "72"
+          "22",
+          "80"
         ],
         "correctIndex": 1,
-        "explanation": "(12+16+20+24)/4 = 72/4 = 18"
+        "explanation": "(14+18+22+26)/4 = 80/4 = 20"
       },
       {
         "level": "medium",
-        "question": "Baholar o'rtachasini hisoblang: 5, 4, 5, 4, 2",
+        "question": "Baholar o'rtachasini hisoblang: 5, 4, 3, 4",
         "options": [
           "3.8",
           "5",
@@ -5889,19 +5889,19 @@ const mathTopicsData = [
           "4.2"
         ],
         "correctIndex": 2,
-        "explanation": "(5+4+5+4+2)/5 = 20/5 = 4"
+        "explanation": "(5+4+3+4)/4 = 16/4 = 4"
       },
       {
         "level": "hard",
-        "question": "Uchta sonning o'rta arifmetigi 25 ga teng. Ularning yig'indisini toping.",
+        "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
         "options": [
-          "25",
-          "50",
-          "100",
-          "75"
+          "24",
+          "48",
+          "96",
+          "72"
         ],
         "correctIndex": 3,
-        "explanation": "25 * 3 = 75"
+        "explanation": "24 * 3 = 72"
       }
     ],
     "practiceExercises": [
@@ -6089,27 +6089,27 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(4.35 + 2.65 - 1.5\\)",
+          "question": "Hisoblang: \\(3.45 + 7.85 - 2.1\\)",
           "options": [
-            "6.0",
-            "5.4",
-            "5.5",
-            "7.0"
+            "8.5",
+            "9.0",
+            "9.2",
+            "10.1"
           ],
           "correctIndex": 2,
-          "explanation": "4.35 + 2.65 = 7.0; 7.0 - 1.5 = 5.5"
+          "explanation": "3.45 + 7.85 = 11.3; 11.3 - 2.1 = 9.2"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(0.25 \\cdot 1.6 + 0.6\\)",
+          "question": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2\\)",
           "options": [
-            "0.4",
-            "0.9",
-            "1.1",
-            "1"
+            "3.2",
+            "2.0",
+            "1.8",
+            "2.4"
           ],
           "correctIndex": 3,
-          "explanation": "0.25 * 1.6 = 0.4; 0.4 + 0.6 = 1.0"
+          "explanation": "0.25 * 4.8 = 1.2; 1.2 + 1.2 = 2.4"
         },
         {
           "level": "hard",
@@ -6295,27 +6295,27 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(4.35 + 2.65 - 1.5\\)",
+          "question": "Hisoblang: \\(3.45 + 7.85 - 2.1\\)",
           "options": [
-            "6.0",
-            "5.4",
-            "5.5",
-            "7.0"
+            "8.5",
+            "9.0",
+            "9.2",
+            "10.1"
           ],
           "correctIndex": 2,
-          "explanation": "4.35 + 2.65 = 7.0; 7.0 - 1.5 = 5.5"
+          "explanation": "3.45 + 7.85 = 11.3; 11.3 - 2.1 = 9.2"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(0.25 \\cdot 1.6 + 0.6\\)",
+          "question": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2\\)",
           "options": [
-            "0.4",
-            "0.9",
-            "1.1",
-            "1"
+            "3.2",
+            "2.0",
+            "1.8",
+            "2.4"
           ],
           "correctIndex": 3,
-          "explanation": "0.25 * 1.6 = 0.4; 0.4 + 0.6 = 1.0"
+          "explanation": "0.25 * 4.8 = 1.2; 1.2 + 1.2 = 2.4"
         },
         {
           "level": "hard",
@@ -6501,27 +6501,27 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(4.35 + 2.65 - 1.5\\)",
+          "question": "Hisoblang: \\(3.45 + 7.85 - 2.1\\)",
           "options": [
-            "6.0",
-            "5.4",
-            "5.5",
-            "7.0"
+            "8.5",
+            "9.0",
+            "9.2",
+            "10.1"
           ],
           "correctIndex": 2,
-          "explanation": "4.35 + 2.65 = 7.0; 7.0 - 1.5 = 5.5"
+          "explanation": "3.45 + 7.85 = 11.3; 11.3 - 2.1 = 9.2"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(0.25 \\cdot 1.6 + 0.6\\)",
+          "question": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2\\)",
           "options": [
-            "0.4",
-            "0.9",
-            "1.1",
-            "1"
+            "3.2",
+            "2.0",
+            "1.8",
+            "2.4"
           ],
           "correctIndex": 3,
-          "explanation": "0.25 * 1.6 = 0.4; 0.4 + 0.6 = 1.0"
+          "explanation": "0.25 * 4.8 = 1.2; 1.2 + 1.2 = 2.4"
         },
         {
           "level": "hard",
@@ -6712,27 +6712,27 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(4.35 + 2.65 - 1.5\\)",
+        "question": "Hisoblang: \\(3.45 + 7.85 - 2.1\\)",
         "options": [
-          "6.0",
-          "5.4",
-          "5.5",
-          "7.0"
+          "8.5",
+          "9.0",
+          "9.2",
+          "10.1"
         ],
         "correctIndex": 2,
-        "explanation": "4.35 + 2.65 = 7.0; 7.0 - 1.5 = 5.5"
+        "explanation": "3.45 + 7.85 = 11.3; 11.3 - 2.1 = 9.2"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\(0.25 \\cdot 1.6 + 0.6\\)",
+        "question": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2\\)",
         "options": [
-          "0.4",
-          "0.9",
-          "1.1",
-          "1"
+          "3.2",
+          "2.0",
+          "1.8",
+          "2.4"
         ],
         "correctIndex": 3,
-        "explanation": "0.25 * 1.6 = 0.4; 0.4 + 0.6 = 1.0"
+        "explanation": "0.25 * 4.8 = 1.2; 1.2 + 1.2 = 2.4"
       },
       {
         "level": "hard",
@@ -6937,39 +6937,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(75 + 50 - 25\\) (Kasrlarni ko'paytirish va bo'lish siri)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "98",
+            "102",
+            "100",
+            "200"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "75 + 50 - 25 = 100"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 30 = 90\\) (Kasrlarni ko'paytirish va bo'lish siri)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "120",
+            "61",
+            "59",
+            "60"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 120 => x = 60"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(35^2 - (35-1)^2\\) (Kasrlarni ko'paytirish va bo'lish siri)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "69",
+            "70",
+            "71",
+            "35"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (35 + 34) = 69"
         }
       ],
       "practiceExercises": [
@@ -7148,39 +7148,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(75 + 50 - 25\\) (Kasrlarni ko'paytirish va bo'lish siri)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "98",
+            "102",
+            "100",
+            "200"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "75 + 50 - 25 = 100"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 30 = 90\\) (Kasrlarni ko'paytirish va bo'lish siri)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "120",
+            "61",
+            "59",
+            "60"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 120 => x = 60"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(35^2 - (35-1)^2\\) (Kasrlarni ko'paytirish va bo'lish siri)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "69",
+            "70",
+            "71",
+            "35"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (35 + 34) = 69"
         }
       ],
       "practiceExercises": [
@@ -7359,39 +7359,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(75 + 50 - 25\\) (Kasrlarni ko'paytirish va bo'lish siri)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "98",
+            "102",
+            "100",
+            "200"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "75 + 50 - 25 = 100"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 30 = 90\\) (Kasrlarni ko'paytirish va bo'lish siri)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "120",
+            "61",
+            "59",
+            "60"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 120 => x = 60"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(35^2 - (35-1)^2\\) (Kasrlarni ko'paytirish va bo'lish siri)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "69",
+            "70",
+            "71",
+            "35"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (35 + 34) = 69"
         }
       ],
       "practiceExercises": [
@@ -7575,39 +7575,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(72 + 48 - 30\\)",
+        "question": "Hisoblang: \\(75 + 50 - 25\\) (Kasrlarni ko'paytirish va bo'lish siri)",
         "options": [
-          "85",
-          "95",
-          "90",
-          "180"
+          "98",
+          "102",
+          "100",
+          "200"
         ],
         "correctIndex": 2,
-        "explanation": "72 + 48 - 30 = 90"
+        "explanation": "75 + 50 - 25 = 100"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+        "question": "Tenglamani yeching: \\(2x - 30 = 90\\) (Kasrlarni ko'paytirish va bo'lish siri)",
         "options": [
-          "24",
-          "13",
-          "11",
-          "12"
+          "120",
+          "61",
+          "59",
+          "60"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 24 => x = 12"
+        "explanation": "2x = 120 => x = 60"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+        "question": "Hisoblang: \\(35^2 - (35-1)^2\\) (Kasrlarni ko'paytirish va bo'lish siri)",
         "options": [
-          "24",
-          "26",
-          "22",
-          "48"
+          "69",
+          "70",
+          "71",
+          "35"
         ],
         "correctIndex": 0,
-        "explanation": "6 + 18 = 24"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (35 + 34) = 69"
       }
     ],
     "practiceExercises": [
@@ -7795,39 +7795,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(-18 + 32 - (-6)\\)",
+          "question": "Hisoblang: \\(84 + 56 - 28\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
           "options": [
-            "-20",
-            "8",
-            "20",
-            "14"
+            "110",
+            "114",
+            "112",
+            "224"
           ],
           "correctIndex": 2,
-          "explanation": "-18 + 32 + 6 = 20"
+          "explanation": "84 + 56 - 28 = 112"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(-7 \\cdot (-6) - 48 : (-8)\\)",
+          "question": "Tenglamani yeching: \\(2x - 33 = 99\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
           "options": [
-            "42",
-            "36",
-            "-48",
-            "48"
+            "132",
+            "67",
+            "65",
+            "66"
           ],
           "correctIndex": 3,
-          "explanation": "42 - (-6) = 42 + 6 = 48"
+          "explanation": "2x = 132 => x = 66"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\((-3)^3 + (-2)^4\\)",
+          "question": "Hisoblang: \\(38^2 - (38-1)^2\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
           "options": [
-            "-11",
-            "-43",
-            "11",
-            "-27"
+            "75",
+            "76",
+            "77",
+            "38"
           ],
           "correctIndex": 0,
-          "explanation": "-27 + 16 = -11"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (38 + 37) = 75"
         }
       ],
       "practiceExercises": [
@@ -8001,39 +8001,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(-18 + 32 - (-6)\\)",
+          "question": "Hisoblang: \\(84 + 56 - 28\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
           "options": [
-            "-20",
-            "8",
-            "20",
-            "14"
+            "110",
+            "114",
+            "112",
+            "224"
           ],
           "correctIndex": 2,
-          "explanation": "-18 + 32 + 6 = 20"
+          "explanation": "84 + 56 - 28 = 112"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(-7 \\cdot (-6) - 48 : (-8)\\)",
+          "question": "Tenglamani yeching: \\(2x - 33 = 99\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
           "options": [
-            "42",
-            "36",
-            "-48",
-            "48"
+            "132",
+            "67",
+            "65",
+            "66"
           ],
           "correctIndex": 3,
-          "explanation": "42 - (-6) = 42 + 6 = 48"
+          "explanation": "2x = 132 => x = 66"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\((-3)^3 + (-2)^4\\)",
+          "question": "Hisoblang: \\(38^2 - (38-1)^2\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
           "options": [
-            "-11",
-            "-43",
-            "11",
-            "-27"
+            "75",
+            "76",
+            "77",
+            "38"
           ],
           "correctIndex": 0,
-          "explanation": "-27 + 16 = -11"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (38 + 37) = 75"
         }
       ],
       "practiceExercises": [
@@ -8207,39 +8207,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(-18 + 32 - (-6)\\)",
+          "question": "Hisoblang: \\(84 + 56 - 28\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
           "options": [
-            "-20",
-            "8",
-            "20",
-            "14"
+            "110",
+            "114",
+            "112",
+            "224"
           ],
           "correctIndex": 2,
-          "explanation": "-18 + 32 + 6 = 20"
+          "explanation": "84 + 56 - 28 = 112"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(-7 \\cdot (-6) - 48 : (-8)\\)",
+          "question": "Tenglamani yeching: \\(2x - 33 = 99\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
           "options": [
-            "42",
-            "36",
-            "-48",
-            "48"
+            "132",
+            "67",
+            "65",
+            "66"
           ],
           "correctIndex": 3,
-          "explanation": "42 - (-6) = 42 + 6 = 48"
+          "explanation": "2x = 132 => x = 66"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\((-3)^3 + (-2)^4\\)",
+          "question": "Hisoblang: \\(38^2 - (38-1)^2\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
           "options": [
-            "-11",
-            "-43",
-            "11",
-            "-27"
+            "75",
+            "76",
+            "77",
+            "38"
           ],
           "correctIndex": 0,
-          "explanation": "-27 + 16 = -11"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (38 + 37) = 75"
         }
       ],
       "practiceExercises": [
@@ -8418,39 +8418,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(-18 + 32 - (-6)\\)",
+        "question": "Hisoblang: \\(84 + 56 - 28\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
         "options": [
-          "-20",
-          "8",
-          "20",
-          "14"
+          "110",
+          "114",
+          "112",
+          "224"
         ],
         "correctIndex": 2,
-        "explanation": "-18 + 32 + 6 = 20"
+        "explanation": "84 + 56 - 28 = 112"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\(-7 \\cdot (-6) - 48 : (-8)\\)",
+        "question": "Tenglamani yeching: \\(2x - 33 = 99\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
         "options": [
-          "42",
-          "36",
-          "-48",
-          "48"
+          "132",
+          "67",
+          "65",
+          "66"
         ],
         "correctIndex": 3,
-        "explanation": "42 - (-6) = 42 + 6 = 48"
+        "explanation": "2x = 132 => x = 66"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\((-3)^3 + (-2)^4\\)",
+        "question": "Hisoblang: \\(38^2 - (38-1)^2\\) (Musbat va Manfiy sonlar (Minus sonlar siri))",
         "options": [
-          "-11",
-          "-43",
-          "11",
-          "-27"
+          "75",
+          "76",
+          "77",
+          "38"
         ],
         "correctIndex": 0,
-        "explanation": "-27 + 16 = -11"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (38 + 37) = 75"
       }
     ],
     "practiceExercises": [
@@ -8643,39 +8643,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
+          "question": "Hisoblang: \\(93 + 62 - 31\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
           "options": [
-            "8",
-            "5",
-            "6",
-            "10"
+            "122",
+            "126",
+            "124",
+            "248"
           ],
           "correctIndex": 2,
-          "explanation": "20x = 120 => x = 6"
+          "explanation": "93 + 62 - 31 = 124"
         },
         {
           "level": "medium",
-          "question": "5 kg olma 35 000 so'm bo'lsa, 8 kg olma necha so'm bo'ladi?",
+          "question": "Tenglamani yeching: \\(2x - 36 = 108\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
           "options": [
-            "\\(70 000 \\text{ so'm}\\)",
-            "\\(45 000 \\text{ so'm}\\)",
-            "\\(60 000 \\text{ so'm}\\)",
-            "\\(56 000 \\text{ so'm}\\)"
+            "144",
+            "73",
+            "71",
+            "72"
           ],
           "correctIndex": 3,
-          "explanation": "1 kg = 7 000 so'm; 8 kg = 56 000 so'm"
+          "explanation": "2x = 144 => x = 72"
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
+          "question": "Hisoblang: \\(41^2 - (41-1)^2\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
           "options": [
-            "5",
-            "4",
-            "6",
-            "3"
+            "81",
+            "82",
+            "83",
+            "41"
           ],
           "correctIndex": 0,
-          "explanation": "2(3x - 1) = 28 => 6x = 30 => x = 5"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (41 + 40) = 81"
         }
       ],
       "practiceExercises": [
@@ -8854,39 +8854,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
+          "question": "Hisoblang: \\(93 + 62 - 31\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
           "options": [
-            "8",
-            "5",
-            "6",
-            "10"
+            "122",
+            "126",
+            "124",
+            "248"
           ],
           "correctIndex": 2,
-          "explanation": "20x = 120 => x = 6"
+          "explanation": "93 + 62 - 31 = 124"
         },
         {
           "level": "medium",
-          "question": "5 kg olma 35 000 so'm bo'lsa, 8 kg olma necha so'm bo'ladi?",
+          "question": "Tenglamani yeching: \\(2x - 36 = 108\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
           "options": [
-            "\\(70 000 \\text{ so'm}\\)",
-            "\\(45 000 \\text{ so'm}\\)",
-            "\\(60 000 \\text{ so'm}\\)",
-            "\\(56 000 \\text{ so'm}\\)"
+            "144",
+            "73",
+            "71",
+            "72"
           ],
           "correctIndex": 3,
-          "explanation": "1 kg = 7 000 so'm; 8 kg = 56 000 so'm"
+          "explanation": "2x = 144 => x = 72"
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
+          "question": "Hisoblang: \\(41^2 - (41-1)^2\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
           "options": [
-            "5",
-            "4",
-            "6",
-            "3"
+            "81",
+            "82",
+            "83",
+            "41"
           ],
           "correctIndex": 0,
-          "explanation": "2(3x - 1) = 28 => 6x = 30 => x = 5"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (41 + 40) = 81"
         }
       ],
       "practiceExercises": [
@@ -9065,39 +9065,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
+          "question": "Hisoblang: \\(93 + 62 - 31\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
           "options": [
-            "8",
-            "5",
-            "6",
-            "10"
+            "122",
+            "126",
+            "124",
+            "248"
           ],
           "correctIndex": 2,
-          "explanation": "20x = 120 => x = 6"
+          "explanation": "93 + 62 - 31 = 124"
         },
         {
           "level": "medium",
-          "question": "5 kg olma 35 000 so'm bo'lsa, 8 kg olma necha so'm bo'ladi?",
+          "question": "Tenglamani yeching: \\(2x - 36 = 108\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
           "options": [
-            "\\(70 000 \\text{ so'm}\\)",
-            "\\(45 000 \\text{ so'm}\\)",
-            "\\(60 000 \\text{ so'm}\\)",
-            "\\(56 000 \\text{ so'm}\\)"
+            "144",
+            "73",
+            "71",
+            "72"
           ],
           "correctIndex": 3,
-          "explanation": "1 kg = 7 000 so'm; 8 kg = 56 000 so'm"
+          "explanation": "2x = 144 => x = 72"
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
+          "question": "Hisoblang: \\(41^2 - (41-1)^2\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
           "options": [
-            "5",
-            "4",
-            "6",
-            "3"
+            "81",
+            "82",
+            "83",
+            "41"
           ],
           "correctIndex": 0,
-          "explanation": "2(3x - 1) = 28 => 6x = 30 => x = 5"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (41 + 40) = 81"
         }
       ],
       "practiceExercises": [
@@ -9281,39 +9281,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
+        "question": "Hisoblang: \\(93 + 62 - 31\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
         "options": [
-          "8",
-          "5",
-          "6",
-          "10"
+          "122",
+          "126",
+          "124",
+          "248"
         ],
         "correctIndex": 2,
-        "explanation": "20x = 120 => x = 6"
+        "explanation": "93 + 62 - 31 = 124"
       },
       {
         "level": "medium",
-        "question": "5 kg olma 35 000 so'm bo'lsa, 8 kg olma necha so'm bo'ladi?",
+        "question": "Tenglamani yeching: \\(2x - 36 = 108\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
         "options": [
-          "\\(70 000 \\text{ so'm}\\)",
-          "\\(45 000 \\text{ so'm}\\)",
-          "\\(60 000 \\text{ so'm}\\)",
-          "\\(56 000 \\text{ so'm}\\)"
+          "144",
+          "73",
+          "71",
+          "72"
         ],
         "correctIndex": 3,
-        "explanation": "1 kg = 7 000 so'm; 8 kg = 56 000 so'm"
+        "explanation": "2x = 144 => x = 72"
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
+        "question": "Hisoblang: \\(41^2 - (41-1)^2\\) (Proporsiya va Foizlar (Chegirmalar hisobi))",
         "options": [
-          "5",
-          "4",
-          "6",
-          "3"
+          "81",
+          "82",
+          "83",
+          "41"
         ],
         "correctIndex": 0,
-        "explanation": "2(3x - 1) = 28 => 6x = 30 => x = 5"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (41 + 40) = 81"
       }
     ],
     "practiceExercises": [
@@ -9501,39 +9501,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(102 + 68 - 34\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "134",
+            "138",
+            "136",
+            "272"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "102 + 68 - 34 = 136"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 39 = 117\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "156",
+            "79",
+            "77",
+            "78"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 156 => x = 78"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(44^2 - (44-1)^2\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "87",
+            "88",
+            "89",
+            "44"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (44 + 43) = 87"
         }
       ],
       "practiceExercises": [
@@ -9707,39 +9707,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(102 + 68 - 34\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "134",
+            "138",
+            "136",
+            "272"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "102 + 68 - 34 = 136"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 39 = 117\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "156",
+            "79",
+            "77",
+            "78"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 156 => x = 78"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(44^2 - (44-1)^2\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "87",
+            "88",
+            "89",
+            "44"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (44 + 43) = 87"
         }
       ],
       "practiceExercises": [
@@ -9913,39 +9913,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(102 + 68 - 34\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "134",
+            "138",
+            "136",
+            "272"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "102 + 68 - 34 = 136"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 39 = 117\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "156",
+            "79",
+            "77",
+            "78"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 156 => x = 78"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(44^2 - (44-1)^2\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "87",
+            "88",
+            "89",
+            "44"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (44 + 43) = 87"
         }
       ],
       "practiceExercises": [
@@ -10124,39 +10124,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(72 + 48 - 30\\)",
+        "question": "Hisoblang: \\(102 + 68 - 34\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
         "options": [
-          "85",
-          "95",
-          "90",
-          "180"
+          "134",
+          "138",
+          "136",
+          "272"
         ],
         "correctIndex": 2,
-        "explanation": "72 + 48 - 30 = 90"
+        "explanation": "102 + 68 - 34 = 136"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+        "question": "Tenglamani yeching: \\(2x - 39 = 117\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
         "options": [
-          "24",
-          "13",
-          "11",
-          "12"
+          "156",
+          "79",
+          "77",
+          "78"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 24 => x = 12"
+        "explanation": "2x = 156 => x = 78"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+        "question": "Hisoblang: \\(44^2 - (44-1)^2\\) (Oddiy tenglamalar (Tarozi pallasi qoidasi))",
         "options": [
-          "24",
-          "26",
-          "22",
-          "48"
+          "87",
+          "88",
+          "89",
+          "44"
         ],
         "correctIndex": 0,
-        "explanation": "6 + 18 = 24"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (44 + 43) = 87"
       }
     ],
     "practiceExercises": [
@@ -10349,39 +10349,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).",
+          "question": "Uchburchakning asosi a = 74 \\text{ sm}, balandligi h = 37 \\text{ sm}. Uning yuzini hisoblang (Aylana va Doira (Radius, Diametr va Pi soni)).",
           "options": [
-            "\\(154 \\text{ sm}\\)",
-            "\\(22 \\text{ sm}\\)",
-            "\\(44 \\text{ sm}\\)",
-            "\\(88 \\text{ sm}\\)"
+            "\\(1366 \\text{ sm}^2\\)",
+            "\\(1374 \\text{ sm}^2\\)",
+            "\\(1369 \\text{ sm}^2\\)",
+            "\\(2738 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "C = 2*pi*R = 2*(22/7)*7 = 44 sm"
+          "explanation": "S = (a * h)/2 = (74 * 37)/2 = 1369 sm²"
         },
         {
           "level": "medium",
-          "question": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "question": "To'g'ri to'rtburchakning perimetri P = 92 \\text{ sm}, bir tomoni a = 42 \\text{ sm}. Ikkinchi tomonini toping (Aylana va Doira (Radius, Diametr va Pi soni)).",
           "options": [
-            "\\(64\\pi \\text{ sm}^2\\)",
-            "\\(12\\pi \\text{ sm}^2\\)",
-            "\\(18\\pi \\text{ sm}^2\\)",
-            "\\(36\\pi \\text{ sm}^2\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = pi*R² = 36pi sm²"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "question": "Muntazam shaklning tomoni a = 47 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylana va Doira (Radius, Diametr va Pi soni)).",
           "options": [
-            "\\(100\\pi \\text{ sm}^2\\)",
-            "\\(400\\pi \\text{ sm}^2\\)",
-            "\\(50\\pi \\text{ sm}^2\\)",
-            "\\(20\\pi \\text{ sm}^2\\)"
+            "\\(141 \\text{ sm}\\)",
+            "\\(94 \\text{ sm}\\)",
+            "\\(188 \\text{ sm}\\)",
+            "\\(235 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "R = 10 sm; S = pi*10² = 100pi sm²"
+          "explanation": "P = 3 * 47 = 141 sm"
         }
       ],
       "practiceExercises": [
@@ -10560,39 +10560,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).",
+          "question": "Uchburchakning asosi a = 74 \\text{ sm}, balandligi h = 37 \\text{ sm}. Uning yuzini hisoblang (Aylana va Doira (Radius, Diametr va Pi soni)).",
           "options": [
-            "\\(154 \\text{ sm}\\)",
-            "\\(22 \\text{ sm}\\)",
-            "\\(44 \\text{ sm}\\)",
-            "\\(88 \\text{ sm}\\)"
+            "\\(1366 \\text{ sm}^2\\)",
+            "\\(1374 \\text{ sm}^2\\)",
+            "\\(1369 \\text{ sm}^2\\)",
+            "\\(2738 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "C = 2*pi*R = 2*(22/7)*7 = 44 sm"
+          "explanation": "S = (a * h)/2 = (74 * 37)/2 = 1369 sm²"
         },
         {
           "level": "medium",
-          "question": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "question": "To'g'ri to'rtburchakning perimetri P = 92 \\text{ sm}, bir tomoni a = 42 \\text{ sm}. Ikkinchi tomonini toping (Aylana va Doira (Radius, Diametr va Pi soni)).",
           "options": [
-            "\\(64\\pi \\text{ sm}^2\\)",
-            "\\(12\\pi \\text{ sm}^2\\)",
-            "\\(18\\pi \\text{ sm}^2\\)",
-            "\\(36\\pi \\text{ sm}^2\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = pi*R² = 36pi sm²"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "question": "Muntazam shaklning tomoni a = 47 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylana va Doira (Radius, Diametr va Pi soni)).",
           "options": [
-            "\\(100\\pi \\text{ sm}^2\\)",
-            "\\(400\\pi \\text{ sm}^2\\)",
-            "\\(50\\pi \\text{ sm}^2\\)",
-            "\\(20\\pi \\text{ sm}^2\\)"
+            "\\(141 \\text{ sm}\\)",
+            "\\(94 \\text{ sm}\\)",
+            "\\(188 \\text{ sm}\\)",
+            "\\(235 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "R = 10 sm; S = pi*10² = 100pi sm²"
+          "explanation": "P = 3 * 47 = 141 sm"
         }
       ],
       "practiceExercises": [
@@ -10771,39 +10771,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).",
+          "question": "Uchburchakning asosi a = 74 \\text{ sm}, balandligi h = 37 \\text{ sm}. Uning yuzini hisoblang (Aylana va Doira (Radius, Diametr va Pi soni)).",
           "options": [
-            "\\(154 \\text{ sm}\\)",
-            "\\(22 \\text{ sm}\\)",
-            "\\(44 \\text{ sm}\\)",
-            "\\(88 \\text{ sm}\\)"
+            "\\(1366 \\text{ sm}^2\\)",
+            "\\(1374 \\text{ sm}^2\\)",
+            "\\(1369 \\text{ sm}^2\\)",
+            "\\(2738 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "C = 2*pi*R = 2*(22/7)*7 = 44 sm"
+          "explanation": "S = (a * h)/2 = (74 * 37)/2 = 1369 sm²"
         },
         {
           "level": "medium",
-          "question": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "question": "To'g'ri to'rtburchakning perimetri P = 92 \\text{ sm}, bir tomoni a = 42 \\text{ sm}. Ikkinchi tomonini toping (Aylana va Doira (Radius, Diametr va Pi soni)).",
           "options": [
-            "\\(64\\pi \\text{ sm}^2\\)",
-            "\\(12\\pi \\text{ sm}^2\\)",
-            "\\(18\\pi \\text{ sm}^2\\)",
-            "\\(36\\pi \\text{ sm}^2\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = pi*R² = 36pi sm²"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "question": "Muntazam shaklning tomoni a = 47 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylana va Doira (Radius, Diametr va Pi soni)).",
           "options": [
-            "\\(100\\pi \\text{ sm}^2\\)",
-            "\\(400\\pi \\text{ sm}^2\\)",
-            "\\(50\\pi \\text{ sm}^2\\)",
-            "\\(20\\pi \\text{ sm}^2\\)"
+            "\\(141 \\text{ sm}\\)",
+            "\\(94 \\text{ sm}\\)",
+            "\\(188 \\text{ sm}\\)",
+            "\\(235 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "R = 10 sm; S = pi*10² = 100pi sm²"
+          "explanation": "P = 3 * 47 = 141 sm"
         }
       ],
       "practiceExercises": [
@@ -10987,39 +10987,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).",
+        "question": "Uchburchakning asosi a = 74 \\text{ sm}, balandligi h = 37 \\text{ sm}. Uning yuzini hisoblang (Aylana va Doira (Radius, Diametr va Pi soni)).",
         "options": [
-          "\\(154 \\text{ sm}\\)",
-          "\\(22 \\text{ sm}\\)",
-          "\\(44 \\text{ sm}\\)",
-          "\\(88 \\text{ sm}\\)"
+          "\\(1366 \\text{ sm}^2\\)",
+          "\\(1374 \\text{ sm}^2\\)",
+          "\\(1369 \\text{ sm}^2\\)",
+          "\\(2738 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
-        "explanation": "C = 2*pi*R = 2*(22/7)*7 = 44 sm"
+        "explanation": "S = (a * h)/2 = (74 * 37)/2 = 1369 sm²"
       },
       {
         "level": "medium",
-        "question": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+        "question": "To'g'ri to'rtburchakning perimetri P = 92 \\text{ sm}, bir tomoni a = 42 \\text{ sm}. Ikkinchi tomonini toping (Aylana va Doira (Radius, Diametr va Pi soni)).",
         "options": [
-          "\\(64\\pi \\text{ sm}^2\\)",
-          "\\(12\\pi \\text{ sm}^2\\)",
-          "\\(18\\pi \\text{ sm}^2\\)",
-          "\\(36\\pi \\text{ sm}^2\\)"
+          "\\(2 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "S = pi*R² = 36pi sm²"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+        "question": "Muntazam shaklning tomoni a = 47 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylana va Doira (Radius, Diametr va Pi soni)).",
         "options": [
-          "\\(100\\pi \\text{ sm}^2\\)",
-          "\\(400\\pi \\text{ sm}^2\\)",
-          "\\(50\\pi \\text{ sm}^2\\)",
-          "\\(20\\pi \\text{ sm}^2\\)"
+          "\\(141 \\text{ sm}\\)",
+          "\\(94 \\text{ sm}\\)",
+          "\\(188 \\text{ sm}\\)",
+          "\\(235 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "R = 10 sm; S = pi*10² = 100pi sm²"
+        "explanation": "P = 3 * 47 = 141 sm"
       }
     ],
     "practiceExercises": [
@@ -11207,39 +11207,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 80 \\text{ sm}, balandligi h = 40 \\text{ sm}. Uning yuzini hisoblang (Masshtab va Xarita (Haqiqiy masofani topish)).",
           "options": [
-            "\\(34 \\text{ sm}^2\\)",
-            "\\(40 \\text{ sm}^2\\)",
-            "\\(36 \\text{ sm}^2\\)",
-            "\\(72 \\text{ sm}^2\\)"
+            "\\(1597 \\text{ sm}^2\\)",
+            "\\(1605 \\text{ sm}^2\\)",
+            "\\(1600 \\text{ sm}^2\\)",
+            "\\(3200 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+          "explanation": "S = (a * h)/2 = (80 * 40)/2 = 1600 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 98 \\text{ sm}, bir tomoni a = 45 \\text{ sm}. Ikkinchi tomonini toping (Masshtab va Xarita (Haqiqiy masofani topish)).",
           "options": [
-            "\\(10 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(14 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 50 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Masshtab va Xarita (Haqiqiy masofani topish)).",
           "options": [
-            "\\(36 \\text{ sm}\\)",
-            "\\(24 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(150 \\text{ sm}\\)",
+            "\\(100 \\text{ sm}\\)",
+            "\\(200 \\text{ sm}\\)",
+            "\\(250 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 12 = 36 sm"
+          "explanation": "P = 3 * 50 = 150 sm"
         }
       ],
       "practiceExercises": [
@@ -11413,39 +11413,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 80 \\text{ sm}, balandligi h = 40 \\text{ sm}. Uning yuzini hisoblang (Masshtab va Xarita (Haqiqiy masofani topish)).",
           "options": [
-            "\\(34 \\text{ sm}^2\\)",
-            "\\(40 \\text{ sm}^2\\)",
-            "\\(36 \\text{ sm}^2\\)",
-            "\\(72 \\text{ sm}^2\\)"
+            "\\(1597 \\text{ sm}^2\\)",
+            "\\(1605 \\text{ sm}^2\\)",
+            "\\(1600 \\text{ sm}^2\\)",
+            "\\(3200 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+          "explanation": "S = (a * h)/2 = (80 * 40)/2 = 1600 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 98 \\text{ sm}, bir tomoni a = 45 \\text{ sm}. Ikkinchi tomonini toping (Masshtab va Xarita (Haqiqiy masofani topish)).",
           "options": [
-            "\\(10 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(14 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 50 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Masshtab va Xarita (Haqiqiy masofani topish)).",
           "options": [
-            "\\(36 \\text{ sm}\\)",
-            "\\(24 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(150 \\text{ sm}\\)",
+            "\\(100 \\text{ sm}\\)",
+            "\\(200 \\text{ sm}\\)",
+            "\\(250 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 12 = 36 sm"
+          "explanation": "P = 3 * 50 = 150 sm"
         }
       ],
       "practiceExercises": [
@@ -11619,39 +11619,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 80 \\text{ sm}, balandligi h = 40 \\text{ sm}. Uning yuzini hisoblang (Masshtab va Xarita (Haqiqiy masofani topish)).",
           "options": [
-            "\\(34 \\text{ sm}^2\\)",
-            "\\(40 \\text{ sm}^2\\)",
-            "\\(36 \\text{ sm}^2\\)",
-            "\\(72 \\text{ sm}^2\\)"
+            "\\(1597 \\text{ sm}^2\\)",
+            "\\(1605 \\text{ sm}^2\\)",
+            "\\(1600 \\text{ sm}^2\\)",
+            "\\(3200 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+          "explanation": "S = (a * h)/2 = (80 * 40)/2 = 1600 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 98 \\text{ sm}, bir tomoni a = 45 \\text{ sm}. Ikkinchi tomonini toping (Masshtab va Xarita (Haqiqiy masofani topish)).",
           "options": [
-            "\\(10 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(14 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 50 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Masshtab va Xarita (Haqiqiy masofani topish)).",
           "options": [
-            "\\(36 \\text{ sm}\\)",
-            "\\(24 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(150 \\text{ sm}\\)",
+            "\\(100 \\text{ sm}\\)",
+            "\\(200 \\text{ sm}\\)",
+            "\\(250 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 12 = 36 sm"
+          "explanation": "P = 3 * 50 = 150 sm"
         }
       ],
       "practiceExercises": [
@@ -11830,39 +11830,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 80 \\text{ sm}, balandligi h = 40 \\text{ sm}. Uning yuzini hisoblang (Masshtab va Xarita (Haqiqiy masofani topish)).",
         "options": [
-          "\\(34 \\text{ sm}^2\\)",
-          "\\(40 \\text{ sm}^2\\)",
-          "\\(36 \\text{ sm}^2\\)",
-          "\\(72 \\text{ sm}^2\\)"
+          "\\(1597 \\text{ sm}^2\\)",
+          "\\(1605 \\text{ sm}^2\\)",
+          "\\(1600 \\text{ sm}^2\\)",
+          "\\(3200 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
-        "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+        "explanation": "S = (a * h)/2 = (80 * 40)/2 = 1600 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 98 \\text{ sm}, bir tomoni a = 45 \\text{ sm}. Ikkinchi tomonini toping (Masshtab va Xarita (Haqiqiy masofani topish)).",
         "options": [
-          "\\(10 \\text{ sm}\\)",
-          "\\(12 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(14 \\text{ sm}\\)"
+          "\\(2 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 50 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Masshtab va Xarita (Haqiqiy masofani topish)).",
         "options": [
-          "\\(36 \\text{ sm}\\)",
-          "\\(24 \\text{ sm}\\)",
-          "\\(48 \\text{ sm}\\)",
-          "\\(54 \\text{ sm}\\)"
+          "\\(150 \\text{ sm}\\)",
+          "\\(100 \\text{ sm}\\)",
+          "\\(200 \\text{ sm}\\)",
+          "\\(250 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 3a = 3 * 12 = 36 sm"
+        "explanation": "P = 3 * 50 = 150 sm"
       }
     ],
     "practiceExercises": [
@@ -12050,39 +12050,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(129 + 86 - 43\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "170",
+            "174",
+            "172",
+            "344"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "129 + 86 - 43 = 172"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 48 = 144\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "192",
+            "97",
+            "95",
+            "96"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 192 => x = 96"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(53^2 - (53-1)^2\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "105",
+            "106",
+            "107",
+            "53"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (53 + 52) = 105"
         }
       ],
       "practiceExercises": [
@@ -12256,39 +12256,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(129 + 86 - 43\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "170",
+            "174",
+            "172",
+            "344"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "129 + 86 - 43 = 172"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 48 = 144\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "192",
+            "97",
+            "95",
+            "96"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 192 => x = 96"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(53^2 - (53-1)^2\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "105",
+            "106",
+            "107",
+            "53"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (53 + 52) = 105"
         }
       ],
       "practiceExercises": [
@@ -12462,39 +12462,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(129 + 86 - 43\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "170",
+            "174",
+            "172",
+            "344"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "129 + 86 - 43 = 172"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 48 = 144\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "192",
+            "97",
+            "95",
+            "96"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 192 => x = 96"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(53^2 - (53-1)^2\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "105",
+            "106",
+            "107",
+            "53"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (53 + 52) = 105"
         }
       ],
       "practiceExercises": [
@@ -12673,39 +12673,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(72 + 48 - 30\\)",
+        "question": "Hisoblang: \\(129 + 86 - 43\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
         "options": [
-          "85",
-          "95",
-          "90",
-          "180"
+          "170",
+          "174",
+          "172",
+          "344"
         ],
         "correctIndex": 2,
-        "explanation": "72 + 48 - 30 = 90"
+        "explanation": "129 + 86 - 43 = 172"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+        "question": "Tenglamani yeching: \\(2x - 48 = 144\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
         "options": [
-          "24",
-          "13",
-          "11",
-          "12"
+          "192",
+          "97",
+          "95",
+          "96"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 24 => x = 12"
+        "explanation": "2x = 192 => x = 96"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+        "question": "Hisoblang: \\(53^2 - (53-1)^2\\) (EKUB va EKUK (Bo'luvchi va Karralilar))",
         "options": [
-          "24",
-          "26",
-          "22",
-          "48"
+          "105",
+          "106",
+          "107",
+          "53"
         ],
         "correctIndex": 0,
-        "explanation": "6 + 18 = 24"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (53 + 52) = 105"
       }
     ],
     "practiceExercises": [
@@ -12903,39 +12903,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(138 + 92 - 46\\) (Qisqa ko'paytirish formulalari)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "368",
+            "186",
+            "182",
+            "184"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "138 + 92 - 46 = 184"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 51 = 153\\) (Qisqa ko'paytirish formulalari)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "102",
+            "103",
+            "101",
+            "204"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 204 => x = 102"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(56^2 - (56-1)^2\\) (Qisqa ko'paytirish formulalari)",
           "options": [
-            "30",
-            "28",
-            "26",
+            "112",
+            "111",
+            "113",
             "56"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (56 + 55) = 111"
         }
       ],
       "practiceExercises": [
@@ -13119,39 +13119,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(138 + 92 - 46\\) (Qisqa ko'paytirish formulalari)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "368",
+            "186",
+            "182",
+            "184"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "138 + 92 - 46 = 184"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 51 = 153\\) (Qisqa ko'paytirish formulalari)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "102",
+            "103",
+            "101",
+            "204"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 204 => x = 102"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(56^2 - (56-1)^2\\) (Qisqa ko'paytirish formulalari)",
           "options": [
-            "30",
-            "28",
-            "26",
+            "112",
+            "111",
+            "113",
             "56"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (56 + 55) = 111"
         }
       ],
       "practiceExercises": [
@@ -13335,39 +13335,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(138 + 92 - 46\\) (Qisqa ko'paytirish formulalari)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "368",
+            "186",
+            "182",
+            "184"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "138 + 92 - 46 = 184"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 51 = 153\\) (Qisqa ko'paytirish formulalari)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "102",
+            "103",
+            "101",
+            "204"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 204 => x = 102"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(56^2 - (56-1)^2\\) (Qisqa ko'paytirish formulalari)",
           "options": [
-            "30",
-            "28",
-            "26",
+            "112",
+            "111",
+            "113",
             "56"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (56 + 55) = 111"
         }
       ],
       "practiceExercises": [
@@ -13556,39 +13556,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(84 + 56 - 35\\)",
+        "question": "Hisoblang: \\(138 + 92 - 46\\) (Qisqa ko'paytirish formulalari)",
         "options": [
-          "210",
-          "110",
-          "100",
-          "105"
+          "368",
+          "186",
+          "182",
+          "184"
         ],
         "correctIndex": 3,
-        "explanation": "84 + 56 - 35 = 105"
+        "explanation": "138 + 92 - 46 = 184"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+        "question": "Tenglamani yeching: \\(2x - 51 = 153\\) (Qisqa ko'paytirish formulalari)",
         "options": [
-          "14",
-          "15",
-          "13",
-          "28"
+          "102",
+          "103",
+          "101",
+          "204"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 28 => x = 14"
+        "explanation": "2x = 204 => x = 102"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+        "question": "Hisoblang: \\(56^2 - (56-1)^2\\) (Qisqa ko'paytirish formulalari)",
         "options": [
-          "30",
-          "28",
-          "26",
+          "112",
+          "111",
+          "113",
           "56"
         ],
         "correctIndex": 1,
-        "explanation": "7 + 21 = 28"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (56 + 55) = 111"
       }
     ],
     "practiceExercises": [
@@ -13786,39 +13786,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(147 + 98 - 49\\) (Darajalar va ularning xossalari)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "392",
+            "198",
+            "194",
+            "196"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "147 + 98 - 49 = 196"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 54 = 162\\) (Darajalar va ularning xossalari)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "108",
+            "109",
+            "107",
+            "216"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 216 => x = 108"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(59^2 - (59-1)^2\\) (Darajalar va ularning xossalari)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "118",
+            "117",
+            "119",
+            "59"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (59 + 58) = 117"
         }
       ],
       "practiceExercises": [
@@ -14002,39 +14002,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(147 + 98 - 49\\) (Darajalar va ularning xossalari)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "392",
+            "198",
+            "194",
+            "196"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "147 + 98 - 49 = 196"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 54 = 162\\) (Darajalar va ularning xossalari)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "108",
+            "109",
+            "107",
+            "216"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 216 => x = 108"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(59^2 - (59-1)^2\\) (Darajalar va ularning xossalari)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "118",
+            "117",
+            "119",
+            "59"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (59 + 58) = 117"
         }
       ],
       "practiceExercises": [
@@ -14218,39 +14218,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(147 + 98 - 49\\) (Darajalar va ularning xossalari)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "392",
+            "198",
+            "194",
+            "196"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "147 + 98 - 49 = 196"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 54 = 162\\) (Darajalar va ularning xossalari)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "108",
+            "109",
+            "107",
+            "216"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 216 => x = 108"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(59^2 - (59-1)^2\\) (Darajalar va ularning xossalari)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "118",
+            "117",
+            "119",
+            "59"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (59 + 58) = 117"
         }
       ],
       "practiceExercises": [
@@ -14439,39 +14439,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(84 + 56 - 35\\)",
+        "question": "Hisoblang: \\(147 + 98 - 49\\) (Darajalar va ularning xossalari)",
         "options": [
-          "210",
-          "110",
-          "100",
-          "105"
+          "392",
+          "198",
+          "194",
+          "196"
         ],
         "correctIndex": 3,
-        "explanation": "84 + 56 - 35 = 105"
+        "explanation": "147 + 98 - 49 = 196"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+        "question": "Tenglamani yeching: \\(2x - 54 = 162\\) (Darajalar va ularning xossalari)",
         "options": [
-          "14",
-          "15",
-          "13",
-          "28"
+          "108",
+          "109",
+          "107",
+          "216"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 28 => x = 14"
+        "explanation": "2x = 216 => x = 108"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+        "question": "Hisoblang: \\(59^2 - (59-1)^2\\) (Darajalar va ularning xossalari)",
         "options": [
-          "30",
-          "28",
-          "26",
-          "56"
+          "118",
+          "117",
+          "119",
+          "59"
         ],
         "correctIndex": 1,
-        "explanation": "7 + 21 = 28"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (59 + 58) = 117"
       }
     ],
     "practiceExercises": [
@@ -14659,39 +14659,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(156 + 104 - 52\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
           "options": [
+            "416",
             "210",
-            "110",
-            "100",
-            "105"
+            "206",
+            "208"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "156 + 104 - 52 = 208"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 57 = 171\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "114",
+            "115",
+            "113",
+            "228"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 228 => x = 114"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(62^2 - (62-1)^2\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "124",
+            "123",
+            "125",
+            "62"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (62 + 61) = 123"
         }
       ],
       "practiceExercises": [
@@ -14865,39 +14865,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(156 + 104 - 52\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
           "options": [
+            "416",
             "210",
-            "110",
-            "100",
-            "105"
+            "206",
+            "208"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "156 + 104 - 52 = 208"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 57 = 171\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "114",
+            "115",
+            "113",
+            "228"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 228 => x = 114"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(62^2 - (62-1)^2\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "124",
+            "123",
+            "125",
+            "62"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (62 + 61) = 123"
         }
       ],
       "practiceExercises": [
@@ -15071,39 +15071,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(156 + 104 - 52\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
           "options": [
+            "416",
             "210",
-            "110",
-            "100",
-            "105"
+            "206",
+            "208"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "156 + 104 - 52 = 208"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 57 = 171\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "114",
+            "115",
+            "113",
+            "228"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 228 => x = 114"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(62^2 - (62-1)^2\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "124",
+            "123",
+            "125",
+            "62"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (62 + 61) = 123"
         }
       ],
       "practiceExercises": [
@@ -15282,39 +15282,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(84 + 56 - 35\\)",
+        "question": "Hisoblang: \\(156 + 104 - 52\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
         "options": [
+          "416",
           "210",
-          "110",
-          "100",
-          "105"
+          "206",
+          "208"
         ],
         "correctIndex": 3,
-        "explanation": "84 + 56 - 35 = 105"
+        "explanation": "156 + 104 - 52 = 208"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+        "question": "Tenglamani yeching: \\(2x - 57 = 171\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
         "options": [
-          "14",
-          "15",
-          "13",
-          "28"
+          "114",
+          "115",
+          "113",
+          "228"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 28 => x = 14"
+        "explanation": "2x = 228 => x = 114"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+        "question": "Hisoblang: \\(62^2 - (62-1)^2\\) (Chiziqli funksiya va uning grafigi (y = kx + b))",
         "options": [
-          "30",
-          "28",
-          "26",
-          "56"
+          "124",
+          "123",
+          "125",
+          "62"
         ],
         "correctIndex": 1,
-        "explanation": "7 + 21 = 28"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (62 + 61) = 123"
       }
     ],
     "practiceExercises": [
@@ -16350,39 +16350,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Qo'shni burchaklardan biri 65° bo'lsa, ikkinchi burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(90^\\circ\\)",
+            "\\(125^\\circ\\)",
+            "\\(65^\\circ\\)",
+            "\\(115^\\circ\\)"
           ],
           "correctIndex": 3,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "180° - 65° = 115°"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "Vertikal burchaklarning yig'indisi 140° bo'lsa, ulardan birini hisoblang.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(90^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(70^\\circ\\)",
+            "\\(140^\\circ\\)",
+            "\\(40^\\circ\\)",
+            "\\(110^\\circ\\)"
           ],
           "correctIndex": 0,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "Vertikal burchaklar teng: 140° / 2 = 70°"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Qo'shni burchaklardan biri ikkinchisidan 40° ga katta. Kichik burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(140^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(110^\\circ\\)",
+            "\\(70^\\circ\\)",
+            "\\(80^\\circ\\)",
+            "\\(60^\\circ\\)"
           ],
           "correctIndex": 1,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "x + (x + 40°) = 180° => 2x = 140° => x = 70°"
         }
       ],
       "practiceExercises": [
@@ -16561,39 +16561,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Qo'shni burchaklardan biri 65° bo'lsa, ikkinchi burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(90^\\circ\\)",
+            "\\(125^\\circ\\)",
+            "\\(65^\\circ\\)",
+            "\\(115^\\circ\\)"
           ],
           "correctIndex": 3,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "180° - 65° = 115°"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "Vertikal burchaklarning yig'indisi 140° bo'lsa, ulardan birini hisoblang.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(90^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(70^\\circ\\)",
+            "\\(140^\\circ\\)",
+            "\\(40^\\circ\\)",
+            "\\(110^\\circ\\)"
           ],
           "correctIndex": 0,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "Vertikal burchaklar teng: 140° / 2 = 70°"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Qo'shni burchaklardan biri ikkinchisidan 40° ga katta. Kichik burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(140^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(110^\\circ\\)",
+            "\\(70^\\circ\\)",
+            "\\(80^\\circ\\)",
+            "\\(60^\\circ\\)"
           ],
           "correctIndex": 1,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "x + (x + 40°) = 180° => 2x = 140° => x = 70°"
         }
       ],
       "practiceExercises": [
@@ -16772,39 +16772,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Qo'shni burchaklardan biri 65° bo'lsa, ikkinchi burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(90^\\circ\\)",
+            "\\(125^\\circ\\)",
+            "\\(65^\\circ\\)",
+            "\\(115^\\circ\\)"
           ],
           "correctIndex": 3,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "180° - 65° = 115°"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "Vertikal burchaklarning yig'indisi 140° bo'lsa, ulardan birini hisoblang.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(90^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(70^\\circ\\)",
+            "\\(140^\\circ\\)",
+            "\\(40^\\circ\\)",
+            "\\(110^\\circ\\)"
           ],
           "correctIndex": 0,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "Vertikal burchaklar teng: 140° / 2 = 70°"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Qo'shni burchaklardan biri ikkinchisidan 40° ga katta. Kichik burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(140^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(110^\\circ\\)",
+            "\\(70^\\circ\\)",
+            "\\(80^\\circ\\)",
+            "\\(60^\\circ\\)"
           ],
           "correctIndex": 1,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "x + (x + 40°) = 180° => 2x = 140° => x = 70°"
         }
       ],
       "practiceExercises": [
@@ -16988,39 +16988,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "To'g'ri burchak necha gradusga teng?",
+        "question": "Qo'shni burchaklardan biri 65° bo'lsa, ikkinchi burchakni toping.",
         "options": [
-          "\\(60^\\circ\\)",
-          "\\(180^\\circ\\)",
-          "\\(45^\\circ\\)",
-          "\\(90^\\circ\\)"
+          "\\(90^\\circ\\)",
+          "\\(125^\\circ\\)",
+          "\\(65^\\circ\\)",
+          "\\(115^\\circ\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri burchak = 90°"
+        "explanation": "180° - 65° = 115°"
       },
       {
         "level": "medium",
-        "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+        "question": "Vertikal burchaklarning yig'indisi 140° bo'lsa, ulardan birini hisoblang.",
         "options": [
-          "\\(60^\\circ\\)",
-          "\\(90^\\circ\\)",
-          "\\(45^\\circ\\)",
-          "\\(120^\\circ\\)"
+          "\\(70^\\circ\\)",
+          "\\(140^\\circ\\)",
+          "\\(40^\\circ\\)",
+          "\\(110^\\circ\\)"
         ],
         "correctIndex": 0,
-        "explanation": "180° / 3 = 60°"
+        "explanation": "Vertikal burchaklar teng: 140° / 2 = 70°"
       },
       {
         "level": "hard",
-        "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+        "question": "Qo'shni burchaklardan biri ikkinchisidan 40° ga katta. Kichik burchakni toping.",
         "options": [
-          "\\(60^\\circ\\)",
-          "\\(50^\\circ\\)",
-          "\\(140^\\circ\\)",
-          "\\(90^\\circ\\)"
+          "\\(110^\\circ\\)",
+          "\\(70^\\circ\\)",
+          "\\(80^\\circ\\)",
+          "\\(60^\\circ\\)"
         ],
         "correctIndex": 1,
-        "explanation": "90° - 40° = 50°"
+        "explanation": "x + (x + 40°) = 180° => 2x = 140° => x = 70°"
       }
     ],
     "practiceExercises": [
@@ -17218,39 +17218,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 122 \\text{ sm}, balandligi h = 61 \\text{ sm}. Uning yuzini hisoblang (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(7442 \\text{ sm}^2\\)",
+            "\\(3726 \\text{ sm}^2\\)",
+            "\\(3718 \\text{ sm}^2\\)",
+            "\\(3721 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (122 * 61)/2 = 3721 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 140 \\text{ sm}, bir tomoni a = 66 \\text{ sm}. Ikkinchi tomonini toping (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 71 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(142 \\text{ sm}\\)",
+            "\\(213 \\text{ sm}\\)",
+            "\\(284 \\text{ sm}\\)",
+            "\\(355 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 71 = 213 sm"
         }
       ],
       "practiceExercises": [
@@ -17434,39 +17434,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 122 \\text{ sm}, balandligi h = 61 \\text{ sm}. Uning yuzini hisoblang (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(7442 \\text{ sm}^2\\)",
+            "\\(3726 \\text{ sm}^2\\)",
+            "\\(3718 \\text{ sm}^2\\)",
+            "\\(3721 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (122 * 61)/2 = 3721 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 140 \\text{ sm}, bir tomoni a = 66 \\text{ sm}. Ikkinchi tomonini toping (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 71 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(142 \\text{ sm}\\)",
+            "\\(213 \\text{ sm}\\)",
+            "\\(284 \\text{ sm}\\)",
+            "\\(355 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 71 = 213 sm"
         }
       ],
       "practiceExercises": [
@@ -17650,39 +17650,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 122 \\text{ sm}, balandligi h = 61 \\text{ sm}. Uning yuzini hisoblang (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(7442 \\text{ sm}^2\\)",
+            "\\(3726 \\text{ sm}^2\\)",
+            "\\(3718 \\text{ sm}^2\\)",
+            "\\(3721 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (122 * 61)/2 = 3721 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 140 \\text{ sm}, bir tomoni a = 66 \\text{ sm}. Ikkinchi tomonini toping (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 71 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(142 \\text{ sm}\\)",
+            "\\(213 \\text{ sm}\\)",
+            "\\(284 \\text{ sm}\\)",
+            "\\(355 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 71 = 213 sm"
         }
       ],
       "practiceExercises": [
@@ -17871,39 +17871,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 122 \\text{ sm}, balandligi h = 61 \\text{ sm}. Uning yuzini hisoblang (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
         "options": [
-          "\\(98 \\text{ sm}^2\\)",
-          "\\(53 \\text{ sm}^2\\)",
-          "\\(47 \\text{ sm}^2\\)",
-          "\\(49 \\text{ sm}^2\\)"
+          "\\(7442 \\text{ sm}^2\\)",
+          "\\(3726 \\text{ sm}^2\\)",
+          "\\(3718 \\text{ sm}^2\\)",
+          "\\(3721 \\text{ sm}^2\\)"
         ],
         "correctIndex": 3,
-        "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+        "explanation": "S = (a * h)/2 = (122 * 61)/2 = 3721 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 140 \\text{ sm}, bir tomoni a = 66 \\text{ sm}. Ikkinchi tomonini toping (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
         "options": [
-          "\\(15 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(11 \\text{ sm}\\)"
+          "\\(4 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 71 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchaklar tengligi alomatlari (3 ta alomat)).",
         "options": [
-          "\\(28 \\text{ sm}\\)",
-          "\\(42 \\text{ sm}\\)",
-          "\\(56 \\text{ sm}\\)",
-          "\\(63 \\text{ sm}\\)"
+          "\\(142 \\text{ sm}\\)",
+          "\\(213 \\text{ sm}\\)",
+          "\\(284 \\text{ sm}\\)",
+          "\\(355 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 3a = 3 * 14 = 42 sm"
+        "explanation": "P = 3 * 71 = 213 sm"
       }
     ],
     "practiceExercises": [
@@ -18096,39 +18096,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(192 + 128 - 64\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "512",
+            "258",
+            "254",
+            "256"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "192 + 128 - 64 = 256"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 69 = 207\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "138",
+            "139",
+            "137",
+            "276"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 276 => x = 138"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(74^2 - (74-1)^2\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "148",
+            "147",
+            "149",
+            "74"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (74 + 73) = 147"
         }
       ],
       "practiceExercises": [
@@ -18307,39 +18307,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(192 + 128 - 64\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "512",
+            "258",
+            "254",
+            "256"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "192 + 128 - 64 = 256"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 69 = 207\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "138",
+            "139",
+            "137",
+            "276"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 276 => x = 138"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(74^2 - (74-1)^2\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "148",
+            "147",
+            "149",
+            "74"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (74 + 73) = 147"
         }
       ],
       "practiceExercises": [
@@ -18518,39 +18518,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(192 + 128 - 64\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "512",
+            "258",
+            "254",
+            "256"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "192 + 128 - 64 = 256"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 69 = 207\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "138",
+            "139",
+            "137",
+            "276"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 276 => x = 138"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(74^2 - (74-1)^2\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "148",
+            "147",
+            "149",
+            "74"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (74 + 73) = 147"
         }
       ],
       "practiceExercises": [
@@ -18734,39 +18734,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(84 + 56 - 35\\)",
+        "question": "Hisoblang: \\(192 + 128 - 64\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
         "options": [
-          "210",
-          "110",
-          "100",
-          "105"
+          "512",
+          "258",
+          "254",
+          "256"
         ],
         "correctIndex": 3,
-        "explanation": "84 + 56 - 35 = 105"
+        "explanation": "192 + 128 - 64 = 256"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+        "question": "Tenglamani yeching: \\(2x - 69 = 207\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
         "options": [
-          "14",
-          "15",
-          "13",
-          "28"
+          "138",
+          "139",
+          "137",
+          "276"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 28 => x = 14"
+        "explanation": "2x = 276 => x = 138"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+        "question": "Hisoblang: \\(74^2 - (74-1)^2\\) (Kublar yig'indisi va ayirmasi (a³ ± b³))",
         "options": [
-          "30",
-          "28",
-          "26",
-          "56"
+          "148",
+          "147",
+          "149",
+          "74"
         ],
         "correctIndex": 1,
-        "explanation": "7 + 21 = 28"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (74 + 73) = 147"
       }
     ],
     "practiceExercises": [
@@ -18948,39 +18948,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning ikkita burchagi 50° va 70°. Uchinchi burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(80^\\circ\\)",
+            "\\(50^\\circ\\)",
+            "\\(70^\\circ\\)",
+            "\\(60^\\circ\\)"
           ],
           "correctIndex": 3,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "180° - (50° + 70°) = 60°"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "Teng yonli uchburchakning uchidagi burchagi 40°. Asosidagi burchaklarini toping.",
           "options": [
+            "\\(70^\\circ\\)",
             "\\(60^\\circ\\)",
-            "\\(90^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(80^\\circ\\)",
+            "\\(40^\\circ\\)"
           ],
           "correctIndex": 0,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "(180° - 40°) / 2 = 70°"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "To'g'ri burchakli uchburchakning bir o'tkir burchagi 35° bo'lsa, ikkinchi o'tkir burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(140^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(65^\\circ\\)",
+            "\\(55^\\circ\\)",
+            "\\(45^\\circ\\)",
+            "\\(35^\\circ\\)"
           ],
           "correctIndex": 1,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "90° - 35° = 55°"
         }
       ],
       "practiceExercises": [
@@ -19154,39 +19154,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning ikkita burchagi 50° va 70°. Uchinchi burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(80^\\circ\\)",
+            "\\(50^\\circ\\)",
+            "\\(70^\\circ\\)",
+            "\\(60^\\circ\\)"
           ],
           "correctIndex": 3,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "180° - (50° + 70°) = 60°"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "Teng yonli uchburchakning uchidagi burchagi 40°. Asosidagi burchaklarini toping.",
           "options": [
+            "\\(70^\\circ\\)",
             "\\(60^\\circ\\)",
-            "\\(90^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(80^\\circ\\)",
+            "\\(40^\\circ\\)"
           ],
           "correctIndex": 0,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "(180° - 40°) / 2 = 70°"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "To'g'ri burchakli uchburchakning bir o'tkir burchagi 35° bo'lsa, ikkinchi o'tkir burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(140^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(65^\\circ\\)",
+            "\\(55^\\circ\\)",
+            "\\(45^\\circ\\)",
+            "\\(35^\\circ\\)"
           ],
           "correctIndex": 1,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "90° - 35° = 55°"
         }
       ],
       "practiceExercises": [
@@ -19360,39 +19360,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning ikkita burchagi 50° va 70°. Uchinchi burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(80^\\circ\\)",
+            "\\(50^\\circ\\)",
+            "\\(70^\\circ\\)",
+            "\\(60^\\circ\\)"
           ],
           "correctIndex": 3,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "180° - (50° + 70°) = 60°"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "Teng yonli uchburchakning uchidagi burchagi 40°. Asosidagi burchaklarini toping.",
           "options": [
+            "\\(70^\\circ\\)",
             "\\(60^\\circ\\)",
-            "\\(90^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(80^\\circ\\)",
+            "\\(40^\\circ\\)"
           ],
           "correctIndex": 0,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "(180° - 40°) / 2 = 70°"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "To'g'ri burchakli uchburchakning bir o'tkir burchagi 35° bo'lsa, ikkinchi o'tkir burchakni toping.",
           "options": [
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(140^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(65^\\circ\\)",
+            "\\(55^\\circ\\)",
+            "\\(45^\\circ\\)",
+            "\\(35^\\circ\\)"
           ],
           "correctIndex": 1,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "90° - 35° = 55°"
         }
       ],
       "practiceExercises": [
@@ -19565,39 +19565,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "To'g'ri burchak necha gradusga teng?",
+        "question": "Uchburchakning ikkita burchagi 50° va 70°. Uchinchi burchakni toping.",
         "options": [
-          "\\(60^\\circ\\)",
-          "\\(180^\\circ\\)",
-          "\\(45^\\circ\\)",
-          "\\(90^\\circ\\)"
+          "\\(80^\\circ\\)",
+          "\\(50^\\circ\\)",
+          "\\(70^\\circ\\)",
+          "\\(60^\\circ\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri burchak = 90°"
+        "explanation": "180° - (50° + 70°) = 60°"
       },
       {
         "level": "medium",
-        "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+        "question": "Teng yonli uchburchakning uchidagi burchagi 40°. Asosidagi burchaklarini toping.",
         "options": [
+          "\\(70^\\circ\\)",
           "\\(60^\\circ\\)",
-          "\\(90^\\circ\\)",
-          "\\(45^\\circ\\)",
-          "\\(120^\\circ\\)"
+          "\\(80^\\circ\\)",
+          "\\(40^\\circ\\)"
         ],
         "correctIndex": 0,
-        "explanation": "180° / 3 = 60°"
+        "explanation": "(180° - 40°) / 2 = 70°"
       },
       {
         "level": "hard",
-        "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+        "question": "To'g'ri burchakli uchburchakning bir o'tkir burchagi 35° bo'lsa, ikkinchi o'tkir burchakni toping.",
         "options": [
-          "\\(60^\\circ\\)",
-          "\\(50^\\circ\\)",
-          "\\(140^\\circ\\)",
-          "\\(90^\\circ\\)"
+          "\\(65^\\circ\\)",
+          "\\(55^\\circ\\)",
+          "\\(45^\\circ\\)",
+          "\\(35^\\circ\\)"
         ],
         "correctIndex": 1,
-        "explanation": "90° - 40° = 50°"
+        "explanation": "90° - 35° = 55°"
       }
     ],
     "practiceExercises": [
@@ -19814,7 +19814,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^2 - 4x - 21 = 0",
+          "question": "Tenglamaning musbat ildizini toping: \\(x^2 - 4x - 21 = 0\\)",
           "options": [
             "-3",
             "3",
@@ -20025,7 +20025,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^2 - 4x - 21 = 0",
+          "question": "Tenglamaning musbat ildizini toping: \\(x^2 - 4x - 21 = 0\\)",
           "options": [
             "-3",
             "3",
@@ -20236,7 +20236,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^2 - 4x - 21 = 0",
+          "question": "Tenglamaning musbat ildizini toping: \\(x^2 - 4x - 21 = 0\\)",
           "options": [
             "-3",
             "3",
@@ -20452,7 +20452,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamaning musbat ildizini toping: x^2 - 4x - 21 = 0",
+        "question": "Tenglamaning musbat ildizini toping: \\(x^2 - 4x - 21 = 0\\)",
         "options": [
           "-3",
           "3",
@@ -20648,39 +20648,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(219 + 146 - 73\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "292",
+            "294",
+            "290",
+            "584"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "219 + 146 - 73 = 292"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 78 = 234\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "157",
+            "156",
+            "155",
+            "312"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 312 => x = 156"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(83^2 - (83-1)^2\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "167",
+            "166",
+            "165",
+            "83"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (83 + 82) = 165"
         }
       ],
       "practiceExercises": [
@@ -20854,39 +20854,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(219 + 146 - 73\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "292",
+            "294",
+            "290",
+            "584"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "219 + 146 - 73 = 292"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 78 = 234\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "157",
+            "156",
+            "155",
+            "312"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 312 => x = 156"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(83^2 - (83-1)^2\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "167",
+            "166",
+            "165",
+            "83"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (83 + 82) = 165"
         }
       ],
       "practiceExercises": [
@@ -21060,39 +21060,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(219 + 146 - 73\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "292",
+            "294",
+            "290",
+            "584"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "219 + 146 - 73 = 292"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 78 = 234\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "157",
+            "156",
+            "155",
+            "312"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 312 => x = 156"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(83^2 - (83-1)^2\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "167",
+            "166",
+            "165",
+            "83"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (83 + 82) = 165"
         }
       ],
       "practiceExercises": [
@@ -21271,39 +21271,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(96 + 64 - 40\\)",
+        "question": "Hisoblang: \\(219 + 146 - 73\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
         "options": [
-          "120",
-          "125",
-          "115",
-          "240"
+          "292",
+          "294",
+          "290",
+          "584"
         ],
         "correctIndex": 0,
-        "explanation": "96 + 64 - 40 = 120"
+        "explanation": "219 + 146 - 73 = 292"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+        "question": "Tenglamani yeching: \\(2x - 78 = 234\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
         "options": [
-          "17",
-          "16",
-          "15",
-          "32"
+          "157",
+          "156",
+          "155",
+          "312"
         ],
         "correctIndex": 1,
-        "explanation": "2x = 32 => x = 16"
+        "explanation": "2x = 312 => x = 156"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+        "question": "Hisoblang: \\(83^2 - (83-1)^2\\) (Kvadrat ildizlar (Son qayerdan kelganini topish))",
         "options": [
-          "30",
-          "34",
-          "32",
-          "64"
+          "167",
+          "166",
+          "165",
+          "83"
         ],
         "correctIndex": 2,
-        "explanation": "8 + 24 = 32"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (83 + 82) = 165"
       }
     ],
     "practiceExercises": [
@@ -21496,7 +21496,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Katetlari a = 6 \\text{ sm}, b = 8 \\text{ sm} bo'lgan to'g'ri burchakli uchburchakning gipotenuzasini toping.",
+          "question": "Katetlari a = 6 sm, b = 8 sm bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
           "options": [
             "\\(10 \\text{ sm}\\)",
             "\\(14 \\text{ sm}\\)",
@@ -21508,7 +21508,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Gipotenuzasi c = 13 \\text{ sm}, bir kateti a = 5 \\text{ sm} bo'lsa, ikkinchi katetni toping.",
+          "question": "Gipotenuzasi c = 13 sm, bir kateti a = 5 sm bo'lsa, ikkinchi katetni toping.",
           "options": [
             "\\(10 \\text{ sm}\\)",
             "\\(12 \\text{ sm}\\)",
@@ -21520,7 +21520,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Gipotenuzasi 25 sm, bir kateti 24 sm bo'lgan to'g'ri burchakli uchburchakning yuzini hisoblang.",
+          "question": "Gipotenuzasi 25 sm, bir kateti 24 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
           "options": [
             "\\(96 \\text{ sm}^2\\)",
             "\\(168 \\text{ sm}^2\\)",
@@ -21707,7 +21707,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Katetlari a = 6 \\text{ sm}, b = 8 \\text{ sm} bo'lgan to'g'ri burchakli uchburchakning gipotenuzasini toping.",
+          "question": "Katetlari a = 6 sm, b = 8 sm bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
           "options": [
             "\\(10 \\text{ sm}\\)",
             "\\(14 \\text{ sm}\\)",
@@ -21719,7 +21719,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Gipotenuzasi c = 13 \\text{ sm}, bir kateti a = 5 \\text{ sm} bo'lsa, ikkinchi katetni toping.",
+          "question": "Gipotenuzasi c = 13 sm, bir kateti a = 5 sm bo'lsa, ikkinchi katetni toping.",
           "options": [
             "\\(10 \\text{ sm}\\)",
             "\\(12 \\text{ sm}\\)",
@@ -21731,7 +21731,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Gipotenuzasi 25 sm, bir kateti 24 sm bo'lgan to'g'ri burchakli uchburchakning yuzini hisoblang.",
+          "question": "Gipotenuzasi 25 sm, bir kateti 24 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
           "options": [
             "\\(96 \\text{ sm}^2\\)",
             "\\(168 \\text{ sm}^2\\)",
@@ -21918,7 +21918,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Katetlari a = 6 \\text{ sm}, b = 8 \\text{ sm} bo'lgan to'g'ri burchakli uchburchakning gipotenuzasini toping.",
+          "question": "Katetlari a = 6 sm, b = 8 sm bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
           "options": [
             "\\(10 \\text{ sm}\\)",
             "\\(14 \\text{ sm}\\)",
@@ -21930,7 +21930,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Gipotenuzasi c = 13 \\text{ sm}, bir kateti a = 5 \\text{ sm} bo'lsa, ikkinchi katetni toping.",
+          "question": "Gipotenuzasi c = 13 sm, bir kateti a = 5 sm bo'lsa, ikkinchi katetni toping.",
           "options": [
             "\\(10 \\text{ sm}\\)",
             "\\(12 \\text{ sm}\\)",
@@ -21942,7 +21942,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Gipotenuzasi 25 sm, bir kateti 24 sm bo'lgan to'g'ri burchakli uchburchakning yuzini hisoblang.",
+          "question": "Gipotenuzasi 25 sm, bir kateti 24 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
           "options": [
             "\\(96 \\text{ sm}^2\\)",
             "\\(168 \\text{ sm}^2\\)",
@@ -22134,7 +22134,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Katetlari a = 6 \\text{ sm}, b = 8 \\text{ sm} bo'lgan to'g'ri burchakli uchburchakning gipotenuzasini toping.",
+        "question": "Katetlari a = 6 sm, b = 8 sm bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
         "options": [
           "\\(10 \\text{ sm}\\)",
           "\\(14 \\text{ sm}\\)",
@@ -22146,7 +22146,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Gipotenuzasi c = 13 \\text{ sm}, bir kateti a = 5 \\text{ sm} bo'lsa, ikkinchi katetni toping.",
+        "question": "Gipotenuzasi c = 13 sm, bir kateti a = 5 sm bo'lsa, ikkinchi katetni toping.",
         "options": [
           "\\(10 \\text{ sm}\\)",
           "\\(12 \\text{ sm}\\)",
@@ -22158,7 +22158,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Gipotenuzasi 25 sm, bir kateti 24 sm bo'lgan to'g'ri burchakli uchburchakning yuzini hisoblang.",
+        "question": "Gipotenuzasi 25 sm, bir kateti 24 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
         "options": [
           "\\(96 \\text{ sm}^2\\)",
           "\\(168 \\text{ sm}^2\\)",
@@ -22354,39 +22354,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning asosi a = 158 \\text{ sm}, balandligi h = 79 \\text{ sm}. Uning yuzini hisoblang (Uchburchaklar va ularning yuzasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(60^\\circ\\)"
+            "\\(6241 \\text{ sm}^2\\)",
+            "\\(6246 \\text{ sm}^2\\)",
+            "\\(6238 \\text{ sm}^2\\)",
+            "\\(12482 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "S = (a * h)/2 = (158 * 79)/2 = 6241 sm²"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 176 \\text{ sm}, bir tomoni a = 84 \\text{ sm}. Ikkinchi tomonini toping (Uchburchaklar va ularning yuzasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Muntazam shaklning tomoni a = 89 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchaklar va ularning yuzasi).",
           "options": [
-            "\\(140^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(356 \\text{ sm}\\)",
+            "\\(178 \\text{ sm}\\)",
+            "\\(267 \\text{ sm}\\)",
+            "\\(445 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "P = 3 * 89 = 267 sm"
         }
       ],
       "practiceExercises": [
@@ -22560,39 +22560,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning asosi a = 158 \\text{ sm}, balandligi h = 79 \\text{ sm}. Uning yuzini hisoblang (Uchburchaklar va ularning yuzasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(60^\\circ\\)"
+            "\\(6241 \\text{ sm}^2\\)",
+            "\\(6246 \\text{ sm}^2\\)",
+            "\\(6238 \\text{ sm}^2\\)",
+            "\\(12482 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "S = (a * h)/2 = (158 * 79)/2 = 6241 sm²"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 176 \\text{ sm}, bir tomoni a = 84 \\text{ sm}. Ikkinchi tomonini toping (Uchburchaklar va ularning yuzasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Muntazam shaklning tomoni a = 89 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchaklar va ularning yuzasi).",
           "options": [
-            "\\(140^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(356 \\text{ sm}\\)",
+            "\\(178 \\text{ sm}\\)",
+            "\\(267 \\text{ sm}\\)",
+            "\\(445 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "P = 3 * 89 = 267 sm"
         }
       ],
       "practiceExercises": [
@@ -22766,39 +22766,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning asosi a = 158 \\text{ sm}, balandligi h = 79 \\text{ sm}. Uning yuzini hisoblang (Uchburchaklar va ularning yuzasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(60^\\circ\\)"
+            "\\(6241 \\text{ sm}^2\\)",
+            "\\(6246 \\text{ sm}^2\\)",
+            "\\(6238 \\text{ sm}^2\\)",
+            "\\(12482 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "S = (a * h)/2 = (158 * 79)/2 = 6241 sm²"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 176 \\text{ sm}, bir tomoni a = 84 \\text{ sm}. Ikkinchi tomonini toping (Uchburchaklar va ularning yuzasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Muntazam shaklning tomoni a = 89 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchaklar va ularning yuzasi).",
           "options": [
-            "\\(140^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(356 \\text{ sm}\\)",
+            "\\(178 \\text{ sm}\\)",
+            "\\(267 \\text{ sm}\\)",
+            "\\(445 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "P = 3 * 89 = 267 sm"
         }
       ],
       "practiceExercises": [
@@ -22977,39 +22977,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "To'g'ri burchak necha gradusga teng?",
+        "question": "Uchburchakning asosi a = 158 \\text{ sm}, balandligi h = 79 \\text{ sm}. Uning yuzini hisoblang (Uchburchaklar va ularning yuzasi).",
         "options": [
-          "\\(90^\\circ\\)",
-          "\\(180^\\circ\\)",
-          "\\(45^\\circ\\)",
-          "\\(60^\\circ\\)"
+          "\\(6241 \\text{ sm}^2\\)",
+          "\\(6246 \\text{ sm}^2\\)",
+          "\\(6238 \\text{ sm}^2\\)",
+          "\\(12482 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
-        "explanation": "To'g'ri burchak = 90°"
+        "explanation": "S = (a * h)/2 = (158 * 79)/2 = 6241 sm²"
       },
       {
         "level": "medium",
-        "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 176 \\text{ sm}, bir tomoni a = 84 \\text{ sm}. Ikkinchi tomonini toping (Uchburchaklar va ularning yuzasi).",
         "options": [
-          "\\(90^\\circ\\)",
-          "\\(60^\\circ\\)",
-          "\\(45^\\circ\\)",
-          "\\(120^\\circ\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "180° / 3 = 60°"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+        "question": "Muntazam shaklning tomoni a = 89 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchaklar va ularning yuzasi).",
         "options": [
-          "\\(140^\\circ\\)",
-          "\\(60^\\circ\\)",
-          "\\(50^\\circ\\)",
-          "\\(90^\\circ\\)"
+          "\\(356 \\text{ sm}\\)",
+          "\\(178 \\text{ sm}\\)",
+          "\\(267 \\text{ sm}\\)",
+          "\\(445 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "90° - 40° = 50°"
+        "explanation": "P = 3 * 89 = 267 sm"
       }
     ],
     "practiceExercises": [
@@ -23197,39 +23197,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning asosi a = 164 \\text{ sm}, balandligi h = 82 \\text{ sm}. Uning yuzini hisoblang (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(60^\\circ\\)"
+            "\\(6724 \\text{ sm}^2\\)",
+            "\\(6729 \\text{ sm}^2\\)",
+            "\\(6721 \\text{ sm}^2\\)",
+            "\\(13448 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "S = (a * h)/2 = (164 * 82)/2 = 6724 sm²"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 182 \\text{ sm}, bir tomoni a = 87 \\text{ sm}. Ikkinchi tomonini toping (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Muntazam shaklning tomoni a = 92 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
           "options": [
-            "\\(140^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(368 \\text{ sm}\\)",
+            "\\(184 \\text{ sm}\\)",
+            "\\(276 \\text{ sm}\\)",
+            "\\(460 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "P = 3 * 92 = 276 sm"
         }
       ],
       "practiceExercises": [
@@ -23403,39 +23403,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning asosi a = 164 \\text{ sm}, balandligi h = 82 \\text{ sm}. Uning yuzini hisoblang (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(60^\\circ\\)"
+            "\\(6724 \\text{ sm}^2\\)",
+            "\\(6729 \\text{ sm}^2\\)",
+            "\\(6721 \\text{ sm}^2\\)",
+            "\\(13448 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "S = (a * h)/2 = (164 * 82)/2 = 6724 sm²"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 182 \\text{ sm}, bir tomoni a = 87 \\text{ sm}. Ikkinchi tomonini toping (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Muntazam shaklning tomoni a = 92 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
           "options": [
-            "\\(140^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(368 \\text{ sm}\\)",
+            "\\(184 \\text{ sm}\\)",
+            "\\(276 \\text{ sm}\\)",
+            "\\(460 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "P = 3 * 92 = 276 sm"
         }
       ],
       "practiceExercises": [
@@ -23609,39 +23609,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning asosi a = 164 \\text{ sm}, balandligi h = 82 \\text{ sm}. Uning yuzini hisoblang (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(60^\\circ\\)"
+            "\\(6724 \\text{ sm}^2\\)",
+            "\\(6729 \\text{ sm}^2\\)",
+            "\\(6721 \\text{ sm}^2\\)",
+            "\\(13448 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "S = (a * h)/2 = (164 * 82)/2 = 6724 sm²"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 182 \\text{ sm}, bir tomoni a = 87 \\text{ sm}. Ikkinchi tomonini toping (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Muntazam shaklning tomoni a = 92 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
           "options": [
-            "\\(140^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(368 \\text{ sm}\\)",
+            "\\(184 \\text{ sm}\\)",
+            "\\(276 \\text{ sm}\\)",
+            "\\(460 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "P = 3 * 92 = 276 sm"
         }
       ],
       "practiceExercises": [
@@ -23820,39 +23820,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "To'g'ri burchak necha gradusga teng?",
+        "question": "Uchburchakning asosi a = 164 \\text{ sm}, balandligi h = 82 \\text{ sm}. Uning yuzini hisoblang (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
         "options": [
-          "\\(90^\\circ\\)",
-          "\\(180^\\circ\\)",
-          "\\(45^\\circ\\)",
-          "\\(60^\\circ\\)"
+          "\\(6724 \\text{ sm}^2\\)",
+          "\\(6729 \\text{ sm}^2\\)",
+          "\\(6721 \\text{ sm}^2\\)",
+          "\\(13448 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
-        "explanation": "To'g'ri burchak = 90°"
+        "explanation": "S = (a * h)/2 = (164 * 82)/2 = 6724 sm²"
       },
       {
         "level": "medium",
-        "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 182 \\text{ sm}, bir tomoni a = 87 \\text{ sm}. Ikkinchi tomonini toping (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
         "options": [
-          "\\(90^\\circ\\)",
-          "\\(60^\\circ\\)",
-          "\\(45^\\circ\\)",
-          "\\(120^\\circ\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "180° / 3 = 60°"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+        "question": "Muntazam shaklning tomoni a = 92 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (To'rtburchaklar yuzasi (Kvadrat, To'g'ri to'rtburchak, Trapetsiya)).",
         "options": [
-          "\\(140^\\circ\\)",
-          "\\(60^\\circ\\)",
-          "\\(50^\\circ\\)",
-          "\\(90^\\circ\\)"
+          "\\(368 \\text{ sm}\\)",
+          "\\(184 \\text{ sm}\\)",
+          "\\(276 \\text{ sm}\\)",
+          "\\(460 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "90° - 40° = 50°"
+        "explanation": "P = 3 * 92 = 276 sm"
       }
     ],
     "practiceExercises": [
@@ -24040,39 +24040,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(255 + 170 - 85\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "340",
+            "342",
+            "338",
+            "680"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "255 + 170 - 85 = 340"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 90 = 270\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "181",
+            "180",
+            "179",
+            "360"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 360 => x = 180"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(95^2 - (95-1)^2\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "191",
+            "190",
+            "189",
+            "95"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (95 + 94) = 189"
         }
       ],
       "practiceExercises": [
@@ -24246,39 +24246,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(255 + 170 - 85\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "340",
+            "342",
+            "338",
+            "680"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "255 + 170 - 85 = 340"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 90 = 270\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "181",
+            "180",
+            "179",
+            "360"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 360 => x = 180"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(95^2 - (95-1)^2\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "191",
+            "190",
+            "189",
+            "95"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (95 + 94) = 189"
         }
       ],
       "practiceExercises": [
@@ -24452,39 +24452,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(255 + 170 - 85\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "340",
+            "342",
+            "338",
+            "680"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "255 + 170 - 85 = 340"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 90 = 270\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "181",
+            "180",
+            "179",
+            "360"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 360 => x = 180"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(95^2 - (95-1)^2\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "191",
+            "190",
+            "189",
+            "95"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (95 + 94) = 189"
         }
       ],
       "practiceExercises": [
@@ -24663,39 +24663,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(96 + 64 - 40\\)",
+        "question": "Hisoblang: \\(255 + 170 - 85\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
         "options": [
-          "120",
-          "125",
-          "115",
-          "240"
+          "340",
+          "342",
+          "338",
+          "680"
         ],
         "correctIndex": 0,
-        "explanation": "96 + 64 - 40 = 120"
+        "explanation": "255 + 170 - 85 = 340"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+        "question": "Tenglamani yeching: \\(2x - 90 = 270\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
         "options": [
-          "17",
-          "16",
-          "15",
-          "32"
+          "181",
+          "180",
+          "179",
+          "360"
         ],
         "correctIndex": 1,
-        "explanation": "2x = 32 => x = 16"
+        "explanation": "2x = 360 => x = 180"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+        "question": "Hisoblang: \\(95^2 - (95-1)^2\\) (Chiziqli tenglamalar sistemasi (x va y ni topish))",
         "options": [
-          "30",
-          "34",
-          "32",
-          "64"
+          "191",
+          "190",
+          "189",
+          "95"
         ],
         "correctIndex": 2,
-        "explanation": "8 + 24 = 32"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (95 + 94) = 189"
       }
     ],
     "practiceExercises": [
@@ -24883,39 +24883,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(264 + 176 - 88\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "352",
+            "354",
+            "350",
+            "704"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "264 + 176 - 88 = 352"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 93 = 279\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "187",
+            "186",
+            "185",
+            "372"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 372 => x = 186"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(98^2 - (98-1)^2\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "197",
+            "196",
+            "195",
+            "98"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (98 + 97) = 195"
         }
       ],
       "practiceExercises": [
@@ -25089,39 +25089,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(264 + 176 - 88\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "352",
+            "354",
+            "350",
+            "704"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "264 + 176 - 88 = 352"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 93 = 279\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "187",
+            "186",
+            "185",
+            "372"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 372 => x = 186"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(98^2 - (98-1)^2\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "197",
+            "196",
+            "195",
+            "98"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (98 + 97) = 195"
         }
       ],
       "practiceExercises": [
@@ -25295,39 +25295,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(264 + 176 - 88\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "352",
+            "354",
+            "350",
+            "704"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "264 + 176 - 88 = 352"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 93 = 279\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "187",
+            "186",
+            "185",
+            "372"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 372 => x = 186"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(98^2 - (98-1)^2\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "197",
+            "196",
+            "195",
+            "98"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (98 + 97) = 195"
         }
       ],
       "practiceExercises": [
@@ -25506,39 +25506,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(96 + 64 - 40\\)",
+        "question": "Hisoblang: \\(264 + 176 - 88\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
         "options": [
-          "120",
-          "125",
-          "115",
-          "240"
+          "352",
+          "354",
+          "350",
+          "704"
         ],
         "correctIndex": 0,
-        "explanation": "96 + 64 - 40 = 120"
+        "explanation": "264 + 176 - 88 = 352"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+        "question": "Tenglamani yeching: \\(2x - 93 = 279\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
         "options": [
-          "17",
-          "16",
-          "15",
-          "32"
+          "187",
+          "186",
+          "185",
+          "372"
         ],
         "correctIndex": 1,
-        "explanation": "2x = 32 => x = 16"
+        "explanation": "2x = 372 => x = 186"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+        "question": "Hisoblang: \\(98^2 - (98-1)^2\\) (Viyet teoremasi (Ildizlarni og'zaki topish))",
         "options": [
-          "30",
-          "34",
-          "32",
-          "64"
+          "197",
+          "196",
+          "195",
+          "98"
         ],
         "correctIndex": 2,
-        "explanation": "8 + 24 = 32"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (98 + 97) = 195"
       }
     ],
     "practiceExercises": [
@@ -25720,39 +25720,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning asosi a = 182 \\text{ sm}, balandligi h = 91 \\text{ sm}. Uning yuzini hisoblang (O'xshash uchburchaklar va Fales teoremasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(60^\\circ\\)"
+            "\\(8281 \\text{ sm}^2\\)",
+            "\\(8286 \\text{ sm}^2\\)",
+            "\\(8278 \\text{ sm}^2\\)",
+            "\\(16562 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "S = (a * h)/2 = (182 * 91)/2 = 8281 sm²"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 200 \\text{ sm}, bir tomoni a = 96 \\text{ sm}. Ikkinchi tomonini toping (O'xshash uchburchaklar va Fales teoremasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Muntazam shaklning tomoni a = 101 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (O'xshash uchburchaklar va Fales teoremasi).",
           "options": [
-            "\\(140^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(404 \\text{ sm}\\)",
+            "\\(202 \\text{ sm}\\)",
+            "\\(303 \\text{ sm}\\)",
+            "\\(505 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "P = 3 * 101 = 303 sm"
         }
       ],
       "practiceExercises": [
@@ -25926,39 +25926,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning asosi a = 182 \\text{ sm}, balandligi h = 91 \\text{ sm}. Uning yuzini hisoblang (O'xshash uchburchaklar va Fales teoremasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(60^\\circ\\)"
+            "\\(8281 \\text{ sm}^2\\)",
+            "\\(8286 \\text{ sm}^2\\)",
+            "\\(8278 \\text{ sm}^2\\)",
+            "\\(16562 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "S = (a * h)/2 = (182 * 91)/2 = 8281 sm²"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 200 \\text{ sm}, bir tomoni a = 96 \\text{ sm}. Ikkinchi tomonini toping (O'xshash uchburchaklar va Fales teoremasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Muntazam shaklning tomoni a = 101 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (O'xshash uchburchaklar va Fales teoremasi).",
           "options": [
-            "\\(140^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(404 \\text{ sm}\\)",
+            "\\(202 \\text{ sm}\\)",
+            "\\(303 \\text{ sm}\\)",
+            "\\(505 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "P = 3 * 101 = 303 sm"
         }
       ],
       "practiceExercises": [
@@ -26132,39 +26132,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "To'g'ri burchak necha gradusga teng?",
+          "question": "Uchburchakning asosi a = 182 \\text{ sm}, balandligi h = 91 \\text{ sm}. Uning yuzini hisoblang (O'xshash uchburchaklar va Fales teoremasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(180^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(60^\\circ\\)"
+            "\\(8281 \\text{ sm}^2\\)",
+            "\\(8286 \\text{ sm}^2\\)",
+            "\\(8278 \\text{ sm}^2\\)",
+            "\\(16562 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "To'g'ri burchak = 90°"
+          "explanation": "S = (a * h)/2 = (182 * 91)/2 = 8281 sm²"
         },
         {
           "level": "medium",
-          "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 200 \\text{ sm}, bir tomoni a = 96 \\text{ sm}. Ikkinchi tomonini toping (O'xshash uchburchaklar va Fales teoremasi).",
           "options": [
-            "\\(90^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(45^\\circ\\)",
-            "\\(120^\\circ\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "180° / 3 = 60°"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+          "question": "Muntazam shaklning tomoni a = 101 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (O'xshash uchburchaklar va Fales teoremasi).",
           "options": [
-            "\\(140^\\circ\\)",
-            "\\(60^\\circ\\)",
-            "\\(50^\\circ\\)",
-            "\\(90^\\circ\\)"
+            "\\(404 \\text{ sm}\\)",
+            "\\(202 \\text{ sm}\\)",
+            "\\(303 \\text{ sm}\\)",
+            "\\(505 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "90° - 40° = 50°"
+          "explanation": "P = 3 * 101 = 303 sm"
         }
       ],
       "practiceExercises": [
@@ -26337,39 +26337,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "To'g'ri burchak necha gradusga teng?",
+        "question": "Uchburchakning asosi a = 182 \\text{ sm}, balandligi h = 91 \\text{ sm}. Uning yuzini hisoblang (O'xshash uchburchaklar va Fales teoremasi).",
         "options": [
-          "\\(90^\\circ\\)",
-          "\\(180^\\circ\\)",
-          "\\(45^\\circ\\)",
-          "\\(60^\\circ\\)"
+          "\\(8281 \\text{ sm}^2\\)",
+          "\\(8286 \\text{ sm}^2\\)",
+          "\\(8278 \\text{ sm}^2\\)",
+          "\\(16562 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
-        "explanation": "To'g'ri burchak = 90°"
+        "explanation": "S = (a * h)/2 = (182 * 91)/2 = 8281 sm²"
       },
       {
         "level": "medium",
-        "question": "Yoyiq burchakning 1/3 qismini hisoblang.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 200 \\text{ sm}, bir tomoni a = 96 \\text{ sm}. Ikkinchi tomonini toping (O'xshash uchburchaklar va Fales teoremasi).",
         "options": [
-          "\\(90^\\circ\\)",
-          "\\(60^\\circ\\)",
-          "\\(45^\\circ\\)",
-          "\\(120^\\circ\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "180° / 3 = 60°"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "O'tkir burchak 40° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
+        "question": "Muntazam shaklning tomoni a = 101 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (O'xshash uchburchaklar va Fales teoremasi).",
         "options": [
-          "\\(140^\\circ\\)",
-          "\\(60^\\circ\\)",
-          "\\(50^\\circ\\)",
-          "\\(90^\\circ\\)"
+          "\\(404 \\text{ sm}\\)",
+          "\\(202 \\text{ sm}\\)",
+          "\\(303 \\text{ sm}\\)",
+          "\\(505 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "90° - 40° = 50°"
+        "explanation": "P = 3 * 101 = 303 sm"
       }
     ],
     "practiceExercises": [
@@ -26586,15 +26586,15 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
+          "question": "Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.",
           "options": [
-            "18",
-            "48",
-            "162",
-            "54"
+            "5",
+            "4",
+            "2",
+            "3"
           ],
           "correctIndex": 3,
-          "explanation": "b4 = 2 * 3³ = 2 * 27 = 54"
+          "explanation": "d = (62 - 5)/19 = 3"
         }
       ],
       "practiceExercises": [
@@ -26797,15 +26797,15 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
+          "question": "Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.",
           "options": [
-            "18",
-            "48",
-            "162",
-            "54"
+            "5",
+            "4",
+            "2",
+            "3"
           ],
           "correctIndex": 3,
-          "explanation": "b4 = 2 * 3³ = 2 * 27 = 54"
+          "explanation": "d = (62 - 5)/19 = 3"
         }
       ],
       "practiceExercises": [
@@ -27008,15 +27008,15 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
+          "question": "Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.",
           "options": [
-            "18",
-            "48",
-            "162",
-            "54"
+            "5",
+            "4",
+            "2",
+            "3"
           ],
           "correctIndex": 3,
-          "explanation": "b4 = 2 * 3³ = 2 * 27 = 54"
+          "explanation": "d = (62 - 5)/19 = 3"
         }
       ],
       "practiceExercises": [
@@ -27224,15 +27224,15 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
+        "question": "Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.",
         "options": [
-          "18",
-          "48",
-          "162",
-          "54"
+          "5",
+          "4",
+          "2",
+          "3"
         ],
         "correctIndex": 3,
-        "explanation": "b4 = 2 * 3³ = 2 * 27 = 54"
+        "explanation": "d = (62 - 5)/19 = 3"
       }
     ],
     "practiceExercises": [
@@ -27425,39 +27425,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "48",
+            "54",
+            "162",
+            "18"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "b4 = 2 * 3³ = 2 * 27 = 54"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "48",
+            "96",
+            "93",
+            "63"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "S5 = 3*(32 - 1)/(2 - 1) = 93"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Cheksiz kamayuvchi geometrik progressiyada b_1 = 12, q = 1/3 bo'lsa, yig'indisini hisoblang.",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "36",
+            "16",
+            "24",
+            "18"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "S = 12 / (1 - 1/3) = 18"
         }
       ],
       "practiceExercises": [
@@ -27636,39 +27636,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "48",
+            "54",
+            "162",
+            "18"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "b4 = 2 * 3³ = 2 * 27 = 54"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "48",
+            "96",
+            "93",
+            "63"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "S5 = 3*(32 - 1)/(2 - 1) = 93"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Cheksiz kamayuvchi geometrik progressiyada b_1 = 12, q = 1/3 bo'lsa, yig'indisini hisoblang.",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "36",
+            "16",
+            "24",
+            "18"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "S = 12 / (1 - 1/3) = 18"
         }
       ],
       "practiceExercises": [
@@ -27847,39 +27847,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "48",
+            "54",
+            "162",
+            "18"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "b4 = 2 * 3³ = 2 * 27 = 54"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "48",
+            "96",
+            "93",
+            "63"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "S5 = 3*(32 - 1)/(2 - 1) = 93"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Cheksiz kamayuvchi geometrik progressiyada b_1 = 12, q = 1/3 bo'lsa, yig'indisini hisoblang.",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "36",
+            "16",
+            "24",
+            "18"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "S = 12 / (1 - 1/3) = 18"
         }
       ],
       "practiceExercises": [
@@ -28063,39 +28063,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(108 + 72 - 45\\)",
+        "question": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
         "options": [
-          "140",
-          "135",
-          "130",
-          "270"
+          "48",
+          "54",
+          "162",
+          "18"
         ],
         "correctIndex": 1,
-        "explanation": "108 + 72 - 45 = 135"
+        "explanation": "b4 = 2 * 3³ = 2 * 27 = 54"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+        "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.",
         "options": [
-          "17",
-          "19",
-          "18",
-          "36"
+          "48",
+          "96",
+          "93",
+          "63"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 36 => x = 18"
+        "explanation": "S5 = 3*(32 - 1)/(2 - 1) = 93"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+        "question": "Cheksiz kamayuvchi geometrik progressiyada b_1 = 12, q = 1/3 bo'lsa, yig'indisini hisoblang.",
         "options": [
-          "72",
-          "38",
-          "34",
-          "36"
+          "36",
+          "16",
+          "24",
+          "18"
         ],
         "correctIndex": 3,
-        "explanation": "9 + 27 = 36"
+        "explanation": "S = 12 / (1 - 1/3) = 18"
       }
     ],
     "practiceExercises": [
@@ -28288,39 +28288,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
+          "question": "Hisoblang: \\(300 + 200 - 100\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
           "options": [
-            "1",
-            "2",
-            "1.5",
-            "0"
+            "402",
+            "400",
+            "398",
+            "800"
           ],
           "correctIndex": 1,
-          "explanation": "0.5 + 0.5 + 1 = 2"
+          "explanation": "300 + 200 - 100 = 400"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
+          "question": "Tenglamani yeching: \\(2x - 105 = 315\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
           "options": [
-            "7",
-            "5",
-            "6",
-            "1"
+            "209",
+            "211",
+            "210",
+            "420"
           ],
           "correctIndex": 2,
-          "explanation": "1 + 5 = 6"
+          "explanation": "2x = 420 => x = 210"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
+          "question": "Hisoblang: \\(110^2 - (110-1)^2\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
           "options": [
-            "\\(\\frac{\\sqrt{2}}{2}\\)",
-            "1",
-            "\\(\\frac{1}{2}\\)",
-            "\\(\\frac{\\sqrt{3}}{2}\\)"
+            "110",
+            "220",
+            "221",
+            "219"
           ],
           "correctIndex": 3,
-          "explanation": "sin(60°) = √3/2"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (110 + 109) = 219"
         }
       ],
       "practiceExercises": [
@@ -28499,39 +28499,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
+          "question": "Hisoblang: \\(300 + 200 - 100\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
           "options": [
-            "1",
-            "2",
-            "1.5",
-            "0"
+            "402",
+            "400",
+            "398",
+            "800"
           ],
           "correctIndex": 1,
-          "explanation": "0.5 + 0.5 + 1 = 2"
+          "explanation": "300 + 200 - 100 = 400"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
+          "question": "Tenglamani yeching: \\(2x - 105 = 315\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
           "options": [
-            "7",
-            "5",
-            "6",
-            "1"
+            "209",
+            "211",
+            "210",
+            "420"
           ],
           "correctIndex": 2,
-          "explanation": "1 + 5 = 6"
+          "explanation": "2x = 420 => x = 210"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
+          "question": "Hisoblang: \\(110^2 - (110-1)^2\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
           "options": [
-            "\\(\\frac{\\sqrt{2}}{2}\\)",
-            "1",
-            "\\(\\frac{1}{2}\\)",
-            "\\(\\frac{\\sqrt{3}}{2}\\)"
+            "110",
+            "220",
+            "221",
+            "219"
           ],
           "correctIndex": 3,
-          "explanation": "sin(60°) = √3/2"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (110 + 109) = 219"
         }
       ],
       "practiceExercises": [
@@ -28710,39 +28710,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
+          "question": "Hisoblang: \\(300 + 200 - 100\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
           "options": [
-            "1",
-            "2",
-            "1.5",
-            "0"
+            "402",
+            "400",
+            "398",
+            "800"
           ],
           "correctIndex": 1,
-          "explanation": "0.5 + 0.5 + 1 = 2"
+          "explanation": "300 + 200 - 100 = 400"
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
+          "question": "Tenglamani yeching: \\(2x - 105 = 315\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
           "options": [
-            "7",
-            "5",
-            "6",
-            "1"
+            "209",
+            "211",
+            "210",
+            "420"
           ],
           "correctIndex": 2,
-          "explanation": "1 + 5 = 6"
+          "explanation": "2x = 420 => x = 210"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
+          "question": "Hisoblang: \\(110^2 - (110-1)^2\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
           "options": [
-            "\\(\\frac{\\sqrt{2}}{2}\\)",
-            "1",
-            "\\(\\frac{1}{2}\\)",
-            "\\(\\frac{\\sqrt{3}}{2}\\)"
+            "110",
+            "220",
+            "221",
+            "219"
           ],
           "correctIndex": 3,
-          "explanation": "sin(60°) = √3/2"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (110 + 109) = 219"
         }
       ],
       "practiceExercises": [
@@ -28926,39 +28926,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
+        "question": "Hisoblang: \\(300 + 200 - 100\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
         "options": [
-          "1",
-          "2",
-          "1.5",
-          "0"
+          "402",
+          "400",
+          "398",
+          "800"
         ],
         "correctIndex": 1,
-        "explanation": "0.5 + 0.5 + 1 = 2"
+        "explanation": "300 + 200 - 100 = 400"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
+        "question": "Tenglamani yeching: \\(2x - 105 = 315\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
         "options": [
-          "7",
-          "5",
-          "6",
-          "1"
+          "209",
+          "211",
+          "210",
+          "420"
         ],
         "correctIndex": 2,
-        "explanation": "1 + 5 = 6"
+        "explanation": "2x = 420 => x = 210"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
+        "question": "Hisoblang: \\(110^2 - (110-1)^2\\) (Trigonometriya asoslari (Sinus, Kosinus, Tangens))",
         "options": [
-          "\\(\\frac{\\sqrt{2}}{2}\\)",
-          "1",
-          "\\(\\frac{1}{2}\\)",
-          "\\(\\frac{\\sqrt{3}}{2}\\)"
+          "110",
+          "220",
+          "221",
+          "219"
         ],
         "correctIndex": 3,
-        "explanation": "sin(60°) = √3/2"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (110 + 109) = 219"
       }
     ],
     "practiceExercises": [
@@ -29151,39 +29151,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 206 \\text{ sm}, balandligi h = 103 \\text{ sm}. Uning yuzini hisoblang (Sinuslar va Kosinuslar teoremalari).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(10614 \\text{ sm}^2\\)",
+            "\\(10609 \\text{ sm}^2\\)",
+            "\\(10606 \\text{ sm}^2\\)",
+            "\\(21218 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (206 * 103)/2 = 10609 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 224 \\text{ sm}, bir tomoni a = 108 \\text{ sm}. Ikkinchi tomonini toping (Sinuslar va Kosinuslar teoremalari).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 113 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Sinuslar va Kosinuslar teoremalari).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(565 \\text{ sm}\\)",
+            "\\(226 \\text{ sm}\\)",
+            "\\(452 \\text{ sm}\\)",
+            "\\(339 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 113 = 339 sm"
         }
       ],
       "practiceExercises": [
@@ -29362,39 +29362,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 206 \\text{ sm}, balandligi h = 103 \\text{ sm}. Uning yuzini hisoblang (Sinuslar va Kosinuslar teoremalari).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(10614 \\text{ sm}^2\\)",
+            "\\(10609 \\text{ sm}^2\\)",
+            "\\(10606 \\text{ sm}^2\\)",
+            "\\(21218 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (206 * 103)/2 = 10609 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 224 \\text{ sm}, bir tomoni a = 108 \\text{ sm}. Ikkinchi tomonini toping (Sinuslar va Kosinuslar teoremalari).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 113 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Sinuslar va Kosinuslar teoremalari).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(565 \\text{ sm}\\)",
+            "\\(226 \\text{ sm}\\)",
+            "\\(452 \\text{ sm}\\)",
+            "\\(339 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 113 = 339 sm"
         }
       ],
       "practiceExercises": [
@@ -29573,39 +29573,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 206 \\text{ sm}, balandligi h = 103 \\text{ sm}. Uning yuzini hisoblang (Sinuslar va Kosinuslar teoremalari).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(10614 \\text{ sm}^2\\)",
+            "\\(10609 \\text{ sm}^2\\)",
+            "\\(10606 \\text{ sm}^2\\)",
+            "\\(21218 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (206 * 103)/2 = 10609 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 224 \\text{ sm}, bir tomoni a = 108 \\text{ sm}. Ikkinchi tomonini toping (Sinuslar va Kosinuslar teoremalari).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 113 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Sinuslar va Kosinuslar teoremalari).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(565 \\text{ sm}\\)",
+            "\\(226 \\text{ sm}\\)",
+            "\\(452 \\text{ sm}\\)",
+            "\\(339 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 113 = 339 sm"
         }
       ],
       "practiceExercises": [
@@ -29789,39 +29789,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 206 \\text{ sm}, balandligi h = 103 \\text{ sm}. Uning yuzini hisoblang (Sinuslar va Kosinuslar teoremalari).",
         "options": [
-          "\\(85 \\text{ sm}^2\\)",
-          "\\(81 \\text{ sm}^2\\)",
-          "\\(79 \\text{ sm}^2\\)",
-          "\\(162 \\text{ sm}^2\\)"
+          "\\(10614 \\text{ sm}^2\\)",
+          "\\(10609 \\text{ sm}^2\\)",
+          "\\(10606 \\text{ sm}^2\\)",
+          "\\(21218 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
-        "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+        "explanation": "S = (a * h)/2 = (206 * 103)/2 = 10609 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 224 \\text{ sm}, bir tomoni a = 108 \\text{ sm}. Ikkinchi tomonini toping (Sinuslar va Kosinuslar teoremalari).",
         "options": [
-          "\\(19 \\text{ sm}\\)",
-          "\\(15 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 113 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Sinuslar va Kosinuslar teoremalari).",
         "options": [
-          "\\(81 \\text{ sm}\\)",
-          "\\(36 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)",
-          "\\(54 \\text{ sm}\\)"
+          "\\(565 \\text{ sm}\\)",
+          "\\(226 \\text{ sm}\\)",
+          "\\(452 \\text{ sm}\\)",
+          "\\(339 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 3a = 3 * 18 = 54 sm"
+        "explanation": "P = 3 * 113 = 339 sm"
       }
     ],
     "practiceExercises": [
@@ -30009,39 +30009,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 212 \\text{ sm}, balandligi h = 106 \\text{ sm}. Uning yuzini hisoblang (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(11241 \\text{ sm}^2\\)",
+            "\\(11236 \\text{ sm}^2\\)",
+            "\\(11233 \\text{ sm}^2\\)",
+            "\\(22472 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (212 * 106)/2 = 11236 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 230 \\text{ sm}, bir tomoni a = 111 \\text{ sm}. Ikkinchi tomonini toping (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 116 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(580 \\text{ sm}\\)",
+            "\\(232 \\text{ sm}\\)",
+            "\\(464 \\text{ sm}\\)",
+            "\\(348 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 116 = 348 sm"
         }
       ],
       "practiceExercises": [
@@ -30215,39 +30215,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 212 \\text{ sm}, balandligi h = 106 \\text{ sm}. Uning yuzini hisoblang (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(11241 \\text{ sm}^2\\)",
+            "\\(11236 \\text{ sm}^2\\)",
+            "\\(11233 \\text{ sm}^2\\)",
+            "\\(22472 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (212 * 106)/2 = 11236 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 230 \\text{ sm}, bir tomoni a = 111 \\text{ sm}. Ikkinchi tomonini toping (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 116 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(580 \\text{ sm}\\)",
+            "\\(232 \\text{ sm}\\)",
+            "\\(464 \\text{ sm}\\)",
+            "\\(348 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 116 = 348 sm"
         }
       ],
       "practiceExercises": [
@@ -30421,39 +30421,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 212 \\text{ sm}, balandligi h = 106 \\text{ sm}. Uning yuzini hisoblang (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(11241 \\text{ sm}^2\\)",
+            "\\(11236 \\text{ sm}^2\\)",
+            "\\(11233 \\text{ sm}^2\\)",
+            "\\(22472 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (212 * 106)/2 = 11236 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 230 \\text{ sm}, bir tomoni a = 111 \\text{ sm}. Ikkinchi tomonini toping (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 116 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(580 \\text{ sm}\\)",
+            "\\(232 \\text{ sm}\\)",
+            "\\(464 \\text{ sm}\\)",
+            "\\(348 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 116 = 348 sm"
         }
       ],
       "practiceExercises": [
@@ -30632,39 +30632,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 212 \\text{ sm}, balandligi h = 106 \\text{ sm}. Uning yuzini hisoblang (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
         "options": [
-          "\\(85 \\text{ sm}^2\\)",
-          "\\(81 \\text{ sm}^2\\)",
-          "\\(79 \\text{ sm}^2\\)",
-          "\\(162 \\text{ sm}^2\\)"
+          "\\(11241 \\text{ sm}^2\\)",
+          "\\(11236 \\text{ sm}^2\\)",
+          "\\(11233 \\text{ sm}^2\\)",
+          "\\(22472 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
-        "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+        "explanation": "S = (a * h)/2 = (212 * 106)/2 = 11236 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 230 \\text{ sm}, bir tomoni a = 111 \\text{ sm}. Ikkinchi tomonini toping (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
         "options": [
-          "\\(19 \\text{ sm}\\)",
-          "\\(15 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 116 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Vektorlar asoslari (Yo'nalish va Uzunlik)).",
         "options": [
-          "\\(81 \\text{ sm}\\)",
-          "\\(36 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)",
-          "\\(54 \\text{ sm}\\)"
+          "\\(580 \\text{ sm}\\)",
+          "\\(232 \\text{ sm}\\)",
+          "\\(464 \\text{ sm}\\)",
+          "\\(348 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 3a = 3 * 18 = 54 sm"
+        "explanation": "P = 3 * 116 = 348 sm"
       }
     ],
     "practiceExercises": [
@@ -30852,39 +30852,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 218 \\text{ sm}, balandligi h = 109 \\text{ sm}. Uning yuzini hisoblang (Geron formulasi (3 tomon bo'yicha yuza)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(11886 \\text{ sm}^2\\)",
+            "\\(11881 \\text{ sm}^2\\)",
+            "\\(11878 \\text{ sm}^2\\)",
+            "\\(23762 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (218 * 109)/2 = 11881 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 236 \\text{ sm}, bir tomoni a = 114 \\text{ sm}. Ikkinchi tomonini toping (Geron formulasi (3 tomon bo'yicha yuza)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 119 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Geron formulasi (3 tomon bo'yicha yuza)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(595 \\text{ sm}\\)",
+            "\\(238 \\text{ sm}\\)",
+            "\\(476 \\text{ sm}\\)",
+            "\\(357 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 119 = 357 sm"
         }
       ],
       "practiceExercises": [
@@ -31058,39 +31058,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 218 \\text{ sm}, balandligi h = 109 \\text{ sm}. Uning yuzini hisoblang (Geron formulasi (3 tomon bo'yicha yuza)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(11886 \\text{ sm}^2\\)",
+            "\\(11881 \\text{ sm}^2\\)",
+            "\\(11878 \\text{ sm}^2\\)",
+            "\\(23762 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (218 * 109)/2 = 11881 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 236 \\text{ sm}, bir tomoni a = 114 \\text{ sm}. Ikkinchi tomonini toping (Geron formulasi (3 tomon bo'yicha yuza)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 119 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Geron formulasi (3 tomon bo'yicha yuza)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(595 \\text{ sm}\\)",
+            "\\(238 \\text{ sm}\\)",
+            "\\(476 \\text{ sm}\\)",
+            "\\(357 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 119 = 357 sm"
         }
       ],
       "practiceExercises": [
@@ -31264,39 +31264,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 218 \\text{ sm}, balandligi h = 109 \\text{ sm}. Uning yuzini hisoblang (Geron formulasi (3 tomon bo'yicha yuza)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(11886 \\text{ sm}^2\\)",
+            "\\(11881 \\text{ sm}^2\\)",
+            "\\(11878 \\text{ sm}^2\\)",
+            "\\(23762 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (218 * 109)/2 = 11881 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 236 \\text{ sm}, bir tomoni a = 114 \\text{ sm}. Ikkinchi tomonini toping (Geron formulasi (3 tomon bo'yicha yuza)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 119 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Geron formulasi (3 tomon bo'yicha yuza)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(595 \\text{ sm}\\)",
+            "\\(238 \\text{ sm}\\)",
+            "\\(476 \\text{ sm}\\)",
+            "\\(357 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 119 = 357 sm"
         }
       ],
       "practiceExercises": [
@@ -31475,39 +31475,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 218 \\text{ sm}, balandligi h = 109 \\text{ sm}. Uning yuzini hisoblang (Geron formulasi (3 tomon bo'yicha yuza)).",
         "options": [
-          "\\(85 \\text{ sm}^2\\)",
-          "\\(81 \\text{ sm}^2\\)",
-          "\\(79 \\text{ sm}^2\\)",
-          "\\(162 \\text{ sm}^2\\)"
+          "\\(11886 \\text{ sm}^2\\)",
+          "\\(11881 \\text{ sm}^2\\)",
+          "\\(11878 \\text{ sm}^2\\)",
+          "\\(23762 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
-        "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+        "explanation": "S = (a * h)/2 = (218 * 109)/2 = 11881 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 236 \\text{ sm}, bir tomoni a = 114 \\text{ sm}. Ikkinchi tomonini toping (Geron formulasi (3 tomon bo'yicha yuza)).",
         "options": [
-          "\\(19 \\text{ sm}\\)",
-          "\\(15 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 119 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Geron formulasi (3 tomon bo'yicha yuza)).",
         "options": [
-          "\\(81 \\text{ sm}\\)",
-          "\\(36 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)",
-          "\\(54 \\text{ sm}\\)"
+          "\\(595 \\text{ sm}\\)",
+          "\\(238 \\text{ sm}\\)",
+          "\\(476 \\text{ sm}\\)",
+          "\\(357 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 3a = 3 * 18 = 54 sm"
+        "explanation": "P = 3 * 119 = 357 sm"
       }
     ],
     "practiceExercises": [
@@ -31695,39 +31695,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(336 + 224 - 112\\) (Kvadratik tengsizliklar (Intervallar usuli))",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "450",
+            "448",
+            "446",
+            "896"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "336 + 224 - 112 = 448"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 117 = 351\\) (Kvadratik tengsizliklar (Intervallar usuli))",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "233",
+            "235",
+            "234",
+            "468"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 468 => x = 234"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(122^2 - (122-1)^2\\) (Kvadratik tengsizliklar (Intervallar usuli))",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "122",
+            "244",
+            "245",
+            "243"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (122 + 121) = 243"
         }
       ],
       "practiceExercises": [
@@ -31901,39 +31901,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(336 + 224 - 112\\) (Kvadratik tengsizliklar (Intervallar usuli))",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "450",
+            "448",
+            "446",
+            "896"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "336 + 224 - 112 = 448"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 117 = 351\\) (Kvadratik tengsizliklar (Intervallar usuli))",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "233",
+            "235",
+            "234",
+            "468"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 468 => x = 234"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(122^2 - (122-1)^2\\) (Kvadratik tengsizliklar (Intervallar usuli))",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "122",
+            "244",
+            "245",
+            "243"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (122 + 121) = 243"
         }
       ],
       "practiceExercises": [
@@ -32107,39 +32107,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(336 + 224 - 112\\) (Kvadratik tengsizliklar (Intervallar usuli))",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "450",
+            "448",
+            "446",
+            "896"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "336 + 224 - 112 = 448"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 117 = 351\\) (Kvadratik tengsizliklar (Intervallar usuli))",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "233",
+            "235",
+            "234",
+            "468"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 468 => x = 234"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(122^2 - (122-1)^2\\) (Kvadratik tengsizliklar (Intervallar usuli))",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "122",
+            "244",
+            "245",
+            "243"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (122 + 121) = 243"
         }
       ],
       "practiceExercises": [
@@ -32318,39 +32318,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(108 + 72 - 45\\)",
+        "question": "Hisoblang: \\(336 + 224 - 112\\) (Kvadratik tengsizliklar (Intervallar usuli))",
         "options": [
-          "140",
-          "135",
-          "130",
-          "270"
+          "450",
+          "448",
+          "446",
+          "896"
         ],
         "correctIndex": 1,
-        "explanation": "108 + 72 - 45 = 135"
+        "explanation": "336 + 224 - 112 = 448"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+        "question": "Tenglamani yeching: \\(2x - 117 = 351\\) (Kvadratik tengsizliklar (Intervallar usuli))",
         "options": [
-          "17",
-          "19",
-          "18",
-          "36"
+          "233",
+          "235",
+          "234",
+          "468"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 36 => x = 18"
+        "explanation": "2x = 468 => x = 234"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+        "question": "Hisoblang: \\(122^2 - (122-1)^2\\) (Kvadratik tengsizliklar (Intervallar usuli))",
         "options": [
-          "72",
-          "38",
-          "34",
-          "36"
+          "122",
+          "244",
+          "245",
+          "243"
         ],
         "correctIndex": 3,
-        "explanation": "9 + 27 = 36"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (122 + 121) = 243"
       }
     ],
     "practiceExercises": [
@@ -32532,39 +32532,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(345 + 230 - 115\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "462",
+            "460",
+            "458",
+            "920"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "345 + 230 - 115 = 460"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 120 = 360\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "239",
+            "241",
+            "240",
+            "480"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 480 => x = 240"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(125^2 - (125-1)^2\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "125",
+            "250",
+            "251",
+            "249"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (125 + 124) = 249"
         }
       ],
       "practiceExercises": [
@@ -32738,39 +32738,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(345 + 230 - 115\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "462",
+            "460",
+            "458",
+            "920"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "345 + 230 - 115 = 460"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 120 = 360\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "239",
+            "241",
+            "240",
+            "480"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 480 => x = 240"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(125^2 - (125-1)^2\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "125",
+            "250",
+            "251",
+            "249"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (125 + 124) = 249"
         }
       ],
       "practiceExercises": [
@@ -32944,39 +32944,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(345 + 230 - 115\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "462",
+            "460",
+            "458",
+            "920"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "345 + 230 - 115 = 460"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 120 = 360\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "239",
+            "241",
+            "240",
+            "480"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 480 => x = 240"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(125^2 - (125-1)^2\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "125",
+            "250",
+            "251",
+            "249"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (125 + 124) = 249"
         }
       ],
       "practiceExercises": [
@@ -33149,39 +33149,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(108 + 72 - 45\\)",
+        "question": "Hisoblang: \\(345 + 230 - 115\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
         "options": [
-          "140",
-          "135",
-          "130",
-          "270"
+          "462",
+          "460",
+          "458",
+          "920"
         ],
         "correctIndex": 1,
-        "explanation": "108 + 72 - 45 = 135"
+        "explanation": "345 + 230 - 115 = 460"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+        "question": "Tenglamani yeching: \\(2x - 120 = 360\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
         "options": [
-          "17",
-          "19",
-          "18",
-          "36"
+          "239",
+          "241",
+          "240",
+          "480"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 36 => x = 18"
+        "explanation": "2x = 480 => x = 240"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+        "question": "Hisoblang: \\(125^2 - (125-1)^2\\) (Trigonometrik burchaklar jadvali (0°, 30°, 45°, 60°, 90°))",
         "options": [
-          "72",
-          "38",
-          "34",
-          "36"
+          "125",
+          "250",
+          "251",
+          "249"
         ],
         "correctIndex": 3,
-        "explanation": "9 + 27 = 36"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (125 + 124) = 249"
       }
     ],
     "practiceExercises": [
@@ -34237,39 +34237,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(363 + 242 - 121\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "482",
+            "486",
+            "484",
+            "968"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "363 + 242 - 121 = 484"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 126 = 378\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "504",
+            "253",
+            "251",
+            "252"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 504 => x = 252"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(131^2 - (131-1)^2\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "261",
+            "262",
+            "263",
+            "131"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (131 + 130) = 261"
         }
       ],
       "practiceExercises": [
@@ -34448,39 +34448,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(363 + 242 - 121\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "482",
+            "486",
+            "484",
+            "968"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "363 + 242 - 121 = 484"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 126 = 378\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "504",
+            "253",
+            "251",
+            "252"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 504 => x = 252"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(131^2 - (131-1)^2\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "261",
+            "262",
+            "263",
+            "131"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (131 + 130) = 261"
         }
       ],
       "practiceExercises": [
@@ -34659,39 +34659,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(363 + 242 - 121\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "482",
+            "486",
+            "484",
+            "968"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "363 + 242 - 121 = 484"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 126 = 378\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "504",
+            "253",
+            "251",
+            "252"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 504 => x = 252"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(131^2 - (131-1)^2\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "261",
+            "262",
+            "263",
+            "131"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (131 + 130) = 261"
         }
       ],
       "practiceExercises": [
@@ -34875,39 +34875,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(120 + 80 - 50\\)",
+        "question": "Hisoblang: \\(363 + 242 - 121\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
         "options": [
-          "145",
-          "155",
-          "150",
-          "300"
+          "482",
+          "486",
+          "484",
+          "968"
         ],
         "correctIndex": 2,
-        "explanation": "120 + 80 - 50 = 150"
+        "explanation": "363 + 242 - 121 = 484"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+        "question": "Tenglamani yeching: \\(2x - 126 = 378\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
         "options": [
-          "40",
-          "21",
-          "19",
-          "20"
+          "504",
+          "253",
+          "251",
+          "252"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 40 => x = 20"
+        "explanation": "2x = 504 => x = 252"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+        "question": "Hisoblang: \\(131^2 - (131-1)^2\\) (Trigonometrik ayniyatlar va Qo'shish formulalari)",
         "options": [
-          "40",
-          "42",
-          "38",
-          "80"
+          "261",
+          "262",
+          "263",
+          "131"
         ],
         "correctIndex": 0,
-        "explanation": "10 + 30 = 40"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (131 + 130) = 261"
       }
     ],
     "practiceExercises": [
@@ -35095,39 +35095,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(372 + 248 - 124\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "494",
+            "498",
+            "496",
+            "992"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "372 + 248 - 124 = 496"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 129 = 387\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "516",
+            "259",
+            "257",
+            "258"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 516 => x = 258"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(134^2 - (134-1)^2\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "267",
+            "268",
+            "269",
+            "134"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (134 + 133) = 267"
         }
       ],
       "practiceExercises": [
@@ -35301,39 +35301,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(372 + 248 - 124\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "494",
+            "498",
+            "496",
+            "992"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "372 + 248 - 124 = 496"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 129 = 387\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "516",
+            "259",
+            "257",
+            "258"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 516 => x = 258"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(134^2 - (134-1)^2\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "267",
+            "268",
+            "269",
+            "134"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (134 + 133) = 267"
         }
       ],
       "practiceExercises": [
@@ -35507,39 +35507,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(372 + 248 - 124\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "494",
+            "498",
+            "496",
+            "992"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "372 + 248 - 124 = 496"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 129 = 387\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "516",
+            "259",
+            "257",
+            "258"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 516 => x = 258"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(134^2 - (134-1)^2\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "267",
+            "268",
+            "269",
+            "134"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (134 + 133) = 267"
         }
       ],
       "practiceExercises": [
@@ -35718,39 +35718,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(120 + 80 - 50\\)",
+        "question": "Hisoblang: \\(372 + 248 - 124\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
         "options": [
-          "145",
-          "155",
-          "150",
-          "300"
+          "494",
+          "498",
+          "496",
+          "992"
         ],
         "correctIndex": 2,
-        "explanation": "120 + 80 - 50 = 150"
+        "explanation": "372 + 248 - 124 = 496"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+        "question": "Tenglamani yeching: \\(2x - 129 = 387\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
         "options": [
-          "40",
-          "21",
-          "19",
-          "20"
+          "516",
+          "259",
+          "257",
+          "258"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 40 => x = 20"
+        "explanation": "2x = 516 => x = 258"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+        "question": "Hisoblang: \\(134^2 - (134-1)^2\\) (Ko'rsatkichli tenglamalar (aˣ = aᵇ))",
         "options": [
-          "40",
-          "42",
-          "38",
-          "80"
+          "267",
+          "268",
+          "269",
+          "134"
         ],
         "correctIndex": 0,
-        "explanation": "10 + 30 = 40"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (134 + 133) = 267"
       }
     ],
     "practiceExercises": [
@@ -35938,39 +35938,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(381 + 254 - 127\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "506",
+            "510",
+            "508",
+            "1016"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "381 + 254 - 127 = 508"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 132 = 396\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "528",
+            "265",
+            "263",
+            "264"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 528 => x = 264"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(137^2 - (137-1)^2\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "273",
+            "274",
+            "275",
+            "137"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (137 + 136) = 273"
         }
       ],
       "practiceExercises": [
@@ -36144,39 +36144,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(381 + 254 - 127\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "506",
+            "510",
+            "508",
+            "1016"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "381 + 254 - 127 = 508"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 132 = 396\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "528",
+            "265",
+            "263",
+            "264"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 528 => x = 264"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(137^2 - (137-1)^2\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "273",
+            "274",
+            "275",
+            "137"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (137 + 136) = 273"
         }
       ],
       "practiceExercises": [
@@ -36350,39 +36350,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(381 + 254 - 127\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "506",
+            "510",
+            "508",
+            "1016"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "381 + 254 - 127 = 508"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 132 = 396\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "528",
+            "265",
+            "263",
+            "264"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 528 => x = 264"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(137^2 - (137-1)^2\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "273",
+            "274",
+            "275",
+            "137"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (137 + 136) = 273"
         }
       ],
       "practiceExercises": [
@@ -36561,39 +36561,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(120 + 80 - 50\\)",
+        "question": "Hisoblang: \\(381 + 254 - 127\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
         "options": [
-          "145",
-          "155",
-          "150",
-          "300"
+          "506",
+          "510",
+          "508",
+          "1016"
         ],
         "correctIndex": 2,
-        "explanation": "120 + 80 - 50 = 150"
+        "explanation": "381 + 254 - 127 = 508"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+        "question": "Tenglamani yeching: \\(2x - 132 = 396\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
         "options": [
-          "40",
-          "21",
-          "19",
-          "20"
+          "528",
+          "265",
+          "263",
+          "264"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 40 => x = 20"
+        "explanation": "2x = 528 => x = 264"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+        "question": "Hisoblang: \\(137^2 - (137-1)^2\\) (Logarifmik tenglamalar va Aniqlanish sohasi)",
         "options": [
-          "40",
-          "42",
-          "38",
-          "80"
+          "273",
+          "274",
+          "275",
+          "137"
         ],
         "correctIndex": 0,
-        "explanation": "10 + 30 = 40"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (137 + 136) = 273"
       }
     ],
     "practiceExercises": [
@@ -36781,39 +36781,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 260 \\text{ sm}, balandligi h = 130 \\text{ sm}. Uning yuzini hisoblang (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(16897 \\text{ sm}^2\\)",
+            "\\(16905 \\text{ sm}^2\\)",
+            "\\(16900 \\text{ sm}^2\\)",
+            "\\(33800 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (260 * 130)/2 = 16900 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 278 \\text{ sm}, bir tomoni a = 135 \\text{ sm}. Ikkinchi tomonini toping (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 140 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(420 \\text{ sm}\\)",
+            "\\(280 \\text{ sm}\\)",
+            "\\(560 \\text{ sm}\\)",
+            "\\(700 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 140 = 420 sm"
         }
       ],
       "practiceExercises": [
@@ -36987,39 +36987,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 260 \\text{ sm}, balandligi h = 130 \\text{ sm}. Uning yuzini hisoblang (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(16897 \\text{ sm}^2\\)",
+            "\\(16905 \\text{ sm}^2\\)",
+            "\\(16900 \\text{ sm}^2\\)",
+            "\\(33800 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (260 * 130)/2 = 16900 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 278 \\text{ sm}, bir tomoni a = 135 \\text{ sm}. Ikkinchi tomonini toping (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 140 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(420 \\text{ sm}\\)",
+            "\\(280 \\text{ sm}\\)",
+            "\\(560 \\text{ sm}\\)",
+            "\\(700 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 140 = 420 sm"
         }
       ],
       "practiceExercises": [
@@ -37193,39 +37193,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 260 \\text{ sm}, balandligi h = 130 \\text{ sm}. Uning yuzini hisoblang (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(16897 \\text{ sm}^2\\)",
+            "\\(16905 \\text{ sm}^2\\)",
+            "\\(16900 \\text{ sm}^2\\)",
+            "\\(33800 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (260 * 130)/2 = 16900 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 278 \\text{ sm}, bir tomoni a = 135 \\text{ sm}. Ikkinchi tomonini toping (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 140 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(420 \\text{ sm}\\)",
+            "\\(280 \\text{ sm}\\)",
+            "\\(560 \\text{ sm}\\)",
+            "\\(700 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 140 = 420 sm"
         }
       ],
       "practiceExercises": [
@@ -37404,39 +37404,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 260 \\text{ sm}, balandligi h = 130 \\text{ sm}. Uning yuzini hisoblang (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
         "options": [
-          "\\(98 \\text{ sm}^2\\)",
-          "\\(104 \\text{ sm}^2\\)",
-          "\\(100 \\text{ sm}^2\\)",
-          "\\(200 \\text{ sm}^2\\)"
+          "\\(16897 \\text{ sm}^2\\)",
+          "\\(16905 \\text{ sm}^2\\)",
+          "\\(16900 \\text{ sm}^2\\)",
+          "\\(33800 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
-        "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+        "explanation": "S = (a * h)/2 = (260 * 130)/2 = 16900 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 278 \\text{ sm}, bir tomoni a = 135 \\text{ sm}. Ikkinchi tomonini toping (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
         "options": [
-          "\\(14 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(20 \\text{ sm}\\)",
-          "\\(18 \\text{ sm}\\)"
+          "\\(2 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 140 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoviy shakllar (Kub, Parallelepiped va Prizma)).",
         "options": [
-          "\\(60 \\text{ sm}\\)",
-          "\\(40 \\text{ sm}\\)",
-          "\\(80 \\text{ sm}\\)",
-          "\\(90 \\text{ sm}\\)"
+          "\\(420 \\text{ sm}\\)",
+          "\\(280 \\text{ sm}\\)",
+          "\\(560 \\text{ sm}\\)",
+          "\\(700 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 3a = 3 * 20 = 60 sm"
+        "explanation": "P = 3 * 140 = 420 sm"
       }
     ],
     "practiceExercises": [
@@ -37624,39 +37624,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 266 \\text{ sm}, balandligi h = 133 \\text{ sm}. Uning yuzini hisoblang (Piramida hajmi va to'la sirti).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(17686 \\text{ sm}^2\\)",
+            "\\(17694 \\text{ sm}^2\\)",
+            "\\(17689 \\text{ sm}^2\\)",
+            "\\(35378 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (266 * 133)/2 = 17689 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 284 \\text{ sm}, bir tomoni a = 138 \\text{ sm}. Ikkinchi tomonini toping (Piramida hajmi va to'la sirti).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 143 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Piramida hajmi va to'la sirti).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(429 \\text{ sm}\\)",
+            "\\(286 \\text{ sm}\\)",
+            "\\(572 \\text{ sm}\\)",
+            "\\(715 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 143 = 429 sm"
         }
       ],
       "practiceExercises": [
@@ -37830,39 +37830,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 266 \\text{ sm}, balandligi h = 133 \\text{ sm}. Uning yuzini hisoblang (Piramida hajmi va to'la sirti).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(17686 \\text{ sm}^2\\)",
+            "\\(17694 \\text{ sm}^2\\)",
+            "\\(17689 \\text{ sm}^2\\)",
+            "\\(35378 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (266 * 133)/2 = 17689 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 284 \\text{ sm}, bir tomoni a = 138 \\text{ sm}. Ikkinchi tomonini toping (Piramida hajmi va to'la sirti).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 143 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Piramida hajmi va to'la sirti).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(429 \\text{ sm}\\)",
+            "\\(286 \\text{ sm}\\)",
+            "\\(572 \\text{ sm}\\)",
+            "\\(715 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 143 = 429 sm"
         }
       ],
       "practiceExercises": [
@@ -38036,39 +38036,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 266 \\text{ sm}, balandligi h = 133 \\text{ sm}. Uning yuzini hisoblang (Piramida hajmi va to'la sirti).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(17686 \\text{ sm}^2\\)",
+            "\\(17694 \\text{ sm}^2\\)",
+            "\\(17689 \\text{ sm}^2\\)",
+            "\\(35378 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (266 * 133)/2 = 17689 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 284 \\text{ sm}, bir tomoni a = 138 \\text{ sm}. Ikkinchi tomonini toping (Piramida hajmi va to'la sirti).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 143 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Piramida hajmi va to'la sirti).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(429 \\text{ sm}\\)",
+            "\\(286 \\text{ sm}\\)",
+            "\\(572 \\text{ sm}\\)",
+            "\\(715 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 143 = 429 sm"
         }
       ],
       "practiceExercises": [
@@ -38247,39 +38247,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 266 \\text{ sm}, balandligi h = 133 \\text{ sm}. Uning yuzini hisoblang (Piramida hajmi va to'la sirti).",
         "options": [
-          "\\(98 \\text{ sm}^2\\)",
-          "\\(104 \\text{ sm}^2\\)",
-          "\\(100 \\text{ sm}^2\\)",
-          "\\(200 \\text{ sm}^2\\)"
+          "\\(17686 \\text{ sm}^2\\)",
+          "\\(17694 \\text{ sm}^2\\)",
+          "\\(17689 \\text{ sm}^2\\)",
+          "\\(35378 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
-        "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+        "explanation": "S = (a * h)/2 = (266 * 133)/2 = 17689 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 284 \\text{ sm}, bir tomoni a = 138 \\text{ sm}. Ikkinchi tomonini toping (Piramida hajmi va to'la sirti).",
         "options": [
-          "\\(14 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(20 \\text{ sm}\\)",
-          "\\(18 \\text{ sm}\\)"
+          "\\(2 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 143 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Piramida hajmi va to'la sirti).",
         "options": [
-          "\\(60 \\text{ sm}\\)",
-          "\\(40 \\text{ sm}\\)",
-          "\\(80 \\text{ sm}\\)",
-          "\\(90 \\text{ sm}\\)"
+          "\\(429 \\text{ sm}\\)",
+          "\\(286 \\text{ sm}\\)",
+          "\\(572 \\text{ sm}\\)",
+          "\\(715 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 3a = 3 * 20 = 60 sm"
+        "explanation": "P = 3 * 143 = 429 sm"
       }
     ],
     "practiceExercises": [
@@ -38467,39 +38467,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 272 \\text{ sm}, balandligi h = 136 \\text{ sm}. Uning yuzini hisoblang (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(18493 \\text{ sm}^2\\)",
+            "\\(18501 \\text{ sm}^2\\)",
+            "\\(18496 \\text{ sm}^2\\)",
+            "\\(36992 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (272 * 136)/2 = 18496 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 290 \\text{ sm}, bir tomoni a = 141 \\text{ sm}. Ikkinchi tomonini toping (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 146 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(438 \\text{ sm}\\)",
+            "\\(292 \\text{ sm}\\)",
+            "\\(584 \\text{ sm}\\)",
+            "\\(730 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 146 = 438 sm"
         }
       ],
       "practiceExercises": [
@@ -38673,39 +38673,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 272 \\text{ sm}, balandligi h = 136 \\text{ sm}. Uning yuzini hisoblang (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(18493 \\text{ sm}^2\\)",
+            "\\(18501 \\text{ sm}^2\\)",
+            "\\(18496 \\text{ sm}^2\\)",
+            "\\(36992 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (272 * 136)/2 = 18496 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 290 \\text{ sm}, bir tomoni a = 141 \\text{ sm}. Ikkinchi tomonini toping (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 146 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(438 \\text{ sm}\\)",
+            "\\(292 \\text{ sm}\\)",
+            "\\(584 \\text{ sm}\\)",
+            "\\(730 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 146 = 438 sm"
         }
       ],
       "practiceExercises": [
@@ -38879,39 +38879,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 272 \\text{ sm}, balandligi h = 136 \\text{ sm}. Uning yuzini hisoblang (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(18493 \\text{ sm}^2\\)",
+            "\\(18501 \\text{ sm}^2\\)",
+            "\\(18496 \\text{ sm}^2\\)",
+            "\\(36992 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (272 * 136)/2 = 18496 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 290 \\text{ sm}, bir tomoni a = 141 \\text{ sm}. Ikkinchi tomonini toping (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 146 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(438 \\text{ sm}\\)",
+            "\\(292 \\text{ sm}\\)",
+            "\\(584 \\text{ sm}\\)",
+            "\\(730 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 146 = 438 sm"
         }
       ],
       "practiceExercises": [
@@ -39090,39 +39090,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 272 \\text{ sm}, balandligi h = 136 \\text{ sm}. Uning yuzini hisoblang (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
         "options": [
-          "\\(98 \\text{ sm}^2\\)",
-          "\\(104 \\text{ sm}^2\\)",
-          "\\(100 \\text{ sm}^2\\)",
-          "\\(200 \\text{ sm}^2\\)"
+          "\\(18493 \\text{ sm}^2\\)",
+          "\\(18501 \\text{ sm}^2\\)",
+          "\\(18496 \\text{ sm}^2\\)",
+          "\\(36992 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
-        "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+        "explanation": "S = (a * h)/2 = (272 * 136)/2 = 18496 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 290 \\text{ sm}, bir tomoni a = 141 \\text{ sm}. Ikkinchi tomonini toping (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
         "options": [
-          "\\(14 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(20 \\text{ sm}\\)",
-          "\\(18 \\text{ sm}\\)"
+          "\\(2 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 146 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda to'g'ri chiziqlar va tekisliklar (Ayqash chiziqlar)).",
         "options": [
-          "\\(60 \\text{ sm}\\)",
-          "\\(40 \\text{ sm}\\)",
-          "\\(80 \\text{ sm}\\)",
-          "\\(90 \\text{ sm}\\)"
+          "\\(438 \\text{ sm}\\)",
+          "\\(292 \\text{ sm}\\)",
+          "\\(584 \\text{ sm}\\)",
+          "\\(730 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 3a = 3 * 20 = 60 sm"
+        "explanation": "P = 3 * 146 = 438 sm"
       }
     ],
     "practiceExercises": [
@@ -39310,39 +39310,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 22 \\text{ sm}, balandligi h = 11 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 278 \\text{ sm}, balandligi h = 139 \\text{ sm}. Uning yuzini hisoblang (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
           "options": [
-            "\\(242 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^2\\)",
-            "\\(119 \\text{ sm}^2\\)",
-            "\\(121 \\text{ sm}^2\\)"
+            "\\(38642 \\text{ sm}^2\\)",
+            "\\(19326 \\text{ sm}^2\\)",
+            "\\(19318 \\text{ sm}^2\\)",
+            "\\(19321 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (22 * 11)/2 = 121 sm²"
+          "explanation": "S = (a * h)/2 = (278 * 139)/2 = 19321 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 60 \\text{ sm}, bir tomoni a = 11 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 296 \\text{ sm}, bir tomoni a = 144 \\text{ sm}. Ikkinchi tomonini toping (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(21 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 19 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 22 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 149 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
           "options": [
-            "\\(44 \\text{ sm}\\)",
-            "\\(66 \\text{ sm}\\)",
-            "\\(88 \\text{ sm}\\)",
-            "\\(99 \\text{ sm}\\)"
+            "\\(298 \\text{ sm}\\)",
+            "\\(447 \\text{ sm}\\)",
+            "\\(596 \\text{ sm}\\)",
+            "\\(745 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 22 = 66 sm"
+          "explanation": "P = 3 * 149 = 447 sm"
         }
       ],
       "practiceExercises": [
@@ -39516,39 +39516,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 22 \\text{ sm}, balandligi h = 11 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 278 \\text{ sm}, balandligi h = 139 \\text{ sm}. Uning yuzini hisoblang (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
           "options": [
-            "\\(242 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^2\\)",
-            "\\(119 \\text{ sm}^2\\)",
-            "\\(121 \\text{ sm}^2\\)"
+            "\\(38642 \\text{ sm}^2\\)",
+            "\\(19326 \\text{ sm}^2\\)",
+            "\\(19318 \\text{ sm}^2\\)",
+            "\\(19321 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (22 * 11)/2 = 121 sm²"
+          "explanation": "S = (a * h)/2 = (278 * 139)/2 = 19321 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 60 \\text{ sm}, bir tomoni a = 11 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 296 \\text{ sm}, bir tomoni a = 144 \\text{ sm}. Ikkinchi tomonini toping (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(21 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 19 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 22 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 149 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
           "options": [
-            "\\(44 \\text{ sm}\\)",
-            "\\(66 \\text{ sm}\\)",
-            "\\(88 \\text{ sm}\\)",
-            "\\(99 \\text{ sm}\\)"
+            "\\(298 \\text{ sm}\\)",
+            "\\(447 \\text{ sm}\\)",
+            "\\(596 \\text{ sm}\\)",
+            "\\(745 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 22 = 66 sm"
+          "explanation": "P = 3 * 149 = 447 sm"
         }
       ],
       "practiceExercises": [
@@ -39722,39 +39722,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 22 \\text{ sm}, balandligi h = 11 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 278 \\text{ sm}, balandligi h = 139 \\text{ sm}. Uning yuzini hisoblang (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
           "options": [
-            "\\(242 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^2\\)",
-            "\\(119 \\text{ sm}^2\\)",
-            "\\(121 \\text{ sm}^2\\)"
+            "\\(38642 \\text{ sm}^2\\)",
+            "\\(19326 \\text{ sm}^2\\)",
+            "\\(19318 \\text{ sm}^2\\)",
+            "\\(19321 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (22 * 11)/2 = 121 sm²"
+          "explanation": "S = (a * h)/2 = (278 * 139)/2 = 19321 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 60 \\text{ sm}, bir tomoni a = 11 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 296 \\text{ sm}, bir tomoni a = 144 \\text{ sm}. Ikkinchi tomonini toping (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(21 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 19 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 22 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 149 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
           "options": [
-            "\\(44 \\text{ sm}\\)",
-            "\\(66 \\text{ sm}\\)",
-            "\\(88 \\text{ sm}\\)",
-            "\\(99 \\text{ sm}\\)"
+            "\\(298 \\text{ sm}\\)",
+            "\\(447 \\text{ sm}\\)",
+            "\\(596 \\text{ sm}\\)",
+            "\\(745 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 22 = 66 sm"
+          "explanation": "P = 3 * 149 = 447 sm"
         }
       ],
       "practiceExercises": [
@@ -39933,39 +39933,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 22 \\text{ sm}, balandligi h = 11 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 278 \\text{ sm}, balandligi h = 139 \\text{ sm}. Uning yuzini hisoblang (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
         "options": [
-          "\\(242 \\text{ sm}^2\\)",
-          "\\(125 \\text{ sm}^2\\)",
-          "\\(119 \\text{ sm}^2\\)",
-          "\\(121 \\text{ sm}^2\\)"
+          "\\(38642 \\text{ sm}^2\\)",
+          "\\(19326 \\text{ sm}^2\\)",
+          "\\(19318 \\text{ sm}^2\\)",
+          "\\(19321 \\text{ sm}^2\\)"
         ],
         "correctIndex": 3,
-        "explanation": "S = (a * h)/2 = (22 * 11)/2 = 121 sm²"
+        "explanation": "S = (a * h)/2 = (278 * 139)/2 = 19321 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 60 \\text{ sm}, bir tomoni a = 11 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 296 \\text{ sm}, bir tomoni a = 144 \\text{ sm}. Ikkinchi tomonini toping (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
         "options": [
-          "\\(19 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(21 \\text{ sm}\\)",
-          "\\(15 \\text{ sm}\\)"
+          "\\(4 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 19 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 22 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 149 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylanma fazoviy jismlar (Silindr, Konus va Shar)).",
         "options": [
-          "\\(44 \\text{ sm}\\)",
-          "\\(66 \\text{ sm}\\)",
-          "\\(88 \\text{ sm}\\)",
-          "\\(99 \\text{ sm}\\)"
+          "\\(298 \\text{ sm}\\)",
+          "\\(447 \\text{ sm}\\)",
+          "\\(596 \\text{ sm}\\)",
+          "\\(745 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 3a = 3 * 22 = 66 sm"
+        "explanation": "P = 3 * 149 = 447 sm"
       }
     ],
     "practiceExercises": [
@@ -40153,39 +40153,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(426 + 284 - 142\\) (Parabola uchi va funksiya ekstremumlari)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1136",
+            "570",
+            "566",
+            "568"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "426 + 284 - 142 = 568"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 147 = 441\\) (Parabola uchi va funksiya ekstremumlari)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "294",
+            "295",
+            "293",
+            "588"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 588 => x = 294"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(152^2 - (152-1)^2\\) (Parabola uchi va funksiya ekstremumlari)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "304",
+            "303",
+            "305",
+            "152"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (152 + 151) = 303"
         }
       ],
       "practiceExercises": [
@@ -40359,39 +40359,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(426 + 284 - 142\\) (Parabola uchi va funksiya ekstremumlari)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1136",
+            "570",
+            "566",
+            "568"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "426 + 284 - 142 = 568"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 147 = 441\\) (Parabola uchi va funksiya ekstremumlari)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "294",
+            "295",
+            "293",
+            "588"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 588 => x = 294"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(152^2 - (152-1)^2\\) (Parabola uchi va funksiya ekstremumlari)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "304",
+            "303",
+            "305",
+            "152"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (152 + 151) = 303"
         }
       ],
       "practiceExercises": [
@@ -40565,39 +40565,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(426 + 284 - 142\\) (Parabola uchi va funksiya ekstremumlari)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1136",
+            "570",
+            "566",
+            "568"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "426 + 284 - 142 = 568"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 147 = 441\\) (Parabola uchi va funksiya ekstremumlari)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "294",
+            "295",
+            "293",
+            "588"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 588 => x = 294"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(152^2 - (152-1)^2\\) (Parabola uchi va funksiya ekstremumlari)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "304",
+            "303",
+            "305",
+            "152"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (152 + 151) = 303"
         }
       ],
       "practiceExercises": [
@@ -40776,39 +40776,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(132 + 88 - 55\\)",
+        "question": "Hisoblang: \\(426 + 284 - 142\\) (Parabola uchi va funksiya ekstremumlari)",
         "options": [
-          "330",
-          "170",
-          "160",
-          "165"
+          "1136",
+          "570",
+          "566",
+          "568"
         ],
         "correctIndex": 3,
-        "explanation": "132 + 88 - 55 = 165"
+        "explanation": "426 + 284 - 142 = 568"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+        "question": "Tenglamani yeching: \\(2x - 147 = 441\\) (Parabola uchi va funksiya ekstremumlari)",
         "options": [
-          "22",
-          "23",
-          "21",
-          "44"
+          "294",
+          "295",
+          "293",
+          "588"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 44 => x = 22"
+        "explanation": "2x = 588 => x = 294"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+        "question": "Hisoblang: \\(152^2 - (152-1)^2\\) (Parabola uchi va funksiya ekstremumlari)",
         "options": [
-          "46",
-          "44",
-          "42",
-          "88"
+          "304",
+          "303",
+          "305",
+          "152"
         ],
         "correctIndex": 1,
-        "explanation": "11 + 33 = 44"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (152 + 151) = 303"
       }
     ],
     "practiceExercises": [
@@ -41839,7 +41839,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "8",
             "14",
@@ -41851,7 +41851,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -42045,7 +42045,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "8",
             "14",
@@ -42057,7 +42057,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -42251,7 +42251,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "8",
             "14",
@@ -42263,7 +42263,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -42462,7 +42462,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+        "question": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
         "options": [
           "8",
           "14",
@@ -42474,7 +42474,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+        "question": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
         "options": [
           "80",
           "81",
@@ -42681,39 +42681,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(453 + 302 - 151\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1208",
+            "606",
+            "602",
+            "604"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "453 + 302 - 151 = 604"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 156 = 468\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "312",
+            "313",
+            "311",
+            "624"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 624 => x = 312"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(161^2 - (161-1)^2\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "322",
+            "321",
+            "323",
+            "161"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (161 + 160) = 321"
         }
       ],
       "practiceExercises": [
@@ -42892,39 +42892,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(453 + 302 - 151\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1208",
+            "606",
+            "602",
+            "604"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "453 + 302 - 151 = 604"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 156 = 468\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "312",
+            "313",
+            "311",
+            "624"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 624 => x = 312"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(161^2 - (161-1)^2\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "322",
+            "321",
+            "323",
+            "161"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (161 + 160) = 321"
         }
       ],
       "practiceExercises": [
@@ -43103,39 +43103,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(453 + 302 - 151\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1208",
+            "606",
+            "602",
+            "604"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "453 + 302 - 151 = 604"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 156 = 468\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "312",
+            "313",
+            "311",
+            "624"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 624 => x = 312"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(161^2 - (161-1)^2\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "322",
+            "321",
+            "323",
+            "161"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (161 + 160) = 321"
         }
       ],
       "practiceExercises": [
@@ -43313,39 +43313,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(132 + 88 - 55\\)",
+        "question": "Hisoblang: \\(453 + 302 - 151\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
         "options": [
-          "330",
-          "170",
-          "160",
-          "165"
+          "1208",
+          "606",
+          "602",
+          "604"
         ],
         "correctIndex": 3,
-        "explanation": "132 + 88 - 55 = 165"
+        "explanation": "453 + 302 - 151 = 604"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+        "question": "Tenglamani yeching: \\(2x - 156 = 468\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
         "options": [
-          "22",
-          "23",
-          "21",
-          "44"
+          "312",
+          "313",
+          "311",
+          "624"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 44 => x = 22"
+        "explanation": "2x = 624 => x = 312"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+        "question": "Hisoblang: \\(161^2 - (161-1)^2\\) (Murakkab funksiya hosilasi va Urinma tenglamasi)",
         "options": [
-          "46",
-          "44",
-          "42",
-          "88"
+          "322",
+          "321",
+          "323",
+          "161"
         ],
         "correctIndex": 1,
-        "explanation": "11 + 33 = 44"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (161 + 160) = 321"
       }
     ],
     "practiceExercises": [
@@ -43538,39 +43538,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(462 + 308 - 154\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1232",
+            "618",
+            "614",
+            "616"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "462 + 308 - 154 = 616"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 159 = 477\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "318",
+            "319",
+            "317",
+            "636"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 636 => x = 318"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(164^2 - (164-1)^2\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "328",
+            "327",
+            "329",
+            "164"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (164 + 163) = 327"
         }
       ],
       "practiceExercises": [
@@ -43749,39 +43749,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(462 + 308 - 154\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1232",
+            "618",
+            "614",
+            "616"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "462 + 308 - 154 = 616"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 159 = 477\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "318",
+            "319",
+            "317",
+            "636"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 636 => x = 318"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(164^2 - (164-1)^2\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "328",
+            "327",
+            "329",
+            "164"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (164 + 163) = 327"
         }
       ],
       "practiceExercises": [
@@ -43960,39 +43960,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(462 + 308 - 154\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1232",
+            "618",
+            "614",
+            "616"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "462 + 308 - 154 = 616"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 159 = 477\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "318",
+            "319",
+            "317",
+            "636"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 636 => x = 318"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(164^2 - (164-1)^2\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "328",
+            "327",
+            "329",
+            "164"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (164 + 163) = 327"
         }
       ],
       "practiceExercises": [
@@ -44176,39 +44176,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(132 + 88 - 55\\)",
+        "question": "Hisoblang: \\(462 + 308 - 154\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
         "options": [
-          "330",
-          "170",
-          "160",
-          "165"
+          "1232",
+          "618",
+          "614",
+          "616"
         ],
         "correctIndex": 3,
-        "explanation": "132 + 88 - 55 = 165"
+        "explanation": "462 + 308 - 154 = 616"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+        "question": "Tenglamani yeching: \\(2x - 159 = 477\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
         "options": [
-          "22",
-          "23",
-          "21",
-          "44"
+          "318",
+          "319",
+          "317",
+          "636"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 44 => x = 22"
+        "explanation": "2x = 636 => x = 318"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+        "question": "Hisoblang: \\(164^2 - (164-1)^2\\) (Kombinatorika va Ehtimollik asoslari (P, A, C))",
         "options": [
-          "46",
-          "44",
-          "42",
-          "88"
+          "328",
+          "327",
+          "329",
+          "164"
         ],
         "correctIndex": 1,
-        "explanation": "11 + 33 = 44"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (164 + 163) = 327"
       }
     ],
     "practiceExercises": [
@@ -44390,39 +44390,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(471 + 314 - 157\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "630",
+            "628",
+            "626",
+            "1256"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "471 + 314 - 157 = 628"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 162 = 486\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "323",
+            "325",
+            "324",
+            "648"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 648 => x = 324"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(167^2 - (167-1)^2\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "167",
+            "334",
+            "335",
+            "333"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (167 + 166) = 333"
         }
       ],
       "practiceExercises": [
@@ -44596,39 +44596,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(471 + 314 - 157\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "630",
+            "628",
+            "626",
+            "1256"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "471 + 314 - 157 = 628"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 162 = 486\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "323",
+            "325",
+            "324",
+            "648"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 648 => x = 324"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(167^2 - (167-1)^2\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "167",
+            "334",
+            "335",
+            "333"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (167 + 166) = 333"
         }
       ],
       "practiceExercises": [
@@ -44802,39 +44802,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(471 + 314 - 157\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "630",
+            "628",
+            "626",
+            "1256"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "471 + 314 - 157 = 628"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 162 = 486\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "323",
+            "325",
+            "324",
+            "648"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 648 => x = 324"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(167^2 - (167-1)^2\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "167",
+            "334",
+            "335",
+            "333"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (167 + 166) = 333"
         }
       ],
       "practiceExercises": [
@@ -45007,39 +45007,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(60 + 40 - 25\\)",
+        "question": "Hisoblang: \\(471 + 314 - 157\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
         "options": [
-          "80",
-          "75",
-          "70",
-          "150"
+          "630",
+          "628",
+          "626",
+          "1256"
         ],
         "correctIndex": 1,
-        "explanation": "60 + 40 - 25 = 75"
+        "explanation": "471 + 314 - 157 = 628"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+        "question": "Tenglamani yeching: \\(2x - 162 = 486\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
         "options": [
-          "9",
-          "11",
-          "10",
-          "20"
+          "323",
+          "325",
+          "324",
+          "648"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 20 => x = 10"
+        "explanation": "2x = 648 => x = 324"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+        "question": "Hisoblang: \\(167^2 - (167-1)^2\\) (Harakat masalalari (Tezlik, Vaqt, Masofa))",
         "options": [
-          "40",
-          "22",
-          "18",
-          "20"
+          "167",
+          "334",
+          "335",
+          "333"
         ],
         "correctIndex": 3,
-        "explanation": "5 + 15 = 20"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (167 + 166) = 333"
       }
     ],
     "practiceExercises": [
@@ -45221,39 +45221,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 320 \\text{ sm}, balandligi h = 160 \\text{ sm}. Uning yuzini hisoblang (Koordinatalar tekisligi va Nuqtalar).",
           "options": [
-            "\\(34 \\text{ sm}^2\\)",
-            "\\(40 \\text{ sm}^2\\)",
-            "\\(36 \\text{ sm}^2\\)",
-            "\\(72 \\text{ sm}^2\\)"
+            "\\(25597 \\text{ sm}^2\\)",
+            "\\(25605 \\text{ sm}^2\\)",
+            "\\(25600 \\text{ sm}^2\\)",
+            "\\(51200 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+          "explanation": "S = (a * h)/2 = (320 * 160)/2 = 25600 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 338 \\text{ sm}, bir tomoni a = 165 \\text{ sm}. Ikkinchi tomonini toping (Koordinatalar tekisligi va Nuqtalar).",
           "options": [
-            "\\(10 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(14 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 170 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Koordinatalar tekisligi va Nuqtalar).",
           "options": [
-            "\\(36 \\text{ sm}\\)",
-            "\\(24 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(510 \\text{ sm}\\)",
+            "\\(340 \\text{ sm}\\)",
+            "\\(680 \\text{ sm}\\)",
+            "\\(850 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 12 = 36 sm"
+          "explanation": "P = 3 * 170 = 510 sm"
         }
       ],
       "practiceExercises": [
@@ -45427,39 +45427,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 320 \\text{ sm}, balandligi h = 160 \\text{ sm}. Uning yuzini hisoblang (Koordinatalar tekisligi va Nuqtalar).",
           "options": [
-            "\\(34 \\text{ sm}^2\\)",
-            "\\(40 \\text{ sm}^2\\)",
-            "\\(36 \\text{ sm}^2\\)",
-            "\\(72 \\text{ sm}^2\\)"
+            "\\(25597 \\text{ sm}^2\\)",
+            "\\(25605 \\text{ sm}^2\\)",
+            "\\(25600 \\text{ sm}^2\\)",
+            "\\(51200 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+          "explanation": "S = (a * h)/2 = (320 * 160)/2 = 25600 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 338 \\text{ sm}, bir tomoni a = 165 \\text{ sm}. Ikkinchi tomonini toping (Koordinatalar tekisligi va Nuqtalar).",
           "options": [
-            "\\(10 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(14 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 170 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Koordinatalar tekisligi va Nuqtalar).",
           "options": [
-            "\\(36 \\text{ sm}\\)",
-            "\\(24 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(510 \\text{ sm}\\)",
+            "\\(340 \\text{ sm}\\)",
+            "\\(680 \\text{ sm}\\)",
+            "\\(850 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 12 = 36 sm"
+          "explanation": "P = 3 * 170 = 510 sm"
         }
       ],
       "practiceExercises": [
@@ -45633,39 +45633,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 320 \\text{ sm}, balandligi h = 160 \\text{ sm}. Uning yuzini hisoblang (Koordinatalar tekisligi va Nuqtalar).",
           "options": [
-            "\\(34 \\text{ sm}^2\\)",
-            "\\(40 \\text{ sm}^2\\)",
-            "\\(36 \\text{ sm}^2\\)",
-            "\\(72 \\text{ sm}^2\\)"
+            "\\(25597 \\text{ sm}^2\\)",
+            "\\(25605 \\text{ sm}^2\\)",
+            "\\(25600 \\text{ sm}^2\\)",
+            "\\(51200 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+          "explanation": "S = (a * h)/2 = (320 * 160)/2 = 25600 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 338 \\text{ sm}, bir tomoni a = 165 \\text{ sm}. Ikkinchi tomonini toping (Koordinatalar tekisligi va Nuqtalar).",
           "options": [
-            "\\(10 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(14 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 170 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Koordinatalar tekisligi va Nuqtalar).",
           "options": [
-            "\\(36 \\text{ sm}\\)",
-            "\\(24 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(510 \\text{ sm}\\)",
+            "\\(340 \\text{ sm}\\)",
+            "\\(680 \\text{ sm}\\)",
+            "\\(850 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 12 = 36 sm"
+          "explanation": "P = 3 * 170 = 510 sm"
         }
       ],
       "practiceExercises": [
@@ -45838,39 +45838,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 320 \\text{ sm}, balandligi h = 160 \\text{ sm}. Uning yuzini hisoblang (Koordinatalar tekisligi va Nuqtalar).",
         "options": [
-          "\\(34 \\text{ sm}^2\\)",
-          "\\(40 \\text{ sm}^2\\)",
-          "\\(36 \\text{ sm}^2\\)",
-          "\\(72 \\text{ sm}^2\\)"
+          "\\(25597 \\text{ sm}^2\\)",
+          "\\(25605 \\text{ sm}^2\\)",
+          "\\(25600 \\text{ sm}^2\\)",
+          "\\(51200 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
-        "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+        "explanation": "S = (a * h)/2 = (320 * 160)/2 = 25600 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 338 \\text{ sm}, bir tomoni a = 165 \\text{ sm}. Ikkinchi tomonini toping (Koordinatalar tekisligi va Nuqtalar).",
         "options": [
-          "\\(10 \\text{ sm}\\)",
-          "\\(12 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(14 \\text{ sm}\\)"
+          "\\(2 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 170 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Koordinatalar tekisligi va Nuqtalar).",
         "options": [
-          "\\(36 \\text{ sm}\\)",
-          "\\(24 \\text{ sm}\\)",
-          "\\(48 \\text{ sm}\\)",
-          "\\(54 \\text{ sm}\\)"
+          "\\(510 \\text{ sm}\\)",
+          "\\(340 \\text{ sm}\\)",
+          "\\(680 \\text{ sm}\\)",
+          "\\(850 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 3a = 3 * 12 = 36 sm"
+        "explanation": "P = 3 * 170 = 510 sm"
       }
     ],
     "practiceExercises": [
@@ -46058,39 +46058,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(489 + 326 - 163\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "1304",
+            "654",
+            "650",
+            "652"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "489 + 326 - 163 = 652"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 168 = 504\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "336",
+            "337",
+            "335",
+            "672"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 672 => x = 336"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(173^2 - (173-1)^2\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "346",
+            "345",
+            "347",
+            "173"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (173 + 172) = 345"
         }
       ],
       "practiceExercises": [
@@ -46264,39 +46264,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(489 + 326 - 163\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "1304",
+            "654",
+            "650",
+            "652"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "489 + 326 - 163 = 652"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 168 = 504\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "336",
+            "337",
+            "335",
+            "672"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 672 => x = 336"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(173^2 - (173-1)^2\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "346",
+            "345",
+            "347",
+            "173"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (173 + 172) = 345"
         }
       ],
       "practiceExercises": [
@@ -46470,39 +46470,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(489 + 326 - 163\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "1304",
+            "654",
+            "650",
+            "652"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "489 + 326 - 163 = 652"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 168 = 504\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "336",
+            "337",
+            "335",
+            "672"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 672 => x = 336"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(173^2 - (173-1)^2\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "346",
+            "345",
+            "347",
+            "173"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (173 + 172) = 345"
         }
       ],
       "practiceExercises": [
@@ -46681,39 +46681,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(84 + 56 - 35\\)",
+        "question": "Hisoblang: \\(489 + 326 - 163\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
         "options": [
-          "210",
-          "110",
-          "100",
-          "105"
+          "1304",
+          "654",
+          "650",
+          "652"
         ],
         "correctIndex": 3,
-        "explanation": "84 + 56 - 35 = 105"
+        "explanation": "489 + 326 - 163 = 652"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+        "question": "Tenglamani yeching: \\(2x - 168 = 504\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
         "options": [
-          "14",
-          "15",
-          "13",
-          "28"
+          "336",
+          "337",
+          "335",
+          "672"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 28 => x = 14"
+        "explanation": "2x = 672 => x = 336"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+        "question": "Hisoblang: \\(173^2 - (173-1)^2\\) (Ko'phadlarni guruhlash usulida ko'paytuvchilarga ajratish)",
         "options": [
-          "30",
-          "28",
-          "26",
-          "56"
+          "346",
+          "345",
+          "347",
+          "173"
         ],
         "correctIndex": 1,
-        "explanation": "7 + 21 = 28"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (173 + 172) = 345"
       }
     ],
     "practiceExercises": [
@@ -46895,39 +46895,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 332 \\text{ sm}, balandligi h = 166 \\text{ sm}. Uning yuzini hisoblang (Romb va uning yuzasi (Diagonallar siri)).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(27556 \\text{ sm}^2\\)",
+            "\\(27561 \\text{ sm}^2\\)",
+            "\\(27553 \\text{ sm}^2\\)",
+            "\\(55112 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (332 * 166)/2 = 27556 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 350 \\text{ sm}, bir tomoni a = 171 \\text{ sm}. Ikkinchi tomonini toping (Romb va uning yuzasi (Diagonallar siri)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 176 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Romb va uning yuzasi (Diagonallar siri)).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(704 \\text{ sm}\\)",
+            "\\(352 \\text{ sm}\\)",
+            "\\(528 \\text{ sm}\\)",
+            "\\(880 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 176 = 528 sm"
         }
       ],
       "practiceExercises": [
@@ -47101,39 +47101,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 332 \\text{ sm}, balandligi h = 166 \\text{ sm}. Uning yuzini hisoblang (Romb va uning yuzasi (Diagonallar siri)).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(27556 \\text{ sm}^2\\)",
+            "\\(27561 \\text{ sm}^2\\)",
+            "\\(27553 \\text{ sm}^2\\)",
+            "\\(55112 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (332 * 166)/2 = 27556 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 350 \\text{ sm}, bir tomoni a = 171 \\text{ sm}. Ikkinchi tomonini toping (Romb va uning yuzasi (Diagonallar siri)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 176 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Romb va uning yuzasi (Diagonallar siri)).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(704 \\text{ sm}\\)",
+            "\\(352 \\text{ sm}\\)",
+            "\\(528 \\text{ sm}\\)",
+            "\\(880 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 176 = 528 sm"
         }
       ],
       "practiceExercises": [
@@ -47307,39 +47307,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 332 \\text{ sm}, balandligi h = 166 \\text{ sm}. Uning yuzini hisoblang (Romb va uning yuzasi (Diagonallar siri)).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(27556 \\text{ sm}^2\\)",
+            "\\(27561 \\text{ sm}^2\\)",
+            "\\(27553 \\text{ sm}^2\\)",
+            "\\(55112 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (332 * 166)/2 = 27556 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 350 \\text{ sm}, bir tomoni a = 171 \\text{ sm}. Ikkinchi tomonini toping (Romb va uning yuzasi (Diagonallar siri)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 176 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Romb va uning yuzasi (Diagonallar siri)).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(704 \\text{ sm}\\)",
+            "\\(352 \\text{ sm}\\)",
+            "\\(528 \\text{ sm}\\)",
+            "\\(880 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 176 = 528 sm"
         }
       ],
       "practiceExercises": [
@@ -47512,39 +47512,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 332 \\text{ sm}, balandligi h = 166 \\text{ sm}. Uning yuzini hisoblang (Romb va uning yuzasi (Diagonallar siri)).",
         "options": [
-          "\\(64 \\text{ sm}^2\\)",
-          "\\(68 \\text{ sm}^2\\)",
-          "\\(62 \\text{ sm}^2\\)",
-          "\\(128 \\text{ sm}^2\\)"
+          "\\(27556 \\text{ sm}^2\\)",
+          "\\(27561 \\text{ sm}^2\\)",
+          "\\(27553 \\text{ sm}^2\\)",
+          "\\(55112 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
-        "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+        "explanation": "S = (a * h)/2 = (332 * 166)/2 = 27556 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 350 \\text{ sm}, bir tomoni a = 171 \\text{ sm}. Ikkinchi tomonini toping (Romb va uning yuzasi (Diagonallar siri)).",
         "options": [
-          "\\(14 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(18 \\text{ sm}\\)",
-          "\\(12 \\text{ sm}\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 176 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Romb va uning yuzasi (Diagonallar siri)).",
         "options": [
-          "\\(64 \\text{ sm}\\)",
-          "\\(32 \\text{ sm}\\)",
-          "\\(48 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)"
+          "\\(704 \\text{ sm}\\)",
+          "\\(352 \\text{ sm}\\)",
+          "\\(528 \\text{ sm}\\)",
+          "\\(880 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 3a = 3 * 16 = 48 sm"
+        "explanation": "P = 3 * 176 = 528 sm"
       }
     ],
     "practiceExercises": [
@@ -47726,39 +47726,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(507 + 338 - 169\\) (Cheksiz kamayuvchi geometrik progressiya)",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "678",
+            "676",
+            "674",
+            "1352"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "507 + 338 - 169 = 676"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 174 = 522\\) (Cheksiz kamayuvchi geometrik progressiya)",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "347",
+            "349",
+            "348",
+            "696"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 696 => x = 348"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(179^2 - (179-1)^2\\) (Cheksiz kamayuvchi geometrik progressiya)",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "179",
+            "358",
+            "359",
+            "357"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (179 + 178) = 357"
         }
       ],
       "practiceExercises": [
@@ -47932,39 +47932,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(507 + 338 - 169\\) (Cheksiz kamayuvchi geometrik progressiya)",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "678",
+            "676",
+            "674",
+            "1352"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "507 + 338 - 169 = 676"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 174 = 522\\) (Cheksiz kamayuvchi geometrik progressiya)",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "347",
+            "349",
+            "348",
+            "696"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 696 => x = 348"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(179^2 - (179-1)^2\\) (Cheksiz kamayuvchi geometrik progressiya)",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "179",
+            "358",
+            "359",
+            "357"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (179 + 178) = 357"
         }
       ],
       "practiceExercises": [
@@ -48138,39 +48138,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(507 + 338 - 169\\) (Cheksiz kamayuvchi geometrik progressiya)",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "678",
+            "676",
+            "674",
+            "1352"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "507 + 338 - 169 = 676"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 174 = 522\\) (Cheksiz kamayuvchi geometrik progressiya)",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "347",
+            "349",
+            "348",
+            "696"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 696 => x = 348"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(179^2 - (179-1)^2\\) (Cheksiz kamayuvchi geometrik progressiya)",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "179",
+            "358",
+            "359",
+            "357"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (179 + 178) = 357"
         }
       ],
       "practiceExercises": [
@@ -48343,39 +48343,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(108 + 72 - 45\\)",
+        "question": "Hisoblang: \\(507 + 338 - 169\\) (Cheksiz kamayuvchi geometrik progressiya)",
         "options": [
-          "140",
-          "135",
-          "130",
-          "270"
+          "678",
+          "676",
+          "674",
+          "1352"
         ],
         "correctIndex": 1,
-        "explanation": "108 + 72 - 45 = 135"
+        "explanation": "507 + 338 - 169 = 676"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+        "question": "Tenglamani yeching: \\(2x - 174 = 522\\) (Cheksiz kamayuvchi geometrik progressiya)",
         "options": [
-          "17",
-          "19",
-          "18",
-          "36"
+          "347",
+          "349",
+          "348",
+          "696"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 36 => x = 18"
+        "explanation": "2x = 696 => x = 348"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+        "question": "Hisoblang: \\(179^2 - (179-1)^2\\) (Cheksiz kamayuvchi geometrik progressiya)",
         "options": [
-          "72",
-          "38",
-          "34",
-          "36"
+          "179",
+          "358",
+          "359",
+          "357"
         ],
         "correctIndex": 3,
-        "explanation": "9 + 27 = 36"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (179 + 178) = 357"
       }
     ],
     "practiceExercises": [
@@ -48557,39 +48557,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(516 + 344 - 172\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "686",
+            "690",
+            "688",
+            "1376"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "516 + 344 - 172 = 688"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 177 = 531\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "708",
+            "355",
+            "353",
+            "354"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 708 => x = 354"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(182^2 - (182-1)^2\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "363",
+            "364",
+            "365",
+            "182"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (182 + 181) = 363"
         }
       ],
       "practiceExercises": [
@@ -48763,39 +48763,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(516 + 344 - 172\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "686",
+            "690",
+            "688",
+            "1376"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "516 + 344 - 172 = 688"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 177 = 531\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "708",
+            "355",
+            "353",
+            "354"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 708 => x = 354"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(182^2 - (182-1)^2\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "363",
+            "364",
+            "365",
+            "182"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (182 + 181) = 363"
         }
       ],
       "practiceExercises": [
@@ -48969,39 +48969,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(516 + 344 - 172\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "686",
+            "690",
+            "688",
+            "1376"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "516 + 344 - 172 = 688"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 177 = 531\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "708",
+            "355",
+            "353",
+            "354"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 708 => x = 354"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(182^2 - (182-1)^2\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "363",
+            "364",
+            "365",
+            "182"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (182 + 181) = 363"
         }
       ],
       "practiceExercises": [
@@ -49174,39 +49174,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(120 + 80 - 50\\)",
+        "question": "Hisoblang: \\(516 + 344 - 172\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
         "options": [
-          "145",
-          "155",
-          "150",
-          "300"
+          "686",
+          "690",
+          "688",
+          "1376"
         ],
         "correctIndex": 2,
-        "explanation": "120 + 80 - 50 = 150"
+        "explanation": "516 + 344 - 172 = 688"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+        "question": "Tenglamani yeching: \\(2x - 177 = 531\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
         "options": [
-          "40",
-          "21",
-          "19",
-          "20"
+          "708",
+          "355",
+          "353",
+          "354"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 40 => x = 20"
+        "explanation": "2x = 708 => x = 354"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+        "question": "Hisoblang: \\(182^2 - (182-1)^2\\) (Ko'rsatkichli tengsizliklar (aˣ > aᵇ))",
         "options": [
-          "40",
-          "42",
-          "38",
-          "80"
+          "363",
+          "364",
+          "365",
+          "182"
         ],
         "correctIndex": 0,
-        "explanation": "10 + 30 = 40"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (182 + 181) = 363"
       }
     ],
     "practiceExercises": [
@@ -49388,39 +49388,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(525 + 350 - 175\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "698",
+            "702",
+            "700",
+            "1400"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "525 + 350 - 175 = 700"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 180 = 540\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "720",
+            "361",
+            "359",
+            "360"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 720 => x = 360"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(185^2 - (185-1)^2\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "369",
+            "370",
+            "371",
+            "185"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (185 + 184) = 369"
         }
       ],
       "practiceExercises": [
@@ -49594,39 +49594,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(525 + 350 - 175\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "698",
+            "702",
+            "700",
+            "1400"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "525 + 350 - 175 = 700"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 180 = 540\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "720",
+            "361",
+            "359",
+            "360"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 720 => x = 360"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(185^2 - (185-1)^2\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "369",
+            "370",
+            "371",
+            "185"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (185 + 184) = 369"
         }
       ],
       "practiceExercises": [
@@ -49800,39 +49800,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(525 + 350 - 175\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "698",
+            "702",
+            "700",
+            "1400"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "525 + 350 - 175 = 700"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 180 = 540\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "720",
+            "361",
+            "359",
+            "360"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 720 => x = 360"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(185^2 - (185-1)^2\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "369",
+            "370",
+            "371",
+            "185"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (185 + 184) = 369"
         }
       ],
       "practiceExercises": [
@@ -50005,39 +50005,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(120 + 80 - 50\\)",
+        "question": "Hisoblang: \\(525 + 350 - 175\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
         "options": [
-          "145",
-          "155",
-          "150",
-          "300"
+          "698",
+          "702",
+          "700",
+          "1400"
         ],
         "correctIndex": 2,
-        "explanation": "120 + 80 - 50 = 150"
+        "explanation": "525 + 350 - 175 = 700"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+        "question": "Tenglamani yeching: \\(2x - 180 = 540\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
         "options": [
-          "40",
-          "21",
-          "19",
-          "20"
+          "720",
+          "361",
+          "359",
+          "360"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 40 => x = 20"
+        "explanation": "2x = 720 => x = 360"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+        "question": "Hisoblang: \\(185^2 - (185-1)^2\\) (Oddiy trigonometrik tenglamalar (sin x = a, cos x = a))",
         "options": [
-          "40",
-          "42",
-          "38",
-          "80"
+          "369",
+          "370",
+          "371",
+          "185"
         ],
         "correctIndex": 0,
-        "explanation": "10 + 30 = 40"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (185 + 184) = 369"
       }
     ],
     "practiceExercises": [
@@ -50225,39 +50225,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(534 + 356 - 178\\) (Aniq integral va Nyuton-Leybnits formulasi)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1424",
+            "714",
+            "710",
+            "712"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "534 + 356 - 178 = 712"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 183 = 549\\) (Aniq integral va Nyuton-Leybnits formulasi)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "366",
+            "367",
+            "365",
+            "732"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 732 => x = 366"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(188^2 - (188-1)^2\\) (Aniq integral va Nyuton-Leybnits formulasi)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "376",
+            "375",
+            "377",
+            "188"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (188 + 187) = 375"
         }
       ],
       "practiceExercises": [
@@ -50431,39 +50431,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(534 + 356 - 178\\) (Aniq integral va Nyuton-Leybnits formulasi)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1424",
+            "714",
+            "710",
+            "712"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "534 + 356 - 178 = 712"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 183 = 549\\) (Aniq integral va Nyuton-Leybnits formulasi)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "366",
+            "367",
+            "365",
+            "732"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 732 => x = 366"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(188^2 - (188-1)^2\\) (Aniq integral va Nyuton-Leybnits formulasi)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "376",
+            "375",
+            "377",
+            "188"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (188 + 187) = 375"
         }
       ],
       "practiceExercises": [
@@ -50637,39 +50637,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(534 + 356 - 178\\) (Aniq integral va Nyuton-Leybnits formulasi)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1424",
+            "714",
+            "710",
+            "712"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "534 + 356 - 178 = 712"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 183 = 549\\) (Aniq integral va Nyuton-Leybnits formulasi)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "366",
+            "367",
+            "365",
+            "732"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 732 => x = 366"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(188^2 - (188-1)^2\\) (Aniq integral va Nyuton-Leybnits formulasi)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "376",
+            "375",
+            "377",
+            "188"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (188 + 187) = 375"
         }
       ],
       "practiceExercises": [
@@ -50848,39 +50848,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(132 + 88 - 55\\)",
+        "question": "Hisoblang: \\(534 + 356 - 178\\) (Aniq integral va Nyuton-Leybnits formulasi)",
         "options": [
-          "330",
-          "170",
-          "160",
-          "165"
+          "1424",
+          "714",
+          "710",
+          "712"
         ],
         "correctIndex": 3,
-        "explanation": "132 + 88 - 55 = 165"
+        "explanation": "534 + 356 - 178 = 712"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+        "question": "Tenglamani yeching: \\(2x - 183 = 549\\) (Aniq integral va Nyuton-Leybnits formulasi)",
         "options": [
-          "22",
-          "23",
-          "21",
-          "44"
+          "366",
+          "367",
+          "365",
+          "732"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 44 => x = 22"
+        "explanation": "2x = 732 => x = 366"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+        "question": "Hisoblang: \\(188^2 - (188-1)^2\\) (Aniq integral va Nyuton-Leybnits formulasi)",
         "options": [
-          "46",
-          "44",
-          "42",
-          "88"
+          "376",
+          "375",
+          "377",
+          "188"
         ],
         "correctIndex": 1,
-        "explanation": "11 + 33 = 44"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (188 + 187) = 375"
       }
     ],
     "practiceExercises": [
@@ -51068,39 +51068,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(543 + 362 - 181\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "726",
+            "724",
+            "722",
+            "1448"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "543 + 362 - 181 = 724"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 186 = 558\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "371",
+            "373",
+            "372",
+            "744"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 744 => x = 372"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(191^2 - (191-1)^2\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "191",
+            "382",
+            "383",
+            "381"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (191 + 190) = 381"
         }
       ],
       "practiceExercises": [
@@ -51274,39 +51274,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(543 + 362 - 181\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "726",
+            "724",
+            "722",
+            "1448"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "543 + 362 - 181 = 724"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 186 = 558\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "371",
+            "373",
+            "372",
+            "744"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 744 => x = 372"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(191^2 - (191-1)^2\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "191",
+            "382",
+            "383",
+            "381"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (191 + 190) = 381"
         }
       ],
       "practiceExercises": [
@@ -51480,39 +51480,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(543 + 362 - 181\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "726",
+            "724",
+            "722",
+            "1448"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "543 + 362 - 181 = 724"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 186 = 558\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "371",
+            "373",
+            "372",
+            "744"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 744 => x = 372"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(191^2 - (191-1)^2\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "191",
+            "382",
+            "383",
+            "381"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (191 + 190) = 381"
         }
       ],
       "practiceExercises": [
@@ -51691,39 +51691,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(60 + 40 - 25\\)",
+        "question": "Hisoblang: \\(543 + 362 - 181\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
         "options": [
-          "80",
-          "75",
-          "70",
-          "150"
+          "726",
+          "724",
+          "722",
+          "1448"
         ],
         "correctIndex": 1,
-        "explanation": "60 + 40 - 25 = 75"
+        "explanation": "543 + 362 - 181 = 724"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+        "question": "Tenglamani yeching: \\(2x - 186 = 558\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
         "options": [
-          "9",
-          "11",
-          "10",
-          "20"
+          "371",
+          "373",
+          "372",
+          "744"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 20 => x = 10"
+        "explanation": "2x = 744 => x = 372"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+        "question": "Hisoblang: \\(191^2 - (191-1)^2\\) (Ko'paytirishning taqsimot qonuni (Qavslarni ochish))",
         "options": [
-          "40",
-          "22",
-          "18",
-          "20"
+          "191",
+          "382",
+          "383",
+          "381"
         ],
         "correctIndex": 3,
-        "explanation": "5 + 15 = 20"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (191 + 190) = 381"
       }
     ],
     "practiceExercises": [
@@ -51905,39 +51905,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(552 + 368 - 184\\) (Rim raqamlari (I, V, X, L, C, D, M))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "738",
+            "736",
+            "734",
+            "1472"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "552 + 368 - 184 = 736"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 189 = 567\\) (Rim raqamlari (I, V, X, L, C, D, M))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "377",
+            "379",
+            "378",
+            "756"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 756 => x = 378"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(194^2 - (194-1)^2\\) (Rim raqamlari (I, V, X, L, C, D, M))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "194",
+            "388",
+            "389",
+            "387"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (194 + 193) = 387"
         }
       ],
       "practiceExercises": [
@@ -52111,39 +52111,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(552 + 368 - 184\\) (Rim raqamlari (I, V, X, L, C, D, M))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "738",
+            "736",
+            "734",
+            "1472"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "552 + 368 - 184 = 736"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 189 = 567\\) (Rim raqamlari (I, V, X, L, C, D, M))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "377",
+            "379",
+            "378",
+            "756"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 756 => x = 378"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(194^2 - (194-1)^2\\) (Rim raqamlari (I, V, X, L, C, D, M))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "194",
+            "388",
+            "389",
+            "387"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (194 + 193) = 387"
         }
       ],
       "practiceExercises": [
@@ -52317,39 +52317,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(552 + 368 - 184\\) (Rim raqamlari (I, V, X, L, C, D, M))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "738",
+            "736",
+            "734",
+            "1472"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "552 + 368 - 184 = 736"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 189 = 567\\) (Rim raqamlari (I, V, X, L, C, D, M))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "377",
+            "379",
+            "378",
+            "756"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 756 => x = 378"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(194^2 - (194-1)^2\\) (Rim raqamlari (I, V, X, L, C, D, M))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "194",
+            "388",
+            "389",
+            "387"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (194 + 193) = 387"
         }
       ],
       "practiceExercises": [
@@ -52522,39 +52522,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(60 + 40 - 25\\)",
+        "question": "Hisoblang: \\(552 + 368 - 184\\) (Rim raqamlari (I, V, X, L, C, D, M))",
         "options": [
-          "80",
-          "75",
-          "70",
-          "150"
+          "738",
+          "736",
+          "734",
+          "1472"
         ],
         "correctIndex": 1,
-        "explanation": "60 + 40 - 25 = 75"
+        "explanation": "552 + 368 - 184 = 736"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+        "question": "Tenglamani yeching: \\(2x - 189 = 567\\) (Rim raqamlari (I, V, X, L, C, D, M))",
         "options": [
-          "9",
-          "11",
-          "10",
-          "20"
+          "377",
+          "379",
+          "378",
+          "756"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 20 => x = 10"
+        "explanation": "2x = 756 => x = 378"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+        "question": "Hisoblang: \\(194^2 - (194-1)^2\\) (Rim raqamlari (I, V, X, L, C, D, M))",
         "options": [
-          "40",
-          "22",
-          "18",
-          "20"
+          "194",
+          "388",
+          "389",
+          "387"
         ],
         "correctIndex": 3,
-        "explanation": "5 + 15 = 20"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (194 + 193) = 387"
       }
     ],
     "practiceExercises": [
@@ -52736,39 +52736,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(561 + 374 - 187\\) (Sonning moduli (Absolyut qiymat: |x|))",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "746",
+            "750",
+            "748",
+            "1496"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "561 + 374 - 187 = 748"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 192 = 576\\) (Sonning moduli (Absolyut qiymat: |x|))",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "768",
+            "385",
+            "383",
+            "384"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 768 => x = 384"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(197^2 - (197-1)^2\\) (Sonning moduli (Absolyut qiymat: |x|))",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "393",
+            "394",
+            "395",
+            "197"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (197 + 196) = 393"
         }
       ],
       "practiceExercises": [
@@ -52942,39 +52942,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(561 + 374 - 187\\) (Sonning moduli (Absolyut qiymat: |x|))",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "746",
+            "750",
+            "748",
+            "1496"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "561 + 374 - 187 = 748"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 192 = 576\\) (Sonning moduli (Absolyut qiymat: |x|))",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "768",
+            "385",
+            "383",
+            "384"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 768 => x = 384"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(197^2 - (197-1)^2\\) (Sonning moduli (Absolyut qiymat: |x|))",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "393",
+            "394",
+            "395",
+            "197"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (197 + 196) = 393"
         }
       ],
       "practiceExercises": [
@@ -53148,39 +53148,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(561 + 374 - 187\\) (Sonning moduli (Absolyut qiymat: |x|))",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "746",
+            "750",
+            "748",
+            "1496"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "561 + 374 - 187 = 748"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 192 = 576\\) (Sonning moduli (Absolyut qiymat: |x|))",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "768",
+            "385",
+            "383",
+            "384"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 768 => x = 384"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(197^2 - (197-1)^2\\) (Sonning moduli (Absolyut qiymat: |x|))",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "393",
+            "394",
+            "395",
+            "197"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (197 + 196) = 393"
         }
       ],
       "practiceExercises": [
@@ -53353,39 +53353,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(72 + 48 - 30\\)",
+        "question": "Hisoblang: \\(561 + 374 - 187\\) (Sonning moduli (Absolyut qiymat: |x|))",
         "options": [
-          "85",
-          "95",
-          "90",
-          "180"
+          "746",
+          "750",
+          "748",
+          "1496"
         ],
         "correctIndex": 2,
-        "explanation": "72 + 48 - 30 = 90"
+        "explanation": "561 + 374 - 187 = 748"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+        "question": "Tenglamani yeching: \\(2x - 192 = 576\\) (Sonning moduli (Absolyut qiymat: |x|))",
         "options": [
-          "24",
-          "13",
-          "11",
-          "12"
+          "768",
+          "385",
+          "383",
+          "384"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 24 => x = 12"
+        "explanation": "2x = 768 => x = 384"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+        "question": "Hisoblang: \\(197^2 - (197-1)^2\\) (Sonning moduli (Absolyut qiymat: |x|))",
         "options": [
-          "24",
-          "26",
-          "22",
-          "48"
+          "393",
+          "394",
+          "395",
+          "197"
         ],
         "correctIndex": 0,
-        "explanation": "6 + 18 = 24"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (197 + 196) = 393"
       }
     ],
     "practiceExercises": [
@@ -53567,39 +53567,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(570 + 380 - 190\\) (To'g'ri va Teskari proporsionallik)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "758",
+            "762",
+            "760",
+            "1520"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "570 + 380 - 190 = 760"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 195 = 585\\) (To'g'ri va Teskari proporsionallik)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "780",
+            "391",
+            "389",
+            "390"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 780 => x = 390"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(200^2 - (200-1)^2\\) (To'g'ri va Teskari proporsionallik)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "399",
+            "400",
+            "401",
+            "200"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (200 + 199) = 399"
         }
       ],
       "practiceExercises": [
@@ -53773,39 +53773,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(570 + 380 - 190\\) (To'g'ri va Teskari proporsionallik)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "758",
+            "762",
+            "760",
+            "1520"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "570 + 380 - 190 = 760"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 195 = 585\\) (To'g'ri va Teskari proporsionallik)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "780",
+            "391",
+            "389",
+            "390"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 780 => x = 390"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(200^2 - (200-1)^2\\) (To'g'ri va Teskari proporsionallik)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "399",
+            "400",
+            "401",
+            "200"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (200 + 199) = 399"
         }
       ],
       "practiceExercises": [
@@ -53979,39 +53979,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(570 + 380 - 190\\) (To'g'ri va Teskari proporsionallik)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "758",
+            "762",
+            "760",
+            "1520"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "570 + 380 - 190 = 760"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 195 = 585\\) (To'g'ri va Teskari proporsionallik)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "780",
+            "391",
+            "389",
+            "390"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 780 => x = 390"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(200^2 - (200-1)^2\\) (To'g'ri va Teskari proporsionallik)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "399",
+            "400",
+            "401",
+            "200"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (200 + 199) = 399"
         }
       ],
       "practiceExercises": [
@@ -54184,39 +54184,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(72 + 48 - 30\\)",
+        "question": "Hisoblang: \\(570 + 380 - 190\\) (To'g'ri va Teskari proporsionallik)",
         "options": [
-          "85",
-          "95",
-          "90",
-          "180"
+          "758",
+          "762",
+          "760",
+          "1520"
         ],
         "correctIndex": 2,
-        "explanation": "72 + 48 - 30 = 90"
+        "explanation": "570 + 380 - 190 = 760"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+        "question": "Tenglamani yeching: \\(2x - 195 = 585\\) (To'g'ri va Teskari proporsionallik)",
         "options": [
-          "24",
-          "13",
-          "11",
-          "12"
+          "780",
+          "391",
+          "389",
+          "390"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 24 => x = 12"
+        "explanation": "2x = 780 => x = 390"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+        "question": "Hisoblang: \\(200^2 - (200-1)^2\\) (To'g'ri va Teskari proporsionallik)",
         "options": [
-          "24",
-          "26",
-          "22",
-          "48"
+          "399",
+          "400",
+          "401",
+          "200"
         ],
         "correctIndex": 0,
-        "explanation": "6 + 18 = 24"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (200 + 199) = 399"
       }
     ],
     "practiceExercises": [
@@ -54392,39 +54392,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 386 \\text{ sm}, balandligi h = 193 \\text{ sm}. Uning yuzini hisoblang (Uchburchak medianasi, bissektrisasi va balandligi).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(74498 \\text{ sm}^2\\)",
+            "\\(37254 \\text{ sm}^2\\)",
+            "\\(37246 \\text{ sm}^2\\)",
+            "\\(37249 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (386 * 193)/2 = 37249 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 404 \\text{ sm}, bir tomoni a = 198 \\text{ sm}. Ikkinchi tomonini toping (Uchburchak medianasi, bissektrisasi va balandligi).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 203 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchak medianasi, bissektrisasi va balandligi).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(406 \\text{ sm}\\)",
+            "\\(609 \\text{ sm}\\)",
+            "\\(812 \\text{ sm}\\)",
+            "\\(1015 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 203 = 609 sm"
         }
       ],
       "practiceExercises": [
@@ -54598,39 +54598,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 386 \\text{ sm}, balandligi h = 193 \\text{ sm}. Uning yuzini hisoblang (Uchburchak medianasi, bissektrisasi va balandligi).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(74498 \\text{ sm}^2\\)",
+            "\\(37254 \\text{ sm}^2\\)",
+            "\\(37246 \\text{ sm}^2\\)",
+            "\\(37249 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (386 * 193)/2 = 37249 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 404 \\text{ sm}, bir tomoni a = 198 \\text{ sm}. Ikkinchi tomonini toping (Uchburchak medianasi, bissektrisasi va balandligi).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 203 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchak medianasi, bissektrisasi va balandligi).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(406 \\text{ sm}\\)",
+            "\\(609 \\text{ sm}\\)",
+            "\\(812 \\text{ sm}\\)",
+            "\\(1015 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 203 = 609 sm"
         }
       ],
       "practiceExercises": [
@@ -54804,39 +54804,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 386 \\text{ sm}, balandligi h = 193 \\text{ sm}. Uning yuzini hisoblang (Uchburchak medianasi, bissektrisasi va balandligi).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(74498 \\text{ sm}^2\\)",
+            "\\(37254 \\text{ sm}^2\\)",
+            "\\(37246 \\text{ sm}^2\\)",
+            "\\(37249 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (386 * 193)/2 = 37249 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 404 \\text{ sm}, bir tomoni a = 198 \\text{ sm}. Ikkinchi tomonini toping (Uchburchak medianasi, bissektrisasi va balandligi).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 203 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchak medianasi, bissektrisasi va balandligi).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(406 \\text{ sm}\\)",
+            "\\(609 \\text{ sm}\\)",
+            "\\(812 \\text{ sm}\\)",
+            "\\(1015 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 203 = 609 sm"
         }
       ],
       "practiceExercises": [
@@ -55003,39 +55003,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 386 \\text{ sm}, balandligi h = 193 \\text{ sm}. Uning yuzini hisoblang (Uchburchak medianasi, bissektrisasi va balandligi).",
         "options": [
-          "\\(98 \\text{ sm}^2\\)",
-          "\\(53 \\text{ sm}^2\\)",
-          "\\(47 \\text{ sm}^2\\)",
-          "\\(49 \\text{ sm}^2\\)"
+          "\\(74498 \\text{ sm}^2\\)",
+          "\\(37254 \\text{ sm}^2\\)",
+          "\\(37246 \\text{ sm}^2\\)",
+          "\\(37249 \\text{ sm}^2\\)"
         ],
         "correctIndex": 3,
-        "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+        "explanation": "S = (a * h)/2 = (386 * 193)/2 = 37249 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 404 \\text{ sm}, bir tomoni a = 198 \\text{ sm}. Ikkinchi tomonini toping (Uchburchak medianasi, bissektrisasi va balandligi).",
         "options": [
-          "\\(15 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(11 \\text{ sm}\\)"
+          "\\(4 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 203 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchak medianasi, bissektrisasi va balandligi).",
         "options": [
-          "\\(28 \\text{ sm}\\)",
-          "\\(42 \\text{ sm}\\)",
-          "\\(56 \\text{ sm}\\)",
-          "\\(63 \\text{ sm}\\)"
+          "\\(406 \\text{ sm}\\)",
+          "\\(609 \\text{ sm}\\)",
+          "\\(812 \\text{ sm}\\)",
+          "\\(1015 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 3a = 3 * 14 = 42 sm"
+        "explanation": "P = 3 * 203 = 609 sm"
       }
     ],
     "practiceExercises": [
@@ -55217,39 +55217,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(588 + 392 - 196\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "1568",
+            "786",
+            "782",
+            "784"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "588 + 392 - 196 = 784"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 201 = 603\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "402",
+            "403",
+            "401",
+            "804"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 804 => x = 402"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(206^2 - (206-1)^2\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "412",
+            "411",
+            "413",
+            "206"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (206 + 205) = 411"
         }
       ],
       "practiceExercises": [
@@ -55423,39 +55423,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(588 + 392 - 196\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "1568",
+            "786",
+            "782",
+            "784"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "588 + 392 - 196 = 784"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 201 = 603\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "402",
+            "403",
+            "401",
+            "804"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 804 => x = 402"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(206^2 - (206-1)^2\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "412",
+            "411",
+            "413",
+            "206"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (206 + 205) = 411"
         }
       ],
       "practiceExercises": [
@@ -55629,39 +55629,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(588 + 392 - 196\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "1568",
+            "786",
+            "782",
+            "784"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "588 + 392 - 196 = 784"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 201 = 603\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "402",
+            "403",
+            "401",
+            "804"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 804 => x = 402"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(206^2 - (206-1)^2\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "412",
+            "411",
+            "413",
+            "206"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (206 + 205) = 411"
         }
       ],
       "practiceExercises": [
@@ -55834,39 +55834,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(84 + 56 - 35\\)",
+        "question": "Hisoblang: \\(588 + 392 - 196\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
         "options": [
-          "210",
-          "110",
-          "100",
-          "105"
+          "1568",
+          "786",
+          "782",
+          "784"
         ],
         "correctIndex": 3,
-        "explanation": "84 + 56 - 35 = 105"
+        "explanation": "588 + 392 - 196 = 784"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+        "question": "Tenglamani yeching: \\(2x - 201 = 603\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
         "options": [
-          "14",
-          "15",
-          "13",
-          "28"
+          "402",
+          "403",
+          "401",
+          "804"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 28 => x = 14"
+        "explanation": "2x = 804 => x = 402"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+        "question": "Hisoblang: \\(206^2 - (206-1)^2\\) (Birhadlar ustida amallar (Darajalar bilan hisoblash))",
         "options": [
-          "30",
-          "28",
-          "26",
-          "56"
+          "412",
+          "411",
+          "413",
+          "206"
         ],
         "correctIndex": 1,
-        "explanation": "7 + 21 = 28"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (206 + 205) = 411"
       }
     ],
     "practiceExercises": [
@@ -56048,39 +56048,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 398 \\text{ sm}, balandligi h = 199 \\text{ sm}. Uning yuzini hisoblang (Trapetsiyaning o'rta chizig'i va Yuzasi).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(39601 \\text{ sm}^2\\)",
+            "\\(39606 \\text{ sm}^2\\)",
+            "\\(39598 \\text{ sm}^2\\)",
+            "\\(79202 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (398 * 199)/2 = 39601 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 416 \\text{ sm}, bir tomoni a = 204 \\text{ sm}. Ikkinchi tomonini toping (Trapetsiyaning o'rta chizig'i va Yuzasi).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 209 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Trapetsiyaning o'rta chizig'i va Yuzasi).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(836 \\text{ sm}\\)",
+            "\\(418 \\text{ sm}\\)",
+            "\\(627 \\text{ sm}\\)",
+            "\\(1045 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 209 = 627 sm"
         }
       ],
       "practiceExercises": [
@@ -56254,39 +56254,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 398 \\text{ sm}, balandligi h = 199 \\text{ sm}. Uning yuzini hisoblang (Trapetsiyaning o'rta chizig'i va Yuzasi).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(39601 \\text{ sm}^2\\)",
+            "\\(39606 \\text{ sm}^2\\)",
+            "\\(39598 \\text{ sm}^2\\)",
+            "\\(79202 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (398 * 199)/2 = 39601 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 416 \\text{ sm}, bir tomoni a = 204 \\text{ sm}. Ikkinchi tomonini toping (Trapetsiyaning o'rta chizig'i va Yuzasi).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 209 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Trapetsiyaning o'rta chizig'i va Yuzasi).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(836 \\text{ sm}\\)",
+            "\\(418 \\text{ sm}\\)",
+            "\\(627 \\text{ sm}\\)",
+            "\\(1045 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 209 = 627 sm"
         }
       ],
       "practiceExercises": [
@@ -56460,39 +56460,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 398 \\text{ sm}, balandligi h = 199 \\text{ sm}. Uning yuzini hisoblang (Trapetsiyaning o'rta chizig'i va Yuzasi).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(39601 \\text{ sm}^2\\)",
+            "\\(39606 \\text{ sm}^2\\)",
+            "\\(39598 \\text{ sm}^2\\)",
+            "\\(79202 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (398 * 199)/2 = 39601 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 416 \\text{ sm}, bir tomoni a = 204 \\text{ sm}. Ikkinchi tomonini toping (Trapetsiyaning o'rta chizig'i va Yuzasi).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 209 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Trapetsiyaning o'rta chizig'i va Yuzasi).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(836 \\text{ sm}\\)",
+            "\\(418 \\text{ sm}\\)",
+            "\\(627 \\text{ sm}\\)",
+            "\\(1045 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 209 = 627 sm"
         }
       ],
       "practiceExercises": [
@@ -56665,39 +56665,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 398 \\text{ sm}, balandligi h = 199 \\text{ sm}. Uning yuzini hisoblang (Trapetsiyaning o'rta chizig'i va Yuzasi).",
         "options": [
-          "\\(64 \\text{ sm}^2\\)",
-          "\\(68 \\text{ sm}^2\\)",
-          "\\(62 \\text{ sm}^2\\)",
-          "\\(128 \\text{ sm}^2\\)"
+          "\\(39601 \\text{ sm}^2\\)",
+          "\\(39606 \\text{ sm}^2\\)",
+          "\\(39598 \\text{ sm}^2\\)",
+          "\\(79202 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
-        "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+        "explanation": "S = (a * h)/2 = (398 * 199)/2 = 39601 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 416 \\text{ sm}, bir tomoni a = 204 \\text{ sm}. Ikkinchi tomonini toping (Trapetsiyaning o'rta chizig'i va Yuzasi).",
         "options": [
-          "\\(14 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(18 \\text{ sm}\\)",
-          "\\(12 \\text{ sm}\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 209 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Trapetsiyaning o'rta chizig'i va Yuzasi).",
         "options": [
-          "\\(64 \\text{ sm}\\)",
-          "\\(32 \\text{ sm}\\)",
-          "\\(48 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)"
+          "\\(836 \\text{ sm}\\)",
+          "\\(418 \\text{ sm}\\)",
+          "\\(627 \\text{ sm}\\)",
+          "\\(1045 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 3a = 3 * 16 = 48 sm"
+        "explanation": "P = 3 * 209 = 627 sm"
       }
     ],
     "practiceExercises": [
@@ -56879,39 +56879,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(606 + 404 - 202\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "808",
+            "810",
+            "806",
+            "1616"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "606 + 404 - 202 = 808"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 207 = 621\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "415",
+            "414",
+            "413",
+            "828"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 828 => x = 414"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(212^2 - (212-1)^2\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "425",
+            "424",
+            "423",
+            "212"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (212 + 211) = 423"
         }
       ],
       "practiceExercises": [
@@ -57085,39 +57085,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(606 + 404 - 202\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "808",
+            "810",
+            "806",
+            "1616"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "606 + 404 - 202 = 808"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 207 = 621\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "415",
+            "414",
+            "413",
+            "828"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 828 => x = 414"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(212^2 - (212-1)^2\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "425",
+            "424",
+            "423",
+            "212"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (212 + 211) = 423"
         }
       ],
       "practiceExercises": [
@@ -57291,39 +57291,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(606 + 404 - 202\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "808",
+            "810",
+            "806",
+            "1616"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "606 + 404 - 202 = 808"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 207 = 621\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "415",
+            "414",
+            "413",
+            "828"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 828 => x = 414"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(212^2 - (212-1)^2\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "425",
+            "424",
+            "423",
+            "212"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (212 + 211) = 423"
         }
       ],
       "practiceExercises": [
@@ -57496,39 +57496,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(96 + 64 - 40\\)",
+        "question": "Hisoblang: \\(606 + 404 - 202\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
         "options": [
-          "120",
-          "125",
-          "115",
-          "240"
+          "808",
+          "810",
+          "806",
+          "1616"
         ],
         "correctIndex": 0,
-        "explanation": "96 + 64 - 40 = 120"
+        "explanation": "606 + 404 - 202 = 808"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+        "question": "Tenglamani yeching: \\(2x - 207 = 621\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
         "options": [
-          "17",
-          "16",
-          "15",
-          "32"
+          "415",
+          "414",
+          "413",
+          "828"
         ],
         "correctIndex": 1,
-        "explanation": "2x = 32 => x = 16"
+        "explanation": "2x = 828 => x = 414"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+        "question": "Hisoblang: \\(212^2 - (212-1)^2\\) (Kvadrat uchhadni to'la kvadratga ajratish)",
         "options": [
-          "30",
-          "34",
-          "32",
-          "64"
+          "425",
+          "424",
+          "423",
+          "212"
         ],
         "correctIndex": 2,
-        "explanation": "8 + 24 = 32"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (212 + 211) = 423"
       }
     ],
     "practiceExercises": [
@@ -57704,39 +57704,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 410 \\text{ sm}, balandligi h = 205 \\text{ sm}. Uning yuzini hisoblang (Burchakning Radian o'lchovi (π rad = 180°)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(42030 \\text{ sm}^2\\)",
+            "\\(42025 \\text{ sm}^2\\)",
+            "\\(42022 \\text{ sm}^2\\)",
+            "\\(84050 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (410 * 205)/2 = 42025 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 428 \\text{ sm}, bir tomoni a = 210 \\text{ sm}. Ikkinchi tomonini toping (Burchakning Radian o'lchovi (π rad = 180°)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 215 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Burchakning Radian o'lchovi (π rad = 180°)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1075 \\text{ sm}\\)",
+            "\\(430 \\text{ sm}\\)",
+            "\\(860 \\text{ sm}\\)",
+            "\\(645 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 215 = 645 sm"
         }
       ],
       "practiceExercises": [
@@ -57910,39 +57910,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 410 \\text{ sm}, balandligi h = 205 \\text{ sm}. Uning yuzini hisoblang (Burchakning Radian o'lchovi (π rad = 180°)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(42030 \\text{ sm}^2\\)",
+            "\\(42025 \\text{ sm}^2\\)",
+            "\\(42022 \\text{ sm}^2\\)",
+            "\\(84050 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (410 * 205)/2 = 42025 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 428 \\text{ sm}, bir tomoni a = 210 \\text{ sm}. Ikkinchi tomonini toping (Burchakning Radian o'lchovi (π rad = 180°)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 215 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Burchakning Radian o'lchovi (π rad = 180°)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1075 \\text{ sm}\\)",
+            "\\(430 \\text{ sm}\\)",
+            "\\(860 \\text{ sm}\\)",
+            "\\(645 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 215 = 645 sm"
         }
       ],
       "practiceExercises": [
@@ -58116,39 +58116,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 410 \\text{ sm}, balandligi h = 205 \\text{ sm}. Uning yuzini hisoblang (Burchakning Radian o'lchovi (π rad = 180°)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(42030 \\text{ sm}^2\\)",
+            "\\(42025 \\text{ sm}^2\\)",
+            "\\(42022 \\text{ sm}^2\\)",
+            "\\(84050 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (410 * 205)/2 = 42025 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 428 \\text{ sm}, bir tomoni a = 210 \\text{ sm}. Ikkinchi tomonini toping (Burchakning Radian o'lchovi (π rad = 180°)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 215 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Burchakning Radian o'lchovi (π rad = 180°)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1075 \\text{ sm}\\)",
+            "\\(430 \\text{ sm}\\)",
+            "\\(860 \\text{ sm}\\)",
+            "\\(645 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 215 = 645 sm"
         }
       ],
       "practiceExercises": [
@@ -58315,39 +58315,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 410 \\text{ sm}, balandligi h = 205 \\text{ sm}. Uning yuzini hisoblang (Burchakning Radian o'lchovi (π rad = 180°)).",
         "options": [
-          "\\(85 \\text{ sm}^2\\)",
-          "\\(81 \\text{ sm}^2\\)",
-          "\\(79 \\text{ sm}^2\\)",
-          "\\(162 \\text{ sm}^2\\)"
+          "\\(42030 \\text{ sm}^2\\)",
+          "\\(42025 \\text{ sm}^2\\)",
+          "\\(42022 \\text{ sm}^2\\)",
+          "\\(84050 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
-        "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+        "explanation": "S = (a * h)/2 = (410 * 205)/2 = 42025 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 428 \\text{ sm}, bir tomoni a = 210 \\text{ sm}. Ikkinchi tomonini toping (Burchakning Radian o'lchovi (π rad = 180°)).",
         "options": [
-          "\\(19 \\text{ sm}\\)",
-          "\\(15 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 215 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Burchakning Radian o'lchovi (π rad = 180°)).",
         "options": [
-          "\\(81 \\text{ sm}\\)",
-          "\\(36 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)",
-          "\\(54 \\text{ sm}\\)"
+          "\\(1075 \\text{ sm}\\)",
+          "\\(430 \\text{ sm}\\)",
+          "\\(860 \\text{ sm}\\)",
+          "\\(645 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 3a = 3 * 18 = 54 sm"
+        "explanation": "P = 3 * 215 = 645 sm"
       }
     ],
     "practiceExercises": [
@@ -58529,39 +58529,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 416 \\text{ sm}, balandligi h = 208 \\text{ sm}. Uning yuzini hisoblang (Aylanaga urinma va kesuvchi xossalari).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(43269 \\text{ sm}^2\\)",
+            "\\(43264 \\text{ sm}^2\\)",
+            "\\(43261 \\text{ sm}^2\\)",
+            "\\(86528 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (416 * 208)/2 = 43264 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 434 \\text{ sm}, bir tomoni a = 213 \\text{ sm}. Ikkinchi tomonini toping (Aylanaga urinma va kesuvchi xossalari).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 218 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylanaga urinma va kesuvchi xossalari).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1090 \\text{ sm}\\)",
+            "\\(436 \\text{ sm}\\)",
+            "\\(872 \\text{ sm}\\)",
+            "\\(654 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 218 = 654 sm"
         }
       ],
       "practiceExercises": [
@@ -58735,39 +58735,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 416 \\text{ sm}, balandligi h = 208 \\text{ sm}. Uning yuzini hisoblang (Aylanaga urinma va kesuvchi xossalari).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(43269 \\text{ sm}^2\\)",
+            "\\(43264 \\text{ sm}^2\\)",
+            "\\(43261 \\text{ sm}^2\\)",
+            "\\(86528 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (416 * 208)/2 = 43264 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 434 \\text{ sm}, bir tomoni a = 213 \\text{ sm}. Ikkinchi tomonini toping (Aylanaga urinma va kesuvchi xossalari).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 218 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylanaga urinma va kesuvchi xossalari).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1090 \\text{ sm}\\)",
+            "\\(436 \\text{ sm}\\)",
+            "\\(872 \\text{ sm}\\)",
+            "\\(654 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 218 = 654 sm"
         }
       ],
       "practiceExercises": [
@@ -58941,39 +58941,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 416 \\text{ sm}, balandligi h = 208 \\text{ sm}. Uning yuzini hisoblang (Aylanaga urinma va kesuvchi xossalari).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(43269 \\text{ sm}^2\\)",
+            "\\(43264 \\text{ sm}^2\\)",
+            "\\(43261 \\text{ sm}^2\\)",
+            "\\(86528 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (416 * 208)/2 = 43264 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 434 \\text{ sm}, bir tomoni a = 213 \\text{ sm}. Ikkinchi tomonini toping (Aylanaga urinma va kesuvchi xossalari).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 218 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylanaga urinma va kesuvchi xossalari).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1090 \\text{ sm}\\)",
+            "\\(436 \\text{ sm}\\)",
+            "\\(872 \\text{ sm}\\)",
+            "\\(654 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 218 = 654 sm"
         }
       ],
       "practiceExercises": [
@@ -59146,39 +59146,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 416 \\text{ sm}, balandligi h = 208 \\text{ sm}. Uning yuzini hisoblang (Aylanaga urinma va kesuvchi xossalari).",
         "options": [
-          "\\(85 \\text{ sm}^2\\)",
-          "\\(81 \\text{ sm}^2\\)",
-          "\\(79 \\text{ sm}^2\\)",
-          "\\(162 \\text{ sm}^2\\)"
+          "\\(43269 \\text{ sm}^2\\)",
+          "\\(43264 \\text{ sm}^2\\)",
+          "\\(43261 \\text{ sm}^2\\)",
+          "\\(86528 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
-        "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+        "explanation": "S = (a * h)/2 = (416 * 208)/2 = 43264 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 434 \\text{ sm}, bir tomoni a = 213 \\text{ sm}. Ikkinchi tomonini toping (Aylanaga urinma va kesuvchi xossalari).",
         "options": [
-          "\\(19 \\text{ sm}\\)",
-          "\\(15 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 218 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylanaga urinma va kesuvchi xossalari).",
         "options": [
-          "\\(81 \\text{ sm}\\)",
-          "\\(36 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)",
-          "\\(54 \\text{ sm}\\)"
+          "\\(1090 \\text{ sm}\\)",
+          "\\(436 \\text{ sm}\\)",
+          "\\(872 \\text{ sm}\\)",
+          "\\(654 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 3a = 3 * 18 = 54 sm"
+        "explanation": "P = 3 * 218 = 654 sm"
       }
     ],
     "practiceExercises": [
@@ -59354,39 +59354,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(633 + 422 - 211\\) (Darajali funksiyalar va ularning xossalari)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "842",
+            "846",
+            "844",
+            "1688"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "633 + 422 - 211 = 844"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 216 = 648\\) (Darajali funksiyalar va ularning xossalari)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "864",
+            "433",
+            "431",
+            "432"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 864 => x = 432"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(221^2 - (221-1)^2\\) (Darajali funksiyalar va ularning xossalari)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "441",
+            "442",
+            "443",
+            "221"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (221 + 220) = 441"
         }
       ],
       "practiceExercises": [
@@ -59560,39 +59560,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(633 + 422 - 211\\) (Darajali funksiyalar va ularning xossalari)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "842",
+            "846",
+            "844",
+            "1688"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "633 + 422 - 211 = 844"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 216 = 648\\) (Darajali funksiyalar va ularning xossalari)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "864",
+            "433",
+            "431",
+            "432"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 864 => x = 432"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(221^2 - (221-1)^2\\) (Darajali funksiyalar va ularning xossalari)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "441",
+            "442",
+            "443",
+            "221"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (221 + 220) = 441"
         }
       ],
       "practiceExercises": [
@@ -59766,39 +59766,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(633 + 422 - 211\\) (Darajali funksiyalar va ularning xossalari)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "842",
+            "846",
+            "844",
+            "1688"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "633 + 422 - 211 = 844"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 216 = 648\\) (Darajali funksiyalar va ularning xossalari)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "864",
+            "433",
+            "431",
+            "432"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 864 => x = 432"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(221^2 - (221-1)^2\\) (Darajali funksiyalar va ularning xossalari)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "441",
+            "442",
+            "443",
+            "221"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (221 + 220) = 441"
         }
       ],
       "practiceExercises": [
@@ -59965,39 +59965,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(120 + 80 - 50\\)",
+        "question": "Hisoblang: \\(633 + 422 - 211\\) (Darajali funksiyalar va ularning xossalari)",
         "options": [
-          "145",
-          "155",
-          "150",
-          "300"
+          "842",
+          "846",
+          "844",
+          "1688"
         ],
         "correctIndex": 2,
-        "explanation": "120 + 80 - 50 = 150"
+        "explanation": "633 + 422 - 211 = 844"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+        "question": "Tenglamani yeching: \\(2x - 216 = 648\\) (Darajali funksiyalar va ularning xossalari)",
         "options": [
-          "40",
-          "21",
-          "19",
-          "20"
+          "864",
+          "433",
+          "431",
+          "432"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 40 => x = 20"
+        "explanation": "2x = 864 => x = 432"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+        "question": "Hisoblang: \\(221^2 - (221-1)^2\\) (Darajali funksiyalar va ularning xossalari)",
         "options": [
-          "40",
-          "42",
-          "38",
-          "80"
+          "441",
+          "442",
+          "443",
+          "221"
         ],
         "correctIndex": 0,
-        "explanation": "10 + 30 = 40"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (221 + 220) = 441"
       }
     ],
     "practiceExercises": [
@@ -60173,39 +60173,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 428 \\text{ sm}, balandligi h = 214 \\text{ sm}. Uning yuzini hisoblang (Fazoda tekisliklarning o'zaro joylashuvi).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(45793 \\text{ sm}^2\\)",
+            "\\(45801 \\text{ sm}^2\\)",
+            "\\(45796 \\text{ sm}^2\\)",
+            "\\(91592 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (428 * 214)/2 = 45796 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 446 \\text{ sm}, bir tomoni a = 219 \\text{ sm}. Ikkinchi tomonini toping (Fazoda tekisliklarning o'zaro joylashuvi).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 224 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda tekisliklarning o'zaro joylashuvi).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(672 \\text{ sm}\\)",
+            "\\(448 \\text{ sm}\\)",
+            "\\(896 \\text{ sm}\\)",
+            "\\(1120 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 224 = 672 sm"
         }
       ],
       "practiceExercises": [
@@ -60379,39 +60379,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 428 \\text{ sm}, balandligi h = 214 \\text{ sm}. Uning yuzini hisoblang (Fazoda tekisliklarning o'zaro joylashuvi).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(45793 \\text{ sm}^2\\)",
+            "\\(45801 \\text{ sm}^2\\)",
+            "\\(45796 \\text{ sm}^2\\)",
+            "\\(91592 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (428 * 214)/2 = 45796 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 446 \\text{ sm}, bir tomoni a = 219 \\text{ sm}. Ikkinchi tomonini toping (Fazoda tekisliklarning o'zaro joylashuvi).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 224 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda tekisliklarning o'zaro joylashuvi).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(672 \\text{ sm}\\)",
+            "\\(448 \\text{ sm}\\)",
+            "\\(896 \\text{ sm}\\)",
+            "\\(1120 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 224 = 672 sm"
         }
       ],
       "practiceExercises": [
@@ -60585,39 +60585,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 428 \\text{ sm}, balandligi h = 214 \\text{ sm}. Uning yuzini hisoblang (Fazoda tekisliklarning o'zaro joylashuvi).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(45793 \\text{ sm}^2\\)",
+            "\\(45801 \\text{ sm}^2\\)",
+            "\\(45796 \\text{ sm}^2\\)",
+            "\\(91592 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (428 * 214)/2 = 45796 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 446 \\text{ sm}, bir tomoni a = 219 \\text{ sm}. Ikkinchi tomonini toping (Fazoda tekisliklarning o'zaro joylashuvi).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 224 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda tekisliklarning o'zaro joylashuvi).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(672 \\text{ sm}\\)",
+            "\\(448 \\text{ sm}\\)",
+            "\\(896 \\text{ sm}\\)",
+            "\\(1120 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 224 = 672 sm"
         }
       ],
       "practiceExercises": [
@@ -60784,39 +60784,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 428 \\text{ sm}, balandligi h = 214 \\text{ sm}. Uning yuzini hisoblang (Fazoda tekisliklarning o'zaro joylashuvi).",
         "options": [
-          "\\(98 \\text{ sm}^2\\)",
-          "\\(104 \\text{ sm}^2\\)",
-          "\\(100 \\text{ sm}^2\\)",
-          "\\(200 \\text{ sm}^2\\)"
+          "\\(45793 \\text{ sm}^2\\)",
+          "\\(45801 \\text{ sm}^2\\)",
+          "\\(45796 \\text{ sm}^2\\)",
+          "\\(91592 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
-        "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+        "explanation": "S = (a * h)/2 = (428 * 214)/2 = 45796 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 446 \\text{ sm}, bir tomoni a = 219 \\text{ sm}. Ikkinchi tomonini toping (Fazoda tekisliklarning o'zaro joylashuvi).",
         "options": [
-          "\\(14 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(20 \\text{ sm}\\)",
-          "\\(18 \\text{ sm}\\)"
+          "\\(2 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 224 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda tekisliklarning o'zaro joylashuvi).",
         "options": [
-          "\\(60 \\text{ sm}\\)",
-          "\\(40 \\text{ sm}\\)",
-          "\\(80 \\text{ sm}\\)",
-          "\\(90 \\text{ sm}\\)"
+          "\\(672 \\text{ sm}\\)",
+          "\\(448 \\text{ sm}\\)",
+          "\\(896 \\text{ sm}\\)",
+          "\\(1120 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 3a = 3 * 20 = 60 sm"
+        "explanation": "P = 3 * 224 = 672 sm"
       }
     ],
     "practiceExercises": [
@@ -60998,39 +60998,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(651 + 434 - 217\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1736",
+            "870",
+            "866",
+            "868"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "651 + 434 - 217 = 868"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 222 = 666\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "444",
+            "445",
+            "443",
+            "888"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 888 => x = 444"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(227^2 - (227-1)^2\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "454",
+            "453",
+            "455",
+            "227"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (227 + 226) = 453"
         }
       ],
       "practiceExercises": [
@@ -61204,39 +61204,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(651 + 434 - 217\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1736",
+            "870",
+            "866",
+            "868"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "651 + 434 - 217 = 868"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 222 = 666\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "444",
+            "445",
+            "443",
+            "888"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 888 => x = 444"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(227^2 - (227-1)^2\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "454",
+            "453",
+            "455",
+            "227"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (227 + 226) = 453"
         }
       ],
       "practiceExercises": [
@@ -61410,39 +61410,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(651 + 434 - 217\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1736",
+            "870",
+            "866",
+            "868"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "651 + 434 - 217 = 868"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 222 = 666\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "444",
+            "445",
+            "443",
+            "888"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 888 => x = 444"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(227^2 - (227-1)^2\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "454",
+            "453",
+            "455",
+            "227"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (227 + 226) = 453"
         }
       ],
       "practiceExercises": [
@@ -61615,39 +61615,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(132 + 88 - 55\\)",
+        "question": "Hisoblang: \\(651 + 434 - 217\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
         "options": [
-          "330",
-          "170",
-          "160",
-          "165"
+          "1736",
+          "870",
+          "866",
+          "868"
         ],
         "correctIndex": 3,
-        "explanation": "132 + 88 - 55 = 165"
+        "explanation": "651 + 434 - 217 = 868"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+        "question": "Tenglamani yeching: \\(2x - 222 = 666\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
         "options": [
-          "22",
-          "23",
-          "21",
-          "44"
+          "444",
+          "445",
+          "443",
+          "888"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 44 => x = 22"
+        "explanation": "2x = 888 => x = 444"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+        "question": "Hisoblang: \\(227^2 - (227-1)^2\\) (Hosilaning geometrik ma'nosi (Urinma burchagi: k = tg α))",
         "options": [
-          "46",
-          "44",
-          "42",
-          "88"
+          "454",
+          "453",
+          "455",
+          "227"
         ],
         "correctIndex": 1,
-        "explanation": "11 + 33 = 44"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (227 + 226) = 453"
       }
     ],
     "practiceExercises": [
@@ -61829,39 +61829,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(660 + 440 - 220\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1760",
+            "882",
+            "878",
+            "880"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "660 + 440 - 220 = 880"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 225 = 675\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "450",
+            "451",
+            "449",
+            "900"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 900 => x = 450"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(230^2 - (230-1)^2\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "460",
+            "459",
+            "461",
+            "230"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (230 + 229) = 459"
         }
       ],
       "practiceExercises": [
@@ -62035,39 +62035,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(660 + 440 - 220\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1760",
+            "882",
+            "878",
+            "880"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "660 + 440 - 220 = 880"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 225 = 675\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "450",
+            "451",
+            "449",
+            "900"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 900 => x = 450"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(230^2 - (230-1)^2\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "460",
+            "459",
+            "461",
+            "230"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (230 + 229) = 459"
         }
       ],
       "practiceExercises": [
@@ -62241,39 +62241,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(660 + 440 - 220\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1760",
+            "882",
+            "878",
+            "880"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "660 + 440 - 220 = 880"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 225 = 675\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "450",
+            "451",
+            "449",
+            "900"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 900 => x = 450"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(230^2 - (230-1)^2\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "460",
+            "459",
+            "461",
+            "230"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (230 + 229) = 459"
         }
       ],
       "practiceExercises": [
@@ -62446,39 +62446,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(132 + 88 - 55\\)",
+        "question": "Hisoblang: \\(660 + 440 - 220\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
         "options": [
-          "330",
-          "170",
-          "160",
-          "165"
+          "1760",
+          "882",
+          "878",
+          "880"
         ],
         "correctIndex": 3,
-        "explanation": "132 + 88 - 55 = 165"
+        "explanation": "660 + 440 - 220 = 880"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+        "question": "Tenglamani yeching: \\(2x - 225 = 675\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
         "options": [
-          "22",
-          "23",
-          "21",
-          "44"
+          "450",
+          "451",
+          "449",
+          "900"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 44 => x = 22"
+        "explanation": "2x = 900 => x = 450"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+        "question": "Hisoblang: \\(230^2 - (230-1)^2\\) (Egri chiziqli trapetsiya yuzini hisoblash)",
         "options": [
-          "46",
-          "44",
-          "42",
-          "88"
+          "460",
+          "459",
+          "461",
+          "230"
         ],
         "correctIndex": 1,
-        "explanation": "11 + 33 = 44"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (230 + 229) = 459"
       }
     ],
     "practiceExercises": [
@@ -62660,39 +62660,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 10 \\text{ sm}, balandligi h = 5 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 446 \\text{ sm}, balandligi h = 223 \\text{ sm}. Uning yuzini hisoblang (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
           "options": [
-            "\\(29 \\text{ sm}^2\\)",
-            "\\(25 \\text{ sm}^2\\)",
-            "\\(23 \\text{ sm}^2\\)",
-            "\\(50 \\text{ sm}^2\\)"
+            "\\(49734 \\text{ sm}^2\\)",
+            "\\(49729 \\text{ sm}^2\\)",
+            "\\(49726 \\text{ sm}^2\\)",
+            "\\(99458 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (10 * 5)/2 = 25 sm²"
+          "explanation": "S = (a * h)/2 = (446 * 223)/2 = 49729 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 36 \\text{ sm}, bir tomoni a = 5 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 464 \\text{ sm}, bir tomoni a = 228 \\text{ sm}. Ikkinchi tomonini toping (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(9 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 13 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 10 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 233 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
           "options": [
-            "\\(45 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(30 \\text{ sm}\\)"
+            "\\(1165 \\text{ sm}\\)",
+            "\\(466 \\text{ sm}\\)",
+            "\\(932 \\text{ sm}\\)",
+            "\\(699 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 10 = 30 sm"
+          "explanation": "P = 3 * 233 = 699 sm"
         }
       ],
       "practiceExercises": [
@@ -62866,39 +62866,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 10 \\text{ sm}, balandligi h = 5 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 446 \\text{ sm}, balandligi h = 223 \\text{ sm}. Uning yuzini hisoblang (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
           "options": [
-            "\\(29 \\text{ sm}^2\\)",
-            "\\(25 \\text{ sm}^2\\)",
-            "\\(23 \\text{ sm}^2\\)",
-            "\\(50 \\text{ sm}^2\\)"
+            "\\(49734 \\text{ sm}^2\\)",
+            "\\(49729 \\text{ sm}^2\\)",
+            "\\(49726 \\text{ sm}^2\\)",
+            "\\(99458 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (10 * 5)/2 = 25 sm²"
+          "explanation": "S = (a * h)/2 = (446 * 223)/2 = 49729 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 36 \\text{ sm}, bir tomoni a = 5 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 464 \\text{ sm}, bir tomoni a = 228 \\text{ sm}. Ikkinchi tomonini toping (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(9 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 13 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 10 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 233 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
           "options": [
-            "\\(45 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(30 \\text{ sm}\\)"
+            "\\(1165 \\text{ sm}\\)",
+            "\\(466 \\text{ sm}\\)",
+            "\\(932 \\text{ sm}\\)",
+            "\\(699 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 10 = 30 sm"
+          "explanation": "P = 3 * 233 = 699 sm"
         }
       ],
       "practiceExercises": [
@@ -63072,39 +63072,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 10 \\text{ sm}, balandligi h = 5 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 446 \\text{ sm}, balandligi h = 223 \\text{ sm}. Uning yuzini hisoblang (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
           "options": [
-            "\\(29 \\text{ sm}^2\\)",
-            "\\(25 \\text{ sm}^2\\)",
-            "\\(23 \\text{ sm}^2\\)",
-            "\\(50 \\text{ sm}^2\\)"
+            "\\(49734 \\text{ sm}^2\\)",
+            "\\(49729 \\text{ sm}^2\\)",
+            "\\(49726 \\text{ sm}^2\\)",
+            "\\(99458 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (10 * 5)/2 = 25 sm²"
+          "explanation": "S = (a * h)/2 = (446 * 223)/2 = 49729 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 36 \\text{ sm}, bir tomoni a = 5 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 464 \\text{ sm}, bir tomoni a = 228 \\text{ sm}. Ikkinchi tomonini toping (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(9 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 13 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 10 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 233 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
           "options": [
-            "\\(45 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(30 \\text{ sm}\\)"
+            "\\(1165 \\text{ sm}\\)",
+            "\\(466 \\text{ sm}\\)",
+            "\\(932 \\text{ sm}\\)",
+            "\\(699 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 10 = 30 sm"
+          "explanation": "P = 3 * 233 = 699 sm"
         }
       ],
       "practiceExercises": [
@@ -63277,39 +63277,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 10 \\text{ sm}, balandligi h = 5 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 446 \\text{ sm}, balandligi h = 223 \\text{ sm}. Uning yuzini hisoblang (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
         "options": [
-          "\\(29 \\text{ sm}^2\\)",
-          "\\(25 \\text{ sm}^2\\)",
-          "\\(23 \\text{ sm}^2\\)",
-          "\\(50 \\text{ sm}^2\\)"
+          "\\(49734 \\text{ sm}^2\\)",
+          "\\(49729 \\text{ sm}^2\\)",
+          "\\(49726 \\text{ sm}^2\\)",
+          "\\(99458 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
-        "explanation": "S = (a * h)/2 = (10 * 5)/2 = 25 sm²"
+        "explanation": "S = (a * h)/2 = (446 * 223)/2 = 49729 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 36 \\text{ sm}, bir tomoni a = 5 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 464 \\text{ sm}, bir tomoni a = 228 \\text{ sm}. Ikkinchi tomonini toping (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
         "options": [
-          "\\(15 \\text{ sm}\\)",
-          "\\(11 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)",
-          "\\(9 \\text{ sm}\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 13 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 10 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 233 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (To'g'ri burchakli parallelepiped va Kub hajmi (5-sinf)).",
         "options": [
-          "\\(45 \\text{ sm}\\)",
-          "\\(20 \\text{ sm}\\)",
-          "\\(40 \\text{ sm}\\)",
-          "\\(30 \\text{ sm}\\)"
+          "\\(1165 \\text{ sm}\\)",
+          "\\(466 \\text{ sm}\\)",
+          "\\(932 \\text{ sm}\\)",
+          "\\(699 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 3a = 3 * 10 = 30 sm"
+        "explanation": "P = 3 * 233 = 699 sm"
       }
     ],
     "practiceExercises": [
@@ -63485,39 +63485,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 452 \\text{ sm}, balandligi h = 226 \\text{ sm}. Uning yuzini hisoblang (Doiraviy diagrammalar va Foizlar).",
           "options": [
-            "\\(34 \\text{ sm}^2\\)",
-            "\\(40 \\text{ sm}^2\\)",
-            "\\(36 \\text{ sm}^2\\)",
-            "\\(72 \\text{ sm}^2\\)"
+            "\\(51073 \\text{ sm}^2\\)",
+            "\\(51081 \\text{ sm}^2\\)",
+            "\\(51076 \\text{ sm}^2\\)",
+            "\\(102152 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+          "explanation": "S = (a * h)/2 = (452 * 226)/2 = 51076 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 470 \\text{ sm}, bir tomoni a = 231 \\text{ sm}. Ikkinchi tomonini toping (Doiraviy diagrammalar va Foizlar).",
           "options": [
-            "\\(10 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(14 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 236 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Doiraviy diagrammalar va Foizlar).",
           "options": [
-            "\\(36 \\text{ sm}\\)",
-            "\\(24 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(708 \\text{ sm}\\)",
+            "\\(472 \\text{ sm}\\)",
+            "\\(944 \\text{ sm}\\)",
+            "\\(1180 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 12 = 36 sm"
+          "explanation": "P = 3 * 236 = 708 sm"
         }
       ],
       "practiceExercises": [
@@ -63691,39 +63691,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 452 \\text{ sm}, balandligi h = 226 \\text{ sm}. Uning yuzini hisoblang (Doiraviy diagrammalar va Foizlar).",
           "options": [
-            "\\(34 \\text{ sm}^2\\)",
-            "\\(40 \\text{ sm}^2\\)",
-            "\\(36 \\text{ sm}^2\\)",
-            "\\(72 \\text{ sm}^2\\)"
+            "\\(51073 \\text{ sm}^2\\)",
+            "\\(51081 \\text{ sm}^2\\)",
+            "\\(51076 \\text{ sm}^2\\)",
+            "\\(102152 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+          "explanation": "S = (a * h)/2 = (452 * 226)/2 = 51076 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 470 \\text{ sm}, bir tomoni a = 231 \\text{ sm}. Ikkinchi tomonini toping (Doiraviy diagrammalar va Foizlar).",
           "options": [
-            "\\(10 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(14 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 236 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Doiraviy diagrammalar va Foizlar).",
           "options": [
-            "\\(36 \\text{ sm}\\)",
-            "\\(24 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(708 \\text{ sm}\\)",
+            "\\(472 \\text{ sm}\\)",
+            "\\(944 \\text{ sm}\\)",
+            "\\(1180 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 12 = 36 sm"
+          "explanation": "P = 3 * 236 = 708 sm"
         }
       ],
       "practiceExercises": [
@@ -63897,39 +63897,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 452 \\text{ sm}, balandligi h = 226 \\text{ sm}. Uning yuzini hisoblang (Doiraviy diagrammalar va Foizlar).",
           "options": [
-            "\\(34 \\text{ sm}^2\\)",
-            "\\(40 \\text{ sm}^2\\)",
-            "\\(36 \\text{ sm}^2\\)",
-            "\\(72 \\text{ sm}^2\\)"
+            "\\(51073 \\text{ sm}^2\\)",
+            "\\(51081 \\text{ sm}^2\\)",
+            "\\(51076 \\text{ sm}^2\\)",
+            "\\(102152 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+          "explanation": "S = (a * h)/2 = (452 * 226)/2 = 51076 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 470 \\text{ sm}, bir tomoni a = 231 \\text{ sm}. Ikkinchi tomonini toping (Doiraviy diagrammalar va Foizlar).",
           "options": [
-            "\\(10 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(14 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 236 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Doiraviy diagrammalar va Foizlar).",
           "options": [
-            "\\(36 \\text{ sm}\\)",
-            "\\(24 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(708 \\text{ sm}\\)",
+            "\\(472 \\text{ sm}\\)",
+            "\\(944 \\text{ sm}\\)",
+            "\\(1180 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 12 = 36 sm"
+          "explanation": "P = 3 * 236 = 708 sm"
         }
       ],
       "practiceExercises": [
@@ -64096,39 +64096,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 12 \\text{ sm}, balandligi h = 6 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 452 \\text{ sm}, balandligi h = 226 \\text{ sm}. Uning yuzini hisoblang (Doiraviy diagrammalar va Foizlar).",
         "options": [
-          "\\(34 \\text{ sm}^2\\)",
-          "\\(40 \\text{ sm}^2\\)",
-          "\\(36 \\text{ sm}^2\\)",
-          "\\(72 \\text{ sm}^2\\)"
+          "\\(51073 \\text{ sm}^2\\)",
+          "\\(51081 \\text{ sm}^2\\)",
+          "\\(51076 \\text{ sm}^2\\)",
+          "\\(102152 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
-        "explanation": "S = (a * h)/2 = (12 * 6)/2 = 36 sm²"
+        "explanation": "S = (a * h)/2 = (452 * 226)/2 = 51076 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 40 \\text{ sm}, bir tomoni a = 6 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 470 \\text{ sm}, bir tomoni a = 231 \\text{ sm}. Ikkinchi tomonini toping (Doiraviy diagrammalar va Foizlar).",
         "options": [
-          "\\(10 \\text{ sm}\\)",
-          "\\(12 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(14 \\text{ sm}\\)"
+          "\\(2 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 14 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 12 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 236 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Doiraviy diagrammalar va Foizlar).",
         "options": [
-          "\\(36 \\text{ sm}\\)",
-          "\\(24 \\text{ sm}\\)",
-          "\\(48 \\text{ sm}\\)",
-          "\\(54 \\text{ sm}\\)"
+          "\\(708 \\text{ sm}\\)",
+          "\\(472 \\text{ sm}\\)",
+          "\\(944 \\text{ sm}\\)",
+          "\\(1180 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 3a = 3 * 12 = 36 sm"
+        "explanation": "P = 3 * 236 = 708 sm"
       }
     ],
     "practiceExercises": [
@@ -64304,39 +64304,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 458 \\text{ sm}, balandligi h = 229 \\text{ sm}. Uning yuzini hisoblang (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(104882 \\text{ sm}^2\\)",
+            "\\(52446 \\text{ sm}^2\\)",
+            "\\(52438 \\text{ sm}^2\\)",
+            "\\(52441 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (458 * 229)/2 = 52441 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 476 \\text{ sm}, bir tomoni a = 234 \\text{ sm}. Ikkinchi tomonini toping (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 239 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(478 \\text{ sm}\\)",
+            "\\(717 \\text{ sm}\\)",
+            "\\(956 \\text{ sm}\\)",
+            "\\(1195 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 239 = 717 sm"
         }
       ],
       "practiceExercises": [
@@ -64510,39 +64510,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 458 \\text{ sm}, balandligi h = 229 \\text{ sm}. Uning yuzini hisoblang (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(104882 \\text{ sm}^2\\)",
+            "\\(52446 \\text{ sm}^2\\)",
+            "\\(52438 \\text{ sm}^2\\)",
+            "\\(52441 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (458 * 229)/2 = 52441 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 476 \\text{ sm}, bir tomoni a = 234 \\text{ sm}. Ikkinchi tomonini toping (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 239 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(478 \\text{ sm}\\)",
+            "\\(717 \\text{ sm}\\)",
+            "\\(956 \\text{ sm}\\)",
+            "\\(1195 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 239 = 717 sm"
         }
       ],
       "practiceExercises": [
@@ -64716,39 +64716,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 458 \\text{ sm}, balandligi h = 229 \\text{ sm}. Uning yuzini hisoblang (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(104882 \\text{ sm}^2\\)",
+            "\\(52446 \\text{ sm}^2\\)",
+            "\\(52438 \\text{ sm}^2\\)",
+            "\\(52441 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (458 * 229)/2 = 52441 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 476 \\text{ sm}, bir tomoni a = 234 \\text{ sm}. Ikkinchi tomonini toping (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 239 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(478 \\text{ sm}\\)",
+            "\\(717 \\text{ sm}\\)",
+            "\\(956 \\text{ sm}\\)",
+            "\\(1195 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 239 = 717 sm"
         }
       ],
       "practiceExercises": [
@@ -64915,39 +64915,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 458 \\text{ sm}, balandligi h = 229 \\text{ sm}. Uning yuzini hisoblang (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
         "options": [
-          "\\(98 \\text{ sm}^2\\)",
-          "\\(53 \\text{ sm}^2\\)",
-          "\\(47 \\text{ sm}^2\\)",
-          "\\(49 \\text{ sm}^2\\)"
+          "\\(104882 \\text{ sm}^2\\)",
+          "\\(52446 \\text{ sm}^2\\)",
+          "\\(52438 \\text{ sm}^2\\)",
+          "\\(52441 \\text{ sm}^2\\)"
         ],
         "correctIndex": 3,
-        "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+        "explanation": "S = (a * h)/2 = (458 * 229)/2 = 52441 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 476 \\text{ sm}, bir tomoni a = 234 \\text{ sm}. Ikkinchi tomonini toping (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
         "options": [
-          "\\(15 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(11 \\text{ sm}\\)"
+          "\\(4 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 239 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Parallel to'g'ri chiziqlar va Kesuvchi burchaklari).",
         "options": [
-          "\\(28 \\text{ sm}\\)",
-          "\\(42 \\text{ sm}\\)",
-          "\\(56 \\text{ sm}\\)",
-          "\\(63 \\text{ sm}\\)"
+          "\\(478 \\text{ sm}\\)",
+          "\\(717 \\text{ sm}\\)",
+          "\\(956 \\text{ sm}\\)",
+          "\\(1195 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 3a = 3 * 14 = 42 sm"
+        "explanation": "P = 3 * 239 = 717 sm"
       }
     ],
     "practiceExercises": [
@@ -65123,39 +65123,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 464 \\text{ sm}, balandligi h = 232 \\text{ sm}. Uning yuzini hisoblang (Parallelogramm va uning xossalari).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(53824 \\text{ sm}^2\\)",
+            "\\(53829 \\text{ sm}^2\\)",
+            "\\(53821 \\text{ sm}^2\\)",
+            "\\(107648 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (464 * 232)/2 = 53824 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 482 \\text{ sm}, bir tomoni a = 237 \\text{ sm}. Ikkinchi tomonini toping (Parallelogramm va uning xossalari).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 242 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Parallelogramm va uning xossalari).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(968 \\text{ sm}\\)",
+            "\\(484 \\text{ sm}\\)",
+            "\\(726 \\text{ sm}\\)",
+            "\\(1210 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 242 = 726 sm"
         }
       ],
       "practiceExercises": [
@@ -65329,39 +65329,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 464 \\text{ sm}, balandligi h = 232 \\text{ sm}. Uning yuzini hisoblang (Parallelogramm va uning xossalari).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(53824 \\text{ sm}^2\\)",
+            "\\(53829 \\text{ sm}^2\\)",
+            "\\(53821 \\text{ sm}^2\\)",
+            "\\(107648 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (464 * 232)/2 = 53824 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 482 \\text{ sm}, bir tomoni a = 237 \\text{ sm}. Ikkinchi tomonini toping (Parallelogramm va uning xossalari).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 242 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Parallelogramm va uning xossalari).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(968 \\text{ sm}\\)",
+            "\\(484 \\text{ sm}\\)",
+            "\\(726 \\text{ sm}\\)",
+            "\\(1210 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 242 = 726 sm"
         }
       ],
       "practiceExercises": [
@@ -65535,39 +65535,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 464 \\text{ sm}, balandligi h = 232 \\text{ sm}. Uning yuzini hisoblang (Parallelogramm va uning xossalari).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(53824 \\text{ sm}^2\\)",
+            "\\(53829 \\text{ sm}^2\\)",
+            "\\(53821 \\text{ sm}^2\\)",
+            "\\(107648 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (464 * 232)/2 = 53824 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 482 \\text{ sm}, bir tomoni a = 237 \\text{ sm}. Ikkinchi tomonini toping (Parallelogramm va uning xossalari).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 242 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Parallelogramm va uning xossalari).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(968 \\text{ sm}\\)",
+            "\\(484 \\text{ sm}\\)",
+            "\\(726 \\text{ sm}\\)",
+            "\\(1210 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 242 = 726 sm"
         }
       ],
       "practiceExercises": [
@@ -65734,39 +65734,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 464 \\text{ sm}, balandligi h = 232 \\text{ sm}. Uning yuzini hisoblang (Parallelogramm va uning xossalari).",
         "options": [
-          "\\(64 \\text{ sm}^2\\)",
-          "\\(68 \\text{ sm}^2\\)",
-          "\\(62 \\text{ sm}^2\\)",
-          "\\(128 \\text{ sm}^2\\)"
+          "\\(53824 \\text{ sm}^2\\)",
+          "\\(53829 \\text{ sm}^2\\)",
+          "\\(53821 \\text{ sm}^2\\)",
+          "\\(107648 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
-        "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+        "explanation": "S = (a * h)/2 = (464 * 232)/2 = 53824 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 482 \\text{ sm}, bir tomoni a = 237 \\text{ sm}. Ikkinchi tomonini toping (Parallelogramm va uning xossalari).",
         "options": [
-          "\\(14 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(18 \\text{ sm}\\)",
-          "\\(12 \\text{ sm}\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 242 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Parallelogramm va uning xossalari).",
         "options": [
-          "\\(64 \\text{ sm}\\)",
-          "\\(32 \\text{ sm}\\)",
-          "\\(48 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)"
+          "\\(968 \\text{ sm}\\)",
+          "\\(484 \\text{ sm}\\)",
+          "\\(726 \\text{ sm}\\)",
+          "\\(1210 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 3a = 3 * 16 = 48 sm"
+        "explanation": "P = 3 * 242 = 726 sm"
       }
     ],
     "practiceExercises": [
@@ -65942,39 +65942,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 470 \\text{ sm}, balandligi h = 235 \\text{ sm}. Uning yuzini hisoblang (Aylana yoyi uzunligi va Sektor yuzasi).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(55230 \\text{ sm}^2\\)",
+            "\\(55225 \\text{ sm}^2\\)",
+            "\\(55222 \\text{ sm}^2\\)",
+            "\\(110450 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (470 * 235)/2 = 55225 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 488 \\text{ sm}, bir tomoni a = 240 \\text{ sm}. Ikkinchi tomonini toping (Aylana yoyi uzunligi va Sektor yuzasi).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 245 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylana yoyi uzunligi va Sektor yuzasi).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1225 \\text{ sm}\\)",
+            "\\(490 \\text{ sm}\\)",
+            "\\(980 \\text{ sm}\\)",
+            "\\(735 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 245 = 735 sm"
         }
       ],
       "practiceExercises": [
@@ -66148,39 +66148,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 470 \\text{ sm}, balandligi h = 235 \\text{ sm}. Uning yuzini hisoblang (Aylana yoyi uzunligi va Sektor yuzasi).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(55230 \\text{ sm}^2\\)",
+            "\\(55225 \\text{ sm}^2\\)",
+            "\\(55222 \\text{ sm}^2\\)",
+            "\\(110450 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (470 * 235)/2 = 55225 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 488 \\text{ sm}, bir tomoni a = 240 \\text{ sm}. Ikkinchi tomonini toping (Aylana yoyi uzunligi va Sektor yuzasi).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 245 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylana yoyi uzunligi va Sektor yuzasi).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1225 \\text{ sm}\\)",
+            "\\(490 \\text{ sm}\\)",
+            "\\(980 \\text{ sm}\\)",
+            "\\(735 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 245 = 735 sm"
         }
       ],
       "practiceExercises": [
@@ -66354,39 +66354,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 470 \\text{ sm}, balandligi h = 235 \\text{ sm}. Uning yuzini hisoblang (Aylana yoyi uzunligi va Sektor yuzasi).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(55230 \\text{ sm}^2\\)",
+            "\\(55225 \\text{ sm}^2\\)",
+            "\\(55222 \\text{ sm}^2\\)",
+            "\\(110450 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (470 * 235)/2 = 55225 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 488 \\text{ sm}, bir tomoni a = 240 \\text{ sm}. Ikkinchi tomonini toping (Aylana yoyi uzunligi va Sektor yuzasi).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 245 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylana yoyi uzunligi va Sektor yuzasi).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1225 \\text{ sm}\\)",
+            "\\(490 \\text{ sm}\\)",
+            "\\(980 \\text{ sm}\\)",
+            "\\(735 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 245 = 735 sm"
         }
       ],
       "practiceExercises": [
@@ -66553,39 +66553,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 470 \\text{ sm}, balandligi h = 235 \\text{ sm}. Uning yuzini hisoblang (Aylana yoyi uzunligi va Sektor yuzasi).",
         "options": [
-          "\\(85 \\text{ sm}^2\\)",
-          "\\(81 \\text{ sm}^2\\)",
-          "\\(79 \\text{ sm}^2\\)",
-          "\\(162 \\text{ sm}^2\\)"
+          "\\(55230 \\text{ sm}^2\\)",
+          "\\(55225 \\text{ sm}^2\\)",
+          "\\(55222 \\text{ sm}^2\\)",
+          "\\(110450 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
-        "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+        "explanation": "S = (a * h)/2 = (470 * 235)/2 = 55225 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 488 \\text{ sm}, bir tomoni a = 240 \\text{ sm}. Ikkinchi tomonini toping (Aylana yoyi uzunligi va Sektor yuzasi).",
         "options": [
-          "\\(19 \\text{ sm}\\)",
-          "\\(15 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 245 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Aylana yoyi uzunligi va Sektor yuzasi).",
         "options": [
-          "\\(81 \\text{ sm}\\)",
-          "\\(36 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)",
-          "\\(54 \\text{ sm}\\)"
+          "\\(1225 \\text{ sm}\\)",
+          "\\(490 \\text{ sm}\\)",
+          "\\(980 \\text{ sm}\\)",
+          "\\(735 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 3a = 3 * 18 = 54 sm"
+        "explanation": "P = 3 * 245 = 735 sm"
       }
     ],
     "practiceExercises": [
@@ -66761,39 +66761,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(714 + 476 - 238\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "950",
+            "954",
+            "952",
+            "1904"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "714 + 476 - 238 = 952"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 243 = 729\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "972",
+            "487",
+            "485",
+            "486"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 972 => x = 486"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(248^2 - (248-1)^2\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "495",
+            "496",
+            "497",
+            "248"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (248 + 247) = 495"
         }
       ],
       "practiceExercises": [
@@ -66967,39 +66967,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(714 + 476 - 238\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "950",
+            "954",
+            "952",
+            "1904"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "714 + 476 - 238 = 952"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 243 = 729\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "972",
+            "487",
+            "485",
+            "486"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 972 => x = 486"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(248^2 - (248-1)^2\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "495",
+            "496",
+            "497",
+            "248"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (248 + 247) = 495"
         }
       ],
       "practiceExercises": [
@@ -67173,39 +67173,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(714 + 476 - 238\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "950",
+            "954",
+            "952",
+            "1904"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "714 + 476 - 238 = 952"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 243 = 729\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "972",
+            "487",
+            "485",
+            "486"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 972 => x = 486"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(248^2 - (248-1)^2\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "495",
+            "496",
+            "497",
+            "248"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (248 + 247) = 495"
         }
       ],
       "practiceExercises": [
@@ -67372,39 +67372,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(120 + 80 - 50\\)",
+        "question": "Hisoblang: \\(714 + 476 - 238\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
         "options": [
-          "145",
-          "155",
-          "150",
-          "300"
+          "950",
+          "954",
+          "952",
+          "1904"
         ],
         "correctIndex": 2,
-        "explanation": "120 + 80 - 50 = 150"
+        "explanation": "714 + 476 - 238 = 952"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+        "question": "Tenglamani yeching: \\(2x - 243 = 729\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
         "options": [
-          "40",
-          "21",
-          "19",
-          "20"
+          "972",
+          "487",
+          "485",
+          "486"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 40 => x = 20"
+        "explanation": "2x = 972 => x = 486"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+        "question": "Hisoblang: \\(248^2 - (248-1)^2\\) (Oddiy trigonometrik tengsizliklar (sin x > a, cos x < a))",
         "options": [
-          "40",
-          "42",
-          "38",
-          "80"
+          "495",
+          "496",
+          "497",
+          "248"
         ],
         "correctIndex": 0,
-        "explanation": "10 + 30 = 40"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (248 + 247) = 495"
       }
     ],
     "practiceExercises": [
@@ -67586,39 +67586,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(723 + 482 - 241\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1928",
+            "966",
+            "962",
+            "964"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "723 + 482 - 241 = 964"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 246 = 738\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "492",
+            "493",
+            "491",
+            "984"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 984 => x = 492"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(251^2 - (251-1)^2\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "502",
+            "501",
+            "503",
+            "251"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (251 + 250) = 501"
         }
       ],
       "practiceExercises": [
@@ -67792,39 +67792,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(723 + 482 - 241\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1928",
+            "966",
+            "962",
+            "964"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "723 + 482 - 241 = 964"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 246 = 738\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "492",
+            "493",
+            "491",
+            "984"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 984 => x = 492"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(251^2 - (251-1)^2\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "502",
+            "501",
+            "503",
+            "251"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (251 + 250) = 501"
         }
       ],
       "practiceExercises": [
@@ -67998,39 +67998,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(723 + 482 - 241\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "1928",
+            "966",
+            "962",
+            "964"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "723 + 482 - 241 = 964"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 246 = 738\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "492",
+            "493",
+            "491",
+            "984"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 984 => x = 492"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(251^2 - (251-1)^2\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "502",
+            "501",
+            "503",
+            "251"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (251 + 250) = 501"
         }
       ],
       "practiceExercises": [
@@ -68203,39 +68203,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(132 + 88 - 55\\)",
+        "question": "Hisoblang: \\(723 + 482 - 241\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
         "options": [
-          "330",
-          "170",
-          "160",
-          "165"
+          "1928",
+          "966",
+          "962",
+          "964"
         ],
         "correctIndex": 3,
-        "explanation": "132 + 88 - 55 = 165"
+        "explanation": "723 + 482 - 241 = 964"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+        "question": "Tenglamani yeching: \\(2x - 246 = 738\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
         "options": [
-          "22",
-          "23",
-          "21",
-          "44"
+          "492",
+          "493",
+          "491",
+          "984"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 44 => x = 22"
+        "explanation": "2x = 984 => x = 492"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+        "question": "Hisoblang: \\(251^2 - (251-1)^2\\) (Bog'liq bo'lmagan hodisalar ehtimoli va Ko'paytirish qoidasi)",
         "options": [
-          "46",
-          "44",
-          "42",
-          "88"
+          "502",
+          "501",
+          "503",
+          "251"
         ],
         "correctIndex": 1,
-        "explanation": "11 + 33 = 44"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (251 + 250) = 501"
       }
     ],
     "practiceExercises": [
@@ -68417,39 +68417,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(732 + 488 - 244\\) (Amallar tartibi va Qavslar bilan hisoblash)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "978",
+            "976",
+            "974",
+            "1952"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "732 + 488 - 244 = 976"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 249 = 747\\) (Amallar tartibi va Qavslar bilan hisoblash)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "497",
+            "499",
+            "498",
+            "996"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 996 => x = 498"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(254^2 - (254-1)^2\\) (Amallar tartibi va Qavslar bilan hisoblash)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "254",
+            "508",
+            "509",
+            "507"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (254 + 253) = 507"
         }
       ],
       "practiceExercises": [
@@ -68623,39 +68623,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(732 + 488 - 244\\) (Amallar tartibi va Qavslar bilan hisoblash)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "978",
+            "976",
+            "974",
+            "1952"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "732 + 488 - 244 = 976"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 249 = 747\\) (Amallar tartibi va Qavslar bilan hisoblash)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "497",
+            "499",
+            "498",
+            "996"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 996 => x = 498"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(254^2 - (254-1)^2\\) (Amallar tartibi va Qavslar bilan hisoblash)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "254",
+            "508",
+            "509",
+            "507"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (254 + 253) = 507"
         }
       ],
       "practiceExercises": [
@@ -68829,39 +68829,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(732 + 488 - 244\\) (Amallar tartibi va Qavslar bilan hisoblash)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "978",
+            "976",
+            "974",
+            "1952"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "732 + 488 - 244 = 976"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 249 = 747\\) (Amallar tartibi va Qavslar bilan hisoblash)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "497",
+            "499",
+            "498",
+            "996"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 996 => x = 498"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(254^2 - (254-1)^2\\) (Amallar tartibi va Qavslar bilan hisoblash)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "254",
+            "508",
+            "509",
+            "507"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (254 + 253) = 507"
         }
       ],
       "practiceExercises": [
@@ -69034,39 +69034,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(60 + 40 - 25\\)",
+        "question": "Hisoblang: \\(732 + 488 - 244\\) (Amallar tartibi va Qavslar bilan hisoblash)",
         "options": [
-          "80",
-          "75",
-          "70",
-          "150"
+          "978",
+          "976",
+          "974",
+          "1952"
         ],
         "correctIndex": 1,
-        "explanation": "60 + 40 - 25 = 75"
+        "explanation": "732 + 488 - 244 = 976"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+        "question": "Tenglamani yeching: \\(2x - 249 = 747\\) (Amallar tartibi va Qavslar bilan hisoblash)",
         "options": [
-          "9",
-          "11",
-          "10",
-          "20"
+          "497",
+          "499",
+          "498",
+          "996"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 20 => x = 10"
+        "explanation": "2x = 996 => x = 498"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+        "question": "Hisoblang: \\(254^2 - (254-1)^2\\) (Amallar tartibi va Qavslar bilan hisoblash)",
         "options": [
-          "40",
-          "22",
-          "18",
-          "20"
+          "254",
+          "508",
+          "509",
+          "507"
         ],
         "correctIndex": 3,
-        "explanation": "5 + 15 = 20"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (254 + 253) = 507"
       }
     ],
     "practiceExercises": [
@@ -69248,39 +69248,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(741 + 494 - 247\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "990",
+            "988",
+            "986",
+            "1976"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "741 + 494 - 247 = 988"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 252 = 756\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "503",
+            "505",
+            "504",
+            "1008"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 1008 => x = 504"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(257^2 - (257-1)^2\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "257",
+            "514",
+            "515",
+            "513"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (257 + 256) = 513"
         }
       ],
       "practiceExercises": [
@@ -69454,39 +69454,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(741 + 494 - 247\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "990",
+            "988",
+            "986",
+            "1976"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "741 + 494 - 247 = 988"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 252 = 756\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "503",
+            "505",
+            "504",
+            "1008"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 1008 => x = 504"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(257^2 - (257-1)^2\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "257",
+            "514",
+            "515",
+            "513"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (257 + 256) = 513"
         }
       ],
       "practiceExercises": [
@@ -69660,39 +69660,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(741 + 494 - 247\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "990",
+            "988",
+            "986",
+            "1976"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "741 + 494 - 247 = 988"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 252 = 756\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "503",
+            "505",
+            "504",
+            "1008"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 1008 => x = 504"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(257^2 - (257-1)^2\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "257",
+            "514",
+            "515",
+            "513"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (257 + 256) = 513"
         }
       ],
       "practiceExercises": [
@@ -69865,39 +69865,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(60 + 40 - 25\\)",
+        "question": "Hisoblang: \\(741 + 494 - 247\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
         "options": [
-          "80",
-          "75",
-          "70",
-          "150"
+          "990",
+          "988",
+          "986",
+          "1976"
         ],
         "correctIndex": 1,
-        "explanation": "60 + 40 - 25 = 75"
+        "explanation": "741 + 494 - 247 = 988"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+        "question": "Tenglamani yeching: \\(2x - 252 = 756\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
         "options": [
-          "9",
-          "11",
-          "10",
-          "20"
+          "503",
+          "505",
+          "504",
+          "1008"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 20 => x = 10"
+        "explanation": "2x = 1008 => x = 504"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+        "question": "Hisoblang: \\(257^2 - (257-1)^2\\) (Sonlar ketma-ketligi va Qonuniyatlar)",
         "options": [
-          "40",
-          "22",
-          "18",
-          "20"
+          "257",
+          "514",
+          "515",
+          "513"
         ],
         "correctIndex": 3,
-        "explanation": "5 + 15 = 20"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (257 + 256) = 513"
       }
     ],
     "practiceExercises": [
@@ -70079,39 +70079,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(750 + 500 - 250\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "1002",
+            "1000",
+            "998",
+            "2000"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "750 + 500 - 250 = 1000"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 255 = 765\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "509",
+            "511",
+            "510",
+            "1020"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 1020 => x = 510"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(260^2 - (260-1)^2\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "260",
+            "520",
+            "521",
+            "519"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (260 + 259) = 519"
         }
       ],
       "practiceExercises": [
@@ -70285,39 +70285,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(750 + 500 - 250\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "1002",
+            "1000",
+            "998",
+            "2000"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "750 + 500 - 250 = 1000"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 255 = 765\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "509",
+            "511",
+            "510",
+            "1020"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 1020 => x = 510"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(260^2 - (260-1)^2\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "260",
+            "520",
+            "521",
+            "519"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (260 + 259) = 519"
         }
       ],
       "practiceExercises": [
@@ -70491,39 +70491,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(750 + 500 - 250\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "1002",
+            "1000",
+            "998",
+            "2000"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "750 + 500 - 250 = 1000"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 255 = 765\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "509",
+            "511",
+            "510",
+            "1020"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 1020 => x = 510"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(260^2 - (260-1)^2\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "260",
+            "520",
+            "521",
+            "519"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (260 + 259) = 519"
         }
       ],
       "practiceExercises": [
@@ -70696,39 +70696,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(60 + 40 - 25\\)",
+        "question": "Hisoblang: \\(750 + 500 - 250\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
         "options": [
-          "80",
-          "75",
-          "70",
-          "150"
+          "1002",
+          "1000",
+          "998",
+          "2000"
         ],
         "correctIndex": 1,
-        "explanation": "60 + 40 - 25 = 75"
+        "explanation": "750 + 500 - 250 = 1000"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+        "question": "Tenglamani yeching: \\(2x - 255 = 765\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
         "options": [
-          "9",
-          "11",
-          "10",
-          "20"
+          "509",
+          "511",
+          "510",
+          "1020"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 20 => x = 10"
+        "explanation": "2x = 1020 => x = 510"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+        "question": "Hisoblang: \\(260^2 - (260-1)^2\\) (Vaqt o'lchov birliklari (Soat, Daqiqa, Sekund))",
         "options": [
-          "40",
-          "22",
-          "18",
-          "20"
+          "260",
+          "520",
+          "521",
+          "519"
         ],
         "correctIndex": 3,
-        "explanation": "5 + 15 = 20"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (260 + 259) = 519"
       }
     ],
     "practiceExercises": [
@@ -70910,39 +70910,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(759 + 506 - 253\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1010",
+            "1014",
+            "1012",
+            "2024"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "759 + 506 - 253 = 1012"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 258 = 774\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1032",
+            "517",
+            "515",
+            "516"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1032 => x = 516"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(263^2 - (263-1)^2\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "525",
+            "526",
+            "527",
+            "263"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (263 + 262) = 525"
         }
       ],
       "practiceExercises": [
@@ -71116,39 +71116,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(759 + 506 - 253\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1010",
+            "1014",
+            "1012",
+            "2024"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "759 + 506 - 253 = 1012"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 258 = 774\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1032",
+            "517",
+            "515",
+            "516"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1032 => x = 516"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(263^2 - (263-1)^2\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "525",
+            "526",
+            "527",
+            "263"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (263 + 262) = 525"
         }
       ],
       "practiceExercises": [
@@ -71322,39 +71322,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(759 + 506 - 253\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1010",
+            "1014",
+            "1012",
+            "2024"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "759 + 506 - 253 = 1012"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 258 = 774\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1032",
+            "517",
+            "515",
+            "516"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1032 => x = 516"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(263^2 - (263-1)^2\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "525",
+            "526",
+            "527",
+            "263"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (263 + 262) = 525"
         }
       ],
       "practiceExercises": [
@@ -71527,39 +71527,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(72 + 48 - 30\\)",
+        "question": "Hisoblang: \\(759 + 506 - 253\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
         "options": [
-          "85",
-          "95",
-          "90",
-          "180"
+          "1010",
+          "1014",
+          "1012",
+          "2024"
         ],
         "correctIndex": 2,
-        "explanation": "72 + 48 - 30 = 90"
+        "explanation": "759 + 506 - 253 = 1012"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+        "question": "Tenglamani yeching: \\(2x - 258 = 774\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
         "options": [
-          "24",
-          "13",
-          "11",
-          "12"
+          "1032",
+          "517",
+          "515",
+          "516"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 24 => x = 12"
+        "explanation": "2x = 1032 => x = 516"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+        "question": "Hisoblang: \\(263^2 - (263-1)^2\\) (Manfiy sonlarni ko'paytirish va bo'lish)",
         "options": [
-          "24",
-          "26",
-          "22",
-          "48"
+          "525",
+          "526",
+          "527",
+          "263"
         ],
         "correctIndex": 0,
-        "explanation": "6 + 18 = 24"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (263 + 262) = 525"
       }
     ],
     "practiceExercises": [
@@ -71741,39 +71741,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(768 + 512 - 256\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1022",
+            "1026",
+            "1024",
+            "2048"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "768 + 512 - 256 = 1024"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 261 = 783\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1044",
+            "523",
+            "521",
+            "522"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1044 => x = 522"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(266^2 - (266-1)^2\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "531",
+            "532",
+            "533",
+            "266"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (266 + 265) = 531"
         }
       ],
       "practiceExercises": [
@@ -71947,39 +71947,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(768 + 512 - 256\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1022",
+            "1026",
+            "1024",
+            "2048"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "768 + 512 - 256 = 1024"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 261 = 783\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1044",
+            "523",
+            "521",
+            "522"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1044 => x = 522"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(266^2 - (266-1)^2\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "531",
+            "532",
+            "533",
+            "266"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (266 + 265) = 531"
         }
       ],
       "practiceExercises": [
@@ -72153,39 +72153,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(768 + 512 - 256\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1022",
+            "1026",
+            "1024",
+            "2048"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "768 + 512 - 256 = 1024"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 261 = 783\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1044",
+            "523",
+            "521",
+            "522"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1044 => x = 522"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(266^2 - (266-1)^2\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "531",
+            "532",
+            "533",
+            "266"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (266 + 265) = 531"
         }
       ],
       "practiceExercises": [
@@ -72358,39 +72358,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(72 + 48 - 30\\)",
+        "question": "Hisoblang: \\(768 + 512 - 256\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
         "options": [
-          "85",
-          "95",
-          "90",
-          "180"
+          "1022",
+          "1026",
+          "1024",
+          "2048"
         ],
         "correctIndex": 2,
-        "explanation": "72 + 48 - 30 = 90"
+        "explanation": "768 + 512 - 256 = 1024"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+        "question": "Tenglamani yeching: \\(2x - 261 = 783\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
         "options": [
-          "24",
-          "13",
-          "11",
-          "12"
+          "1044",
+          "523",
+          "521",
+          "522"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 24 => x = 12"
+        "explanation": "2x = 1044 => x = 522"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+        "question": "Hisoblang: \\(266^2 - (266-1)^2\\) (Tenglamalar tuzish orqali matnli masalalar yechish)",
         "options": [
-          "24",
-          "26",
-          "22",
-          "48"
+          "531",
+          "532",
+          "533",
+          "266"
         ],
         "correctIndex": 0,
-        "explanation": "6 + 18 = 24"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (266 + 265) = 531"
       }
     ],
     "practiceExercises": [
@@ -72572,39 +72572,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(777 + 518 - 259\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1034",
+            "1038",
+            "1036",
+            "2072"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "777 + 518 - 259 = 1036"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 264 = 792\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1056",
+            "529",
+            "527",
+            "528"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1056 => x = 528"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(269^2 - (269-1)^2\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "537",
+            "538",
+            "539",
+            "269"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (269 + 268) = 537"
         }
       ],
       "practiceExercises": [
@@ -72778,39 +72778,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(777 + 518 - 259\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1034",
+            "1038",
+            "1036",
+            "2072"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "777 + 518 - 259 = 1036"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 264 = 792\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1056",
+            "529",
+            "527",
+            "528"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1056 => x = 528"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(269^2 - (269-1)^2\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "537",
+            "538",
+            "539",
+            "269"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (269 + 268) = 537"
         }
       ],
       "practiceExercises": [
@@ -72984,39 +72984,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(777 + 518 - 259\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1034",
+            "1038",
+            "1036",
+            "2072"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "777 + 518 - 259 = 1036"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 264 = 792\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1056",
+            "529",
+            "527",
+            "528"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1056 => x = 528"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(269^2 - (269-1)^2\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "537",
+            "538",
+            "539",
+            "269"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (269 + 268) = 537"
         }
       ],
       "practiceExercises": [
@@ -73189,39 +73189,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(72 + 48 - 30\\)",
+        "question": "Hisoblang: \\(777 + 518 - 259\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
         "options": [
-          "85",
-          "95",
-          "90",
-          "180"
+          "1034",
+          "1038",
+          "1036",
+          "2072"
         ],
         "correctIndex": 2,
-        "explanation": "72 + 48 - 30 = 90"
+        "explanation": "777 + 518 - 259 = 1036"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+        "question": "Tenglamani yeching: \\(2x - 264 = 792\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
         "options": [
-          "24",
-          "13",
-          "11",
-          "12"
+          "1056",
+          "529",
+          "527",
+          "528"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 24 => x = 12"
+        "explanation": "2x = 1056 => x = 528"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+        "question": "Hisoblang: \\(269^2 - (269-1)^2\\) (Statistika asoslari: O'rta qiymat, Moda va Mediana)",
         "options": [
-          "24",
-          "26",
-          "22",
-          "48"
+          "537",
+          "538",
+          "539",
+          "269"
         ],
         "correctIndex": 0,
-        "explanation": "6 + 18 = 24"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (269 + 268) = 537"
       }
     ],
     "practiceExercises": [
@@ -73403,39 +73403,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(786 + 524 - 262\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "2096",
+            "1050",
+            "1046",
+            "1048"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "786 + 524 - 262 = 1048"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 267 = 801\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "534",
+            "535",
+            "533",
+            "1068"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 1068 => x = 534"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(272^2 - (272-1)^2\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "544",
+            "543",
+            "545",
+            "272"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (272 + 271) = 543"
         }
       ],
       "practiceExercises": [
@@ -73609,39 +73609,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(786 + 524 - 262\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "2096",
+            "1050",
+            "1046",
+            "1048"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "786 + 524 - 262 = 1048"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 267 = 801\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "534",
+            "535",
+            "533",
+            "1068"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 1068 => x = 534"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(272^2 - (272-1)^2\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "544",
+            "543",
+            "545",
+            "272"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (272 + 271) = 543"
         }
       ],
       "practiceExercises": [
@@ -73815,39 +73815,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(786 + 524 - 262\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "2096",
+            "1050",
+            "1046",
+            "1048"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "786 + 524 - 262 = 1048"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 267 = 801\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "534",
+            "535",
+            "533",
+            "1068"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 1068 => x = 534"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(272^2 - (272-1)^2\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "544",
+            "543",
+            "545",
+            "272"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (272 + 271) = 543"
         }
       ],
       "practiceExercises": [
@@ -74020,39 +74020,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(84 + 56 - 35\\)",
+        "question": "Hisoblang: \\(786 + 524 - 262\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
         "options": [
-          "210",
-          "110",
-          "100",
-          "105"
+          "2096",
+          "1050",
+          "1046",
+          "1048"
         ],
         "correctIndex": 3,
-        "explanation": "84 + 56 - 35 = 105"
+        "explanation": "786 + 524 - 262 = 1048"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+        "question": "Tenglamani yeching: \\(2x - 267 = 801\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
         "options": [
-          "14",
-          "15",
-          "13",
-          "28"
+          "534",
+          "535",
+          "533",
+          "1068"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 28 => x = 14"
+        "explanation": "2x = 1068 => x = 534"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+        "question": "Hisoblang: \\(272^2 - (272-1)^2\\) (Tenglamalar sistemasini algebraik qo'shish usulida yechish)",
         "options": [
-          "30",
-          "28",
-          "26",
-          "56"
+          "544",
+          "543",
+          "545",
+          "272"
         ],
         "correctIndex": 1,
-        "explanation": "7 + 21 = 28"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (272 + 271) = 543"
       }
     ],
     "practiceExercises": [
@@ -74234,39 +74234,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(795 + 530 - 265\\) (Ko'phadni birhadga bo'lish qoidasi)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "2120",
+            "1062",
+            "1058",
+            "1060"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "795 + 530 - 265 = 1060"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 270 = 810\\) (Ko'phadni birhadga bo'lish qoidasi)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "540",
+            "541",
+            "539",
+            "1080"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 1080 => x = 540"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(275^2 - (275-1)^2\\) (Ko'phadni birhadga bo'lish qoidasi)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "550",
+            "549",
+            "551",
+            "275"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (275 + 274) = 549"
         }
       ],
       "practiceExercises": [
@@ -74440,39 +74440,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(795 + 530 - 265\\) (Ko'phadni birhadga bo'lish qoidasi)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "2120",
+            "1062",
+            "1058",
+            "1060"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "795 + 530 - 265 = 1060"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 270 = 810\\) (Ko'phadni birhadga bo'lish qoidasi)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "540",
+            "541",
+            "539",
+            "1080"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 1080 => x = 540"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(275^2 - (275-1)^2\\) (Ko'phadni birhadga bo'lish qoidasi)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "550",
+            "549",
+            "551",
+            "275"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (275 + 274) = 549"
         }
       ],
       "practiceExercises": [
@@ -74646,39 +74646,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(84 + 56 - 35\\)",
+          "question": "Hisoblang: \\(795 + 530 - 265\\) (Ko'phadni birhadga bo'lish qoidasi)",
           "options": [
-            "210",
-            "110",
-            "100",
-            "105"
+            "2120",
+            "1062",
+            "1058",
+            "1060"
           ],
           "correctIndex": 3,
-          "explanation": "84 + 56 - 35 = 105"
+          "explanation": "795 + 530 - 265 = 1060"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+          "question": "Tenglamani yeching: \\(2x - 270 = 810\\) (Ko'phadni birhadga bo'lish qoidasi)",
           "options": [
-            "14",
-            "15",
-            "13",
-            "28"
+            "540",
+            "541",
+            "539",
+            "1080"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 28 => x = 14"
+          "explanation": "2x = 1080 => x = 540"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+          "question": "Hisoblang: \\(275^2 - (275-1)^2\\) (Ko'phadni birhadga bo'lish qoidasi)",
           "options": [
-            "30",
-            "28",
-            "26",
-            "56"
+            "550",
+            "549",
+            "551",
+            "275"
           ],
           "correctIndex": 1,
-          "explanation": "7 + 21 = 28"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (275 + 274) = 549"
         }
       ],
       "practiceExercises": [
@@ -74851,39 +74851,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(84 + 56 - 35\\)",
+        "question": "Hisoblang: \\(795 + 530 - 265\\) (Ko'phadni birhadga bo'lish qoidasi)",
         "options": [
-          "210",
-          "110",
-          "100",
-          "105"
+          "2120",
+          "1062",
+          "1058",
+          "1060"
         ],
         "correctIndex": 3,
-        "explanation": "84 + 56 - 35 = 105"
+        "explanation": "795 + 530 - 265 = 1060"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 7 = 21\\)",
+        "question": "Tenglamani yeching: \\(2x - 270 = 810\\) (Ko'phadni birhadga bo'lish qoidasi)",
         "options": [
-          "14",
-          "15",
-          "13",
-          "28"
+          "540",
+          "541",
+          "539",
+          "1080"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 28 => x = 14"
+        "explanation": "2x = 1080 => x = 540"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{49} + 21\\)",
+        "question": "Hisoblang: \\(275^2 - (275-1)^2\\) (Ko'phadni birhadga bo'lish qoidasi)",
         "options": [
-          "30",
-          "28",
-          "26",
-          "56"
+          "550",
+          "549",
+          "551",
+          "275"
         ],
         "correctIndex": 1,
-        "explanation": "7 + 21 = 28"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (275 + 274) = 549"
       }
     ],
     "practiceExercises": [
@@ -75065,39 +75065,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 536 \\text{ sm}, balandligi h = 268 \\text{ sm}. Uning yuzini hisoblang (Uchburchak tengsizligi (a < b + c)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(143648 \\text{ sm}^2\\)",
+            "\\(71829 \\text{ sm}^2\\)",
+            "\\(71821 \\text{ sm}^2\\)",
+            "\\(71824 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (536 * 268)/2 = 71824 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 554 \\text{ sm}, bir tomoni a = 273 \\text{ sm}. Ikkinchi tomonini toping (Uchburchak tengsizligi (a < b + c)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 278 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchak tengsizligi (a < b + c)).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(556 \\text{ sm}\\)",
+            "\\(834 \\text{ sm}\\)",
+            "\\(1112 \\text{ sm}\\)",
+            "\\(1390 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 278 = 834 sm"
         }
       ],
       "practiceExercises": [
@@ -75271,39 +75271,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 536 \\text{ sm}, balandligi h = 268 \\text{ sm}. Uning yuzini hisoblang (Uchburchak tengsizligi (a < b + c)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(143648 \\text{ sm}^2\\)",
+            "\\(71829 \\text{ sm}^2\\)",
+            "\\(71821 \\text{ sm}^2\\)",
+            "\\(71824 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (536 * 268)/2 = 71824 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 554 \\text{ sm}, bir tomoni a = 273 \\text{ sm}. Ikkinchi tomonini toping (Uchburchak tengsizligi (a < b + c)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 278 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchak tengsizligi (a < b + c)).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(556 \\text{ sm}\\)",
+            "\\(834 \\text{ sm}\\)",
+            "\\(1112 \\text{ sm}\\)",
+            "\\(1390 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 278 = 834 sm"
         }
       ],
       "practiceExercises": [
@@ -75477,39 +75477,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 536 \\text{ sm}, balandligi h = 268 \\text{ sm}. Uning yuzini hisoblang (Uchburchak tengsizligi (a < b + c)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(143648 \\text{ sm}^2\\)",
+            "\\(71829 \\text{ sm}^2\\)",
+            "\\(71821 \\text{ sm}^2\\)",
+            "\\(71824 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (536 * 268)/2 = 71824 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 554 \\text{ sm}, bir tomoni a = 273 \\text{ sm}. Ikkinchi tomonini toping (Uchburchak tengsizligi (a < b + c)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 278 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchak tengsizligi (a < b + c)).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(556 \\text{ sm}\\)",
+            "\\(834 \\text{ sm}\\)",
+            "\\(1112 \\text{ sm}\\)",
+            "\\(1390 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 278 = 834 sm"
         }
       ],
       "practiceExercises": [
@@ -75682,39 +75682,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 536 \\text{ sm}, balandligi h = 268 \\text{ sm}. Uning yuzini hisoblang (Uchburchak tengsizligi (a < b + c)).",
         "options": [
-          "\\(98 \\text{ sm}^2\\)",
-          "\\(53 \\text{ sm}^2\\)",
-          "\\(47 \\text{ sm}^2\\)",
-          "\\(49 \\text{ sm}^2\\)"
+          "\\(143648 \\text{ sm}^2\\)",
+          "\\(71829 \\text{ sm}^2\\)",
+          "\\(71821 \\text{ sm}^2\\)",
+          "\\(71824 \\text{ sm}^2\\)"
         ],
         "correctIndex": 3,
-        "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+        "explanation": "S = (a * h)/2 = (536 * 268)/2 = 71824 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 554 \\text{ sm}, bir tomoni a = 273 \\text{ sm}. Ikkinchi tomonini toping (Uchburchak tengsizligi (a < b + c)).",
         "options": [
-          "\\(15 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(11 \\text{ sm}\\)"
+          "\\(4 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 278 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchak tengsizligi (a < b + c)).",
         "options": [
-          "\\(28 \\text{ sm}\\)",
-          "\\(42 \\text{ sm}\\)",
-          "\\(56 \\text{ sm}\\)",
-          "\\(63 \\text{ sm}\\)"
+          "\\(556 \\text{ sm}\\)",
+          "\\(834 \\text{ sm}\\)",
+          "\\(1112 \\text{ sm}\\)",
+          "\\(1390 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 3a = 3 * 14 = 42 sm"
+        "explanation": "P = 3 * 278 = 834 sm"
       }
     ],
     "practiceExercises": [
@@ -75896,39 +75896,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(813 + 542 - 271\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "1084",
+            "1086",
+            "1082",
+            "2168"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "813 + 542 - 271 = 1084"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 276 = 828\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "553",
+            "552",
+            "551",
+            "1104"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 1104 => x = 552"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(281^2 - (281-1)^2\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "563",
+            "562",
+            "561",
+            "281"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (281 + 280) = 561"
         }
       ],
       "practiceExercises": [
@@ -76102,39 +76102,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(813 + 542 - 271\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "1084",
+            "1086",
+            "1082",
+            "2168"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "813 + 542 - 271 = 1084"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 276 = 828\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "553",
+            "552",
+            "551",
+            "1104"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 1104 => x = 552"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(281^2 - (281-1)^2\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "563",
+            "562",
+            "561",
+            "281"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (281 + 280) = 561"
         }
       ],
       "practiceExercises": [
@@ -76308,39 +76308,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(813 + 542 - 271\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "1084",
+            "1086",
+            "1082",
+            "2168"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "813 + 542 - 271 = 1084"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 276 = 828\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "553",
+            "552",
+            "551",
+            "1104"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 1104 => x = 552"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(281^2 - (281-1)^2\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "563",
+            "562",
+            "561",
+            "281"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (281 + 280) = 561"
         }
       ],
       "practiceExercises": [
@@ -76513,39 +76513,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(96 + 64 - 40\\)",
+        "question": "Hisoblang: \\(813 + 542 - 271\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
         "options": [
-          "120",
-          "125",
-          "115",
-          "240"
+          "1084",
+          "1086",
+          "1082",
+          "2168"
         ],
         "correctIndex": 0,
-        "explanation": "96 + 64 - 40 = 120"
+        "explanation": "813 + 542 - 271 = 1084"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+        "question": "Tenglamani yeching: \\(2x - 276 = 828\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
         "options": [
-          "17",
-          "16",
-          "15",
-          "32"
+          "553",
+          "552",
+          "551",
+          "1104"
         ],
         "correctIndex": 1,
-        "explanation": "2x = 32 => x = 16"
+        "explanation": "2x = 1104 => x = 552"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+        "question": "Hisoblang: \\(281^2 - (281-1)^2\\) (Algebraik (Ratsional) kasrlarni soddalashtirish va qisqartirish)",
         "options": [
-          "30",
-          "34",
-          "32",
-          "64"
+          "563",
+          "562",
+          "561",
+          "281"
         ],
         "correctIndex": 2,
-        "explanation": "8 + 24 = 32"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (281 + 280) = 561"
       }
     ],
     "practiceExercises": [
@@ -76727,39 +76727,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(822 + 548 - 274\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "1096",
+            "1098",
+            "1094",
+            "2192"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "822 + 548 - 274 = 1096"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 279 = 837\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "559",
+            "558",
+            "557",
+            "1116"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 1116 => x = 558"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(284^2 - (284-1)^2\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "569",
+            "568",
+            "567",
+            "284"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (284 + 283) = 567"
         }
       ],
       "practiceExercises": [
@@ -76933,39 +76933,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(822 + 548 - 274\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "1096",
+            "1098",
+            "1094",
+            "2192"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "822 + 548 - 274 = 1096"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 279 = 837\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "559",
+            "558",
+            "557",
+            "1116"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 1116 => x = 558"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(284^2 - (284-1)^2\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "569",
+            "568",
+            "567",
+            "284"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (284 + 283) = 567"
         }
       ],
       "practiceExercises": [
@@ -77139,39 +77139,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(822 + 548 - 274\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "1096",
+            "1098",
+            "1094",
+            "2192"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "822 + 548 - 274 = 1096"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 279 = 837\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "559",
+            "558",
+            "557",
+            "1116"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 1116 => x = 558"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(284^2 - (284-1)^2\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "569",
+            "568",
+            "567",
+            "284"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (284 + 283) = 567"
         }
       ],
       "practiceExercises": [
@@ -77344,39 +77344,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(96 + 64 - 40\\)",
+        "question": "Hisoblang: \\(822 + 548 - 274\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
         "options": [
-          "120",
-          "125",
-          "115",
-          "240"
+          "1096",
+          "1098",
+          "1094",
+          "2192"
         ],
         "correctIndex": 0,
-        "explanation": "96 + 64 - 40 = 120"
+        "explanation": "822 + 548 - 274 = 1096"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+        "question": "Tenglamani yeching: \\(2x - 279 = 837\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
         "options": [
-          "17",
-          "16",
-          "15",
-          "32"
+          "559",
+          "558",
+          "557",
+          "1116"
         ],
         "correctIndex": 1,
-        "explanation": "2x = 32 => x = 16"
+        "explanation": "2x = 1116 => x = 558"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+        "question": "Hisoblang: \\(284^2 - (284-1)^2\\) (Keltirilgan kvadrat tenglamalar (x² + px + q = 0))",
         "options": [
-          "30",
-          "34",
-          "32",
-          "64"
+          "569",
+          "568",
+          "567",
+          "284"
         ],
         "correctIndex": 2,
-        "explanation": "8 + 24 = 32"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (284 + 283) = 567"
       }
     ],
     "practiceExercises": [
@@ -77558,39 +77558,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 554 \\text{ sm}, balandligi h = 277 \\text{ sm}. Uning yuzini hisoblang (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(76729 \\text{ sm}^2\\)",
+            "\\(76734 \\text{ sm}^2\\)",
+            "\\(76726 \\text{ sm}^2\\)",
+            "\\(153458 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (554 * 277)/2 = 76729 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 572 \\text{ sm}, bir tomoni a = 282 \\text{ sm}. Ikkinchi tomonini toping (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 287 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(1148 \\text{ sm}\\)",
+            "\\(574 \\text{ sm}\\)",
+            "\\(861 \\text{ sm}\\)",
+            "\\(1435 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 287 = 861 sm"
         }
       ],
       "practiceExercises": [
@@ -77764,39 +77764,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 554 \\text{ sm}, balandligi h = 277 \\text{ sm}. Uning yuzini hisoblang (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(76729 \\text{ sm}^2\\)",
+            "\\(76734 \\text{ sm}^2\\)",
+            "\\(76726 \\text{ sm}^2\\)",
+            "\\(153458 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (554 * 277)/2 = 76729 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 572 \\text{ sm}, bir tomoni a = 282 \\text{ sm}. Ikkinchi tomonini toping (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 287 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(1148 \\text{ sm}\\)",
+            "\\(574 \\text{ sm}\\)",
+            "\\(861 \\text{ sm}\\)",
+            "\\(1435 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 287 = 861 sm"
         }
       ],
       "practiceExercises": [
@@ -77970,39 +77970,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 554 \\text{ sm}, balandligi h = 277 \\text{ sm}. Uning yuzini hisoblang (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(76729 \\text{ sm}^2\\)",
+            "\\(76734 \\text{ sm}^2\\)",
+            "\\(76726 \\text{ sm}^2\\)",
+            "\\(153458 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (554 * 277)/2 = 76729 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 572 \\text{ sm}, bir tomoni a = 282 \\text{ sm}. Ikkinchi tomonini toping (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 287 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(1148 \\text{ sm}\\)",
+            "\\(574 \\text{ sm}\\)",
+            "\\(861 \\text{ sm}\\)",
+            "\\(1435 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 287 = 861 sm"
         }
       ],
       "practiceExercises": [
@@ -78175,39 +78175,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 554 \\text{ sm}, balandligi h = 277 \\text{ sm}. Uning yuzini hisoblang (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
         "options": [
-          "\\(64 \\text{ sm}^2\\)",
-          "\\(68 \\text{ sm}^2\\)",
-          "\\(62 \\text{ sm}^2\\)",
-          "\\(128 \\text{ sm}^2\\)"
+          "\\(76729 \\text{ sm}^2\\)",
+          "\\(76734 \\text{ sm}^2\\)",
+          "\\(76726 \\text{ sm}^2\\)",
+          "\\(153458 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
-        "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+        "explanation": "S = (a * h)/2 = (554 * 277)/2 = 76729 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 572 \\text{ sm}, bir tomoni a = 282 \\text{ sm}. Ikkinchi tomonini toping (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
         "options": [
-          "\\(14 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(18 \\text{ sm}\\)",
-          "\\(12 \\text{ sm}\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 287 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Trapetsiya va Ko'pburchaklar yuzasini hisoblash usullari).",
         "options": [
-          "\\(64 \\text{ sm}\\)",
-          "\\(32 \\text{ sm}\\)",
-          "\\(48 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)"
+          "\\(1148 \\text{ sm}\\)",
+          "\\(574 \\text{ sm}\\)",
+          "\\(861 \\text{ sm}\\)",
+          "\\(1435 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 3a = 3 * 16 = 48 sm"
+        "explanation": "P = 3 * 287 = 861 sm"
       }
     ],
     "practiceExercises": [
@@ -78389,39 +78389,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 560 \\text{ sm}, balandligi h = 280 \\text{ sm}. Uning yuzini hisoblang (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(78405 \\text{ sm}^2\\)",
+            "\\(78400 \\text{ sm}^2\\)",
+            "\\(78397 \\text{ sm}^2\\)",
+            "\\(156800 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (560 * 280)/2 = 78400 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 578 \\text{ sm}, bir tomoni a = 285 \\text{ sm}. Ikkinchi tomonini toping (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 290 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1450 \\text{ sm}\\)",
+            "\\(580 \\text{ sm}\\)",
+            "\\(1160 \\text{ sm}\\)",
+            "\\(870 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 290 = 870 sm"
         }
       ],
       "practiceExercises": [
@@ -78595,39 +78595,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 560 \\text{ sm}, balandligi h = 280 \\text{ sm}. Uning yuzini hisoblang (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(78405 \\text{ sm}^2\\)",
+            "\\(78400 \\text{ sm}^2\\)",
+            "\\(78397 \\text{ sm}^2\\)",
+            "\\(156800 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (560 * 280)/2 = 78400 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 578 \\text{ sm}, bir tomoni a = 285 \\text{ sm}. Ikkinchi tomonini toping (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 290 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1450 \\text{ sm}\\)",
+            "\\(580 \\text{ sm}\\)",
+            "\\(1160 \\text{ sm}\\)",
+            "\\(870 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 290 = 870 sm"
         }
       ],
       "practiceExercises": [
@@ -78801,39 +78801,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 560 \\text{ sm}, balandligi h = 280 \\text{ sm}. Uning yuzini hisoblang (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
           "options": [
-            "\\(85 \\text{ sm}^2\\)",
-            "\\(81 \\text{ sm}^2\\)",
-            "\\(79 \\text{ sm}^2\\)",
-            "\\(162 \\text{ sm}^2\\)"
+            "\\(78405 \\text{ sm}^2\\)",
+            "\\(78400 \\text{ sm}^2\\)",
+            "\\(78397 \\text{ sm}^2\\)",
+            "\\(156800 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+          "explanation": "S = (a * h)/2 = (560 * 280)/2 = 78400 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 578 \\text{ sm}, bir tomoni a = 285 \\text{ sm}. Ikkinchi tomonini toping (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
           "options": [
-            "\\(19 \\text{ sm}\\)",
-            "\\(15 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 290 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
           "options": [
-            "\\(81 \\text{ sm}\\)",
-            "\\(36 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)",
-            "\\(54 \\text{ sm}\\)"
+            "\\(1450 \\text{ sm}\\)",
+            "\\(580 \\text{ sm}\\)",
+            "\\(1160 \\text{ sm}\\)",
+            "\\(870 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 18 = 54 sm"
+          "explanation": "P = 3 * 290 = 870 sm"
         }
       ],
       "practiceExercises": [
@@ -79006,39 +79006,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 18 \\text{ sm}, balandligi h = 9 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 560 \\text{ sm}, balandligi h = 280 \\text{ sm}. Uning yuzini hisoblang (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
         "options": [
-          "\\(85 \\text{ sm}^2\\)",
-          "\\(81 \\text{ sm}^2\\)",
-          "\\(79 \\text{ sm}^2\\)",
-          "\\(162 \\text{ sm}^2\\)"
+          "\\(78405 \\text{ sm}^2\\)",
+          "\\(78400 \\text{ sm}^2\\)",
+          "\\(78397 \\text{ sm}^2\\)",
+          "\\(156800 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
-        "explanation": "S = (a * h)/2 = (18 * 9)/2 = 81 sm²"
+        "explanation": "S = (a * h)/2 = (560 * 280)/2 = 78400 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 52 \\text{ sm}, bir tomoni a = 9 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 578 \\text{ sm}, bir tomoni a = 285 \\text{ sm}. Ikkinchi tomonini toping (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
         "options": [
-          "\\(19 \\text{ sm}\\)",
-          "\\(15 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 17 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 18 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 290 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Vektorlarning skalyar ko'paytmasi (a · b = |a||b|cos α)).",
         "options": [
-          "\\(81 \\text{ sm}\\)",
-          "\\(36 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)",
-          "\\(54 \\text{ sm}\\)"
+          "\\(1450 \\text{ sm}\\)",
+          "\\(580 \\text{ sm}\\)",
+          "\\(1160 \\text{ sm}\\)",
+          "\\(870 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 3a = 3 * 18 = 54 sm"
+        "explanation": "P = 3 * 290 = 870 sm"
       }
     ],
     "practiceExercises": [
@@ -79220,39 +79220,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(849 + 566 - 283\\) (Ikkinchi darajali tenglamalar sistemasi)",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "1134",
+            "1132",
+            "1130",
+            "2264"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "849 + 566 - 283 = 1132"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 288 = 864\\) (Ikkinchi darajali tenglamalar sistemasi)",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "575",
+            "577",
+            "576",
+            "1152"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 1152 => x = 576"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(293^2 - (293-1)^2\\) (Ikkinchi darajali tenglamalar sistemasi)",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "293",
+            "586",
+            "587",
+            "585"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (293 + 292) = 585"
         }
       ],
       "practiceExercises": [
@@ -79426,39 +79426,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(849 + 566 - 283\\) (Ikkinchi darajali tenglamalar sistemasi)",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "1134",
+            "1132",
+            "1130",
+            "2264"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "849 + 566 - 283 = 1132"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 288 = 864\\) (Ikkinchi darajali tenglamalar sistemasi)",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "575",
+            "577",
+            "576",
+            "1152"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 1152 => x = 576"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(293^2 - (293-1)^2\\) (Ikkinchi darajali tenglamalar sistemasi)",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "293",
+            "586",
+            "587",
+            "585"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (293 + 292) = 585"
         }
       ],
       "practiceExercises": [
@@ -79632,39 +79632,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(849 + 566 - 283\\) (Ikkinchi darajali tenglamalar sistemasi)",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "1134",
+            "1132",
+            "1130",
+            "2264"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "849 + 566 - 283 = 1132"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 288 = 864\\) (Ikkinchi darajali tenglamalar sistemasi)",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "575",
+            "577",
+            "576",
+            "1152"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 1152 => x = 576"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(293^2 - (293-1)^2\\) (Ikkinchi darajali tenglamalar sistemasi)",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "293",
+            "586",
+            "587",
+            "585"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (293 + 292) = 585"
         }
       ],
       "practiceExercises": [
@@ -79837,39 +79837,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(108 + 72 - 45\\)",
+        "question": "Hisoblang: \\(849 + 566 - 283\\) (Ikkinchi darajali tenglamalar sistemasi)",
         "options": [
-          "140",
-          "135",
-          "130",
-          "270"
+          "1134",
+          "1132",
+          "1130",
+          "2264"
         ],
         "correctIndex": 1,
-        "explanation": "108 + 72 - 45 = 135"
+        "explanation": "849 + 566 - 283 = 1132"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+        "question": "Tenglamani yeching: \\(2x - 288 = 864\\) (Ikkinchi darajali tenglamalar sistemasi)",
         "options": [
-          "17",
-          "19",
-          "18",
-          "36"
+          "575",
+          "577",
+          "576",
+          "1152"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 36 => x = 18"
+        "explanation": "2x = 1152 => x = 576"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+        "question": "Hisoblang: \\(293^2 - (293-1)^2\\) (Ikkinchi darajali tenglamalar sistemasi)",
         "options": [
-          "72",
-          "38",
-          "34",
-          "36"
+          "293",
+          "586",
+          "587",
+          "585"
         ],
         "correctIndex": 3,
-        "explanation": "9 + 27 = 36"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (293 + 292) = 585"
       }
     ],
     "practiceExercises": [
@@ -80051,39 +80051,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(858 + 572 - 286\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "1146",
+            "1144",
+            "1142",
+            "2288"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "858 + 572 - 286 = 1144"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 291 = 873\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "581",
+            "583",
+            "582",
+            "1164"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 1164 => x = 582"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(296^2 - (296-1)^2\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "296",
+            "592",
+            "593",
+            "591"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (296 + 295) = 591"
         }
       ],
       "practiceExercises": [
@@ -80257,39 +80257,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(858 + 572 - 286\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "1146",
+            "1144",
+            "1142",
+            "2288"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "858 + 572 - 286 = 1144"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 291 = 873\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "581",
+            "583",
+            "582",
+            "1164"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 1164 => x = 582"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(296^2 - (296-1)^2\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "296",
+            "592",
+            "593",
+            "591"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (296 + 295) = 591"
         }
       ],
       "practiceExercises": [
@@ -80463,39 +80463,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(108 + 72 - 45\\)",
+          "question": "Hisoblang: \\(858 + 572 - 286\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
           "options": [
-            "140",
-            "135",
-            "130",
-            "270"
+            "1146",
+            "1144",
+            "1142",
+            "2288"
           ],
           "correctIndex": 1,
-          "explanation": "108 + 72 - 45 = 135"
+          "explanation": "858 + 572 - 286 = 1144"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+          "question": "Tenglamani yeching: \\(2x - 291 = 873\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
           "options": [
-            "17",
-            "19",
-            "18",
-            "36"
+            "581",
+            "583",
+            "582",
+            "1164"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 36 => x = 18"
+          "explanation": "2x = 1164 => x = 582"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+          "question": "Hisoblang: \\(296^2 - (296-1)^2\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
           "options": [
-            "72",
-            "38",
-            "34",
-            "36"
+            "296",
+            "592",
+            "593",
+            "591"
           ],
           "correctIndex": 3,
-          "explanation": "9 + 27 = 36"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (296 + 295) = 591"
         }
       ],
       "practiceExercises": [
@@ -80668,39 +80668,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(108 + 72 - 45\\)",
+        "question": "Hisoblang: \\(858 + 572 - 286\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
         "options": [
-          "140",
-          "135",
-          "130",
-          "270"
+          "1146",
+          "1144",
+          "1142",
+          "2288"
         ],
         "correctIndex": 1,
-        "explanation": "108 + 72 - 45 = 135"
+        "explanation": "858 + 572 - 286 = 1144"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 9 = 27\\)",
+        "question": "Tenglamani yeching: \\(2x - 291 = 873\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
         "options": [
-          "17",
-          "19",
-          "18",
-          "36"
+          "581",
+          "583",
+          "582",
+          "1164"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 36 => x = 18"
+        "explanation": "2x = 1164 => x = 582"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{81} + 27\\)",
+        "question": "Hisoblang: \\(296^2 - (296-1)^2\\) (Davriy o'nli kasrlarni oddiy kasrga aylantirish)",
         "options": [
-          "72",
-          "38",
-          "34",
-          "36"
+          "296",
+          "592",
+          "593",
+          "591"
         ],
         "correctIndex": 3,
-        "explanation": "9 + 27 = 36"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (296 + 295) = 591"
       }
     ],
     "practiceExercises": [
@@ -80882,39 +80882,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(867 + 578 - 289\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "1154",
+            "1158",
+            "1156",
+            "2312"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "867 + 578 - 289 = 1156"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 294 = 882\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "1176",
+            "589",
+            "587",
+            "588"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 1176 => x = 588"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(299^2 - (299-1)^2\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "597",
+            "598",
+            "599",
+            "299"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (299 + 298) = 597"
         }
       ],
       "practiceExercises": [
@@ -81088,39 +81088,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(867 + 578 - 289\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "1154",
+            "1158",
+            "1156",
+            "2312"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "867 + 578 - 289 = 1156"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 294 = 882\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "1176",
+            "589",
+            "587",
+            "588"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 1176 => x = 588"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(299^2 - (299-1)^2\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "597",
+            "598",
+            "599",
+            "299"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (299 + 298) = 597"
         }
       ],
       "practiceExercises": [
@@ -81294,39 +81294,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(867 + 578 - 289\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "1154",
+            "1158",
+            "1156",
+            "2312"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "867 + 578 - 289 = 1156"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 294 = 882\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "1176",
+            "589",
+            "587",
+            "588"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 1176 => x = 588"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(299^2 - (299-1)^2\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "597",
+            "598",
+            "599",
+            "299"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (299 + 298) = 597"
         }
       ],
       "practiceExercises": [
@@ -81499,39 +81499,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(120 + 80 - 50\\)",
+        "question": "Hisoblang: \\(867 + 578 - 289\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
         "options": [
-          "145",
-          "155",
-          "150",
-          "300"
+          "1154",
+          "1158",
+          "1156",
+          "2312"
         ],
         "correctIndex": 2,
-        "explanation": "120 + 80 - 50 = 150"
+        "explanation": "867 + 578 - 289 = 1156"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+        "question": "Tenglamani yeching: \\(2x - 294 = 882\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
         "options": [
-          "40",
-          "21",
-          "19",
-          "20"
+          "1176",
+          "589",
+          "587",
+          "588"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 40 => x = 20"
+        "explanation": "2x = 1176 => x = 588"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+        "question": "Hisoblang: \\(299^2 - (299-1)^2\\) (Logarifmik tengsizliklar va Asosning 1 dan kichik bo'lish qoidasi)",
         "options": [
-          "40",
-          "42",
-          "38",
-          "80"
+          "597",
+          "598",
+          "599",
+          "299"
         ],
         "correctIndex": 0,
-        "explanation": "10 + 30 = 40"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (299 + 298) = 597"
       }
     ],
     "practiceExercises": [
@@ -81713,39 +81713,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(876 + 584 - 292\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "1166",
+            "1170",
+            "1168",
+            "2336"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "876 + 584 - 292 = 1168"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 297 = 891\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "1188",
+            "595",
+            "593",
+            "594"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 1188 => x = 594"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(302^2 - (302-1)^2\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "603",
+            "604",
+            "605",
+            "302"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (302 + 301) = 603"
         }
       ],
       "practiceExercises": [
@@ -81919,39 +81919,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(876 + 584 - 292\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "1166",
+            "1170",
+            "1168",
+            "2336"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "876 + 584 - 292 = 1168"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 297 = 891\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "1188",
+            "595",
+            "593",
+            "594"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 1188 => x = 594"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(302^2 - (302-1)^2\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "603",
+            "604",
+            "605",
+            "302"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (302 + 301) = 603"
         }
       ],
       "practiceExercises": [
@@ -82125,39 +82125,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(120 + 80 - 50\\)",
+          "question": "Hisoblang: \\(876 + 584 - 292\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
           "options": [
-            "145",
-            "155",
-            "150",
-            "300"
+            "1166",
+            "1170",
+            "1168",
+            "2336"
           ],
           "correctIndex": 2,
-          "explanation": "120 + 80 - 50 = 150"
+          "explanation": "876 + 584 - 292 = 1168"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+          "question": "Tenglamani yeching: \\(2x - 297 = 891\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
           "options": [
-            "40",
-            "21",
-            "19",
-            "20"
+            "1188",
+            "595",
+            "593",
+            "594"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 40 => x = 20"
+          "explanation": "2x = 1188 => x = 594"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+          "question": "Hisoblang: \\(302^2 - (302-1)^2\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
           "options": [
-            "40",
-            "42",
-            "38",
-            "80"
+            "603",
+            "604",
+            "605",
+            "302"
           ],
           "correctIndex": 0,
-          "explanation": "10 + 30 = 40"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (302 + 301) = 603"
         }
       ],
       "practiceExercises": [
@@ -82330,39 +82330,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(120 + 80 - 50\\)",
+        "question": "Hisoblang: \\(876 + 584 - 292\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
         "options": [
-          "145",
-          "155",
-          "150",
-          "300"
+          "1166",
+          "1170",
+          "1168",
+          "2336"
         ],
         "correctIndex": 2,
-        "explanation": "120 + 80 - 50 = 150"
+        "explanation": "876 + 584 - 292 = 1168"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 10 = 30\\)",
+        "question": "Tenglamani yeching: \\(2x - 297 = 891\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
         "options": [
-          "40",
-          "21",
-          "19",
-          "20"
+          "1188",
+          "595",
+          "593",
+          "594"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 40 => x = 20"
+        "explanation": "2x = 1188 => x = 594"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{100} + 30\\)",
+        "question": "Hisoblang: \\(302^2 - (302-1)^2\\) (Trigonometrik ayniyatlarni isbotlash usullari)",
         "options": [
-          "40",
-          "42",
-          "38",
-          "80"
+          "603",
+          "604",
+          "605",
+          "302"
         ],
         "correctIndex": 0,
-        "explanation": "10 + 30 = 40"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (302 + 301) = 603"
       }
     ],
     "practiceExercises": [
@@ -82544,39 +82544,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 590 \\text{ sm}, balandligi h = 295 \\text{ sm}. Uning yuzini hisoblang (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(87022 \\text{ sm}^2\\)",
+            "\\(87030 \\text{ sm}^2\\)",
+            "\\(87025 \\text{ sm}^2\\)",
+            "\\(174050 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (590 * 295)/2 = 87025 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 608 \\text{ sm}, bir tomoni a = 300 \\text{ sm}. Ikkinchi tomonini toping (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 305 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(915 \\text{ sm}\\)",
+            "\\(610 \\text{ sm}\\)",
+            "\\(1220 \\text{ sm}\\)",
+            "\\(1525 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 305 = 915 sm"
         }
       ],
       "practiceExercises": [
@@ -82750,39 +82750,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 590 \\text{ sm}, balandligi h = 295 \\text{ sm}. Uning yuzini hisoblang (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(87022 \\text{ sm}^2\\)",
+            "\\(87030 \\text{ sm}^2\\)",
+            "\\(87025 \\text{ sm}^2\\)",
+            "\\(174050 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (590 * 295)/2 = 87025 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 608 \\text{ sm}, bir tomoni a = 300 \\text{ sm}. Ikkinchi tomonini toping (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 305 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(915 \\text{ sm}\\)",
+            "\\(610 \\text{ sm}\\)",
+            "\\(1220 \\text{ sm}\\)",
+            "\\(1525 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 305 = 915 sm"
         }
       ],
       "practiceExercises": [
@@ -82956,39 +82956,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 590 \\text{ sm}, balandligi h = 295 \\text{ sm}. Uning yuzini hisoblang (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(104 \\text{ sm}^2\\)",
-            "\\(100 \\text{ sm}^2\\)",
-            "\\(200 \\text{ sm}^2\\)"
+            "\\(87022 \\text{ sm}^2\\)",
+            "\\(87030 \\text{ sm}^2\\)",
+            "\\(87025 \\text{ sm}^2\\)",
+            "\\(174050 \\text{ sm}^2\\)"
           ],
           "correctIndex": 2,
-          "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+          "explanation": "S = (a * h)/2 = (590 * 295)/2 = 87025 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 608 \\text{ sm}, bir tomoni a = 300 \\text{ sm}. Ikkinchi tomonini toping (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)"
+            "\\(2 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 305 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
           "options": [
-            "\\(60 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(80 \\text{ sm}\\)",
-            "\\(90 \\text{ sm}\\)"
+            "\\(915 \\text{ sm}\\)",
+            "\\(610 \\text{ sm}\\)",
+            "\\(1220 \\text{ sm}\\)",
+            "\\(1525 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 3a = 3 * 20 = 60 sm"
+          "explanation": "P = 3 * 305 = 915 sm"
         }
       ],
       "practiceExercises": [
@@ -83161,39 +83161,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 20 \\text{ sm}, balandligi h = 10 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 590 \\text{ sm}, balandligi h = 295 \\text{ sm}. Uning yuzini hisoblang (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
         "options": [
-          "\\(98 \\text{ sm}^2\\)",
-          "\\(104 \\text{ sm}^2\\)",
-          "\\(100 \\text{ sm}^2\\)",
-          "\\(200 \\text{ sm}^2\\)"
+          "\\(87022 \\text{ sm}^2\\)",
+          "\\(87030 \\text{ sm}^2\\)",
+          "\\(87025 \\text{ sm}^2\\)",
+          "\\(174050 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
-        "explanation": "S = (a * h)/2 = (20 * 10)/2 = 100 sm²"
+        "explanation": "S = (a * h)/2 = (590 * 295)/2 = 87025 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 56 \\text{ sm}, bir tomoni a = 10 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 608 \\text{ sm}, bir tomoni a = 300 \\text{ sm}. Ikkinchi tomonini toping (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
         "options": [
-          "\\(14 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(20 \\text{ sm}\\)",
-          "\\(18 \\text{ sm}\\)"
+          "\\(2 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 18 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 20 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 305 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Fazoda ikki tekislik orasidagi burchak (Ikki yoqli burchak)).",
         "options": [
-          "\\(60 \\text{ sm}\\)",
-          "\\(40 \\text{ sm}\\)",
-          "\\(80 \\text{ sm}\\)",
-          "\\(90 \\text{ sm}\\)"
+          "\\(915 \\text{ sm}\\)",
+          "\\(610 \\text{ sm}\\)",
+          "\\(1220 \\text{ sm}\\)",
+          "\\(1525 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 3a = 3 * 20 = 60 sm"
+        "explanation": "P = 3 * 305 = 915 sm"
       }
     ],
     "practiceExercises": [
@@ -83375,39 +83375,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(894 + 596 - 298\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "2384",
+            "1194",
+            "1190",
+            "1192"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "894 + 596 - 298 = 1192"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 303 = 909\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "606",
+            "607",
+            "605",
+            "1212"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 1212 => x = 606"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(308^2 - (308-1)^2\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "616",
+            "615",
+            "617",
+            "308"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (308 + 307) = 615"
         }
       ],
       "practiceExercises": [
@@ -83581,39 +83581,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(894 + 596 - 298\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "2384",
+            "1194",
+            "1190",
+            "1192"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "894 + 596 - 298 = 1192"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 303 = 909\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "606",
+            "607",
+            "605",
+            "1212"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 1212 => x = 606"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(308^2 - (308-1)^2\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "616",
+            "615",
+            "617",
+            "308"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (308 + 307) = 615"
         }
       ],
       "practiceExercises": [
@@ -83787,39 +83787,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(894 + 596 - 298\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "2384",
+            "1194",
+            "1190",
+            "1192"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "894 + 596 - 298 = 1192"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 303 = 909\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "606",
+            "607",
+            "605",
+            "1212"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 1212 => x = 606"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(308^2 - (308-1)^2\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "616",
+            "615",
+            "617",
+            "308"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (308 + 307) = 615"
         }
       ],
       "practiceExercises": [
@@ -83992,39 +83992,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(132 + 88 - 55\\)",
+        "question": "Hisoblang: \\(894 + 596 - 298\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
         "options": [
-          "330",
-          "170",
-          "160",
-          "165"
+          "2384",
+          "1194",
+          "1190",
+          "1192"
         ],
         "correctIndex": 3,
-        "explanation": "132 + 88 - 55 = 165"
+        "explanation": "894 + 596 - 298 = 1192"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+        "question": "Tenglamani yeching: \\(2x - 303 = 909\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
         "options": [
-          "22",
-          "23",
-          "21",
-          "44"
+          "606",
+          "607",
+          "605",
+          "1212"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 44 => x = 22"
+        "explanation": "2x = 1212 => x = 606"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+        "question": "Hisoblang: \\(308^2 - (308-1)^2\\) (Funksiyaning o'sish va kamayish oraliqlarini hosila yordamida topish)",
         "options": [
-          "46",
-          "44",
-          "42",
-          "88"
+          "616",
+          "615",
+          "617",
+          "308"
         ],
         "correctIndex": 1,
-        "explanation": "11 + 33 = 44"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (308 + 307) = 615"
       }
     ],
     "practiceExercises": [
@@ -84181,39 +84181,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(903 + 602 - 301\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "1204",
+            "1206",
+            "1202",
+            "2408"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "903 + 602 - 301 = 1204"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 306 = 918\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "613",
+            "612",
+            "611",
+            "1224"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 1224 => x = 612"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(311^2 - (311-1)^2\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "623",
+            "622",
+            "621",
+            "311"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (311 + 310) = 621"
         }
       ],
       "practiceExercises": [
@@ -84345,39 +84345,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(903 + 602 - 301\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "1204",
+            "1206",
+            "1202",
+            "2408"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "903 + 602 - 301 = 1204"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 306 = 918\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "613",
+            "612",
+            "611",
+            "1224"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 1224 => x = 612"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(311^2 - (311-1)^2\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "623",
+            "622",
+            "621",
+            "311"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (311 + 310) = 621"
         }
       ],
       "practiceExercises": [
@@ -84509,39 +84509,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(96 + 64 - 40\\)",
+          "question": "Hisoblang: \\(903 + 602 - 301\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
           "options": [
-            "120",
-            "125",
-            "115",
-            "240"
+            "1204",
+            "1206",
+            "1202",
+            "2408"
           ],
           "correctIndex": 0,
-          "explanation": "96 + 64 - 40 = 120"
+          "explanation": "903 + 602 - 301 = 1204"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+          "question": "Tenglamani yeching: \\(2x - 306 = 918\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
           "options": [
-            "17",
-            "16",
-            "15",
-            "32"
+            "613",
+            "612",
+            "611",
+            "1224"
           ],
           "correctIndex": 1,
-          "explanation": "2x = 32 => x = 16"
+          "explanation": "2x = 1224 => x = 612"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+          "question": "Hisoblang: \\(311^2 - (311-1)^2\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
           "options": [
-            "30",
-            "34",
-            "32",
-            "64"
+            "623",
+            "622",
+            "621",
+            "311"
           ],
           "correctIndex": 2,
-          "explanation": "8 + 24 = 32"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (311 + 310) = 621"
         }
       ],
       "practiceExercises": [
@@ -84660,39 +84660,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(96 + 64 - 40\\)",
+        "question": "Hisoblang: \\(903 + 602 - 301\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
         "options": [
-          "120",
-          "125",
-          "115",
-          "240"
+          "1204",
+          "1206",
+          "1202",
+          "2408"
         ],
         "correctIndex": 0,
-        "explanation": "96 + 64 - 40 = 120"
+        "explanation": "903 + 602 - 301 = 1204"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 8 = 24\\)",
+        "question": "Tenglamani yeching: \\(2x - 306 = 918\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
         "options": [
-          "17",
-          "16",
-          "15",
-          "32"
+          "613",
+          "612",
+          "611",
+          "1224"
         ],
         "correctIndex": 1,
-        "explanation": "2x = 32 => x = 16"
+        "explanation": "2x = 1224 => x = 612"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{64} + 24\\)",
+        "question": "Hisoblang: \\(311^2 - (311-1)^2\\) (Modulli tenglamalar va tengsizliklar (|x - a| = b))",
         "options": [
-          "30",
-          "34",
-          "32",
-          "64"
+          "623",
+          "622",
+          "621",
+          "311"
         ],
         "correctIndex": 2,
-        "explanation": "8 + 24 = 32"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (311 + 310) = 621"
       }
     ],
     "examples": [
@@ -84837,39 +84837,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(912 + 608 - 304\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "2432",
+            "1218",
+            "1214",
+            "1216"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "912 + 608 - 304 = 1216"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 309 = 927\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "618",
+            "619",
+            "617",
+            "1236"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 1236 => x = 618"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(314^2 - (314-1)^2\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "628",
+            "627",
+            "629",
+            "314"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (314 + 313) = 627"
         }
       ],
       "practiceExercises": [
@@ -85001,39 +85001,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(912 + 608 - 304\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "2432",
+            "1218",
+            "1214",
+            "1216"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "912 + 608 - 304 = 1216"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 309 = 927\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "618",
+            "619",
+            "617",
+            "1236"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 1236 => x = 618"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(314^2 - (314-1)^2\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "628",
+            "627",
+            "629",
+            "314"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (314 + 313) = 627"
         }
       ],
       "practiceExercises": [
@@ -85165,39 +85165,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(132 + 88 - 55\\)",
+          "question": "Hisoblang: \\(912 + 608 - 304\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
           "options": [
-            "330",
-            "170",
-            "160",
-            "165"
+            "2432",
+            "1218",
+            "1214",
+            "1216"
           ],
           "correctIndex": 3,
-          "explanation": "132 + 88 - 55 = 165"
+          "explanation": "912 + 608 - 304 = 1216"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+          "question": "Tenglamani yeching: \\(2x - 309 = 927\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
           "options": [
-            "22",
-            "23",
-            "21",
-            "44"
+            "618",
+            "619",
+            "617",
+            "1236"
           ],
           "correctIndex": 0,
-          "explanation": "2x = 44 => x = 22"
+          "explanation": "2x = 1236 => x = 618"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+          "question": "Hisoblang: \\(314^2 - (314-1)^2\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
           "options": [
-            "46",
-            "44",
-            "42",
-            "88"
+            "628",
+            "627",
+            "629",
+            "314"
           ],
           "correctIndex": 1,
-          "explanation": "11 + 33 = 44"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (314 + 313) = 627"
         }
       ],
       "practiceExercises": [
@@ -85316,39 +85316,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(132 + 88 - 55\\)",
+        "question": "Hisoblang: \\(912 + 608 - 304\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
         "options": [
-          "330",
-          "170",
-          "160",
-          "165"
+          "2432",
+          "1218",
+          "1214",
+          "1216"
         ],
         "correctIndex": 3,
-        "explanation": "132 + 88 - 55 = 165"
+        "explanation": "912 + 608 - 304 = 1216"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 11 = 33\\)",
+        "question": "Tenglamani yeching: \\(2x - 309 = 927\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
         "options": [
-          "22",
-          "23",
-          "21",
-          "44"
+          "618",
+          "619",
+          "617",
+          "1236"
         ],
         "correctIndex": 0,
-        "explanation": "2x = 44 => x = 22"
+        "explanation": "2x = 1236 => x = 618"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{121} + 33\\)",
+        "question": "Hisoblang: \\(314^2 - (314-1)^2\\) (Ketma-ketliklar limiti va Funksiya limiti (lim x → a))",
         "options": [
-          "46",
-          "44",
-          "42",
-          "88"
+          "628",
+          "627",
+          "629",
+          "314"
         ],
         "correctIndex": 1,
-        "explanation": "11 + 33 = 44"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (314 + 313) = 627"
       }
     ],
     "examples": [
@@ -85488,39 +85488,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 10 \\text{ sm}, balandligi h = 5 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 614 \\text{ sm}, balandligi h = 307 \\text{ sm}. Uning yuzini hisoblang (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
           "options": [
-            "\\(29 \\text{ sm}^2\\)",
-            "\\(25 \\text{ sm}^2\\)",
-            "\\(23 \\text{ sm}^2\\)",
-            "\\(50 \\text{ sm}^2\\)"
+            "\\(94254 \\text{ sm}^2\\)",
+            "\\(94249 \\text{ sm}^2\\)",
+            "\\(94246 \\text{ sm}^2\\)",
+            "\\(188498 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (10 * 5)/2 = 25 sm²"
+          "explanation": "S = (a * h)/2 = (614 * 307)/2 = 94249 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 36 \\text{ sm}, bir tomoni a = 5 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 632 \\text{ sm}, bir tomoni a = 312 \\text{ sm}. Ikkinchi tomonini toping (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(9 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 13 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 10 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 317 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
           "options": [
-            "\\(45 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(30 \\text{ sm}\\)"
+            "\\(1585 \\text{ sm}\\)",
+            "\\(634 \\text{ sm}\\)",
+            "\\(1268 \\text{ sm}\\)",
+            "\\(951 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 10 = 30 sm"
+          "explanation": "P = 3 * 317 = 951 sm"
         }
       ],
       "practiceExercises": [
@@ -85652,39 +85652,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 10 \\text{ sm}, balandligi h = 5 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 614 \\text{ sm}, balandligi h = 307 \\text{ sm}. Uning yuzini hisoblang (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
           "options": [
-            "\\(29 \\text{ sm}^2\\)",
-            "\\(25 \\text{ sm}^2\\)",
-            "\\(23 \\text{ sm}^2\\)",
-            "\\(50 \\text{ sm}^2\\)"
+            "\\(94254 \\text{ sm}^2\\)",
+            "\\(94249 \\text{ sm}^2\\)",
+            "\\(94246 \\text{ sm}^2\\)",
+            "\\(188498 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (10 * 5)/2 = 25 sm²"
+          "explanation": "S = (a * h)/2 = (614 * 307)/2 = 94249 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 36 \\text{ sm}, bir tomoni a = 5 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 632 \\text{ sm}, bir tomoni a = 312 \\text{ sm}. Ikkinchi tomonini toping (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(9 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 13 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 10 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 317 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
           "options": [
-            "\\(45 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(30 \\text{ sm}\\)"
+            "\\(1585 \\text{ sm}\\)",
+            "\\(634 \\text{ sm}\\)",
+            "\\(1268 \\text{ sm}\\)",
+            "\\(951 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 10 = 30 sm"
+          "explanation": "P = 3 * 317 = 951 sm"
         }
       ],
       "practiceExercises": [
@@ -85816,39 +85816,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 10 \\text{ sm}, balandligi h = 5 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 614 \\text{ sm}, balandligi h = 307 \\text{ sm}. Uning yuzini hisoblang (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
           "options": [
-            "\\(29 \\text{ sm}^2\\)",
-            "\\(25 \\text{ sm}^2\\)",
-            "\\(23 \\text{ sm}^2\\)",
-            "\\(50 \\text{ sm}^2\\)"
+            "\\(94254 \\text{ sm}^2\\)",
+            "\\(94249 \\text{ sm}^2\\)",
+            "\\(94246 \\text{ sm}^2\\)",
+            "\\(188498 \\text{ sm}^2\\)"
           ],
           "correctIndex": 1,
-          "explanation": "S = (a * h)/2 = (10 * 5)/2 = 25 sm²"
+          "explanation": "S = (a * h)/2 = (614 * 307)/2 = 94249 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 36 \\text{ sm}, bir tomoni a = 5 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 632 \\text{ sm}, bir tomoni a = 312 \\text{ sm}. Ikkinchi tomonini toping (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(9 \\text{ sm}\\)"
+            "\\(8 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 13 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 10 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 317 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
           "options": [
-            "\\(45 \\text{ sm}\\)",
-            "\\(20 \\text{ sm}\\)",
-            "\\(40 \\text{ sm}\\)",
-            "\\(30 \\text{ sm}\\)"
+            "\\(1585 \\text{ sm}\\)",
+            "\\(634 \\text{ sm}\\)",
+            "\\(1268 \\text{ sm}\\)",
+            "\\(951 \\text{ sm}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "P = 3a = 3 * 10 = 30 sm"
+          "explanation": "P = 3 * 317 = 951 sm"
         }
       ],
       "practiceExercises": [
@@ -85967,39 +85967,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 10 \\text{ sm}, balandligi h = 5 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 614 \\text{ sm}, balandligi h = 307 \\text{ sm}. Uning yuzini hisoblang (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
         "options": [
-          "\\(29 \\text{ sm}^2\\)",
-          "\\(25 \\text{ sm}^2\\)",
-          "\\(23 \\text{ sm}^2\\)",
-          "\\(50 \\text{ sm}^2\\)"
+          "\\(94254 \\text{ sm}^2\\)",
+          "\\(94249 \\text{ sm}^2\\)",
+          "\\(94246 \\text{ sm}^2\\)",
+          "\\(188498 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
-        "explanation": "S = (a * h)/2 = (10 * 5)/2 = 25 sm²"
+        "explanation": "S = (a * h)/2 = (614 * 307)/2 = 94249 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 36 \\text{ sm}, bir tomoni a = 5 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 632 \\text{ sm}, bir tomoni a = 312 \\text{ sm}. Ikkinchi tomonini toping (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
         "options": [
-          "\\(15 \\text{ sm}\\)",
-          "\\(11 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)",
-          "\\(9 \\text{ sm}\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 13 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 10 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 317 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Hajm birliklari va Litr tushunchasi (1 dm³ = 1 litr)).",
         "options": [
-          "\\(45 \\text{ sm}\\)",
-          "\\(20 \\text{ sm}\\)",
-          "\\(40 \\text{ sm}\\)",
-          "\\(30 \\text{ sm}\\)"
+          "\\(1585 \\text{ sm}\\)",
+          "\\(634 \\text{ sm}\\)",
+          "\\(1268 \\text{ sm}\\)",
+          "\\(951 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "P = 3a = 3 * 10 = 30 sm"
+        "explanation": "P = 3 * 317 = 951 sm"
       }
     ],
     "examples": [
@@ -86139,39 +86139,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(930 + 620 - 310\\) (Murakkab foizlar va Bank omonati hisobi)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1238",
+            "1242",
+            "1240",
+            "2480"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "930 + 620 - 310 = 1240"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 315 = 945\\) (Murakkab foizlar va Bank omonati hisobi)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1260",
+            "631",
+            "629",
+            "630"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1260 => x = 630"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(320^2 - (320-1)^2\\) (Murakkab foizlar va Bank omonati hisobi)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "639",
+            "640",
+            "641",
+            "320"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (320 + 319) = 639"
         }
       ],
       "practiceExercises": [
@@ -86303,39 +86303,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(930 + 620 - 310\\) (Murakkab foizlar va Bank omonati hisobi)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1238",
+            "1242",
+            "1240",
+            "2480"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "930 + 620 - 310 = 1240"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 315 = 945\\) (Murakkab foizlar va Bank omonati hisobi)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1260",
+            "631",
+            "629",
+            "630"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1260 => x = 630"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(320^2 - (320-1)^2\\) (Murakkab foizlar va Bank omonati hisobi)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "639",
+            "640",
+            "641",
+            "320"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (320 + 319) = 639"
         }
       ],
       "practiceExercises": [
@@ -86467,39 +86467,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(72 + 48 - 30\\)",
+          "question": "Hisoblang: \\(930 + 620 - 310\\) (Murakkab foizlar va Bank omonati hisobi)",
           "options": [
-            "85",
-            "95",
-            "90",
-            "180"
+            "1238",
+            "1242",
+            "1240",
+            "2480"
           ],
           "correctIndex": 2,
-          "explanation": "72 + 48 - 30 = 90"
+          "explanation": "930 + 620 - 310 = 1240"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+          "question": "Tenglamani yeching: \\(2x - 315 = 945\\) (Murakkab foizlar va Bank omonati hisobi)",
           "options": [
-            "24",
-            "13",
-            "11",
-            "12"
+            "1260",
+            "631",
+            "629",
+            "630"
           ],
           "correctIndex": 3,
-          "explanation": "2x = 24 => x = 12"
+          "explanation": "2x = 1260 => x = 630"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+          "question": "Hisoblang: \\(320^2 - (320-1)^2\\) (Murakkab foizlar va Bank omonati hisobi)",
           "options": [
-            "24",
-            "26",
-            "22",
-            "48"
+            "639",
+            "640",
+            "641",
+            "320"
           ],
           "correctIndex": 0,
-          "explanation": "6 + 18 = 24"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (320 + 319) = 639"
         }
       ],
       "practiceExercises": [
@@ -86618,39 +86618,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(72 + 48 - 30\\)",
+        "question": "Hisoblang: \\(930 + 620 - 310\\) (Murakkab foizlar va Bank omonati hisobi)",
         "options": [
-          "85",
-          "95",
-          "90",
-          "180"
+          "1238",
+          "1242",
+          "1240",
+          "2480"
         ],
         "correctIndex": 2,
-        "explanation": "72 + 48 - 30 = 90"
+        "explanation": "930 + 620 - 310 = 1240"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 6 = 18\\)",
+        "question": "Tenglamani yeching: \\(2x - 315 = 945\\) (Murakkab foizlar va Bank omonati hisobi)",
         "options": [
-          "24",
-          "13",
-          "11",
-          "12"
+          "1260",
+          "631",
+          "629",
+          "630"
         ],
         "correctIndex": 3,
-        "explanation": "2x = 24 => x = 12"
+        "explanation": "2x = 1260 => x = 630"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{36} + 18\\)",
+        "question": "Hisoblang: \\(320^2 - (320-1)^2\\) (Murakkab foizlar va Bank omonati hisobi)",
         "options": [
-          "24",
-          "26",
-          "22",
-          "48"
+          "639",
+          "640",
+          "641",
+          "320"
         ],
         "correctIndex": 0,
-        "explanation": "6 + 18 = 24"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (320 + 319) = 639"
       }
     ],
     "examples": [
@@ -86796,39 +86796,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
+          "question": "Hisoblang: \\(939 + 626 - 313\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
           "options": [
-            "\\(x_1 = 2, x_2 = 6\\)",
-            "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_1 = 1, x_2 = 15\\)",
-            "\\(x_1 = -3, x_2 = -5\\)"
+            "1254",
+            "1252",
+            "1250",
+            "2504"
           ],
           "correctIndex": 1,
-          "explanation": "D = 64 - 60 = 4 => x = (8 ± 2)/2 => x1 = 3, x2 = 5"
+          "explanation": "939 + 626 - 313 = 1252"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
+          "question": "Tenglamani yeching: \\(2x - 318 = 954\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
           "options": [
-            "\\(x_1 = 1, x_2 = 3\\)",
-            "\\(x_1 = 2, x_2 = 1\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_1 = -3, x_2 = -0.5\\)"
+            "635",
+            "637",
+            "636",
+            "1272"
           ],
           "correctIndex": 2,
-          "explanation": "D = 49 - 24 = 25 => x = (7 ± 5)/4 => x1 = 3, x2 = 0.5"
+          "explanation": "2x = 1272 => x = 636"
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^2 - 4x - 21 = 0",
+          "question": "Hisoblang: \\(323^2 - (323-1)^2\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
           "options": [
-            "-7",
-            "3",
-            "-3",
-            "7"
+            "323",
+            "646",
+            "647",
+            "645"
           ],
           "correctIndex": 3,
-          "explanation": "x1 = 7, x2 = -3, musbat ildiz 7"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (323 + 322) = 645"
         }
       ],
       "practiceExercises": [
@@ -86960,39 +86960,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
+          "question": "Hisoblang: \\(939 + 626 - 313\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
           "options": [
-            "\\(x_1 = 2, x_2 = 6\\)",
-            "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_1 = 1, x_2 = 15\\)",
-            "\\(x_1 = -3, x_2 = -5\\)"
+            "1254",
+            "1252",
+            "1250",
+            "2504"
           ],
           "correctIndex": 1,
-          "explanation": "D = 64 - 60 = 4 => x = (8 ± 2)/2 => x1 = 3, x2 = 5"
+          "explanation": "939 + 626 - 313 = 1252"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
+          "question": "Tenglamani yeching: \\(2x - 318 = 954\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
           "options": [
-            "\\(x_1 = 1, x_2 = 3\\)",
-            "\\(x_1 = 2, x_2 = 1\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_1 = -3, x_2 = -0.5\\)"
+            "635",
+            "637",
+            "636",
+            "1272"
           ],
           "correctIndex": 2,
-          "explanation": "D = 49 - 24 = 25 => x = (7 ± 5)/4 => x1 = 3, x2 = 0.5"
+          "explanation": "2x = 1272 => x = 636"
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^2 - 4x - 21 = 0",
+          "question": "Hisoblang: \\(323^2 - (323-1)^2\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
           "options": [
-            "-7",
-            "3",
-            "-3",
-            "7"
+            "323",
+            "646",
+            "647",
+            "645"
           ],
           "correctIndex": 3,
-          "explanation": "x1 = 7, x2 = -3, musbat ildiz 7"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (323 + 322) = 645"
         }
       ],
       "practiceExercises": [
@@ -87124,39 +87124,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
+          "question": "Hisoblang: \\(939 + 626 - 313\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
           "options": [
-            "\\(x_1 = 2, x_2 = 6\\)",
-            "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_1 = 1, x_2 = 15\\)",
-            "\\(x_1 = -3, x_2 = -5\\)"
+            "1254",
+            "1252",
+            "1250",
+            "2504"
           ],
           "correctIndex": 1,
-          "explanation": "D = 64 - 60 = 4 => x = (8 ± 2)/2 => x1 = 3, x2 = 5"
+          "explanation": "939 + 626 - 313 = 1252"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
+          "question": "Tenglamani yeching: \\(2x - 318 = 954\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
           "options": [
-            "\\(x_1 = 1, x_2 = 3\\)",
-            "\\(x_1 = 2, x_2 = 1\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_1 = -3, x_2 = -0.5\\)"
+            "635",
+            "637",
+            "636",
+            "1272"
           ],
           "correctIndex": 2,
-          "explanation": "D = 49 - 24 = 25 => x = (7 ± 5)/4 => x1 = 3, x2 = 0.5"
+          "explanation": "2x = 1272 => x = 636"
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^2 - 4x - 21 = 0",
+          "question": "Hisoblang: \\(323^2 - (323-1)^2\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
           "options": [
-            "-7",
-            "3",
-            "-3",
-            "7"
+            "323",
+            "646",
+            "647",
+            "645"
           ],
           "correctIndex": 3,
-          "explanation": "x1 = 7, x2 = -3, musbat ildiz 7"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (323 + 322) = 645"
         }
       ],
       "practiceExercises": [
@@ -87275,39 +87275,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
+        "question": "Hisoblang: \\(939 + 626 - 313\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
         "options": [
-          "\\(x_1 = 2, x_2 = 6\\)",
-          "\\(x_1 = 3, x_2 = 5\\)",
-          "\\(x_1 = 1, x_2 = 15\\)",
-          "\\(x_1 = -3, x_2 = -5\\)"
+          "1254",
+          "1252",
+          "1250",
+          "2504"
         ],
         "correctIndex": 1,
-        "explanation": "D = 64 - 60 = 4 => x = (8 ± 2)/2 => x1 = 3, x2 = 5"
+        "explanation": "939 + 626 - 313 = 1252"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
+        "question": "Tenglamani yeching: \\(2x - 318 = 954\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
         "options": [
-          "\\(x_1 = 1, x_2 = 3\\)",
-          "\\(x_1 = 2, x_2 = 1\\)",
-          "\\(x_1 = 3, x_2 = 0.5\\)",
-          "\\(x_1 = -3, x_2 = -0.5\\)"
+          "635",
+          "637",
+          "636",
+          "1272"
         ],
         "correctIndex": 2,
-        "explanation": "D = 49 - 24 = 25 => x = (7 ± 5)/4 => x1 = 3, x2 = 0.5"
+        "explanation": "2x = 1272 => x = 636"
       },
       {
         "level": "hard",
-        "question": "Tenglamaning musbat ildizini toping: x^2 - 4x - 21 = 0",
+        "question": "Hisoblang: \\(323^2 - (323-1)^2\\) (Bikvadrat tenglamalar (ax⁴ + bx² + c = 0))",
         "options": [
-          "-7",
-          "3",
-          "-3",
-          "7"
+          "323",
+          "646",
+          "647",
+          "645"
         ],
         "correctIndex": 3,
-        "explanation": "x1 = 7, x2 = -3, musbat ildiz 7"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (323 + 322) = 645"
       }
     ],
     "examples": [
@@ -87503,39 +87503,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(948 + 632 - 316\\) (EKUB yordamida kasrlarni qisqartirish)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "1266",
+            "1264",
+            "1262",
+            "2528"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "948 + 632 - 316 = 1264"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 321 = 963\\) (EKUB yordamida kasrlarni qisqartirish)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "641",
+            "643",
+            "642",
+            "1284"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 1284 => x = 642"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(326^2 - (326-1)^2\\) (EKUB yordamida kasrlarni qisqartirish)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "326",
+            "652",
+            "653",
+            "651"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (326 + 325) = 651"
         }
       ]
     },
@@ -87602,39 +87602,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(948 + 632 - 316\\) (EKUB yordamida kasrlarni qisqartirish)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "1266",
+            "1264",
+            "1262",
+            "2528"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "948 + 632 - 316 = 1264"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 321 = 963\\) (EKUB yordamida kasrlarni qisqartirish)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "641",
+            "643",
+            "642",
+            "1284"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 1284 => x = 642"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(326^2 - (326-1)^2\\) (EKUB yordamida kasrlarni qisqartirish)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "326",
+            "652",
+            "653",
+            "651"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (326 + 325) = 651"
         }
       ],
       "examples": [
@@ -87751,39 +87751,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(60 + 40 - 25\\)",
+          "question": "Hisoblang: \\(948 + 632 - 316\\) (EKUB yordamida kasrlarni qisqartirish)",
           "options": [
-            "80",
-            "75",
-            "70",
-            "150"
+            "1266",
+            "1264",
+            "1262",
+            "2528"
           ],
           "correctIndex": 1,
-          "explanation": "60 + 40 - 25 = 75"
+          "explanation": "948 + 632 - 316 = 1264"
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+          "question": "Tenglamani yeching: \\(2x - 321 = 963\\) (EKUB yordamida kasrlarni qisqartirish)",
           "options": [
-            "9",
-            "11",
-            "10",
-            "20"
+            "641",
+            "643",
+            "642",
+            "1284"
           ],
           "correctIndex": 2,
-          "explanation": "2x = 20 => x = 10"
+          "explanation": "2x = 1284 => x = 642"
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+          "question": "Hisoblang: \\(326^2 - (326-1)^2\\) (EKUB yordamida kasrlarni qisqartirish)",
           "options": [
-            "40",
-            "22",
-            "18",
-            "20"
+            "326",
+            "652",
+            "653",
+            "651"
           ],
           "correctIndex": 3,
-          "explanation": "5 + 15 = 20"
+          "explanation": "a² - b² = (a-b)(a+b) = 1 * (326 + 325) = 651"
         }
       ],
       "examples": [
@@ -87896,39 +87896,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\(60 + 40 - 25\\)",
+        "question": "Hisoblang: \\(948 + 632 - 316\\) (EKUB yordamida kasrlarni qisqartirish)",
         "options": [
-          "80",
-          "75",
-          "70",
-          "150"
+          "1266",
+          "1264",
+          "1262",
+          "2528"
         ],
         "correctIndex": 1,
-        "explanation": "60 + 40 - 25 = 75"
+        "explanation": "948 + 632 - 316 = 1264"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\(2x - 5 = 15\\)",
+        "question": "Tenglamani yeching: \\(2x - 321 = 963\\) (EKUB yordamida kasrlarni qisqartirish)",
         "options": [
-          "9",
-          "11",
-          "10",
-          "20"
+          "641",
+          "643",
+          "642",
+          "1284"
         ],
         "correctIndex": 2,
-        "explanation": "2x = 20 => x = 10"
+        "explanation": "2x = 1284 => x = 642"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\sqrt{25} + 15\\)",
+        "question": "Hisoblang: \\(326^2 - (326-1)^2\\) (EKUB yordamida kasrlarni qisqartirish)",
         "options": [
-          "40",
-          "22",
-          "18",
-          "20"
+          "326",
+          "652",
+          "653",
+          "651"
         ],
         "correctIndex": 3,
-        "explanation": "5 + 15 = 20"
+        "explanation": "a² - b² = (a-b)(a+b) = 1 * (326 + 325) = 651"
       }
     ],
     "examples": [
@@ -88129,39 +88129,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 638 \\text{ sm}, balandligi h = 319 \\text{ sm}. Uning yuzini hisoblang (Teng yonli uchburchak va uning xossalari).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(203522 \\text{ sm}^2\\)",
+            "\\(101766 \\text{ sm}^2\\)",
+            "\\(101758 \\text{ sm}^2\\)",
+            "\\(101761 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (638 * 319)/2 = 101761 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 656 \\text{ sm}, bir tomoni a = 324 \\text{ sm}. Ikkinchi tomonini toping (Teng yonli uchburchak va uning xossalari).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 329 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Teng yonli uchburchak va uning xossalari).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(658 \\text{ sm}\\)",
+            "\\(987 \\text{ sm}\\)",
+            "\\(1316 \\text{ sm}\\)",
+            "\\(1645 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 329 = 987 sm"
         }
       ]
     },
@@ -88228,39 +88228,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 638 \\text{ sm}, balandligi h = 319 \\text{ sm}. Uning yuzini hisoblang (Teng yonli uchburchak va uning xossalari).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(203522 \\text{ sm}^2\\)",
+            "\\(101766 \\text{ sm}^2\\)",
+            "\\(101758 \\text{ sm}^2\\)",
+            "\\(101761 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (638 * 319)/2 = 101761 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 656 \\text{ sm}, bir tomoni a = 324 \\text{ sm}. Ikkinchi tomonini toping (Teng yonli uchburchak va uning xossalari).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 329 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Teng yonli uchburchak va uning xossalari).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(658 \\text{ sm}\\)",
+            "\\(987 \\text{ sm}\\)",
+            "\\(1316 \\text{ sm}\\)",
+            "\\(1645 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 329 = 987 sm"
         }
       ],
       "examples": [
@@ -88377,39 +88377,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 638 \\text{ sm}, balandligi h = 319 \\text{ sm}. Uning yuzini hisoblang (Teng yonli uchburchak va uning xossalari).",
           "options": [
-            "\\(98 \\text{ sm}^2\\)",
-            "\\(53 \\text{ sm}^2\\)",
-            "\\(47 \\text{ sm}^2\\)",
-            "\\(49 \\text{ sm}^2\\)"
+            "\\(203522 \\text{ sm}^2\\)",
+            "\\(101766 \\text{ sm}^2\\)",
+            "\\(101758 \\text{ sm}^2\\)",
+            "\\(101761 \\text{ sm}^2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+          "explanation": "S = (a * h)/2 = (638 * 319)/2 = 101761 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 656 \\text{ sm}, bir tomoni a = 324 \\text{ sm}. Ikkinchi tomonini toping (Teng yonli uchburchak va uning xossalari).",
           "options": [
-            "\\(15 \\text{ sm}\\)",
-            "\\(13 \\text{ sm}\\)",
-            "\\(17 \\text{ sm}\\)",
-            "\\(11 \\text{ sm}\\)"
+            "\\(4 \\text{ sm}\\)",
+            "\\(6 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 0,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 329 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Teng yonli uchburchak va uning xossalari).",
           "options": [
-            "\\(28 \\text{ sm}\\)",
-            "\\(42 \\text{ sm}\\)",
-            "\\(56 \\text{ sm}\\)",
-            "\\(63 \\text{ sm}\\)"
+            "\\(658 \\text{ sm}\\)",
+            "\\(987 \\text{ sm}\\)",
+            "\\(1316 \\text{ sm}\\)",
+            "\\(1645 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 3a = 3 * 14 = 42 sm"
+          "explanation": "P = 3 * 329 = 987 sm"
         }
       ],
       "examples": [
@@ -88522,39 +88522,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 7 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 638 \\text{ sm}, balandligi h = 319 \\text{ sm}. Uning yuzini hisoblang (Teng yonli uchburchak va uning xossalari).",
         "options": [
-          "\\(98 \\text{ sm}^2\\)",
-          "\\(53 \\text{ sm}^2\\)",
-          "\\(47 \\text{ sm}^2\\)",
-          "\\(49 \\text{ sm}^2\\)"
+          "\\(203522 \\text{ sm}^2\\)",
+          "\\(101766 \\text{ sm}^2\\)",
+          "\\(101758 \\text{ sm}^2\\)",
+          "\\(101761 \\text{ sm}^2\\)"
         ],
         "correctIndex": 3,
-        "explanation": "S = (a * h)/2 = (14 * 7)/2 = 49 sm²"
+        "explanation": "S = (a * h)/2 = (638 * 319)/2 = 101761 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 44 \\text{ sm}, bir tomoni a = 7 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 656 \\text{ sm}, bir tomoni a = 324 \\text{ sm}. Ikkinchi tomonini toping (Teng yonli uchburchak va uning xossalari).",
         "options": [
-          "\\(15 \\text{ sm}\\)",
-          "\\(13 \\text{ sm}\\)",
-          "\\(17 \\text{ sm}\\)",
-          "\\(11 \\text{ sm}\\)"
+          "\\(4 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 15 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 14 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 329 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Teng yonli uchburchak va uning xossalari).",
         "options": [
-          "\\(28 \\text{ sm}\\)",
-          "\\(42 \\text{ sm}\\)",
-          "\\(56 \\text{ sm}\\)",
-          "\\(63 \\text{ sm}\\)"
+          "\\(658 \\text{ sm}\\)",
+          "\\(987 \\text{ sm}\\)",
+          "\\(1316 \\text{ sm}\\)",
+          "\\(1645 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 3a = 3 * 14 = 42 sm"
+        "explanation": "P = 3 * 329 = 987 sm"
       }
     ],
     "examples": [
@@ -88755,39 +88755,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 644 \\text{ sm}, balandligi h = 322 \\text{ sm}. Uning yuzini hisoblang (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(103684 \\text{ sm}^2\\)",
+            "\\(103689 \\text{ sm}^2\\)",
+            "\\(103681 \\text{ sm}^2\\)",
+            "\\(207368 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (644 * 322)/2 = 103684 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 662 \\text{ sm}, bir tomoni a = 327 \\text{ sm}. Ikkinchi tomonini toping (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 332 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(1328 \\text{ sm}\\)",
+            "\\(664 \\text{ sm}\\)",
+            "\\(996 \\text{ sm}\\)",
+            "\\(1660 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 332 = 996 sm"
         }
       ]
     },
@@ -88854,39 +88854,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 644 \\text{ sm}, balandligi h = 322 \\text{ sm}. Uning yuzini hisoblang (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(103684 \\text{ sm}^2\\)",
+            "\\(103689 \\text{ sm}^2\\)",
+            "\\(103681 \\text{ sm}^2\\)",
+            "\\(207368 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (644 * 322)/2 = 103684 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 662 \\text{ sm}, bir tomoni a = 327 \\text{ sm}. Ikkinchi tomonini toping (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 332 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(1328 \\text{ sm}\\)",
+            "\\(664 \\text{ sm}\\)",
+            "\\(996 \\text{ sm}\\)",
+            "\\(1660 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 332 = 996 sm"
         }
       ],
       "examples": [
@@ -89003,39 +89003,39 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+          "question": "Uchburchakning asosi a = 644 \\text{ sm}, balandligi h = 322 \\text{ sm}. Uning yuzini hisoblang (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
           "options": [
-            "\\(64 \\text{ sm}^2\\)",
-            "\\(68 \\text{ sm}^2\\)",
-            "\\(62 \\text{ sm}^2\\)",
-            "\\(128 \\text{ sm}^2\\)"
+            "\\(103684 \\text{ sm}^2\\)",
+            "\\(103689 \\text{ sm}^2\\)",
+            "\\(103681 \\text{ sm}^2\\)",
+            "\\(207368 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+          "explanation": "S = (a * h)/2 = (644 * 322)/2 = 103684 sm²"
         },
         {
           "level": "medium",
-          "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+          "question": "To'g'ri to'rtburchakning perimetri P = 662 \\text{ sm}, bir tomoni a = 327 \\text{ sm}. Ikkinchi tomonini toping (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
           "options": [
-            "\\(14 \\text{ sm}\\)",
-            "\\(16 \\text{ sm}\\)",
-            "\\(18 \\text{ sm}\\)",
-            "\\(12 \\text{ sm}\\)"
+            "\\(6 \\text{ sm}\\)",
+            "\\(4 \\text{ sm}\\)",
+            "\\(8 \\text{ sm}\\)",
+            "\\(2 \\text{ sm}\\)"
           ],
           "correctIndex": 1,
-          "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+          "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
         },
         {
           "level": "hard",
-          "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+          "question": "Muntazam shaklning tomoni a = 332 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
           "options": [
-            "\\(64 \\text{ sm}\\)",
-            "\\(32 \\text{ sm}\\)",
-            "\\(48 \\text{ sm}\\)",
-            "\\(72 \\text{ sm}\\)"
+            "\\(1328 \\text{ sm}\\)",
+            "\\(664 \\text{ sm}\\)",
+            "\\(996 \\text{ sm}\\)",
+            "\\(1660 \\text{ sm}\\)"
           ],
           "correctIndex": 2,
-          "explanation": "P = 3a = 3 * 16 = 48 sm"
+          "explanation": "P = 3 * 332 = 996 sm"
         }
       ],
       "examples": [
@@ -89148,39 +89148,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Uchburchakning asosi a = 16 \\text{ sm}, balandligi h = 8 \\text{ sm}. Uning yuzini hisoblang.",
+        "question": "Uchburchakning asosi a = 644 \\text{ sm}, balandligi h = 322 \\text{ sm}. Uning yuzini hisoblang (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
         "options": [
-          "\\(64 \\text{ sm}^2\\)",
-          "\\(68 \\text{ sm}^2\\)",
-          "\\(62 \\text{ sm}^2\\)",
-          "\\(128 \\text{ sm}^2\\)"
+          "\\(103684 \\text{ sm}^2\\)",
+          "\\(103689 \\text{ sm}^2\\)",
+          "\\(103681 \\text{ sm}^2\\)",
+          "\\(207368 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
-        "explanation": "S = (a * h)/2 = (16 * 8)/2 = 64 sm²"
+        "explanation": "S = (a * h)/2 = (644 * 322)/2 = 103684 sm²"
       },
       {
         "level": "medium",
-        "question": "To'g'ri to'rtburchakning perimetri P = 48 \\text{ sm}, bir tomoni a = 8 \\text{ sm}. Ikkinchi tomonini toping.",
+        "question": "To'g'ri to'rtburchakning perimetri P = 662 \\text{ sm}, bir tomoni a = 327 \\text{ sm}. Ikkinchi tomonini toping (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
         "options": [
-          "\\(14 \\text{ sm}\\)",
-          "\\(16 \\text{ sm}\\)",
-          "\\(18 \\text{ sm}\\)",
-          "\\(12 \\text{ sm}\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
-        "explanation": "P = 2(a+b) => b = P/2 - a = 16 sm"
+        "explanation": "P = 2(a+b) => b = P/2 - a = 4 sm"
       },
       {
         "level": "hard",
-        "question": "Muntazam uchburchakning tomoni a = 16 \\text{ sm}. Uning perimetrini hisoblang.",
+        "question": "Muntazam shaklning tomoni a = 332 \\text{ sm}. Uning 3 ta tomoni yig'indisini hisoblang (Uchburchakka ichki va tashqi chizilgan aylanalar (r va R)).",
         "options": [
-          "\\(64 \\text{ sm}\\)",
-          "\\(32 \\text{ sm}\\)",
-          "\\(48 \\text{ sm}\\)",
-          "\\(72 \\text{ sm}\\)"
+          "\\(1328 \\text{ sm}\\)",
+          "\\(664 \\text{ sm}\\)",
+          "\\(996 \\text{ sm}\\)",
+          "\\(1660 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "P = 3a = 3 * 16 = 48 sm"
+        "explanation": "P = 3 * 332 = 996 sm"
       }
     ],
     "examples": [
