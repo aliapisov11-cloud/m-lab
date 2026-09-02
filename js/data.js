@@ -1,6 +1,6 @@
 /**
  * M-LAB: 5-11 Sinf Matematika (Algebra va Geometriya)
- * 108+ ta to'liq darslar bazasi, 3 xil tushuntirilgan misollar va 3 tadan mustaqil ishlash uchun amaliy mashqlar (UZ, RU, EN).
+ * 108+ ta to'liq darslar bazasi, 3 xil tushuntirilgan misollar, 3 tadan mustaqil amaliy mashqlar va testlar (UZ, RU, EN).
  */
 
 const mathTopicsData = [
@@ -108689,6 +108689,44 @@ const mathTopicsData = [
             "answer": "Javob: 2/3."
           }
         }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "\\(\\frac{24}{36}\\) kasrni qisqartiring. To'g'ri javobni toping.",
+          "options": [
+            "\\frac{24 : 12}{36 : 12} = \\frac{2}{3}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "EKUB bilan qisqartirish: Javob: 2/3."
+        },
+        {
+          "level": "medium",
+          "question": "\\(\\frac{84}{126}\\) kasrni eng sodda ko'rinishga keltiring. To'g'ri javobni toping.",
+          "options": [
+            "\\frac{84 : 42}{126 : 42} = \\frac{2}{3}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Katta sonli kasrni qisqartirish: Javob: 2/3."
+        },
+        {
+          "level": "hard",
+          "question": "\\(\\frac{15 \\cdot 28}{35 \\cdot 18}\\) kasrning qiymatini hisoblang. To'g'ri javobni toping.",
+          "options": [
+            "\\frac{15 \\cdot 28}{35 \\cdot 18} = \\frac{3 \\cdot 14}{7 \\cdot 9} = \\frac{42}{63} = \\frac{2}{3}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ko'paytma ko'rinishidagi kasrni qisqartirish: Javob: 2/3."
+        }
       ]
     },
     "ru": {
@@ -108779,6 +108817,44 @@ const mathTopicsData = [
             ],
             "answer": "Javob: 2/3."
           }
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "\\(\\frac{24}{36}\\) kasrni qisqartiring. To'g'ri javobni toping.",
+          "options": [
+            "\\frac{24 : 12}{36 : 12} = \\frac{2}{3}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "EKUB bilan qisqartirish: Javob: 2/3."
+        },
+        {
+          "level": "medium",
+          "question": "\\(\\frac{84}{126}\\) kasrni eng sodda ko'rinishga keltiring. To'g'ri javobni toping.",
+          "options": [
+            "\\frac{84 : 42}{126 : 42} = \\frac{2}{3}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Katta sonli kasrni qisqartirish: Javob: 2/3."
+        },
+        {
+          "level": "hard",
+          "question": "\\(\\frac{15 \\cdot 28}{35 \\cdot 18}\\) kasrning qiymatini hisoblang. To'g'ri javobni toping.",
+          "options": [
+            "\\frac{15 \\cdot 28}{35 \\cdot 18} = \\frac{3 \\cdot 14}{7 \\cdot 9} = \\frac{42}{63} = \\frac{2}{3}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ko'paytma ko'rinishidagi kasrni qisqartirish: Javob: 2/3."
         }
       ]
     },
@@ -108871,6 +108947,44 @@ const mathTopicsData = [
             "answer": "Javob: 2/3."
           }
         }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "\\(\\frac{24}{36}\\) kasrni qisqartiring. To'g'ri javobni toping.",
+          "options": [
+            "\\frac{24 : 12}{36 : 12} = \\frac{2}{3}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "EKUB bilan qisqartirish: Javob: 2/3."
+        },
+        {
+          "level": "medium",
+          "question": "\\(\\frac{84}{126}\\) kasrni eng sodda ko'rinishga keltiring. To'g'ri javobni toping.",
+          "options": [
+            "\\frac{84 : 42}{126 : 42} = \\frac{2}{3}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Katta sonli kasrni qisqartirish: Javob: 2/3."
+        },
+        {
+          "level": "hard",
+          "question": "\\(\\frac{15 \\cdot 28}{35 \\cdot 18}\\) kasrning qiymatini hisoblang. To'g'ri javobni toping.",
+          "options": [
+            "\\frac{15 \\cdot 28}{35 \\cdot 18} = \\frac{3 \\cdot 14}{7 \\cdot 9} = \\frac{42}{63} = \\frac{2}{3}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ko'paytma ko'rinishidagi kasrni qisqartirish: Javob: 2/3."
+        }
       ]
     },
     "practiceExercises": [
@@ -108957,6 +109071,44 @@ const mathTopicsData = [
           ],
           "answer": "Javob: 2/3."
         }
+      }
+    ],
+    "quizzes": [
+      {
+        "level": "basic",
+        "question": "\\(\\frac{24}{36}\\) kasrni qisqartiring. To'g'ri javobni toping.",
+        "options": [
+          "\\frac{24 : 12}{36 : 12} = \\frac{2}{3}",
+          "0",
+          "1",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "EKUB bilan qisqartirish: Javob: 2/3."
+      },
+      {
+        "level": "medium",
+        "question": "\\(\\frac{84}{126}\\) kasrni eng sodda ko'rinishga keltiring. To'g'ri javobni toping.",
+        "options": [
+          "\\frac{84 : 42}{126 : 42} = \\frac{2}{3}",
+          "0",
+          "1",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "Katta sonli kasrni qisqartirish: Javob: 2/3."
+      },
+      {
+        "level": "hard",
+        "question": "\\(\\frac{15 \\cdot 28}{35 \\cdot 18}\\) kasrning qiymatini hisoblang. To'g'ri javobni toping.",
+        "options": [
+          "\\frac{15 \\cdot 28}{35 \\cdot 18} = \\frac{3 \\cdot 14}{7 \\cdot 9} = \\frac{42}{63} = \\frac{2}{3}",
+          "0",
+          "1",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ko'paytma ko'rinishidagi kasrni qisqartirish: Javob: 2/3."
       }
     ]
   },
@@ -109157,6 +109309,44 @@ const mathTopicsData = [
             "answer": "Javob: Balandlik 8 sm."
           }
         }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Teng yonli uchburchakning uchidagi burchagi 50° ga teng. Uning asosidagi burchaklarini toping. To'g'ri javobni toping.",
+          "options": [
+            "\\alpha = \\frac{130^\\circ}{2} = 65^\\circ",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Asosdagi burchaklarni topish: Javob: Asosdagi burchaklar 65° va 65°."
+        },
+        {
+          "level": "medium",
+          "question": "Teng yonli uchburchakning asosidagi burchagi 70° bo'lsa, uning uchidagi burchagini toping. To'g'ri javobni toping.",
+          "options": [
+            "\\beta = 180^\\circ - 140^\\circ = 40^\\circ",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Asosidagi burchagi berilganda uchidagi burchak: Javob: Uchidagi burchak 40°."
+        },
+        {
+          "level": "hard",
+          "question": "Teng yonli uchburchakning perimetri 32 sm, asosi 12 sm. Asosga tushirilgan balandlik uzunligini toping. To'g'ri javobni toping.",
+          "options": [
+            "h = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8 \\text{ sm}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Balandlik va Perimetr bo'yicha tomonlarni topish: Javob: Balandlik 8 sm."
+        }
       ]
     },
     "ru": {
@@ -109247,6 +109437,44 @@ const mathTopicsData = [
             ],
             "answer": "Javob: Balandlik 8 sm."
           }
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Teng yonli uchburchakning uchidagi burchagi 50° ga teng. Uning asosidagi burchaklarini toping. To'g'ri javobni toping.",
+          "options": [
+            "\\alpha = \\frac{130^\\circ}{2} = 65^\\circ",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Asosdagi burchaklarni topish: Javob: Asosdagi burchaklar 65° va 65°."
+        },
+        {
+          "level": "medium",
+          "question": "Teng yonli uchburchakning asosidagi burchagi 70° bo'lsa, uning uchidagi burchagini toping. To'g'ri javobni toping.",
+          "options": [
+            "\\beta = 180^\\circ - 140^\\circ = 40^\\circ",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Asosidagi burchagi berilganda uchidagi burchak: Javob: Uchidagi burchak 40°."
+        },
+        {
+          "level": "hard",
+          "question": "Teng yonli uchburchakning perimetri 32 sm, asosi 12 sm. Asosga tushirilgan balandlik uzunligini toping. To'g'ri javobni toping.",
+          "options": [
+            "h = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8 \\text{ sm}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Balandlik va Perimetr bo'yicha tomonlarni topish: Javob: Balandlik 8 sm."
         }
       ]
     },
@@ -109339,6 +109567,44 @@ const mathTopicsData = [
             "answer": "Javob: Balandlik 8 sm."
           }
         }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Teng yonli uchburchakning uchidagi burchagi 50° ga teng. Uning asosidagi burchaklarini toping. To'g'ri javobni toping.",
+          "options": [
+            "\\alpha = \\frac{130^\\circ}{2} = 65^\\circ",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Asosdagi burchaklarni topish: Javob: Asosdagi burchaklar 65° va 65°."
+        },
+        {
+          "level": "medium",
+          "question": "Teng yonli uchburchakning asosidagi burchagi 70° bo'lsa, uning uchidagi burchagini toping. To'g'ri javobni toping.",
+          "options": [
+            "\\beta = 180^\\circ - 140^\\circ = 40^\\circ",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Asosidagi burchagi berilganda uchidagi burchak: Javob: Uchidagi burchak 40°."
+        },
+        {
+          "level": "hard",
+          "question": "Teng yonli uchburchakning perimetri 32 sm, asosi 12 sm. Asosga tushirilgan balandlik uzunligini toping. To'g'ri javobni toping.",
+          "options": [
+            "h = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8 \\text{ sm}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Balandlik va Perimetr bo'yicha tomonlarni topish: Javob: Balandlik 8 sm."
+        }
       ]
     },
     "practiceExercises": [
@@ -109425,6 +109691,44 @@ const mathTopicsData = [
           ],
           "answer": "Javob: Balandlik 8 sm."
         }
+      }
+    ],
+    "quizzes": [
+      {
+        "level": "basic",
+        "question": "Teng yonli uchburchakning uchidagi burchagi 50° ga teng. Uning asosidagi burchaklarini toping. To'g'ri javobni toping.",
+        "options": [
+          "\\alpha = \\frac{130^\\circ}{2} = 65^\\circ",
+          "0",
+          "1",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "Asosdagi burchaklarni topish: Javob: Asosdagi burchaklar 65° va 65°."
+      },
+      {
+        "level": "medium",
+        "question": "Teng yonli uchburchakning asosidagi burchagi 70° bo'lsa, uning uchidagi burchagini toping. To'g'ri javobni toping.",
+        "options": [
+          "\\beta = 180^\\circ - 140^\\circ = 40^\\circ",
+          "0",
+          "1",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "Asosidagi burchagi berilganda uchidagi burchak: Javob: Uchidagi burchak 40°."
+      },
+      {
+        "level": "hard",
+        "question": "Teng yonli uchburchakning perimetri 32 sm, asosi 12 sm. Asosga tushirilgan balandlik uzunligini toping. To'g'ri javobni toping.",
+        "options": [
+          "h = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8 \\text{ sm}",
+          "0",
+          "1",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "Balandlik va Perimetr bo'yicha tomonlarni topish: Javob: Balandlik 8 sm."
       }
     ]
   },
@@ -109609,6 +109913,44 @@ const mathTopicsData = [
             "answer": "Javob: 47.25π sm²."
           }
         }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka ichki (r) va tashqi (R) chizilgan aylana radiuslarini toping. To'g'ri javobni toping.",
+          "options": [
+            "r = \\frac{6 + 8 - 10}{2} = 2 \\text{ sm}, \\quad R = \\frac{10}{2} = 5 \\text{ sm}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Katetlari 6 va 8 bo'lgan uchburchak radiuslari: Javob: r = 2 sm, R = 5 sm."
+        },
+        {
+          "level": "medium",
+          "question": "Tomoni 6 sm bo'lgan teng tomonli uchburchakka ichki va tashqi chizilgan aylanalar radiuslarini toping. To'g'ri javobni toping.",
+          "options": [
+            "r = \\frac{a\\sqrt{3}}{6} = \\frac{6\\sqrt{3}}{6} = \\sqrt{3} \\text{ sm}, \\quad R = \\frac{a\\sqrt{3}}{3} = \\frac{6\\sqrt{3}}{3} = 2\\sqrt{3} \\text{ sm}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Teng tomonli uchburchakda radiuslar: Javob: r = √3 sm, R = 2√3 sm."
+        },
+        {
+          "level": "hard",
+          "question": "Katetlari 9 sm va 12 sm bo'lgan to'g'ri burchakli uchburchakning tashqi va ichki aylanalarining yuzalari ayirmasini toping. To'g'ri javobni toping.",
+          "options": [
+            "S_R - S_r = \\pi R^2 - \\pi r^2 = \\pi (7.5^2 - 3^2) = \\pi (56.25 - 9) = 47.25\\pi \\text{ sm}^2",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Aylanalar orasidagi halqa yuzi: Javob: 47.25π sm²."
+        }
       ]
     },
     "ru": {
@@ -109691,6 +110033,44 @@ const mathTopicsData = [
             ],
             "answer": "Javob: 47.25π sm²."
           }
+        }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka ichki (r) va tashqi (R) chizilgan aylana radiuslarini toping. To'g'ri javobni toping.",
+          "options": [
+            "r = \\frac{6 + 8 - 10}{2} = 2 \\text{ sm}, \\quad R = \\frac{10}{2} = 5 \\text{ sm}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Katetlari 6 va 8 bo'lgan uchburchak radiuslari: Javob: r = 2 sm, R = 5 sm."
+        },
+        {
+          "level": "medium",
+          "question": "Tomoni 6 sm bo'lgan teng tomonli uchburchakka ichki va tashqi chizilgan aylanalar radiuslarini toping. To'g'ri javobni toping.",
+          "options": [
+            "r = \\frac{a\\sqrt{3}}{6} = \\frac{6\\sqrt{3}}{6} = \\sqrt{3} \\text{ sm}, \\quad R = \\frac{a\\sqrt{3}}{3} = \\frac{6\\sqrt{3}}{3} = 2\\sqrt{3} \\text{ sm}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Teng tomonli uchburchakda radiuslar: Javob: r = √3 sm, R = 2√3 sm."
+        },
+        {
+          "level": "hard",
+          "question": "Katetlari 9 sm va 12 sm bo'lgan to'g'ri burchakli uchburchakning tashqi va ichki aylanalarining yuzalari ayirmasini toping. To'g'ri javobni toping.",
+          "options": [
+            "S_R - S_r = \\pi R^2 - \\pi r^2 = \\pi (7.5^2 - 3^2) = \\pi (56.25 - 9) = 47.25\\pi \\text{ sm}^2",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Aylanalar orasidagi halqa yuzi: Javob: 47.25π sm²."
         }
       ]
     },
@@ -109775,6 +110155,44 @@ const mathTopicsData = [
             "answer": "Javob: 47.25π sm²."
           }
         }
+      ],
+      "quizzes": [
+        {
+          "level": "basic",
+          "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka ichki (r) va tashqi (R) chizilgan aylana radiuslarini toping. To'g'ri javobni toping.",
+          "options": [
+            "r = \\frac{6 + 8 - 10}{2} = 2 \\text{ sm}, \\quad R = \\frac{10}{2} = 5 \\text{ sm}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Katetlari 6 va 8 bo'lgan uchburchak radiuslari: Javob: r = 2 sm, R = 5 sm."
+        },
+        {
+          "level": "medium",
+          "question": "Tomoni 6 sm bo'lgan teng tomonli uchburchakka ichki va tashqi chizilgan aylanalar radiuslarini toping. To'g'ri javobni toping.",
+          "options": [
+            "r = \\frac{a\\sqrt{3}}{6} = \\frac{6\\sqrt{3}}{6} = \\sqrt{3} \\text{ sm}, \\quad R = \\frac{a\\sqrt{3}}{3} = \\frac{6\\sqrt{3}}{3} = 2\\sqrt{3} \\text{ sm}",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Teng tomonli uchburchakda radiuslar: Javob: r = √3 sm, R = 2√3 sm."
+        },
+        {
+          "level": "hard",
+          "question": "Katetlari 9 sm va 12 sm bo'lgan to'g'ri burchakli uchburchakning tashqi va ichki aylanalarining yuzalari ayirmasini toping. To'g'ri javobni toping.",
+          "options": [
+            "S_R - S_r = \\pi R^2 - \\pi r^2 = \\pi (7.5^2 - 3^2) = \\pi (56.25 - 9) = 47.25\\pi \\text{ sm}^2",
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Aylanalar orasidagi halqa yuzi: Javob: 47.25π sm²."
+        }
       ]
     },
     "practiceExercises": [
@@ -109853,6 +110271,44 @@ const mathTopicsData = [
           ],
           "answer": "Javob: 47.25π sm²."
         }
+      }
+    ],
+    "quizzes": [
+      {
+        "level": "basic",
+        "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka ichki (r) va tashqi (R) chizilgan aylana radiuslarini toping. To'g'ri javobni toping.",
+        "options": [
+          "r = \\frac{6 + 8 - 10}{2} = 2 \\text{ sm}, \\quad R = \\frac{10}{2} = 5 \\text{ sm}",
+          "0",
+          "1",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "Katetlari 6 va 8 bo'lgan uchburchak radiuslari: Javob: r = 2 sm, R = 5 sm."
+      },
+      {
+        "level": "medium",
+        "question": "Tomoni 6 sm bo'lgan teng tomonli uchburchakka ichki va tashqi chizilgan aylanalar radiuslarini toping. To'g'ri javobni toping.",
+        "options": [
+          "r = \\frac{a\\sqrt{3}}{6} = \\frac{6\\sqrt{3}}{6} = \\sqrt{3} \\text{ sm}, \\quad R = \\frac{a\\sqrt{3}}{3} = \\frac{6\\sqrt{3}}{3} = 2\\sqrt{3} \\text{ sm}",
+          "0",
+          "1",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "Teng tomonli uchburchakda radiuslar: Javob: r = √3 sm, R = 2√3 sm."
+      },
+      {
+        "level": "hard",
+        "question": "Katetlari 9 sm va 12 sm bo'lgan to'g'ri burchakli uchburchakning tashqi va ichki aylanalarining yuzalari ayirmasini toping. To'g'ri javobni toping.",
+        "options": [
+          "S_R - S_r = \\pi R^2 - \\pi r^2 = \\pi (7.5^2 - 3^2) = \\pi (56.25 - 9) = 47.25\\pi \\text{ sm}^2",
+          "0",
+          "1",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "Aylanalar orasidagi halqa yuzi: Javob: 47.25π sm²."
       }
     ]
   }

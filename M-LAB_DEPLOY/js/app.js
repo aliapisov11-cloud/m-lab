@@ -5,39 +5,6 @@
  */
 
 // Ilova holati (State)
-
-function safeRenderMath(element) {
-  if (typeof renderMathInElement === "function") {
-    try {
-      renderMathInElement(element || document.body, {
-        delimiters: [
-          { left: "$$", right: "$$", display: true },
-          { left: "\\(", right: "\\)", display: false },
-          { left: "\\[", right: "\\]", display: true }
-        ],
-        throwOnError: false
-      });
-    } catch (e) {
-      console.warn("KaTeX render error:", e);
-    }
-  } else {
-    window.addEventListener("DOMContentLoaded", () => {
-      if (typeof renderMathInElement === "function") {
-        try {
-          renderMathInElement(element || document.body, {
-            delimiters: [
-              { left: "$$", right: "$$", display: true },
-              { left: "\\(", right: "\\)", display: false },
-              { left: "\\[", right: "\\]", display: true }
-            ],
-            throwOnError: false
-          });
-        } catch (e) {}
-      }
-    }, { once: true });
-  }
-}
-
 const AppState = {
   lang: localStorage.getItem("m_lab_lang") || "uz", // 'uz' | 'ru' | 'en'
   currentView: "lesson", // 'lesson' | 'test_wizard' | 'test_runner' | 'test_results'
@@ -569,7 +536,14 @@ function renderTestRunner() {
     });
   });
 
-  safeRenderMath(container);
+  renderMathInElement(container, {
+    delimiters: [
+      { left: "$$", right: "$$", display: true },
+      { left: "\\(", right: "\\)", display: false },
+      { left: "\\[", right: "\\]", display: true }
+    ],
+    throwOnError: false
+  });
 
   refreshLucide();
 }
@@ -717,7 +691,14 @@ function renderTestResults() {
   document.getElementById("results-new-test-btn")?.addEventListener("click", openTestWizard);
   document.getElementById("results-back-lessons-btn")?.addEventListener("click", backToLessons);
 
-  safeRenderMath(container);
+  renderMathInElement(container, {
+    delimiters: [
+      { left: "$$", right: "$$", display: true },
+      { left: "\\(", right: "\\)", display: false },
+      { left: "\\[", right: "\\]", display: true }
+    ],
+    throwOnError: false
+  });
 
   refreshLucide();
 }
@@ -1571,7 +1552,14 @@ function renderTopicDetail(topicId) {
     });
   });
 
-  safeRenderMath(container);
+  renderMathInElement(container, {
+    delimiters: [
+      { left: "$$", right: "$$", display: true },
+      { left: "\\(", right: "\\)", display: false },
+      { left: "\\[", right: "\\]", display: true }
+    ],
+    throwOnError: false
+  });
 
   refreshLucide();
 }
