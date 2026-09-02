@@ -1,6 +1,6 @@
 /**
  * M-LAB: 5-11 Sinf Matematika (Algebra va Geometriya)
- * 108+ ta to'liq darslar bazasi, 100% ANIQ MATEMATIK SONLAR, MISOLLAR VA TESTLAR (UZ, RU, EN).
+ * 108+ ta to'liq darslar bazasi, 100% SODDA VA TUSHUNARLI MATEMATIK MISOLLAR (UZ, RU, EN).
  */
 
 const mathTopicsData = [
@@ -137,31 +137,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "4",
             "3",
@@ -348,31 +348,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "4",
             "3",
@@ -559,31 +559,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "4",
             "3",
@@ -775,31 +775,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+        "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
         "options": [
-          "\\(\\frac{25}{25}\\)",
+          "\\(\\frac{17}{24}\\)",
           "\\(\\frac{19}{24}\\)",
-          "\\(\\frac{23}{23}\\)",
-          "\\(\\frac{48}{48}\\)"
+          "\\(\\frac{23}{24}\\)",
+          "\\(\\frac{19}{30}\\)"
         ],
         "correctIndex": 1,
         "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+        "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
         "options": [
-          "\\(\\frac{11}{11}\\)",
-          "\\(\\frac{13}{13}\\)",
+          "\\(\\frac{9}{12}\\)",
+          "\\(\\frac{3}{12}\\)",
           "\\(\\frac{5}{12}\\)",
-          "\\(\\frac{24}{24}\\)"
+          "\\(\\frac{5}{18}\\)"
         ],
         "correctIndex": 2,
         "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+        "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
         "options": [
           "4",
           "3",
@@ -995,31 +995,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "4",
             "3",
@@ -1201,31 +1201,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "4",
             "3",
@@ -1407,31 +1407,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "4",
             "3",
@@ -1618,31 +1618,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+        "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
         "options": [
-          "\\(\\frac{25}{25}\\)",
+          "\\(\\frac{17}{24}\\)",
           "\\(\\frac{19}{24}\\)",
-          "\\(\\frac{23}{23}\\)",
-          "\\(\\frac{48}{48}\\)"
+          "\\(\\frac{23}{24}\\)",
+          "\\(\\frac{19}{30}\\)"
         ],
         "correctIndex": 1,
         "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+        "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
         "options": [
-          "\\(\\frac{11}{11}\\)",
-          "\\(\\frac{13}{13}\\)",
+          "\\(\\frac{9}{12}\\)",
+          "\\(\\frac{3}{12}\\)",
           "\\(\\frac{5}{12}\\)",
-          "\\(\\frac{24}{24}\\)"
+          "\\(\\frac{5}{18}\\)"
         ],
         "correctIndex": 2,
         "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+        "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
         "options": [
           "4",
           "3",
@@ -1840,7 +1840,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -1852,7 +1852,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -1864,7 +1864,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -2048,7 +2048,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -2060,7 +2060,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -2072,7 +2072,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -2256,7 +2256,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -2268,7 +2268,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -2280,7 +2280,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -2469,7 +2469,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
         "options": [
           "25",
           "24",
@@ -2481,7 +2481,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 5 = 15",
+        "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
         "options": [
           "4",
           "6",
@@ -2493,7 +2493,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{25} + 5",
+        "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
         "options": [
           "20",
           "11",
@@ -2689,7 +2689,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: 485 + 329 - 184",
+          "question": "Hisoblang: \\(\\(485 + 329 - 184\\)",
           "options": [
             "631",
             "630",
@@ -2701,7 +2701,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 35 \\cdot 24 - 450 : 9",
+          "question": "Hisoblang: \\(\\(35 \\cdot 24 - 450 : 9\\)",
           "options": [
             "789",
             "791",
@@ -2713,7 +2713,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.",
+          "question": "Hisoblang: \\(\\(Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.\\)",
           "options": [
             "4",
             "3",
@@ -2895,7 +2895,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: 485 + 329 - 184",
+          "question": "Hisoblang: \\(\\(485 + 329 - 184\\)",
           "options": [
             "631",
             "630",
@@ -2907,7 +2907,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 35 \\cdot 24 - 450 : 9",
+          "question": "Hisoblang: \\(\\(35 \\cdot 24 - 450 : 9\\)",
           "options": [
             "789",
             "791",
@@ -2919,7 +2919,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.",
+          "question": "Hisoblang: \\(\\(Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.\\)",
           "options": [
             "4",
             "3",
@@ -3101,7 +3101,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: 485 + 329 - 184",
+          "question": "Hisoblang: \\(\\(485 + 329 - 184\\)",
           "options": [
             "631",
             "630",
@@ -3113,7 +3113,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 35 \\cdot 24 - 450 : 9",
+          "question": "Hisoblang: \\(\\(35 \\cdot 24 - 450 : 9\\)",
           "options": [
             "789",
             "791",
@@ -3125,7 +3125,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.",
+          "question": "Hisoblang: \\(\\(Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.\\)",
           "options": [
             "4",
             "3",
@@ -3312,7 +3312,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: 485 + 329 - 184",
+        "question": "Hisoblang: \\(\\(485 + 329 - 184\\)",
         "options": [
           "631",
           "630",
@@ -3324,7 +3324,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: 35 \\cdot 24 - 450 : 9",
+        "question": "Hisoblang: \\(\\(35 \\cdot 24 - 450 : 9\\)",
         "options": [
           "789",
           "791",
@@ -3336,7 +3336,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.",
+        "question": "Hisoblang: \\(\\(Qoldiqli bo'lish: 158 sonini 13 ga bo'lgandagi qoldiqni toping.\\)",
         "options": [
           "4",
           "3",
@@ -3539,8 +3539,8 @@ const mathTopicsData = [
           "level": "basic",
           "question": "To'g'ri to'rtburchakning bo'yi a = 8 \\text{ sm}, eni b = 5 \\text{ sm}. Uning perimetrini hisoblang.",
           "options": [
-            "\\(27 \\text{ sm}\\)",
             "\\(26 \\text{ sm}\\)",
+            "\\(27 \\text{ sm}\\)",
             "\\(25 \\text{ sm}\\)",
             "\\(52 \\text{ sm}\\)"
           ],
@@ -3551,9 +3551,9 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kvadratning perimetri P = 36 \\text{ sm}. Uning yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(81 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -3561,12 +3561,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
+          "question": "Hisoblang: \\(\\(To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.\\)",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(120 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(120 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a \\cdot b \\cdot c = 4 \\cdot 5 \\cdot 6 = 120 \\text{ sm}^3. Hajm uchta o'lcham ko'paytmasiga teng."
@@ -3750,8 +3750,8 @@ const mathTopicsData = [
           "level": "basic",
           "question": "To'g'ri to'rtburchakning bo'yi a = 8 \\text{ sm}, eni b = 5 \\text{ sm}. Uning perimetrini hisoblang.",
           "options": [
-            "\\(27 \\text{ sm}\\)",
             "\\(26 \\text{ sm}\\)",
+            "\\(27 \\text{ sm}\\)",
             "\\(25 \\text{ sm}\\)",
             "\\(52 \\text{ sm}\\)"
           ],
@@ -3762,9 +3762,9 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kvadratning perimetri P = 36 \\text{ sm}. Uning yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(81 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -3772,12 +3772,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
+          "question": "Hisoblang: \\(\\(To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.\\)",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(120 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(120 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a \\cdot b \\cdot c = 4 \\cdot 5 \\cdot 6 = 120 \\text{ sm}^3. Hajm uchta o'lcham ko'paytmasiga teng."
@@ -3961,8 +3961,8 @@ const mathTopicsData = [
           "level": "basic",
           "question": "To'g'ri to'rtburchakning bo'yi a = 8 \\text{ sm}, eni b = 5 \\text{ sm}. Uning perimetrini hisoblang.",
           "options": [
-            "\\(27 \\text{ sm}\\)",
             "\\(26 \\text{ sm}\\)",
+            "\\(27 \\text{ sm}\\)",
             "\\(25 \\text{ sm}\\)",
             "\\(52 \\text{ sm}\\)"
           ],
@@ -3973,9 +3973,9 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kvadratning perimetri P = 36 \\text{ sm}. Uning yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(81 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -3983,12 +3983,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
+          "question": "Hisoblang: \\(\\(To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.\\)",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(120 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(120 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a \\cdot b \\cdot c = 4 \\cdot 5 \\cdot 6 = 120 \\text{ sm}^3. Hajm uchta o'lcham ko'paytmasiga teng."
@@ -4177,8 +4177,8 @@ const mathTopicsData = [
         "level": "basic",
         "question": "To'g'ri to'rtburchakning bo'yi a = 8 \\text{ sm}, eni b = 5 \\text{ sm}. Uning perimetrini hisoblang.",
         "options": [
-          "\\(27 \\text{ sm}\\)",
           "\\(26 \\text{ sm}\\)",
+          "\\(27 \\text{ sm}\\)",
           "\\(25 \\text{ sm}\\)",
           "\\(52 \\text{ sm}\\)"
         ],
@@ -4189,9 +4189,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kvadratning perimetri P = 36 \\text{ sm}. Uning yuzini hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(81 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -4199,12 +4199,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
+        "question": "Hisoblang: \\(\\(To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.\\)",
         "options": [
-          "\\(6 \\text{ sm}^6\\)",
+          "\\(120 \\text{ sm}^3\\)",
           "\\(4 \\text{ sm}^4\\)",
           "\\(2 \\text{ sm}^2\\)",
-          "\\(120 \\text{ sm}^3\\)"
+          "\\(6 \\text{ sm}^6\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: V = a \\cdot b \\cdot c = 4 \\cdot 5 \\cdot 6 = 120 \\text{ sm}^3. Hajm uchta o'lcham ko'paytmasiga teng."
@@ -4394,7 +4394,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?",
+          "question": "Hisoblang: \\(\\(Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?\\)",
           "options": [
             "235",
             "234",
@@ -4406,19 +4406,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?",
+          "question": "Hisoblang: \\(\\(Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?\\)",
           "options": [
             "0",
             "2",
             "1",
-            "\\(5\\)"
+            "13"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: 5 + 4 + 1 + 2 = 12 \\; (3 \\text{ ga bo'linadi}). Yig'indi 12 bo'ladi va 3 ga bo'linadi."
         },
         {
           "level": "hard",
-          "question": "Qaysi son bir vaqtning o'zida ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?",
+          "question": "Hisoblang: \\(\\(Qaysi son bir vaqtning o'zida ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?\\)",
           "options": [
             "1040",
             "521",
@@ -4605,7 +4605,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?",
+          "question": "Hisoblang: \\(\\(Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?\\)",
           "options": [
             "235",
             "234",
@@ -4617,19 +4617,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?",
+          "question": "Hisoblang: \\(\\(Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?\\)",
           "options": [
             "0",
             "2",
             "1",
-            "\\(5\\)"
+            "13"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: 5 + 4 + 1 + 2 = 12 \\; (3 \\text{ ga bo'linadi}). Yig'indi 12 bo'ladi va 3 ga bo'linadi."
         },
         {
           "level": "hard",
-          "question": "Qaysi son bir vaqtning o'zida ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?",
+          "question": "Hisoblang: \\(\\(Qaysi son bir vaqtning o'zida ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?\\)",
           "options": [
             "1040",
             "521",
@@ -4816,7 +4816,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?",
+          "question": "Hisoblang: \\(\\(Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?\\)",
           "options": [
             "235",
             "234",
@@ -4828,19 +4828,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?",
+          "question": "Hisoblang: \\(\\(Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?\\)",
           "options": [
             "0",
             "2",
             "1",
-            "\\(5\\)"
+            "13"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: 5 + 4 + 1 + 2 = 12 \\; (3 \\text{ ga bo'linadi}). Yig'indi 12 bo'ladi va 3 ga bo'linadi."
         },
         {
           "level": "hard",
-          "question": "Qaysi son bir vaqtning o'zida ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?",
+          "question": "Hisoblang: \\(\\(Qaysi son bir vaqtning o'zida ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?\\)",
           "options": [
             "1040",
             "521",
@@ -5026,7 +5026,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?",
+        "question": "Hisoblang: \\(\\(Qaysi son 9 ga qoldiqsiz bo'linadi: 234, 451, 623, 712?\\)",
         "options": [
           "235",
           "234",
@@ -5038,19 +5038,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?",
+        "question": "Hisoblang: \\(\\(Yulduzcha o'rniga qaysi raqam qo'yilsa, 54*2 soni 3 ga qoldiqsiz bo'linadi?\\)",
         "options": [
           "0",
           "2",
           "1",
-          "\\(5\\)"
+          "13"
         ],
         "correctIndex": 2,
         "explanation": "Yechilishi: 5 + 4 + 1 + 2 = 12 \\; (3 \\text{ ga bo'linadi}). Yig'indi 12 bo'ladi va 3 ga bo'linadi."
       },
       {
         "level": "hard",
-        "question": "Qaysi son bir vaqtning o'zida ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?",
+        "question": "Hisoblang: \\(\\(Qaysi son bir vaqtning o'zida ham 2 ga, ham 5 ga bo'linadi: 345, 520, 614, 725?\\)",
         "options": [
           "1040",
           "521",
@@ -5246,7 +5246,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
+          "question": "Hisoblang: \\(\\(Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26\\)",
           "options": [
             "21",
             "20",
@@ -5258,7 +5258,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.",
+          "question": "Hisoblang: \\(\\(O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.\\)",
           "options": [
             "3",
             "5",
@@ -5270,7 +5270,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
+          "question": "Hisoblang: \\(\\(Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.\\)",
           "options": [
             "144",
             "73",
@@ -5452,7 +5452,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
+          "question": "Hisoblang: \\(\\(Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26\\)",
           "options": [
             "21",
             "20",
@@ -5464,7 +5464,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.",
+          "question": "Hisoblang: \\(\\(O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.\\)",
           "options": [
             "3",
             "5",
@@ -5476,7 +5476,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
+          "question": "Hisoblang: \\(\\(Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.\\)",
           "options": [
             "144",
             "73",
@@ -5658,7 +5658,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
+          "question": "Hisoblang: \\(\\(Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26\\)",
           "options": [
             "21",
             "20",
@@ -5670,7 +5670,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.",
+          "question": "Hisoblang: \\(\\(O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.\\)",
           "options": [
             "3",
             "5",
@@ -5682,7 +5682,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
+          "question": "Hisoblang: \\(\\(Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.\\)",
           "options": [
             "144",
             "73",
@@ -5869,7 +5869,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
+        "question": "Hisoblang: \\(\\(Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26\\)",
         "options": [
           "21",
           "20",
@@ -5881,7 +5881,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.",
+        "question": "Hisoblang: \\(\\(O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.\\)",
         "options": [
           "3",
           "5",
@@ -5893,7 +5893,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
+        "question": "Hisoblang: \\(\\(Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.\\)",
         "options": [
           "144",
           "73",
@@ -6089,9 +6089,9 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: 4.35 + 2.65 - 1.2",
+          "question": "Hisoblang: \\(\\(4.35 + 2.65 - 1.2\\)",
           "options": [
-            "4.8",
+            "5.3",
             "6.8",
             "5.8",
             "11.6"
@@ -6101,11 +6101,11 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 0.25 \\cdot 1.6 + 0.6",
+          "question": "Hisoblang: \\(\\(0.25 \\cdot 1.6 + 0.6\\)",
           "options": [
-            "\\(5\\)",
-            "2",
-            "0",
+            "13",
+            "2.0",
+            "0.5",
             "1.0"
           ],
           "correctIndex": 3,
@@ -6113,11 +6113,11 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 4.8 : 0.6 - 3.5",
+          "question": "Hisoblang: \\(\\(4.8 : 0.6 - 3.5\\)",
           "options": [
             "4.5",
             "5.5",
-            "3.5",
+            "4.0",
             "9.0"
           ],
           "correctIndex": 0,
@@ -6295,9 +6295,9 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: 4.35 + 2.65 - 1.2",
+          "question": "Hisoblang: \\(\\(4.35 + 2.65 - 1.2\\)",
           "options": [
-            "4.8",
+            "5.3",
             "6.8",
             "5.8",
             "11.6"
@@ -6307,11 +6307,11 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 0.25 \\cdot 1.6 + 0.6",
+          "question": "Hisoblang: \\(\\(0.25 \\cdot 1.6 + 0.6\\)",
           "options": [
-            "\\(5\\)",
-            "2",
-            "0",
+            "13",
+            "2.0",
+            "0.5",
             "1.0"
           ],
           "correctIndex": 3,
@@ -6319,11 +6319,11 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 4.8 : 0.6 - 3.5",
+          "question": "Hisoblang: \\(\\(4.8 : 0.6 - 3.5\\)",
           "options": [
             "4.5",
             "5.5",
-            "3.5",
+            "4.0",
             "9.0"
           ],
           "correctIndex": 0,
@@ -6501,9 +6501,9 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: 4.35 + 2.65 - 1.2",
+          "question": "Hisoblang: \\(\\(4.35 + 2.65 - 1.2\\)",
           "options": [
-            "4.8",
+            "5.3",
             "6.8",
             "5.8",
             "11.6"
@@ -6513,11 +6513,11 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 0.25 \\cdot 1.6 + 0.6",
+          "question": "Hisoblang: \\(\\(0.25 \\cdot 1.6 + 0.6\\)",
           "options": [
-            "\\(5\\)",
-            "2",
-            "0",
+            "13",
+            "2.0",
+            "0.5",
             "1.0"
           ],
           "correctIndex": 3,
@@ -6525,11 +6525,11 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 4.8 : 0.6 - 3.5",
+          "question": "Hisoblang: \\(\\(4.8 : 0.6 - 3.5\\)",
           "options": [
             "4.5",
             "5.5",
-            "3.5",
+            "4.0",
             "9.0"
           ],
           "correctIndex": 0,
@@ -6712,9 +6712,9 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: 4.35 + 2.65 - 1.2",
+        "question": "Hisoblang: \\(\\(4.35 + 2.65 - 1.2\\)",
         "options": [
-          "4.8",
+          "5.3",
           "6.8",
           "5.8",
           "11.6"
@@ -6724,11 +6724,11 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: 0.25 \\cdot 1.6 + 0.6",
+        "question": "Hisoblang: \\(\\(0.25 \\cdot 1.6 + 0.6\\)",
         "options": [
-          "\\(5\\)",
-          "2",
-          "0",
+          "13",
+          "2.0",
+          "0.5",
           "1.0"
         ],
         "correctIndex": 3,
@@ -6736,11 +6736,11 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 4.8 : 0.6 - 3.5",
+        "question": "Hisoblang: \\(\\(4.8 : 0.6 - 3.5\\)",
         "options": [
           "4.5",
           "5.5",
-          "3.5",
+          "4.0",
           "9.0"
         ],
         "correctIndex": 0,
@@ -6937,23 +6937,23 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{24}{24}\\)",
-            "\\(\\frac{13}{13}\\)",
-            "\\(\\frac{11}{11}\\)",
+            "\\(\\frac{5}{18}\\)",
+            "\\(\\frac{3}{12}\\)",
+            "\\(\\frac{9}{12}\\)",
             "\\(\\frac{5}{12}\\)"
           ],
           "correctIndex": 3,
@@ -6961,7 +6961,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "2",
             "3",
@@ -7148,23 +7148,23 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{24}{24}\\)",
-            "\\(\\frac{13}{13}\\)",
-            "\\(\\frac{11}{11}\\)",
+            "\\(\\frac{5}{18}\\)",
+            "\\(\\frac{3}{12}\\)",
+            "\\(\\frac{9}{12}\\)",
             "\\(\\frac{5}{12}\\)"
           ],
           "correctIndex": 3,
@@ -7172,7 +7172,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "2",
             "3",
@@ -7359,23 +7359,23 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{24}{24}\\)",
-            "\\(\\frac{13}{13}\\)",
-            "\\(\\frac{11}{11}\\)",
+            "\\(\\frac{5}{18}\\)",
+            "\\(\\frac{3}{12}\\)",
+            "\\(\\frac{9}{12}\\)",
             "\\(\\frac{5}{12}\\)"
           ],
           "correctIndex": 3,
@@ -7383,7 +7383,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "2",
             "3",
@@ -7575,23 +7575,23 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+        "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
         "options": [
-          "\\(\\frac{23}{23}\\)",
-          "\\(\\frac{25}{25}\\)",
+          "\\(\\frac{23}{24}\\)",
+          "\\(\\frac{17}{24}\\)",
           "\\(\\frac{19}{24}\\)",
-          "\\(\\frac{48}{48}\\)"
+          "\\(\\frac{19}{30}\\)"
         ],
         "correctIndex": 2,
         "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+        "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
         "options": [
-          "\\(\\frac{24}{24}\\)",
-          "\\(\\frac{13}{13}\\)",
-          "\\(\\frac{11}{11}\\)",
+          "\\(\\frac{5}{18}\\)",
+          "\\(\\frac{3}{12}\\)",
+          "\\(\\frac{9}{12}\\)",
           "\\(\\frac{5}{12}\\)"
         ],
         "correctIndex": 3,
@@ -7599,7 +7599,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+        "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
         "options": [
           "2",
           "3",
@@ -7795,7 +7795,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: -18 + 32 - (-6)",
+          "question": "Hisoblang: \\(\\(-18 + 32 - (-6\\)",
           "options": [
             "19",
             "21",
@@ -7807,7 +7807,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: -7 \\cdot (-6) - 48 : (-8)",
+          "question": "Hisoblang: \\(\\(-7 \\cdot (-6) - 48 : (-8\\)",
           "options": [
             "96",
             "49",
@@ -7819,7 +7819,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: (-3)^3 + (-2)^4",
+          "question": "Hisoblang: \\(\\((-3)^3 + (-2)^4\\)",
           "options": [
             "-11",
             "-10",
@@ -8001,7 +8001,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: -18 + 32 - (-6)",
+          "question": "Hisoblang: \\(\\(-18 + 32 - (-6\\)",
           "options": [
             "19",
             "21",
@@ -8013,7 +8013,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: -7 \\cdot (-6) - 48 : (-8)",
+          "question": "Hisoblang: \\(\\(-7 \\cdot (-6) - 48 : (-8\\)",
           "options": [
             "96",
             "49",
@@ -8025,7 +8025,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: (-3)^3 + (-2)^4",
+          "question": "Hisoblang: \\(\\((-3)^3 + (-2)^4\\)",
           "options": [
             "-11",
             "-10",
@@ -8207,7 +8207,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: -18 + 32 - (-6)",
+          "question": "Hisoblang: \\(\\(-18 + 32 - (-6\\)",
           "options": [
             "19",
             "21",
@@ -8219,7 +8219,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: -7 \\cdot (-6) - 48 : (-8)",
+          "question": "Hisoblang: \\(\\(-7 \\cdot (-6) - 48 : (-8\\)",
           "options": [
             "96",
             "49",
@@ -8231,7 +8231,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: (-3)^3 + (-2)^4",
+          "question": "Hisoblang: \\(\\((-3)^3 + (-2)^4\\)",
           "options": [
             "-11",
             "-10",
@@ -8418,7 +8418,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: -18 + 32 - (-6)",
+        "question": "Hisoblang: \\(\\(-18 + 32 - (-6\\)",
         "options": [
           "19",
           "21",
@@ -8430,7 +8430,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: -7 \\cdot (-6) - 48 : (-8)",
+        "question": "Hisoblang: \\(\\(-7 \\cdot (-6) - 48 : (-8\\)",
         "options": [
           "96",
           "49",
@@ -8442,7 +8442,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: (-3)^3 + (-2)^4",
+        "question": "Hisoblang: \\(\\((-3)^3 + (-2)^4\\)",
         "options": [
           "-11",
           "-10",
@@ -8643,7 +8643,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\frac{x}{8} = \\frac{15}{20}",
+          "question": "Hisoblang: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
           "options": [
             "5",
             "7",
@@ -8657,10 +8657,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "5 kg olma 35 000 so'm tursa, 8 kg olma necha so'm turadi?",
           "options": [
-            "\\(0 0 \\text{ so'm}\\)",
+            "\\(56 000 \\text{ so'm}\\)",
             "\\(1 1 \\text{ so'm}\\)",
             "\\(-1 -1 \\text{ so'm}\\)",
-            "\\(56 000 \\text{ so'm}\\)"
+            "\\(0 0 \\text{ so'm}\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: x = \\frac{8 \\cdot 35000}{5} = 56000. Bir kilogrammi 7000 so'm, 8 kg = 56 000 so'm."
@@ -8854,7 +8854,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\frac{x}{8} = \\frac{15}{20}",
+          "question": "Hisoblang: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
           "options": [
             "5",
             "7",
@@ -8868,10 +8868,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "5 kg olma 35 000 so'm tursa, 8 kg olma necha so'm turadi?",
           "options": [
-            "\\(0 0 \\text{ so'm}\\)",
+            "\\(56 000 \\text{ so'm}\\)",
             "\\(1 1 \\text{ so'm}\\)",
             "\\(-1 -1 \\text{ so'm}\\)",
-            "\\(56 000 \\text{ so'm}\\)"
+            "\\(0 0 \\text{ so'm}\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: x = \\frac{8 \\cdot 35000}{5} = 56000. Bir kilogrammi 7000 so'm, 8 kg = 56 000 so'm."
@@ -9065,7 +9065,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\frac{x}{8} = \\frac{15}{20}",
+          "question": "Hisoblang: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
           "options": [
             "5",
             "7",
@@ -9079,10 +9079,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "5 kg olma 35 000 so'm tursa, 8 kg olma necha so'm turadi?",
           "options": [
-            "\\(0 0 \\text{ so'm}\\)",
+            "\\(56 000 \\text{ so'm}\\)",
             "\\(1 1 \\text{ so'm}\\)",
             "\\(-1 -1 \\text{ so'm}\\)",
-            "\\(56 000 \\text{ so'm}\\)"
+            "\\(0 0 \\text{ so'm}\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: x = \\frac{8 \\cdot 35000}{5} = 56000. Bir kilogrammi 7000 so'm, 8 kg = 56 000 so'm."
@@ -9281,7 +9281,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: \\frac{x}{8} = \\frac{15}{20}",
+        "question": "Hisoblang: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
         "options": [
           "5",
           "7",
@@ -9295,10 +9295,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "5 kg olma 35 000 so'm tursa, 8 kg olma necha so'm turadi?",
         "options": [
-          "\\(0 0 \\text{ so'm}\\)",
+          "\\(56 000 \\text{ so'm}\\)",
           "\\(1 1 \\text{ so'm}\\)",
           "\\(-1 -1 \\text{ so'm}\\)",
-          "\\(56 000 \\text{ so'm}\\)"
+          "\\(0 0 \\text{ so'm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: x = \\frac{8 \\cdot 35000}{5} = 56000. Bir kilogrammi 7000 so'm, 8 kg = 56 000 so'm."
@@ -9501,7 +9501,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -9513,7 +9513,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -9525,7 +9525,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -9707,7 +9707,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -9719,7 +9719,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -9731,7 +9731,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -9913,7 +9913,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -9925,7 +9925,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -9937,7 +9937,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -10124,7 +10124,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 5x - 8 = 22",
+        "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
         "options": [
           "5",
           "7",
@@ -10136,7 +10136,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+        "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
         "options": [
           "10",
           "6",
@@ -10148,7 +10148,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+        "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
         "options": [
           "-2",
           "-1",
@@ -10349,7 +10349,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -10361,7 +10361,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -10373,7 +10373,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -10560,7 +10560,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -10572,7 +10572,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -10584,7 +10584,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -10771,7 +10771,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -10783,7 +10783,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -10795,7 +10795,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -10987,7 +10987,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
         "options": [
           "27",
           "29",
@@ -10999,7 +10999,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 6 = 18",
+        "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
         "options": [
           "12",
           "7",
@@ -11011,7 +11011,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{36} + 6",
+        "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
         "options": [
           "12",
           "13",
@@ -11207,7 +11207,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\frac{x}{8} = \\frac{15}{20}",
+          "question": "Hisoblang: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
           "options": [
             "5",
             "7",
@@ -11221,10 +11221,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "5 kg olma 35 000 so'm tursa, 8 kg olma necha so'm turadi?",
           "options": [
-            "\\(0 0 \\text{ so'm}\\)",
+            "\\(56 000 \\text{ so'm}\\)",
             "\\(1 1 \\text{ so'm}\\)",
             "\\(-1 -1 \\text{ so'm}\\)",
-            "\\(56 000 \\text{ so'm}\\)"
+            "\\(0 0 \\text{ so'm}\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: x = \\frac{8 \\cdot 35000}{5} = 56000. Bir kilogrammi 7000 so'm, 8 kg = 56 000 so'm."
@@ -11413,7 +11413,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\frac{x}{8} = \\frac{15}{20}",
+          "question": "Hisoblang: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
           "options": [
             "5",
             "7",
@@ -11427,10 +11427,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "5 kg olma 35 000 so'm tursa, 8 kg olma necha so'm turadi?",
           "options": [
-            "\\(0 0 \\text{ so'm}\\)",
+            "\\(56 000 \\text{ so'm}\\)",
             "\\(1 1 \\text{ so'm}\\)",
             "\\(-1 -1 \\text{ so'm}\\)",
-            "\\(56 000 \\text{ so'm}\\)"
+            "\\(0 0 \\text{ so'm}\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: x = \\frac{8 \\cdot 35000}{5} = 56000. Bir kilogrammi 7000 so'm, 8 kg = 56 000 so'm."
@@ -11619,7 +11619,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\frac{x}{8} = \\frac{15}{20}",
+          "question": "Hisoblang: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
           "options": [
             "5",
             "7",
@@ -11633,10 +11633,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "5 kg olma 35 000 so'm tursa, 8 kg olma necha so'm turadi?",
           "options": [
-            "\\(0 0 \\text{ so'm}\\)",
+            "\\(56 000 \\text{ so'm}\\)",
             "\\(1 1 \\text{ so'm}\\)",
             "\\(-1 -1 \\text{ so'm}\\)",
-            "\\(56 000 \\text{ so'm}\\)"
+            "\\(0 0 \\text{ so'm}\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: x = \\frac{8 \\cdot 35000}{5} = 56000. Bir kilogrammi 7000 so'm, 8 kg = 56 000 so'm."
@@ -11830,7 +11830,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: \\frac{x}{8} = \\frac{15}{20}",
+        "question": "Hisoblang: \\(\\frac{x}{8} = \\frac{15}{20}\\)",
         "options": [
           "5",
           "7",
@@ -11844,10 +11844,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "5 kg olma 35 000 so'm tursa, 8 kg olma necha so'm turadi?",
         "options": [
-          "\\(0 0 \\text{ so'm}\\)",
+          "\\(56 000 \\text{ so'm}\\)",
           "\\(1 1 \\text{ so'm}\\)",
           "\\(-1 -1 \\text{ so'm}\\)",
-          "\\(56 000 \\text{ so'm}\\)"
+          "\\(0 0 \\text{ so'm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: x = \\frac{8 \\cdot 35000}{5} = 56000. Bir kilogrammi 7000 so'm, 8 kg = 56 000 so'm."
@@ -12050,23 +12050,23 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{24}{24}\\)",
-            "\\(\\frac{13}{13}\\)",
-            "\\(\\frac{11}{11}\\)",
+            "\\(\\frac{5}{18}\\)",
+            "\\(\\frac{3}{12}\\)",
+            "\\(\\frac{9}{12}\\)",
             "\\(\\frac{5}{12}\\)"
           ],
           "correctIndex": 3,
@@ -12074,7 +12074,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "2",
             "3",
@@ -12256,23 +12256,23 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{24}{24}\\)",
-            "\\(\\frac{13}{13}\\)",
-            "\\(\\frac{11}{11}\\)",
+            "\\(\\frac{5}{18}\\)",
+            "\\(\\frac{3}{12}\\)",
+            "\\(\\frac{9}{12}\\)",
             "\\(\\frac{5}{12}\\)"
           ],
           "correctIndex": 3,
@@ -12280,7 +12280,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "2",
             "3",
@@ -12462,23 +12462,23 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{24}{24}\\)",
-            "\\(\\frac{13}{13}\\)",
-            "\\(\\frac{11}{11}\\)",
+            "\\(\\frac{5}{18}\\)",
+            "\\(\\frac{3}{12}\\)",
+            "\\(\\frac{9}{12}\\)",
             "\\(\\frac{5}{12}\\)"
           ],
           "correctIndex": 3,
@@ -12486,7 +12486,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "2",
             "3",
@@ -12673,23 +12673,23 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+        "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
         "options": [
-          "\\(\\frac{23}{23}\\)",
-          "\\(\\frac{25}{25}\\)",
+          "\\(\\frac{23}{24}\\)",
+          "\\(\\frac{17}{24}\\)",
           "\\(\\frac{19}{24}\\)",
-          "\\(\\frac{48}{48}\\)"
+          "\\(\\frac{19}{30}\\)"
         ],
         "correctIndex": 2,
         "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+        "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
         "options": [
-          "\\(\\frac{24}{24}\\)",
-          "\\(\\frac{13}{13}\\)",
-          "\\(\\frac{11}{11}\\)",
+          "\\(\\frac{5}{18}\\)",
+          "\\(\\frac{3}{12}\\)",
+          "\\(\\frac{9}{12}\\)",
           "\\(\\frac{5}{12}\\)"
         ],
         "correctIndex": 3,
@@ -12697,7 +12697,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+        "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
         "options": [
           "2",
           "3",
@@ -12903,7 +12903,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -12915,7 +12915,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -12927,7 +12927,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -13119,7 +13119,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -13131,7 +13131,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -13143,7 +13143,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -13335,7 +13335,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -13347,7 +13347,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -13359,7 +13359,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -13556,7 +13556,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
         "options": [
           "64",
           "33",
@@ -13568,7 +13568,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 7 = 21",
+        "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
         "options": [
           "7",
           "8",
@@ -13580,7 +13580,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{49} + 7",
+        "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
         "options": [
           "15",
           "14",
@@ -13786,7 +13786,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -13798,7 +13798,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -13810,7 +13810,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -14002,7 +14002,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -14014,7 +14014,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -14026,7 +14026,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -14218,7 +14218,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -14230,7 +14230,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -14242,7 +14242,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -14439,7 +14439,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
         "options": [
           "64",
           "33",
@@ -14451,7 +14451,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 7 = 21",
+        "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
         "options": [
           "7",
           "8",
@@ -14463,7 +14463,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{49} + 7",
+        "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
         "options": [
           "15",
           "14",
@@ -14659,7 +14659,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -14671,7 +14671,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -14683,7 +14683,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -14865,7 +14865,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -14877,7 +14877,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -14889,7 +14889,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -15071,7 +15071,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -15083,7 +15083,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -15095,7 +15095,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -15282,7 +15282,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
         "options": [
           "64",
           "33",
@@ -15294,7 +15294,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 7 = 21",
+        "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
         "options": [
           "7",
           "8",
@@ -15306,7 +15306,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{49} + 7",
+        "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
         "options": [
           "15",
           "14",
@@ -15502,7 +15502,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -15514,19 +15514,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -15708,7 +15708,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -15720,19 +15720,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -15914,7 +15914,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -15926,19 +15926,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -16125,7 +16125,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+        "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
         "options": [
           "19200",
           "9601",
@@ -16137,19 +16137,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+        "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
         "options": [
           "\\(x^2 + 16\\)",
-          "\\(x^17 + 17\\)",
-          "\\(x^15 + 15\\)",
-          "\\(x^32 + 32\\)"
+          "\\(x^2 + 8x + 16\\)",
+          "\\(x^2 - 16\\)",
+          "\\(x^2 + 8\\)"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 53^2 - 47^2",
+        "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
         "options": [
           "601",
           "600",
@@ -16350,7 +16350,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -16362,7 +16362,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -16374,7 +16374,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -16561,7 +16561,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -16573,7 +16573,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -16585,7 +16585,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -16772,7 +16772,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -16784,7 +16784,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -16796,7 +16796,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -16988,7 +16988,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
         "options": [
           "64",
           "33",
@@ -17000,7 +17000,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 7 = 21",
+        "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
         "options": [
           "7",
           "8",
@@ -17012,7 +17012,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{49} + 7",
+        "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
         "options": [
           "15",
           "14",
@@ -17220,10 +17220,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -17244,8 +17244,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -17436,10 +17436,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -17460,8 +17460,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -17652,10 +17652,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -17676,8 +17676,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -17873,10 +17873,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(4 \\text{ sm}^4\\)",
+          "\\(42 \\text{ sm}^2\\)",
           "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
-          "\\(42 \\text{ sm}^2\\)"
+          "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -17897,8 +17897,8 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -18096,7 +18096,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -18108,19 +18108,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -18307,7 +18307,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -18319,19 +18319,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -18518,7 +18518,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -18530,19 +18530,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -18734,7 +18734,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+        "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
         "options": [
           "19200",
           "9601",
@@ -18746,19 +18746,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+        "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
         "options": [
           "\\(x^2 + 16\\)",
-          "\\(x^17 + 17\\)",
-          "\\(x^15 + 15\\)",
-          "\\(x^32 + 32\\)"
+          "\\(x^2 + 8x + 16\\)",
+          "\\(x^2 - 16\\)",
+          "\\(x^2 + 8\\)"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 53^2 - 47^2",
+        "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
         "options": [
           "601",
           "600",
@@ -18950,10 +18950,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -18974,8 +18974,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -19156,10 +19156,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -19180,8 +19180,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -19362,10 +19362,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -19386,8 +19386,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -19567,10 +19567,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(4 \\text{ sm}^4\\)",
+          "\\(42 \\text{ sm}^2\\)",
           "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
-          "\\(42 \\text{ sm}^2\\)"
+          "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -19591,8 +19591,8 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -19790,31 +19790,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
           "options": [
             "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_6 = 6, x_6 = 6\\)",
-            "\\(x_4 = 4, x_4 = 4\\)",
-            "\\(x_10 = 10, x_10 = 10\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
           "options": [
-            "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-            "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 3, x_2 = 5\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+          "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
           "options": [
             "1",
             "3",
@@ -20001,31 +20001,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
           "options": [
             "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_6 = 6, x_6 = 6\\)",
-            "\\(x_4 = 4, x_4 = 4\\)",
-            "\\(x_10 = 10, x_10 = 10\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
           "options": [
-            "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-            "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 3, x_2 = 5\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+          "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
           "options": [
             "1",
             "3",
@@ -20212,31 +20212,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
           "options": [
             "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_6 = 6, x_6 = 6\\)",
-            "\\(x_4 = 4, x_4 = 4\\)",
-            "\\(x_10 = 10, x_10 = 10\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
           "options": [
-            "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-            "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 3, x_2 = 5\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+          "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
           "options": [
             "1",
             "3",
@@ -20428,31 +20428,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+        "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
         "options": [
           "\\(x_1 = 3, x_2 = 5\\)",
-          "\\(x_6 = 6, x_6 = 6\\)",
-          "\\(x_4 = 4, x_4 = 4\\)",
-          "\\(x_10 = 10, x_10 = 10\\)"
+          "\\(x_1 = 2, x_2 = 6\\)",
+          "\\(x_1 = 1, x_2 = 15\\)",
+          "\\(x_1 = -3, x_2 = -5\\)"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+        "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
         "options": [
-          "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-          "\\(x_1 = 3, x_2 = 0.5\\)",
-          "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-          "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+          "\\(x_1 = 2, x_2 = 6\\)",
+          "\\(x_1 = 3, x_2 = 5\\)",
+          "\\(x_1 = 1, x_2 = 15\\)",
+          "\\(x_1 = -3, x_2 = -5\\)"
         ],
         "correctIndex": 1,
         "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
       },
       {
         "level": "hard",
-        "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+        "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
         "options": [
           "1",
           "3",
@@ -20648,7 +20648,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
           "options": [
             "36",
             "37",
@@ -20660,7 +20660,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 8 = 24",
+          "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
           "options": [
             "9",
             "8",
@@ -20672,7 +20672,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{64} + 8",
+          "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
           "options": [
             "15",
             "17",
@@ -20854,7 +20854,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
           "options": [
             "36",
             "37",
@@ -20866,7 +20866,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 8 = 24",
+          "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
           "options": [
             "9",
             "8",
@@ -20878,7 +20878,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{64} + 8",
+          "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
           "options": [
             "15",
             "17",
@@ -21060,7 +21060,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
           "options": [
             "36",
             "37",
@@ -21072,7 +21072,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 8 = 24",
+          "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
           "options": [
             "9",
             "8",
@@ -21084,7 +21084,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{64} + 8",
+          "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
           "options": [
             "15",
             "17",
@@ -21271,7 +21271,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
         "options": [
           "36",
           "37",
@@ -21283,7 +21283,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 8 = 24",
+        "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
         "options": [
           "9",
           "8",
@@ -21295,7 +21295,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{64} + 8",
+        "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
         "options": [
           "15",
           "17",
@@ -21496,7 +21496,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Katetlari a = 9 \\text{ sm}, b = 12 \\text{ sm} bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
+          "question": "Hisoblang: \\(Katetlari a = 9 \\text{ sm}, b = 12 \\text{ sm} bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.\\)",
           "options": [
             "\\(15 \\text{ sm}\\)",
             "\\(16 \\text{ sm}\\)",
@@ -21508,10 +21508,10 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Gipotenuzasi c = 17 \\text{ sm}, kateti a = 8 \\text{ sm} bo'lsa, ikkinchi katetni toping.",
+          "question": "Hisoblang: \\(\\(Gipotenuzasi c = 17 \\text{ sm}, kateti a = 8 \\text{ sm} bo'lsa, ikkinchi katetni toping.\\)",
           "options": [
-            "\\(16 \\text{ sm}\\)",
             "\\(15 \\text{ sm}\\)",
+            "\\(16 \\text{ sm}\\)",
             "\\(14 \\text{ sm}\\)",
             "\\(30 \\text{ sm}\\)"
           ],
@@ -21520,11 +21520,11 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
+          "question": "Hisoblang: \\(Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.\\)",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(24 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -21707,7 +21707,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Katetlari a = 9 \\text{ sm}, b = 12 \\text{ sm} bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
+          "question": "Hisoblang: \\(Katetlari a = 9 \\text{ sm}, b = 12 \\text{ sm} bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.\\)",
           "options": [
             "\\(15 \\text{ sm}\\)",
             "\\(16 \\text{ sm}\\)",
@@ -21719,10 +21719,10 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Gipotenuzasi c = 17 \\text{ sm}, kateti a = 8 \\text{ sm} bo'lsa, ikkinchi katetni toping.",
+          "question": "Hisoblang: \\(\\(Gipotenuzasi c = 17 \\text{ sm}, kateti a = 8 \\text{ sm} bo'lsa, ikkinchi katetni toping.\\)",
           "options": [
-            "\\(16 \\text{ sm}\\)",
             "\\(15 \\text{ sm}\\)",
+            "\\(16 \\text{ sm}\\)",
             "\\(14 \\text{ sm}\\)",
             "\\(30 \\text{ sm}\\)"
           ],
@@ -21731,11 +21731,11 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
+          "question": "Hisoblang: \\(Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.\\)",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(24 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -21918,7 +21918,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Katetlari a = 9 \\text{ sm}, b = 12 \\text{ sm} bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
+          "question": "Hisoblang: \\(Katetlari a = 9 \\text{ sm}, b = 12 \\text{ sm} bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.\\)",
           "options": [
             "\\(15 \\text{ sm}\\)",
             "\\(16 \\text{ sm}\\)",
@@ -21930,10 +21930,10 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Gipotenuzasi c = 17 \\text{ sm}, kateti a = 8 \\text{ sm} bo'lsa, ikkinchi katetni toping.",
+          "question": "Hisoblang: \\(\\(Gipotenuzasi c = 17 \\text{ sm}, kateti a = 8 \\text{ sm} bo'lsa, ikkinchi katetni toping.\\)",
           "options": [
-            "\\(16 \\text{ sm}\\)",
             "\\(15 \\text{ sm}\\)",
+            "\\(16 \\text{ sm}\\)",
             "\\(14 \\text{ sm}\\)",
             "\\(30 \\text{ sm}\\)"
           ],
@@ -21942,11 +21942,11 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
+          "question": "Hisoblang: \\(Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.\\)",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(24 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -22134,7 +22134,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Katetlari a = 9 \\text{ sm}, b = 12 \\text{ sm} bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
+        "question": "Hisoblang: \\(Katetlari a = 9 \\text{ sm}, b = 12 \\text{ sm} bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.\\)",
         "options": [
           "\\(15 \\text{ sm}\\)",
           "\\(16 \\text{ sm}\\)",
@@ -22146,10 +22146,10 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Gipotenuzasi c = 17 \\text{ sm}, kateti a = 8 \\text{ sm} bo'lsa, ikkinchi katetni toping.",
+        "question": "Hisoblang: \\(\\(Gipotenuzasi c = 17 \\text{ sm}, kateti a = 8 \\text{ sm} bo'lsa, ikkinchi katetni toping.\\)",
         "options": [
-          "\\(16 \\text{ sm}\\)",
           "\\(15 \\text{ sm}\\)",
+          "\\(16 \\text{ sm}\\)",
           "\\(14 \\text{ sm}\\)",
           "\\(30 \\text{ sm}\\)"
         ],
@@ -22158,11 +22158,11 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
+        "question": "Hisoblang: \\(Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.\\)",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(24 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -22368,8 +22368,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -22380,9 +22380,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -22574,8 +22574,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -22586,9 +22586,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -22780,8 +22780,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -22792,9 +22792,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -22991,8 +22991,8 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(50 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -23003,9 +23003,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -23197,7 +23197,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
           "options": [
             "36",
             "37",
@@ -23209,7 +23209,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 8 = 24",
+          "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
           "options": [
             "9",
             "8",
@@ -23221,7 +23221,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{64} + 8",
+          "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
           "options": [
             "15",
             "17",
@@ -23403,7 +23403,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
           "options": [
             "36",
             "37",
@@ -23415,7 +23415,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 8 = 24",
+          "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
           "options": [
             "9",
             "8",
@@ -23427,7 +23427,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{64} + 8",
+          "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
           "options": [
             "15",
             "17",
@@ -23609,7 +23609,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
           "options": [
             "36",
             "37",
@@ -23621,7 +23621,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 8 = 24",
+          "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
           "options": [
             "9",
             "8",
@@ -23633,7 +23633,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{64} + 8",
+          "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
           "options": [
             "15",
             "17",
@@ -23820,7 +23820,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
         "options": [
           "36",
           "37",
@@ -23832,7 +23832,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 8 = 24",
+        "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
         "options": [
           "9",
           "8",
@@ -23844,7 +23844,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{64} + 8",
+        "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
         "options": [
           "15",
           "17",
@@ -24040,7 +24040,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "6",
             "7",
@@ -24052,7 +24052,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "6",
             "5",
@@ -24064,7 +24064,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-3",
             "-1",
@@ -24246,7 +24246,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "6",
             "7",
@@ -24258,7 +24258,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "6",
             "5",
@@ -24270,7 +24270,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-3",
             "-1",
@@ -24452,7 +24452,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "6",
             "7",
@@ -24464,7 +24464,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "6",
             "5",
@@ -24476,7 +24476,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-3",
             "-1",
@@ -24663,7 +24663,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 5x - 8 = 22",
+        "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
         "options": [
           "6",
           "7",
@@ -24675,7 +24675,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+        "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
         "options": [
           "6",
           "5",
@@ -24687,7 +24687,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+        "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
         "options": [
           "-3",
           "-1",
@@ -24883,7 +24883,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "x^2 - 11x + 28 = 0 tenglamaning ildizlari yig'indisini toping.",
+          "question": "Tenglamani yeching: \\(\\(x^2 - 11x + 28 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
           "options": [
             "11",
             "12",
@@ -24895,7 +24895,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.",
+          "question": "Tenglamani yeching: \\(\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
           "options": [
             "-13",
             "-14",
@@ -24907,11 +24907,11 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Ildizlari 4 va 7 bo'lgan keltirilgan kvadrat tenglamani tuzing.",
+          "question": "Hisoblang: \\(Ildizlari 4 va 7 bo'lgan keltirilgan kvadrat tenglamani tuzing.\\)",
           "options": [
-            "\\(x^-1 - -1x + -1 = -1\\)",
-            "\\(x^1 - 1x + 1 = 1\\)",
             "\\(x^2 - 11x + 28 = 0\\)",
+            "\\(x^1 - 1x + 1 = 1\\)",
+            "\\(x^-1 - -1x + -1 = -1\\)",
             "\\(x^0 - 0x + 0 = 0\\)"
           ],
           "correctIndex": 2,
@@ -25089,7 +25089,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "x^2 - 11x + 28 = 0 tenglamaning ildizlari yig'indisini toping.",
+          "question": "Tenglamani yeching: \\(\\(x^2 - 11x + 28 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
           "options": [
             "11",
             "12",
@@ -25101,7 +25101,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.",
+          "question": "Tenglamani yeching: \\(\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
           "options": [
             "-13",
             "-14",
@@ -25113,11 +25113,11 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Ildizlari 4 va 7 bo'lgan keltirilgan kvadrat tenglamani tuzing.",
+          "question": "Hisoblang: \\(Ildizlari 4 va 7 bo'lgan keltirilgan kvadrat tenglamani tuzing.\\)",
           "options": [
-            "\\(x^-1 - -1x + -1 = -1\\)",
-            "\\(x^1 - 1x + 1 = 1\\)",
             "\\(x^2 - 11x + 28 = 0\\)",
+            "\\(x^1 - 1x + 1 = 1\\)",
+            "\\(x^-1 - -1x + -1 = -1\\)",
             "\\(x^0 - 0x + 0 = 0\\)"
           ],
           "correctIndex": 2,
@@ -25295,7 +25295,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "x^2 - 11x + 28 = 0 tenglamaning ildizlari yig'indisini toping.",
+          "question": "Tenglamani yeching: \\(\\(x^2 - 11x + 28 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
           "options": [
             "11",
             "12",
@@ -25307,7 +25307,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.",
+          "question": "Tenglamani yeching: \\(\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
           "options": [
             "-13",
             "-14",
@@ -25319,11 +25319,11 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Ildizlari 4 va 7 bo'lgan keltirilgan kvadrat tenglamani tuzing.",
+          "question": "Hisoblang: \\(Ildizlari 4 va 7 bo'lgan keltirilgan kvadrat tenglamani tuzing.\\)",
           "options": [
-            "\\(x^-1 - -1x + -1 = -1\\)",
-            "\\(x^1 - 1x + 1 = 1\\)",
             "\\(x^2 - 11x + 28 = 0\\)",
+            "\\(x^1 - 1x + 1 = 1\\)",
+            "\\(x^-1 - -1x + -1 = -1\\)",
             "\\(x^0 - 0x + 0 = 0\\)"
           ],
           "correctIndex": 2,
@@ -25506,7 +25506,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "x^2 - 11x + 28 = 0 tenglamaning ildizlari yig'indisini toping.",
+        "question": "Tenglamani yeching: \\(\\(x^2 - 11x + 28 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
         "options": [
           "11",
           "12",
@@ -25518,7 +25518,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.",
+        "question": "Tenglamani yeching: \\(\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
         "options": [
           "-13",
           "-14",
@@ -25530,11 +25530,11 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Ildizlari 4 va 7 bo'lgan keltirilgan kvadrat tenglamani tuzing.",
+        "question": "Hisoblang: \\(Ildizlari 4 va 7 bo'lgan keltirilgan kvadrat tenglamani tuzing.\\)",
         "options": [
-          "\\(x^-1 - -1x + -1 = -1\\)",
-          "\\(x^1 - 1x + 1 = 1\\)",
           "\\(x^2 - 11x + 28 = 0\\)",
+          "\\(x^1 - 1x + 1 = 1\\)",
+          "\\(x^-1 - -1x + -1 = -1\\)",
           "\\(x^0 - 0x + 0 = 0\\)"
         ],
         "correctIndex": 2,
@@ -25734,8 +25734,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -25746,9 +25746,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -25940,8 +25940,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -25952,9 +25952,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -26146,8 +26146,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -26158,9 +26158,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -26351,8 +26351,8 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(50 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -26363,9 +26363,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -26562,7 +26562,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -26574,7 +26574,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -26586,7 +26586,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -26773,7 +26773,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -26785,7 +26785,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -26797,7 +26797,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -26984,7 +26984,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -26996,7 +26996,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -27008,7 +27008,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -27200,7 +27200,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+        "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
         "options": [
           "32",
           "31",
@@ -27212,7 +27212,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+        "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
         "options": [
           "199",
           "201",
@@ -27224,7 +27224,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+        "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
         "options": [
           "96",
           "49",
@@ -27425,7 +27425,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -27437,7 +27437,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -27449,7 +27449,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -27636,7 +27636,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -27648,7 +27648,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -27660,7 +27660,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -27847,7 +27847,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -27859,7 +27859,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -27871,7 +27871,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -28063,7 +28063,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+        "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
         "options": [
           "32",
           "31",
@@ -28075,7 +28075,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+        "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
         "options": [
           "199",
           "201",
@@ -28087,7 +28087,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+        "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
         "options": [
           "96",
           "49",
@@ -28288,7 +28288,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -28300,7 +28300,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -28312,9 +28312,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -28499,7 +28499,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -28511,7 +28511,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -28523,9 +28523,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -28710,7 +28710,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -28722,7 +28722,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -28734,9 +28734,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -28926,7 +28926,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+        "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
         "options": [
           "3",
           "2",
@@ -28938,7 +28938,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+        "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
         "options": [
           "3",
           "5",
@@ -28950,9 +28950,9 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+        "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
         "options": [
-          "\\(5\\)",
+          "5",
           "1",
           "-1",
           "0"
@@ -29151,7 +29151,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -29163,7 +29163,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -29175,9 +29175,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -29362,7 +29362,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -29374,7 +29374,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -29386,9 +29386,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -29573,7 +29573,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -29585,7 +29585,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -29597,9 +29597,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -29789,7 +29789,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+        "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
         "options": [
           "3",
           "2",
@@ -29801,7 +29801,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+        "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
         "options": [
           "3",
           "5",
@@ -29813,9 +29813,9 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+        "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
         "options": [
-          "\\(5\\)",
+          "5",
           "1",
           "-1",
           "0"
@@ -30009,7 +30009,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -30021,7 +30021,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -30033,7 +30033,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -30215,7 +30215,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -30227,7 +30227,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -30239,7 +30239,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -30421,7 +30421,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -30433,7 +30433,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -30445,7 +30445,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -30632,7 +30632,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
         "options": [
           "41",
           "40",
@@ -30644,7 +30644,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 9 = 27",
+        "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
         "options": [
           "8",
           "10",
@@ -30656,7 +30656,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{81} + 9",
+        "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
         "options": [
           "36",
           "19",
@@ -30854,8 +30854,8 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(42 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -30866,9 +30866,9 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -30878,10 +30878,10 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(96 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(96 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{d_1 \\cdot d_2}{2} = \\frac{12 \\cdot 16}{2} = 96 \\text{ sm}^2. S = (d1 * d2) / 2."
@@ -31060,8 +31060,8 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(42 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -31072,9 +31072,9 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -31084,10 +31084,10 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(96 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(96 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{d_1 \\cdot d_2}{2} = \\frac{12 \\cdot 16}{2} = 96 \\text{ sm}^2. S = (d1 * d2) / 2."
@@ -31266,8 +31266,8 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(42 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -31278,9 +31278,9 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -31290,10 +31290,10 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(96 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(96 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{d_1 \\cdot d_2}{2} = \\frac{12 \\cdot 16}{2} = 96 \\text{ sm}^2. S = (d1 * d2) / 2."
@@ -31477,8 +31477,8 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(42 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -31489,9 +31489,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(50 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -31501,10 +31501,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(4 \\text{ sm}^4\\)",
+          "\\(96 \\text{ sm}^2\\)",
           "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
-          "\\(96 \\text{ sm}^2\\)"
+          "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: S = \\frac{d_1 \\cdot d_2}{2} = \\frac{12 \\cdot 16}{2} = 96 \\text{ sm}^2. S = (d1 * d2) / 2."
@@ -31695,7 +31695,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -31707,7 +31707,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -31719,7 +31719,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -31901,7 +31901,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -31913,7 +31913,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -31925,7 +31925,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -32107,7 +32107,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -32119,7 +32119,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -32131,7 +32131,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -32318,7 +32318,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
         "options": [
           "41",
           "40",
@@ -32330,7 +32330,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 9 = 27",
+        "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
         "options": [
           "8",
           "10",
@@ -32342,7 +32342,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{81} + 9",
+        "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
         "options": [
           "36",
           "19",
@@ -32532,7 +32532,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -32544,7 +32544,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -32556,9 +32556,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -32738,7 +32738,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -32750,7 +32750,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -32762,9 +32762,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -32944,7 +32944,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -32956,7 +32956,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -32968,9 +32968,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -33149,7 +33149,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+        "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
         "options": [
           "3",
           "2",
@@ -33161,7 +33161,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+        "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
         "options": [
           "3",
           "5",
@@ -33173,9 +33173,9 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+        "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
         "options": [
-          "\\(5\\)",
+          "5",
           "1",
           "-1",
           "0"
@@ -33374,7 +33374,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\log_2 16 + \\log_3 27 - \\log_5 25",
+          "question": "Hisoblang: \\(\\(\\log_2 16 + \\log_3 27 - \\log_5 25\\)",
           "options": [
             "4",
             "6",
@@ -33386,7 +33386,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\log_6 4 + \\log_6 9",
+          "question": "Hisoblang: \\(\\(\\log_6 4 + \\log_6 9\\)",
           "options": [
             "4",
             "3",
@@ -33398,7 +33398,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\log_3(2x + 1) = 3",
+          "question": "Tenglamani yeching: \\(\\log_3(2x + 1) = 3\\)",
           "options": [
             "13",
             "14",
@@ -33585,7 +33585,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\log_2 16 + \\log_3 27 - \\log_5 25",
+          "question": "Hisoblang: \\(\\(\\log_2 16 + \\log_3 27 - \\log_5 25\\)",
           "options": [
             "4",
             "6",
@@ -33597,7 +33597,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\log_6 4 + \\log_6 9",
+          "question": "Hisoblang: \\(\\(\\log_6 4 + \\log_6 9\\)",
           "options": [
             "4",
             "3",
@@ -33609,7 +33609,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\log_3(2x + 1) = 3",
+          "question": "Tenglamani yeching: \\(\\log_3(2x + 1) = 3\\)",
           "options": [
             "13",
             "14",
@@ -33796,7 +33796,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\log_2 16 + \\log_3 27 - \\log_5 25",
+          "question": "Hisoblang: \\(\\(\\log_2 16 + \\log_3 27 - \\log_5 25\\)",
           "options": [
             "4",
             "6",
@@ -33808,7 +33808,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\log_6 4 + \\log_6 9",
+          "question": "Hisoblang: \\(\\(\\log_6 4 + \\log_6 9\\)",
           "options": [
             "4",
             "3",
@@ -33820,7 +33820,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\log_3(2x + 1) = 3",
+          "question": "Tenglamani yeching: \\(\\log_3(2x + 1) = 3\\)",
           "options": [
             "13",
             "14",
@@ -34012,7 +34012,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\log_2 16 + \\log_3 27 - \\log_5 25",
+        "question": "Hisoblang: \\(\\(\\log_2 16 + \\log_3 27 - \\log_5 25\\)",
         "options": [
           "4",
           "6",
@@ -34024,7 +34024,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\log_6 4 + \\log_6 9",
+        "question": "Hisoblang: \\(\\(\\log_6 4 + \\log_6 9\\)",
         "options": [
           "4",
           "3",
@@ -34036,7 +34036,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\log_3(2x + 1) = 3",
+        "question": "Tenglamani yeching: \\(\\log_3(2x + 1) = 3\\)",
         "options": [
           "13",
           "14",
@@ -34237,7 +34237,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "1",
             "3",
@@ -34249,7 +34249,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "8",
             "5",
@@ -34261,12 +34261,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
             "0",
             "1",
             "-1",
-            "\\(5\\)"
+            "5"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -34448,7 +34448,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "1",
             "3",
@@ -34460,7 +34460,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "8",
             "5",
@@ -34472,12 +34472,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
             "0",
             "1",
             "-1",
-            "\\(5\\)"
+            "5"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -34659,7 +34659,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "1",
             "3",
@@ -34671,7 +34671,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "8",
             "5",
@@ -34683,12 +34683,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
             "0",
             "1",
             "-1",
-            "\\(5\\)"
+            "5"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -34875,7 +34875,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+        "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
         "options": [
           "1",
           "3",
@@ -34887,7 +34887,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+        "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
         "options": [
           "8",
           "5",
@@ -34899,12 +34899,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+        "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
         "options": [
           "0",
           "1",
           "-1",
-          "\\(5\\)"
+          "5"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -35095,7 +35095,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -35107,7 +35107,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -35119,7 +35119,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -35301,7 +35301,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -35313,7 +35313,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -35325,7 +35325,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -35507,7 +35507,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -35519,7 +35519,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -35531,7 +35531,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -35718,7 +35718,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 5x - 8 = 22",
+        "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
         "options": [
           "5",
           "7",
@@ -35730,7 +35730,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+        "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
         "options": [
           "10",
           "6",
@@ -35742,7 +35742,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+        "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
         "options": [
           "-2",
           "-1",
@@ -35938,7 +35938,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -35950,7 +35950,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -35962,7 +35962,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -36144,7 +36144,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -36156,7 +36156,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -36168,7 +36168,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -36350,7 +36350,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -36362,7 +36362,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -36374,7 +36374,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -36561,7 +36561,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 5x - 8 = 22",
+        "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
         "options": [
           "5",
           "7",
@@ -36573,7 +36573,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+        "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
         "options": [
           "10",
           "6",
@@ -36585,7 +36585,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+        "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
         "options": [
           "-2",
           "-1",
@@ -36783,9 +36783,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -36795,10 +36795,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -36989,9 +36989,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -37001,10 +37001,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -37195,9 +37195,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -37207,10 +37207,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -37406,9 +37406,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -37418,10 +37418,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
         "options": [
-          "\\(6 \\text{ sm}^6\\)",
+          "\\(125 \\text{ sm}^3\\)",
           "\\(4 \\text{ sm}^4\\)",
           "\\(2 \\text{ sm}^2\\)",
-          "\\(125 \\text{ sm}^3\\)"
+          "\\(6 \\text{ sm}^6\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -37626,9 +37626,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -37638,10 +37638,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -37832,9 +37832,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -37844,10 +37844,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -38038,9 +38038,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -38050,10 +38050,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -38249,9 +38249,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -38261,10 +38261,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
         "options": [
-          "\\(6 \\text{ sm}^6\\)",
+          "\\(125 \\text{ sm}^3\\)",
           "\\(4 \\text{ sm}^4\\)",
           "\\(2 \\text{ sm}^2\\)",
-          "\\(125 \\text{ sm}^3\\)"
+          "\\(6 \\text{ sm}^6\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -38469,9 +38469,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -38481,10 +38481,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -38675,9 +38675,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -38687,10 +38687,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -38881,9 +38881,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -38893,10 +38893,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -39092,9 +39092,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -39104,10 +39104,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
         "options": [
-          "\\(6 \\text{ sm}^6\\)",
+          "\\(125 \\text{ sm}^3\\)",
           "\\(4 \\text{ sm}^4\\)",
           "\\(2 \\text{ sm}^2\\)",
-          "\\(125 \\text{ sm}^3\\)"
+          "\\(6 \\text{ sm}^6\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -39312,10 +39312,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(96 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(96 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = 6a^2 = 6 \\cdot 16 = 96 \\text{ sm}^2. 6 * 4² = 96."
@@ -39336,8 +39336,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Piramidaning asosi yuzi S_a = 36 \\text{ sm}^2, balandligi H = 7 \\text{ sm}. Uning hajmini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
             "\\(84 \\text{ sm}^3\\)",
+            "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
             "\\(6 \\text{ sm}^6\\)"
           ],
@@ -39518,10 +39518,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(96 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(96 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = 6a^2 = 6 \\cdot 16 = 96 \\text{ sm}^2. 6 * 4² = 96."
@@ -39542,8 +39542,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Piramidaning asosi yuzi S_a = 36 \\text{ sm}^2, balandligi H = 7 \\text{ sm}. Uning hajmini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
             "\\(84 \\text{ sm}^3\\)",
+            "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
             "\\(6 \\text{ sm}^6\\)"
           ],
@@ -39724,10 +39724,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(96 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(96 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = 6a^2 = 6 \\cdot 16 = 96 \\text{ sm}^2. 6 * 4² = 96."
@@ -39748,8 +39748,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Piramidaning asosi yuzi S_a = 36 \\text{ sm}^2, balandligi H = 7 \\text{ sm}. Uning hajmini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
             "\\(84 \\text{ sm}^3\\)",
+            "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
             "\\(6 \\text{ sm}^6\\)"
           ],
@@ -39935,10 +39935,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
         "options": [
-          "\\(4 \\text{ sm}^4\\)",
+          "\\(96 \\text{ sm}^2\\)",
           "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
-          "\\(96 \\text{ sm}^2\\)"
+          "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: S = 6a^2 = 6 \\cdot 16 = 96 \\text{ sm}^2. 6 * 4² = 96."
@@ -39959,8 +39959,8 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Piramidaning asosi yuzi S_a = 36 \\text{ sm}^2, balandligi H = 7 \\text{ sm}. Uning hajmini hisoblang.",
         "options": [
-          "\\(4 \\text{ sm}^4\\)",
           "\\(84 \\text{ sm}^3\\)",
+          "\\(4 \\text{ sm}^4\\)",
           "\\(2 \\text{ sm}^2\\)",
           "\\(6 \\text{ sm}^6\\)"
         ],
@@ -40153,19 +40153,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -40177,7 +40177,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -40359,19 +40359,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -40383,7 +40383,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -40565,19 +40565,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -40589,7 +40589,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -40776,19 +40776,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+        "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
         "options": [
-          "\\(14x^14 - 14x + 14\\)",
+          "\\(3x^2 - 8x + 7\\)",
           "\\(8x^8 - 8x + 8\\)",
           "\\(6x^6 - 6x + 6\\)",
-          "\\(3x^2 - 8x + 7\\)"
+          "\\(14x^14 - 14x + 14\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
       },
       {
         "level": "medium",
-        "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+        "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
         "options": [
           "19",
           "20",
@@ -40800,7 +40800,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+        "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
         "options": [
           "4",
           "3",
@@ -40996,19 +40996,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -41020,7 +41020,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -41202,19 +41202,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -41226,7 +41226,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -41408,19 +41408,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -41432,7 +41432,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -41619,19 +41619,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+        "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
         "options": [
-          "\\(14x^14 - 14x + 14\\)",
+          "\\(3x^2 - 8x + 7\\)",
           "\\(8x^8 - 8x + 8\\)",
           "\\(6x^6 - 6x + 6\\)",
-          "\\(3x^2 - 8x + 7\\)"
+          "\\(14x^14 - 14x + 14\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
       },
       {
         "level": "medium",
-        "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+        "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
         "options": [
           "19",
           "20",
@@ -41643,7 +41643,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+        "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
         "options": [
           "4",
           "3",
@@ -41839,7 +41839,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "24",
             "13",
@@ -41851,7 +41851,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -41863,7 +41863,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "9",
             "8",
@@ -42045,7 +42045,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "24",
             "13",
@@ -42057,7 +42057,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -42069,7 +42069,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "9",
             "8",
@@ -42251,7 +42251,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "24",
             "13",
@@ -42263,7 +42263,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -42275,7 +42275,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "9",
             "8",
@@ -42462,7 +42462,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+        "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
         "options": [
           "24",
           "13",
@@ -42474,7 +42474,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+        "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
         "options": [
           "80",
           "81",
@@ -42486,7 +42486,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+        "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
         "options": [
           "9",
           "8",
@@ -42681,19 +42681,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -42705,7 +42705,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -42892,19 +42892,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -42916,7 +42916,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -43103,19 +43103,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -43127,7 +43127,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -43313,19 +43313,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+        "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
         "options": [
-          "\\(14x^14 - 14x + 14\\)",
+          "\\(3x^2 - 8x + 7\\)",
           "\\(8x^8 - 8x + 8\\)",
           "\\(6x^6 - 6x + 6\\)",
-          "\\(3x^2 - 8x + 7\\)"
+          "\\(14x^14 - 14x + 14\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
       },
       {
         "level": "medium",
-        "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+        "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
         "options": [
           "19",
           "20",
@@ -43337,7 +43337,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+        "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
         "options": [
           "4",
           "3",
@@ -43540,9 +43540,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "O'yin kubigi tashlanganda juft ochko (2, 4, 6) tushish ehtimolligini hisoblang.",
           "options": [
-            "\\(\\frac{4}{4}\\)",
-            "\\(\\frac{3}{3}\\)",
-            "\\(\\frac{1}{1}\\)",
+            "\\(\\frac{1}{8}\\)",
+            "\\(\\frac{3}{2}\\)",
+            "\\(\\frac{5}{2}\\)",
             "\\(\\frac{1}{2}\\)"
           ],
           "correctIndex": 3,
@@ -43550,7 +43550,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 5! (5 faktorial)",
+          "question": "Hisoblang: \\(5! (5 faktorial\\)",
           "options": [
             "120",
             "121",
@@ -43562,7 +43562,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "options": [
             "22",
             "21",
@@ -43751,9 +43751,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "O'yin kubigi tashlanganda juft ochko (2, 4, 6) tushish ehtimolligini hisoblang.",
           "options": [
-            "\\(\\frac{4}{4}\\)",
-            "\\(\\frac{3}{3}\\)",
-            "\\(\\frac{1}{1}\\)",
+            "\\(\\frac{1}{8}\\)",
+            "\\(\\frac{3}{2}\\)",
+            "\\(\\frac{5}{2}\\)",
             "\\(\\frac{1}{2}\\)"
           ],
           "correctIndex": 3,
@@ -43761,7 +43761,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 5! (5 faktorial)",
+          "question": "Hisoblang: \\(5! (5 faktorial\\)",
           "options": [
             "120",
             "121",
@@ -43773,7 +43773,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "options": [
             "22",
             "21",
@@ -43962,9 +43962,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "O'yin kubigi tashlanganda juft ochko (2, 4, 6) tushish ehtimolligini hisoblang.",
           "options": [
-            "\\(\\frac{4}{4}\\)",
-            "\\(\\frac{3}{3}\\)",
-            "\\(\\frac{1}{1}\\)",
+            "\\(\\frac{1}{8}\\)",
+            "\\(\\frac{3}{2}\\)",
+            "\\(\\frac{5}{2}\\)",
             "\\(\\frac{1}{2}\\)"
           ],
           "correctIndex": 3,
@@ -43972,7 +43972,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 5! (5 faktorial)",
+          "question": "Hisoblang: \\(5! (5 faktorial\\)",
           "options": [
             "120",
             "121",
@@ -43984,7 +43984,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "options": [
             "22",
             "21",
@@ -44178,9 +44178,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "O'yin kubigi tashlanganda juft ochko (2, 4, 6) tushish ehtimolligini hisoblang.",
         "options": [
-          "\\(\\frac{4}{4}\\)",
-          "\\(\\frac{3}{3}\\)",
-          "\\(\\frac{1}{1}\\)",
+          "\\(\\frac{1}{8}\\)",
+          "\\(\\frac{3}{2}\\)",
+          "\\(\\frac{5}{2}\\)",
           "\\(\\frac{1}{2}\\)"
         ],
         "correctIndex": 3,
@@ -44188,7 +44188,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: 5! (5 faktorial)",
+        "question": "Hisoblang: \\(5! (5 faktorial\\)",
         "options": [
           "120",
           "121",
@@ -44200,7 +44200,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.",
+        "question": "Hisoblang: \\(\\(7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
         "options": [
           "22",
           "21",
@@ -44390,7 +44390,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -44402,7 +44402,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -44414,7 +44414,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -44596,7 +44596,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -44608,7 +44608,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -44620,7 +44620,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -44802,7 +44802,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -44814,7 +44814,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -44826,7 +44826,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -45007,7 +45007,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
         "options": [
           "25",
           "24",
@@ -45019,7 +45019,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 5 = 15",
+        "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
         "options": [
           "4",
           "6",
@@ -45031,7 +45031,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{25} + 5",
+        "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
         "options": [
           "20",
           "11",
@@ -45221,7 +45221,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -45233,7 +45233,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -45245,7 +45245,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -45427,7 +45427,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -45439,7 +45439,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -45451,7 +45451,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -45633,7 +45633,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -45645,7 +45645,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -45657,7 +45657,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -45838,7 +45838,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
         "options": [
           "27",
           "29",
@@ -45850,7 +45850,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 6 = 18",
+        "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
         "options": [
           "12",
           "7",
@@ -45862,7 +45862,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{36} + 6",
+        "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
         "options": [
           "12",
           "13",
@@ -46058,7 +46058,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -46070,19 +46070,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -46264,7 +46264,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -46276,19 +46276,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -46470,7 +46470,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -46482,19 +46482,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -46681,7 +46681,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+        "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
         "options": [
           "19200",
           "9601",
@@ -46693,19 +46693,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+        "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
         "options": [
           "\\(x^2 + 16\\)",
-          "\\(x^17 + 17\\)",
-          "\\(x^15 + 15\\)",
-          "\\(x^32 + 32\\)"
+          "\\(x^2 + 8x + 16\\)",
+          "\\(x^2 - 16\\)",
+          "\\(x^2 + 8\\)"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 53^2 - 47^2",
+        "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
         "options": [
           "601",
           "600",
@@ -46909,8 +46909,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -46921,9 +46921,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -47115,8 +47115,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -47127,9 +47127,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -47321,8 +47321,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -47333,9 +47333,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -47526,8 +47526,8 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(50 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -47538,9 +47538,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -47726,7 +47726,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -47738,7 +47738,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -47750,7 +47750,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -47932,7 +47932,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -47944,7 +47944,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -47956,7 +47956,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -48138,7 +48138,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -48150,7 +48150,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -48162,7 +48162,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -48343,7 +48343,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+        "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
         "options": [
           "32",
           "31",
@@ -48355,7 +48355,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+        "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
         "options": [
           "199",
           "201",
@@ -48367,7 +48367,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+        "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
         "options": [
           "96",
           "49",
@@ -48557,7 +48557,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
           "options": [
             "43",
             "45",
@@ -48569,7 +48569,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 10 = 30",
+          "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
           "options": [
             "20",
             "11",
@@ -48581,7 +48581,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{100} + 10",
+          "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
           "options": [
             "20",
             "21",
@@ -48763,7 +48763,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
           "options": [
             "43",
             "45",
@@ -48775,7 +48775,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 10 = 30",
+          "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
           "options": [
             "20",
             "11",
@@ -48787,7 +48787,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{100} + 10",
+          "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
           "options": [
             "20",
             "21",
@@ -48969,7 +48969,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
           "options": [
             "43",
             "45",
@@ -48981,7 +48981,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 10 = 30",
+          "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
           "options": [
             "20",
             "11",
@@ -48993,7 +48993,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{100} + 10",
+          "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
           "options": [
             "20",
             "21",
@@ -49174,7 +49174,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
         "options": [
           "43",
           "45",
@@ -49186,7 +49186,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 10 = 30",
+        "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
         "options": [
           "20",
           "11",
@@ -49198,7 +49198,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{100} + 10",
+        "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
         "options": [
           "20",
           "21",
@@ -49388,7 +49388,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -49400,7 +49400,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -49412,7 +49412,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -49594,7 +49594,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -49606,7 +49606,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -49618,7 +49618,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -49800,7 +49800,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -49812,7 +49812,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -49824,7 +49824,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -50005,7 +50005,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 5x - 8 = 22",
+        "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
         "options": [
           "5",
           "7",
@@ -50017,7 +50017,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+        "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
         "options": [
           "10",
           "6",
@@ -50029,7 +50029,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+        "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
         "options": [
           "-2",
           "-1",
@@ -50225,7 +50225,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "24",
             "13",
@@ -50237,7 +50237,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -50249,7 +50249,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "9",
             "8",
@@ -50431,7 +50431,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "24",
             "13",
@@ -50443,7 +50443,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -50455,7 +50455,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "9",
             "8",
@@ -50637,7 +50637,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "24",
             "13",
@@ -50649,7 +50649,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -50661,7 +50661,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "9",
             "8",
@@ -50848,7 +50848,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+        "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
         "options": [
           "24",
           "13",
@@ -50860,7 +50860,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+        "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
         "options": [
           "80",
           "81",
@@ -50872,7 +50872,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+        "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
         "options": [
           "9",
           "8",
@@ -51068,7 +51068,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -51080,7 +51080,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -51092,7 +51092,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -51274,7 +51274,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -51286,7 +51286,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -51298,7 +51298,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -51480,7 +51480,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -51492,7 +51492,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -51504,7 +51504,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -51691,7 +51691,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
         "options": [
           "25",
           "24",
@@ -51703,7 +51703,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 5 = 15",
+        "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
         "options": [
           "4",
           "6",
@@ -51715,7 +51715,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{25} + 5",
+        "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
         "options": [
           "20",
           "11",
@@ -51905,7 +51905,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -51917,7 +51917,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -51929,7 +51929,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -52111,7 +52111,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -52123,7 +52123,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -52135,7 +52135,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -52317,7 +52317,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -52329,7 +52329,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -52341,7 +52341,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -52522,7 +52522,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
         "options": [
           "25",
           "24",
@@ -52534,7 +52534,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 5 = 15",
+        "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
         "options": [
           "4",
           "6",
@@ -52546,7 +52546,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{25} + 5",
+        "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
         "options": [
           "20",
           "11",
@@ -52736,7 +52736,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -52748,7 +52748,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -52760,7 +52760,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -52942,7 +52942,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -52954,7 +52954,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -52966,7 +52966,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -53148,7 +53148,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -53160,7 +53160,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -53172,7 +53172,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -53353,7 +53353,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
         "options": [
           "27",
           "29",
@@ -53365,7 +53365,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 6 = 18",
+        "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
         "options": [
           "12",
           "7",
@@ -53377,7 +53377,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{36} + 6",
+        "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
         "options": [
           "12",
           "13",
@@ -53567,7 +53567,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -53579,7 +53579,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -53591,7 +53591,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -53773,7 +53773,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -53785,7 +53785,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -53797,7 +53797,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -53979,7 +53979,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -53991,7 +53991,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -54003,7 +54003,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -54184,7 +54184,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
         "options": [
           "27",
           "29",
@@ -54196,7 +54196,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 6 = 18",
+        "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
         "options": [
           "12",
           "7",
@@ -54208,7 +54208,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{36} + 6",
+        "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
         "options": [
           "12",
           "13",
@@ -54392,7 +54392,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -54404,7 +54404,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -54416,7 +54416,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -54598,7 +54598,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -54610,7 +54610,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -54622,7 +54622,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -54804,7 +54804,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -54816,7 +54816,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -54828,7 +54828,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -55003,7 +55003,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
         "options": [
           "64",
           "33",
@@ -55015,7 +55015,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 7 = 21",
+        "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
         "options": [
           "7",
           "8",
@@ -55027,7 +55027,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{49} + 7",
+        "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
         "options": [
           "15",
           "14",
@@ -55217,7 +55217,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -55229,19 +55229,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -55423,7 +55423,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -55435,19 +55435,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -55629,7 +55629,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -55641,19 +55641,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -55834,7 +55834,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+        "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
         "options": [
           "19200",
           "9601",
@@ -55846,19 +55846,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+        "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
         "options": [
           "\\(x^2 + 16\\)",
-          "\\(x^17 + 17\\)",
-          "\\(x^15 + 15\\)",
-          "\\(x^32 + 32\\)"
+          "\\(x^2 + 8x + 16\\)",
+          "\\(x^2 - 16\\)",
+          "\\(x^2 + 8\\)"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 53^2 - 47^2",
+        "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
         "options": [
           "601",
           "600",
@@ -56062,8 +56062,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -56074,9 +56074,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -56268,8 +56268,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -56280,9 +56280,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -56474,8 +56474,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -56486,9 +56486,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -56679,8 +56679,8 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(50 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -56691,9 +56691,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -56879,7 +56879,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "9600",
             "9601",
@@ -56891,19 +56891,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
-            "\\(x^17 + 17\\)",
+            "\\(x^2 + 8x + 16\\)",
             "\\(x^2 + 16\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "599",
             "601",
@@ -57085,7 +57085,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "9600",
             "9601",
@@ -57097,19 +57097,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
-            "\\(x^17 + 17\\)",
+            "\\(x^2 + 8x + 16\\)",
             "\\(x^2 + 16\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "599",
             "601",
@@ -57291,7 +57291,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "9600",
             "9601",
@@ -57303,19 +57303,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
-            "\\(x^17 + 17\\)",
+            "\\(x^2 + 8x + 16\\)",
             "\\(x^2 + 16\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "599",
             "601",
@@ -57496,7 +57496,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+        "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
         "options": [
           "9600",
           "9601",
@@ -57508,19 +57508,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+        "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
         "options": [
-          "\\(x^17 + 17\\)",
+          "\\(x^2 + 8x + 16\\)",
           "\\(x^2 + 16\\)",
-          "\\(x^15 + 15\\)",
-          "\\(x^32 + 32\\)"
+          "\\(x^2 - 16\\)",
+          "\\(x^2 + 8\\)"
         ],
         "correctIndex": 1,
         "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 53^2 - 47^2",
+        "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
         "options": [
           "599",
           "601",
@@ -57704,7 +57704,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -57716,7 +57716,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -57728,9 +57728,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -57910,7 +57910,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -57922,7 +57922,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -57934,9 +57934,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -58116,7 +58116,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "3",
             "2",
@@ -58128,7 +58128,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "3",
             "5",
@@ -58140,9 +58140,9 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
-            "\\(5\\)",
+            "5",
             "1",
             "-1",
             "0"
@@ -58315,7 +58315,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+        "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
         "options": [
           "3",
           "2",
@@ -58327,7 +58327,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+        "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
         "options": [
           "3",
           "5",
@@ -58339,9 +58339,9 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+        "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
         "options": [
-          "\\(5\\)",
+          "5",
           "1",
           "-1",
           "0"
@@ -58529,7 +58529,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -58541,7 +58541,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -58553,7 +58553,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -58735,7 +58735,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -58747,7 +58747,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -58759,7 +58759,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -58941,7 +58941,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -58953,7 +58953,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -58965,7 +58965,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -59146,7 +59146,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
         "options": [
           "41",
           "40",
@@ -59158,7 +59158,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 9 = 27",
+        "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
         "options": [
           "8",
           "10",
@@ -59170,7 +59170,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{81} + 9",
+        "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
         "options": [
           "36",
           "19",
@@ -59354,7 +59354,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
           "options": [
             "43",
             "45",
@@ -59366,7 +59366,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 10 = 30",
+          "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
           "options": [
             "20",
             "11",
@@ -59378,7 +59378,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{100} + 10",
+          "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
           "options": [
             "20",
             "21",
@@ -59560,7 +59560,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
           "options": [
             "43",
             "45",
@@ -59572,7 +59572,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 10 = 30",
+          "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
           "options": [
             "20",
             "11",
@@ -59584,7 +59584,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{100} + 10",
+          "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
           "options": [
             "20",
             "21",
@@ -59766,7 +59766,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
           "options": [
             "43",
             "45",
@@ -59778,7 +59778,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 10 = 30",
+          "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
           "options": [
             "20",
             "11",
@@ -59790,7 +59790,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{100} + 10",
+          "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
           "options": [
             "20",
             "21",
@@ -59965,7 +59965,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
         "options": [
           "43",
           "45",
@@ -59977,7 +59977,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 10 = 30",
+        "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
         "options": [
           "20",
           "11",
@@ -59989,7 +59989,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{100} + 10",
+        "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
         "options": [
           "20",
           "21",
@@ -60175,9 +60175,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -60187,10 +60187,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -60381,9 +60381,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -60393,10 +60393,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -60587,9 +60587,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -60599,10 +60599,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(125 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(125 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -60786,9 +60786,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Kubning qirrasi a = 4 \\text{ sm}. Uning to'la sirti S_t ni hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -60798,10 +60798,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kubning qirrasi a = 5 \\text{ sm}. Uning hajmi V ni hisoblang.",
         "options": [
-          "\\(6 \\text{ sm}^6\\)",
+          "\\(125 \\text{ sm}^3\\)",
           "\\(4 \\text{ sm}^4\\)",
           "\\(2 \\text{ sm}^2\\)",
-          "\\(125 \\text{ sm}^3\\)"
+          "\\(6 \\text{ sm}^6\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: V = a^3 = 5^3 = 125 \\text{ sm}^3. 5³ = 125."
@@ -60998,19 +60998,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -61022,7 +61022,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -61204,19 +61204,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -61228,7 +61228,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -61410,19 +61410,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -61434,7 +61434,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -61615,19 +61615,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+        "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
         "options": [
-          "\\(14x^14 - 14x + 14\\)",
+          "\\(3x^2 - 8x + 7\\)",
           "\\(8x^8 - 8x + 8\\)",
           "\\(6x^6 - 6x + 6\\)",
-          "\\(3x^2 - 8x + 7\\)"
+          "\\(14x^14 - 14x + 14\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
       },
       {
         "level": "medium",
-        "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+        "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
         "options": [
           "19",
           "20",
@@ -61639,7 +61639,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+        "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
         "options": [
           "4",
           "3",
@@ -61829,7 +61829,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "24",
             "13",
@@ -61841,7 +61841,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -61853,7 +61853,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "9",
             "8",
@@ -62035,7 +62035,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "24",
             "13",
@@ -62047,7 +62047,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -62059,7 +62059,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "9",
             "8",
@@ -62241,7 +62241,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
           "options": [
             "24",
             "13",
@@ -62253,7 +62253,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
           "options": [
             "80",
             "81",
@@ -62265,7 +62265,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "9",
             "8",
@@ -62446,7 +62446,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+        "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx\\)",
         "options": [
           "24",
           "13",
@@ -62458,7 +62458,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+        "question": "Hisoblang: \\(\\(Aniq integralni hisoblang: \\int_1^3 4x^3 dx\\)",
         "options": [
           "80",
           "81",
@@ -62470,7 +62470,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+        "question": "Tenglamani yeching: \\(\\(y = 3x^2 egri chiziq, y = 0 va x = 2 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
         "options": [
           "9",
           "8",
@@ -62662,8 +62662,8 @@ const mathTopicsData = [
           "level": "basic",
           "question": "To'g'ri to'rtburchakning bo'yi a = 8 \\text{ sm}, eni b = 5 \\text{ sm}. Uning perimetrini hisoblang.",
           "options": [
-            "\\(27 \\text{ sm}\\)",
             "\\(26 \\text{ sm}\\)",
+            "\\(27 \\text{ sm}\\)",
             "\\(25 \\text{ sm}\\)",
             "\\(52 \\text{ sm}\\)"
           ],
@@ -62674,9 +62674,9 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kvadratning perimetri P = 36 \\text{ sm}. Uning yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(81 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -62684,12 +62684,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
+          "question": "Hisoblang: \\(\\(To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.\\)",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(120 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(120 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a \\cdot b \\cdot c = 4 \\cdot 5 \\cdot 6 = 120 \\text{ sm}^3. Hajm uchta o'lcham ko'paytmasiga teng."
@@ -62868,8 +62868,8 @@ const mathTopicsData = [
           "level": "basic",
           "question": "To'g'ri to'rtburchakning bo'yi a = 8 \\text{ sm}, eni b = 5 \\text{ sm}. Uning perimetrini hisoblang.",
           "options": [
-            "\\(27 \\text{ sm}\\)",
             "\\(26 \\text{ sm}\\)",
+            "\\(27 \\text{ sm}\\)",
             "\\(25 \\text{ sm}\\)",
             "\\(52 \\text{ sm}\\)"
           ],
@@ -62880,9 +62880,9 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kvadratning perimetri P = 36 \\text{ sm}. Uning yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(81 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -62890,12 +62890,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
+          "question": "Hisoblang: \\(\\(To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.\\)",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(120 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(120 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a \\cdot b \\cdot c = 4 \\cdot 5 \\cdot 6 = 120 \\text{ sm}^3. Hajm uchta o'lcham ko'paytmasiga teng."
@@ -63074,8 +63074,8 @@ const mathTopicsData = [
           "level": "basic",
           "question": "To'g'ri to'rtburchakning bo'yi a = 8 \\text{ sm}, eni b = 5 \\text{ sm}. Uning perimetrini hisoblang.",
           "options": [
-            "\\(27 \\text{ sm}\\)",
             "\\(26 \\text{ sm}\\)",
+            "\\(27 \\text{ sm}\\)",
             "\\(25 \\text{ sm}\\)",
             "\\(52 \\text{ sm}\\)"
           ],
@@ -63086,9 +63086,9 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Kvadratning perimetri P = 36 \\text{ sm}. Uning yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(81 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -63096,12 +63096,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
+          "question": "Hisoblang: \\(\\(To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.\\)",
           "options": [
-            "\\(6 \\text{ sm}^6\\)",
+            "\\(120 \\text{ sm}^3\\)",
             "\\(4 \\text{ sm}^4\\)",
             "\\(2 \\text{ sm}^2\\)",
-            "\\(120 \\text{ sm}^3\\)"
+            "\\(6 \\text{ sm}^6\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: V = a \\cdot b \\cdot c = 4 \\cdot 5 \\cdot 6 = 120 \\text{ sm}^3. Hajm uchta o'lcham ko'paytmasiga teng."
@@ -63279,8 +63279,8 @@ const mathTopicsData = [
         "level": "basic",
         "question": "To'g'ri to'rtburchakning bo'yi a = 8 \\text{ sm}, eni b = 5 \\text{ sm}. Uning perimetrini hisoblang.",
         "options": [
-          "\\(27 \\text{ sm}\\)",
           "\\(26 \\text{ sm}\\)",
+          "\\(27 \\text{ sm}\\)",
           "\\(25 \\text{ sm}\\)",
           "\\(52 \\text{ sm}\\)"
         ],
@@ -63291,9 +63291,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kvadratning perimetri P = 36 \\text{ sm}. Uning yuzini hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(81 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -63301,12 +63301,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
+        "question": "Hisoblang: \\(\\(To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.\\)",
         "options": [
-          "\\(6 \\text{ sm}^6\\)",
+          "\\(120 \\text{ sm}^3\\)",
           "\\(4 \\text{ sm}^4\\)",
           "\\(2 \\text{ sm}^2\\)",
-          "\\(120 \\text{ sm}^3\\)"
+          "\\(6 \\text{ sm}^6\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: V = a \\cdot b \\cdot c = 4 \\cdot 5 \\cdot 6 = 120 \\text{ sm}^3. Hajm uchta o'lcham ko'paytmasiga teng."
@@ -63485,7 +63485,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -63497,7 +63497,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -63509,7 +63509,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -63691,7 +63691,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -63703,7 +63703,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -63715,7 +63715,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -63897,7 +63897,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
           "options": [
             "27",
             "29",
@@ -63909,7 +63909,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 6 = 18",
+          "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
           "options": [
             "12",
             "7",
@@ -63921,7 +63921,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{36} + 6",
+          "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
           "options": [
             "12",
             "13",
@@ -64096,7 +64096,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (6 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((6 + 3) \\cdot 4 - 8\\)",
         "options": [
           "27",
           "29",
@@ -64108,7 +64108,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 6 = 18",
+        "question": "Tenglamani yeching: \\(2x + 6 = 18\\)",
         "options": [
           "12",
           "7",
@@ -64120,7 +64120,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{36} + 6",
+        "question": "Hisoblang: \\(\\(\\sqrt{36} + 6\\)",
         "options": [
           "12",
           "13",
@@ -64304,7 +64304,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -64316,7 +64316,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -64328,7 +64328,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -64510,7 +64510,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -64522,7 +64522,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -64534,7 +64534,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -64716,7 +64716,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
           "options": [
             "64",
             "33",
@@ -64728,7 +64728,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 7 = 21",
+          "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
           "options": [
             "7",
             "8",
@@ -64740,7 +64740,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{49} + 7",
+          "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
           "options": [
             "15",
             "14",
@@ -64915,7 +64915,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (7 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((7 + 3) \\cdot 4 - 8\\)",
         "options": [
           "64",
           "33",
@@ -64927,7 +64927,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 7 = 21",
+        "question": "Tenglamani yeching: \\(2x + 7 = 21\\)",
         "options": [
           "7",
           "8",
@@ -64939,7 +64939,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{49} + 7",
+        "question": "Hisoblang: \\(\\(\\sqrt{49} + 7\\)",
         "options": [
           "15",
           "14",
@@ -65137,8 +65137,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -65149,9 +65149,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -65343,8 +65343,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -65355,9 +65355,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -65549,8 +65549,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -65561,9 +65561,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -65748,8 +65748,8 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(50 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -65760,9 +65760,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
@@ -65942,7 +65942,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -65954,7 +65954,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -65966,7 +65966,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -66148,7 +66148,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -66160,7 +66160,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -66172,7 +66172,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -66354,7 +66354,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -66366,7 +66366,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -66378,7 +66378,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -66553,7 +66553,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
         "options": [
           "41",
           "40",
@@ -66565,7 +66565,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 9 = 27",
+        "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
         "options": [
           "8",
           "10",
@@ -66577,7 +66577,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{81} + 9",
+        "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
         "options": [
           "36",
           "19",
@@ -66761,7 +66761,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "1",
             "3",
@@ -66773,7 +66773,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "8",
             "5",
@@ -66785,12 +66785,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
             "0",
             "1",
             "-1",
-            "\\(5\\)"
+            "5"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -66967,7 +66967,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "1",
             "3",
@@ -66979,7 +66979,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "8",
             "5",
@@ -66991,12 +66991,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
             "0",
             "1",
             "-1",
-            "\\(5\\)"
+            "5"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -67173,7 +67173,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "1",
             "3",
@@ -67185,7 +67185,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "8",
             "5",
@@ -67197,12 +67197,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
             "0",
             "1",
             "-1",
-            "\\(5\\)"
+            "5"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -67372,7 +67372,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+        "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
         "options": [
           "1",
           "3",
@@ -67384,7 +67384,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+        "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
         "options": [
           "8",
           "5",
@@ -67396,12 +67396,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+        "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
         "options": [
           "0",
           "1",
           "-1",
-          "\\(5\\)"
+          "5"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -67588,9 +67588,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "O'yin kubigi tashlanganda juft ochko (2, 4, 6) tushish ehtimolligini hisoblang.",
           "options": [
-            "\\(\\frac{4}{4}\\)",
-            "\\(\\frac{3}{3}\\)",
-            "\\(\\frac{1}{1}\\)",
+            "\\(\\frac{1}{8}\\)",
+            "\\(\\frac{3}{2}\\)",
+            "\\(\\frac{5}{2}\\)",
             "\\(\\frac{1}{2}\\)"
           ],
           "correctIndex": 3,
@@ -67598,7 +67598,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 5! (5 faktorial)",
+          "question": "Hisoblang: \\(5! (5 faktorial\\)",
           "options": [
             "120",
             "121",
@@ -67610,7 +67610,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "options": [
             "22",
             "21",
@@ -67794,9 +67794,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "O'yin kubigi tashlanganda juft ochko (2, 4, 6) tushish ehtimolligini hisoblang.",
           "options": [
-            "\\(\\frac{4}{4}\\)",
-            "\\(\\frac{3}{3}\\)",
-            "\\(\\frac{1}{1}\\)",
+            "\\(\\frac{1}{8}\\)",
+            "\\(\\frac{3}{2}\\)",
+            "\\(\\frac{5}{2}\\)",
             "\\(\\frac{1}{2}\\)"
           ],
           "correctIndex": 3,
@@ -67804,7 +67804,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 5! (5 faktorial)",
+          "question": "Hisoblang: \\(5! (5 faktorial\\)",
           "options": [
             "120",
             "121",
@@ -67816,7 +67816,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "options": [
             "22",
             "21",
@@ -68000,9 +68000,9 @@ const mathTopicsData = [
           "level": "basic",
           "question": "O'yin kubigi tashlanganda juft ochko (2, 4, 6) tushish ehtimolligini hisoblang.",
           "options": [
-            "\\(\\frac{4}{4}\\)",
-            "\\(\\frac{3}{3}\\)",
-            "\\(\\frac{1}{1}\\)",
+            "\\(\\frac{1}{8}\\)",
+            "\\(\\frac{3}{2}\\)",
+            "\\(\\frac{5}{2}\\)",
             "\\(\\frac{1}{2}\\)"
           ],
           "correctIndex": 3,
@@ -68010,7 +68010,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: 5! (5 faktorial)",
+          "question": "Hisoblang: \\(5! (5 faktorial\\)",
           "options": [
             "120",
             "121",
@@ -68022,7 +68022,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "options": [
             "22",
             "21",
@@ -68205,9 +68205,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "O'yin kubigi tashlanganda juft ochko (2, 4, 6) tushish ehtimolligini hisoblang.",
         "options": [
-          "\\(\\frac{4}{4}\\)",
-          "\\(\\frac{3}{3}\\)",
-          "\\(\\frac{1}{1}\\)",
+          "\\(\\frac{1}{8}\\)",
+          "\\(\\frac{3}{2}\\)",
+          "\\(\\frac{5}{2}\\)",
           "\\(\\frac{1}{2}\\)"
         ],
         "correctIndex": 3,
@@ -68215,7 +68215,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: 5! (5 faktorial)",
+        "question": "Hisoblang: \\(5! (5 faktorial\\)",
         "options": [
           "120",
           "121",
@@ -68227,7 +68227,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.",
+        "question": "Hisoblang: \\(\\(7 ta o'quvchidan 2 tasini tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
         "options": [
           "22",
           "21",
@@ -68417,7 +68417,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -68429,7 +68429,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -68441,7 +68441,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -68623,7 +68623,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -68635,7 +68635,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -68647,7 +68647,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -68829,7 +68829,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -68841,7 +68841,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -68853,7 +68853,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -69034,7 +69034,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
         "options": [
           "25",
           "24",
@@ -69046,7 +69046,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 5 = 15",
+        "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
         "options": [
           "4",
           "6",
@@ -69058,7 +69058,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{25} + 5",
+        "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
         "options": [
           "20",
           "11",
@@ -69248,7 +69248,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -69260,7 +69260,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -69272,7 +69272,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -69454,7 +69454,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -69466,7 +69466,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -69478,7 +69478,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -69660,7 +69660,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -69672,7 +69672,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -69684,7 +69684,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -69865,7 +69865,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
         "options": [
           "25",
           "24",
@@ -69877,7 +69877,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 5 = 15",
+        "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
         "options": [
           "4",
           "6",
@@ -69889,7 +69889,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{25} + 5",
+        "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
         "options": [
           "20",
           "11",
@@ -70079,7 +70079,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -70091,7 +70091,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -70103,7 +70103,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -70285,7 +70285,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -70297,7 +70297,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -70309,7 +70309,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -70491,7 +70491,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -70503,7 +70503,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -70515,7 +70515,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -70696,7 +70696,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
         "options": [
           "25",
           "24",
@@ -70708,7 +70708,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 5 = 15",
+        "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
         "options": [
           "4",
           "6",
@@ -70720,7 +70720,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{25} + 5",
+        "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
         "options": [
           "20",
           "11",
@@ -70910,7 +70910,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: -18 + 32 - (-6)",
+          "question": "Hisoblang: \\(\\(-18 + 32 - (-6\\)",
           "options": [
             "19",
             "21",
@@ -70922,7 +70922,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: -7 \\cdot (-6) - 48 : (-8)",
+          "question": "Hisoblang: \\(\\(-7 \\cdot (-6) - 48 : (-8\\)",
           "options": [
             "96",
             "49",
@@ -70934,7 +70934,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: (-3)^3 + (-2)^4",
+          "question": "Hisoblang: \\(\\((-3)^3 + (-2)^4\\)",
           "options": [
             "-11",
             "-10",
@@ -71116,7 +71116,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: -18 + 32 - (-6)",
+          "question": "Hisoblang: \\(\\(-18 + 32 - (-6\\)",
           "options": [
             "19",
             "21",
@@ -71128,7 +71128,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: -7 \\cdot (-6) - 48 : (-8)",
+          "question": "Hisoblang: \\(\\(-7 \\cdot (-6) - 48 : (-8\\)",
           "options": [
             "96",
             "49",
@@ -71140,7 +71140,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: (-3)^3 + (-2)^4",
+          "question": "Hisoblang: \\(\\((-3)^3 + (-2)^4\\)",
           "options": [
             "-11",
             "-10",
@@ -71322,7 +71322,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: -18 + 32 - (-6)",
+          "question": "Hisoblang: \\(\\(-18 + 32 - (-6\\)",
           "options": [
             "19",
             "21",
@@ -71334,7 +71334,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: -7 \\cdot (-6) - 48 : (-8)",
+          "question": "Hisoblang: \\(\\(-7 \\cdot (-6) - 48 : (-8\\)",
           "options": [
             "96",
             "49",
@@ -71346,7 +71346,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: (-3)^3 + (-2)^4",
+          "question": "Hisoblang: \\(\\((-3)^3 + (-2)^4\\)",
           "options": [
             "-11",
             "-10",
@@ -71527,7 +71527,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: -18 + 32 - (-6)",
+        "question": "Hisoblang: \\(\\(-18 + 32 - (-6\\)",
         "options": [
           "19",
           "21",
@@ -71539,7 +71539,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: -7 \\cdot (-6) - 48 : (-8)",
+        "question": "Hisoblang: \\(\\(-7 \\cdot (-6) - 48 : (-8\\)",
         "options": [
           "96",
           "49",
@@ -71551,7 +71551,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: (-3)^3 + (-2)^4",
+        "question": "Hisoblang: \\(\\((-3)^3 + (-2)^4\\)",
         "options": [
           "-11",
           "-10",
@@ -71741,7 +71741,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -71753,7 +71753,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -71765,7 +71765,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -71947,7 +71947,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -71959,7 +71959,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -71971,7 +71971,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -72153,7 +72153,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "5",
             "7",
@@ -72165,7 +72165,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "10",
             "6",
@@ -72177,7 +72177,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-2",
             "-1",
@@ -72358,7 +72358,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 5x - 8 = 22",
+        "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
         "options": [
           "5",
           "7",
@@ -72370,7 +72370,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+        "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
         "options": [
           "10",
           "6",
@@ -72382,7 +72382,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+        "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
         "options": [
           "-2",
           "-1",
@@ -72572,7 +72572,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
+          "question": "Hisoblang: \\(\\(Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26\\)",
           "options": [
             "19",
             "21",
@@ -72584,7 +72584,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.",
+          "question": "Hisoblang: \\(\\(O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.\\)",
           "options": [
             "8",
             "5",
@@ -72596,7 +72596,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
+          "question": "Hisoblang: \\(\\(Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.\\)",
           "options": [
             "72",
             "73",
@@ -72778,7 +72778,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
+          "question": "Hisoblang: \\(\\(Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26\\)",
           "options": [
             "19",
             "21",
@@ -72790,7 +72790,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.",
+          "question": "Hisoblang: \\(\\(O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.\\)",
           "options": [
             "8",
             "5",
@@ -72802,7 +72802,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
+          "question": "Hisoblang: \\(\\(Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.\\)",
           "options": [
             "72",
             "73",
@@ -72984,7 +72984,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
+          "question": "Hisoblang: \\(\\(Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26\\)",
           "options": [
             "19",
             "21",
@@ -72996,7 +72996,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.",
+          "question": "Hisoblang: \\(\\(O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.\\)",
           "options": [
             "8",
             "5",
@@ -73008,7 +73008,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
+          "question": "Hisoblang: \\(\\(Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.\\)",
           "options": [
             "72",
             "73",
@@ -73189,7 +73189,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26",
+        "question": "Hisoblang: \\(\\(Sonlarning o'rta arifmetigini hisoblang: 14, 18, 22, 26\\)",
         "options": [
           "19",
           "21",
@@ -73201,7 +73201,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.",
+        "question": "Hisoblang: \\(\\(O'quvchining 4 ta nazorat bahosi: 5, 4, 3, 4. O'rtacha bahoni toping.\\)",
         "options": [
           "8",
           "5",
@@ -73213,7 +73213,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.",
+        "question": "Hisoblang: \\(\\(Uchta sonning o'rta arifmetigi 24 ga teng. Ularning yig'indisini hisoblang.\\)",
         "options": [
           "72",
           "73",
@@ -73403,7 +73403,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "12",
             "7",
@@ -73415,7 +73415,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "5",
             "6",
@@ -73427,7 +73427,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-1",
             "-2",
@@ -73609,7 +73609,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "12",
             "7",
@@ -73621,7 +73621,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "5",
             "6",
@@ -73633,7 +73633,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-1",
             "-2",
@@ -73815,7 +73815,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "12",
             "7",
@@ -73827,7 +73827,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "5",
             "6",
@@ -73839,7 +73839,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-1",
             "-2",
@@ -74020,7 +74020,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 5x - 8 = 22",
+        "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
         "options": [
           "12",
           "7",
@@ -74032,7 +74032,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+        "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
         "options": [
           "5",
           "6",
@@ -74044,7 +74044,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+        "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
         "options": [
           "-1",
           "-2",
@@ -74234,7 +74234,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -74246,19 +74246,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -74440,7 +74440,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -74452,19 +74452,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -74646,7 +74646,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+          "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
           "options": [
             "19200",
             "9601",
@@ -74658,19 +74658,19 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+          "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
           "options": [
             "\\(x^2 + 16\\)",
-            "\\(x^17 + 17\\)",
-            "\\(x^15 + 15\\)",
-            "\\(x^32 + 32\\)"
+            "\\(x^2 + 8x + 16\\)",
+            "\\(x^2 - 16\\)",
+            "\\(x^2 + 8\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 53^2 - 47^2",
+          "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
           "options": [
             "601",
             "600",
@@ -74851,7 +74851,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Qisqa ko'paytirish formulasi bilan hisoblang: 98^2 - 2^2",
+        "question": "Hisoblang: \\(\\(98^2 - 2^2\\)",
         "options": [
           "19200",
           "9601",
@@ -74863,19 +74863,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Ifodani soddalashtiring: (x + 4)^2 - 8x",
+        "question": "Hisoblang: \\(\\((x + 4)^2 - 8x\\)",
         "options": [
           "\\(x^2 + 16\\)",
-          "\\(x^17 + 17\\)",
-          "\\(x^15 + 15\\)",
-          "\\(x^32 + 32\\)"
+          "\\(x^2 + 8x + 16\\)",
+          "\\(x^2 - 16\\)",
+          "\\(x^2 + 8\\)"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: x^2 + 8x + 16 - 8x = x^2 + 16. (x + 4)² = x² + 8x + 16."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 53^2 - 47^2",
+        "question": "Hisoblang: \\(\\(53^2 - 47^2\\)",
         "options": [
           "601",
           "600",
@@ -75067,10 +75067,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -75091,8 +75091,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -75273,10 +75273,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -75297,8 +75297,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -75479,10 +75479,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -75503,8 +75503,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -75684,10 +75684,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(4 \\text{ sm}^4\\)",
+          "\\(42 \\text{ sm}^2\\)",
           "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
-          "\\(42 \\text{ sm}^2\\)"
+          "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -75708,8 +75708,8 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -75896,31 +75896,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{25}{25}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{17}{24}\\)",
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "1",
             "3",
@@ -76102,31 +76102,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{25}{25}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{17}{24}\\)",
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "1",
             "3",
@@ -76308,31 +76308,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{25}{25}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{17}{24}\\)",
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "1",
             "3",
@@ -76513,31 +76513,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+        "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
         "options": [
           "\\(\\frac{19}{24}\\)",
-          "\\(\\frac{25}{25}\\)",
-          "\\(\\frac{23}{23}\\)",
-          "\\(\\frac{48}{48}\\)"
+          "\\(\\frac{17}{24}\\)",
+          "\\(\\frac{23}{24}\\)",
+          "\\(\\frac{19}{30}\\)"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+        "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
         "options": [
-          "\\(\\frac{13}{13}\\)",
+          "\\(\\frac{3}{12}\\)",
           "\\(\\frac{5}{12}\\)",
-          "\\(\\frac{11}{11}\\)",
-          "\\(\\frac{24}{24}\\)"
+          "\\(\\frac{9}{12}\\)",
+          "\\(\\frac{5}{18}\\)"
         ],
         "correctIndex": 1,
         "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+        "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
         "options": [
           "1",
           "3",
@@ -76727,31 +76727,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
           "options": [
             "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_6 = 6, x_6 = 6\\)",
-            "\\(x_4 = 4, x_4 = 4\\)",
-            "\\(x_10 = 10, x_10 = 10\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
           "options": [
-            "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-            "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 3, x_2 = 5\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+          "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
           "options": [
             "1",
             "3",
@@ -76933,31 +76933,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
           "options": [
             "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_6 = 6, x_6 = 6\\)",
-            "\\(x_4 = 4, x_4 = 4\\)",
-            "\\(x_10 = 10, x_10 = 10\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
           "options": [
-            "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-            "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 3, x_2 = 5\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+          "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
           "options": [
             "1",
             "3",
@@ -77139,31 +77139,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
           "options": [
             "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_6 = 6, x_6 = 6\\)",
-            "\\(x_4 = 4, x_4 = 4\\)",
-            "\\(x_10 = 10, x_10 = 10\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
           "options": [
-            "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-            "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 3, x_2 = 5\\)",
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+          "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
           "options": [
             "1",
             "3",
@@ -77344,31 +77344,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+        "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
         "options": [
           "\\(x_1 = 3, x_2 = 5\\)",
-          "\\(x_6 = 6, x_6 = 6\\)",
-          "\\(x_4 = 4, x_4 = 4\\)",
-          "\\(x_10 = 10, x_10 = 10\\)"
+          "\\(x_1 = 2, x_2 = 6\\)",
+          "\\(x_1 = 1, x_2 = 15\\)",
+          "\\(x_1 = -3, x_2 = -5\\)"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+        "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
         "options": [
-          "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-          "\\(x_1 = 3, x_2 = 0.5\\)",
-          "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-          "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+          "\\(x_1 = 2, x_2 = 6\\)",
+          "\\(x_1 = 3, x_2 = 5\\)",
+          "\\(x_1 = 1, x_2 = 15\\)",
+          "\\(x_1 = -3, x_2 = -5\\)"
         ],
         "correctIndex": 1,
         "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
       },
       {
         "level": "hard",
-        "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+        "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
         "options": [
           "1",
           "3",
@@ -77558,7 +77558,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
           "options": [
             "36",
             "37",
@@ -77570,7 +77570,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 8 = 24",
+          "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
           "options": [
             "9",
             "8",
@@ -77582,7 +77582,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{64} + 8",
+          "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
           "options": [
             "15",
             "17",
@@ -77764,7 +77764,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
           "options": [
             "36",
             "37",
@@ -77776,7 +77776,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 8 = 24",
+          "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
           "options": [
             "9",
             "8",
@@ -77788,7 +77788,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{64} + 8",
+          "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
           "options": [
             "15",
             "17",
@@ -77970,7 +77970,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
           "options": [
             "36",
             "37",
@@ -77982,7 +77982,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 8 = 24",
+          "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
           "options": [
             "9",
             "8",
@@ -77994,7 +77994,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{64} + 8",
+          "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
           "options": [
             "15",
             "17",
@@ -78175,7 +78175,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (8 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((8 + 3) \\cdot 4 - 8\\)",
         "options": [
           "36",
           "37",
@@ -78187,7 +78187,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 8 = 24",
+        "question": "Tenglamani yeching: \\(2x + 8 = 24\\)",
         "options": [
           "9",
           "8",
@@ -78199,7 +78199,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{64} + 8",
+        "question": "Hisoblang: \\(\\(\\sqrt{64} + 8\\)",
         "options": [
           "15",
           "17",
@@ -78389,7 +78389,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -78401,7 +78401,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -78413,7 +78413,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -78595,7 +78595,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -78607,7 +78607,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -78619,7 +78619,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -78801,7 +78801,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
           "options": [
             "41",
             "40",
@@ -78813,7 +78813,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 9 = 27",
+          "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
           "options": [
             "8",
             "10",
@@ -78825,7 +78825,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{81} + 9",
+          "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
           "options": [
             "36",
             "19",
@@ -79006,7 +79006,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (9 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((9 + 3) \\cdot 4 - 8\\)",
         "options": [
           "41",
           "40",
@@ -79018,7 +79018,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 9 = 27",
+        "question": "Tenglamani yeching: \\(2x + 9 = 27\\)",
         "options": [
           "8",
           "10",
@@ -79030,7 +79030,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{81} + 9",
+        "question": "Hisoblang: \\(\\(\\sqrt{81} + 9\\)",
         "options": [
           "36",
           "19",
@@ -79220,7 +79220,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "7",
             "6",
@@ -79232,7 +79232,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "4",
             "6",
@@ -79244,7 +79244,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-4",
             "-1",
@@ -79426,7 +79426,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "7",
             "6",
@@ -79438,7 +79438,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "4",
             "6",
@@ -79450,7 +79450,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-4",
             "-1",
@@ -79632,7 +79632,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "7",
             "6",
@@ -79644,7 +79644,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "4",
             "6",
@@ -79656,7 +79656,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-4",
             "-1",
@@ -79837,7 +79837,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 5x - 8 = 22",
+        "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
         "options": [
           "7",
           "6",
@@ -79849,7 +79849,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+        "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
         "options": [
           "4",
           "6",
@@ -79861,7 +79861,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+        "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
         "options": [
           "-4",
           "-1",
@@ -80051,7 +80051,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -80063,7 +80063,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -80075,7 +80075,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -80257,7 +80257,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -80269,7 +80269,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -80281,7 +80281,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -80463,7 +80463,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "32",
             "31",
@@ -80475,7 +80475,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+          "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
           "options": [
             "199",
             "201",
@@ -80487,7 +80487,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+          "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
           "options": [
             "96",
             "49",
@@ -80668,7 +80668,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+        "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 4, d = 3 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
         "options": [
           "32",
           "31",
@@ -80680,7 +80680,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.",
+        "question": "Hisoblang: \\(\\(Arifmetik progressiyada a_1 = 2, d = 4 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni toping.\\)",
         "options": [
           "199",
           "201",
@@ -80692,7 +80692,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.",
+        "question": "Hisoblang: \\(\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, 5-hadi b_5 ni hisoblang.\\)",
         "options": [
           "96",
           "49",
@@ -80882,7 +80882,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\log_2 16 + \\log_3 27 - \\log_5 25",
+          "question": "Hisoblang: \\(\\(\\log_2 16 + \\log_3 27 - \\log_5 25\\)",
           "options": [
             "4",
             "6",
@@ -80894,7 +80894,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\log_6 4 + \\log_6 9",
+          "question": "Hisoblang: \\(\\(\\log_6 4 + \\log_6 9\\)",
           "options": [
             "4",
             "3",
@@ -80906,7 +80906,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\log_3(2x + 1) = 3",
+          "question": "Tenglamani yeching: \\(\\log_3(2x + 1) = 3\\)",
           "options": [
             "13",
             "14",
@@ -81088,7 +81088,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\log_2 16 + \\log_3 27 - \\log_5 25",
+          "question": "Hisoblang: \\(\\(\\log_2 16 + \\log_3 27 - \\log_5 25\\)",
           "options": [
             "4",
             "6",
@@ -81100,7 +81100,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\log_6 4 + \\log_6 9",
+          "question": "Hisoblang: \\(\\(\\log_6 4 + \\log_6 9\\)",
           "options": [
             "4",
             "3",
@@ -81112,7 +81112,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\log_3(2x + 1) = 3",
+          "question": "Tenglamani yeching: \\(\\log_3(2x + 1) = 3\\)",
           "options": [
             "13",
             "14",
@@ -81294,7 +81294,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\log_2 16 + \\log_3 27 - \\log_5 25",
+          "question": "Hisoblang: \\(\\(\\log_2 16 + \\log_3 27 - \\log_5 25\\)",
           "options": [
             "4",
             "6",
@@ -81306,7 +81306,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\log_6 4 + \\log_6 9",
+          "question": "Hisoblang: \\(\\(\\log_6 4 + \\log_6 9\\)",
           "options": [
             "4",
             "3",
@@ -81318,7 +81318,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\log_3(2x + 1) = 3",
+          "question": "Tenglamani yeching: \\(\\log_3(2x + 1) = 3\\)",
           "options": [
             "13",
             "14",
@@ -81499,7 +81499,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\log_2 16 + \\log_3 27 - \\log_5 25",
+        "question": "Hisoblang: \\(\\(\\log_2 16 + \\log_3 27 - \\log_5 25\\)",
         "options": [
           "4",
           "6",
@@ -81511,7 +81511,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\log_6 4 + \\log_6 9",
+        "question": "Hisoblang: \\(\\(\\log_6 4 + \\log_6 9\\)",
         "options": [
           "4",
           "3",
@@ -81523,7 +81523,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\log_3(2x + 1) = 3",
+        "question": "Tenglamani yeching: \\(\\log_3(2x + 1) = 3\\)",
         "options": [
           "13",
           "14",
@@ -81713,7 +81713,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "1",
             "3",
@@ -81725,7 +81725,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "8",
             "5",
@@ -81737,12 +81737,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
             "0",
             "1",
             "-1",
-            "\\(5\\)"
+            "5"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -81919,7 +81919,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "1",
             "3",
@@ -81931,7 +81931,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "8",
             "5",
@@ -81943,12 +81943,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
             "0",
             "1",
             "-1",
-            "\\(5\\)"
+            "5"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -82125,7 +82125,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "options": [
             "1",
             "3",
@@ -82137,7 +82137,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+          "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
           "options": [
             "8",
             "5",
@@ -82149,12 +82149,12 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+          "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
           "options": [
             "0",
             "1",
             "-1",
-            "\\(5\\)"
+            "5"
           ],
           "correctIndex": 0,
           "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -82330,7 +82330,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+        "question": "Hisoblang: \\(\\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
         "options": [
           "1",
           "3",
@@ -82342,7 +82342,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sin^2 38^\\circ + \\cos^2 38^\\circ + 3",
+        "question": "Hisoblang: \\(\\(\\sin^2 38^\\circ + \\cos^2 38^\\circ + 3\\)",
         "options": [
           "8",
           "5",
@@ -82354,12 +82354,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ",
+        "question": "Hisoblang: \\(\\(\\cos 60^\\circ \\cdot \\cos 30^\\circ - \\sin 60^\\circ \\cdot \\sin 30^\\circ\\)",
         "options": [
           "0",
           "1",
           "-1",
-          "\\(5\\)"
+          "5"
         ],
         "correctIndex": 0,
         "explanation": "Yechilishi: \\cos(60^\\circ + 30^\\circ) = \\cos 90^\\circ = 0. Kosinuslar qo'shish formulasi: cos(90°) = 0."
@@ -82544,7 +82544,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
           "options": [
             "43",
             "45",
@@ -82556,7 +82556,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 10 = 30",
+          "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
           "options": [
             "20",
             "11",
@@ -82568,7 +82568,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{100} + 10",
+          "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
           "options": [
             "20",
             "21",
@@ -82750,7 +82750,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
           "options": [
             "43",
             "45",
@@ -82762,7 +82762,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 10 = 30",
+          "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
           "options": [
             "20",
             "11",
@@ -82774,7 +82774,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{100} + 10",
+          "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
           "options": [
             "20",
             "21",
@@ -82956,7 +82956,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
           "options": [
             "43",
             "45",
@@ -82968,7 +82968,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 10 = 30",
+          "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
           "options": [
             "20",
             "11",
@@ -82980,7 +82980,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{100} + 10",
+          "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
           "options": [
             "20",
             "21",
@@ -83161,7 +83161,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (10 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((10 + 3) \\cdot 4 - 8\\)",
         "options": [
           "43",
           "45",
@@ -83173,7 +83173,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 10 = 30",
+        "question": "Tenglamani yeching: \\(2x + 10 = 30\\)",
         "options": [
           "20",
           "11",
@@ -83185,7 +83185,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{100} + 10",
+        "question": "Hisoblang: \\(\\(\\sqrt{100} + 10\\)",
         "options": [
           "20",
           "21",
@@ -83375,19 +83375,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -83399,7 +83399,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -83581,19 +83581,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -83605,7 +83605,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -83787,19 +83787,19 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
-            "\\(14x^14 - 14x + 14\\)",
+            "\\(3x^2 - 8x + 7\\)",
             "\\(8x^8 - 8x + 8\\)",
             "\\(6x^6 - 6x + 6\\)",
-            "\\(3x^2 - 8x + 7\\)"
+            "\\(14x^14 - 14x + 14\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
         },
         {
           "level": "medium",
-          "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "19",
             "20",
@@ -83811,7 +83811,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+          "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
           "options": [
             "4",
             "3",
@@ -83992,19 +83992,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.",
+        "question": "Tenglamani yeching: \\(\\(f(x) = x^3 - 4x^2 + 7x - 9 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
         "options": [
-          "\\(14x^14 - 14x + 14\\)",
+          "\\(3x^2 - 8x + 7\\)",
           "\\(8x^8 - 8x + 8\\)",
           "\\(6x^6 - 6x + 6\\)",
-          "\\(3x^2 - 8x + 7\\)"
+          "\\(14x^14 - 14x + 14\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: f'(x) = 3x^2 - 8x + 7. (x^n)' = n*x^(n-1)."
       },
       {
         "level": "medium",
-        "question": "f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+        "question": "Hisoblang: \\(\\(f(x) = 2x^3 - 5x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
         "options": [
           "19",
           "20",
@@ -84016,7 +84016,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.",
+        "question": "Tenglamani yeching: \\(\\(y = x^2 - 6x + 8 parabolaning minimum nuqtasi x_0 ni toping.\\)",
         "options": [
           "4",
           "3",
@@ -84181,7 +84181,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "6",
             "7",
@@ -84193,7 +84193,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "6",
             "5",
@@ -84205,7 +84205,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-3",
             "-1",
@@ -84345,7 +84345,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "6",
             "7",
@@ -84357,7 +84357,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "6",
             "5",
@@ -84369,7 +84369,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-3",
             "-1",
@@ -84509,7 +84509,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: 5x - 8 = 22",
+          "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
           "options": [
             "6",
             "7",
@@ -84521,7 +84521,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+          "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
           "options": [
             "6",
             "5",
@@ -84533,7 +84533,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+          "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
           "options": [
             "-3",
             "-1",
@@ -84660,7 +84660,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 5x - 8 = 22",
+        "question": "Tenglamani yeching: \\(5x - 8 = 22\\)",
         "options": [
           "6",
           "7",
@@ -84672,7 +84672,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 4(2x - 3) = 3x + 13",
+        "question": "Hisoblang: \\(4(2x - 3) = 3x + 13\\)",
         "options": [
           "6",
           "5",
@@ -84684,7 +84684,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{x + 4}{3} - \\frac{x - 2}{2} = 1",
+        "question": "Hisoblang: \\(\\frac{x + 4}{3} - \\frac{x - 2}{2} = 1\\)",
         "options": [
           "-3",
           "-1",
@@ -84837,7 +84837,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (11 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((11 + 3) \\cdot 4 - 8\\)",
           "options": [
             "96",
             "49",
@@ -84849,7 +84849,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 11 = 33",
+          "question": "Tenglamani yeching: \\(2x + 11 = 33\\)",
           "options": [
             "11",
             "12",
@@ -84861,7 +84861,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{121} + 11",
+          "question": "Hisoblang: \\(\\(\\sqrt{121} + 11\\)",
           "options": [
             "23",
             "22",
@@ -85001,7 +85001,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (11 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((11 + 3) \\cdot 4 - 8\\)",
           "options": [
             "96",
             "49",
@@ -85013,7 +85013,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 11 = 33",
+          "question": "Tenglamani yeching: \\(2x + 11 = 33\\)",
           "options": [
             "11",
             "12",
@@ -85025,7 +85025,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{121} + 11",
+          "question": "Hisoblang: \\(\\(\\sqrt{121} + 11\\)",
           "options": [
             "23",
             "22",
@@ -85165,7 +85165,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (11 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((11 + 3) \\cdot 4 - 8\\)",
           "options": [
             "96",
             "49",
@@ -85177,7 +85177,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 11 = 33",
+          "question": "Tenglamani yeching: \\(2x + 11 = 33\\)",
           "options": [
             "11",
             "12",
@@ -85189,7 +85189,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{121} + 11",
+          "question": "Hisoblang: \\(\\(\\sqrt{121} + 11\\)",
           "options": [
             "23",
             "22",
@@ -85316,7 +85316,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (11 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((11 + 3) \\cdot 4 - 8\\)",
         "options": [
           "96",
           "49",
@@ -85328,7 +85328,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 11 = 33",
+        "question": "Tenglamani yeching: \\(2x + 11 = 33\\)",
         "options": [
           "11",
           "12",
@@ -85340,7 +85340,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{121} + 11",
+        "question": "Hisoblang: \\(\\(\\sqrt{121} + 11\\)",
         "options": [
           "23",
           "22",
@@ -85488,7 +85488,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -85500,7 +85500,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -85512,7 +85512,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -85652,7 +85652,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -85664,7 +85664,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -85676,7 +85676,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -85816,7 +85816,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+          "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
           "options": [
             "25",
             "24",
@@ -85828,7 +85828,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x + 5 = 15",
+          "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
           "options": [
             "4",
             "6",
@@ -85840,7 +85840,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\sqrt{25} + 5",
+          "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
           "options": [
             "20",
             "11",
@@ -85967,7 +85967,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (5 + 3) \\cdot 4 - 8",
+        "question": "Hisoblang: \\(\\((5 + 3) \\cdot 4 - 8\\)",
         "options": [
           "25",
           "24",
@@ -85979,7 +85979,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x + 5 = 15",
+        "question": "Tenglamani yeching: \\(2x + 5 = 15\\)",
         "options": [
           "4",
           "6",
@@ -85991,7 +85991,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\sqrt{25} + 5",
+        "question": "Hisoblang: \\(\\(\\sqrt{25} + 5\\)",
         "options": [
           "20",
           "11",
@@ -86139,7 +86139,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "450 sonining 20% ini hisoblang.",
+          "question": "Hisoblang: \\(\\(450 sonining 20% ini hisoblang.\\)",
           "options": [
             "89",
             "91",
@@ -86151,12 +86151,12 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tovarning narxi 80 000 so'm edi. U 15% ga arzonlashgach necha so'm bo'ldi?",
+          "question": "Hisoblang: \\(Tovarning narxi 80 000 so'm edi. U 15% ga arzonlashgach necha so'm bo'ldi?\\)",
           "options": [
-            "\\(0 0 \\text{ so'm}\\)",
+            "\\(68 000 \\text{ so'm}\\)",
             "\\(1 1 \\text{ so'm}\\)",
             "\\(-1 -1 \\text{ so'm}\\)",
-            "\\(68 000 \\text{ so'm}\\)"
+            "\\(0 0 \\text{ so'm}\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: 80000 - 80000 \\cdot 0.15 = 68000. Chegirma 12 000 so'm."
@@ -86303,7 +86303,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "450 sonining 20% ini hisoblang.",
+          "question": "Hisoblang: \\(\\(450 sonining 20% ini hisoblang.\\)",
           "options": [
             "89",
             "91",
@@ -86315,12 +86315,12 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tovarning narxi 80 000 so'm edi. U 15% ga arzonlashgach necha so'm bo'ldi?",
+          "question": "Hisoblang: \\(Tovarning narxi 80 000 so'm edi. U 15% ga arzonlashgach necha so'm bo'ldi?\\)",
           "options": [
-            "\\(0 0 \\text{ so'm}\\)",
+            "\\(68 000 \\text{ so'm}\\)",
             "\\(1 1 \\text{ so'm}\\)",
             "\\(-1 -1 \\text{ so'm}\\)",
-            "\\(68 000 \\text{ so'm}\\)"
+            "\\(0 0 \\text{ so'm}\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: 80000 - 80000 \\cdot 0.15 = 68000. Chegirma 12 000 so'm."
@@ -86467,7 +86467,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "450 sonining 20% ini hisoblang.",
+          "question": "Hisoblang: \\(\\(450 sonining 20% ini hisoblang.\\)",
           "options": [
             "89",
             "91",
@@ -86479,12 +86479,12 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tovarning narxi 80 000 so'm edi. U 15% ga arzonlashgach necha so'm bo'ldi?",
+          "question": "Hisoblang: \\(Tovarning narxi 80 000 so'm edi. U 15% ga arzonlashgach necha so'm bo'ldi?\\)",
           "options": [
-            "\\(0 0 \\text{ so'm}\\)",
+            "\\(68 000 \\text{ so'm}\\)",
             "\\(1 1 \\text{ so'm}\\)",
             "\\(-1 -1 \\text{ so'm}\\)",
-            "\\(68 000 \\text{ so'm}\\)"
+            "\\(0 0 \\text{ so'm}\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: 80000 - 80000 \\cdot 0.15 = 68000. Chegirma 12 000 so'm."
@@ -86618,7 +86618,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "450 sonining 20% ini hisoblang.",
+        "question": "Hisoblang: \\(\\(450 sonining 20% ini hisoblang.\\)",
         "options": [
           "89",
           "91",
@@ -86630,12 +86630,12 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tovarning narxi 80 000 so'm edi. U 15% ga arzonlashgach necha so'm bo'ldi?",
+        "question": "Hisoblang: \\(Tovarning narxi 80 000 so'm edi. U 15% ga arzonlashgach necha so'm bo'ldi?\\)",
         "options": [
-          "\\(0 0 \\text{ so'm}\\)",
+          "\\(68 000 \\text{ so'm}\\)",
           "\\(1 1 \\text{ so'm}\\)",
           "\\(-1 -1 \\text{ so'm}\\)",
-          "\\(68 000 \\text{ so'm}\\)"
+          "\\(0 0 \\text{ so'm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: 80000 - 80000 \\cdot 0.15 = 68000. Chegirma 12 000 so'm."
@@ -86796,31 +86796,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
           "options": [
-            "\\(x_6 = 6, x_6 = 6\\)",
+            "\\(x_1 = 2, x_2 = 6\\)",
             "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_4 = 4, x_4 = 4\\)",
-            "\\(x_10 = 10, x_10 = 10\\)"
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
           "options": [
-            "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-            "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 3, x_2 = 5\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+          "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
           "options": [
             "4",
             "3",
@@ -86960,31 +86960,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
           "options": [
-            "\\(x_6 = 6, x_6 = 6\\)",
+            "\\(x_1 = 2, x_2 = 6\\)",
             "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_4 = 4, x_4 = 4\\)",
-            "\\(x_10 = 10, x_10 = 10\\)"
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
           "options": [
-            "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-            "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 3, x_2 = 5\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+          "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
           "options": [
             "4",
             "3",
@@ -87124,31 +87124,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+          "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
           "options": [
-            "\\(x_6 = 6, x_6 = 6\\)",
+            "\\(x_1 = 2, x_2 = 6\\)",
             "\\(x_1 = 3, x_2 = 5\\)",
-            "\\(x_4 = 4, x_4 = 4\\)",
-            "\\(x_10 = 10, x_10 = 10\\)"
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+          "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
           "options": [
-            "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-            "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-            "\\(x_1 = 3, x_2 = 0.5\\)",
-            "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+            "\\(x_1 = 1, x_2 = 15\\)",
+            "\\(x_1 = 2, x_2 = 6\\)",
+            "\\(x_1 = 3, x_2 = 5\\)",
+            "\\(x_1 = -3, x_2 = -5\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
         },
         {
           "level": "hard",
-          "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+          "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
           "options": [
             "4",
             "3",
@@ -87275,31 +87275,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: x^2 - 8x + 15 = 0",
+        "question": "Tenglamani yeching: \\(x^2 - 8x + 15 = 0\\)",
         "options": [
-          "\\(x_6 = 6, x_6 = 6\\)",
+          "\\(x_1 = 2, x_2 = 6\\)",
           "\\(x_1 = 3, x_2 = 5\\)",
-          "\\(x_4 = 4, x_4 = 4\\)",
-          "\\(x_10 = 10, x_10 = 10\\)"
+          "\\(x_1 = 1, x_2 = 15\\)",
+          "\\(x_1 = -3, x_2 = -5\\)"
         ],
         "correctIndex": 1,
         "explanation": "Yechilishi: D = 64 - 60 = 4 \\implies x = \\frac{8 \\pm 2}{2}. Ildizlar: 3 va 5."
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 2x^2 - 7x + 3 = 0",
+        "question": "Tenglamani yeching: \\(2x^2 - 7x + 3 = 0\\)",
         "options": [
-          "\\(x_-0.5 = -0.5, x_-0.5 = -0.5\\)",
-          "\\(x_1.5 = 1.5, x_1.5 = 1.5\\)",
-          "\\(x_1 = 3, x_2 = 0.5\\)",
-          "\\(x_1.0 = 1.0, x_1.0 = 1.0\\)"
+          "\\(x_1 = 1, x_2 = 15\\)",
+          "\\(x_1 = 2, x_2 = 6\\)",
+          "\\(x_1 = 3, x_2 = 5\\)",
+          "\\(x_1 = -3, x_2 = -5\\)"
         ],
         "correctIndex": 2,
         "explanation": "Yechilishi: D = 49 - 24 = 25 \\implies x = \\frac{7 \\pm 5}{4}. Ildizlar: 3 va 1/2."
       },
       {
         "level": "hard",
-        "question": "Tenglamaning musbat ildizini toping: x^4 - 5x^2 + 4 = 0",
+        "question": "Tenglamani yeching: \\(x^4 - 5x^2 + 4 = 0\\)",
         "options": [
           "4",
           "3",
@@ -87503,31 +87503,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "4",
             "3",
@@ -87602,31 +87602,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "4",
             "3",
@@ -87751,31 +87751,31 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+          "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
           "options": [
-            "\\(\\frac{25}{25}\\)",
+            "\\(\\frac{17}{24}\\)",
             "\\(\\frac{19}{24}\\)",
-            "\\(\\frac{23}{23}\\)",
-            "\\(\\frac{48}{48}\\)"
+            "\\(\\frac{23}{24}\\)",
+            "\\(\\frac{19}{30}\\)"
           ],
           "correctIndex": 1,
           "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+          "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
           "options": [
-            "\\(\\frac{11}{11}\\)",
-            "\\(\\frac{13}{13}\\)",
+            "\\(\\frac{9}{12}\\)",
+            "\\(\\frac{3}{12}\\)",
             "\\(\\frac{5}{12}\\)",
-            "\\(\\frac{24}{24}\\)"
+            "\\(\\frac{5}{18}\\)"
           ],
           "correctIndex": 2,
           "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
         },
         {
           "level": "hard",
-          "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+          "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
           "options": [
             "4",
             "3",
@@ -87896,31 +87896,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\frac{3}{8} + \\frac{5}{12}",
+        "question": "Hisoblang: \\(\\(\\frac{3}{8} + \\frac{5}{12}\\)",
         "options": [
-          "\\(\\frac{25}{25}\\)",
+          "\\(\\frac{17}{24}\\)",
           "\\(\\frac{19}{24}\\)",
-          "\\(\\frac{23}{23}\\)",
-          "\\(\\frac{48}{48}\\)"
+          "\\(\\frac{23}{24}\\)",
+          "\\(\\frac{19}{30}\\)"
         ],
         "correctIndex": 1,
         "explanation": "Yechilishi: \\text{EKUK}(8, 12) = 24 \\implies \\frac{9 + 10}{24} = \\frac{19}{24}. Umumiy maxraj 24."
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\frac{7}{15} \\cdot \\frac{25}{28}",
+        "question": "Hisoblang: \\(\\(\\frac{7}{15} \\cdot \\frac{25}{28}\\)",
         "options": [
-          "\\(\\frac{11}{11}\\)",
-          "\\(\\frac{13}{13}\\)",
+          "\\(\\frac{9}{12}\\)",
+          "\\(\\frac{3}{12}\\)",
           "\\(\\frac{5}{12}\\)",
-          "\\(\\frac{24}{24}\\)"
+          "\\(\\frac{5}{18}\\)"
         ],
         "correctIndex": 2,
         "explanation": "Yechilishi: \\frac{1 \\cdot 5}{3 \\cdot 4} = \\frac{5}{12}. 7 va 28, 15 va 25 sonlari qisqartiriladi."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 2\\frac{1}{3} : 1\\frac{1}{6}",
+        "question": "Hisoblang: \\(\\(2\\frac{1}{3} : 1\\frac{1}{6}\\)",
         "options": [
           "4",
           "3",
@@ -88131,10 +88131,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -88155,8 +88155,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -88230,10 +88230,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -88254,8 +88254,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -88379,10 +88379,10 @@ const mathTopicsData = [
           "level": "basic",
           "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(4 \\text{ sm}^4\\)",
+            "\\(42 \\text{ sm}^2\\)",
             "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
-            "\\(42 \\text{ sm}^2\\)"
+            "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 3,
           "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -88403,8 +88403,8 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -88524,10 +88524,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Uchburchakning asosi a = 14 \\text{ sm}, balandligi h = 6 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(4 \\text{ sm}^4\\)",
+          "\\(42 \\text{ sm}^2\\)",
           "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
-          "\\(42 \\text{ sm}^2\\)"
+          "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 3,
         "explanation": "Yechilishi: S = \\frac{1}{2} \\cdot 14 \\cdot 6 = 42 \\text{ sm}^2. S = 1/2 * a * h."
@@ -88548,8 +88548,8 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -88769,8 +88769,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -88781,9 +88781,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -88868,8 +88868,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -88880,9 +88880,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -89017,8 +89017,8 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(3 \\text{ sm}^3\\)",
             "\\(50 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
             "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
@@ -89029,9 +89029,9 @@ const mathTopicsData = [
           "level": "hard",
           "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
           "options": [
-            "\\(1 \\text{ sm}^1\\)",
-            "\\(3 \\text{ sm}^3\\)",
             "\\(96 \\text{ sm}^2\\)",
+            "\\(3 \\text{ sm}^3\\)",
+            "\\(1 \\text{ sm}^1\\)",
             "\\(4 \\text{ sm}^4\\)"
           ],
           "correctIndex": 2,
@@ -89162,8 +89162,8 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Trapetsiyaning asoslari a = 12 \\text{ sm}, b = 8 \\text{ sm}, balandligi h = 5 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(3 \\text{ sm}^3\\)",
           "\\(50 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
           "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
@@ -89174,9 +89174,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning diagonallari d_1 = 12 \\text{ sm}, d_2 = 16 \\text{ sm}. Yuzini hisoblang.",
         "options": [
-          "\\(1 \\text{ sm}^1\\)",
-          "\\(3 \\text{ sm}^3\\)",
           "\\(96 \\text{ sm}^2\\)",
+          "\\(3 \\text{ sm}^3\\)",
+          "\\(1 \\text{ sm}^1\\)",
           "\\(4 \\text{ sm}^4\\)"
         ],
         "correctIndex": 2,
