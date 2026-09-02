@@ -1,7 +1,7 @@
 /**
  * M-LAB: Asosiy dastur mantig'i (O'zbek, Rus va Ingliz tillari 100% qo'llab-quvvatlanadi)
- * 100 ta to'liq darslar bazasi, 3 xil qiyinlikdagi misol turlari (Oddiy, O'rtacha, Qiyin),
- * 3 tadan mustaqil mashqlar (O'zingizni tekshiring), interaktiv formulalar va kalkulyatorlar.
+ * 108+ ta to'liq darslar bazasi, 3 xil qiyinlikdagi misol turlari (Oddiy, O'rtacha, Qiyin),
+ * 3 tadan mustaqil ishlash uchun AMALIY MISOLLAR (Yechim va javobni tekshirish), interaktiv formulalar va kalkulyatorlar.
  */
 
 // Ilova holati (State)
@@ -11,8 +11,9 @@ const AppState = {
   activeGrade: "all", // 'all' | '5' | '6' | '7' | '8' | '9' | '10' | '11'
   activeCategory: "all", // 'all' | 'algebra' | 'geometriya' | 'favorites'
   activeExampleLevelIndex: 0, // 0: basic, 1: medium, 2: hard
-  activeQuizIndex: 0, // 0, 1, 2 (Active practice question)
-  quizAnswers: {}, // { 0: { chosen: idx, correct: bool }, 1: ..., 2: ... }
+  activePracticeIndex: 0, // 0: basic practice, 1: medium practice, 2: hard practice
+  revealedPracticeSolutions: {}, // { "topicId_0": true, ... }
+  completedPracticeMap: {}, // { "topicId_0": true, ... }
   searchQuery: "",
   favorites: new Set(),
   theme: "light"
@@ -84,7 +85,7 @@ function getLocalizedTopic(topic) {
   if (topic[l]) {
     const loc = topic[l];
     const exs = loc.examples || (loc.example ? [loc.example] : topic.examples || [topic.example]);
-    const qs = loc.quizzes || (loc.quiz ? [loc.quiz] : topic.quizzes || [topic.quiz]);
+    const pExs = loc.practiceExercises || topic.practiceExercises || [];
     return {
       ...topic,
       title: loc.title || topic.title,
@@ -94,8 +95,8 @@ function getLocalizedTopic(topic) {
       steps: loc.steps || topic.steps,
       examples: exs,
       example: exs[AppState.activeExampleLevelIndex] || exs[0] || loc.example || topic.example,
-      quizzes: qs,
-      quiz: qs[AppState.activeQuizIndex] || qs[0] || loc.quiz || topic.quiz
+      practiceExercises: pExs,
+      practiceExercise: pExs[AppState.activePracticeIndex] || pExs[0]
     };
   }
   return topic;
@@ -432,8 +433,7 @@ function selectTopic(topicId) {
   AppState.currentTopicId = topicId;
   window.location.hash = topicId;
   AppState.activeExampleLevelIndex = 0; // reset to basic example
-  AppState.activeQuizIndex = 0; // reset to first practice question
-  AppState.quizAnswers = {}; // reset answers
+  AppState.activePracticeIndex = 0; // reset to 1st practice exercise
 
   renderSidebarList();
   renderTopicDetail(topicId);
@@ -469,21 +469,18 @@ function renderSolutionSteps(example) {
           </div>
         </div>
 
-        <!-- Expandable Detail Breakdown (Dark/Light Mode Optimized) -->
+        <!-- Expandable Detail Breakdown -->
         <div class="solution-step-body hidden mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/80 space-y-2.5 animate-fadeIn text-xs sm:text-sm">
-          <!-- Nega bunday qilindi box -->
           <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-300/50 dark:border-slate-700 text-slate-800 dark:text-slate-200 flex items-start space-x-2.5">
             <span class="text-amber-600 dark:text-amber-400 font-bold flex-shrink-0">${t("why_it_was_done", l)}</span>
             <span class="flex-1 font-medium leading-relaxed">${step.why}</span>
           </div>
 
-          <!-- Qanday hisoblandi box -->
           <div class="p-3.5 rounded-xl bg-emerald-500/10 dark:bg-slate-750 border border-emerald-300/50 dark:border-slate-700 text-slate-800 dark:text-slate-200 flex items-start space-x-2.5">
             <span class="text-emerald-600 dark:text-emerald-400 font-bold flex-shrink-0">${t("how_it_was_calculated", l)}</span>
             <span class="flex-1 font-medium leading-relaxed">${step.how}</span>
           </div>
 
-          <!-- Eslatma box -->
           ${step.tip ? `
             <div class="p-3 rounded-xl bg-rose-500/10 dark:bg-slate-750 text-rose-900 dark:text-rose-300 text-xs font-semibold flex items-center space-x-2 border border-rose-300/50 dark:border-slate-700">
               <span class="text-base flex-shrink-0">⚠️</span>
@@ -491,12 +488,6 @@ function renderSolutionSteps(example) {
             </div>
           ` : ''}
         </div>
-      </div>
-    `).join("");
-  } else if (example && example.solution) {
-    return example.solution.map((sol) => `
-      <div class="p-3.5 bg-white dark:bg-slate-800 rounded-xl text-xs sm:text-sm text-slate-700 dark:text-slate-200 font-medium border border-slate-200 dark:border-slate-700">
-        ${sol}
       </div>
     `).join("");
   }
@@ -531,13 +522,12 @@ function renderTopicDetail(topicId) {
   const examplesList = topic.examples || [topic.example];
   const currentExample = examplesList[AppState.activeExampleLevelIndex] || examplesList[0];
 
-  // 3 Practice Quizzes
-  const quizzesList = topic.quizzes || (topic.quiz ? [topic.quiz] : []);
-  const currentQuiz = quizzesList[AppState.activeQuizIndex] || quizzesList[0];
-
-  // Count correct answers for practice
-  const totalAnswered = Object.keys(AppState.quizAnswers).length;
-  const correctCount = Object.values(AppState.quizAnswers).filter(a => a && a.correct).length;
+  // 3 Practice Exercises
+  const practiceList = topic.practiceExercises || [];
+  const currentPractice = practiceList[AppState.activePracticeIndex] || practiceList[0] || currentExample;
+  const practiceKey = `${topic.id}_${AppState.activePracticeIndex}`;
+  const isRevealed = AppState.revealedPracticeSolutions[practiceKey];
+  const isDone = AppState.completedPracticeMap[practiceKey];
 
   let html = `
     <!-- 1. Header (Title, Grade, Actions) -->
@@ -778,107 +768,116 @@ function renderTopicDetail(topicId) {
       </div>
     ` : ''}
 
-    <!-- 7. O'zingizni tekshiring: 3 ta Mashq (Mini-Test) -->
+    <!-- 7. O'zingiz mustaqil ishlang (3 ta Amaliy Misol) -->
     <div class="space-y-4">
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
         <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
-          <span class="w-7 h-7 rounded-lg bg-purple-100 dark:bg-purple-950/60 text-purple-600 flex items-center justify-center font-bold text-sm">🎯</span>
-          <span>${t('quiz_heading', l)}</span>
+          <span class="w-7 h-7 rounded-lg bg-purple-100 dark:bg-purple-950/60 text-purple-600 flex items-center justify-center font-bold text-sm">✍️</span>
+          <span>${t('practice_heading', l)}</span>
         </h3>
         
-        <!-- Score and reset -->
-        <div class="flex items-center space-x-2">
-          <span class="text-xs font-bold px-3 py-1 rounded-xl bg-purple-100 dark:bg-purple-950/70 text-purple-700 dark:text-purple-300">
-            ${t('quiz_score_label', l)} ${correctCount} / ${quizzesList.length} ${correctCount === quizzesList.length ? '🏆' : '⭐️'}
-          </span>
-          <button id="quiz-reset-btn" class="text-xs font-bold text-slate-500 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-300 underline">
-            ${t('quiz_reset_btn', l)}
-          </button>
-        </div>
+        <span class="text-xs font-bold px-2.5 py-1 rounded-lg bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300">
+          📝 ${t('practice_badge', l)}
+        </span>
       </div>
 
-      <!-- 3 Practice Question Tabs -->
-      ${quizzesList.length > 1 ? `
-        <div class="flex items-center space-x-2 p-1.5 bg-slate-200/70 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="practice-quiz-tabs">
-          ${quizzesList.map((q, qIdx) => {
-            const isQActive = qIdx === AppState.activeQuizIndex;
-            const qAns = AppState.quizAnswers[qIdx];
-            const qLabel = qIdx === 0 ? t('quiz_q1_tab', l) : qIdx === 1 ? t('quiz_q2_tab', l) : t('quiz_q3_tab', l);
-            const statusBadge = qAns ? (qAns.correct ? ' ✅' : ' ❌') : '';
+      <!-- 3 Practice Tabs -->
+      ${practiceList.length > 1 ? `
+        <div class="flex items-center space-x-2 p-1.5 bg-slate-200/70 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="practice-exercise-tabs">
+          ${practiceList.map((p, pIdx) => {
+            const isPActive = pIdx === AppState.activePracticeIndex;
+            const pKey = `${topic.id}_${pIdx}`;
+            const pDone = AppState.completedPracticeMap[pKey];
+            const pLabel = pIdx === 0 ? t('practice_q1_tab', l) : pIdx === 1 ? t('practice_q2_tab', l) : t('practice_q3_tab', l);
+            const statusBadge = pDone ? ' ✅' : '';
             return `
               <button 
-                class="practice-tab-btn flex-1 min-w-[130px] py-2 px-3 rounded-xl text-xs font-black transition-all text-center ${
-                  isQActive 
+                class="practice-exercise-tab-btn flex-1 min-w-[130px] py-2 px-3 rounded-xl text-xs font-black transition-all text-center ${
+                  isPActive 
                     ? 'bg-purple-600 text-white shadow-sm' 
                     : 'text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 hover:text-purple-600 dark:hover:text-white font-bold'
                 }"
-                data-quiz-index="${qIdx}"
+                data-practice-index="${pIdx}"
               >
-                ${qLabel}${statusBadge}
+                ${pLabel}${statusBadge}
               </button>
             `;
           }).join("")}
         </div>
       ` : ''}
 
-      <!-- Active Practice Question Container -->
-      <div class="p-5 sm:p-6 rounded-2xl bg-purple-50/30 dark:bg-slate-800/60 border border-purple-200/70 dark:border-slate-700 space-y-4 animate-fadeIn">
+      <!-- Active Practice Exercise Card -->
+      <div class="p-5 sm:p-6 rounded-2xl bg-purple-50/40 dark:bg-slate-800/70 border border-purple-200/80 dark:border-slate-700 space-y-4 animate-fadeIn">
         <div class="flex items-center justify-between">
-          <span class="text-xs font-extrabold uppercase tracking-wider text-purple-700 dark:text-purple-300">
-            ${AppState.activeQuizIndex + 1}-SAVOL (3 TADAN):
+          <span class="inline-block text-xs font-bold uppercase tracking-wider text-purple-800 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/40 px-2.5 py-0.5 rounded-md">
+            ${currentPractice.title}
           </span>
-        </div>
-
-        <p class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed">
-          ${currentQuiz.question}
-        </p>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5" id="quiz-options-box">
-          ${currentQuiz.options.map((opt, idx) => {
-            const currentAns = AppState.quizAnswers[AppState.activeQuizIndex];
-            let optClass = "quiz-option-btn p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-left text-xs sm:text-sm font-medium text-slate-700 dark:text-slate-200 hover:border-brand-500 dark:hover:border-brand-400 transition flex items-center space-x-2.5 group";
-            
-            if (currentAns) {
-              if (idx === currentQuiz.correctIndex) {
-                optClass = "quiz-option-btn p-3 rounded-xl border border-emerald-500 bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 font-bold flex items-center space-x-2.5";
-              } else if (idx === currentAns.chosen && !currentAns.correct) {
-                optClass = "quiz-option-btn p-3 rounded-xl border border-red-500 bg-red-50 dark:bg-red-950/60 text-red-800 dark:text-red-300 font-medium flex items-center space-x-2.5";
-              } else {
-                optClass += " opacity-50";
-              }
-            }
-
-            return `
-              <button 
-                class="${optClass}"
-                data-option-index="${idx}"
-              >
-                <span class="w-6 h-6 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-bold text-xs flex items-center justify-center group-hover:bg-brand-600 group-hover:text-white transition">
-                  ${String.fromCharCode(65 + idx)}
-                </span>
-                <span class="flex-1">${opt}</span>
-              </button>
-            `;
-          }).join("")}
-        </div>
-
-        <div id="quiz-feedback-box" class="${AppState.quizAnswers[AppState.activeQuizIndex] ? '' : 'hidden'} text-xs sm:text-sm p-3.5 rounded-xl animate-fadeIn">
-          ${AppState.quizAnswers[AppState.activeQuizIndex] ? `
-            ${AppState.quizAnswers[AppState.activeQuizIndex].correct ? `
-              <div class="flex items-center space-x-2 font-bold mb-1 text-emerald-800 dark:text-emerald-300">
-                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i>
-                <span>${t("quiz_correct", l)}</span>
-              </div>
-              <div class="text-emerald-800 dark:text-emerald-200 font-medium">${currentQuiz.explanation}</div>
-            ` : `
-              <div class="flex items-center space-x-2 font-bold mb-1 text-red-800 dark:text-red-300">
-                <i data-lucide="alert-circle" class="w-4 h-4 text-red-600"></i>
-                <span>${t("quiz_incorrect", l)}</span>
-              </div>
-              <div class="text-red-800 dark:text-red-200 font-medium">${currentQuiz.explanation}</div>
-            `}
+          ${isDone ? `
+            <span class="text-xs font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-100 dark:bg-emerald-950/60 px-2.5 py-0.5 rounded-md flex items-center space-x-1">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+              <span>${t('practice_done_badge', l)}</span>
+            </span>
           ` : ''}
         </div>
+
+        <div class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-relaxed">
+          ${currentPractice.problem}
+        </div>
+
+        <!-- Hint block -->
+        <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-300/40 dark:border-slate-700 text-xs sm:text-sm text-slate-800 dark:text-slate-200 flex items-start space-x-2">
+          <span class="font-bold text-amber-600 dark:text-amber-400 flex-shrink-0">${t('practice_hint_title', l)}</span>
+          <span class="font-medium">${currentPractice.hint}</span>
+        </div>
+
+        <!-- Reveal solution & mark done actions -->
+        <div class="flex items-center justify-between flex-wrap gap-2 pt-2 border-t border-purple-200/50 dark:border-slate-700">
+          <button 
+            id="toggle-practice-solution-btn" 
+            class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-purple-600 hover:bg-purple-700 text-white transition shadow-sm flex items-center space-x-2"
+          >
+            <span>${isRevealed ? t('practice_hide_btn', l) : t('practice_reveal_btn', l)}</span>
+          </button>
+
+          <button 
+            id="mark-practice-done-btn" 
+            class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold border ${
+              isDone 
+                ? 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800' 
+                : 'border-slate-300 dark:border-slate-600 hover:bg-white dark:hover:bg-slate-750 text-slate-700 dark:text-slate-200'
+            } transition flex items-center space-x-1.5"
+          >
+            <i data-lucide="${isDone ? 'check-circle-2' : 'check'}" class="w-4 h-4 ${isDone ? 'text-emerald-600' : ''}"></i>
+            <span>${t('practice_done_btn', l)}</span>
+          </button>
+        </div>
+
+        <!-- Revealed Solution Section -->
+        <div id="practice-revealed-solution" class="${isRevealed ? '' : 'hidden'} space-y-3 pt-3 border-t border-purple-200/60 dark:border-slate-700 animate-fadeIn">
+          <h5 class="text-xs font-extrabold uppercase tracking-wider text-purple-900 dark:text-purple-300">
+            ${t('solution_steps_heading', l)}
+          </h5>
+
+          <div class="space-y-2.5">
+            ${(currentPractice.solution?.steps || currentPractice.solutionSteps || []).map((step, sIdx) => `
+              <div class="p-3.5 bg-white dark:bg-slate-800 rounded-xl border border-purple-200/70 dark:border-slate-700 space-y-1">
+                <div class="flex items-center space-x-2">
+                  <span class="w-5 h-5 rounded-md bg-purple-500 text-white font-black text-xs flex items-center justify-center">${sIdx + 1}</span>
+                  <span class="text-xs sm:text-sm font-bold text-slate-900 dark:text-white">${step.title}</span>
+                </div>
+                ${step.formula ? `<div class="text-xs sm:text-sm text-indigo-600 dark:text-indigo-300 font-bold py-1">\\[${step.formula}\\]</div>` : ''}
+                <div class="text-xs text-slate-600 dark:text-slate-300 font-medium">${step.why || step.explanation || step.how || ''}</div>
+              </div>
+            `).join("")}
+          </div>
+
+          <!-- Final Answer Banner -->
+          <div class="p-3.5 rounded-xl bg-emerald-500/15 dark:bg-emerald-950/60 border border-emerald-400/50 dark:border-emerald-800 text-emerald-900 dark:text-emerald-200 text-xs sm:text-sm font-bold flex items-center space-x-2">
+            <span class="text-base">🎯</span>
+            <span><strong>${t('practice_answer_heading', l)}</strong> ${currentPractice.solution?.answer || currentPractice.solutionSteps?.[currentPractice.solutionSteps?.length - 1]?.tip || 'Javob muvaffaqiyatli topildi.'}</span>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -923,19 +922,29 @@ function renderTopicDetail(topicId) {
     });
   });
 
-  // Practice Quiz tabs listeners
-  container.querySelectorAll(".practice-tab-btn").forEach(btn => {
+  // Practice tabs listeners
+  container.querySelectorAll(".practice-exercise-tab-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-      const idx = parseInt(btn.getAttribute("data-quiz-index"), 10);
-      AppState.activeQuizIndex = idx;
+      const idx = parseInt(btn.getAttribute("data-practice-index"), 10);
+      AppState.activePracticeIndex = idx;
       renderTopicDetail(topicId);
     });
   });
 
-  // Reset quiz button
-  document.getElementById("quiz-reset-btn")?.addEventListener("click", () => {
-    AppState.quizAnswers = {};
-    AppState.activeQuizIndex = 0;
+  // Toggle Practice Solution
+  document.getElementById("toggle-practice-solution-btn")?.addEventListener("click", () => {
+    const currentKey = `${topic.id}_${AppState.activePracticeIndex}`;
+    AppState.revealedPracticeSolutions[currentKey] = !AppState.revealedPracticeSolutions[currentKey];
+    renderTopicDetail(topicId);
+  });
+
+  // Mark Practice Done
+  document.getElementById("mark-practice-done-btn")?.addEventListener("click", () => {
+    const currentKey = `${topic.id}_${AppState.activePracticeIndex}`;
+    AppState.completedPracticeMap[currentKey] = !AppState.completedPracticeMap[currentKey];
+    if (AppState.completedPracticeMap[currentKey]) {
+      showToast(t("practice_done_badge", l), "success");
+    }
     renderTopicDetail(topicId);
   });
 
@@ -1003,8 +1012,6 @@ function renderTopicDetail(topicId) {
     if (calcContainer) calcConfig.init(calcContainer);
   }
 
-  initQuizListeners(currentQuiz, topicId);
-
   container.querySelectorAll(".copy-formula-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       const latex = btn.getAttribute("data-latex");
@@ -1038,35 +1045,6 @@ function renderTopicDetail(topicId) {
   });
 
   refreshLucide();
-}
-
-// ==========================================
-// 3 TA MUSTAQIL MASHQ (MINI-TEST) MANTIG'I
-// ==========================================
-function initQuizListeners(quiz, topicId) {
-  const optionsBox = document.getElementById("quiz-options-box");
-  const feedbackBox = document.getElementById("quiz-feedback-box");
-  if (!optionsBox || !feedbackBox) return;
-
-  const l = AppState.lang;
-
-  optionsBox.querySelectorAll(".quiz-option-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const currentIdx = AppState.activeQuizIndex;
-      if (AppState.quizAnswers[currentIdx]) return; // Already answered this question
-
-      const chosenIdx = parseInt(btn.getAttribute("data-option-index"), 10);
-      const isCorrect = chosenIdx === quiz.correctIndex;
-
-      AppState.quizAnswers[currentIdx] = {
-        chosen: chosenIdx,
-        correct: isCorrect
-      };
-
-      // Re-render topic to show updated state, checkmarks, score, and explanation
-      renderTopicDetail(topicId);
-    });
-  });
 }
 
 // ==========================================
