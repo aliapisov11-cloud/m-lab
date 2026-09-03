@@ -1857,6 +1857,33 @@ function initEventListeners() {
   mobileClose?.addEventListener("click", closeMobileSidebar);
   backdrop?.addEventListener("click", closeMobileSidebar);
 
+  // Mobil Bottom Navigation Bar tugmalari
+  document.getElementById("mobile-nav-lessons")?.addEventListener("click", () => {
+    openMobileSidebar();
+  });
+
+  document.getElementById("mobile-nav-test")?.addEventListener("click", () => {
+    closeMobileSidebar();
+    openTestWizard();
+  });
+
+  document.getElementById("mobile-nav-search")?.addEventListener("click", () => {
+    openMobileSidebar();
+    setTimeout(() => {
+      searchInput?.focus();
+    }, 200);
+  });
+
+  document.getElementById("mobile-nav-fav")?.addEventListener("click", () => {
+    AppState.onlyFavorites = !AppState.onlyFavorites;
+    renderSidebarList();
+    openMobileSidebar();
+  });
+
+  document.getElementById("mobile-nav-theme")?.addEventListener("click", () => {
+    toggleTheme();
+  });
+
   // Klaviatura qisqa klavishi (Ctrl+K qidiruv)
   document.addEventListener("keydown", (e) => {
     if ((e.ctrlKey || e.metaKey) && e.key === "k") {

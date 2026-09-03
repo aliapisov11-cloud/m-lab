@@ -138,3 +138,27 @@ body {
 .geom-shape-main:hover {
   stroke-width: 3;
 }
+
+/* Mobile Safe Area & Touch Optimizations */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .safe-area-bottom {
+    padding-bottom: calc(0.5rem + env(safe-area-inset-bottom)) !important;
+  }
+}
+
+/* Touch feedback for smartphones */
+@media (hover: none) {
+  button, .topic-sidebar-item, .lang-pill-btn, .grade-filter-btn {
+    -webkit-tap-highlight-color: transparent;
+  }
+  button:active, .topic-sidebar-item:active {
+    transform: scale(0.97);
+  }
+}
+
+/* Ensure math formulas never overflow on mobile */
+.formula-latex, .solution-step-card, .formula-card {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
