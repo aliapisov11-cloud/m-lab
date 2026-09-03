@@ -1341,41 +1341,58 @@ function startGeneratedTest() {
   }
 
   const selectedTopics = mathTopicsData.filter(t => selectedIds.includes(t.id));
-  let pool = [];
-
-  selectedTopics.forEach(rawTopic => {
+  
+  // Har bir tanlangan mavzuning savollarini guruhlaymiz
+  const topicQuestionBuckets = selectedTopics.map(rawTopic => {
     const topic = getLocalizedTopic(rawTopic);
-    const quizzes = topic.quizzes || (topic.quiz ? [topic.quiz] : []);
-    quizzes.forEach(q => {
-      pool.push({
-        topicId: topic.id,
-        topicTitle: topic.title,
-        gradeNumber: topic.gradeNumber,
-        category: topic.category,
-        question: q.question,
-        options: q.options,
-        correctIndex: q.correctIndex,
-        explanation: q.explanation
-      });
-    });
+    const quizzes = (topic.quizzes || (topic.quiz ? [topic.quiz] : [])).map(q => ({
+      topicId: topic.id,
+      topicTitle: topic.title,
+      gradeNumber: topic.gradeNumber,
+      category: topic.category,
+      question: q.question,
+      options: q.options,
+      correctIndex: q.correctIndex,
+      explanation: q.explanation,
+      level: q.level || "basic"
+    }));
+    return {
+      topicId: topic.id,
+      questions: quizzes.sort(() => Math.random() - 0.5)
+    };
   });
 
-  // Poolni aralashtiramiz (Shuffle) va 100% takrorlanmas savollarni tanlaymiz
-  pool.sort(() => Math.random() - 0.5);
+  // Mavzular tartibini tasodifiy aralashtiramiz
+  topicQuestionBuckets.sort(() => Math.random() - 0.5);
 
+  const desiredCount = AppState.testWizard.questionCount;
   const finalQuestions = [];
-  const seenQuestionTexts = new Set();
+  const seenQuestions = new Set();
 
-  for (const q of pool) {
-    const qClean = q.question.trim();
-    if (!seenQuestionTexts.has(qClean)) {
-      seenQuestionTexts.add(qClean);
-      finalQuestions.push(q);
-      if (finalQuestions.length >= AppState.testWizard.questionCount) {
-        break;
+  // Round-Robin (Har bir tanlangan mavzudan kamida 1 tadan turli darajadagi misol olish)
+  let round = 0;
+  let hasMoreQuestions = true;
+
+  while (finalQuestions.length < desiredCount && hasMoreQuestions) {
+    hasMoreQuestions = false;
+    for (const bucket of topicQuestionBuckets) {
+      if (finalQuestions.length >= desiredCount) break;
+
+      if (round < bucket.questions.length) {
+        const q = bucket.questions[round];
+        const qText = q.question.trim();
+        if (!seenQuestions.has(qText)) {
+          seenQuestions.add(qText);
+          finalQuestions.push(q);
+        }
+        hasMoreQuestions = true;
       }
     }
+    round++;
   }
+
+  // Yakuniy test savollarini aralashtiramiz (aralash qiziqarli tushishi uchun)
+  finalQuestions.sort(() => Math.random() - 0.5);
 
   AppState.activeTest = {
     questions: finalQuestions,
