@@ -526,7 +526,69 @@ function selectTopic(topicId) {
 }
 
 // ==========================================
-// MISOLLARNING BOSQICHMA-BOSQICH YECHILISHI (1, 2, 3-BOSQICHLAR)
+// AUDIO GAPIRIB TUSHUNTIRISH (TEXT-TO-SPEECH)
+// ==========================================
+let currentSpeechUtterance = null;
+let isSpeakingLesson = false;
+
+function toggleLessonSpeech(topic) {
+  if (!('speechSynthesis' in window)) {
+    showToast("Brauzeringiz ovozli eshittirishni qo'llab-quvvatlamaydi", "info");
+    return;
+  }
+
+  const btnText = document.getElementById("speak-btn-text");
+  const icon = document.getElementById("speak-icon");
+
+  if (isSpeakingLesson) {
+    window.speechSynthesis.cancel();
+    isSpeakingLesson = false;
+    if (btnText) btnText.textContent = "Ovozli eshitish";
+    if (icon) icon.className = "w-4 h-4 text-amber-600 dark:text-amber-400";
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+
+  // Matnni toza so'zlar bilan yig'amiz
+  let textToRead = `${topic.title}. ${topic.description.replace(/\\\[.*?\\\]/g, '').replace(/\\\(.*?\\\)/g, '').replace(/[\\_\$\^\{\}]/g, '')}. `;
+  
+  if (topic.examples && topic.examples.length > 0) {
+    const ex = topic.examples[AppState.activeExampleLevelIndex] || topic.examples[0];
+    const cleanProb = ex.problem.replace(/\\\[.*?\\\]/g, '').replace(/\\\(.*?\\\)/g, '').replace(/[\\_\$\^\{\}]/g, '');
+    textToRead += `Misol: ${cleanProb}. `;
+    if (ex.solutionSteps) {
+      ex.solutionSteps.forEach((s, idx) => {
+        textToRead += `${idx + 1}-bosqich: ${s.why}. `;
+      });
+    }
+  }
+
+  const utterance = new SpeechSynthesisUtterance(textToRead);
+  utterance.lang = AppState.lang === 'ru' ? 'ru-RU' : (AppState.lang === 'en' ? 'en-US' : 'uz-UZ');
+  utterance.rate = 0.95;
+
+  utterance.onstart = () => {
+    isSpeakingLesson = true;
+    if (btnText) btnText.textContent = "To'xtatish";
+  };
+
+  utterance.onend = () => {
+    isSpeakingLesson = false;
+    if (btnText) btnText.textContent = "Ovozli eshitish";
+  };
+
+  utterance.onerror = () => {
+    isSpeakingLesson = false;
+    if (btnText) btnText.textContent = "Ovozli eshitish";
+  };
+
+  currentSpeechUtterance = utterance;
+  window.speechSynthesis.speak(utterance);
+}
+
+// ==========================================
+// MISOLLARNING BOSQICHMA-BOSQICH YECHILISHI (TEPASIDA TUSHUNTIRISH, PASTIDA MISOLLAR)
 // ==========================================
 function renderSolutionSteps(example) {
   const l = AppState.lang;
@@ -545,7 +607,7 @@ function renderSolutionSteps(example) {
           : '🔴 3-bosqich: Uchinchi nima qilamiz & Natija';
 
       return `
-        <div class="solution-step-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700/80 p-4 sm:p-5 transition-all shadow-xs space-y-3">
+        <div class="solution-step-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700/80 p-4 sm:p-5 transition-all shadow-xs space-y-3.5">
           <div class="flex items-start justify-between gap-3">
             <div class="flex items-center space-x-3">
               <span class="w-7 h-7 rounded-xl ${stepColor} text-xs font-black flex items-center justify-center flex-shrink-0 shadow-xs">
@@ -562,21 +624,30 @@ function renderSolutionSteps(example) {
             </span>
           </div>
 
-          <!-- Tushuntirish matni -->
-          <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-750/70 border border-slate-200/70 dark:border-slate-700 text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed font-medium">
-            ${step.why}
+          <!-- TEPASIDA: O'qituvchi tili bilan qisqa va oson tushuntirish -->
+          <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-200/60 dark:border-slate-700 text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed font-medium flex items-start space-x-2.5">
+            <span class="text-base flex-shrink-0">🗣️</span>
+            <div>
+              <strong class="text-amber-800 dark:text-amber-300 block mb-0.5 text-xs font-extrabold">O'qituvchi maslahati:</strong>
+              <span>${step.why}</span>
+            </div>
           </div>
 
-          <!-- Formula / Matematik ko'rinishi -->
+          <!-- PASTIDA: Aniq misol va formulasi -->
           ${step.formula ? `
-            <div class="py-2.5 px-4 rounded-xl bg-indigo-50/50 dark:bg-indigo-950/40 border border-indigo-200/80 dark:border-indigo-900/60 text-center text-xs sm:text-base text-indigo-700 dark:text-indigo-300 font-bold overflow-x-auto">
-              \\[${step.formula}\\]
+            <div class="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-indigo-200/80 dark:border-indigo-900/60 space-y-1">
+              <span class="text-[11px] font-extrabold uppercase tracking-wide text-indigo-700 dark:text-indigo-400 block">
+                📐 Misoldagi amaliy ko'rinishi:
+              </span>
+              <div class="py-1 text-center text-xs sm:text-base text-indigo-600 dark:text-indigo-300 font-bold overflow-x-auto">
+                \\[${step.formula}\\]
+              </div>
             </div>
           ` : ''}
 
           <!-- Qanday bajarildi / Natijasi -->
           <div class="text-xs sm:text-sm text-emerald-700 dark:text-emerald-400 font-bold flex items-center space-x-2">
-            <span>👉</span>
+            <span>✅</span>
             <span>${step.how}</span>
           </div>
         </div>
@@ -646,7 +717,16 @@ function renderTopicDetail(topicId) {
       </div>
 
       <!-- Action Buttons -->
-      <div class="flex items-center space-x-2">
+      <div class="flex items-center space-x-2 flex-wrap gap-y-2">
+        <button 
+          id="detail-speak-btn" 
+          class="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl border border-amber-300 dark:border-amber-700 bg-amber-50 dark:bg-amber-950/40 hover:bg-amber-100 dark:hover:bg-amber-900/60 transition text-amber-800 dark:text-amber-200 shadow-2xs font-bold"
+          title="Darsni ovozli eshitish"
+        >
+          <i data-lucide="volume-2" class="w-4 h-4 text-amber-600 dark:text-amber-400" id="speak-icon"></i>
+          <span class="text-xs" id="speak-btn-text">Ovozli eshitish</span>
+        </button>
+
         <button 
           id="detail-fav-btn" 
           class="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-750 transition text-slate-700 dark:text-slate-200 shadow-2xs"
@@ -1055,6 +1135,10 @@ function renderTopicDetail(topicId) {
       const latex = btn.getAttribute("data-latex");
       copyToClipboard(latex, t("copied_toast", l));
     });
+  });
+
+  document.getElementById("detail-speak-btn")?.addEventListener("click", () => {
+    toggleLessonSpeech(topic);
   });
 
   document.getElementById("detail-fav-btn")?.addEventListener("click", (e) => {
