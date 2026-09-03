@@ -21,6 +21,20 @@ function safeRenderMath(element) {
   }
 }
 
+function formatMathText(str) {
+  if (!str) return "";
+  let text = String(str).trim();
+  if (text.includes("\\(") || text.includes("\\[")) return text;
+  if (/((\\[a-zA-Z]+)|(\^)|(_)|(\d+\s*[\+\-\*\/]\s*\d+))/.test(text)) {
+    if (text.includes(":")) {
+      const parts = text.split(":");
+      return `${parts[0]}: \\(${parts.slice(1).join(":").trim()}\\)`;
+    }
+    return `\\(${text}\\)`;
+  }
+  return text;
+}
+
 // Ilova holati (State)
 const AppState = {
   lang: localStorage.getItem("m_lab_lang") || "uz", // 'uz' | 'ru' | 'en'
@@ -526,68 +540,6 @@ function selectTopic(topicId) {
 }
 
 // ==========================================
-// AUDIO GAPIRIB TUSHUNTIRISH (TEXT-TO-SPEECH)
-// ==========================================
-let currentSpeechUtterance = null;
-let isSpeakingLesson = false;
-
-function toggleLessonSpeech(topic) {
-  if (!('speechSynthesis' in window)) {
-    showToast("Brauzeringiz ovozli eshittirishni qo'llab-quvvatlamaydi", "info");
-    return;
-  }
-
-  const btnText = document.getElementById("speak-btn-text");
-  const icon = document.getElementById("speak-icon");
-
-  if (isSpeakingLesson) {
-    window.speechSynthesis.cancel();
-    isSpeakingLesson = false;
-    if (btnText) btnText.textContent = "Ovozli eshitish";
-    if (icon) icon.className = "w-4 h-4 text-amber-600 dark:text-amber-400";
-    return;
-  }
-
-  window.speechSynthesis.cancel();
-
-  // Matnni toza so'zlar bilan yig'amiz
-  let textToRead = `${topic.title}. ${topic.description.replace(/\\\[.*?\\\]/g, '').replace(/\\\(.*?\\\)/g, '').replace(/[\\_\$\^\{\}]/g, '')}. `;
-  
-  if (topic.examples && topic.examples.length > 0) {
-    const ex = topic.examples[AppState.activeExampleLevelIndex] || topic.examples[0];
-    const cleanProb = ex.problem.replace(/\\\[.*?\\\]/g, '').replace(/\\\(.*?\\\)/g, '').replace(/[\\_\$\^\{\}]/g, '');
-    textToRead += `Misol: ${cleanProb}. `;
-    if (ex.solutionSteps) {
-      ex.solutionSteps.forEach((s, idx) => {
-        textToRead += `${idx + 1}-bosqich: ${s.why}. `;
-      });
-    }
-  }
-
-  const utterance = new SpeechSynthesisUtterance(textToRead);
-  utterance.lang = AppState.lang === 'ru' ? 'ru-RU' : (AppState.lang === 'en' ? 'en-US' : 'uz-UZ');
-  utterance.rate = 0.95;
-
-  utterance.onstart = () => {
-    isSpeakingLesson = true;
-    if (btnText) btnText.textContent = "To'xtatish";
-  };
-
-  utterance.onend = () => {
-    isSpeakingLesson = false;
-    if (btnText) btnText.textContent = "Ovozli eshitish";
-  };
-
-  utterance.onerror = () => {
-    isSpeakingLesson = false;
-    if (btnText) btnText.textContent = "Ovozli eshitish";
-  };
-
-  currentSpeechUtterance = utterance;
-  window.speechSynthesis.speak(utterance);
-}
-
-// ==========================================
 // MISOLLARNING BOSQICHMA-BOSQICH YECHILISHI (TEPASIDA TUSHUNTIRISH, PASTIDA MISOLLAR)
 // ==========================================
 function renderSolutionSteps(example) {
@@ -719,15 +671,6 @@ function renderTopicDetail(topicId) {
       <!-- Action Buttons -->
       <div class="flex items-center space-x-2 flex-wrap gap-y-2">
         <button 
-          id="detail-speak-btn" 
-          class="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl border border-amber-300 dark:border-amber-700 bg-amber-50 dark:bg-amber-950/40 hover:bg-amber-100 dark:hover:bg-amber-900/60 transition text-amber-800 dark:text-amber-200 shadow-2xs font-bold"
-          title="Darsni ovozli eshitish"
-        >
-          <i data-lucide="volume-2" class="w-4 h-4 text-amber-600 dark:text-amber-400" id="speak-icon"></i>
-          <span class="text-xs" id="speak-btn-text">Ovozli eshitish</span>
-        </button>
-
-        <button 
           id="detail-fav-btn" 
           class="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-750 transition text-slate-700 dark:text-slate-200 shadow-2xs"
           title="${t('save_btn', l)}"
@@ -846,7 +789,7 @@ function renderTopicDetail(topicId) {
               ${currentExample.title}
             </span>
             <div class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed">
-              ${currentExample.problem}
+              ${formatMathText(currentExample.problem)}
             </div>
           </div>
         </div>
@@ -939,13 +882,13 @@ function renderTopicDetail(topicId) {
         </div>
 
         <div class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-relaxed">
-          ${currentPractice.problem}
+          ${formatMathText(currentPractice.problem)}
         </div>
 
         <!-- Hint block -->
         <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-300/40 dark:border-slate-700 text-xs sm:text-sm text-slate-800 dark:text-slate-200 flex items-start space-x-2">
           <span class="font-bold text-amber-600 dark:text-amber-400 flex-shrink-0">${t('practice_hint_title', l)}</span>
-          <span class="font-medium">${currentPractice.hint}</span>
+          <span class="font-medium">${formatMathText(currentPractice.hint)}</span>
         </div>
 
         <!-- Reveal solution & mark done actions -->
@@ -984,7 +927,7 @@ function renderTopicDetail(topicId) {
                   <span class="text-xs sm:text-sm font-bold text-slate-900 dark:text-white">${step.title}</span>
                 </div>
                 ${step.formula ? `<div class="text-xs sm:text-sm text-indigo-600 dark:text-indigo-300 font-bold py-1">\\[${step.formula}\\]</div>` : ''}
-                <div class="text-xs text-slate-600 dark:text-slate-300 font-medium">${step.why || step.explanation || step.how || ''}</div>
+                <div class="text-xs text-slate-600 dark:text-slate-300 font-medium">${formatMathText(step.why || step.explanation || step.how || '')}</div>
               </div>
             `).join("")}
           </div>
@@ -992,7 +935,7 @@ function renderTopicDetail(topicId) {
           <!-- Final Answer Banner -->
           <div class="p-3.5 rounded-xl bg-emerald-500/15 dark:bg-emerald-950/60 border border-emerald-400/50 dark:border-emerald-800 text-emerald-900 dark:text-emerald-200 text-xs sm:text-sm font-bold flex items-center space-x-2">
             <span class="text-base">🎯</span>
-            <span><strong>${t('practice_answer_heading', l)}</strong> ${currentPractice.solution?.answer || currentPractice.solutionSteps?.[currentPractice.solutionSteps?.length - 1]?.tip || 'Javob muvaffaqiyatli topildi.'}</span>
+            <span><strong>${t('practice_answer_heading', l)}</strong> ${formatMathText(currentPractice.solution?.answer || currentPractice.solutionSteps?.[currentPractice.solutionSteps?.length - 1]?.tip || 'Javob muvaffaqiyatli topildi.')}</span>
           </div>
         </div>
 
@@ -1135,10 +1078,6 @@ function renderTopicDetail(topicId) {
       const latex = btn.getAttribute("data-latex");
       copyToClipboard(latex, t("copied_toast", l));
     });
-  });
-
-  document.getElementById("detail-speak-btn")?.addEventListener("click", () => {
-    toggleLessonSpeech(topic);
   });
 
   document.getElementById("detail-fav-btn")?.addEventListener("click", (e) => {
