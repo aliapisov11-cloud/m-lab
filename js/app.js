@@ -526,54 +526,62 @@ function selectTopic(topicId) {
 }
 
 // ==========================================
-// MISOLLARNING BOSQICHMA-BOSQICH YECHILISHI
+// MISOLLARNING BOSQICHMA-BOSQICH YECHILISHI (1, 2, 3-BOSQICHLAR)
 // ==========================================
 function renderSolutionSteps(example) {
   const l = AppState.lang;
   if (example && example.solutionSteps && example.solutionSteps.length > 0) {
-    return example.solutionSteps.map((step, idx) => `
-      <div class="solution-step-card bg-white dark:bg-slate-800 rounded-2xl border border-amber-200/90 dark:border-slate-700 p-4 transition-all shadow-xs hover:border-amber-400 dark:hover:border-amber-500">
-        <div class="flex items-center justify-between cursor-pointer solution-step-header" data-step-index="${idx}">
-          <div class="flex items-center space-x-3 flex-1 min-w-0">
-            <span class="w-7 h-7 rounded-xl bg-amber-500 text-white text-xs font-black flex items-center justify-center flex-shrink-0 shadow-xs">
-              ${step.stepNumber}
-            </span>
-            <div class="min-w-0 flex-1">
-              <h5 class="text-xs sm:text-sm font-bold text-slate-900 dark:text-slate-100">
-                ${step.title}
-              </h5>
-              <div class="text-xs sm:text-sm text-indigo-600 dark:text-indigo-300 font-bold mt-0.5">
-                \\[${step.formula}\\]
+    return example.solutionSteps.map((step, idx) => {
+      const stepColor = idx === 0 
+        ? 'bg-emerald-600 text-white' 
+        : idx === 1 
+          ? 'bg-amber-600 text-white' 
+          : 'bg-indigo-600 text-white';
+
+      const stepHeadingBadge = idx === 0
+        ? '🟢 1-bosqich: Birinchi nima qilamiz?'
+        : idx === 1
+          ? '🟡 2-bosqich: Ikkinchi nima qilamiz?'
+          : '🔴 3-bosqich: Uchinchi nima qilamiz & Natija';
+
+      return `
+        <div class="solution-step-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700/80 p-4 sm:p-5 transition-all shadow-xs space-y-3">
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex items-center space-x-3">
+              <span class="w-7 h-7 rounded-xl ${stepColor} text-xs font-black flex items-center justify-center flex-shrink-0 shadow-xs">
+                ${step.stepNumber}
+              </span>
+              <div>
+                <h5 class="text-xs sm:text-sm font-black text-slate-900 dark:text-white">
+                  ${step.title}
+                </h5>
               </div>
             </div>
-          </div>
-          <div class="flex items-center space-x-1 text-xs font-bold text-amber-800 dark:text-amber-300 bg-amber-100/90 dark:bg-amber-950/70 px-2.5 py-1 rounded-xl flex-shrink-0 ml-2 hover:bg-amber-200 dark:hover:bg-amber-900 transition">
-            <span class="text-[11px] hidden sm:inline">${t("why_and_how_btn", l)}</span>
-            <i data-lucide="chevron-down" class="w-3.5 h-3.5 transition-transform duration-200 sol-chevron"></i>
-          </div>
-        </div>
-
-        <!-- Expandable Detail Breakdown -->
-        <div class="solution-step-body hidden mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/80 space-y-2.5 animate-fadeIn text-xs sm:text-sm">
-          <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-300/50 dark:border-slate-700 text-slate-800 dark:text-slate-200 flex items-start space-x-2.5">
-            <span class="text-amber-600 dark:text-amber-400 font-bold flex-shrink-0">${t("why_it_was_done", l)}</span>
-            <span class="flex-1 font-medium leading-relaxed">${step.why}</span>
+            <span class="text-[11px] font-extrabold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-750 text-slate-700 dark:text-slate-300">
+              ${stepHeadingBadge}
+            </span>
           </div>
 
-          <div class="p-3.5 rounded-xl bg-emerald-500/10 dark:bg-slate-750 border border-emerald-300/50 dark:border-slate-700 text-slate-800 dark:text-slate-200 flex items-start space-x-2.5">
-            <span class="text-emerald-600 dark:text-emerald-400 font-bold flex-shrink-0">${t("how_it_was_calculated", l)}</span>
-            <span class="flex-1 font-medium leading-relaxed">${step.how}</span>
+          <!-- Tushuntirish matni -->
+          <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-750/70 border border-slate-200/70 dark:border-slate-700 text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed font-medium">
+            ${step.why}
           </div>
 
-          ${step.tip ? `
-            <div class="p-3 rounded-xl bg-rose-500/10 dark:bg-slate-750 text-rose-900 dark:text-rose-300 text-xs font-semibold flex items-center space-x-2 border border-rose-300/50 dark:border-slate-700">
-              <span class="text-base flex-shrink-0">⚠️</span>
-              <span><strong>${t("note_label", l)}</strong> ${step.tip}</span>
+          <!-- Formula / Matematik ko'rinishi -->
+          ${step.formula ? `
+            <div class="py-2.5 px-4 rounded-xl bg-indigo-50/50 dark:bg-indigo-950/40 border border-indigo-200/80 dark:border-indigo-900/60 text-center text-xs sm:text-base text-indigo-700 dark:text-indigo-300 font-bold overflow-x-auto">
+              \\[${step.formula}\\]
             </div>
           ` : ''}
+
+          <!-- Qanday bajarildi / Natijasi -->
+          <div class="text-xs sm:text-sm text-emerald-700 dark:text-emerald-400 font-bold flex items-center space-x-2">
+            <span>👉</span>
+            <span>${step.how}</span>
+          </div>
         </div>
-      </div>
-    `).join("");
+      `;
+    }).join("");
   }
   return "";
 }
@@ -711,65 +719,15 @@ function renderTopicDetail(topicId) {
       </div>
     </div>
 
-    <!-- 4. Qadam-baqadam yo'riqnoma -->
-    <div class="space-y-4">
-      <div class="flex items-center justify-between">
-        <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
-          <span class="w-7 h-7 rounded-lg bg-brand-100 dark:bg-brand-950/60 text-brand-600 flex items-center justify-center font-bold text-sm">📝</span>
-          <span>${t('how_to_solve_title', l)}</span>
-        </h3>
-        <span class="text-xs text-brand-600 dark:text-brand-400 font-semibold hidden sm:inline">
-          ${t('click_for_simpler', l)}
-        </span>
-      </div>
-
-      <div class="space-y-3">
-        ${topic.steps.map(s => `
-          <div class="step-card group p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700/80 shadow-xs transition-all hover:border-brand-300 dark:hover:border-brand-600">
-            <div class="flex items-start justify-between cursor-pointer step-toggle-header" data-step-id="${s.step}">
-              <div class="flex items-start space-x-3.5 flex-1">
-                <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-600 text-white font-black text-sm flex items-center justify-center flex-shrink-0 shadow-sm">
-                  ${s.step}
-                </div>
-                <div class="flex-1">
-                  <h4 class="text-sm font-bold text-slate-900 dark:text-white mb-0.5">
-                    ${s.title}
-                  </h4>
-                  <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                    ${s.desc}
-                  </p>
-                </div>
-              </div>
-              <div class="ml-2 flex items-center space-x-1 text-xs font-bold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-slate-700/60 px-2.5 py-1 rounded-xl flex-shrink-0 group-hover:bg-brand-100 transition">
-                <span class="text-[11px] hidden sm:inline">${t('explain_simpler_btn', l)}</span>
-                <i data-lucide="chevron-down" class="w-3.5 h-3.5 transition-transform duration-200 step-chevron"></i>
-              </div>
-            </div>
-
-            <!-- Super Simple Expandable Breakdown -->
-            <div class="super-simple-panel hidden mt-3 pt-3 border-t border-amber-100 dark:border-slate-700/80 animate-fadeIn">
-              <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-300/50 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed flex items-start space-x-2.5">
-                <span class="text-lg flex-shrink-0">🐣</span>
-                <div>
-                  <span class="font-bold text-amber-700 dark:text-amber-400 block mb-0.5">${t('child_friendly_title', l)}</span>
-                  <span>${s.superSimple || s.desc}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        `).join("")}
-      </div>
-    </div>
-
-    <!-- 5. Hayotiy Misollar va Masalalar Turlari (Oddiy, O'rtacha, Qiyin) -->
+    <!-- 4. Formulaning amalda qo'llanilishi: Bosqichma-bosqich misol yechish -->
     <div class="space-y-4">
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
         <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
-          <span class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-600 flex items-center justify-center font-bold text-sm">🌟</span>
-          <span>${t('example_title', l)}</span>
+          <span class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-600 flex items-center justify-center font-bold text-sm">📌</span>
+          <span>Formulaning amalda qo'llanilishi — Bosqichma-bosqich misol</span>
         </h3>
         <span class="text-xs text-amber-700 dark:text-amber-300 font-bold bg-amber-100 dark:bg-amber-950/70 px-2.5 py-1 rounded-xl self-start sm:self-auto">
-          ${t('click_steps_hint', l)}
+          1, 2, 3-bosqichli oson yo'riqnoma
         </span>
       </div>
 
@@ -778,7 +736,7 @@ function renderTopicDetail(topicId) {
         <div class="flex items-center space-x-2 p-1.5 bg-slate-200/70 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="example-level-tabs">
           ${examplesList.map((ex, exIdx) => {
             const isLevelActive = exIdx === AppState.activeExampleLevelIndex;
-            const levelLabel = exIdx === 0 ? t('level_basic', l) : exIdx === 1 ? t('level_medium', l) : t('level_hard', l);
+            const levelLabel = exIdx === 0 ? "🟢 1-tur: Oddiy misol" : exIdx === 1 ? "🟡 2-tur: O'rtacha misol" : "🔴 3-tur: Qiyinroq misol";
             const activeColorClass = exIdx === 0 
               ? 'bg-emerald-600 text-white shadow-sm' 
               : exIdx === 1 
@@ -802,25 +760,21 @@ function renderTopicDetail(topicId) {
 
       <!-- Active Example Container -->
       <div class="p-5 sm:p-6 rounded-2xl bg-amber-50/40 dark:bg-slate-800/60 border border-amber-200/80 dark:border-slate-700 space-y-4 animate-fadeIn" id="current-example-wrapper">
-        <div>
-          <div class="flex items-center justify-between mb-2">
-            <span class="inline-block text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/40 px-2.5 py-0.5 rounded-md">
+        <div class="flex items-start justify-between gap-3">
+          <div>
+            <span class="inline-block text-[11px] font-extrabold uppercase tracking-wider text-amber-900 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/50 px-2.5 py-0.5 rounded-md mb-1.5">
               ${currentExample.title}
             </span>
-          </div>
-          <div class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed">
-            ${currentExample.problem}
+            <div class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed">
+              ${currentExample.problem}
+            </div>
           </div>
         </div>
 
+        <!-- 3 Bosqichli Mukammal Yo'riqnoma -->
         <div class="pt-4 border-t border-amber-200/60 dark:border-slate-700 space-y-3">
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-extrabold uppercase tracking-wider text-amber-900 dark:text-amber-300">
-              ${t('solution_steps_heading', l)}
-            </span>
-            <button id="toggle-all-solution-btn" class="text-xs font-bold text-brand-600 dark:text-brand-400 hover:underline">
-              ${t('toggle_all_steps', l)}
-            </button>
+          <div class="text-xs font-black uppercase tracking-wider text-amber-950 dark:text-amber-300 flex items-center space-x-1.5">
+            <span>👇 Misolni yechish bosqichlari (1, 2, 3 va Natija):</span>
           </div>
 
           <div class="space-y-3" id="solution-steps-list">
