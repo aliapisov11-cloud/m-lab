@@ -1432,7 +1432,7 @@ function renderTestRunner() {
     <!-- Question Box -->
     <div class="p-6 sm:p-8 rounded-3xl bg-purple-50/30 dark:bg-slate-800/60 border border-purple-200/70 dark:border-slate-700 space-y-6">
       <div class="text-base sm:text-xl font-bold text-slate-900 dark:text-white leading-relaxed">
-        ${currentQ.question}
+        ${formatMathText(currentQ.question)}
       </div>
 
       <!-- Options List -->
@@ -1455,7 +1455,7 @@ function renderTestRunner() {
               }">
                 ${String.fromCharCode(65 + idx)}
               </span>
-              <span class="flex-1">${opt}</span>
+              <span class="flex-1">${formatMathText(opt)}</span>
             </button>
           `;
         }).join("")}
@@ -1664,7 +1664,7 @@ function renderTestResults() {
               </div>
 
               <div class="text-sm sm:text-base font-bold text-slate-900 dark:text-white mb-3">
-                ${q.question}
+                ${formatMathText(q.question)}
               </div>
 
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-semibold mb-3">
@@ -1673,19 +1673,19 @@ function renderTestResults() {
                     ? 'bg-emerald-100/70 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-200' 
                     : 'bg-rose-100/70 dark:bg-rose-950/60 text-rose-800 dark:text-rose-200'
                 }">
-                  ${t('your_answer_label', l)} <strong>${userAns !== undefined ? q.options[userAns] : t('unanswered_label', l)}</strong>
+                  ${t('your_answer_label', l)} <strong>${userAns !== undefined ? formatMathText(q.options[userAns]) : t('unanswered_label', l)}</strong>
                 </div>
 
                 ${!isCorrect ? `
                   <div class="p-2.5 rounded-xl bg-emerald-100/70 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-200">
-                    ${t('correct_answer_label', l)} <strong>${q.options[q.correctIndex]}</strong>
+                    ${t('correct_answer_label', l)} <strong>${formatMathText(q.options[q.correctIndex])}</strong>
                   </div>
                 ` : ''}
               </div>
 
               <!-- Detailed Explanation -->
               <div class="p-3 rounded-xl bg-slate-100 dark:bg-slate-750 text-xs sm:text-sm text-slate-700 dark:text-slate-200 leading-relaxed">
-                <strong>💡 Tushuntirish:</strong> ${q.explanation}
+                <strong>💡 Tushuntirish:</strong> ${formatMathText(q.explanation)}
               </div>
             </div>
           `;

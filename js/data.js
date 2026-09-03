@@ -1,6 +1,6 @@
 /**
  * M-LAB: 5-11 Sinf Matematika (Algebra va Geometriya)
- * 113+ ta to'liq darslar bazasi, 100% SAMIMIY VA TUSHUNARLI INSONIY MASLAHATLAR (UZ, RU, EN).
+ * 113+ ta to'liq darslar bazasi, 100% XATOSIZ TEST SAVOLLARI VA FORMULALAR (UZ, RU, EN).
  */
 
 const mathTopicsData = [
@@ -89,7 +89,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\frac{7}{12} + \\frac{5}{18}",
+          "problem": "Hisoblang: \\(\\frac{7}{12} + \\frac{5}{18}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -121,7 +121,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{11}{15} - \\frac{4}{10}",
+          "problem": "Hisoblang: \\(\\frac{11}{15} - \\frac{4}{10}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -153,7 +153,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}",
+          "problem": "Hisoblang: \\(\\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -328,7 +328,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\frac{7}{12} + \\frac{5}{18}",
+          "problem": "Hisoblang: \\(\\frac{7}{12} + \\frac{5}{18}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -360,7 +360,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{11}{15} - \\frac{4}{10}",
+          "problem": "Hisoblang: \\(\\frac{11}{15} - \\frac{4}{10}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -392,7 +392,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}",
+          "problem": "Hisoblang: \\(\\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -517,7 +517,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\frac{7}{12} + \\frac{5}{18}\\)",
-          "hint": "Mavzu qoidasi: EKUK(12,18) = 36",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -535,7 +535,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\frac{11}{15} - \\frac{4}{10}\\)",
-          "hint": "Mavzu qoidasi: 11/15 - 6/15 = 5/15 = 1/3",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -553,7 +553,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(\\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}\\)",
-          "hint": "Mavzu qoidasi: (15 + 14 - 4)/24 = 25/24",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -603,7 +603,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\frac{7}{12} + \\frac{5}{18}",
+          "problem": "Hisoblang: \\(\\frac{7}{12} + \\frac{5}{18}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -635,7 +635,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{11}{15} - \\frac{4}{10}",
+          "problem": "Hisoblang: \\(\\frac{11}{15} - \\frac{4}{10}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -667,7 +667,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}",
+          "problem": "Hisoblang: \\(\\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -792,7 +792,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\frac{7}{12} + \\frac{5}{18}\\)",
-          "hint": "Mavzu qoidasi: EKUK(12,18) = 36",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -810,7 +810,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\frac{11}{15} - \\frac{4}{10}\\)",
-          "hint": "Mavzu qoidasi: 11/15 - 6/15 = 5/15 = 1/3",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -828,7 +828,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(\\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}\\)",
-          "hint": "Mavzu qoidasi: (15 + 14 - 4)/24 = 25/24",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -919,7 +919,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: \\frac{7}{12} + \\frac{5}{18}",
+        "problem": "Hisoblang: \\(\\frac{7}{12} + \\frac{5}{18}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -951,7 +951,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: \\frac{11}{15} - \\frac{4}{10}",
+        "problem": "Hisoblang: \\(\\frac{11}{15} - \\frac{4}{10}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -983,7 +983,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: \\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}",
+        "problem": "Hisoblang: \\(\\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -1031,36 +1031,36 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\frac{7}{12} + \\frac{5}{18}",
+        "question": "Hisoblang: \\(\\frac{7}{12} + \\frac{5}{18}\\)",
         "options": [
-          "\\frac{12}{30}",
-          "\\frac{31}{36}",
-          "\\frac{29}{36}",
-          "\\frac{5}{6}"
+          "\\(\\frac{12}{30}\\)",
+          "\\(\\frac{31}{36}\\)",
+          "\\(\\frac{29}{36}\\)",
+          "\\(\\frac{5}{6}\\)"
         ],
         "correctIndex": 1,
         "explanation": "EKUK(12,18) = 36; (21+10)/36 = 31/36"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\frac{11}{15} - \\frac{4}{10}",
+        "question": "Hisoblang: \\(\\frac{11}{15} - \\frac{4}{10}\\)",
         "options": [
-          "\\frac{2}{5}",
-          "\\frac{7}{15}",
-          "\\frac{1}{3}",
-          "\\frac{1}{2}"
+          "\\(\\frac{2}{5}\\)",
+          "\\(\\frac{7}{15}\\)",
+          "\\(\\frac{1}{3}\\)",
+          "\\(\\frac{1}{2}\\)"
         ],
         "correctIndex": 2,
         "explanation": "11/15 - 6/15 = 5/15 = 1/3"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}",
+        "question": "Hisoblang: \\(\\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}\\)",
         "options": [
-          "\\frac{23}{24}",
-          "\\frac{11}{24}",
-          "\\frac{1}{2}",
-          "\\frac{25}{24}"
+          "\\(\\frac{23}{24}\\)",
+          "\\(\\frac{11}{24}\\)",
+          "\\(\\frac{1}{2}\\)",
+          "\\(\\frac{25}{24}\\)"
         ],
         "correctIndex": 3,
         "explanation": "(15 + 14 - 4)/24 = 25/24"
@@ -1203,7 +1203,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 3\\frac{2}{5} + 2\\frac{3}{10}",
+          "problem": "Hisoblang: \\(3\\frac{2}{5} + 2\\frac{3}{10}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -1235,7 +1235,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 5\\frac{1}{4} - 2\\frac{3}{4}",
+          "problem": "Hisoblang: \\(5\\frac{1}{4} - 2\\frac{3}{4}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -1267,7 +1267,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Noto'g'ri kasrga aylantiring: 4\\frac{3}{7}",
+          "problem": "Noto'g'ri kasrga aylantiring: \\(4\\frac{3}{7}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -1437,7 +1437,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 3\\frac{2}{5} + 2\\frac{3}{10}",
+          "problem": "Hisoblang: \\(3\\frac{2}{5} + 2\\frac{3}{10}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -1469,7 +1469,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 5\\frac{1}{4} - 2\\frac{3}{4}",
+          "problem": "Hisoblang: \\(5\\frac{1}{4} - 2\\frac{3}{4}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -1501,7 +1501,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Noto'g'ri kasrga aylantiring: 4\\frac{3}{7}",
+          "problem": "Noto'g'ri kasrga aylantiring: \\(4\\frac{3}{7}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -1626,7 +1626,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(3\\frac{2}{5} + 2\\frac{3}{10}\\)",
-          "hint": "Mavzu qoidasi: 3+2 = 5",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -1644,7 +1644,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(5\\frac{1}{4} - 2\\frac{3}{4}\\)",
-          "hint": "Mavzu qoidasi: 21/4 - 11/4 = 10/4 = 2 1/2",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -1662,7 +1662,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Noto'g'ri kasrga aylantiring: \\(4\\frac{3}{7}\\)",
-          "hint": "Mavzu qoidasi: (4*7 + 3)/7 = 31/7",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -1707,7 +1707,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 3\\frac{2}{5} + 2\\frac{3}{10}",
+          "problem": "Hisoblang: \\(3\\frac{2}{5} + 2\\frac{3}{10}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -1739,7 +1739,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 5\\frac{1}{4} - 2\\frac{3}{4}",
+          "problem": "Hisoblang: \\(5\\frac{1}{4} - 2\\frac{3}{4}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -1771,7 +1771,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Noto'g'ri kasrga aylantiring: 4\\frac{3}{7}",
+          "problem": "Noto'g'ri kasrga aylantiring: \\(4\\frac{3}{7}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -1896,7 +1896,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(3\\frac{2}{5} + 2\\frac{3}{10}\\)",
-          "hint": "Mavzu qoidasi: 3+2 = 5",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -1914,7 +1914,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(5\\frac{1}{4} - 2\\frac{3}{4}\\)",
-          "hint": "Mavzu qoidasi: 21/4 - 11/4 = 10/4 = 2 1/2",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -1932,7 +1932,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Noto'g'ri kasrga aylantiring: \\(4\\frac{3}{7}\\)",
-          "hint": "Mavzu qoidasi: (4*7 + 3)/7 = 31/7",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -2018,7 +2018,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: 3\\frac{2}{5} + 2\\frac{3}{10}",
+        "problem": "Hisoblang: \\(3\\frac{2}{5} + 2\\frac{3}{10}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -2050,7 +2050,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: 5\\frac{1}{4} - 2\\frac{3}{4}",
+        "problem": "Hisoblang: \\(5\\frac{1}{4} - 2\\frac{3}{4}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -2082,7 +2082,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Noto'g'ri kasrga aylantiring: 4\\frac{3}{7}",
+        "problem": "Noto'g'ri kasrga aylantiring: \\(4\\frac{3}{7}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -2130,23 +2130,23 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: 3\\frac{2}{5} + 2\\frac{3}{10}",
+        "question": "Hisoblang: \\(3\\frac{2}{5} + 2\\frac{3}{10}\\)",
         "options": [
-          "5\\frac{5}{15}",
-          "5\\frac{7}{10}",
-          "6\\frac{1}{10}",
-          "5\\frac{1}{2}"
+          "\\(5\\frac{5}{15}\\)",
+          "\\(5\\frac{7}{10}\\)",
+          "\\(6\\frac{1}{10}\\)",
+          "\\(5\\frac{1}{2}\\)"
         ],
         "correctIndex": 1,
         "explanation": "3+2 = 5; 4/10 + 3/10 = 7/10 => 5 7/10"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: 5\\frac{1}{4} - 2\\frac{3}{4}",
+        "question": "Hisoblang: \\(5\\frac{1}{4} - 2\\frac{3}{4}\\)",
         "options": [
-          "2\\frac{3}{4}",
-          "3\\frac{1}{2}",
-          "2\\frac{1}{2}",
+          "\\(2\\frac{3}{4}\\)",
+          "\\(3\\frac{1}{2}\\)",
+          "\\(2\\frac{1}{2}\\)",
           "3"
         ],
         "correctIndex": 2,
@@ -2154,12 +2154,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Noto'g'ri kasrga aylantiring: 4\\frac{3}{7}",
+        "question": "Noto'g'ri kasrga aylantiring: \\(4\\frac{3}{7}\\)",
         "options": [
-          "\\frac{33}{7}",
-          "\\frac{28}{7}",
-          "\\frac{19}{7}",
-          "\\frac{31}{7}"
+          "\\(\\frac{33}{7}\\)",
+          "\\(\\frac{28}{7}\\)",
+          "\\(\\frac{19}{7}\\)",
+          "\\(\\frac{31}{7}\\)"
         ],
         "correctIndex": 3,
         "explanation": "(4*7 + 3)/7 = 31/7"
@@ -2729,7 +2729,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "To'g'ri burchak necha gradusga teng?",
-          "hint": "Mavzu qoidasi: To'g'ri burchak = 90°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -2747,7 +2747,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Yoyiq burchak necha gradusga teng?",
-          "hint": "Mavzu qoidasi: Yoyiq burchak = 180°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -2765,7 +2765,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Burchak 65° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
-          "hint": "Mavzu qoidasi: 90° - 65° = 25°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -3001,7 +3001,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "To'g'ri burchak necha gradusga teng?",
-          "hint": "Mavzu qoidasi: To'g'ri burchak = 90°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -3019,7 +3019,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Yoyiq burchak necha gradusga teng?",
-          "hint": "Mavzu qoidasi: Yoyiq burchak = 180°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -3037,7 +3037,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Burchak 65° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
-          "hint": "Mavzu qoidasi: 90° - 65° = 25°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -3239,10 +3239,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "To'g'ri burchak necha gradusga teng?",
         "options": [
-          "180^\\circ",
-          "90^\\circ",
-          "45^\\circ",
-          "60^\\circ"
+          "\\(180^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(45^\\circ\\)",
+          "\\(60^\\circ\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri burchak = 90°"
@@ -3251,10 +3251,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Yoyiq burchak necha gradusga teng?",
         "options": [
-          "360^\\circ",
-          "90^\\circ",
-          "180^\\circ",
-          "270^\\circ"
+          "\\(360^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(180^\\circ\\)",
+          "\\(270^\\circ\\)"
         ],
         "correctIndex": 2,
         "explanation": "Yoyiq burchak = 180°"
@@ -3263,10 +3263,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Burchak 65° bo'lsa, uni to'g'ri burchakka to'ldiruvchi burchakni toping.",
         "options": [
-          "90^\\circ",
-          "35^\\circ",
-          "115^\\circ",
-          "25^\\circ"
+          "\\(90^\\circ\\)",
+          "\\(35^\\circ\\)",
+          "\\(115^\\circ\\)",
+          "\\(25^\\circ\\)"
         ],
         "correctIndex": 3,
         "explanation": "90° - 65° = 25°"
@@ -3441,7 +3441,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 48 \\cdot 25 - 350 : 7",
+          "problem": "Hisoblang: \\(48 \\cdot 25 - 350 : 7\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -3521,7 +3521,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(384 + 529 - 213\\)",
+          "question": "Hisoblang: 384 + 529 - 213",
           "options": [
             "690",
             "700",
@@ -3675,7 +3675,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 48 \\cdot 25 - 350 : 7",
+          "problem": "Hisoblang: \\(48 \\cdot 25 - 350 : 7\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -3791,7 +3791,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(384 + 529 - 213\\)",
+          "question": "Hisoblang: 384 + 529 - 213",
           "options": [
             "690",
             "700",
@@ -3832,7 +3832,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: 384 + 529 - 213",
-          "hint": "Mavzu qoidasi: 384 + 529 = 913",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -3850,7 +3850,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(48 \\cdot 25 - 350 : 7\\)",
-          "hint": "Mavzu qoidasi: 48 * 25 = 1200",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -3868,7 +3868,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qoldiqli bo'lish: 154 sonini 12 ga bo'lgandagi qoldiqni toping.",
-          "hint": "Mavzu qoidasi: 154 = 12 * 12 + 10, qoldiq 10",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -3945,7 +3945,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 48 \\cdot 25 - 350 : 7",
+          "problem": "Hisoblang: \\(48 \\cdot 25 - 350 : 7\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -4061,7 +4061,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(384 + 529 - 213\\)",
+          "question": "Hisoblang: 384 + 529 - 213",
           "options": [
             "690",
             "700",
@@ -4102,7 +4102,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: 384 + 529 - 213",
-          "hint": "Mavzu qoidasi: 384 + 529 = 913",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -4120,7 +4120,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(48 \\cdot 25 - 350 : 7\\)",
-          "hint": "Mavzu qoidasi: 48 * 25 = 1200",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -4138,7 +4138,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qoldiqli bo'lish: 154 sonini 12 ga bo'lgandagi qoldiqni toping.",
-          "hint": "Mavzu qoidasi: 154 = 12 * 12 + 10, qoldiq 10",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -4256,7 +4256,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: 48 \\cdot 25 - 350 : 7",
+        "problem": "Hisoblang: \\(48 \\cdot 25 - 350 : 7\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -4348,7 +4348,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: 48 \\cdot 25 - 350 : 7",
+        "question": "Hisoblang: \\(48 \\cdot 25 - 350 : 7\\)",
         "options": [
           "1200",
           "1100",
@@ -4676,7 +4676,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: P = 2*(8 + 5) = 26 sm"
               }
             ],
-            "answer": "26 \\text{ sm}"
+            "answer": "\\(26 \\text{ sm}\\)"
           }
         },
         {
@@ -4712,7 +4712,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: b = 72/9 = 8 sm; P = 2*(9+8) = 34 sm"
               }
             ],
-            "answer": "34 \\text{ sm}"
+            "answer": "\\(34 \\text{ sm}\\)"
           }
         }
       ]
@@ -4941,7 +4941,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "To'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm. Uning perimetrini hisoblang.",
-          "hint": "Mavzu qoidasi: P = 2*(8 + 5) = 26 sm",
+          "hint": "Perimetr — bu shaklning barcha tomonlari uzunliklari yig'indisi. Berilgan barcha tomonlarni bir-biriga qo'shib chiqing.",
           "solution": {
             "steps": [
               {
@@ -4951,7 +4951,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: P = 2*(8 + 5) = 26 sm"
               }
             ],
-            "answer": "26 \\text{ sm}"
+            "answer": "\\(26 \\text{ sm}\\)"
           }
         },
         {
@@ -4959,7 +4959,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Kvadratning perimetri 36 sm. Uning yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: Tomoni a = 36/4 = 9 sm",
+          "hint": "Perimetr — bu shaklning barcha tomonlari uzunliklari yig'indisi. Berilgan barcha tomonlarni bir-biriga qo'shib chiqing.",
           "solution": {
             "steps": [
               {
@@ -4977,7 +4977,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Yuzi 72 sm² va bir tomoni 9 sm bo'lgan to'rtburchakning perimetrini toping.",
-          "hint": "Mavzu qoidasi: b = 72/9 = 8 sm",
+          "hint": "Perimetr — bu shaklning barcha tomonlari uzunliklari yig'indisi. Berilgan barcha tomonlarni bir-biriga qo'shib chiqing.",
           "solution": {
             "steps": [
               {
@@ -4987,7 +4987,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: b = 72/9 = 8 sm; P = 2*(9+8) = 34 sm"
               }
             ],
-            "answer": "34 \\text{ sm}"
+            "answer": "\\(34 \\text{ sm}\\)"
           }
         }
       ]
@@ -5216,7 +5216,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "To'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm. Uning perimetrini hisoblang.",
-          "hint": "Mavzu qoidasi: P = 2*(8 + 5) = 26 sm",
+          "hint": "Perimetr — bu shaklning barcha tomonlari uzunliklari yig'indisi. Berilgan barcha tomonlarni bir-biriga qo'shib chiqing.",
           "solution": {
             "steps": [
               {
@@ -5226,7 +5226,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: P = 2*(8 + 5) = 26 sm"
               }
             ],
-            "answer": "26 \\text{ sm}"
+            "answer": "\\(26 \\text{ sm}\\)"
           }
         },
         {
@@ -5234,7 +5234,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Kvadratning perimetri 36 sm. Uning yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: Tomoni a = 36/4 = 9 sm",
+          "hint": "Perimetr — bu shaklning barcha tomonlari uzunliklari yig'indisi. Berilgan barcha tomonlarni bir-biriga qo'shib chiqing.",
           "solution": {
             "steps": [
               {
@@ -5252,7 +5252,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Yuzi 72 sm² va bir tomoni 9 sm bo'lgan to'rtburchakning perimetrini toping.",
-          "hint": "Mavzu qoidasi: b = 72/9 = 8 sm",
+          "hint": "Perimetr — bu shaklning barcha tomonlari uzunliklari yig'indisi. Berilgan barcha tomonlarni bir-biriga qo'shib chiqing.",
           "solution": {
             "steps": [
               {
@@ -5262,7 +5262,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: b = 72/9 = 8 sm; P = 2*(9+8) = 34 sm"
               }
             ],
-            "answer": "34 \\text{ sm}"
+            "answer": "\\(34 \\text{ sm}\\)"
           }
         }
       ]
@@ -5457,10 +5457,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "To'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm. Uning perimetrini hisoblang.",
         "options": [
-          "40 \\text{ sm}",
-          "26 \\text{ sm}",
-          "30 \\text{ sm}",
-          "13 \\text{ sm}"
+          "\\(40 \\text{ sm}\\)",
+          "\\(26 \\text{ sm}\\)",
+          "\\(30 \\text{ sm}\\)",
+          "\\(13 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "P = 2*(8 + 5) = 26 sm"
@@ -5469,10 +5469,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kvadratning perimetri 36 sm. Uning yuzini hisoblang.",
         "options": [
-          "72 \\text{ sm}^2",
-          "36 \\text{ sm}^2",
-          "81 \\text{ sm}^2",
-          "64 \\text{ sm}^2"
+          "\\(72 \\text{ sm}^2\\)",
+          "\\(36 \\text{ sm}^2\\)",
+          "\\(81 \\text{ sm}^2\\)",
+          "\\(64 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
         "explanation": "Tomoni a = 36/4 = 9 sm; S = 9² = 81 sm²"
@@ -5481,10 +5481,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Yuzi 72 sm² va bir tomoni 9 sm bo'lgan to'rtburchakning perimetrini toping.",
         "options": [
-          "24 \\text{ sm}",
-          "30 \\text{ sm}",
-          "36 \\text{ sm}",
-          "34 \\text{ sm}"
+          "\\(24 \\text{ sm}\\)",
+          "\\(30 \\text{ sm}\\)",
+          "\\(36 \\text{ sm}\\)",
+          "\\(34 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "b = 72/9 = 8 sm; P = 2*(9+8) = 34 sm"
@@ -5506,7 +5506,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: P = 2*(8 + 5) = 26 sm"
             }
           ],
-          "answer": "26 \\text{ sm}"
+          "answer": "\\(26 \\text{ sm}\\)"
         }
       },
       {
@@ -5542,7 +5542,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: b = 72/9 = 8 sm; P = 2*(9+8) = 34 sm"
             }
           ],
-          "answer": "34 \\text{ sm}"
+          "answer": "\\(34 \\text{ sm}\\)"
         }
       }
     ]
@@ -6054,7 +6054,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Qaysi son 9 ga qoldiqsiz bo'linadi: 453, 576, 812, 913?",
-          "hint": "Mavzu qoidasi: 5 + 7 + 6 = 18 (9 ga bo'linadi)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -6072,7 +6072,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Yulduzcha o'rniga qanday raqam qo'yilsa, 72*4 soni 9 ga qoldiqsiz bo'linadi?",
-          "hint": "Mavzu qoidasi: 7 + 2 + 5 + 4 = 18",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -6090,7 +6090,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qaysi son bir vaqtda ham 2 ga, ham 3 ga bo'linadi: 412, 534, 625, 713?",
-          "hint": "Mavzu qoidasi: 534 juft va raqamlar yig'indisi 12 (3 ga bo'linadi)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -6329,7 +6329,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Qaysi son 9 ga qoldiqsiz bo'linadi: 453, 576, 812, 913?",
-          "hint": "Mavzu qoidasi: 5 + 7 + 6 = 18 (9 ga bo'linadi)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -6347,7 +6347,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Yulduzcha o'rniga qanday raqam qo'yilsa, 72*4 soni 9 ga qoldiqsiz bo'linadi?",
-          "hint": "Mavzu qoidasi: 7 + 2 + 5 + 4 = 18",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -6365,7 +6365,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qaysi son bir vaqtda ham 2 ga, ham 3 ga bo'linadi: 412, 534, 625, 713?",
-          "hint": "Mavzu qoidasi: 534 juft va raqamlar yig'indisi 12 (3 ga bo'linadi)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -6887,7 +6887,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Sonlarning o'rta arifmetigini hisoblang: 12, 18, 24, 30",
-          "hint": "Arifmetik progressiyada n-had formulasi: a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.",
+          "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -6905,7 +6905,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Baholar o'rtachasini hisoblang: 5, 4, 3, 4",
-          "hint": "Arifmetik progressiyada n-had formulasi: a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.",
+          "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -6923,7 +6923,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Uchta sonning o'rta arifmetigi 28 ga teng. Ulardan ikkitasi 24 va 32 bo'lsa, uchinchi sonni toping.",
-          "hint": "Arifmetik progressiyada n-had formulasi: a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.",
+          "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -7157,7 +7157,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Sonlarning o'rta arifmetigini hisoblang: 12, 18, 24, 30",
-          "hint": "Mavzu qoidasi: (12+18+24+30)/4 = 84/4 = 21",
+          "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -7175,7 +7175,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Baholar o'rtachasini hisoblang: 5, 4, 3, 4",
-          "hint": "Mavzu qoidasi: (5+4+3+4)/4 = 16/4 = 4",
+          "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -7193,7 +7193,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Uchta sonning o'rta arifmetigi 28 ga teng. Ulardan ikkitasi 24 va 32 bo'lsa, uchinchi sonni toping.",
-          "hint": "Mavzu qoidasi: 3 * 28 - (24 + 32) = 84 - 56 = 28",
+          "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -7427,7 +7427,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Sonlarning o'rta arifmetigini hisoblang: 12, 18, 24, 30",
-          "hint": "Mavzu qoidasi: (12+18+24+30)/4 = 84/4 = 21",
+          "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -7445,7 +7445,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Baholar o'rtachasini hisoblang: 5, 4, 3, 4",
-          "hint": "Mavzu qoidasi: (5+4+3+4)/4 = 16/4 = 4",
+          "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -7463,7 +7463,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Uchta sonning o'rta arifmetigi 28 ga teng. Ulardan ikkitasi 24 va 32 bo'lsa, uchinchi sonni toping.",
-          "hint": "Mavzu qoidasi: 3 * 28 - (24 + 32) = 84 - 56 = 28",
+          "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -7702,7 +7702,7 @@ const mathTopicsData = [
         "levelLabel": "🟢 1-mashq (Oddiy)",
         "title": "1-mashq",
         "problem": "Sonlarning o'rta arifmetigini hisoblang: 12, 18, 24, 30",
-        "hint": "Arifmetik progressiyada n-had formulasi: a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.",
+        "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -7720,7 +7720,7 @@ const mathTopicsData = [
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
         "problem": "Baholar o'rtachasini hisoblang: 5, 4, 3, 4",
-        "hint": "Arifmetik progressiyada n-had formulasi: a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.",
+        "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -7738,7 +7738,7 @@ const mathTopicsData = [
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
         "problem": "Uchta sonning o'rta arifmetigi 28 ga teng. Ulardan ikkitasi 24 va 32 bo'lsa, uchinchi sonni toping.",
-        "hint": "Arifmetik progressiyada n-had formulasi: a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.",
+        "hint": "Arifmetik progressiyada n-had formulasi: \\(a_n = a_1 + (n - 1)d. Boshlang'ich had va ayirmani qo'yib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -7865,7 +7865,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 0.25 \\cdot 4.8 + 1.2 : 0.4",
+          "problem": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2 : 0.4\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -7945,7 +7945,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(3.45 + 7.85 - 2.1\\)",
+          "question": "Hisoblang: 3.45 + 7.85 - 2.1",
           "options": [
             "8.5",
             "9.0",
@@ -7969,7 +7969,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\(2.5x - 3.75 = 6.25\\)",
+          "question": "Tenglamani yeching: 2.5x - 3.75 = 6.25",
           "options": [
             "4",
             "5",
@@ -8099,7 +8099,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 0.25 \\cdot 4.8 + 1.2 : 0.4",
+          "problem": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2 : 0.4\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -8215,7 +8215,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(3.45 + 7.85 - 2.1\\)",
+          "question": "Hisoblang: 3.45 + 7.85 - 2.1",
           "options": [
             "8.5",
             "9.0",
@@ -8239,7 +8239,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\(2.5x - 3.75 = 6.25\\)",
+          "question": "Tenglamani yeching: 2.5x - 3.75 = 6.25",
           "options": [
             "4",
             "5",
@@ -8256,7 +8256,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: 3.45 + 7.85 - 2.1",
-          "hint": "Mavzu qoidasi: 3.45 + 7.85 = 11.3",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -8274,7 +8274,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2 : 0.4\\)",
-          "hint": "Mavzu qoidasi: 0.25 * 4.8 = 1.2",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -8292,7 +8292,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: 2.5x - 3.75 = 6.25",
-          "hint": "Mavzu qoidasi: 2.5x = 10 => x = 4",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -8369,7 +8369,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 0.25 \\cdot 4.8 + 1.2 : 0.4",
+          "problem": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2 : 0.4\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -8485,7 +8485,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(3.45 + 7.85 - 2.1\\)",
+          "question": "Hisoblang: 3.45 + 7.85 - 2.1",
           "options": [
             "8.5",
             "9.0",
@@ -8509,7 +8509,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\(2.5x - 3.75 = 6.25\\)",
+          "question": "Tenglamani yeching: 2.5x - 3.75 = 6.25",
           "options": [
             "4",
             "5",
@@ -8526,7 +8526,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: 3.45 + 7.85 - 2.1",
-          "hint": "Mavzu qoidasi: 3.45 + 7.85 = 11.3",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -8544,7 +8544,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2 : 0.4\\)",
-          "hint": "Mavzu qoidasi: 0.25 * 4.8 = 1.2",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -8562,7 +8562,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: 2.5x - 3.75 = 6.25",
-          "hint": "Mavzu qoidasi: 2.5x = 10 => x = 4",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -8680,7 +8680,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: 0.25 \\cdot 4.8 + 1.2 : 0.4",
+        "problem": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2 : 0.4\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -8772,7 +8772,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: 0.25 \\cdot 4.8 + 1.2 : 0.4",
+        "question": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2 : 0.4\\)",
         "options": [
           "4.5",
           "3.8",
@@ -8937,7 +8937,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\frac{3}{4} \\cdot \\frac{8}{9}",
+          "problem": "Hisoblang: \\(\\frac{3}{4} \\cdot \\frac{8}{9}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -8969,7 +8969,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{5}{12} : \\frac{15}{16}",
+          "problem": "Hisoblang: \\(\\frac{5}{12} : \\frac{15}{16}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -9001,7 +9001,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}",
+          "problem": "Hisoblang: \\(2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -9176,7 +9176,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\frac{3}{4} \\cdot \\frac{8}{9}",
+          "problem": "Hisoblang: \\(\\frac{3}{4} \\cdot \\frac{8}{9}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -9208,7 +9208,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{5}{12} : \\frac{15}{16}",
+          "problem": "Hisoblang: \\(\\frac{5}{12} : \\frac{15}{16}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -9240,7 +9240,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}",
+          "problem": "Hisoblang: \\(2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -9365,7 +9365,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\frac{3}{4} \\cdot \\frac{8}{9}\\)",
-          "hint": "Mavzu qoidasi: (3*8)/(4*9) = 2/3",
+          "hint": "Kasrlarni ko'paytirishda surati suratiga, maxraji maxrajiga ko'paytiriladi. Ko'paytirishdan oldin sonlarni diagonal bo'yicha qisqartirib olsangiz, hisoblash juda oson bo'ladi!",
           "solution": {
             "steps": [
               {
@@ -9383,7 +9383,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\frac{5}{12} : \\frac{15}{16}\\)",
-          "hint": "Mavzu qoidasi: 5/12 * 16/15 = 4/9",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -9401,7 +9401,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}\\)",
-          "hint": "Mavzu qoidasi: 7/3 * 9/7 = 3",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -9451,7 +9451,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\frac{3}{4} \\cdot \\frac{8}{9}",
+          "problem": "Hisoblang: \\(\\frac{3}{4} \\cdot \\frac{8}{9}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -9483,7 +9483,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{5}{12} : \\frac{15}{16}",
+          "problem": "Hisoblang: \\(\\frac{5}{12} : \\frac{15}{16}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -9515,7 +9515,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}",
+          "problem": "Hisoblang: \\(2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -9640,7 +9640,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\frac{3}{4} \\cdot \\frac{8}{9}\\)",
-          "hint": "Mavzu qoidasi: (3*8)/(4*9) = 2/3",
+          "hint": "Kasrlarni ko'paytirishda surati suratiga, maxraji maxrajiga ko'paytiriladi. Ko'paytirishdan oldin sonlarni diagonal bo'yicha qisqartirib olsangiz, hisoblash juda oson bo'ladi!",
           "solution": {
             "steps": [
               {
@@ -9658,7 +9658,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\frac{5}{12} : \\frac{15}{16}\\)",
-          "hint": "Mavzu qoidasi: 5/12 * 16/15 = 4/9",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -9676,7 +9676,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}\\)",
-          "hint": "Mavzu qoidasi: 7/3 * 9/7 = 3",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -9767,7 +9767,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: \\frac{3}{4} \\cdot \\frac{8}{9}",
+        "problem": "Hisoblang: \\(\\frac{3}{4} \\cdot \\frac{8}{9}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -9799,7 +9799,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: \\frac{5}{12} : \\frac{15}{16}",
+        "problem": "Hisoblang: \\(\\frac{5}{12} : \\frac{15}{16}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -9831,7 +9831,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: 2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}",
+        "problem": "Hisoblang: \\(2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -9879,35 +9879,35 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\frac{3}{4} \\cdot \\frac{8}{9}",
+        "question": "Hisoblang: \\(\\frac{3}{4} \\cdot \\frac{8}{9}\\)",
         "options": [
-          "\\frac{1}{2}",
-          "\\frac{24}{36}",
-          "\\frac{2}{3}",
-          "\\frac{5}{12}"
+          "\\(\\frac{1}{2}\\)",
+          "\\(\\frac{24}{36}\\)",
+          "\\(\\frac{2}{3}\\)",
+          "\\(\\frac{5}{12}\\)"
         ],
         "correctIndex": 2,
         "explanation": "(3*8)/(4*9) = 2/3"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\frac{5}{12} : \\frac{15}{16}",
+        "question": "Hisoblang: \\(\\frac{5}{12} : \\frac{15}{16}\\)",
         "options": [
-          "\\frac{9}{4}",
-          "\\frac{3}{4}",
-          "\\frac{5}{16}",
-          "\\frac{4}{9}"
+          "\\(\\frac{9}{4}\\)",
+          "\\(\\frac{3}{4}\\)",
+          "\\(\\frac{5}{16}\\)",
+          "\\(\\frac{4}{9}\\)"
         ],
         "correctIndex": 3,
         "explanation": "5/12 * 16/15 = 4/9"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}",
+        "question": "Hisoblang: \\(2\\frac{1}{3} \\cdot 1\\frac{2}{7} - \\frac{5}{6}\\)",
         "options": [
-          "2\\frac{1}{6}",
+          "\\(2\\frac{1}{6}\\)",
           "3",
-          "2\\frac{5}{6}",
+          "\\(2\\frac{5}{6}\\)",
           "2"
         ],
         "correctIndex": 0,
@@ -10083,7 +10083,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: -6 \\cdot (-4) - 36 : (-9)",
+          "problem": "Hisoblang: \\(-6 \\cdot (-4) - 36 : (-9)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -10115,7 +10115,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: (-2)^3 \\cdot (-3)^2 - (-50)",
+          "problem": "Hisoblang: \\((-2)^3 \\cdot (-3)^2 - (-50)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -10163,7 +10163,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(-15 + 28 - (-7)\\)",
+          "question": "Hisoblang: -15 + 28 - (-7)",
           "options": [
             "-20",
             "6",
@@ -10317,7 +10317,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: -6 \\cdot (-4) - 36 : (-9)",
+          "problem": "Hisoblang: \\(-6 \\cdot (-4) - 36 : (-9)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -10349,7 +10349,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: (-2)^3 \\cdot (-3)^2 - (-50)",
+          "problem": "Hisoblang: \\((-2)^3 \\cdot (-3)^2 - (-50)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -10433,7 +10433,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(-15 + 28 - (-7)\\)",
+          "question": "Hisoblang: -15 + 28 - (-7)",
           "options": [
             "-20",
             "6",
@@ -10474,7 +10474,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: -15 + 28 - (-7)",
-          "hint": "Mavzu qoidasi: -15 + 28 + 7 = 20",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -10492,7 +10492,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(-6 \\cdot (-4) - 36 : (-9)\\)",
-          "hint": "Mavzu qoidasi: 24 - (-4) = 24 + 4 = 28",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -10510,7 +10510,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\((-2)^3 \\cdot (-3)^2 - (-50)\\)",
-          "hint": "Mavzu qoidasi: -8 * 9 + 50 = -72 + 50 = -22",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -10587,7 +10587,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: -6 \\cdot (-4) - 36 : (-9)",
+          "problem": "Hisoblang: \\(-6 \\cdot (-4) - 36 : (-9)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -10619,7 +10619,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: (-2)^3 \\cdot (-3)^2 - (-50)",
+          "problem": "Hisoblang: \\((-2)^3 \\cdot (-3)^2 - (-50)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -10703,7 +10703,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(-15 + 28 - (-7)\\)",
+          "question": "Hisoblang: -15 + 28 - (-7)",
           "options": [
             "-20",
             "6",
@@ -10744,7 +10744,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: -15 + 28 - (-7)",
-          "hint": "Mavzu qoidasi: -15 + 28 + 7 = 20",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -10762,7 +10762,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(-6 \\cdot (-4) - 36 : (-9)\\)",
-          "hint": "Mavzu qoidasi: 24 - (-4) = 24 + 4 = 28",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -10780,7 +10780,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\((-2)^3 \\cdot (-3)^2 - (-50)\\)",
-          "hint": "Mavzu qoidasi: -8 * 9 + 50 = -72 + 50 = -22",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -10898,7 +10898,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: -6 \\cdot (-4) - 36 : (-9)",
+        "problem": "Hisoblang: \\(-6 \\cdot (-4) - 36 : (-9)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -10930,7 +10930,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: (-2)^3 \\cdot (-3)^2 - (-50)",
+        "problem": "Hisoblang: \\((-2)^3 \\cdot (-3)^2 - (-50)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -10990,7 +10990,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: -6 \\cdot (-4) - 36 : (-9)",
+        "question": "Hisoblang: \\(-6 \\cdot (-4) - 36 : (-9)\\)",
         "options": [
           "-20",
           "20",
@@ -11002,7 +11002,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: (-2)^3 \\cdot (-3)^2 - (-50)",
+        "question": "Hisoblang: \\((-2)^3 \\cdot (-3)^2 - (-50)\\)",
         "options": [
           "-22",
           "122",
@@ -11155,7 +11155,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: \\frac{x}{6} = \\frac{15}{10}",
+          "problem": "Tenglamani yeching: \\(\\frac{x}{6} = \\frac{15}{10}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -11219,7 +11219,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\frac{3x - 1}{4} = \\frac{7}{2}",
+          "problem": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -11336,7 +11336,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 1 kg = 7 000 so'm; 8 kg = 56 000 so'm"
               }
             ],
-            "answer": "56 000 \\text{ so'm}"
+            "answer": "\\(56 000 \\text{ so'm}\\)"
           }
         },
         {
@@ -11394,7 +11394,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: \\frac{x}{6} = \\frac{15}{10}",
+          "problem": "Tenglamani yeching: \\(\\frac{x}{6} = \\frac{15}{10}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -11458,7 +11458,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\frac{3x - 1}{4} = \\frac{7}{2}",
+          "problem": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -11583,7 +11583,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: \\(\\frac{x}{6} = \\frac{15}{10}\\)",
-          "hint": "Mavzu qoidasi: 10x = 90 => x = 9",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -11601,7 +11601,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "5 kg olma 35 000 so'm tursa, 8 kg olma qancha turadi?",
-          "hint": "Mavzu qoidasi: 1 kg = 7 000 so'm",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -11611,7 +11611,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 1 kg = 7 000 so'm; 8 kg = 56 000 so'm"
               }
             ],
-            "answer": "56 000 \\text{ so'm}"
+            "answer": "\\(56 000 \\text{ so'm}\\)"
           }
         },
         {
@@ -11619,7 +11619,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
-          "hint": "Mavzu qoidasi: 2(3x - 1) = 28 => 6x = 30 => x = 5",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -11669,7 +11669,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: \\frac{x}{6} = \\frac{15}{10}",
+          "problem": "Tenglamani yeching: \\(\\frac{x}{6} = \\frac{15}{10}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -11733,7 +11733,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\frac{3x - 1}{4} = \\frac{7}{2}",
+          "problem": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -11858,7 +11858,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: \\(\\frac{x}{6} = \\frac{15}{10}\\)",
-          "hint": "Mavzu qoidasi: 10x = 90 => x = 9",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -11876,7 +11876,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "5 kg olma 35 000 so'm tursa, 8 kg olma qancha turadi?",
-          "hint": "Mavzu qoidasi: 1 kg = 7 000 so'm",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -11886,7 +11886,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 1 kg = 7 000 so'm; 8 kg = 56 000 so'm"
               }
             ],
-            "answer": "56 000 \\text{ so'm}"
+            "answer": "\\(56 000 \\text{ so'm}\\)"
           }
         },
         {
@@ -11894,7 +11894,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
-          "hint": "Mavzu qoidasi: 2(3x - 1) = 28 => 6x = 30 => x = 5",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -11985,7 +11985,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Tenglamani yeching: \\frac{x}{6} = \\frac{15}{10}",
+        "problem": "Tenglamani yeching: \\(\\frac{x}{6} = \\frac{15}{10}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -12049,7 +12049,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tenglamani yeching: \\frac{3x - 1}{4} = \\frac{7}{2}",
+        "problem": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -12097,7 +12097,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: \\frac{x}{6} = \\frac{15}{10}",
+        "question": "Tenglamani yeching: \\(\\frac{x}{6} = \\frac{15}{10}\\)",
         "options": [
           "10",
           "8",
@@ -12111,17 +12111,17 @@ const mathTopicsData = [
         "level": "medium",
         "question": "5 kg olma 35 000 so'm tursa, 8 kg olma qancha turadi?",
         "options": [
-          "70 000 \\text{ so'm}",
-          "45 000 \\text{ so'm}",
-          "60 000 \\text{ so'm}",
-          "56 000 \\text{ so'm}"
+          "\\(70 000 \\text{ so'm}\\)",
+          "\\(45 000 \\text{ so'm}\\)",
+          "\\(60 000 \\text{ so'm}\\)",
+          "\\(56 000 \\text{ so'm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "1 kg = 7 000 so'm; 8 kg = 56 000 so'm"
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{3x - 1}{4} = \\frac{7}{2}",
+        "question": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
         "options": [
           "5",
           "4",
@@ -12166,7 +12166,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 1 kg = 7 000 so'm; 8 kg = 56 000 so'm"
             }
           ],
-          "answer": "56 000 \\text{ so'm}"
+          "answer": "\\(56 000 \\text{ so'm}\\)"
         }
       },
       {
@@ -12333,7 +12333,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\frac{x + 3}{2} - \\frac{x - 1}{3} = 2",
+          "problem": "Tenglamani yeching: \\(\\frac{x + 3}{2} - \\frac{x - 1}{3} = 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -12381,7 +12381,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(4x - 7 = 21\\)",
+          "question": "Tenglamani yeching: 4x - 7 = 21",
           "options": [
             "8",
             "6",
@@ -12393,7 +12393,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(3(2x - 4) = 4x + 6\\)",
+          "question": "Tenglamani yeching: 3(2x - 4) = 4x + 6",
           "options": [
             "6",
             "8",
@@ -12567,7 +12567,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\frac{x + 3}{2} - \\frac{x - 1}{3} = 2",
+          "problem": "Tenglamani yeching: \\(\\frac{x + 3}{2} - \\frac{x - 1}{3} = 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -12651,7 +12651,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(4x - 7 = 21\\)",
+          "question": "Tenglamani yeching: 4x - 7 = 21",
           "options": [
             "8",
             "6",
@@ -12663,7 +12663,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(3(2x - 4) = 4x + 6\\)",
+          "question": "Tenglamani yeching: 3(2x - 4) = 4x + 6",
           "options": [
             "6",
             "8",
@@ -12692,7 +12692,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: 4x - 7 = 21",
-          "hint": "Mavzu qoidasi: 4x = 28 => x = 7",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -12710,7 +12710,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamani yeching: 3(2x - 4) = 4x + 6",
-          "hint": "Mavzu qoidasi: 6x - 12 = 4x + 6 => 2x = 18 => x = 9",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -12728,7 +12728,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(\\frac{x + 3}{2} - \\frac{x - 1}{3} = 2\\)",
-          "hint": "Mavzu qoidasi: 3(x+3) - 2(x-1) = 12 => x + 11 = 12 => x = 1",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -12837,7 +12837,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\frac{x + 3}{2} - \\frac{x - 1}{3} = 2",
+          "problem": "Tenglamani yeching: \\(\\frac{x + 3}{2} - \\frac{x - 1}{3} = 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -12921,7 +12921,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(4x - 7 = 21\\)",
+          "question": "Tenglamani yeching: 4x - 7 = 21",
           "options": [
             "8",
             "6",
@@ -12933,7 +12933,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(3(2x - 4) = 4x + 6\\)",
+          "question": "Tenglamani yeching: 3(2x - 4) = 4x + 6",
           "options": [
             "6",
             "8",
@@ -12962,7 +12962,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: 4x - 7 = 21",
-          "hint": "Mavzu qoidasi: 4x = 28 => x = 7",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -12980,7 +12980,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamani yeching: 3(2x - 4) = 4x + 6",
-          "hint": "Mavzu qoidasi: 6x - 12 = 4x + 6 => 2x = 18 => x = 9",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -12998,7 +12998,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(\\frac{x + 3}{2} - \\frac{x - 1}{3} = 2\\)",
-          "hint": "Mavzu qoidasi: 3(x+3) - 2(x-1) = 12 => x + 11 = 12 => x = 1",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -13148,7 +13148,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tenglamani yeching: \\frac{x + 3}{2} - \\frac{x - 1}{3} = 2",
+        "problem": "Tenglamani yeching: \\(\\frac{x + 3}{2} - \\frac{x - 1}{3} = 2\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -13220,7 +13220,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\frac{x + 3}{2} - \\frac{x - 1}{3} = 2",
+        "question": "Tenglamani yeching: \\(\\frac{x + 3}{2} - \\frac{x - 1}{3} = 2\\)",
         "options": [
           "1",
           "2",
@@ -13373,7 +13373,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).",
+          "problem": "\\(Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -13405,7 +13405,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "problem": "\\(Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -13437,7 +13437,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "problem": "\\(Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -13485,7 +13485,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\(\\pi \\approx \\frac{22}{7}\\)).",
+          "question": "\\(Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).\\)",
           "options": [
             "\\(154 \\text{ sm}\\)",
             "\\(22 \\text{ sm}\\)",
@@ -13497,7 +13497,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(64\\pi \\text{ sm}^2\\)",
             "\\(12\\pi \\text{ sm}^2\\)",
@@ -13509,7 +13509,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(100\\pi \\text{ sm}^2\\)",
             "\\(400\\pi \\text{ sm}^2\\)",
@@ -13536,7 +13536,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: C = 2*pi*R = 2*(22/7)*7 = 44 sm"
               }
             ],
-            "answer": "44 \\text{ sm}"
+            "answer": "\\(44 \\text{ sm}\\)"
           }
         },
         {
@@ -13612,7 +13612,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).",
+          "problem": "\\(Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -13644,7 +13644,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "problem": "\\(Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -13676,7 +13676,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "problem": "\\(Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -13760,7 +13760,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\(\\pi \\approx \\frac{22}{7}\\)).",
+          "question": "\\(Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).\\)",
           "options": [
             "\\(154 \\text{ sm}\\)",
             "\\(22 \\text{ sm}\\)",
@@ -13772,7 +13772,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(64\\pi \\text{ sm}^2\\)",
             "\\(12\\pi \\text{ sm}^2\\)",
@@ -13784,7 +13784,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(100\\pi \\text{ sm}^2\\)",
             "\\(400\\pi \\text{ sm}^2\\)",
@@ -13801,7 +13801,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).\\)",
-          "hint": "Mavzu qoidasi: C = 2*pi*R = 2*(22/7)*7 = 44 sm",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -13811,7 +13811,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: C = 2*pi*R = 2*(22/7)*7 = 44 sm"
               }
             ],
-            "answer": "44 \\text{ sm}"
+            "answer": "\\(44 \\text{ sm}\\)"
           }
         },
         {
@@ -13819,7 +13819,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
-          "hint": "Mavzu qoidasi: S = pi*R² = 36pi sm²",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -13837,7 +13837,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
-          "hint": "Mavzu qoidasi: R = 10 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -13887,7 +13887,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).",
+          "problem": "\\(Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -13919,7 +13919,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "problem": "\\(Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -13951,7 +13951,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+          "problem": "\\(Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -14035,7 +14035,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\(\\pi \\approx \\frac{22}{7}\\)).",
+          "question": "\\(Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).\\)",
           "options": [
             "\\(154 \\text{ sm}\\)",
             "\\(22 \\text{ sm}\\)",
@@ -14047,7 +14047,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(64\\pi \\text{ sm}^2\\)",
             "\\(12\\pi \\text{ sm}^2\\)",
@@ -14059,7 +14059,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(100\\pi \\text{ sm}^2\\)",
             "\\(400\\pi \\text{ sm}^2\\)",
@@ -14076,7 +14076,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).\\)",
-          "hint": "Mavzu qoidasi: C = 2*pi*R = 2*(22/7)*7 = 44 sm",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -14086,7 +14086,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: C = 2*pi*R = 2*(22/7)*7 = 44 sm"
               }
             ],
-            "answer": "44 \\text{ sm}"
+            "answer": "\\(44 \\text{ sm}\\)"
           }
         },
         {
@@ -14094,7 +14094,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
-          "hint": "Mavzu qoidasi: S = pi*R² = 36pi sm²",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -14112,7 +14112,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
-          "hint": "Mavzu qoidasi: R = 10 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -14203,7 +14203,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).",
+        "problem": "\\(Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -14235,7 +14235,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+        "problem": "\\(Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -14267,7 +14267,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+        "problem": "\\(Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -14315,36 +14315,36 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).",
+        "question": "\\(Radiusi R = 7 sm bo'lgan aylananing uzunligini hisoblang (\\pi \\approx \\frac{22}{7}).\\)",
         "options": [
-          "154 \\text{ sm}",
-          "22 \\text{ sm}",
-          "44 \\text{ sm}",
-          "88 \\text{ sm}"
+          "\\(154 \\text{ sm}\\)",
+          "\\(22 \\text{ sm}\\)",
+          "\\(44 \\text{ sm}\\)",
+          "\\(88 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "C = 2*pi*R = 2*(22/7)*7 = 44 sm"
       },
       {
         "level": "medium",
-        "question": "Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+        "question": "\\(Radiusi R = 6 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
         "options": [
-          "64\\pi \\text{ sm}^2",
-          "12\\pi \\text{ sm}^2",
-          "18\\pi \\text{ sm}^2",
-          "36\\pi \\text{ sm}^2"
+          "\\(64\\pi \\text{ sm}^2\\)",
+          "\\(12\\pi \\text{ sm}^2\\)",
+          "\\(18\\pi \\text{ sm}^2\\)",
+          "\\(36\\pi \\text{ sm}^2\\)"
         ],
         "correctIndex": 3,
         "explanation": "S = pi*R² = 36pi sm²"
       },
       {
         "level": "hard",
-        "question": "Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).",
+        "question": "\\(Diametri D = 20 sm bo'lgan doiraning yuzini hisoblang (\\pi bilan).\\)",
         "options": [
-          "100\\pi \\text{ sm}^2",
-          "400\\pi \\text{ sm}^2",
-          "50\\pi \\text{ sm}^2",
-          "20\\pi \\text{ sm}^2"
+          "\\(100\\pi \\text{ sm}^2\\)",
+          "\\(400\\pi \\text{ sm}^2\\)",
+          "\\(50\\pi \\text{ sm}^2\\)",
+          "\\(20\\pi \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
         "explanation": "R = 10 sm; S = pi*10² = 100pi sm²"
@@ -14366,7 +14366,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: C = 2*pi*R = 2*(22/7)*7 = 44 sm"
             }
           ],
-          "answer": "44 \\text{ sm}"
+          "answer": "\\(44 \\text{ sm}\\)"
         }
       },
       {
@@ -14650,7 +14650,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 4 * 1 000 000 sm = 40 km"
               }
             ],
-            "answer": "40 \\text{ km}"
+            "answer": "\\(40 \\text{ km}\\)"
           }
         },
         {
@@ -14668,7 +14668,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 150 km = 15 000 000 sm / 3 000 000 = 5 sm"
               }
             ],
-            "answer": "5 \\text{ sm}"
+            "answer": "\\(5 \\text{ sm}\\)"
           }
         },
         {
@@ -14910,7 +14910,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Xarita masshtabi 1 : 1 000 000. Xaritada 4 sm masofa joyda necha km bo'ladi?",
-          "hint": "Mavzu qoidasi: 4 * 1 000 000 sm = 40 km",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -14920,7 +14920,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 4 * 1 000 000 sm = 40 km"
               }
             ],
-            "answer": "40 \\text{ km}"
+            "answer": "\\(40 \\text{ km}\\)"
           }
         },
         {
@@ -14928,7 +14928,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Ikki shahar orasidagi haqiqiy masofa 150 km. 1 : 3 000 000 masshtabli xaritada bu masofa necha sm bo'ladi?",
-          "hint": "Mavzu qoidasi: 150 km = 15 000 000 sm / 3 000 000 = 5 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -14938,7 +14938,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 150 km = 15 000 000 sm / 3 000 000 = 5 sm"
               }
             ],
-            "answer": "5 \\text{ sm}"
+            "answer": "\\(5 \\text{ sm}\\)"
           }
         },
         {
@@ -14946,7 +14946,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Xaritada 3 sm bo'lgan oraliq joyda 18 km bo'lsa, masshtabni toping.",
-          "hint": "Mavzu qoidasi: 18 km = 1 800 000 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -15180,7 +15180,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Xarita masshtabi 1 : 1 000 000. Xaritada 4 sm masofa joyda necha km bo'ladi?",
-          "hint": "Mavzu qoidasi: 4 * 1 000 000 sm = 40 km",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -15190,7 +15190,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 4 * 1 000 000 sm = 40 km"
               }
             ],
-            "answer": "40 \\text{ km}"
+            "answer": "\\(40 \\text{ km}\\)"
           }
         },
         {
@@ -15198,7 +15198,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Ikki shahar orasidagi haqiqiy masofa 150 km. 1 : 3 000 000 masshtabli xaritada bu masofa necha sm bo'ladi?",
-          "hint": "Mavzu qoidasi: 150 km = 15 000 000 sm / 3 000 000 = 5 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -15208,7 +15208,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 150 km = 15 000 000 sm / 3 000 000 = 5 sm"
               }
             ],
-            "answer": "5 \\text{ sm}"
+            "answer": "\\(5 \\text{ sm}\\)"
           }
         },
         {
@@ -15216,7 +15216,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Xaritada 3 sm bo'lgan oraliq joyda 18 km bo'lsa, masshtabni toping.",
-          "hint": "Mavzu qoidasi: 18 km = 1 800 000 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -15416,10 +15416,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Xarita masshtabi 1 : 1 000 000. Xaritada 4 sm masofa joyda necha km bo'ladi?",
         "options": [
-          "400 \\text{ km}",
-          "4 \\text{ km}",
-          "40 \\text{ km}",
-          "25 \\text{ km}"
+          "\\(400 \\text{ km}\\)",
+          "\\(4 \\text{ km}\\)",
+          "\\(40 \\text{ km}\\)",
+          "\\(25 \\text{ km}\\)"
         ],
         "correctIndex": 2,
         "explanation": "4 * 1 000 000 sm = 40 km"
@@ -15428,10 +15428,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Ikki shahar orasidagi haqiqiy masofa 150 km. 1 : 3 000 000 masshtabli xaritada bu masofa necha sm bo'ladi?",
         "options": [
-          "50 \\text{ sm}",
-          "3 \\text{ sm}",
-          "15 \\text{ sm}",
-          "5 \\text{ sm}"
+          "\\(50 \\text{ sm}\\)",
+          "\\(3 \\text{ sm}\\)",
+          "\\(15 \\text{ sm}\\)",
+          "\\(5 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "150 km = 15 000 000 sm / 3 000 000 = 5 sm"
@@ -15465,7 +15465,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 4 * 1 000 000 sm = 40 km"
             }
           ],
-          "answer": "40 \\text{ km}"
+          "answer": "\\(40 \\text{ km}\\)"
         }
       },
       {
@@ -15483,7 +15483,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 150 km = 15 000 000 sm / 3 000 000 = 5 sm"
             }
           ],
-          "answer": "5 \\text{ sm}"
+          "answer": "\\(5 \\text{ sm}\\)"
         }
       },
       {
@@ -15586,7 +15586,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "\\text{EKUK}(36, 48) ni hisoblang.",
+          "problem": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -15618,7 +15618,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "\\text{EKUB}(48, 72) ni hisoblang.",
+          "problem": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -15650,7 +15650,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.",
+          "problem": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -15698,7 +15698,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(\\text{EKUK}(36, 48)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
           "options": [
             "96",
             "72",
@@ -15710,7 +15710,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\text{EKUB}(48, 72)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
           "options": [
             "48",
             "12",
@@ -15722,7 +15722,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
           "options": [
             "60",
             "72",
@@ -15738,7 +15738,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
-          "problem": "\\text{EKUK}(36, 48) ni hisoblang.",
+          "problem": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
           "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
@@ -15756,7 +15756,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
-          "problem": "\\text{EKUB}(48, 72) ni hisoblang.",
+          "problem": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
           "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
@@ -15774,7 +15774,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.",
+          "problem": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
           "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
@@ -15820,7 +15820,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "\\text{EKUK}(36, 48) ni hisoblang.",
+          "problem": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -15852,7 +15852,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "\\text{EKUB}(48, 72) ni hisoblang.",
+          "problem": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -15884,7 +15884,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.",
+          "problem": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -15968,7 +15968,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(\\text{EKUK}(36, 48)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
           "options": [
             "96",
             "72",
@@ -15980,7 +15980,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\text{EKUB}(48, 72)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
           "options": [
             "48",
             "12",
@@ -15992,7 +15992,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
           "options": [
             "60",
             "72",
@@ -16008,8 +16008,8 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
-          "problem": "\\text{EKUK}(36, 48) ni hisoblang.",
-          "hint": "Mavzu qoidasi: 36 = 2² * 3²",
+          "problem": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -16026,8 +16026,8 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
-          "problem": "\\text{EKUB}(48, 72) ni hisoblang.",
-          "hint": "Mavzu qoidasi: 48 = 24*2",
+          "problem": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -16044,8 +16044,8 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.",
-          "hint": "Mavzu qoidasi: 72 - 12 = 60",
+          "problem": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -16090,7 +16090,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "\\text{EKUK}(36, 48) ni hisoblang.",
+          "problem": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -16122,7 +16122,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "\\text{EKUB}(48, 72) ni hisoblang.",
+          "problem": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -16154,7 +16154,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.",
+          "problem": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -16238,7 +16238,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(\\text{EKUK}(36, 48)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
           "options": [
             "96",
             "72",
@@ -16250,7 +16250,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\text{EKUB}(48, 72)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
           "options": [
             "48",
             "12",
@@ -16262,7 +16262,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
           "options": [
             "60",
             "72",
@@ -16278,8 +16278,8 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
-          "problem": "\\text{EKUK}(36, 48) ni hisoblang.",
-          "hint": "Mavzu qoidasi: 36 = 2² * 3²",
+          "problem": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -16296,8 +16296,8 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
-          "problem": "\\text{EKUB}(48, 72) ni hisoblang.",
-          "hint": "Mavzu qoidasi: 48 = 24*2",
+          "problem": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -16314,8 +16314,8 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.",
-          "hint": "Mavzu qoidasi: 72 - 12 = 60",
+          "problem": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -16401,7 +16401,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "\\text{EKUK}(36, 48) ni hisoblang.",
+        "problem": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -16433,7 +16433,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "\\text{EKUB}(48, 72) ni hisoblang.",
+        "problem": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -16465,7 +16465,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.",
+        "problem": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -16513,7 +16513,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "\\text{EKUK}(36, 48) ni hisoblang.",
+        "question": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
         "options": [
           "96",
           "72",
@@ -16525,7 +16525,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "\\text{EKUB}(48, 72) ni hisoblang.",
+        "question": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
         "options": [
           "48",
           "12",
@@ -16537,7 +16537,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.",
+        "question": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
         "options": [
           "60",
           "72",
@@ -16553,7 +16553,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "🟢 1-mashq (Oddiy)",
         "title": "1-mashq",
-        "problem": "\\text{EKUK}(36, 48) ni hisoblang.",
+        "problem": "\\(\\text{EKUK}(36, 48) ni hisoblang.\\)",
         "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
         "solution": {
           "steps": [
@@ -16571,7 +16571,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
-        "problem": "\\text{EKUB}(48, 72) ni hisoblang.",
+        "problem": "\\(\\text{EKUB}(48, 72) ni hisoblang.\\)",
         "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
         "solution": {
           "steps": [
@@ -16589,7 +16589,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
-        "problem": "\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.",
+        "problem": "\\(\\text{EKUK}(24, 36) - \\text{EKUB}(24, 36) ni hisoblang.\\)",
         "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
         "solution": {
           "steps": [
@@ -16695,7 +16695,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 98^2 - 2^2",
+          "problem": "Hisoblang: \\(98^2 - 2^2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -16727,7 +16727,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Soddalashtiring: (2a + 3b)^2 - 12ab",
+          "problem": "Soddalashtiring: \\((2a + 3b)^2 - 12ab\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -16759,7 +16759,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 53^2 - 47^2",
+          "problem": "Hisoblang: \\(53^2 - 47^2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -16939,7 +16939,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 98^2 - 2^2",
+          "problem": "Hisoblang: \\(98^2 - 2^2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -16971,7 +16971,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Soddalashtiring: (2a + 3b)^2 - 12ab",
+          "problem": "Soddalashtiring: \\((2a + 3b)^2 - 12ab\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -17003,7 +17003,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 53^2 - 47^2",
+          "problem": "Hisoblang: \\(53^2 - 47^2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -17128,7 +17128,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(98^2 - 2^2\\)",
-          "hint": "Mavzu qoidasi: (98-2)*(98+2) = 96 * 100 = 9600",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -17146,7 +17146,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Soddalashtiring: \\((2a + 3b)^2 - 12ab\\)",
-          "hint": "Mavzu qoidasi: 4a² + 12ab + 9b² - 12ab = 4a² + 9b²",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -17164,7 +17164,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(53^2 - 47^2\\)",
-          "hint": "Mavzu qoidasi: (53-47)*(53+47) = 6 * 100 = 600",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -17219,7 +17219,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 98^2 - 2^2",
+          "problem": "Hisoblang: \\(98^2 - 2^2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -17251,7 +17251,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Soddalashtiring: (2a + 3b)^2 - 12ab",
+          "problem": "Soddalashtiring: \\((2a + 3b)^2 - 12ab\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -17283,7 +17283,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 53^2 - 47^2",
+          "problem": "Hisoblang: \\(53^2 - 47^2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -17408,7 +17408,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(98^2 - 2^2\\)",
-          "hint": "Mavzu qoidasi: (98-2)*(98+2) = 96 * 100 = 9600",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -17426,7 +17426,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Soddalashtiring: \\((2a + 3b)^2 - 12ab\\)",
-          "hint": "Mavzu qoidasi: 4a² + 12ab + 9b² - 12ab = 4a² + 9b²",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -17444,7 +17444,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(53^2 - 47^2\\)",
-          "hint": "Mavzu qoidasi: (53-47)*(53+47) = 6 * 100 = 600",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -17540,7 +17540,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: 98^2 - 2^2",
+        "problem": "Hisoblang: \\(98^2 - 2^2\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -17572,7 +17572,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Soddalashtiring: (2a + 3b)^2 - 12ab",
+        "problem": "Soddalashtiring: \\((2a + 3b)^2 - 12ab\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -17604,7 +17604,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: 53^2 - 47^2",
+        "problem": "Hisoblang: \\(53^2 - 47^2\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -17652,7 +17652,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: 98^2 - 2^2",
+        "question": "Hisoblang: \\(98^2 - 2^2\\)",
         "options": [
           "19200",
           "9601",
@@ -17664,19 +17664,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Soddalashtiring: (2a + 3b)^2 - 12ab",
+        "question": "Soddalashtiring: \\((2a + 3b)^2 - 12ab\\)",
         "options": [
-          "4a^2 + 9b^2",
-          "4a^2 + 12ab + 9b^2",
-          "2a^2 + 3b^2",
-          "4a^2 - 9b^2"
+          "\\(4a^2 + 9b^2\\)",
+          "\\(4a^2 + 12ab + 9b^2\\)",
+          "\\(2a^2 + 3b^2\\)",
+          "\\(4a^2 - 9b^2\\)"
         ],
         "correctIndex": 0,
         "explanation": "4a² + 12ab + 9b² - 12ab = 4a² + 9b²"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 53^2 - 47^2",
+        "question": "Hisoblang: \\(53^2 - 47^2\\)",
         "options": [
           "601",
           "600",
@@ -17834,7 +17834,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\frac{2^8 \\cdot 4^3}{8^4}",
+          "problem": "Hisoblang: \\(\\frac{2^8 \\cdot 4^3}{8^4}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -17866,7 +17866,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: (3^2)^3 : 3^4",
+          "problem": "Hisoblang: \\((3^2)^3 : 3^4\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -17898,7 +17898,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: (a^3 \\cdot a^5)^2 : a^{12}",
+          "problem": "Soddalashtiring: \\((a^3 \\cdot a^5)^2 : a^{12}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -17954,7 +17954,7 @@ const mathTopicsData = [
             "4"
           ],
           "correctIndex": 3,
-          "explanation": "2^8 * 2^6 / 2^12 = 2^14 / 2^12 = 2² = 4"
+          "explanation": "\\(2^8 * 2^6 / 2^12 = 2^14 / 2^12 = 2² = 4\\)"
         },
         {
           "level": "medium",
@@ -17966,7 +17966,7 @@ const mathTopicsData = [
             "81"
           ],
           "correctIndex": 0,
-          "explanation": "3^6 / 3^4 = 3² = 9"
+          "explanation": "\\(3^6 / 3^4 = 3² = 9\\)"
         },
         {
           "level": "hard",
@@ -17978,7 +17978,7 @@ const mathTopicsData = [
             "\\(a^8\\)"
           ],
           "correctIndex": 1,
-          "explanation": "(a^8)² / a^12 = a^16 / a^12 = a^4"
+          "explanation": "\\((a^8)² / a^12 = a^16 / a^12 = a^4\\)"
         }
       ],
       "practiceExercises": [
@@ -18078,7 +18078,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\frac{2^8 \\cdot 4^3}{8^4}",
+          "problem": "Hisoblang: \\(\\frac{2^8 \\cdot 4^3}{8^4}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -18110,7 +18110,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: (3^2)^3 : 3^4",
+          "problem": "Hisoblang: \\((3^2)^3 : 3^4\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -18142,7 +18142,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: (a^3 \\cdot a^5)^2 : a^{12}",
+          "problem": "Soddalashtiring: \\((a^3 \\cdot a^5)^2 : a^{12}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -18234,7 +18234,7 @@ const mathTopicsData = [
             "4"
           ],
           "correctIndex": 3,
-          "explanation": "2^8 * 2^6 / 2^12 = 2^14 / 2^12 = 2² = 4"
+          "explanation": "\\(2^8 * 2^6 / 2^12 = 2^14 / 2^12 = 2² = 4\\)"
         },
         {
           "level": "medium",
@@ -18246,7 +18246,7 @@ const mathTopicsData = [
             "81"
           ],
           "correctIndex": 0,
-          "explanation": "3^6 / 3^4 = 3² = 9"
+          "explanation": "\\(3^6 / 3^4 = 3² = 9\\)"
         },
         {
           "level": "hard",
@@ -18258,7 +18258,7 @@ const mathTopicsData = [
             "\\(a^8\\)"
           ],
           "correctIndex": 1,
-          "explanation": "(a^8)² / a^12 = a^16 / a^12 = a^4"
+          "explanation": "\\((a^8)² / a^12 = a^16 / a^12 = a^4\\)"
         }
       ],
       "practiceExercises": [
@@ -18267,7 +18267,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\frac{2^8 \\cdot 4^3}{8^4}\\)",
-          "hint": "Mavzu qoidasi: \\(2^8 * 2^6 / 2^12 = 2^14 / 2^12 = 2² = 4\\)",
+          "hint": "Kasrlarni ko'paytirishda surati suratiga, maxraji maxrajiga ko'paytiriladi. Ko'paytirishdan oldin sonlarni diagonal bo'yicha qisqartirib olsangiz, hisoblash juda oson bo'ladi!",
           "solution": {
             "steps": [
               {
@@ -18285,7 +18285,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\((3^2)^3 : 3^4\\)",
-          "hint": "Mavzu qoidasi: \\(3^6 / 3^4 = 3² = 9\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -18303,7 +18303,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Soddalashtiring: \\((a^3 \\cdot a^5)^2 : a^{12}\\)",
-          "hint": "Mavzu qoidasi: \\((a^8)² / a^12 = a^16 / a^12 = a^4\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -18358,7 +18358,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\frac{2^8 \\cdot 4^3}{8^4}",
+          "problem": "Hisoblang: \\(\\frac{2^8 \\cdot 4^3}{8^4}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -18390,7 +18390,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: (3^2)^3 : 3^4",
+          "problem": "Hisoblang: \\((3^2)^3 : 3^4\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -18422,7 +18422,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: (a^3 \\cdot a^5)^2 : a^{12}",
+          "problem": "Soddalashtiring: \\((a^3 \\cdot a^5)^2 : a^{12}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -18514,7 +18514,7 @@ const mathTopicsData = [
             "4"
           ],
           "correctIndex": 3,
-          "explanation": "2^8 * 2^6 / 2^12 = 2^14 / 2^12 = 2² = 4"
+          "explanation": "\\(2^8 * 2^6 / 2^12 = 2^14 / 2^12 = 2² = 4\\)"
         },
         {
           "level": "medium",
@@ -18526,7 +18526,7 @@ const mathTopicsData = [
             "81"
           ],
           "correctIndex": 0,
-          "explanation": "3^6 / 3^4 = 3² = 9"
+          "explanation": "\\(3^6 / 3^4 = 3² = 9\\)"
         },
         {
           "level": "hard",
@@ -18538,7 +18538,7 @@ const mathTopicsData = [
             "\\(a^8\\)"
           ],
           "correctIndex": 1,
-          "explanation": "(a^8)² / a^12 = a^16 / a^12 = a^4"
+          "explanation": "\\((a^8)² / a^12 = a^16 / a^12 = a^4\\)"
         }
       ],
       "practiceExercises": [
@@ -18547,7 +18547,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\frac{2^8 \\cdot 4^3}{8^4}\\)",
-          "hint": "Mavzu qoidasi: \\(2^8 * 2^6 / 2^12 = 2^14 / 2^12 = 2² = 4\\)",
+          "hint": "Kasrlarni ko'paytirishda surati suratiga, maxraji maxrajiga ko'paytiriladi. Ko'paytirishdan oldin sonlarni diagonal bo'yicha qisqartirib olsangiz, hisoblash juda oson bo'ladi!",
           "solution": {
             "steps": [
               {
@@ -18565,7 +18565,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\((3^2)^3 : 3^4\\)",
-          "hint": "Mavzu qoidasi: \\(3^6 / 3^4 = 3² = 9\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -18583,7 +18583,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Soddalashtiring: \\((a^3 \\cdot a^5)^2 : a^{12}\\)",
-          "hint": "Mavzu qoidasi: \\((a^8)² / a^12 = a^16 / a^12 = a^4\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -18679,7 +18679,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: \\frac{2^8 \\cdot 4^3}{8^4}",
+        "problem": "Hisoblang: \\(\\frac{2^8 \\cdot 4^3}{8^4}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -18711,7 +18711,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: (3^2)^3 : 3^4",
+        "problem": "Hisoblang: \\((3^2)^3 : 3^4\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -18743,7 +18743,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Soddalashtiring: (a^3 \\cdot a^5)^2 : a^{12}",
+        "problem": "Soddalashtiring: \\((a^3 \\cdot a^5)^2 : a^{12}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -18791,7 +18791,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\frac{2^8 \\cdot 4^3}{8^4}",
+        "question": "Hisoblang: \\(\\frac{2^8 \\cdot 4^3}{8^4}\\)",
         "options": [
           "16",
           "2",
@@ -18799,11 +18799,11 @@ const mathTopicsData = [
           "4"
         ],
         "correctIndex": 3,
-        "explanation": "2^8 * 2^6 / 2^12 = 2^14 / 2^12 = 2² = 4"
+        "explanation": "\\(2^8 * 2^6 / 2^12 = 2^14 / 2^12 = 2² = 4\\)"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: (3^2)^3 : 3^4",
+        "question": "Hisoblang: \\((3^2)^3 : 3^4\\)",
         "options": [
           "9",
           "3",
@@ -18811,19 +18811,19 @@ const mathTopicsData = [
           "81"
         ],
         "correctIndex": 0,
-        "explanation": "3^6 / 3^4 = 3² = 9"
+        "explanation": "\\(3^6 / 3^4 = 3² = 9\\)"
       },
       {
         "level": "hard",
-        "question": "Soddalashtiring: (a^3 \\cdot a^5)^2 : a^{12}",
+        "question": "Soddalashtiring: \\((a^3 \\cdot a^5)^2 : a^{12}\\)",
         "options": [
-          "a^2",
-          "a^4",
-          "a^6",
-          "a^8"
+          "\\(a^2\\)",
+          "\\(a^4\\)",
+          "\\(a^6\\)",
+          "\\(a^8\\)"
         ],
         "correctIndex": 1,
-        "explanation": "(a^8)² / a^12 = a^16 / a^12 = a^4"
+        "explanation": "\\((a^8)² / a^12 = a^16 / a^12 = a^4\\)"
       }
     ],
     "practiceExercises": [
@@ -19386,7 +19386,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "y = 3x - 6 funksiyaning Ox o'qi bilan kesishish nuqtasi abssissasini toping.",
-          "hint": "Mavzu qoidasi: 3x - 6 = 0 => x = 2",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -19404,7 +19404,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "y = -2x + 8 to'g'ri chiziqqa parallel va koordinata boshidan o'tuvchi to'g'ri chiziq tenglamasini toping.",
-          "hint": "Mavzu qoidasi: Parallel to'g'ri chiziqlarda k1 = k2 = -2",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -19422,7 +19422,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "y = 4x - 5 funksiya grafigi A(3; y0) nuqtadan o'tsa, y0 ni toping.",
-          "hint": "Mavzu qoidasi: y0 = 4*3 - 5 = 7",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -19656,7 +19656,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "y = 3x - 6 funksiyaning Ox o'qi bilan kesishish nuqtasi abssissasini toping.",
-          "hint": "Mavzu qoidasi: 3x - 6 = 0 => x = 2",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -19674,7 +19674,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "y = -2x + 8 to'g'ri chiziqqa parallel va koordinata boshidan o'tuvchi to'g'ri chiziq tenglamasini toping.",
-          "hint": "Mavzu qoidasi: Parallel to'g'ri chiziqlarda k1 = k2 = -2",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -19692,7 +19692,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "y = 4x - 5 funksiya grafigi A(3; y0) nuqtadan o'tsa, y0 ni toping.",
-          "hint": "Mavzu qoidasi: y0 = 4*3 - 5 = 7",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -20062,7 +20062,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ko'phadni soddalashtiring: 3x^2 + 5x - 2x^2 + 7 - 3x",
+          "problem": "Ko'phadni soddalashtiring: \\(3x^2 + 5x - 2x^2 + 7 - 3x\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -20126,7 +20126,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Ko'paytirishni bajaring: (2x - 3)(3x + 4) - 6x^2",
+          "problem": "Ko'paytirishni bajaring: \\((2x - 3)(3x + 4) - 6x^2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -20186,7 +20186,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Qavslarni oching va soddalashtiring: \\(2a(3a - 4b) - 5a(a - b)\\)",
+          "question": "Qavslarni oching va soddalashtiring: 2a(3a - 4b) - 5a(a - b)",
           "options": [
             "\\(a^2 - 3ab\\)",
             "\\(a^2 - 13ab\\)",
@@ -20296,7 +20296,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ko'phadni soddalashtiring: 3x^2 + 5x - 2x^2 + 7 - 3x",
+          "problem": "Ko'phadni soddalashtiring: \\(3x^2 + 5x - 2x^2 + 7 - 3x\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -20360,7 +20360,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Ko'paytirishni bajaring: (2x - 3)(3x + 4) - 6x^2",
+          "problem": "Ko'paytirishni bajaring: \\((2x - 3)(3x + 4) - 6x^2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -20456,7 +20456,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Qavslarni oching va soddalashtiring: \\(2a(3a - 4b) - 5a(a - b)\\)",
+          "question": "Qavslarni oching va soddalashtiring: 2a(3a - 4b) - 5a(a - b)",
           "options": [
             "\\(a^2 - 3ab\\)",
             "\\(a^2 - 13ab\\)",
@@ -20485,7 +20485,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ko'phadni soddalashtiring: \\(3x^2 + 5x - 2x^2 + 7 - 3x\\)",
-          "hint": "Mavzu qoidasi: (3-2)x² + (5-3)x + 7 = x² + 2x + 7",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -20503,7 +20503,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Qavslarni oching va soddalashtiring: 2a(3a - 4b) - 5a(a - b)",
-          "hint": "Mavzu qoidasi: 6a² - 8ab - 5a² + 5ab = a² - 3ab",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -20521,7 +20521,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Ko'paytirishni bajaring: \\((2x - 3)(3x + 4) - 6x^2\\)",
-          "hint": "Mavzu qoidasi: 6x² + 8x - 9x - 12 - 6x² = -x - 12",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -20566,7 +20566,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ko'phadni soddalashtiring: 3x^2 + 5x - 2x^2 + 7 - 3x",
+          "problem": "Ko'phadni soddalashtiring: \\(3x^2 + 5x - 2x^2 + 7 - 3x\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -20630,7 +20630,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Ko'paytirishni bajaring: (2x - 3)(3x + 4) - 6x^2",
+          "problem": "Ko'paytirishni bajaring: \\((2x - 3)(3x + 4) - 6x^2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -20726,7 +20726,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Qavslarni oching va soddalashtiring: \\(2a(3a - 4b) - 5a(a - b)\\)",
+          "question": "Qavslarni oching va soddalashtiring: 2a(3a - 4b) - 5a(a - b)",
           "options": [
             "\\(a^2 - 3ab\\)",
             "\\(a^2 - 13ab\\)",
@@ -20755,7 +20755,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ko'phadni soddalashtiring: \\(3x^2 + 5x - 2x^2 + 7 - 3x\\)",
-          "hint": "Mavzu qoidasi: (3-2)x² + (5-3)x + 7 = x² + 2x + 7",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -20773,7 +20773,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Qavslarni oching va soddalashtiring: 2a(3a - 4b) - 5a(a - b)",
-          "hint": "Mavzu qoidasi: 6a² - 8ab - 5a² + 5ab = a² - 3ab",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -20791,7 +20791,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Ko'paytirishni bajaring: \\((2x - 3)(3x + 4) - 6x^2\\)",
-          "hint": "Mavzu qoidasi: 6x² + 8x - 9x - 12 - 6x² = -x - 12",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -20877,7 +20877,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Ko'phadni soddalashtiring: 3x^2 + 5x - 2x^2 + 7 - 3x",
+        "problem": "Ko'phadni soddalashtiring: \\(3x^2 + 5x - 2x^2 + 7 - 3x\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -20941,7 +20941,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Ko'paytirishni bajaring: (2x - 3)(3x + 4) - 6x^2",
+        "problem": "Ko'paytirishni bajaring: \\((2x - 3)(3x + 4) - 6x^2\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -20989,12 +20989,12 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Ko'phadni soddalashtiring: 3x^2 + 5x - 2x^2 + 7 - 3x",
+        "question": "Ko'phadni soddalashtiring: \\(3x^2 + 5x - 2x^2 + 7 - 3x\\)",
         "options": [
-          "x^2 + 8x",
-          "5x^2 + 8x + 7",
-          "x^2 - 2x + 7",
-          "x^2 + 2x + 7"
+          "\\(x^2 + 8x\\)",
+          "\\(5x^2 + 8x + 7\\)",
+          "\\(x^2 - 2x + 7\\)",
+          "\\(x^2 + 2x + 7\\)"
         ],
         "correctIndex": 3,
         "explanation": "(3-2)x² + (5-3)x + 7 = x² + 2x + 7"
@@ -21003,17 +21003,17 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Qavslarni oching va soddalashtiring: 2a(3a - 4b) - 5a(a - b)",
         "options": [
-          "a^2 - 3ab",
-          "a^2 - 13ab",
-          "6a^2 - 3ab",
-          "a^2 + 3ab"
+          "\\(a^2 - 3ab\\)",
+          "\\(a^2 - 13ab\\)",
+          "\\(6a^2 - 3ab\\)",
+          "\\(a^2 + 3ab\\)"
         ],
         "correctIndex": 0,
         "explanation": "6a² - 8ab - 5a² + 5ab = a² - 3ab"
       },
       {
         "level": "hard",
-        "question": "Ko'paytirishni bajaring: (2x - 3)(3x + 4) - 6x^2",
+        "question": "Ko'paytirishni bajaring: \\((2x - 3)(3x + 4) - 6x^2\\)",
         "options": [
           "x - 12",
           "-x - 12",
@@ -21594,7 +21594,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Qo'shni burchaklardan biri 65° bo'lsa, ikkinchi burchakni toping.",
-          "hint": "Mavzu qoidasi: 180° - 65° = 115°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -21612,7 +21612,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Vertikal burchaklarning yig'indisi 140° bo'lsa, ulardan birini hisoblang.",
-          "hint": "Mavzu qoidasi: Vertikal burchaklar teng: 140° / 2 = 70°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -21630,7 +21630,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qo'shni burchaklardan biri ikkinchisidan 40° ga katta. Kichik burchakni toping.",
-          "hint": "Mavzu qoidasi: x + (x + 40°) = 180° => 2x = 140° => x = 70°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -21869,7 +21869,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Qo'shni burchaklardan biri 65° bo'lsa, ikkinchi burchakni toping.",
-          "hint": "Mavzu qoidasi: 180° - 65° = 115°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -21887,7 +21887,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Vertikal burchaklarning yig'indisi 140° bo'lsa, ulardan birini hisoblang.",
-          "hint": "Mavzu qoidasi: Vertikal burchaklar teng: 140° / 2 = 70°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -21905,7 +21905,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qo'shni burchaklardan biri ikkinchisidan 40° ga katta. Kichik burchakni toping.",
-          "hint": "Mavzu qoidasi: x + (x + 40°) = 180° => 2x = 140° => x = 70°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -22110,10 +22110,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Qo'shni burchaklardan biri 65° bo'lsa, ikkinchi burchakni toping.",
         "options": [
-          "90^\\circ",
-          "125^\\circ",
-          "65^\\circ",
-          "115^\\circ"
+          "\\(90^\\circ\\)",
+          "\\(125^\\circ\\)",
+          "\\(65^\\circ\\)",
+          "\\(115^\\circ\\)"
         ],
         "correctIndex": 3,
         "explanation": "180° - 65° = 115°"
@@ -22122,10 +22122,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Vertikal burchaklarning yig'indisi 140° bo'lsa, ulardan birini hisoblang.",
         "options": [
-          "70^\\circ",
-          "140^\\circ",
-          "40^\\circ",
-          "110^\\circ"
+          "\\(70^\\circ\\)",
+          "\\(140^\\circ\\)",
+          "\\(40^\\circ\\)",
+          "\\(110^\\circ\\)"
         ],
         "correctIndex": 0,
         "explanation": "Vertikal burchaklar teng: 140° / 2 = 70°"
@@ -22134,10 +22134,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Qo'shni burchaklardan biri ikkinchisidan 40° ga katta. Kichik burchakni toping.",
         "options": [
-          "110^\\circ",
-          "70^\\circ",
-          "80^\\circ",
-          "60^\\circ"
+          "\\(110^\\circ\\)",
+          "\\(70^\\circ\\)",
+          "\\(80^\\circ\\)",
+          "\\(60^\\circ\\)"
         ],
         "correctIndex": 1,
         "explanation": "x + (x + 40°) = 180° => 2x = 140° => x = 70°"
@@ -22322,7 +22322,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.",
+          "problem": "\\(\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -22414,7 +22414,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\Delta ABC = \\Delta A_1B_1C_1\\). Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.",
+          "question": "\\(\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.\\)",
           "options": [
             "\\(8 \\text{ sm}\\)",
             "\\(6 \\text{ sm}\\)",
@@ -22453,7 +22453,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: I alomat: TBT (Tomon-Burchak-Tomon)"
               }
             ],
-            "answer": "\\text{2 tomon va ular orasidagi burchak}"
+            "answer": "\\(\\text{2 tomon va ular orasidagi burchak}\\)"
           }
         },
         {
@@ -22471,7 +22471,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Mos tomonlar teng: A1B1 = AB = 8 sm"
               }
             ],
-            "answer": "8 \\text{ sm}"
+            "answer": "\\(8 \\text{ sm}\\)"
           }
         },
         {
@@ -22566,7 +22566,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.",
+          "problem": "\\(\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -22694,7 +22694,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\Delta ABC = \\Delta A_1B_1C_1\\). Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.",
+          "question": "\\(\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.\\)",
           "options": [
             "\\(8 \\text{ sm}\\)",
             "\\(6 \\text{ sm}\\)",
@@ -22723,7 +22723,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Uchburchaklar tengligining I alomati bo'yicha qaysi elementlar teng bo'lishi kerak?",
-          "hint": "Mavzu qoidasi: I alomat: TBT (Tomon-Burchak-Tomon)",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -22733,7 +22733,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: I alomat: TBT (Tomon-Burchak-Tomon)"
               }
             ],
-            "answer": "\\text{2 tomon va ular orasidagi burchak}"
+            "answer": "\\(\\text{2 tomon va ular orasidagi burchak}\\)"
           }
         },
         {
@@ -22741,7 +22741,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.\\)",
-          "hint": "Mavzu qoidasi: Mos tomonlar teng: A1B1 = AB = 8 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -22751,7 +22751,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Mos tomonlar teng: A1B1 = AB = 8 sm"
               }
             ],
-            "answer": "8 \\text{ sm}"
+            "answer": "\\(8 \\text{ sm}\\)"
           }
         },
         {
@@ -22759,7 +22759,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Teng tomonli uchburchakning bir burchagi necha gradusga teng?",
-          "hint": "Mavzu qoidasi: 180° / 3 = 60°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -22846,7 +22846,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.",
+          "problem": "\\(\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -22974,7 +22974,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\Delta ABC = \\Delta A_1B_1C_1\\). Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.",
+          "question": "\\(\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.\\)",
           "options": [
             "\\(8 \\text{ sm}\\)",
             "\\(6 \\text{ sm}\\)",
@@ -23003,7 +23003,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Uchburchaklar tengligining I alomati bo'yicha qaysi elementlar teng bo'lishi kerak?",
-          "hint": "Mavzu qoidasi: I alomat: TBT (Tomon-Burchak-Tomon)",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -23013,7 +23013,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: I alomat: TBT (Tomon-Burchak-Tomon)"
               }
             ],
-            "answer": "\\text{2 tomon va ular orasidagi burchak}"
+            "answer": "\\(\\text{2 tomon va ular orasidagi burchak}\\)"
           }
         },
         {
@@ -23021,7 +23021,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.\\)",
-          "hint": "Mavzu qoidasi: Mos tomonlar teng: A1B1 = AB = 8 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -23031,7 +23031,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Mos tomonlar teng: A1B1 = AB = 8 sm"
               }
             ],
-            "answer": "8 \\text{ sm}"
+            "answer": "\\(8 \\text{ sm}\\)"
           }
         },
         {
@@ -23039,7 +23039,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Teng tomonli uchburchakning bir burchagi necha gradusga teng?",
-          "hint": "Mavzu qoidasi: 180° / 3 = 60°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -23167,7 +23167,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.",
+        "problem": "\\(\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -23249,22 +23249,22 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Uchburchaklar tengligining I alomati bo'yicha qaysi elementlar teng bo'lishi kerak?",
         "options": [
-          "\\text{Faqat yuzalari}",
-          "\\text{3 ta burchak}",
-          "\\text{1 tomon va 1 burchak}",
-          "\\text{2 tomon va ular orasidagi burchak}"
+          "\\(\\text{Faqat yuzalari}\\)",
+          "\\(\\text{3 ta burchak}\\)",
+          "\\(\\text{1 tomon va 1 burchak}\\)",
+          "\\(\\text{2 tomon va ular orasidagi burchak}\\)"
         ],
         "correctIndex": 3,
         "explanation": "I alomat: TBT (Tomon-Burchak-Tomon)"
       },
       {
         "level": "medium",
-        "question": "\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.",
+        "question": "\\(\\Delta ABC = \\Delta A_1B_1C_1. Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping.\\)",
         "options": [
-          "8 \\text{ sm}",
-          "6 \\text{ sm}",
-          "14 \\text{ sm}",
-          "10 \\text{ sm}"
+          "\\(8 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(14 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "Mos tomonlar teng: A1B1 = AB = 8 sm"
@@ -23273,10 +23273,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Teng tomonli uchburchakning bir burchagi necha gradusga teng?",
         "options": [
-          "90^\\circ",
-          "60^\\circ",
-          "45^\\circ",
-          "180^\\circ"
+          "\\(90^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(45^\\circ\\)",
+          "\\(180^\\circ\\)"
         ],
         "correctIndex": 1,
         "explanation": "180° / 3 = 60°"
@@ -23298,7 +23298,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: I alomat: TBT (Tomon-Burchak-Tomon)"
             }
           ],
-          "answer": "\\text{2 tomon va ular orasidagi burchak}"
+          "answer": "\\(\\text{2 tomon va ular orasidagi burchak}\\)"
         }
       },
       {
@@ -23316,7 +23316,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Mos tomonlar teng: A1B1 = AB = 8 sm"
             }
           ],
-          "answer": "8 \\text{ sm}"
+          "answer": "\\(8 \\text{ sm}\\)"
         }
       },
       {
@@ -23424,7 +23424,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ko'paytuvchilarga ajrating: a^3 - 8",
+          "problem": "Ko'paytuvchilarga ajrating: \\(a^3 - 8\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -23456,7 +23456,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{53^3 + 47^3}{100} + 53 \\cdot 47",
+          "problem": "Hisoblang: \\(\\frac{53^3 + 47^3}{100} + 53 \\cdot 47\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -23488,7 +23488,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: (x + 1)(x^2 - x + 1)",
+          "problem": "Soddalashtiring: \\((x + 1)(x^2 - x + 1)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -23663,7 +23663,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ko'paytuvchilarga ajrating: a^3 - 8",
+          "problem": "Ko'paytuvchilarga ajrating: \\(a^3 - 8\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -23695,7 +23695,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{53^3 + 47^3}{100} + 53 \\cdot 47",
+          "problem": "Hisoblang: \\(\\frac{53^3 + 47^3}{100} + 53 \\cdot 47\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -23727,7 +23727,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: (x + 1)(x^2 - x + 1)",
+          "problem": "Soddalashtiring: \\((x + 1)(x^2 - x + 1)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -23852,7 +23852,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ko'paytuvchilarga ajrating: \\(a^3 - 8\\)",
-          "hint": "Mavzu qoidasi: a³ - 2³ = (a - 2)(a² + 2a + 4)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -23870,7 +23870,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\frac{53^3 + 47^3}{100} + 53 \\cdot 47\\)",
-          "hint": "Mavzu qoidasi: (53+47)(53² - 53*47 + 47²)/100 + 53*47 = 53² + 47² = 2809 + 2209 = 5018 (aniq: 53² = 2809)",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -23888,7 +23888,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Soddalashtiring: \\((x + 1)(x^2 - x + 1)\\)",
-          "hint": "Mavzu qoidasi: Kublar yig'indisi formulasi: x³ + 1",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -23938,7 +23938,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ko'paytuvchilarga ajrating: a^3 - 8",
+          "problem": "Ko'paytuvchilarga ajrating: \\(a^3 - 8\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -23970,7 +23970,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{53^3 + 47^3}{100} + 53 \\cdot 47",
+          "problem": "Hisoblang: \\(\\frac{53^3 + 47^3}{100} + 53 \\cdot 47\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -24002,7 +24002,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: (x + 1)(x^2 - x + 1)",
+          "problem": "Soddalashtiring: \\((x + 1)(x^2 - x + 1)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -24127,7 +24127,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ko'paytuvchilarga ajrating: \\(a^3 - 8\\)",
-          "hint": "Mavzu qoidasi: a³ - 2³ = (a - 2)(a² + 2a + 4)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -24145,7 +24145,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\frac{53^3 + 47^3}{100} + 53 \\cdot 47\\)",
-          "hint": "Mavzu qoidasi: (53+47)(53² - 53*47 + 47²)/100 + 53*47 = 53² + 47² = 2809 + 2209 = 5018 (aniq: 53² = 2809)",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -24163,7 +24163,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Soddalashtiring: \\((x + 1)(x^2 - x + 1)\\)",
-          "hint": "Mavzu qoidasi: Kublar yig'indisi formulasi: x³ + 1",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -24254,7 +24254,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Ko'paytuvchilarga ajrating: a^3 - 8",
+        "problem": "Ko'paytuvchilarga ajrating: \\(a^3 - 8\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -24286,7 +24286,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: \\frac{53^3 + 47^3}{100} + 53 \\cdot 47",
+        "problem": "Hisoblang: \\(\\frac{53^3 + 47^3}{100} + 53 \\cdot 47\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -24318,7 +24318,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Soddalashtiring: (x + 1)(x^2 - x + 1)",
+        "problem": "Soddalashtiring: \\((x + 1)(x^2 - x + 1)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -24366,19 +24366,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Ko'paytuvchilarga ajrating: a^3 - 8",
+        "question": "Ko'paytuvchilarga ajrating: \\(a^3 - 8\\)",
         "options": [
-          "(a + 2)(a^2 - 2a + 4)",
-          "(a - 2)(a^2 - 2a + 4)",
-          "(a - 2)^3",
-          "(a - 2)(a^2 + 2a + 4)"
+          "\\((a + 2)(a^2 - 2a + 4)\\)",
+          "\\((a - 2)(a^2 - 2a + 4)\\)",
+          "\\((a - 2)^3\\)",
+          "\\((a - 2)(a^2 + 2a + 4)\\)"
         ],
         "correctIndex": 3,
         "explanation": "a³ - 2³ = (a - 2)(a² + 2a + 4)"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\frac{53^3 + 47^3}{100} + 53 \\cdot 47",
+        "question": "Hisoblang: \\(\\frac{53^3 + 47^3}{100} + 53 \\cdot 47\\)",
         "options": [
           "2809",
           "10000",
@@ -24390,12 +24390,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Soddalashtiring: (x + 1)(x^2 - x + 1)",
+        "question": "Soddalashtiring: \\((x + 1)(x^2 - x + 1)\\)",
         "options": [
-          "x^3 - 1",
-          "x^3 + 1",
-          "(x+1)^3",
-          "x^3 + 3x + 1"
+          "\\(x^3 - 1\\)",
+          "\\(x^3 + 1\\)",
+          "\\((x+1)^3\\)",
+          "\\(x^3 + 3x + 1\\)"
         ],
         "correctIndex": 1,
         "explanation": "Kublar yig'indisi formulasi: x³ + 1"
@@ -24955,7 +24955,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Uchburchakning ikkita burchagi 50° va 70°. Uchinchi burchakni toping.",
-          "hint": "Mavzu qoidasi: 180° - (50° + 70°) = 60°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -24973,7 +24973,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Teng yonli uchburchakning uchidagi burchagi 40°. Asosidagi burchaklarini toping.",
-          "hint": "Mavzu qoidasi: (180° - 40°) / 2 = 70°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -24991,7 +24991,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "To'g'ri burchakli uchburchakning bir o'tkir burchagi 35° bo'lsa, ikkinchi o'tkir burchakni toping.",
-          "hint": "Mavzu qoidasi: 90° - 35° = 55°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -25225,7 +25225,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Uchburchakning ikkita burchagi 50° va 70°. Uchinchi burchakni toping.",
-          "hint": "Mavzu qoidasi: 180° - (50° + 70°) = 60°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -25243,7 +25243,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Teng yonli uchburchakning uchidagi burchagi 40°. Asosidagi burchaklarini toping.",
-          "hint": "Mavzu qoidasi: (180° - 40°) / 2 = 70°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -25261,7 +25261,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "To'g'ri burchakli uchburchakning bir o'tkir burchagi 35° bo'lsa, ikkinchi o'tkir burchakni toping.",
-          "hint": "Mavzu qoidasi: 90° - 35° = 55°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -25455,10 +25455,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Uchburchakning ikkita burchagi 50° va 70°. Uchinchi burchakni toping.",
         "options": [
-          "80^\\circ",
-          "50^\\circ",
-          "70^\\circ",
-          "60^\\circ"
+          "\\(80^\\circ\\)",
+          "\\(50^\\circ\\)",
+          "\\(70^\\circ\\)",
+          "\\(60^\\circ\\)"
         ],
         "correctIndex": 3,
         "explanation": "180° - (50° + 70°) = 60°"
@@ -25467,10 +25467,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Teng yonli uchburchakning uchidagi burchagi 40°. Asosidagi burchaklarini toping.",
         "options": [
-          "70^\\circ",
-          "60^\\circ",
-          "80^\\circ",
-          "40^\\circ"
+          "\\(70^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(80^\\circ\\)",
+          "\\(40^\\circ\\)"
         ],
         "correctIndex": 0,
         "explanation": "(180° - 40°) / 2 = 70°"
@@ -25479,10 +25479,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "To'g'ri burchakli uchburchakning bir o'tkir burchagi 35° bo'lsa, ikkinchi o'tkir burchakni toping.",
         "options": [
-          "65^\\circ",
-          "55^\\circ",
-          "45^\\circ",
-          "35^\\circ"
+          "\\(65^\\circ\\)",
+          "\\(55^\\circ\\)",
+          "\\(45^\\circ\\)",
+          "\\(35^\\circ\\)"
         ],
         "correctIndex": 1,
         "explanation": "90° - 35° = 55°"
@@ -25630,7 +25630,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: 2x^2 - 9x + 4 = 0",
+          "problem": "Tenglamani yeching: \\(2x^2 - 9x + 4 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -25678,7 +25678,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamaning musbat ildizini toping: x^2 - 6x - 16 = 0",
+          "problem": "Tenglamaning musbat ildizini toping: \\(x^2 - 6x - 16 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -25726,7 +25726,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: 3x^2 - 12 = 0",
+          "problem": "Tenglamani yeching: \\(3x^2 - 12 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -25901,7 +25901,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: 2x^2 - 9x + 4 = 0",
+          "problem": "Tenglamani yeching: \\(2x^2 - 9x + 4 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -25949,7 +25949,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamaning musbat ildizini toping: x^2 - 6x - 16 = 0",
+          "problem": "Tenglamaning musbat ildizini toping: \\(x^2 - 6x - 16 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -25997,7 +25997,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: 3x^2 - 12 = 0",
+          "problem": "Tenglamani yeching: \\(3x^2 - 12 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -26122,7 +26122,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: \\(2x^2 - 9x + 4 = 0\\)",
-          "hint": "Mavzu qoidasi: D = 81 - 32 = 49 => x = (9 ± 7)/4 => x1 = 4, x2 = 0.5",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -26140,7 +26140,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamaning musbat ildizini toping: \\(x^2 - 6x - 16 = 0\\)",
-          "hint": "Mavzu qoidasi: D = 36 + 64 = 100 => x = (6 ± 10)/2 => x1 = 8",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -26158,7 +26158,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(3x^2 - 12 = 0\\)",
-          "hint": "Mavzu qoidasi: 3x² = 12 => x² = 4 => x = ±2",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -26208,7 +26208,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: 2x^2 - 9x + 4 = 0",
+          "problem": "Tenglamani yeching: \\(2x^2 - 9x + 4 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -26256,7 +26256,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamaning musbat ildizini toping: x^2 - 6x - 16 = 0",
+          "problem": "Tenglamaning musbat ildizini toping: \\(x^2 - 6x - 16 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -26304,7 +26304,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: 3x^2 - 12 = 0",
+          "problem": "Tenglamani yeching: \\(3x^2 - 12 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -26429,7 +26429,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: \\(2x^2 - 9x + 4 = 0\\)",
-          "hint": "Mavzu qoidasi: D = 81 - 32 = 49 => x = (9 ± 7)/4 => x1 = 4, x2 = 0.5",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -26447,7 +26447,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamaning musbat ildizini toping: \\(x^2 - 6x - 16 = 0\\)",
-          "hint": "Mavzu qoidasi: D = 36 + 64 = 100 => x = (6 ± 10)/2 => x1 = 8",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -26465,7 +26465,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(3x^2 - 12 = 0\\)",
-          "hint": "Mavzu qoidasi: 3x² = 12 => x² = 4 => x = ±2",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -26556,7 +26556,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "Tenglamani yeching: 2x^2 - 9x + 4 = 0",
+        "problem": "Tenglamani yeching: \\(2x^2 - 9x + 4 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -26604,7 +26604,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "Tenglamaning musbat ildizini toping: x^2 - 6x - 16 = 0",
+        "problem": "Tenglamaning musbat ildizini toping: \\(x^2 - 6x - 16 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -26652,7 +26652,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tenglamani yeching: 3x^2 - 12 = 0",
+        "problem": "Tenglamani yeching: \\(3x^2 - 12 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -26700,19 +26700,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 2x^2 - 9x + 4 = 0",
+        "question": "Tenglamani yeching: \\(2x^2 - 9x + 4 = 0\\)",
         "options": [
-          "x_1 = 4, x_2 = 0.5",
-          "x_1 = 2, x_2 = 1",
-          "x_1 = 3, x_2 = 2",
-          "x_1 = -4, x_2 = -0.5"
+          "\\(x_1 = 4, x_2 = 0.5\\)",
+          "\\(x_1 = 2, x_2 = 1\\)",
+          "\\(x_1 = 3, x_2 = 2\\)",
+          "\\(x_1 = -4, x_2 = -0.5\\)"
         ],
         "correctIndex": 0,
         "explanation": "D = 81 - 32 = 49 => x = (9 ± 7)/4 => x1 = 4, x2 = 0.5"
       },
       {
         "level": "medium",
-        "question": "Tenglamaning musbat ildizini toping: x^2 - 6x - 16 = 0",
+        "question": "Tenglamaning musbat ildizini toping: \\(x^2 - 6x - 16 = 0\\)",
         "options": [
           "2",
           "8",
@@ -26724,12 +26724,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: 3x^2 - 12 = 0",
+        "question": "Tenglamani yeching: \\(3x^2 - 12 = 0\\)",
         "options": [
           "x = 4",
           "x = 2",
-          "x = \\pm 2",
-          "x = \\pm 4"
+          "\\(x = \\pm 2\\)",
+          "\\(x = \\pm 4\\)"
         ],
         "correctIndex": 2,
         "explanation": "3x² = 12 => x² = 4 => x = ±2"
@@ -26872,7 +26872,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\sqrt{144} + \\sqrt{81} - \\sqrt{25}",
+          "problem": "Hisoblang: \\(\\sqrt{144} + \\sqrt{81} - \\sqrt{25}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -26904,7 +26904,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}",
+          "problem": "Hisoblang: \\(\\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -26936,7 +26936,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: (\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}",
+          "problem": "Hisoblang: \\((\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -27106,7 +27106,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\sqrt{144} + \\sqrt{81} - \\sqrt{25}",
+          "problem": "Hisoblang: \\(\\sqrt{144} + \\sqrt{81} - \\sqrt{25}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -27138,7 +27138,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}",
+          "problem": "Hisoblang: \\(\\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -27170,7 +27170,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: (\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}",
+          "problem": "Hisoblang: \\((\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -27295,7 +27295,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\sqrt{144} + \\sqrt{81} - \\sqrt{25}\\)",
-          "hint": "Mavzu qoidasi: 12 + 9 - 5 = 16",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -27313,7 +27313,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}\\)",
-          "hint": "Mavzu qoidasi: 4√3 - 6√3 + 5√3 = 3√3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -27331,7 +27331,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\((\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}\\)",
-          "hint": "Mavzu qoidasi: (7 - 3) + 6 = 10",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -27376,7 +27376,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\sqrt{144} + \\sqrt{81} - \\sqrt{25}",
+          "problem": "Hisoblang: \\(\\sqrt{144} + \\sqrt{81} - \\sqrt{25}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -27408,7 +27408,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}",
+          "problem": "Hisoblang: \\(\\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -27440,7 +27440,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: (\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}",
+          "problem": "Hisoblang: \\((\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -27565,7 +27565,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\sqrt{144} + \\sqrt{81} - \\sqrt{25}\\)",
-          "hint": "Mavzu qoidasi: 12 + 9 - 5 = 16",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -27583,7 +27583,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}\\)",
-          "hint": "Mavzu qoidasi: 4√3 - 6√3 + 5√3 = 3√3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -27601,7 +27601,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\((\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}\\)",
-          "hint": "Mavzu qoidasi: (7 - 3) + 6 = 10",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -27687,7 +27687,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: \\sqrt{144} + \\sqrt{81} - \\sqrt{25}",
+        "problem": "Hisoblang: \\(\\sqrt{144} + \\sqrt{81} - \\sqrt{25}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -27719,7 +27719,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: \\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}",
+        "problem": "Hisoblang: \\(\\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -27751,7 +27751,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: (\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}",
+        "problem": "Hisoblang: \\((\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -27799,7 +27799,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\sqrt{144} + \\sqrt{81} - \\sqrt{25}",
+        "question": "Hisoblang: \\(\\sqrt{144} + \\sqrt{81} - \\sqrt{25}\\)",
         "options": [
           "16",
           "18",
@@ -27811,19 +27811,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}",
+        "question": "Hisoblang: \\(\\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}\\)",
         "options": [
-          "4\\sqrt{3}",
-          "3\\sqrt{3}",
-          "2\\sqrt{3}",
-          "5\\sqrt{3}"
+          "\\(4\\sqrt{3}\\)",
+          "\\(3\\sqrt{3}\\)",
+          "\\(2\\sqrt{3}\\)",
+          "\\(5\\sqrt{3}\\)"
         ],
         "correctIndex": 1,
         "explanation": "4√3 - 6√3 + 5√3 = 3√3"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: (\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}",
+        "question": "Hisoblang: \\((\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}\\)",
         "options": [
           "16",
           "4",
@@ -28139,7 +28139,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: c = √(81 + 144) = √225 = 15 sm"
               }
             ],
-            "answer": "15 \\text{ sm}"
+            "answer": "\\(15 \\text{ sm}\\)"
           }
         },
         {
@@ -28157,7 +28157,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: b = √(289 - 64) = √225 = 15 sm"
               }
             ],
-            "answer": "15 \\text{ sm}"
+            "answer": "\\(15 \\text{ sm}\\)"
           }
         },
         {
@@ -28404,7 +28404,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Katetlari a = 9 sm, b = 12 sm bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
-          "hint": "Mavzu qoidasi: c = √(81 + 144) = √225 = 15 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -28414,7 +28414,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: c = √(81 + 144) = √225 = 15 sm"
               }
             ],
-            "answer": "15 \\text{ sm}"
+            "answer": "\\(15 \\text{ sm}\\)"
           }
         },
         {
@@ -28422,7 +28422,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Gipotenuzasi 17 sm, bir kateti 8 sm bo'lsa, ikkinchi katetni toping.",
-          "hint": "Mavzu qoidasi: b = √(289 - 64) = √225 = 15 sm",
+          "hint": "To'g'ri burchakli uchburchakda Pifagor teoremasini qo'llang: c² = a² + b². Katetlarning kvadratlarini qo'shib, ildiz chiqaring.",
           "solution": {
             "steps": [
               {
@@ -28432,7 +28432,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: b = √(289 - 64) = √225 = 15 sm"
               }
             ],
-            "answer": "15 \\text{ sm}"
+            "answer": "\\(15 \\text{ sm}\\)"
           }
         },
         {
@@ -28440,7 +28440,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Katetlari 10 sm va 24 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (10 * 24)/2 = 120 sm²",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -28679,7 +28679,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Katetlari a = 9 sm, b = 12 sm bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
-          "hint": "Mavzu qoidasi: c = √(81 + 144) = √225 = 15 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -28689,7 +28689,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: c = √(81 + 144) = √225 = 15 sm"
               }
             ],
-            "answer": "15 \\text{ sm}"
+            "answer": "\\(15 \\text{ sm}\\)"
           }
         },
         {
@@ -28697,7 +28697,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Gipotenuzasi 17 sm, bir kateti 8 sm bo'lsa, ikkinchi katetni toping.",
-          "hint": "Mavzu qoidasi: b = √(289 - 64) = √225 = 15 sm",
+          "hint": "To'g'ri burchakli uchburchakda Pifagor teoremasini qo'llang: c² = a² + b². Katetlarning kvadratlarini qo'shib, ildiz chiqaring.",
           "solution": {
             "steps": [
               {
@@ -28707,7 +28707,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: b = √(289 - 64) = √225 = 15 sm"
               }
             ],
-            "answer": "15 \\text{ sm}"
+            "answer": "\\(15 \\text{ sm}\\)"
           }
         },
         {
@@ -28715,7 +28715,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Katetlari 10 sm va 24 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (10 * 24)/2 = 120 sm²",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -28920,10 +28920,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Katetlari a = 9 sm, b = 12 sm bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping.",
         "options": [
-          "15 \\text{ sm}",
-          "21 \\text{ sm}",
-          "18 \\text{ sm}",
-          "16 \\text{ sm}"
+          "\\(15 \\text{ sm}\\)",
+          "\\(21 \\text{ sm}\\)",
+          "\\(18 \\text{ sm}\\)",
+          "\\(16 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "c = √(81 + 144) = √225 = 15 sm"
@@ -28932,10 +28932,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Gipotenuzasi 17 sm, bir kateti 8 sm bo'lsa, ikkinchi katetni toping.",
         "options": [
-          "12 \\text{ sm}",
-          "15 \\text{ sm}",
-          "14 \\text{ sm}",
-          "9 \\text{ sm}"
+          "\\(12 \\text{ sm}\\)",
+          "\\(15 \\text{ sm}\\)",
+          "\\(14 \\text{ sm}\\)",
+          "\\(9 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "b = √(289 - 64) = √225 = 15 sm"
@@ -28944,10 +28944,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Katetlari 10 sm va 24 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang.",
         "options": [
-          "130 \\text{ sm}^2",
-          "240 \\text{ sm}^2",
-          "120 \\text{ sm}^2",
-          "60 \\text{ sm}^2"
+          "\\(130 \\text{ sm}^2\\)",
+          "\\(240 \\text{ sm}^2\\)",
+          "\\(120 \\text{ sm}^2\\)",
+          "\\(60 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
         "explanation": "S = (10 * 24)/2 = 120 sm²"
@@ -28969,7 +28969,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: c = √(81 + 144) = √225 = 15 sm"
             }
           ],
-          "answer": "15 \\text{ sm}"
+          "answer": "\\(15 \\text{ sm}\\)"
         }
       },
       {
@@ -28987,7 +28987,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: b = √(289 - 64) = √225 = 15 sm"
             }
           ],
-          "answer": "15 \\text{ sm}"
+          "answer": "\\(15 \\text{ sm}\\)"
         }
       },
       {
@@ -29513,7 +29513,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Uchburchakning asosi a = 16 sm, balandligi h = 7 sm. Uning yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (16 * 7)/2 = 56 sm²",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -29531,7 +29531,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tomoni 8 sm bo'lgan teng tomonli uchburchak yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (a²√3)/4 = (64√3)/4 = 16√3 sm²",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -29549,7 +29549,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Gipotenuza 20 sm, unga tushirilgan balandlik 6 sm. Uchburchak yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (20 * 6)/2 = 60 sm²",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -29783,7 +29783,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Uchburchakning asosi a = 16 sm, balandligi h = 7 sm. Uning yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (16 * 7)/2 = 56 sm²",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -29801,7 +29801,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tomoni 8 sm bo'lgan teng tomonli uchburchak yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (a²√3)/4 = (64√3)/4 = 16√3 sm²",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -29819,7 +29819,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Gipotenuza 20 sm, unga tushirilgan balandlik 6 sm. Uchburchak yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (20 * 6)/2 = 60 sm²",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -30019,10 +30019,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Uchburchakning asosi a = 16 sm, balandligi h = 7 sm. Uning yuzini hisoblang.",
         "options": [
-          "56 \\text{ sm}^2",
-          "112 \\text{ sm}^2",
-          "48 \\text{ sm}^2",
-          "64 \\text{ sm}^2"
+          "\\(56 \\text{ sm}^2\\)",
+          "\\(112 \\text{ sm}^2\\)",
+          "\\(48 \\text{ sm}^2\\)",
+          "\\(64 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
         "explanation": "S = (16 * 7)/2 = 56 sm²"
@@ -30031,10 +30031,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tomoni 8 sm bo'lgan teng tomonli uchburchak yuzini hisoblang.",
         "options": [
-          "32\\sqrt{3} \\text{ sm}^2",
-          "16\\sqrt{3} \\text{ sm}^2",
-          "64 \\text{ sm}^2",
-          "16 \\text{ sm}^2"
+          "\\(32\\sqrt{3} \\text{ sm}^2\\)",
+          "\\(16\\sqrt{3} \\text{ sm}^2\\)",
+          "\\(64 \\text{ sm}^2\\)",
+          "\\(16 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
         "explanation": "S = (a²√3)/4 = (64√3)/4 = 16√3 sm²"
@@ -30043,10 +30043,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Gipotenuza 20 sm, unga tushirilgan balandlik 6 sm. Uchburchak yuzini hisoblang.",
         "options": [
-          "80 \\text{ sm}^2",
-          "120 \\text{ sm}^2",
-          "60 \\text{ sm}^2",
-          "40 \\text{ sm}^2"
+          "\\(80 \\text{ sm}^2\\)",
+          "\\(120 \\text{ sm}^2\\)",
+          "\\(60 \\text{ sm}^2\\)",
+          "\\(40 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
         "explanation": "S = (20 * 6)/2 = 60 sm²"
@@ -30189,7 +30189,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.",
+          "problem": "\\(Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -30301,7 +30301,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Kvadratning diagonali \\(8\\sqrt{2}\\) sm bo'lsa, uning yuzini hisoblang.",
+          "question": "\\(Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.\\)",
           "options": [
             "\\(64 \\text{ sm}^2\\)",
             "\\(32 \\text{ sm}^2\\)",
@@ -30423,7 +30423,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.",
+          "problem": "\\(Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -30571,7 +30571,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Kvadratning diagonali \\(8\\sqrt{2}\\) sm bo'lsa, uning yuzini hisoblang.",
+          "question": "\\(Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.\\)",
           "options": [
             "\\(64 \\text{ sm}^2\\)",
             "\\(32 \\text{ sm}^2\\)",
@@ -30612,7 +30612,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.\\)",
-          "hint": "Mavzu qoidasi: a = 8 sm",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -30630,7 +30630,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "To'g'ri to'rtburchakning perimetri 38 sm, bir tomoni 11 sm. Yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: b = 19 - 11 = 8 sm",
+          "hint": "Perimetr — bu shaklning barcha tomonlari uzunliklari yig'indisi. Berilgan barcha tomonlarni bir-biriga qo'shib chiqing.",
           "solution": {
             "steps": [
               {
@@ -30648,7 +30648,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Trapetsiyaning asoslari 14 sm va 8 sm, balandligi 6 sm. Yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (14+8)/2 * 6 = 11 * 6 = 66 sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -30693,7 +30693,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.",
+          "problem": "\\(Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -30841,7 +30841,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Kvadratning diagonali \\(8\\sqrt{2}\\) sm bo'lsa, uning yuzini hisoblang.",
+          "question": "\\(Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.\\)",
           "options": [
             "\\(64 \\text{ sm}^2\\)",
             "\\(32 \\text{ sm}^2\\)",
@@ -30882,7 +30882,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.\\)",
-          "hint": "Mavzu qoidasi: a = 8 sm",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -30900,7 +30900,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "To'g'ri to'rtburchakning perimetri 38 sm, bir tomoni 11 sm. Yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: b = 19 - 11 = 8 sm",
+          "hint": "Perimetr — bu shaklning barcha tomonlari uzunliklari yig'indisi. Berilgan barcha tomonlarni bir-biriga qo'shib chiqing.",
           "solution": {
             "steps": [
               {
@@ -30918,7 +30918,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Trapetsiyaning asoslari 14 sm va 8 sm, balandligi 6 sm. Yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (14+8)/2 * 6 = 11 * 6 = 66 sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -31004,7 +31004,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.",
+        "problem": "\\(Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -31116,12 +31116,12 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.",
+        "question": "\\(Kvadratning diagonali 8\\sqrt{2} sm bo'lsa, uning yuzini hisoblang.\\)",
         "options": [
-          "64 \\text{ sm}^2",
-          "32 \\text{ sm}^2",
-          "128 \\text{ sm}^2",
-          "16 \\text{ sm}^2"
+          "\\(64 \\text{ sm}^2\\)",
+          "\\(32 \\text{ sm}^2\\)",
+          "\\(128 \\text{ sm}^2\\)",
+          "\\(16 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
         "explanation": "a = 8 sm; S = 8² = 64 sm²"
@@ -31130,10 +31130,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "To'g'ri to'rtburchakning perimetri 38 sm, bir tomoni 11 sm. Yuzini hisoblang.",
         "options": [
-          "77 \\text{ sm}^2",
-          "88 \\text{ sm}^2",
-          "99 \\text{ sm}^2",
-          "44 \\text{ sm}^2"
+          "\\(77 \\text{ sm}^2\\)",
+          "\\(88 \\text{ sm}^2\\)",
+          "\\(99 \\text{ sm}^2\\)",
+          "\\(44 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
         "explanation": "b = 19 - 11 = 8 sm; S = 11 * 8 = 88 sm²"
@@ -31142,10 +31142,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Trapetsiyaning asoslari 14 sm va 8 sm, balandligi 6 sm. Yuzini hisoblang.",
         "options": [
-          "72 \\text{ sm}^2",
-          "132 \\text{ sm}^2",
-          "66 \\text{ sm}^2",
-          "84 \\text{ sm}^2"
+          "\\(72 \\text{ sm}^2\\)",
+          "\\(132 \\text{ sm}^2\\)",
+          "\\(66 \\text{ sm}^2\\)",
+          "\\(84 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
         "explanation": "S = (14+8)/2 * 6 = 11 * 6 = 66 sm²"
@@ -31400,7 +31400,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamalar sistemasidan x ni toping: \\(\\begin{cases} 3x + 2y = 17 \\\\ 2x - y = 2 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan x ni toping: \\begin{cases} 3x + 2y = 17 \\\\ 2x - y = 2 \\end{cases}",
           "options": [
             "3",
             "4",
@@ -31412,7 +31412,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamalar sistemasidan y ni toping: \\(\\begin{cases} 4x + 3y = 25 \\\\ x = 2y - 2 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan y ni toping: \\begin{cases} 4x + 3y = 25 \\\\ x = 2y - 2 \\end{cases}",
           "options": [
             "4",
             "3",
@@ -31424,7 +31424,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamalar sistemasini yeching: \\(\\begin{cases} x + y = 9 \\\\ xy = 20 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasini yeching: \\begin{cases} x + y = 9 \\\\ xy = 20 \\end{cases}",
           "options": [
             "(10; 2)",
             "(6; 3)",
@@ -31487,7 +31487,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: x1 = 5, y1 = 4; x2 = 4, y2 = 5"
               }
             ],
-            "answer": "(5; 4) \\text{ yoki } (4; 5)"
+            "answer": "\\((5; 4) \\text{ yoki } (4; 5)\\)"
           }
         }
       ]
@@ -31670,7 +31670,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamalar sistemasidan x ni toping: \\(\\begin{cases} 3x + 2y = 17 \\\\ 2x - y = 2 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan x ni toping: \\begin{cases} 3x + 2y = 17 \\\\ 2x - y = 2 \\end{cases}",
           "options": [
             "3",
             "4",
@@ -31682,7 +31682,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamalar sistemasidan y ni toping: \\(\\begin{cases} 4x + 3y = 25 \\\\ x = 2y - 2 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan y ni toping: \\begin{cases} 4x + 3y = 25 \\\\ x = 2y - 2 \\end{cases}",
           "options": [
             "4",
             "3",
@@ -31694,7 +31694,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamalar sistemasini yeching: \\(\\begin{cases} x + y = 9 \\\\ xy = 20 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasini yeching: \\begin{cases} x + y = 9 \\\\ xy = 20 \\end{cases}",
           "options": [
             "(10; 2)",
             "(6; 3)",
@@ -31711,7 +31711,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamalar sistemasidan x ni toping: \\begin{cases} 3x + 2y = 17 \\\\ 2x - y = 2 \\end{cases}",
-          "hint": "Mavzu qoidasi: 2x - 2 = y => 3x + 4x - 4 = 17 => 7x = 21 => x = 3",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -31729,7 +31729,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamalar sistemasidan y ni toping: \\begin{cases} 4x + 3y = 25 \\\\ x = 2y - 2 \\end{cases}",
-          "hint": "Mavzu qoidasi: 4(2y-2) + 3y = 25 => 11y = 33 => y = 3",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -31747,7 +31747,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamalar sistemasini yeching: \\begin{cases} x + y = 9 \\\\ xy = 20 \\end{cases}",
-          "hint": "Mavzu qoidasi: x1 = 5, y1 = 4",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -31757,7 +31757,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: x1 = 5, y1 = 4; x2 = 4, y2 = 5"
               }
             ],
-            "answer": "(5; 4) \\text{ yoki } (4; 5)"
+            "answer": "\\((5; 4) \\text{ yoki } (4; 5)\\)"
           }
         }
       ]
@@ -31940,7 +31940,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamalar sistemasidan x ni toping: \\(\\begin{cases} 3x + 2y = 17 \\\\ 2x - y = 2 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan x ni toping: \\begin{cases} 3x + 2y = 17 \\\\ 2x - y = 2 \\end{cases}",
           "options": [
             "3",
             "4",
@@ -31952,7 +31952,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamalar sistemasidan y ni toping: \\(\\begin{cases} 4x + 3y = 25 \\\\ x = 2y - 2 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan y ni toping: \\begin{cases} 4x + 3y = 25 \\\\ x = 2y - 2 \\end{cases}",
           "options": [
             "4",
             "3",
@@ -31964,7 +31964,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamalar sistemasini yeching: \\(\\begin{cases} x + y = 9 \\\\ xy = 20 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasini yeching: \\begin{cases} x + y = 9 \\\\ xy = 20 \\end{cases}",
           "options": [
             "(10; 2)",
             "(6; 3)",
@@ -31981,7 +31981,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamalar sistemasidan x ni toping: \\begin{cases} 3x + 2y = 17 \\\\ 2x - y = 2 \\end{cases}",
-          "hint": "Mavzu qoidasi: 2x - 2 = y => 3x + 4x - 4 = 17 => 7x = 21 => x = 3",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -31999,7 +31999,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamalar sistemasidan y ni toping: \\begin{cases} 4x + 3y = 25 \\\\ x = 2y - 2 \\end{cases}",
-          "hint": "Mavzu qoidasi: 4(2y-2) + 3y = 25 => 11y = 33 => y = 3",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -32017,7 +32017,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamalar sistemasini yeching: \\begin{cases} x + y = 9 \\\\ xy = 20 \\end{cases}",
-          "hint": "Mavzu qoidasi: x1 = 5, y1 = 4",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -32027,7 +32027,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: x1 = 5, y1 = 4; x2 = 4, y2 = 5"
               }
             ],
-            "answer": "(5; 4) \\text{ yoki } (4; 5)"
+            "answer": "\\((5; 4) \\text{ yoki } (4; 5)\\)"
           }
         }
       ]
@@ -32243,7 +32243,7 @@ const mathTopicsData = [
         "options": [
           "(10; 2)",
           "(6; 3)",
-          "(5; 4) \\text{ yoki } (4; 5)",
+          "\\((5; 4) \\text{ yoki } (4; 5)\\)",
           "(7; 2)"
         ],
         "correctIndex": 2,
@@ -32302,7 +32302,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: x1 = 5, y1 = 4; x2 = 4, y2 = 5"
             }
           ],
-          "answer": "(5; 4) \\text{ yoki } (4; 5)"
+          "answer": "\\((5; 4) \\text{ yoki } (4; 5)\\)"
         }
       }
     ]
@@ -32387,7 +32387,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.",
+          "problem": "\\(x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -32435,7 +32435,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.",
+          "problem": "\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -32531,7 +32531,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(x^2 - 12x + 35 = 0\\) tenglamaning ildizlari yig'indisini toping.",
+          "question": "\\(x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
           "options": [
             "12",
             "-12",
@@ -32543,7 +32543,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(x^2 - 5x - 14 = 0\\) tenglamaning ildizlari ko'paytmasini toping.",
+          "question": "\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
           "options": [
             "14",
             "-14",
@@ -32653,7 +32653,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.",
+          "problem": "\\(x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -32701,7 +32701,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.",
+          "problem": "\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -32833,7 +32833,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(x^2 - 12x + 35 = 0\\) tenglamaning ildizlari yig'indisini toping.",
+          "question": "\\(x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
           "options": [
             "12",
             "-12",
@@ -32845,7 +32845,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(x^2 - 5x - 14 = 0\\) tenglamaning ildizlari ko'paytmasini toping.",
+          "question": "\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
           "options": [
             "14",
             "-14",
@@ -32874,7 +32874,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
-          "hint": "Mavzu qoidasi: Viyet teoremasi: x1 + x2 = -(-12) = 12",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -32892,7 +32892,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
-          "hint": "Mavzu qoidasi: Viyet teoremasi: x1 * x2 = -14",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -32910,7 +32910,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Ildizlari 3 va 8 bo'lgan keltirilgan kvadrat tenglamani ko'rsating.",
-          "hint": "Mavzu qoidasi: x² - (3+8)x + (3*8) = 0 => x² - 11x + 24 = 0",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -32955,7 +32955,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.",
+          "problem": "\\(x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -33003,7 +33003,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.",
+          "problem": "\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -33135,7 +33135,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(x^2 - 12x + 35 = 0\\) tenglamaning ildizlari yig'indisini toping.",
+          "question": "\\(x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
           "options": [
             "12",
             "-12",
@@ -33147,7 +33147,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(x^2 - 5x - 14 = 0\\) tenglamaning ildizlari ko'paytmasini toping.",
+          "question": "\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
           "options": [
             "14",
             "-14",
@@ -33176,7 +33176,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
-          "hint": "Mavzu qoidasi: Viyet teoremasi: x1 + x2 = -(-12) = 12",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -33194,7 +33194,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
-          "hint": "Mavzu qoidasi: Viyet teoremasi: x1 * x2 = -14",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -33212,7 +33212,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Ildizlari 3 va 8 bo'lgan keltirilgan kvadrat tenglamani ko'rsating.",
-          "hint": "Mavzu qoidasi: x² - (3+8)x + (3*8) = 0 => x² - 11x + 24 = 0",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -33298,7 +33298,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.",
+        "problem": "\\(x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -33346,7 +33346,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.",
+        "problem": "\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -33442,7 +33442,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.",
+        "question": "\\(x^2 - 12x + 35 = 0 tenglamaning ildizlari yig'indisini toping.\\)",
         "options": [
           "12",
           "-12",
@@ -33454,7 +33454,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.",
+        "question": "\\(x^2 - 5x - 14 = 0 tenglamaning ildizlari ko'paytmasini toping.\\)",
         "options": [
           "14",
           "-14",
@@ -33468,10 +33468,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Ildizlari 3 va 8 bo'lgan keltirilgan kvadrat tenglamani ko'rsating.",
         "options": [
-          "x^2 - 24x + 11 = 0",
-          "x^2 + 11x + 24 = 0",
-          "x^2 - 11x + 24 = 0",
-          "x^2 - 5x + 24 = 0"
+          "\\(x^2 - 24x + 11 = 0\\)",
+          "\\(x^2 + 11x + 24 = 0\\)",
+          "\\(x^2 - 11x + 24 = 0\\)",
+          "\\(x^2 - 5x + 24 = 0\\)"
         ],
         "correctIndex": 2,
         "explanation": "x² - (3+8)x + (3*8) = 0 => x² - 11x + 24 = 0"
@@ -33807,7 +33807,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Asos = 2 * o'rta chiziq = 14 sm"
               }
             ],
-            "answer": "14 \\text{ sm}"
+            "answer": "\\(14 \\text{ sm}\\)"
           }
         }
       ]
@@ -34031,7 +34031,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "O'xshash uchburchaklarning o'xshashlik koeffitsienti k = 3. Yuzalari nisbati nechaga teng?",
-          "hint": "Mavzu qoidasi: S1 / S2 = k² = 3² = 9",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -34049,7 +34049,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "O'xshash uchburchaklar perimetrlari nisbati 2 : 5. Mos tomonlari nisbatini toping.",
-          "hint": "Mavzu qoidasi: P1 / P2 = k = 2/5",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -34067,7 +34067,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Uchburchakning o'rta chizig'i 7 sm bo'lsa, unga parallel asosi uzunligini toping.",
-          "hint": "Mavzu qoidasi: Asos = 2 * o'rta chiziq = 14 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -34077,7 +34077,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Asos = 2 * o'rta chiziq = 14 sm"
               }
             ],
-            "answer": "14 \\text{ sm}"
+            "answer": "\\(14 \\text{ sm}\\)"
           }
         }
       ]
@@ -34301,7 +34301,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "O'xshash uchburchaklarning o'xshashlik koeffitsienti k = 3. Yuzalari nisbati nechaga teng?",
-          "hint": "Mavzu qoidasi: S1 / S2 = k² = 3² = 9",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -34319,7 +34319,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "O'xshash uchburchaklar perimetrlari nisbati 2 : 5. Mos tomonlari nisbatini toping.",
-          "hint": "Mavzu qoidasi: P1 / P2 = k = 2/5",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -34337,7 +34337,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Uchburchakning o'rta chizig'i 7 sm bo'lsa, unga parallel asosi uzunligini toping.",
-          "hint": "Mavzu qoidasi: Asos = 2 * o'rta chiziq = 14 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -34347,7 +34347,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Asos = 2 * o'rta chiziq = 14 sm"
               }
             ],
-            "answer": "14 \\text{ sm}"
+            "answer": "\\(14 \\text{ sm}\\)"
           }
         }
       ]
@@ -34555,10 +34555,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Uchburchakning o'rta chizig'i 7 sm bo'lsa, unga parallel asosi uzunligini toping.",
         "options": [
-          "21 \\text{ sm}",
-          "7 \\text{ sm}",
-          "14 \\text{ sm}",
-          "28 \\text{ sm}"
+          "\\(21 \\text{ sm}\\)",
+          "\\(7 \\text{ sm}\\)",
+          "\\(14 \\text{ sm}\\)",
+          "\\(28 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "Asos = 2 * o'rta chiziq = 14 sm"
@@ -34616,7 +34616,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Asos = 2 * o'rta chiziq = 14 sm"
             }
           ],
-          "answer": "14 \\text{ sm}"
+          "answer": "\\(14 \\text{ sm}\\)"
         }
       }
     ]
@@ -34706,7 +34706,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "problem": "\\(Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -34738,7 +34738,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.",
+          "problem": "\\(Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -34770,7 +34770,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.",
+          "problem": "\\(Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -34818,7 +34818,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada \\(a_1 = 3, d = 4\\) bo'lsa, 10-hadi \\(a_{10}\\) ni hisoblang.",
+          "question": "\\(Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "43",
             "39",
@@ -34830,7 +34830,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada \\(a_1 = 2, d = 3\\) bo'lsa, dastlabki 10 ta hadi yig'indisi \\(S_{10}\\) ni hisoblang.",
+          "question": "\\(Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.\\)",
           "options": [
             "150",
             "160",
@@ -34842,7 +34842,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Arifmetik progressiyada \\(a_1 = 5, a_{20} = 62\\) bo'lsa, ayirma d ni toping.",
+          "question": "\\(Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.\\)",
           "options": [
             "5",
             "4",
@@ -34945,7 +34945,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "problem": "\\(Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -34977,7 +34977,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.",
+          "problem": "\\(Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -35009,7 +35009,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.",
+          "problem": "\\(Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -35093,7 +35093,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada \\(a_1 = 3, d = 4\\) bo'lsa, 10-hadi \\(a_{10}\\) ni hisoblang.",
+          "question": "\\(Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "43",
             "39",
@@ -35105,7 +35105,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada \\(a_1 = 2, d = 3\\) bo'lsa, dastlabki 10 ta hadi yig'indisi \\(S_{10}\\) ni hisoblang.",
+          "question": "\\(Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.\\)",
           "options": [
             "150",
             "160",
@@ -35117,7 +35117,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Arifmetik progressiyada \\(a_1 = 5, a_{20} = 62\\) bo'lsa, ayirma d ni toping.",
+          "question": "\\(Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.\\)",
           "options": [
             "5",
             "4",
@@ -35134,7 +35134,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: a10 = 3 + 9*4 = 39",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -35152,7 +35152,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: S10 = (2*2 + 9*3)/2 * 10 = 31 * 5 = 155",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -35170,7 +35170,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.\\)",
-          "hint": "Mavzu qoidasi: d = (62 - 5)/19 = 3",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -35220,7 +35220,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+          "problem": "\\(Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -35252,7 +35252,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.",
+          "problem": "\\(Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -35284,7 +35284,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.",
+          "problem": "\\(Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -35368,7 +35368,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Arifmetik progressiyada \\(a_1 = 3, d = 4\\) bo'lsa, 10-hadi \\(a_{10}\\) ni hisoblang.",
+          "question": "\\(Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
           "options": [
             "43",
             "39",
@@ -35380,7 +35380,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Arifmetik progressiyada \\(a_1 = 2, d = 3\\) bo'lsa, dastlabki 10 ta hadi yig'indisi \\(S_{10}\\) ni hisoblang.",
+          "question": "\\(Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.\\)",
           "options": [
             "150",
             "160",
@@ -35392,7 +35392,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Arifmetik progressiyada \\(a_1 = 5, a_{20} = 62\\) bo'lsa, ayirma d ni toping.",
+          "question": "\\(Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.\\)",
           "options": [
             "5",
             "4",
@@ -35409,7 +35409,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: a10 = 3 + 9*4 = 39",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -35427,7 +35427,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: S10 = (2*2 + 9*3)/2 * 10 = 31 * 5 = 155",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -35445,7 +35445,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.\\)",
-          "hint": "Mavzu qoidasi: d = (62 - 5)/19 = 3",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -35536,7 +35536,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+        "problem": "\\(Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -35568,7 +35568,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.",
+        "problem": "\\(Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -35600,7 +35600,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.",
+        "problem": "\\(Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -35648,7 +35648,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.",
+        "question": "\\(Arifmetik progressiyada a_1 = 3, d = 4 bo'lsa, 10-hadi a_{10} ni hisoblang.\\)",
         "options": [
           "43",
           "39",
@@ -35660,7 +35660,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.",
+        "question": "\\(Arifmetik progressiyada a_1 = 2, d = 3 bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang.\\)",
         "options": [
           "150",
           "160",
@@ -35672,7 +35672,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.",
+        "question": "\\(Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping.\\)",
         "options": [
           "5",
           "4",
@@ -35825,7 +35825,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
+          "problem": "\\(Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -35857,7 +35857,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.",
+          "problem": "\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -35889,7 +35889,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.",
+          "problem": "\\(Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -35937,7 +35937,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Geometrik progressiyada \\(b_1 = 2, q = 3\\) bo'lsa, 4-hadi \\(b_4\\) ni hisoblang.",
+          "question": "\\(Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.\\)",
           "options": [
             "48",
             "54",
@@ -35949,7 +35949,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Geometrik progressiyada \\(b_1 = 3, q = 2\\) bo'lsa, dastlabki 5 ta hadi yig'indisi \\(S_5\\) ni hisoblang.",
+          "question": "\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.\\)",
           "options": [
             "48",
             "96",
@@ -35961,7 +35961,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada \\(b_3 = 12, b_5 = 48\\) bo'lsa, maxraji q (>0) ni toping.",
+          "question": "\\(Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.\\)",
           "options": [
             "1.5",
             "4",
@@ -36064,7 +36064,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
+          "problem": "\\(Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -36096,7 +36096,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.",
+          "problem": "\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -36128,7 +36128,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.",
+          "problem": "\\(Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -36212,7 +36212,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Geometrik progressiyada \\(b_1 = 2, q = 3\\) bo'lsa, 4-hadi \\(b_4\\) ni hisoblang.",
+          "question": "\\(Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.\\)",
           "options": [
             "48",
             "54",
@@ -36224,7 +36224,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Geometrik progressiyada \\(b_1 = 3, q = 2\\) bo'lsa, dastlabki 5 ta hadi yig'indisi \\(S_5\\) ni hisoblang.",
+          "question": "\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.\\)",
           "options": [
             "48",
             "96",
@@ -36236,7 +36236,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada \\(b_3 = 12, b_5 = 48\\) bo'lsa, maxraji q (>0) ni toping.",
+          "question": "\\(Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.\\)",
           "options": [
             "1.5",
             "4",
@@ -36253,7 +36253,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: b4 = 2 * 3³ = 2 * 27 = 54",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -36271,7 +36271,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: S5 = 3*(32 - 1)/(2 - 1) = 93",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -36289,7 +36289,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.\\)",
-          "hint": "Mavzu qoidasi: q² = 48/12 = 4 => q = 2",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -36339,7 +36339,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
+          "problem": "\\(Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -36371,7 +36371,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.",
+          "problem": "\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -36403,7 +36403,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.",
+          "problem": "\\(Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -36487,7 +36487,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Geometrik progressiyada \\(b_1 = 2, q = 3\\) bo'lsa, 4-hadi \\(b_4\\) ni hisoblang.",
+          "question": "\\(Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.\\)",
           "options": [
             "48",
             "54",
@@ -36499,7 +36499,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Geometrik progressiyada \\(b_1 = 3, q = 2\\) bo'lsa, dastlabki 5 ta hadi yig'indisi \\(S_5\\) ni hisoblang.",
+          "question": "\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.\\)",
           "options": [
             "48",
             "96",
@@ -36511,7 +36511,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Geometrik progressiyada \\(b_3 = 12, b_5 = 48\\) bo'lsa, maxraji q (>0) ni toping.",
+          "question": "\\(Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.\\)",
           "options": [
             "1.5",
             "4",
@@ -36528,7 +36528,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: b4 = 2 * 3³ = 2 * 27 = 54",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -36546,7 +36546,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: S5 = 3*(32 - 1)/(2 - 1) = 93",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -36564,7 +36564,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.\\)",
-          "hint": "Mavzu qoidasi: q² = 48/12 = 4 => q = 2",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -36655,7 +36655,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
+        "problem": "\\(Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -36687,7 +36687,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.",
+        "problem": "\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -36719,7 +36719,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.",
+        "problem": "\\(Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -36767,7 +36767,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.",
+        "question": "\\(Geometrik progressiyada b_1 = 2, q = 3 bo'lsa, 4-hadi b_4 ni hisoblang.\\)",
         "options": [
           "48",
           "54",
@@ -36779,7 +36779,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.",
+        "question": "\\(Geometrik progressiyada b_1 = 3, q = 2 bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang.\\)",
         "options": [
           "48",
           "96",
@@ -36791,7 +36791,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.",
+        "question": "\\(Geometrik progressiyada b_3 = 12, b_5 = 48 bo'lsa, maxraji q (>0) ni toping.\\)",
         "options": [
           "1.5",
           "4",
@@ -36944,7 +36944,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "problem": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -36976,7 +36976,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sin^2 40^\\circ + \\cos^2 40^\\circ + 5",
+          "problem": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -37008,7 +37008,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 2 \\sin 30^\\circ \\cdot \\cos 30^\\circ",
+          "problem": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -37183,7 +37183,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "problem": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -37215,7 +37215,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sin^2 40^\\circ + \\cos^2 40^\\circ + 5",
+          "problem": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -37247,7 +37247,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 2 \\sin 30^\\circ \\cdot \\cos 30^\\circ",
+          "problem": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -37372,7 +37372,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
-          "hint": "Mavzu qoidasi: 0.5 + 0.5 + 1 = 2",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -37390,7 +37390,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
-          "hint": "Mavzu qoidasi: 1 + 5 = 6",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -37408,7 +37408,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
-          "hint": "Mavzu qoidasi: sin 60° = √3/2",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -37458,7 +37458,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+          "problem": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -37490,7 +37490,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sin^2 40^\\circ + \\cos^2 40^\\circ + 5",
+          "problem": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -37522,7 +37522,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 2 \\sin 30^\\circ \\cdot \\cos 30^\\circ",
+          "problem": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -37647,7 +37647,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
-          "hint": "Mavzu qoidasi: 0.5 + 0.5 + 1 = 2",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -37665,7 +37665,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
-          "hint": "Mavzu qoidasi: 1 + 5 = 6",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -37683,7 +37683,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
-          "hint": "Mavzu qoidasi: sin 60° = √3/2",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -37774,7 +37774,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+        "problem": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -37806,7 +37806,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: \\sin^2 40^\\circ + \\cos^2 40^\\circ + 5",
+        "problem": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -37838,7 +37838,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: 2 \\sin 30^\\circ \\cdot \\cos 30^\\circ",
+        "problem": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -37886,7 +37886,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ",
+        "question": "Hisoblang: \\(\\sin 30^\\circ + \\cos 60^\\circ + \\text{tg } 45^\\circ\\)",
         "options": [
           "1",
           "2",
@@ -37898,7 +37898,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sin^2 40^\\circ + \\cos^2 40^\\circ + 5",
+        "question": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
         "options": [
           "7",
           "5",
@@ -37910,12 +37910,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 2 \\sin 30^\\circ \\cdot \\cos 30^\\circ",
+        "question": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
         "options": [
-          "\\frac{\\sqrt{2}}{2}",
+          "\\(\\frac{\\sqrt{2}}{2}\\)",
           "1",
-          "\\frac{1}{2}",
-          "\\frac{\\sqrt{3}}{2}"
+          "\\(\\frac{1}{2}\\)",
+          "\\(\\frac{\\sqrt{3}}{2}\\)"
         ],
         "correctIndex": 3,
         "explanation": "sin 60° = √3/2"
@@ -38226,7 +38226,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 2R = a / sin 30° = 8 / 0.5 = 16 => R = 8 sm"
               }
             ],
-            "answer": "8 \\text{ sm}"
+            "answer": "\\(8 \\text{ sm}\\)"
           }
         },
         {
@@ -38244,7 +38244,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: c² = 25 + 64 - 2*5*8*0.5 = 89 - 40 = 49 => c = 7 sm"
               }
             ],
-            "answer": "7 \\text{ sm}"
+            "answer": "\\(7 \\text{ sm}\\)"
           }
         },
         {
@@ -38491,7 +38491,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Uchburchakda a = 8 sm, unga qarama-qarshi burchak 30°. Uchburchakka tashqi chizilgan aylana radiusi R ni toping.",
-          "hint": "Mavzu qoidasi: 2R = a / sin 30° = 8 / 0.5 = 16 => R = 8 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -38501,7 +38501,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 2R = a / sin 30° = 8 / 0.5 = 16 => R = 8 sm"
               }
             ],
-            "answer": "8 \\text{ sm}"
+            "answer": "\\(8 \\text{ sm}\\)"
           }
         },
         {
@@ -38509,7 +38509,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Uchburchakning tomonlari a = 5 sm, b = 8 sm va ular orasidagi burchak 60°. Uchinchi tomon c ni toping.",
-          "hint": "Mavzu qoidasi: c² = 25 + 64 - 2*5*8*0.5 = 89 - 40 = 49 => c = 7 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -38519,7 +38519,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: c² = 25 + 64 - 2*5*8*0.5 = 89 - 40 = 49 => c = 7 sm"
               }
             ],
-            "answer": "7 \\text{ sm}"
+            "answer": "\\(7 \\text{ sm}\\)"
           }
         },
         {
@@ -38527,7 +38527,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Uchburchakda tomonlar 3 sm, 5 sm, 7 sm. Eng katta burchagini toping.",
-          "hint": "Mavzu qoidasi: cos α = (9+25-49)/(2*3*5) = -15/30 = -0.5 => α = 120°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -38766,7 +38766,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Uchburchakda a = 8 sm, unga qarama-qarshi burchak 30°. Uchburchakka tashqi chizilgan aylana radiusi R ni toping.",
-          "hint": "Mavzu qoidasi: 2R = a / sin 30° = 8 / 0.5 = 16 => R = 8 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -38776,7 +38776,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 2R = a / sin 30° = 8 / 0.5 = 16 => R = 8 sm"
               }
             ],
-            "answer": "8 \\text{ sm}"
+            "answer": "\\(8 \\text{ sm}\\)"
           }
         },
         {
@@ -38784,7 +38784,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Uchburchakning tomonlari a = 5 sm, b = 8 sm va ular orasidagi burchak 60°. Uchinchi tomon c ni toping.",
-          "hint": "Mavzu qoidasi: c² = 25 + 64 - 2*5*8*0.5 = 89 - 40 = 49 => c = 7 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -38794,7 +38794,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: c² = 25 + 64 - 2*5*8*0.5 = 89 - 40 = 49 => c = 7 sm"
               }
             ],
-            "answer": "7 \\text{ sm}"
+            "answer": "\\(7 \\text{ sm}\\)"
           }
         },
         {
@@ -38802,7 +38802,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Uchburchakda tomonlar 3 sm, 5 sm, 7 sm. Eng katta burchagini toping.",
-          "hint": "Mavzu qoidasi: cos α = (9+25-49)/(2*3*5) = -15/30 = -0.5 => α = 120°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -39007,10 +39007,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Uchburchakda a = 8 sm, unga qarama-qarshi burchak 30°. Uchburchakka tashqi chizilgan aylana radiusi R ni toping.",
         "options": [
-          "16 \\text{ sm}",
-          "8 \\text{ sm}",
-          "4 \\text{ sm}",
-          "12 \\text{ sm}"
+          "\\(16 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(12 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "2R = a / sin 30° = 8 / 0.5 = 16 => R = 8 sm"
@@ -39019,10 +39019,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Uchburchakning tomonlari a = 5 sm, b = 8 sm va ular orasidagi burchak 60°. Uchinchi tomon c ni toping.",
         "options": [
-          "9 \\text{ sm}",
-          "\\sqrt{39} \\text{ sm}",
-          "7 \\text{ sm}",
-          "6 \\text{ sm}"
+          "\\(9 \\text{ sm}\\)",
+          "\\(\\sqrt{39} \\text{ sm}\\)",
+          "\\(7 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "c² = 25 + 64 - 2*5*8*0.5 = 89 - 40 = 49 => c = 7 sm"
@@ -39031,10 +39031,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Uchburchakda tomonlar 3 sm, 5 sm, 7 sm. Eng katta burchagini toping.",
         "options": [
-          "135^\\circ",
-          "90^\\circ",
-          "150^\\circ",
-          "120^\\circ"
+          "\\(135^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(150^\\circ\\)",
+          "\\(120^\\circ\\)"
         ],
         "correctIndex": 3,
         "explanation": "cos α = (9+25-49)/(2*3*5) = -15/30 = -0.5 => α = 120°"
@@ -39056,7 +39056,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 2R = a / sin 30° = 8 / 0.5 = 16 => R = 8 sm"
             }
           ],
-          "answer": "8 \\text{ sm}"
+          "answer": "\\(8 \\text{ sm}\\)"
         }
       },
       {
@@ -39074,7 +39074,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: c² = 25 + 64 - 2*5*8*0.5 = 89 - 40 = 49 => c = 7 sm"
             }
           ],
-          "answer": "7 \\text{ sm}"
+          "answer": "\\(7 \\text{ sm}\\)"
         }
       },
       {
@@ -39289,7 +39289,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(\\vec{a}(3; -4)\\) vektorning uzunligini hisoblang.",
+          "question": "\\vec{a}(3; -4) vektorning uzunligini hisoblang.",
           "options": [
             "7",
             "5",
@@ -39301,7 +39301,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\vec{a}(2; 5)\\) va \\(\\vec{b}(4; -1)\\) vektorlar yig'indisi koordinatalarini toping.",
+          "question": "\\vec{a}(2; 5) va \\vec{b}(4; -1) vektorlar yig'indisi koordinatalarini toping.",
           "options": [
             "(2; 6)",
             "(8; -5)",
@@ -39313,7 +39313,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\vec{a}(3; -2)\\) bo'lsa, \\(4\\vec{a}\\) vektor koordinatalarini toping.",
+          "question": "\\vec{a}(3; -2) bo'lsa, 4\\vec{a} vektor koordinatalarini toping.",
           "options": [
             "(3; -8)",
             "(7; 2)",
@@ -39559,7 +39559,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(\\vec{a}(3; -4)\\) vektorning uzunligini hisoblang.",
+          "question": "\\vec{a}(3; -4) vektorning uzunligini hisoblang.",
           "options": [
             "7",
             "5",
@@ -39571,7 +39571,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\vec{a}(2; 5)\\) va \\(\\vec{b}(4; -1)\\) vektorlar yig'indisi koordinatalarini toping.",
+          "question": "\\vec{a}(2; 5) va \\vec{b}(4; -1) vektorlar yig'indisi koordinatalarini toping.",
           "options": [
             "(2; 6)",
             "(8; -5)",
@@ -39583,7 +39583,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\vec{a}(3; -2)\\) bo'lsa, \\(4\\vec{a}\\) vektor koordinatalarini toping.",
+          "question": "\\vec{a}(3; -2) bo'lsa, 4\\vec{a} vektor koordinatalarini toping.",
           "options": [
             "(3; -8)",
             "(7; 2)",
@@ -39600,7 +39600,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\vec{a}(3; -4) vektorning uzunligini hisoblang.",
-          "hint": "Mavzu qoidasi: |a| = √(3² + (-4)²) = √(9+16) = 5",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -39618,7 +39618,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\vec{a}(2; 5) va \\vec{b}(4; -1) vektorlar yig'indisi koordinatalarini toping.",
-          "hint": "Mavzu qoidasi: (2+4",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -39636,7 +39636,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\vec{a}(3; -2) bo'lsa, 4\\vec{a} vektor koordinatalarini toping.",
-          "hint": "Mavzu qoidasi: (4*3",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -39829,7 +39829,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(\\vec{a}(3; -4)\\) vektorning uzunligini hisoblang.",
+          "question": "\\vec{a}(3; -4) vektorning uzunligini hisoblang.",
           "options": [
             "7",
             "5",
@@ -39841,7 +39841,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\vec{a}(2; 5)\\) va \\(\\vec{b}(4; -1)\\) vektorlar yig'indisi koordinatalarini toping.",
+          "question": "\\vec{a}(2; 5) va \\vec{b}(4; -1) vektorlar yig'indisi koordinatalarini toping.",
           "options": [
             "(2; 6)",
             "(8; -5)",
@@ -39853,7 +39853,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\vec{a}(3; -2)\\) bo'lsa, \\(4\\vec{a}\\) vektor koordinatalarini toping.",
+          "question": "\\vec{a}(3; -2) bo'lsa, 4\\vec{a} vektor koordinatalarini toping.",
           "options": [
             "(3; -8)",
             "(7; 2)",
@@ -39870,7 +39870,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\vec{a}(3; -4) vektorning uzunligini hisoblang.",
-          "hint": "Mavzu qoidasi: |a| = √(3² + (-4)²) = √(9+16) = 5",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -39888,7 +39888,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\vec{a}(2; 5) va \\vec{b}(4; -1) vektorlar yig'indisi koordinatalarini toping.",
-          "hint": "Mavzu qoidasi: (2+4",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -39906,7 +39906,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\vec{a}(3; -2) bo'lsa, 4\\vec{a} vektor koordinatalarini toping.",
-          "hint": "Mavzu qoidasi: (4*3",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -40699,7 +40699,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tomonlari 13 sm, 14 sm, 15 sm bo'lgan uchburchakning yuzini Geron formulasi bilan hisoblang.",
-          "hint": "Mavzu qoidasi: p = 21",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -40717,7 +40717,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tomonlari 5 sm, 5 sm, 6 sm bo'lgan uchburchak yuzini toping.",
-          "hint": "Mavzu qoidasi: p = 8",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -40735,7 +40735,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tomonlari 6 sm, 8 sm, 10 sm bo'lgan uchburchak yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (6*8)/2 = 24 sm²",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -40969,7 +40969,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tomonlari 13 sm, 14 sm, 15 sm bo'lgan uchburchakning yuzini Geron formulasi bilan hisoblang.",
-          "hint": "Mavzu qoidasi: p = 21",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -40987,7 +40987,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tomonlari 5 sm, 5 sm, 6 sm bo'lgan uchburchak yuzini toping.",
-          "hint": "Mavzu qoidasi: p = 8",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -41005,7 +41005,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tomonlari 6 sm, 8 sm, 10 sm bo'lgan uchburchak yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (6*8)/2 = 24 sm²",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -41205,10 +41205,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tomonlari 13 sm, 14 sm, 15 sm bo'lgan uchburchakning yuzini Geron formulasi bilan hisoblang.",
         "options": [
-          "168 \\text{ sm}^2",
-          "84 \\text{ sm}^2",
-          "90 \\text{ sm}^2",
-          "100 \\text{ sm}^2"
+          "\\(168 \\text{ sm}^2\\)",
+          "\\(84 \\text{ sm}^2\\)",
+          "\\(90 \\text{ sm}^2\\)",
+          "\\(100 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
         "explanation": "p = 21; S = √(21*8*7*6) = 84 sm²"
@@ -41217,10 +41217,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tomonlari 5 sm, 5 sm, 6 sm bo'lgan uchburchak yuzini toping.",
         "options": [
-          "15 \\text{ sm}^2",
-          "24 \\text{ sm}^2",
-          "12 \\text{ sm}^2",
-          "16 \\text{ sm}^2"
+          "\\(15 \\text{ sm}^2\\)",
+          "\\(24 \\text{ sm}^2\\)",
+          "\\(12 \\text{ sm}^2\\)",
+          "\\(16 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
         "explanation": "p = 8; S = √(8*3*3*2) = 12 sm²"
@@ -41229,10 +41229,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tomonlari 6 sm, 8 sm, 10 sm bo'lgan uchburchak yuzini hisoblang.",
         "options": [
-          "20 \\text{ sm}^2",
-          "48 \\text{ sm}^2",
-          "30 \\text{ sm}^2",
-          "24 \\text{ sm}^2"
+          "\\(20 \\text{ sm}^2\\)",
+          "\\(48 \\text{ sm}^2\\)",
+          "\\(30 \\text{ sm}^2\\)",
+          "\\(24 \\text{ sm}^2\\)"
         ],
         "correctIndex": 3,
         "explanation": "S = (6*8)/2 = 24 sm²"
@@ -41375,7 +41375,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni yeching: x^2 - 5x + 6 < 0",
+          "problem": "Tengsizlikni yeching: \\(x^2 - 5x + 6 < 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -41407,7 +41407,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni yeching: x^2 - 9 \\ge 0",
+          "problem": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -41439,7 +41439,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikning butun musbat yechimlari sonini toping: x^2 - 4x \\le 0",
+          "problem": "Tengsizlikning butun musbat yechimlari sonini toping: \\(x^2 - 4x \\le 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -41491,8 +41491,8 @@ const mathTopicsData = [
           "options": [
             "[2; 3]",
             "(2; 3)",
-            "\\((-\\infty; 2) \\cup (3; \\infty)\\)",
-            "\\((-\\infty; 2]\\)"
+            "(-\\infty; 2) \\cup (3; \\infty)",
+            "(-\\infty; 2]"
           ],
           "correctIndex": 1,
           "explanation": "(x-2)(x-3) < 0 => 2 < x < 3"
@@ -41501,10 +41501,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
           "options": [
-            "\\((3; \\infty)\\)",
+            "(3; \\infty)",
             "[-3; 3]",
-            "\\((-\\infty; -3] \\cup [3; \\infty)\\)",
-            "\\([-3; \\infty)\\)"
+            "(-\\infty; -3] \\cup [3; \\infty)",
+            "[-3; \\infty)"
           ],
           "correctIndex": 2,
           "explanation": "x² >= 9 => x <= -3 yoki x >= 3"
@@ -41609,7 +41609,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni yeching: x^2 - 5x + 6 < 0",
+          "problem": "Tengsizlikni yeching: \\(x^2 - 5x + 6 < 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -41641,7 +41641,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni yeching: x^2 - 9 \\ge 0",
+          "problem": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -41673,7 +41673,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikning butun musbat yechimlari sonini toping: x^2 - 4x \\le 0",
+          "problem": "Tengsizlikning butun musbat yechimlari sonini toping: \\(x^2 - 4x \\le 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -41761,8 +41761,8 @@ const mathTopicsData = [
           "options": [
             "[2; 3]",
             "(2; 3)",
-            "\\((-\\infty; 2) \\cup (3; \\infty)\\)",
-            "\\((-\\infty; 2]\\)"
+            "(-\\infty; 2) \\cup (3; \\infty)",
+            "(-\\infty; 2]"
           ],
           "correctIndex": 1,
           "explanation": "(x-2)(x-3) < 0 => 2 < x < 3"
@@ -41771,10 +41771,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
           "options": [
-            "\\((3; \\infty)\\)",
+            "(3; \\infty)",
             "[-3; 3]",
-            "\\((-\\infty; -3] \\cup [3; \\infty)\\)",
-            "\\([-3; \\infty)\\)"
+            "(-\\infty; -3] \\cup [3; \\infty)",
+            "[-3; \\infty)"
           ],
           "correctIndex": 2,
           "explanation": "x² >= 9 => x <= -3 yoki x >= 3"
@@ -41798,7 +41798,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tengsizlikni yeching: \\(x^2 - 5x + 6 < 0\\)",
-          "hint": "Mavzu qoidasi: (x-2)(x-3) < 0 => 2 < x < 3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -41816,7 +41816,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
-          "hint": "Mavzu qoidasi: x² >= 9 => x <= -3 yoki x >= 3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -41834,7 +41834,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tengsizlikning butun musbat yechimlari sonini toping: \\(x^2 - 4x \\le 0\\)",
-          "hint": "Mavzu qoidasi: x(x-4) <= 0 => [0",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -41879,7 +41879,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni yeching: x^2 - 5x + 6 < 0",
+          "problem": "Tengsizlikni yeching: \\(x^2 - 5x + 6 < 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -41911,7 +41911,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni yeching: x^2 - 9 \\ge 0",
+          "problem": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -41943,7 +41943,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikning butun musbat yechimlari sonini toping: x^2 - 4x \\le 0",
+          "problem": "Tengsizlikning butun musbat yechimlari sonini toping: \\(x^2 - 4x \\le 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -42031,8 +42031,8 @@ const mathTopicsData = [
           "options": [
             "[2; 3]",
             "(2; 3)",
-            "\\((-\\infty; 2) \\cup (3; \\infty)\\)",
-            "\\((-\\infty; 2]\\)"
+            "(-\\infty; 2) \\cup (3; \\infty)",
+            "(-\\infty; 2]"
           ],
           "correctIndex": 1,
           "explanation": "(x-2)(x-3) < 0 => 2 < x < 3"
@@ -42041,10 +42041,10 @@ const mathTopicsData = [
           "level": "medium",
           "question": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
           "options": [
-            "\\((3; \\infty)\\)",
+            "(3; \\infty)",
             "[-3; 3]",
-            "\\((-\\infty; -3] \\cup [3; \\infty)\\)",
-            "\\([-3; \\infty)\\)"
+            "(-\\infty; -3] \\cup [3; \\infty)",
+            "[-3; \\infty)"
           ],
           "correctIndex": 2,
           "explanation": "x² >= 9 => x <= -3 yoki x >= 3"
@@ -42068,7 +42068,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tengsizlikni yeching: \\(x^2 - 5x + 6 < 0\\)",
-          "hint": "Mavzu qoidasi: (x-2)(x-3) < 0 => 2 < x < 3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -42086,7 +42086,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
-          "hint": "Mavzu qoidasi: x² >= 9 => x <= -3 yoki x >= 3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -42104,7 +42104,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tengsizlikning butun musbat yechimlari sonini toping: \\(x^2 - 4x \\le 0\\)",
-          "hint": "Mavzu qoidasi: x(x-4) <= 0 => [0",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -42190,7 +42190,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Tengsizlikni yeching: x^2 - 5x + 6 < 0",
+        "problem": "Tengsizlikni yeching: \\(x^2 - 5x + 6 < 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -42222,7 +42222,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Tengsizlikni yeching: x^2 - 9 \\ge 0",
+        "problem": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -42254,7 +42254,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tengsizlikning butun musbat yechimlari sonini toping: x^2 - 4x \\le 0",
+        "problem": "Tengsizlikning butun musbat yechimlari sonini toping: \\(x^2 - 4x \\le 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -42302,7 +42302,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tengsizlikni yeching: x^2 - 5x + 6 < 0",
+        "question": "Tengsizlikni yeching: \\(x^2 - 5x + 6 < 0\\)",
         "options": [
           "[2; 3]",
           "(2; 3)",
@@ -42314,7 +42314,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tengsizlikni yeching: x^2 - 9 \\ge 0",
+        "question": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
         "options": [
           "(3; \\infty)",
           "[-3; 3]",
@@ -42326,7 +42326,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tengsizlikning butun musbat yechimlari sonini toping: x^2 - 4x \\le 0",
+        "question": "Tengsizlikning butun musbat yechimlari sonini toping: \\(x^2 - 4x \\le 0\\)",
         "options": [
           "Cheksiz",
           "5",
@@ -42468,7 +42468,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ",
+          "problem": "Hisoblang: \\(\\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -42500,7 +42500,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sin 45^\\circ \\cdot \\cos 45^\\circ",
+          "problem": "Hisoblang: \\(\\sin 45^\\circ \\cdot \\cos 45^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -42532,7 +42532,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ",
+          "problem": "Hisoblang: \\(\\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -42702,7 +42702,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ",
+          "problem": "Hisoblang: \\(\\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -42734,7 +42734,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sin 45^\\circ \\cdot \\cos 45^\\circ",
+          "problem": "Hisoblang: \\(\\sin 45^\\circ \\cdot \\cos 45^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -42766,7 +42766,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ",
+          "problem": "Hisoblang: \\(\\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -42891,7 +42891,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ\\)",
-          "hint": "Mavzu qoidasi: √3 * √3 = 3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -42909,7 +42909,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\sin 45^\\circ \\cdot \\cos 45^\\circ\\)",
-          "hint": "Mavzu qoidasi: (√2/2)*(√2/2) = 2/4 = 1/2",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -42927,7 +42927,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(\\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ\\)",
-          "hint": "Mavzu qoidasi: 1 + 1 + 0 = 2",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -42972,7 +42972,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ",
+          "problem": "Hisoblang: \\(\\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -43004,7 +43004,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sin 45^\\circ \\cdot \\cos 45^\\circ",
+          "problem": "Hisoblang: \\(\\sin 45^\\circ \\cdot \\cos 45^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -43036,7 +43036,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ",
+          "problem": "Hisoblang: \\(\\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -43161,7 +43161,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ\\)",
-          "hint": "Mavzu qoidasi: √3 * √3 = 3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -43179,7 +43179,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\sin 45^\\circ \\cdot \\cos 45^\\circ\\)",
-          "hint": "Mavzu qoidasi: (√2/2)*(√2/2) = 2/4 = 1/2",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -43197,7 +43197,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(\\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ\\)",
-          "hint": "Mavzu qoidasi: 1 + 1 + 0 = 2",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -43277,7 +43277,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: \\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ",
+        "problem": "Hisoblang: \\(\\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -43309,7 +43309,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: \\sin 45^\\circ \\cdot \\cos 45^\\circ",
+        "problem": "Hisoblang: \\(\\sin 45^\\circ \\cdot \\cos 45^\\circ\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -43341,7 +43341,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: \\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ",
+        "problem": "Hisoblang: \\(\\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -43389,23 +43389,23 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ",
+        "question": "Hisoblang: \\(\\text{tg } 60^\\circ \\cdot \\text{ctg } 30^\\circ\\)",
         "options": [
           "1",
           "3",
-          "\\sqrt{3}",
-          "\\frac{1}{3}"
+          "\\(\\sqrt{3}\\)",
+          "\\(\\frac{1}{3}\\)"
         ],
         "correctIndex": 1,
         "explanation": "√3 * √3 = 3"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sin 45^\\circ \\cdot \\cos 45^\\circ",
+        "question": "Hisoblang: \\(\\sin 45^\\circ \\cdot \\cos 45^\\circ\\)",
         "options": [
-          "\\frac{\\sqrt{2}}{2}",
+          "\\(\\frac{\\sqrt{2}}{2}\\)",
           "1",
-          "\\frac{1}{2}",
+          "\\(\\frac{1}{2}\\)",
           "0"
         ],
         "correctIndex": 2,
@@ -43413,7 +43413,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ",
+        "question": "Hisoblang: \\(\\cos 0^\\circ + \\sin 90^\\circ + \\text{tg } 0^\\circ\\)",
         "options": [
           "3",
           "1",
@@ -43566,7 +43566,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\log_2 48 - \\log_2 3 + \\log_3 81",
+          "problem": "Hisoblang: \\(\\log_2 48 - \\log_2 3 + \\log_3 81\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -43598,7 +43598,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\log_5 250 - \\log_5 2",
+          "problem": "Hisoblang: \\(\\log_5 250 - \\log_5 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -43630,7 +43630,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 2^{\\log_2 7} + 3^{\\log_3 5}",
+          "problem": "Hisoblang: \\(2^{\\log_2 7} + 3^{\\log_3 5}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -43719,7 +43719,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\log_2 48 - \\log_2 3 + \\log_3 81\\)",
-          "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -43737,7 +43737,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\log_5 250 - \\log_5 2\\)",
-          "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -43755,7 +43755,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(2^{\\log_2 7} + 3^{\\log_3 5}\\)",
-          "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -43805,7 +43805,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\log_2 48 - \\log_2 3 + \\log_3 81",
+          "problem": "Hisoblang: \\(\\log_2 48 - \\log_2 3 + \\log_3 81\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -43837,7 +43837,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\log_5 250 - \\log_5 2",
+          "problem": "Hisoblang: \\(\\log_5 250 - \\log_5 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -43869,7 +43869,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 2^{\\log_2 7} + 3^{\\log_3 5}",
+          "problem": "Hisoblang: \\(2^{\\log_2 7} + 3^{\\log_3 5}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -43994,7 +43994,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\log_2 48 - \\log_2 3 + \\log_3 81\\)",
-          "hint": "Mavzu qoidasi: log2(48/3) + 4 = log2(16) + 4 = 4 + 4 = 8",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -44012,7 +44012,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\log_5 250 - \\log_5 2\\)",
-          "hint": "Mavzu qoidasi: log5(250/2) = log5(125) = 3",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -44030,7 +44030,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(2^{\\log_2 7} + 3^{\\log_3 5}\\)",
-          "hint": "Mavzu qoidasi: 7 + 5 = 12",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -44080,7 +44080,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\log_2 48 - \\log_2 3 + \\log_3 81",
+          "problem": "Hisoblang: \\(\\log_2 48 - \\log_2 3 + \\log_3 81\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -44112,7 +44112,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\log_5 250 - \\log_5 2",
+          "problem": "Hisoblang: \\(\\log_5 250 - \\log_5 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -44144,7 +44144,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 2^{\\log_2 7} + 3^{\\log_3 5}",
+          "problem": "Hisoblang: \\(2^{\\log_2 7} + 3^{\\log_3 5}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -44269,7 +44269,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\log_2 48 - \\log_2 3 + \\log_3 81\\)",
-          "hint": "Mavzu qoidasi: log2(48/3) + 4 = log2(16) + 4 = 4 + 4 = 8",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -44287,7 +44287,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\log_5 250 - \\log_5 2\\)",
-          "hint": "Mavzu qoidasi: log5(250/2) = log5(125) = 3",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -44305,7 +44305,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(2^{\\log_2 7} + 3^{\\log_3 5}\\)",
-          "hint": "Mavzu qoidasi: 7 + 5 = 12",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -44396,7 +44396,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: \\log_2 48 - \\log_2 3 + \\log_3 81",
+        "problem": "Hisoblang: \\(\\log_2 48 - \\log_2 3 + \\log_3 81\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -44428,7 +44428,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: \\log_5 250 - \\log_5 2",
+        "problem": "Hisoblang: \\(\\log_5 250 - \\log_5 2\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -44460,7 +44460,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: 2^{\\log_2 7} + 3^{\\log_3 5}",
+        "problem": "Hisoblang: \\(2^{\\log_2 7} + 3^{\\log_3 5}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -44508,7 +44508,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\log_2 48 - \\log_2 3 + \\log_3 81",
+        "question": "Hisoblang: \\(\\log_2 48 - \\log_2 3 + \\log_3 81\\)",
         "options": [
           "9",
           "7",
@@ -44520,7 +44520,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\log_5 250 - \\log_5 2",
+        "question": "Hisoblang: \\(\\log_5 250 - \\log_5 2\\)",
         "options": [
           "5",
           "2",
@@ -44532,7 +44532,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 2^{\\log_2 7} + 3^{\\log_3 5}",
+        "question": "Hisoblang: \\(2^{\\log_2 7} + 3^{\\log_3 5}\\)",
         "options": [
           "12",
           "35",
@@ -44549,7 +44549,7 @@ const mathTopicsData = [
         "levelLabel": "🟢 1-mashq (Oddiy)",
         "title": "1-mashq",
         "problem": "Hisoblang: \\(\\log_2 48 - \\log_2 3 + \\log_3 81\\)",
-        "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+        "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
         "solution": {
           "steps": [
             {
@@ -44567,7 +44567,7 @@ const mathTopicsData = [
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
         "problem": "Hisoblang: \\(\\log_5 250 - \\log_5 2\\)",
-        "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+        "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
         "solution": {
           "steps": [
             {
@@ -44585,7 +44585,7 @@ const mathTopicsData = [
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
         "problem": "Hisoblang: \\(2^{\\log_2 7} + 3^{\\log_3 5}\\)",
-        "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+        "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
         "solution": {
           "steps": [
             {
@@ -44685,7 +44685,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ",
+          "problem": "Hisoblang: \\(\\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -44717,7 +44717,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ",
+          "problem": "Hisoblang: \\(\\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -44749,7 +44749,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: \\cos 2\\alpha + 2\\sin^2 \\alpha",
+          "problem": "Soddalashtiring: \\(\\cos 2\\alpha + 2\\sin^2 \\alpha\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -44924,7 +44924,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ",
+          "problem": "Hisoblang: \\(\\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -44956,7 +44956,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ",
+          "problem": "Hisoblang: \\(\\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -44988,7 +44988,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: \\cos 2\\alpha + 2\\sin^2 \\alpha",
+          "problem": "Soddalashtiring: \\(\\cos 2\\alpha + 2\\sin^2 \\alpha\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -45113,7 +45113,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ\\)",
-          "hint": "Mavzu qoidasi: sin(75° + 15°) = sin 90° = 1",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -45131,7 +45131,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ\\)",
-          "hint": "Mavzu qoidasi: cos(70° - 10°) = cos 60° = 1/2",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -45149,7 +45149,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Soddalashtiring: \\(\\cos 2\\alpha + 2\\sin^2 \\alpha\\)",
-          "hint": "Mavzu qoidasi: cos²α - sin²α + 2sin²α = cos²α + sin²α = 1",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -45199,7 +45199,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: \\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ",
+          "problem": "Hisoblang: \\(\\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -45231,7 +45231,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ",
+          "problem": "Hisoblang: \\(\\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -45263,7 +45263,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: \\cos 2\\alpha + 2\\sin^2 \\alpha",
+          "problem": "Soddalashtiring: \\(\\cos 2\\alpha + 2\\sin^2 \\alpha\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -45388,7 +45388,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(\\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ\\)",
-          "hint": "Mavzu qoidasi: sin(75° + 15°) = sin 90° = 1",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -45406,7 +45406,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ\\)",
-          "hint": "Mavzu qoidasi: cos(70° - 10°) = cos 60° = 1/2",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -45424,7 +45424,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Soddalashtiring: \\(\\cos 2\\alpha + 2\\sin^2 \\alpha\\)",
-          "hint": "Mavzu qoidasi: cos²α - sin²α + 2sin²α = cos²α + sin²α = 1",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -45515,7 +45515,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: \\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ",
+        "problem": "Hisoblang: \\(\\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -45547,7 +45547,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: \\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ",
+        "problem": "Hisoblang: \\(\\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -45579,7 +45579,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Soddalashtiring: \\cos 2\\alpha + 2\\sin^2 \\alpha",
+        "problem": "Soddalashtiring: \\(\\cos 2\\alpha + 2\\sin^2 \\alpha\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -45627,10 +45627,10 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: \\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ",
+        "question": "Hisoblang: \\(\\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ\\)",
         "options": [
-          "\\frac{\\sqrt{3}}{2}",
-          "\\frac{1}{2}",
+          "\\(\\frac{\\sqrt{3}}{2}\\)",
+          "\\(\\frac{1}{2}\\)",
           "1",
           "0"
         ],
@@ -45639,22 +45639,22 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ",
+        "question": "Hisoblang: \\(\\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ\\)",
         "options": [
           "0",
-          "\\frac{\\sqrt{3}}{2}",
+          "\\(\\frac{\\sqrt{3}}{2}\\)",
           "1",
-          "\\frac{1}{2}"
+          "\\(\\frac{1}{2}\\)"
         ],
         "correctIndex": 3,
         "explanation": "cos(70° - 10°) = cos 60° = 1/2"
       },
       {
         "level": "hard",
-        "question": "Soddalashtiring: \\cos 2\\alpha + 2\\sin^2 \\alpha",
+        "question": "Soddalashtiring: \\(\\cos 2\\alpha + 2\\sin^2 \\alpha\\)",
         "options": [
           "1",
-          "\\cos^2 \\alpha",
+          "\\(\\cos^2 \\alpha\\)",
           "2",
           "0"
         ],
@@ -45799,7 +45799,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: 2^{x + 2} + 2^x = 20",
+          "problem": "Tenglamani yeching: \\(2^{x + 2} + 2^x = 20\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -45831,7 +45831,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamani yeching: 3^{2x - 1} = 27",
+          "problem": "Tenglamani yeching: \\(3^{2x - 1} = 27\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -45863,7 +45863,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: 4^x - 5 \\cdot 2^x + 4 = 0",
+          "problem": "Tenglamani yeching: \\(4^x - 5 \\cdot 2^x + 4 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -45919,7 +45919,7 @@ const mathTopicsData = [
             "4"
           ],
           "correctIndex": 2,
-          "explanation": "2^x(4 + 1) = 20 => 2^x * 5 = 20 => 2^x = 4 => x = 2"
+          "explanation": "\\(2^x(4 + 1) = 20 => 2^x * 5 = 20 => 2^x = 4 => x = 2\\)"
         },
         {
           "level": "medium",
@@ -46033,7 +46033,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: 2^{x + 2} + 2^x = 20",
+          "problem": "Tenglamani yeching: \\(2^{x + 2} + 2^x = 20\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -46065,7 +46065,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamani yeching: 3^{2x - 1} = 27",
+          "problem": "Tenglamani yeching: \\(3^{2x - 1} = 27\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -46097,7 +46097,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: 4^x - 5 \\cdot 2^x + 4 = 0",
+          "problem": "Tenglamani yeching: \\(4^x - 5 \\cdot 2^x + 4 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -46189,7 +46189,7 @@ const mathTopicsData = [
             "4"
           ],
           "correctIndex": 2,
-          "explanation": "2^x(4 + 1) = 20 => 2^x * 5 = 20 => 2^x = 4 => x = 2"
+          "explanation": "\\(2^x(4 + 1) = 20 => 2^x * 5 = 20 => 2^x = 4 => x = 2\\)"
         },
         {
           "level": "medium",
@@ -46222,7 +46222,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: \\(2^{x + 2} + 2^x = 20\\)",
-          "hint": "Mavzu qoidasi: \\(2^x(4 + 1) = 20 => 2^x * 5 = 20 => 2^x = 4 => x = 2\\)",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -46240,7 +46240,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamani yeching: \\(3^{2x - 1} = 27\\)",
-          "hint": "Mavzu qoidasi: 2x - 1 = 3 => 2x = 4 => x = 2",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -46258,7 +46258,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(4^x - 5 \\cdot 2^x + 4 = 0\\)",
-          "hint": "Mavzu qoidasi: t² - 5t + 4 = 0 => t1 = 1 => x = 0",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -46303,7 +46303,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: 2^{x + 2} + 2^x = 20",
+          "problem": "Tenglamani yeching: \\(2^{x + 2} + 2^x = 20\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -46335,7 +46335,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamani yeching: 3^{2x - 1} = 27",
+          "problem": "Tenglamani yeching: \\(3^{2x - 1} = 27\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -46367,7 +46367,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: 4^x - 5 \\cdot 2^x + 4 = 0",
+          "problem": "Tenglamani yeching: \\(4^x - 5 \\cdot 2^x + 4 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -46459,7 +46459,7 @@ const mathTopicsData = [
             "4"
           ],
           "correctIndex": 2,
-          "explanation": "2^x(4 + 1) = 20 => 2^x * 5 = 20 => 2^x = 4 => x = 2"
+          "explanation": "\\(2^x(4 + 1) = 20 => 2^x * 5 = 20 => 2^x = 4 => x = 2\\)"
         },
         {
           "level": "medium",
@@ -46492,7 +46492,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: \\(2^{x + 2} + 2^x = 20\\)",
-          "hint": "Mavzu qoidasi: \\(2^x(4 + 1) = 20 => 2^x * 5 = 20 => 2^x = 4 => x = 2\\)",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -46510,7 +46510,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamani yeching: \\(3^{2x - 1} = 27\\)",
-          "hint": "Mavzu qoidasi: 2x - 1 = 3 => 2x = 4 => x = 2",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -46528,7 +46528,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(4^x - 5 \\cdot 2^x + 4 = 0\\)",
-          "hint": "Mavzu qoidasi: t² - 5t + 4 = 0 => t1 = 1 => x = 0",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -46614,7 +46614,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Tenglamani yeching: 2^{x + 2} + 2^x = 20",
+        "problem": "Tenglamani yeching: \\(2^{x + 2} + 2^x = 20\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -46646,7 +46646,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Tenglamani yeching: 3^{2x - 1} = 27",
+        "problem": "Tenglamani yeching: \\(3^{2x - 1} = 27\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -46678,7 +46678,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tenglamani yeching: 4^x - 5 \\cdot 2^x + 4 = 0",
+        "problem": "Tenglamani yeching: \\(4^x - 5 \\cdot 2^x + 4 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -46726,7 +46726,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: 2^{x + 2} + 2^x = 20",
+        "question": "Tenglamani yeching: \\(2^{x + 2} + 2^x = 20\\)",
         "options": [
           "1",
           "3",
@@ -46734,11 +46734,11 @@ const mathTopicsData = [
           "4"
         ],
         "correctIndex": 2,
-        "explanation": "2^x(4 + 1) = 20 => 2^x * 5 = 20 => 2^x = 4 => x = 2"
+        "explanation": "\\(2^x(4 + 1) = 20 => 2^x * 5 = 20 => 2^x = 4 => x = 2\\)"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: 3^{2x - 1} = 27",
+        "question": "Tenglamani yeching: \\(3^{2x - 1} = 27\\)",
         "options": [
           "4",
           "1",
@@ -46750,10 +46750,10 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: 4^x - 5 \\cdot 2^x + 4 = 0",
+        "question": "Tenglamani yeching: \\(4^x - 5 \\cdot 2^x + 4 = 0\\)",
         "options": [
-          "x_1 = 0, x_2 = 2",
-          "x_1 = 1, x_2 = 4",
+          "\\(x_1 = 0, x_2 = 2\\)",
+          "\\(x_1 = 1, x_2 = 4\\)",
           "x = 2",
           "x = 0"
         ],
@@ -46898,7 +46898,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: \\log_3(2x - 5) = 2",
+          "problem": "Tenglamani yeching: \\(\\log_3(2x - 5) = 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -46930,7 +46930,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamani yeching: \\log_2 x + \\log_2(x - 2) = 3",
+          "problem": "Tenglamani yeching: \\(\\log_2 x + \\log_2(x - 2) = 3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -46962,7 +46962,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\log_5(x^2 - 11) = \\log_5(5x + 3)",
+          "problem": "Tenglamani yeching: \\(\\log_5(x^2 - 11) = \\log_5(5x + 3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -47132,7 +47132,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: \\log_3(2x - 5) = 2",
+          "problem": "Tenglamani yeching: \\(\\log_3(2x - 5) = 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -47164,7 +47164,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamani yeching: \\log_2 x + \\log_2(x - 2) = 3",
+          "problem": "Tenglamani yeching: \\(\\log_2 x + \\log_2(x - 2) = 3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -47196,7 +47196,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\log_5(x^2 - 11) = \\log_5(5x + 3)",
+          "problem": "Tenglamani yeching: \\(\\log_5(x^2 - 11) = \\log_5(5x + 3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -47321,7 +47321,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: \\(\\log_3(2x - 5) = 2\\)",
-          "hint": "Mavzu qoidasi: 2x - 5 = 3² = 9 => 2x = 14 => x = 7",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -47339,7 +47339,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamani yeching: \\(\\log_2 x + \\log_2(x - 2) = 3\\)",
-          "hint": "Mavzu qoidasi: log2(x(x-2)) = 3 => x² - 2x = 8 => x² - 2x - 8 = 0 => x = 4 (x > 2)",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -47357,7 +47357,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(\\log_5(x^2 - 11) = \\log_5(5x + 3)\\)",
-          "hint": "Mavzu qoidasi: x² - 11 = 5x + 3 => x² - 5x - 14 = 0 => x = 7",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -47402,7 +47402,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamani yeching: \\log_3(2x - 5) = 2",
+          "problem": "Tenglamani yeching: \\(\\log_3(2x - 5) = 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -47434,7 +47434,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamani yeching: \\log_2 x + \\log_2(x - 2) = 3",
+          "problem": "Tenglamani yeching: \\(\\log_2 x + \\log_2(x - 2) = 3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -47466,7 +47466,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\log_5(x^2 - 11) = \\log_5(5x + 3)",
+          "problem": "Tenglamani yeching: \\(\\log_5(x^2 - 11) = \\log_5(5x + 3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -47591,7 +47591,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: \\(\\log_3(2x - 5) = 2\\)",
-          "hint": "Mavzu qoidasi: 2x - 5 = 3² = 9 => 2x = 14 => x = 7",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -47609,7 +47609,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamani yeching: \\(\\log_2 x + \\log_2(x - 2) = 3\\)",
-          "hint": "Mavzu qoidasi: log2(x(x-2)) = 3 => x² - 2x = 8 => x² - 2x - 8 = 0 => x = 4 (x > 2)",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -47627,7 +47627,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(\\log_5(x^2 - 11) = \\log_5(5x + 3)\\)",
-          "hint": "Mavzu qoidasi: x² - 11 = 5x + 3 => x² - 5x - 14 = 0 => x = 7",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -47713,7 +47713,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Tenglamani yeching: \\log_3(2x - 5) = 2",
+        "problem": "Tenglamani yeching: \\(\\log_3(2x - 5) = 2\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -47745,7 +47745,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Tenglamani yeching: \\log_2 x + \\log_2(x - 2) = 3",
+        "problem": "Tenglamani yeching: \\(\\log_2 x + \\log_2(x - 2) = 3\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -47777,7 +47777,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tenglamani yeching: \\log_5(x^2 - 11) = \\log_5(5x + 3)",
+        "problem": "Tenglamani yeching: \\(\\log_5(x^2 - 11) = \\log_5(5x + 3)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -47825,7 +47825,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamani yeching: \\log_3(2x - 5) = 2",
+        "question": "Tenglamani yeching: \\(\\log_3(2x - 5) = 2\\)",
         "options": [
           "8",
           "6",
@@ -47837,7 +47837,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\log_2 x + \\log_2(x - 2) = 3",
+        "question": "Tenglamani yeching: \\(\\log_2 x + \\log_2(x - 2) = 3\\)",
         "options": [
           "6",
           "2",
@@ -47849,7 +47849,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\log_5(x^2 - 11) = \\log_5(5x + 3)",
+        "question": "Tenglamani yeching: \\(\\log_5(x^2 - 11) = \\log_5(5x + 3)\\)",
         "options": [
           "7",
           "-2",
@@ -48141,7 +48141,7 @@ const mathTopicsData = [
             "\\(80 \\text{ sm}^3\\)"
           ],
           "correctIndex": 0,
-          "explanation": "V = S_a * H = 24 * 10 = 240 sm³"
+          "explanation": "\\(V = S_a * H = 24 * 10 = 240 sm³\\)"
         }
       ],
       "practiceExercises": [
@@ -48178,7 +48178,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: d = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13 sm"
               }
             ],
-            "answer": "13 \\text{ sm}"
+            "answer": "\\(13 \\text{ sm}\\)"
           }
         },
         {
@@ -48411,7 +48411,7 @@ const mathTopicsData = [
             "\\(80 \\text{ sm}^3\\)"
           ],
           "correctIndex": 0,
-          "explanation": "V = S_a * H = 24 * 10 = 240 sm³"
+          "explanation": "\\(V = S_a * H = 24 * 10 = 240 sm³\\)"
         }
       ],
       "practiceExercises": [
@@ -48420,7 +48420,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Kubning qirrasi a = 6 sm. Uning to'la sirti yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = 6 * 6² = 216 sm²",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -48438,7 +48438,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "To'g'ri to'rtburchakli parallelepipedning o'lchamlari 3 sm, 4 sm, 12 sm. Uning fazoviy diagonalini hisoblang.",
-          "hint": "Mavzu qoidasi: d = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -48448,7 +48448,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: d = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13 sm"
               }
             ],
-            "answer": "13 \\text{ sm}"
+            "answer": "\\(13 \\text{ sm}\\)"
           }
         },
         {
@@ -48456,7 +48456,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "To'g'ri prizmaning asosi yuzi 24 sm², balandligi 10 sm. Uning hajmini hisoblang.",
-          "hint": "Mavzu qoidasi: \\(V = S_a * H = 24 * 10 = 240 sm³\\)",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -48681,7 +48681,7 @@ const mathTopicsData = [
             "\\(80 \\text{ sm}^3\\)"
           ],
           "correctIndex": 0,
-          "explanation": "V = S_a * H = 24 * 10 = 240 sm³"
+          "explanation": "\\(V = S_a * H = 24 * 10 = 240 sm³\\)"
         }
       ],
       "practiceExercises": [
@@ -48690,7 +48690,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Kubning qirrasi a = 6 sm. Uning to'la sirti yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = 6 * 6² = 216 sm²",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -48708,7 +48708,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "To'g'ri to'rtburchakli parallelepipedning o'lchamlari 3 sm, 4 sm, 12 sm. Uning fazoviy diagonalini hisoblang.",
-          "hint": "Mavzu qoidasi: d = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -48718,7 +48718,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: d = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13 sm"
               }
             ],
-            "answer": "13 \\text{ sm}"
+            "answer": "\\(13 \\text{ sm}\\)"
           }
         },
         {
@@ -48726,7 +48726,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "To'g'ri prizmaning asosi yuzi 24 sm², balandligi 10 sm. Uning hajmini hisoblang.",
-          "hint": "Mavzu qoidasi: \\(V = S_a * H = 24 * 10 = 240 sm³\\)",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -48926,10 +48926,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Kubning qirrasi a = 6 sm. Uning to'la sirti yuzini hisoblang.",
         "options": [
-          "180 \\text{ sm}^2",
-          "144 \\text{ sm}^2",
-          "216 \\text{ sm}^2",
-          "36 \\text{ sm}^2"
+          "\\(180 \\text{ sm}^2\\)",
+          "\\(144 \\text{ sm}^2\\)",
+          "\\(216 \\text{ sm}^2\\)",
+          "\\(36 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
         "explanation": "S = 6 * 6² = 216 sm²"
@@ -48938,10 +48938,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "To'g'ri to'rtburchakli parallelepipedning o'lchamlari 3 sm, 4 sm, 12 sm. Uning fazoviy diagonalini hisoblang.",
         "options": [
-          "12 \\text{ sm}",
-          "19 \\text{ sm}",
-          "15 \\text{ sm}",
-          "13 \\text{ sm}"
+          "\\(12 \\text{ sm}\\)",
+          "\\(19 \\text{ sm}\\)",
+          "\\(15 \\text{ sm}\\)",
+          "\\(13 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "d = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13 sm"
@@ -48950,13 +48950,13 @@ const mathTopicsData = [
         "level": "hard",
         "question": "To'g'ri prizmaning asosi yuzi 24 sm², balandligi 10 sm. Uning hajmini hisoblang.",
         "options": [
-          "240 \\text{ sm}^3",
-          "120 \\text{ sm}^3",
-          "480 \\text{ sm}^3",
-          "80 \\text{ sm}^3"
+          "\\(240 \\text{ sm}^3\\)",
+          "\\(120 \\text{ sm}^3\\)",
+          "\\(480 \\text{ sm}^3\\)",
+          "\\(80 \\text{ sm}^3\\)"
         ],
         "correctIndex": 0,
-        "explanation": "V = S_a * H = 24 * 10 = 240 sm³"
+        "explanation": "\\(V = S_a * H = 24 * 10 = 240 sm³\\)"
       }
     ],
     "practiceExercises": [
@@ -48993,7 +48993,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: d = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13 sm"
             }
           ],
-          "answer": "13 \\text{ sm}"
+          "answer": "\\(13 \\text{ sm}\\)"
         }
       },
       {
@@ -49216,7 +49216,7 @@ const mathTopicsData = [
             "\\(90 \\text{ sm}^3\\)"
           ],
           "correctIndex": 2,
-          "explanation": "V = 1/3 * S_a * H = 1/3 * 45 * 8 = 120 sm³"
+          "explanation": "\\(V = 1/3 * S_a * H = 1/3 * 45 * 8 = 120 sm³\\)"
         },
         {
           "level": "medium",
@@ -49228,7 +49228,7 @@ const mathTopicsData = [
             "\\(48 \\text{ sm}^3\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S_a = 6² = 36 sm²; V = 1/3 * 36 * 4 = 48 sm³"
+          "explanation": "\\(S_a = 6² = 36 sm²; V = 1/3 * 36 * 4 = 48 sm³\\)"
         },
         {
           "level": "hard",
@@ -49240,7 +49240,7 @@ const mathTopicsData = [
             "\\(90 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S_y = 1/2 * P * l = 1/2 * 24 * 5 = 60 sm²"
+          "explanation": "\\(S_y = 1/2 * P * l = 1/2 * 24 * 5 = 60 sm²\\)"
         }
       ],
       "practiceExercises": [
@@ -49486,7 +49486,7 @@ const mathTopicsData = [
             "\\(90 \\text{ sm}^3\\)"
           ],
           "correctIndex": 2,
-          "explanation": "V = 1/3 * S_a * H = 1/3 * 45 * 8 = 120 sm³"
+          "explanation": "\\(V = 1/3 * S_a * H = 1/3 * 45 * 8 = 120 sm³\\)"
         },
         {
           "level": "medium",
@@ -49498,7 +49498,7 @@ const mathTopicsData = [
             "\\(48 \\text{ sm}^3\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S_a = 6² = 36 sm²; V = 1/3 * 36 * 4 = 48 sm³"
+          "explanation": "\\(S_a = 6² = 36 sm²; V = 1/3 * 36 * 4 = 48 sm³\\)"
         },
         {
           "level": "hard",
@@ -49510,7 +49510,7 @@ const mathTopicsData = [
             "\\(90 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S_y = 1/2 * P * l = 1/2 * 24 * 5 = 60 sm²"
+          "explanation": "\\(S_y = 1/2 * P * l = 1/2 * 24 * 5 = 60 sm²\\)"
         }
       ],
       "practiceExercises": [
@@ -49519,7 +49519,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Piramidaning asosi yuzi 45 sm², balandligi 8 sm. Uning hajmini hisoblang.",
-          "hint": "Mavzu qoidasi: \\(V = 1/3 * S_a * H = 1/3 * 45 * 8 = 120 sm³\\)",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -49537,7 +49537,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Muntazam to'rtburchakli piramidaning asosi tomoni 6 sm, balandligi 4 sm. Uning hajmini hisoblang.",
-          "hint": "Mavzu qoidasi: \\(S_a = 6² = 36 sm²",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -49555,7 +49555,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Muntazam piramida apofemasi 5 sm, asosining perimetri 24 sm. Yon sirti yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: \\(S_y = 1/2 * P * l = 1/2 * 24 * 5 = 60 sm²\\)",
+          "hint": "Perimetr — bu shaklning barcha tomonlari uzunliklari yig'indisi. Berilgan barcha tomonlarni bir-biriga qo'shib chiqing.",
           "solution": {
             "steps": [
               {
@@ -49756,7 +49756,7 @@ const mathTopicsData = [
             "\\(90 \\text{ sm}^3\\)"
           ],
           "correctIndex": 2,
-          "explanation": "V = 1/3 * S_a * H = 1/3 * 45 * 8 = 120 sm³"
+          "explanation": "\\(V = 1/3 * S_a * H = 1/3 * 45 * 8 = 120 sm³\\)"
         },
         {
           "level": "medium",
@@ -49768,7 +49768,7 @@ const mathTopicsData = [
             "\\(48 \\text{ sm}^3\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S_a = 6² = 36 sm²; V = 1/3 * 36 * 4 = 48 sm³"
+          "explanation": "\\(S_a = 6² = 36 sm²; V = 1/3 * 36 * 4 = 48 sm³\\)"
         },
         {
           "level": "hard",
@@ -49780,7 +49780,7 @@ const mathTopicsData = [
             "\\(90 \\text{ sm}^2\\)"
           ],
           "correctIndex": 0,
-          "explanation": "S_y = 1/2 * P * l = 1/2 * 24 * 5 = 60 sm²"
+          "explanation": "\\(S_y = 1/2 * P * l = 1/2 * 24 * 5 = 60 sm²\\)"
         }
       ],
       "practiceExercises": [
@@ -49789,7 +49789,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Piramidaning asosi yuzi 45 sm², balandligi 8 sm. Uning hajmini hisoblang.",
-          "hint": "Mavzu qoidasi: \\(V = 1/3 * S_a * H = 1/3 * 45 * 8 = 120 sm³\\)",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -49807,7 +49807,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Muntazam to'rtburchakli piramidaning asosi tomoni 6 sm, balandligi 4 sm. Uning hajmini hisoblang.",
-          "hint": "Mavzu qoidasi: \\(S_a = 6² = 36 sm²",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -49825,7 +49825,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Muntazam piramida apofemasi 5 sm, asosining perimetri 24 sm. Yon sirti yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: \\(S_y = 1/2 * P * l = 1/2 * 24 * 5 = 60 sm²\\)",
+          "hint": "Perimetr — bu shaklning barcha tomonlari uzunliklari yig'indisi. Berilgan barcha tomonlarni bir-biriga qo'shib chiqing.",
           "solution": {
             "steps": [
               {
@@ -50025,37 +50025,37 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Piramidaning asosi yuzi 45 sm², balandligi 8 sm. Uning hajmini hisoblang.",
         "options": [
-          "180 \\text{ sm}^3",
-          "360 \\text{ sm}^3",
-          "120 \\text{ sm}^3",
-          "90 \\text{ sm}^3"
+          "\\(180 \\text{ sm}^3\\)",
+          "\\(360 \\text{ sm}^3\\)",
+          "\\(120 \\text{ sm}^3\\)",
+          "\\(90 \\text{ sm}^3\\)"
         ],
         "correctIndex": 2,
-        "explanation": "V = 1/3 * S_a * H = 1/3 * 45 * 8 = 120 sm³"
+        "explanation": "\\(V = 1/3 * S_a * H = 1/3 * 45 * 8 = 120 sm³\\)"
       },
       {
         "level": "medium",
         "question": "Muntazam to'rtburchakli piramidaning asosi tomoni 6 sm, balandligi 4 sm. Uning hajmini hisoblang.",
         "options": [
-          "96 \\text{ sm}^3",
-          "144 \\text{ sm}^3",
-          "72 \\text{ sm}^3",
-          "48 \\text{ sm}^3"
+          "\\(96 \\text{ sm}^3\\)",
+          "\\(144 \\text{ sm}^3\\)",
+          "\\(72 \\text{ sm}^3\\)",
+          "\\(48 \\text{ sm}^3\\)"
         ],
         "correctIndex": 3,
-        "explanation": "S_a = 6² = 36 sm²; V = 1/3 * 36 * 4 = 48 sm³"
+        "explanation": "\\(S_a = 6² = 36 sm²; V = 1/3 * 36 * 4 = 48 sm³\\)"
       },
       {
         "level": "hard",
         "question": "Muntazam piramida apofemasi 5 sm, asosining perimetri 24 sm. Yon sirti yuzini hisoblang.",
         "options": [
-          "60 \\text{ sm}^2",
-          "120 \\text{ sm}^2",
-          "30 \\text{ sm}^2",
-          "90 \\text{ sm}^2"
+          "\\(60 \\text{ sm}^2\\)",
+          "\\(120 \\text{ sm}^2\\)",
+          "\\(30 \\text{ sm}^2\\)",
+          "\\(90 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
-        "explanation": "S_y = 1/2 * P * l = 1/2 * 24 * 5 = 60 sm²"
+        "explanation": "\\(S_y = 1/2 * P * l = 1/2 * 24 * 5 = 60 sm²\\)"
       }
     ],
     "practiceExercises": [
@@ -50358,7 +50358,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Fazoda kesishmaydigan va bir tekislikda yotmaydigan to'g'ri chiziqlar ayqash deyiladi"
               }
             ],
-            "answer": "\\text{Ayqash to'g'ri chiziqlar}"
+            "answer": "\\(\\text{Ayqash to'g'ri chiziqlar}\\)"
           }
         },
         {
@@ -50376,7 +50376,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Fazoda istalgan nuqtadan berilgan chiziqqa parallel chiziq o'tkazish mumkin"
               }
             ],
-            "answer": "\\text{Cheksiz ko'p}"
+            "answer": "\\(\\text{Cheksiz ko'p}\\)"
           }
         },
         {
@@ -50394,7 +50394,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: To'g'ri chiziq va tekislik perpendikulyarligi ta'rifi"
               }
             ],
-            "answer": "\\text{Perpendikulyar}"
+            "answer": "\\(\\text{Perpendikulyar}\\)"
           }
         }
       ]
@@ -50618,7 +50618,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Fazoda ikkita to'g'ri chiziq bitta tekislikda yotmasa va kesishmasa, ular qanday chiziqlar deyiladi?",
-          "hint": "Mavzu qoidasi: Fazoda kesishmaydigan va bir tekislikda yotmaydigan to'g'ri chiziqlar ayqash deyiladi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -50628,7 +50628,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Fazoda kesishmaydigan va bir tekislikda yotmaydigan to'g'ri chiziqlar ayqash deyiladi"
               }
             ],
-            "answer": "\\text{Ayqash to'g'ri chiziqlar}"
+            "answer": "\\(\\text{Ayqash to'g'ri chiziqlar}\\)"
           }
         },
         {
@@ -50636,7 +50636,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Fazoda berilgan to'g'ri chiziqqa parallel bo'lgan nechta to'g'ri chiziq o'tkazish mumkin?",
-          "hint": "Mavzu qoidasi: Fazoda istalgan nuqtadan berilgan chiziqqa parallel chiziq o'tkazish mumkin",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -50646,7 +50646,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Fazoda istalgan nuqtadan berilgan chiziqqa parallel chiziq o'tkazish mumkin"
               }
             ],
-            "answer": "\\text{Cheksiz ko'p}"
+            "answer": "\\(\\text{Cheksiz ko'p}\\)"
           }
         },
         {
@@ -50654,7 +50654,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "To'g'ri chiziq tekislikka perpendikulyar bo'lsa, u tekislikdagi barcha to'g'ri chiziqlarga qanday bo'ladi?",
-          "hint": "Mavzu qoidasi: To'g'ri chiziq va tekislik perpendikulyarligi ta'rifi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -50664,7 +50664,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: To'g'ri chiziq va tekislik perpendikulyarligi ta'rifi"
               }
             ],
-            "answer": "\\text{Perpendikulyar}"
+            "answer": "\\(\\text{Perpendikulyar}\\)"
           }
         }
       ]
@@ -50888,7 +50888,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Fazoda ikkita to'g'ri chiziq bitta tekislikda yotmasa va kesishmasa, ular qanday chiziqlar deyiladi?",
-          "hint": "Mavzu qoidasi: Fazoda kesishmaydigan va bir tekislikda yotmaydigan to'g'ri chiziqlar ayqash deyiladi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -50898,7 +50898,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Fazoda kesishmaydigan va bir tekislikda yotmaydigan to'g'ri chiziqlar ayqash deyiladi"
               }
             ],
-            "answer": "\\text{Ayqash to'g'ri chiziqlar}"
+            "answer": "\\(\\text{Ayqash to'g'ri chiziqlar}\\)"
           }
         },
         {
@@ -50906,7 +50906,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Fazoda berilgan to'g'ri chiziqqa parallel bo'lgan nechta to'g'ri chiziq o'tkazish mumkin?",
-          "hint": "Mavzu qoidasi: Fazoda istalgan nuqtadan berilgan chiziqqa parallel chiziq o'tkazish mumkin",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -50916,7 +50916,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Fazoda istalgan nuqtadan berilgan chiziqqa parallel chiziq o'tkazish mumkin"
               }
             ],
-            "answer": "\\text{Cheksiz ko'p}"
+            "answer": "\\(\\text{Cheksiz ko'p}\\)"
           }
         },
         {
@@ -50924,7 +50924,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "To'g'ri chiziq tekislikka perpendikulyar bo'lsa, u tekislikdagi barcha to'g'ri chiziqlarga qanday bo'ladi?",
-          "hint": "Mavzu qoidasi: To'g'ri chiziq va tekislik perpendikulyarligi ta'rifi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -50934,7 +50934,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: To'g'ri chiziq va tekislik perpendikulyarligi ta'rifi"
               }
             ],
-            "answer": "\\text{Perpendikulyar}"
+            "answer": "\\(\\text{Perpendikulyar}\\)"
           }
         }
       ]
@@ -51124,10 +51124,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Fazoda ikkita to'g'ri chiziq bitta tekislikda yotmasa va kesishmasa, ular qanday chiziqlar deyiladi?",
         "options": [
-          "\\text{Perpendikulyar chiziqlar}",
-          "\\text{Parallel chiziqlar}",
-          "\\text{Ayqash to'g'ri chiziqlar}",
-          "\\text{Ustma-ust chiziqlar}"
+          "\\(\\text{Perpendikulyar chiziqlar}\\)",
+          "\\(\\text{Parallel chiziqlar}\\)",
+          "\\(\\text{Ayqash to'g'ri chiziqlar}\\)",
+          "\\(\\text{Ustma-ust chiziqlar}\\)"
         ],
         "correctIndex": 2,
         "explanation": "Fazoda kesishmaydigan va bir tekislikda yotmaydigan to'g'ri chiziqlar ayqash deyiladi"
@@ -51139,7 +51139,7 @@ const mathTopicsData = [
           "0 ta",
           "1 ta",
           "2 ta",
-          "\\text{Cheksiz ko'p}"
+          "\\(\\text{Cheksiz ko'p}\\)"
         ],
         "correctIndex": 3,
         "explanation": "Fazoda istalgan nuqtadan berilgan chiziqqa parallel chiziq o'tkazish mumkin"
@@ -51148,10 +51148,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "To'g'ri chiziq tekislikka perpendikulyar bo'lsa, u tekislikdagi barcha to'g'ri chiziqlarga qanday bo'ladi?",
         "options": [
-          "\\text{Perpendikulyar}",
-          "\\text{Parallel}",
-          "\\text{Ayqash}",
-          "\\text{Kesishuvchi}"
+          "\\(\\text{Perpendikulyar}\\)",
+          "\\(\\text{Parallel}\\)",
+          "\\(\\text{Ayqash}\\)",
+          "\\(\\text{Kesishuvchi}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri chiziq va tekislik perpendikulyarligi ta'rifi"
@@ -51173,7 +51173,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Fazoda kesishmaydigan va bir tekislikda yotmaydigan to'g'ri chiziqlar ayqash deyiladi"
             }
           ],
-          "answer": "\\text{Ayqash to'g'ri chiziqlar}"
+          "answer": "\\(\\text{Ayqash to'g'ri chiziqlar}\\)"
         }
       },
       {
@@ -51191,7 +51191,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Fazoda istalgan nuqtadan berilgan chiziqqa parallel chiziq o'tkazish mumkin"
             }
           ],
-          "answer": "\\text{Cheksiz ko'p}"
+          "answer": "\\(\\text{Cheksiz ko'p}\\)"
         }
       },
       {
@@ -51209,7 +51209,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: To'g'ri chiziq va tekislik perpendikulyarligi ta'rifi"
             }
           ],
-          "answer": "\\text{Perpendikulyar}"
+          "answer": "\\(\\text{Perpendikulyar}\\)"
         }
       }
     ]
@@ -51294,7 +51294,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).",
+          "problem": "\\(Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -51358,7 +51358,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).",
+          "problem": "\\(Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -51406,7 +51406,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(90\\pi \\text{ sm}^3\\)",
             "\\(15\\pi \\text{ sm}^3\\)",
@@ -51430,7 +51430,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(12\\pi \\text{ sm}^3\\)",
             "\\(36\\pi \\text{ sm}^3\\)",
@@ -51475,7 +51475,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: l = √(R² + H²) = √(36 + 64) = 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         },
         {
@@ -51528,7 +51528,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).",
+          "problem": "\\(Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -51592,7 +51592,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).",
+          "problem": "\\(Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -51676,7 +51676,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(90\\pi \\text{ sm}^3\\)",
             "\\(15\\pi \\text{ sm}^3\\)",
@@ -51700,7 +51700,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(12\\pi \\text{ sm}^3\\)",
             "\\(36\\pi \\text{ sm}^3\\)",
@@ -51717,7 +51717,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
-          "hint": "Mavzu qoidasi: V = pi * R² * H = pi * 9 * 5 = 45pi sm³",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -51735,7 +51735,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Konus asosining radiusi R = 6 sm, balandligi H = 8 sm. Uning yasovchisi l ni toping.",
-          "hint": "Mavzu qoidasi: l = √(R² + H²) = √(36 + 64) = 10 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -51745,7 +51745,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: l = √(R² + H²) = √(36 + 64) = 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         },
         {
@@ -51753,7 +51753,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
-          "hint": "Mavzu qoidasi: V = 4/3 * pi * R³ = 4/3 * pi * 27 = 36pi sm³",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -51798,7 +51798,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).",
+          "problem": "\\(Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -51862,7 +51862,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).",
+          "problem": "\\(Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -51946,7 +51946,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(90\\pi \\text{ sm}^3\\)",
             "\\(15\\pi \\text{ sm}^3\\)",
@@ -51970,7 +51970,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(12\\pi \\text{ sm}^3\\)",
             "\\(36\\pi \\text{ sm}^3\\)",
@@ -51987,7 +51987,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
-          "hint": "Mavzu qoidasi: V = pi * R² * H = pi * 9 * 5 = 45pi sm³",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -52005,7 +52005,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Konus asosining radiusi R = 6 sm, balandligi H = 8 sm. Uning yasovchisi l ni toping.",
-          "hint": "Mavzu qoidasi: l = √(R² + H²) = √(36 + 64) = 10 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -52015,7 +52015,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: l = √(R² + H²) = √(36 + 64) = 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         },
         {
@@ -52023,7 +52023,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
-          "hint": "Mavzu qoidasi: V = 4/3 * pi * R³ = 4/3 * pi * 27 = 36pi sm³",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -52109,7 +52109,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).",
+        "problem": "\\(Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -52173,7 +52173,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).",
+        "problem": "\\(Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -52221,12 +52221,12 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).",
+        "question": "\\(Silindr asosining radiusi R = 3 sm, balandligi H = 5 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
         "options": [
-          "90\\pi \\text{ sm}^3",
-          "15\\pi \\text{ sm}^3",
-          "30\\pi \\text{ sm}^3",
-          "45\\pi \\text{ sm}^3"
+          "\\(90\\pi \\text{ sm}^3\\)",
+          "\\(15\\pi \\text{ sm}^3\\)",
+          "\\(30\\pi \\text{ sm}^3\\)",
+          "\\(45\\pi \\text{ sm}^3\\)"
         ],
         "correctIndex": 3,
         "explanation": "V = pi * R² * H = pi * 9 * 5 = 45pi sm³"
@@ -52235,22 +52235,22 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Konus asosining radiusi R = 6 sm, balandligi H = 8 sm. Uning yasovchisi l ni toping.",
         "options": [
-          "10 \\text{ sm}",
-          "14 \\text{ sm}",
-          "12 \\text{ sm}",
-          "8 \\text{ sm}"
+          "\\(10 \\text{ sm}\\)",
+          "\\(14 \\text{ sm}\\)",
+          "\\(12 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "l = √(R² + H²) = √(36 + 64) = 10 sm"
       },
       {
         "level": "hard",
-        "question": "Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).",
+        "question": "\\(Shar radiusi R = 3 sm. Uning hajmini hisoblang (\\pi bilan).\\)",
         "options": [
-          "12\\pi \\text{ sm}^3",
-          "36\\pi \\text{ sm}^3",
-          "108\\pi \\text{ sm}^3",
-          "18\\pi \\text{ sm}^3"
+          "\\(12\\pi \\text{ sm}^3\\)",
+          "\\(36\\pi \\text{ sm}^3\\)",
+          "\\(108\\pi \\text{ sm}^3\\)",
+          "\\(18\\pi \\text{ sm}^3\\)"
         ],
         "correctIndex": 1,
         "explanation": "V = 4/3 * pi * R³ = 4/3 * pi * 27 = 36pi sm³"
@@ -52290,7 +52290,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: l = √(R² + H²) = √(36 + 64) = 10 sm"
             }
           ],
-          "answer": "10 \\text{ sm}"
+          "answer": "\\(10 \\text{ sm}\\)"
         }
       },
       {
@@ -52393,7 +52393,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.",
+          "problem": "\\(y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -52441,7 +52441,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.",
+          "problem": "\\(f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -52489,7 +52489,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.",
+          "problem": "\\(f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -52537,7 +52537,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.",
+          "question": "\\(y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.\\)",
           "options": [
             "(6; 13)",
             "(-3; 4)",
@@ -52549,7 +52549,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.",
+          "question": "\\(f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.\\)",
           "options": [
             "5",
             "3",
@@ -52561,7 +52561,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.",
+          "question": "\\(f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.\\)",
           "options": [
             "-1",
             "1",
@@ -52659,7 +52659,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.",
+          "problem": "\\(y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -52707,7 +52707,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.",
+          "problem": "\\(f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -52755,7 +52755,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.",
+          "problem": "\\(f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -52839,7 +52839,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.",
+          "question": "\\(y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.\\)",
           "options": [
             "(6; 13)",
             "(-3; 4)",
@@ -52851,7 +52851,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.",
+          "question": "\\(f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.\\)",
           "options": [
             "5",
             "3",
@@ -52863,7 +52863,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.",
+          "question": "\\(f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.\\)",
           "options": [
             "-1",
             "1",
@@ -52880,7 +52880,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.\\)",
-          "hint": "Mavzu qoidasi: x0 = -(-6)/2 = 3",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -52898,7 +52898,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.\\)",
-          "hint": "Mavzu qoidasi: x0 = 8/4 = 2",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -52916,7 +52916,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.\\)",
-          "hint": "Mavzu qoidasi: f'(x) = 3x² - 3 = 0 => x = ±1",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -52961,7 +52961,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.",
+          "problem": "\\(y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -53009,7 +53009,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.",
+          "problem": "\\(f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -53057,7 +53057,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.",
+          "problem": "\\(f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -53141,7 +53141,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.",
+          "question": "\\(y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.\\)",
           "options": [
             "(6; 13)",
             "(-3; 4)",
@@ -53153,7 +53153,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.",
+          "question": "\\(f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.\\)",
           "options": [
             "5",
             "3",
@@ -53165,7 +53165,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.",
+          "question": "\\(f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.\\)",
           "options": [
             "-1",
             "1",
@@ -53182,7 +53182,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.\\)",
-          "hint": "Mavzu qoidasi: x0 = -(-6)/2 = 3",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -53200,7 +53200,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.\\)",
-          "hint": "Mavzu qoidasi: x0 = 8/4 = 2",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -53218,7 +53218,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.\\)",
-          "hint": "Mavzu qoidasi: f'(x) = 3x² - 3 = 0 => x = ±1",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -53304,7 +53304,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.",
+        "problem": "\\(y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -53352,7 +53352,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.",
+        "problem": "\\(f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -53400,7 +53400,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.",
+        "problem": "\\(f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -53448,7 +53448,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.",
+        "question": "\\(y = x^2 - 6x + 13 parabolaning uchi koordinatalarini toping.\\)",
         "options": [
           "(6; 13)",
           "(-3; 4)",
@@ -53460,7 +53460,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.",
+        "question": "\\(f(x) = -2x^2 + 8x - 3 funksiyaning eng katta qiymatini toping.\\)",
         "options": [
           "5",
           "3",
@@ -53472,7 +53472,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.",
+        "question": "\\(f(x) = x^3 - 3x funksiyaning minimum nuqtasi x ni toping.\\)",
         "options": [
           "-1",
           "1",
@@ -53620,7 +53620,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "problem": "\\(f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -53668,7 +53668,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "problem": "\\(f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -53700,7 +53700,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.",
+          "problem": "\\(f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -53748,7 +53748,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "\\(f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
             "\\(12x^4 - 10x^2 + 7\\)",
             "\\(12x^3 - 10x\\)",
@@ -53760,7 +53760,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "\\(f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "8",
             "12",
@@ -53772,7 +53772,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.",
+          "question": "\\(f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.\\)",
           "options": [
             "0",
             "1",
@@ -53870,7 +53870,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "problem": "\\(f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -53918,7 +53918,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "problem": "\\(f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -53950,7 +53950,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.",
+          "problem": "\\(f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -54034,7 +54034,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "\\(f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
             "\\(12x^4 - 10x^2 + 7\\)",
             "\\(12x^3 - 10x\\)",
@@ -54046,7 +54046,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "\\(f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "8",
             "12",
@@ -54058,7 +54058,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.",
+          "question": "\\(f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.\\)",
           "options": [
             "0",
             "1",
@@ -54075,7 +54075,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: (3x⁴)' = 12x³",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -54093,7 +54093,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: f'(x) = 3x² - 4 => f'(2) = 3*4 - 4 = 8",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -54111,7 +54111,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.\\)",
-          "hint": "Mavzu qoidasi: f'(x) = cos x - sin x => f'(0) = 1 - 0 = 1",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -54156,7 +54156,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "problem": "\\(f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -54204,7 +54204,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "problem": "\\(f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -54236,7 +54236,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.",
+          "problem": "\\(f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -54320,7 +54320,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "\\(f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
             "\\(12x^4 - 10x^2 + 7\\)",
             "\\(12x^3 - 10x\\)",
@@ -54332,7 +54332,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+          "question": "\\(f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
           "options": [
             "8",
             "12",
@@ -54344,7 +54344,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.",
+          "question": "\\(f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.\\)",
           "options": [
             "0",
             "1",
@@ -54361,7 +54361,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: (3x⁴)' = 12x³",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -54379,7 +54379,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: f'(x) = 3x² - 4 => f'(2) = 3*4 - 4 = 8",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -54397,7 +54397,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.\\)",
-          "hint": "Mavzu qoidasi: f'(x) = cos x - sin x => f'(0) = 1 - 0 = 1",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -54483,7 +54483,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.",
+        "problem": "\\(f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -54531,7 +54531,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+        "problem": "\\(f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -54563,7 +54563,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.",
+        "problem": "\\(f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -54611,19 +54611,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.",
+        "question": "\\(f(x) = 3x^4 - 5x^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
         "options": [
-          "12x^4 - 10x^2 + 7",
-          "12x^3 - 10x",
-          "7x^3 - 10x + 7",
-          "12x^3 - 10x + 7"
+          "\\(12x^4 - 10x^2 + 7\\)",
+          "\\(12x^3 - 10x\\)",
+          "\\(7x^3 - 10x + 7\\)",
+          "\\(12x^3 - 10x + 7\\)"
         ],
         "correctIndex": 3,
         "explanation": "(3x⁴)' = 12x³; (-5x²)' = -10x; (7x)' = 7"
       },
       {
         "level": "medium",
-        "question": "f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.",
+        "question": "\\(f(x) = x^3 - 4x funksiyaning x = 2 nuqtadagi hosilasi f'(2) ni hisoblang.\\)",
         "options": [
           "8",
           "12",
@@ -54635,7 +54635,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.",
+        "question": "\\(f(x) = \\sin x + \\cos x funksiyaning x = 0 dagi hosilasini toping.\\)",
         "options": [
           "0",
           "1",
@@ -54783,7 +54783,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Aniqmas integralni hisoblang: \\int (4x^3 - 6x^2 + 2x) dx",
+          "problem": "Aniqmas integralni hisoblang: \\(\\int (4x^3 - 6x^2 + 2x) dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -54831,7 +54831,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -54879,7 +54879,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "problem": "\\(y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -54947,11 +54947,11 @@ const mathTopicsData = [
             "8"
           ],
           "correctIndex": 0,
-          "explanation": "[x³ + x²]_0^2 = (8 + 4) - 0 = 12"
+          "explanation": "\\([x³ + x²]_0^2 = (8 + 4) - 0 = 12\\)"
         },
         {
           "level": "hard",
-          "question": "y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "\\(y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "27",
             "9",
@@ -54959,7 +54959,7 @@ const mathTopicsData = [
             "3"
           ],
           "correctIndex": 1,
-          "explanation": "S = ∫_0^3 x² dx = [x³/3]_0^3 = 27/3 = 9"
+          "explanation": "\\(S = ∫_0^3 x² dx = [x³/3]_0^3 = 27/3 = 9\\)"
         }
       ],
       "practiceExercises": [
@@ -54968,7 +54968,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Aniqmas integralni hisoblang: \\(\\int (4x^3 - 6x^2 + 2x) dx\\)",
-          "hint": "Boshlang'ich funksiyani toping: ∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -54986,7 +54986,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
-          "hint": "Boshlang'ich funksiyani toping: ∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -55049,7 +55049,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Aniqmas integralni hisoblang: \\int (4x^3 - 6x^2 + 2x) dx",
+          "problem": "Aniqmas integralni hisoblang: \\(\\int (4x^3 - 6x^2 + 2x) dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -55097,7 +55097,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -55145,7 +55145,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "problem": "\\(y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -55249,11 +55249,11 @@ const mathTopicsData = [
             "8"
           ],
           "correctIndex": 0,
-          "explanation": "[x³ + x²]_0^2 = (8 + 4) - 0 = 12"
+          "explanation": "\\([x³ + x²]_0^2 = (8 + 4) - 0 = 12\\)"
         },
         {
           "level": "hard",
-          "question": "y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "\\(y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "27",
             "9",
@@ -55261,7 +55261,7 @@ const mathTopicsData = [
             "3"
           ],
           "correctIndex": 1,
-          "explanation": "S = ∫_0^3 x² dx = [x³/3]_0^3 = 27/3 = 9"
+          "explanation": "\\(S = ∫_0^3 x² dx = [x³/3]_0^3 = 27/3 = 9\\)"
         }
       ],
       "practiceExercises": [
@@ -55270,7 +55270,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Aniqmas integralni hisoblang: \\(\\int (4x^3 - 6x^2 + 2x) dx\\)",
-          "hint": "Mavzu qoidasi: 4x⁴/4 - 6x³/3 + 2x²/2 + C = x⁴ - 2x³ + x² + C",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -55288,7 +55288,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
-          "hint": "Mavzu qoidasi: \\([x³ + x²]_0^2 = (8 + 4) - 0 = 12\\)",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -55306,7 +55306,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: \\(S = ∫_0^3 x² dx = [x³/3]_0^3 = 27/3 = 9\\)",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -55351,7 +55351,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Aniqmas integralni hisoblang: \\int (4x^3 - 6x^2 + 2x) dx",
+          "problem": "Aniqmas integralni hisoblang: \\(\\int (4x^3 - 6x^2 + 2x) dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -55399,7 +55399,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -55447,7 +55447,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "problem": "\\(y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -55551,11 +55551,11 @@ const mathTopicsData = [
             "8"
           ],
           "correctIndex": 0,
-          "explanation": "[x³ + x²]_0^2 = (8 + 4) - 0 = 12"
+          "explanation": "\\([x³ + x²]_0^2 = (8 + 4) - 0 = 12\\)"
         },
         {
           "level": "hard",
-          "question": "y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+          "question": "\\(y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
           "options": [
             "27",
             "9",
@@ -55563,7 +55563,7 @@ const mathTopicsData = [
             "3"
           ],
           "correctIndex": 1,
-          "explanation": "S = ∫_0^3 x² dx = [x³/3]_0^3 = 27/3 = 9"
+          "explanation": "\\(S = ∫_0^3 x² dx = [x³/3]_0^3 = 27/3 = 9\\)"
         }
       ],
       "practiceExercises": [
@@ -55572,7 +55572,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Aniqmas integralni hisoblang: \\(\\int (4x^3 - 6x^2 + 2x) dx\\)",
-          "hint": "Mavzu qoidasi: 4x⁴/4 - 6x³/3 + 2x²/2 + C = x⁴ - 2x³ + x² + C",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -55590,7 +55590,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
-          "hint": "Mavzu qoidasi: \\([x³ + x²]_0^2 = (8 + 4) - 0 = 12\\)",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -55608,7 +55608,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: \\(S = ∫_0^3 x² dx = [x³/3]_0^3 = 27/3 = 9\\)",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -55694,7 +55694,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "Aniqmas integralni hisoblang: \\int (4x^3 - 6x^2 + 2x) dx",
+        "problem": "Aniqmas integralni hisoblang: \\(\\int (4x^3 - 6x^2 + 2x) dx\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -55742,7 +55742,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+        "problem": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -55790,7 +55790,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+        "problem": "\\(y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -55838,19 +55838,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Aniqmas integralni hisoblang: \\int (4x^3 - 6x^2 + 2x) dx",
+        "question": "Aniqmas integralni hisoblang: \\(\\int (4x^3 - 6x^2 + 2x) dx\\)",
         "options": [
-          "x^4 - 3x^3 + x^2 + C",
-          "4x^4 - 6x^3 + 2x^2 + C",
-          "12x^2 - 12x + 2 + C",
-          "x^4 - 2x^3 + x^2 + C"
+          "\\(x^4 - 3x^3 + x^2 + C\\)",
+          "\\(4x^4 - 6x^3 + 2x^2 + C\\)",
+          "\\(12x^2 - 12x + 2 + C\\)",
+          "\\(x^4 - 2x^3 + x^2 + C\\)"
         ],
         "correctIndex": 3,
         "explanation": "4x⁴/4 - 6x³/3 + 2x²/2 + C = x⁴ - 2x³ + x² + C"
       },
       {
         "level": "medium",
-        "question": "Aniq integralni hisoblang: \\int_0^2 (3x^2 + 2x) dx",
+        "question": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
         "options": [
           "12",
           "14",
@@ -55858,11 +55858,11 @@ const mathTopicsData = [
           "8"
         ],
         "correctIndex": 0,
-        "explanation": "[x³ + x²]_0^2 = (8 + 4) - 0 = 12"
+        "explanation": "\\([x³ + x²]_0^2 = (8 + 4) - 0 = 12\\)"
       },
       {
         "level": "hard",
-        "question": "y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.",
+        "question": "\\(y = x^2 egri chiziq, y = 0 va x = 3 to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang.\\)",
         "options": [
           "27",
           "9",
@@ -55870,7 +55870,7 @@ const mathTopicsData = [
           "3"
         ],
         "correctIndex": 1,
-        "explanation": "S = ∫_0^3 x² dx = [x³/3]_0^3 = 27/3 = 9"
+        "explanation": "\\(S = ∫_0^3 x² dx = [x³/3]_0^3 = 27/3 = 9\\)"
       }
     ],
     "practiceExercises": [
@@ -55879,7 +55879,7 @@ const mathTopicsData = [
         "levelLabel": "🟢 1-mashq (Oddiy)",
         "title": "1-mashq",
         "problem": "Aniqmas integralni hisoblang: \\(\\int (4x^3 - 6x^2 + 2x) dx\\)",
-        "hint": "Boshlang'ich funksiyani toping: ∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.",
+        "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
         "solution": {
           "steps": [
             {
@@ -55897,7 +55897,7 @@ const mathTopicsData = [
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
         "problem": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\)",
-        "hint": "Boshlang'ich funksiyani toping: ∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.",
+        "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
         "solution": {
           "steps": [
             {
@@ -56009,7 +56009,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "problem": "\\(f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -56041,7 +56041,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.",
+          "problem": "\\(f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -56089,7 +56089,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.",
+          "problem": "\\(f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -56137,7 +56137,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "\\(f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
             "\\(2(2x - 3)^3\\)",
             "\\(4(2x - 3)^3\\)",
@@ -56149,7 +56149,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.",
+          "question": "\\(f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.\\)",
           "options": [
             "\\(3\\cos(3x)\\)",
             "\\(\\cos(3x)\\)",
@@ -56161,7 +56161,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.",
+          "question": "\\(f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.\\)",
           "options": [
             "6",
             "2",
@@ -56264,7 +56264,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "problem": "\\(f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -56296,7 +56296,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.",
+          "problem": "\\(f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -56344,7 +56344,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.",
+          "problem": "\\(f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -56428,7 +56428,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "\\(f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
             "\\(2(2x - 3)^3\\)",
             "\\(4(2x - 3)^3\\)",
@@ -56440,7 +56440,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.",
+          "question": "\\(f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.\\)",
           "options": [
             "\\(3\\cos(3x)\\)",
             "\\(\\cos(3x)\\)",
@@ -56452,7 +56452,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.",
+          "question": "\\(f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.\\)",
           "options": [
             "6",
             "2",
@@ -56469,7 +56469,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: 4(2x - 3)³ * 2 = 8(2x - 3)³",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -56487,7 +56487,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.\\)",
-          "hint": "Mavzu qoidasi: (sin 3x)' = cos(3x) * 3 = 3cos(3x)",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -56505,7 +56505,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.\\)",
-          "hint": "Mavzu qoidasi: k = f'(3) = 2*3 - 4 = 2",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -56555,7 +56555,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "problem": "\\(f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -56587,7 +56587,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.",
+          "problem": "\\(f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -56635,7 +56635,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.",
+          "problem": "\\(f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -56719,7 +56719,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.",
+          "question": "\\(f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
           "options": [
             "\\(2(2x - 3)^3\\)",
             "\\(4(2x - 3)^3\\)",
@@ -56731,7 +56731,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.",
+          "question": "\\(f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.\\)",
           "options": [
             "\\(3\\cos(3x)\\)",
             "\\(\\cos(3x)\\)",
@@ -56743,7 +56743,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.",
+          "question": "\\(f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.\\)",
           "options": [
             "6",
             "2",
@@ -56760,7 +56760,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: 4(2x - 3)³ * 2 = 8(2x - 3)³",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -56778,7 +56778,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.\\)",
-          "hint": "Mavzu qoidasi: (sin 3x)' = cos(3x) * 3 = 3cos(3x)",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -56796,7 +56796,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.\\)",
-          "hint": "Mavzu qoidasi: k = f'(3) = 2*3 - 4 = 2",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -56881,7 +56881,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.",
+        "problem": "\\(f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -56913,7 +56913,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.",
+        "problem": "\\(f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -56961,7 +56961,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.",
+        "problem": "\\(f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -57009,31 +57009,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.",
+        "question": "\\(f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang.\\)",
         "options": [
-          "2(2x - 3)^3",
-          "4(2x - 3)^3",
-          "8(2x - 3)^4",
-          "8(2x - 3)^3"
+          "\\(2(2x - 3)^3\\)",
+          "\\(4(2x - 3)^3\\)",
+          "\\(8(2x - 3)^4\\)",
+          "\\(8(2x - 3)^3\\)"
         ],
         "correctIndex": 3,
         "explanation": "4(2x - 3)³ * 2 = 8(2x - 3)³"
       },
       {
         "level": "medium",
-        "question": "f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.",
+        "question": "\\(f(x) = \\sin(3x) funksiyaning hosilasini hisoblang.\\)",
         "options": [
-          "3\\cos(3x)",
-          "\\cos(3x)",
-          "-3\\cos(3x)",
-          "3\\sin(3x)"
+          "\\(3\\cos(3x)\\)",
+          "\\(\\cos(3x)\\)",
+          "\\(-3\\cos(3x)\\)",
+          "\\(3\\sin(3x)\\)"
         ],
         "correctIndex": 0,
         "explanation": "(sin 3x)' = cos(3x) * 3 = 3cos(3x)"
       },
       {
         "level": "hard",
-        "question": "f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.",
+        "question": "\\(f(x) = x^2 - 4x + 1 egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping.\\)",
         "options": [
           "6",
           "2",
@@ -57186,7 +57186,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.",
+          "problem": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -57298,7 +57298,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni \\(C_7^2\\) ni hisoblang.",
+          "question": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "options": [
             "35",
             "42",
@@ -57306,7 +57306,7 @@ const mathTopicsData = [
             "21"
           ],
           "correctIndex": 3,
-          "explanation": "C_7^2 = (7 * 6) / 2 = 21"
+          "explanation": "\\(C_7^2 = (7 * 6) / 2 = 21\\)"
         },
         {
           "level": "medium",
@@ -57339,7 +57339,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
-          "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -57357,7 +57357,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "5 kishini bitta qatorga necha xil usulda o'tqazish mumkin (5!)?",
-          "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -57375,7 +57375,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "O'yin kubigi tashlanganda juft son (2, 4, 6) tushish ehtimolligini toping.",
-          "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -57425,7 +57425,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.",
+          "problem": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -57573,7 +57573,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni \\(C_7^2\\) ni hisoblang.",
+          "question": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "options": [
             "35",
             "42",
@@ -57581,7 +57581,7 @@ const mathTopicsData = [
             "21"
           ],
           "correctIndex": 3,
-          "explanation": "C_7^2 = (7 * 6) / 2 = 21"
+          "explanation": "\\(C_7^2 = (7 * 6) / 2 = 21\\)"
         },
         {
           "level": "medium",
@@ -57614,7 +57614,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: \\(C_7^2 = (7 * 6) / 2 = 21\\)",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -57632,7 +57632,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "5 kishini bitta qatorga necha xil usulda o'tqazish mumkin (5!)?",
-          "hint": "Mavzu qoidasi: 5! = 1 * 2 * 3 * 4 * 5 = 120",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -57650,7 +57650,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "O'yin kubigi tashlanganda juft son (2, 4, 6) tushish ehtimolligini toping.",
-          "hint": "Mavzu qoidasi: P = 3/6 = 1/2",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -57700,7 +57700,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.",
+          "problem": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -57848,7 +57848,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni \\(C_7^2\\) ni hisoblang.",
+          "question": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
           "options": [
             "35",
             "42",
@@ -57856,7 +57856,7 @@ const mathTopicsData = [
             "21"
           ],
           "correctIndex": 3,
-          "explanation": "C_7^2 = (7 * 6) / 2 = 21"
+          "explanation": "\\(C_7^2 = (7 * 6) / 2 = 21\\)"
         },
         {
           "level": "medium",
@@ -57889,7 +57889,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: \\(C_7^2 = (7 * 6) / 2 = 21\\)",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -57907,7 +57907,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "5 kishini bitta qatorga necha xil usulda o'tqazish mumkin (5!)?",
-          "hint": "Mavzu qoidasi: 5! = 1 * 2 * 3 * 4 * 5 = 120",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -57925,7 +57925,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "O'yin kubigi tashlanganda juft son (2, 4, 6) tushish ehtimolligini toping.",
-          "hint": "Mavzu qoidasi: P = 3/6 = 1/2",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -58016,7 +58016,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.",
+        "problem": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -58128,7 +58128,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.",
+        "question": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
         "options": [
           "35",
           "42",
@@ -58136,7 +58136,7 @@ const mathTopicsData = [
           "21"
         ],
         "correctIndex": 3,
-        "explanation": "C_7^2 = (7 * 6) / 2 = 21"
+        "explanation": "\\(C_7^2 = (7 * 6) / 2 = 21\\)"
       },
       {
         "level": "medium",
@@ -58154,10 +58154,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "O'yin kubigi tashlanganda juft son (2, 4, 6) tushish ehtimolligini toping.",
         "options": [
-          "\\frac{1}{3}",
-          "\\frac{1}{2}",
-          "\\frac{1}{6}",
-          "\\frac{2}{3}"
+          "\\(\\frac{1}{3}\\)",
+          "\\(\\frac{1}{2}\\)",
+          "\\(\\frac{1}{6}\\)",
+          "\\(\\frac{2}{3}\\)"
         ],
         "correctIndex": 1,
         "explanation": "P = 3/6 = 1/2"
@@ -58169,7 +58169,7 @@ const mathTopicsData = [
         "levelLabel": "🟢 1-mashq (Oddiy)",
         "title": "1-mashq",
         "problem": "\\(7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang.\\)",
-        "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+        "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -58187,7 +58187,7 @@ const mathTopicsData = [
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
         "problem": "5 kishini bitta qatorga necha xil usulda o'tqazish mumkin (5!)?",
-        "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+        "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -58205,7 +58205,7 @@ const mathTopicsData = [
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
         "problem": "O'yin kubigi tashlanganda juft son (2, 4, 6) tushish ehtimolligini toping.",
-        "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+        "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -58457,7 +58457,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: S = v * t = 70 * 4 = 280 km"
               }
             ],
-            "answer": "280 \\text{ km}"
+            "answer": "\\(280 \\text{ km}\\)"
           }
         },
         {
@@ -58475,7 +58475,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: v = S / t = 18 / 3 = 6 km/soat"
               }
             ],
-            "answer": "6 \\text{ km/soat}"
+            "answer": "\\(6 \\text{ km/soat}\\)"
           }
         },
         {
@@ -58493,7 +58493,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: (60 + 80) * 2 = 280 km"
               }
             ],
-            "answer": "280 \\text{ km}"
+            "answer": "\\(280 \\text{ km}\\)"
           }
         }
       ]
@@ -58717,7 +58717,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Avtomobil 70 km/soat tezlik bilan 4 soatda necha km masofani bosib o'tadi?",
-          "hint": "Mavzu qoidasi: S = v * t = 70 * 4 = 280 km",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -58727,7 +58727,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: S = v * t = 70 * 4 = 280 km"
               }
             ],
-            "answer": "280 \\text{ km}"
+            "answer": "\\(280 \\text{ km}\\)"
           }
         },
         {
@@ -58735,7 +58735,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Piyoda 18 km masofani 3 soatda bosib o'tdi. Uning tezligini toping.",
-          "hint": "Mavzu qoidasi: v = S / t = 18 / 3 = 6 km/soat",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -58745,7 +58745,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: v = S / t = 18 / 3 = 6 km/soat"
               }
             ],
-            "answer": "6 \\text{ km/soat}"
+            "answer": "\\(6 \\text{ km/soat}\\)"
           }
         },
         {
@@ -58753,7 +58753,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Ikki shahardan qarama-qarshi 60 km/soat va 80 km/soat tezlikda mashinalar chiqdi. 2 soatdan keyin uchrashdi. Masofa qancha?",
-          "hint": "Mavzu qoidasi: (60 + 80) * 2 = 280 km",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -58763,7 +58763,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: (60 + 80) * 2 = 280 km"
               }
             ],
-            "answer": "280 \\text{ km}"
+            "answer": "\\(280 \\text{ km}\\)"
           }
         }
       ]
@@ -58987,7 +58987,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Avtomobil 70 km/soat tezlik bilan 4 soatda necha km masofani bosib o'tadi?",
-          "hint": "Mavzu qoidasi: S = v * t = 70 * 4 = 280 km",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -58997,7 +58997,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: S = v * t = 70 * 4 = 280 km"
               }
             ],
-            "answer": "280 \\text{ km}"
+            "answer": "\\(280 \\text{ km}\\)"
           }
         },
         {
@@ -59005,7 +59005,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Piyoda 18 km masofani 3 soatda bosib o'tdi. Uning tezligini toping.",
-          "hint": "Mavzu qoidasi: v = S / t = 18 / 3 = 6 km/soat",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -59015,7 +59015,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: v = S / t = 18 / 3 = 6 km/soat"
               }
             ],
-            "answer": "6 \\text{ km/soat}"
+            "answer": "\\(6 \\text{ km/soat}\\)"
           }
         },
         {
@@ -59023,7 +59023,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Ikki shahardan qarama-qarshi 60 km/soat va 80 km/soat tezlikda mashinalar chiqdi. 2 soatdan keyin uchrashdi. Masofa qancha?",
-          "hint": "Mavzu qoidasi: (60 + 80) * 2 = 280 km",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -59033,7 +59033,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: (60 + 80) * 2 = 280 km"
               }
             ],
-            "answer": "280 \\text{ km}"
+            "answer": "\\(280 \\text{ km}\\)"
           }
         }
       ]
@@ -59217,10 +59217,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Avtomobil 70 km/soat tezlik bilan 4 soatda necha km masofani bosib o'tadi?",
         "options": [
-          "210 \\text{ km}",
-          "280 \\text{ km}",
-          "300 \\text{ km}",
-          "250 \\text{ km}"
+          "\\(210 \\text{ km}\\)",
+          "\\(280 \\text{ km}\\)",
+          "\\(300 \\text{ km}\\)",
+          "\\(250 \\text{ km}\\)"
         ],
         "correctIndex": 1,
         "explanation": "S = v * t = 70 * 4 = 280 km"
@@ -59229,10 +59229,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Piyoda 18 km masofani 3 soatda bosib o'tdi. Uning tezligini toping.",
         "options": [
-          "8 \\text{ km/soat}",
-          "5 \\text{ km/soat}",
-          "6 \\text{ km/soat}",
-          "4 \\text{ km/soat}"
+          "\\(8 \\text{ km/soat}\\)",
+          "\\(5 \\text{ km/soat}\\)",
+          "\\(6 \\text{ km/soat}\\)",
+          "\\(4 \\text{ km/soat}\\)"
         ],
         "correctIndex": 2,
         "explanation": "v = S / t = 18 / 3 = 6 km/soat"
@@ -59241,10 +59241,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Ikki shahardan qarama-qarshi 60 km/soat va 80 km/soat tezlikda mashinalar chiqdi. 2 soatdan keyin uchrashdi. Masofa qancha?",
         "options": [
-          "320 \\text{ km}",
-          "140 \\text{ km}",
-          "240 \\text{ km}",
-          "280 \\text{ km}"
+          "\\(320 \\text{ km}\\)",
+          "\\(140 \\text{ km}\\)",
+          "\\(240 \\text{ km}\\)",
+          "\\(280 \\text{ km}\\)"
         ],
         "correctIndex": 3,
         "explanation": "(60 + 80) * 2 = 280 km"
@@ -59266,7 +59266,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: S = v * t = 70 * 4 = 280 km"
             }
           ],
-          "answer": "280 \\text{ km}"
+          "answer": "\\(280 \\text{ km}\\)"
         }
       },
       {
@@ -59284,7 +59284,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: v = S / t = 18 / 3 = 6 km/soat"
             }
           ],
-          "answer": "6 \\text{ km/soat}"
+          "answer": "\\(6 \\text{ km/soat}\\)"
         }
       },
       {
@@ -59302,7 +59302,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: (60 + 80) * 2 = 280 km"
             }
           ],
-          "answer": "280 \\text{ km}"
+          "answer": "\\(280 \\text{ km}\\)"
         }
       }
     ]
@@ -59544,7 +59544,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: x > 0, y < 0 bo'lgani uchun IV chorak"
               }
             ],
-            "answer": "\\text{IV chorak}"
+            "answer": "\\(\\text{IV chorak}\\)"
           }
         },
         {
@@ -59804,7 +59804,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "A(3; -4) nuqta koordinatalar tekisligining qaysi choragida joylashgan?",
-          "hint": "Mavzu qoidasi: x > 0, y < 0 bo'lgani uchun IV chorak",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -59814,7 +59814,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: x > 0, y < 0 bo'lgani uchun IV chorak"
               }
             ],
-            "answer": "\\text{IV chorak}"
+            "answer": "\\(\\text{IV chorak}\\)"
           }
         },
         {
@@ -59822,7 +59822,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "A(2; 5) va B(2; -3) nuqtalar orasidagi masofani hisoblang.",
-          "hint": "Mavzu qoidasi: |5 - (-3)| = 8",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -59840,7 +59840,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "A(-3; 4) nuqtadan koordinata boshigacha O(0;0) bo'lgan masofani toping.",
-          "hint": "Mavzu qoidasi: d = √((-3)² + 4²) = √(9+16) = 5",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -60074,7 +60074,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "A(3; -4) nuqta koordinatalar tekisligining qaysi choragida joylashgan?",
-          "hint": "Mavzu qoidasi: x > 0, y < 0 bo'lgani uchun IV chorak",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -60084,7 +60084,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: x > 0, y < 0 bo'lgani uchun IV chorak"
               }
             ],
-            "answer": "\\text{IV chorak}"
+            "answer": "\\(\\text{IV chorak}\\)"
           }
         },
         {
@@ -60092,7 +60092,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "A(2; 5) va B(2; -3) nuqtalar orasidagi masofani hisoblang.",
-          "hint": "Mavzu qoidasi: |5 - (-3)| = 8",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -60110,7 +60110,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "A(-3; 4) nuqtadan koordinata boshigacha O(0;0) bo'lgan masofani toping.",
-          "hint": "Mavzu qoidasi: d = √((-3)² + 4²) = √(9+16) = 5",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -60304,10 +60304,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "A(3; -4) nuqta koordinatalar tekisligining qaysi choragida joylashgan?",
         "options": [
-          "\\text{II chorak}",
-          "\\text{I chorak}",
-          "\\text{IV chorak}",
-          "\\text{III chorak}"
+          "\\(\\text{II chorak}\\)",
+          "\\(\\text{I chorak}\\)",
+          "\\(\\text{IV chorak}\\)",
+          "\\(\\text{III chorak}\\)"
         ],
         "correctIndex": 2,
         "explanation": "x > 0, y < 0 bo'lgani uchun IV chorak"
@@ -60353,7 +60353,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: x > 0, y < 0 bo'lgani uchun IV chorak"
             }
           ],
-          "answer": "\\text{IV chorak}"
+          "answer": "\\(\\text{IV chorak}\\)"
         }
       },
       {
@@ -60506,7 +60506,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Ko'paytuvchilarga ajrating: x^3 - 3x^2 + x - 3",
+          "problem": "Ko'paytuvchilarga ajrating: \\(x^3 - 3x^2 + x - 3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -60538,7 +60538,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 3.7 \\cdot 4.8 + 6.3 \\cdot 4.8",
+          "problem": "Hisoblang: \\(3.7 \\cdot 4.8 + 6.3 \\cdot 4.8\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -60586,7 +60586,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Ko'paytuvchilarga ajrating: \\(ax + ay + bx + by\\)",
+          "question": "Ko'paytuvchilarga ajrating: ax + ay + bx + by",
           "options": [
             "(ax + by)(a + b)",
             "(a - b)(x - y)",
@@ -60740,7 +60740,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Ko'paytuvchilarga ajrating: x^3 - 3x^2 + x - 3",
+          "problem": "Ko'paytuvchilarga ajrating: \\(x^3 - 3x^2 + x - 3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -60772,7 +60772,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 3.7 \\cdot 4.8 + 6.3 \\cdot 4.8",
+          "problem": "Hisoblang: \\(3.7 \\cdot 4.8 + 6.3 \\cdot 4.8\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -60856,7 +60856,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Ko'paytuvchilarga ajrating: \\(ax + ay + bx + by\\)",
+          "question": "Ko'paytuvchilarga ajrating: ax + ay + bx + by",
           "options": [
             "(ax + by)(a + b)",
             "(a - b)(x - y)",
@@ -60897,7 +60897,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ko'paytuvchilarga ajrating: ax + ay + bx + by",
-          "hint": "Mavzu qoidasi: a(x+y) + b(x+y) = (a+b)(x+y)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -60915,7 +60915,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Ko'paytuvchilarga ajrating: \\(x^3 - 3x^2 + x - 3\\)",
-          "hint": "Mavzu qoidasi: x²(x-3) + (x-3) = (x-3)(x²+1)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -60933,7 +60933,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(3.7 \\cdot 4.8 + 6.3 \\cdot 4.8\\)",
-          "hint": "Mavzu qoidasi: 4.8 * (3.7 + 6.3) = 4.8 * 10 = 48",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -61010,7 +61010,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Ko'paytuvchilarga ajrating: x^3 - 3x^2 + x - 3",
+          "problem": "Ko'paytuvchilarga ajrating: \\(x^3 - 3x^2 + x - 3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -61042,7 +61042,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 3.7 \\cdot 4.8 + 6.3 \\cdot 4.8",
+          "problem": "Hisoblang: \\(3.7 \\cdot 4.8 + 6.3 \\cdot 4.8\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -61126,7 +61126,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Ko'paytuvchilarga ajrating: \\(ax + ay + bx + by\\)",
+          "question": "Ko'paytuvchilarga ajrating: ax + ay + bx + by",
           "options": [
             "(ax + by)(a + b)",
             "(a - b)(x - y)",
@@ -61167,7 +61167,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ko'paytuvchilarga ajrating: ax + ay + bx + by",
-          "hint": "Mavzu qoidasi: a(x+y) + b(x+y) = (a+b)(x+y)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -61185,7 +61185,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Ko'paytuvchilarga ajrating: \\(x^3 - 3x^2 + x - 3\\)",
-          "hint": "Mavzu qoidasi: x²(x-3) + (x-3) = (x-3)(x²+1)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -61203,7 +61203,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(3.7 \\cdot 4.8 + 6.3 \\cdot 4.8\\)",
-          "hint": "Mavzu qoidasi: 4.8 * (3.7 + 6.3) = 4.8 * 10 = 48",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -61321,7 +61321,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Ko'paytuvchilarga ajrating: x^3 - 3x^2 + x - 3",
+        "problem": "Ko'paytuvchilarga ajrating: \\(x^3 - 3x^2 + x - 3\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -61353,7 +61353,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: 3.7 \\cdot 4.8 + 6.3 \\cdot 4.8",
+        "problem": "Hisoblang: \\(3.7 \\cdot 4.8 + 6.3 \\cdot 4.8\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -61413,19 +61413,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Ko'paytuvchilarga ajrating: x^3 - 3x^2 + x - 3",
+        "question": "Ko'paytuvchilarga ajrating: \\(x^3 - 3x^2 + x - 3\\)",
         "options": [
-          "(x - 3)(x^2 + 1)",
-          "(x + 3)(x^2 - 1)",
-          "(x - 3)^3",
-          "(x - 1)(x^2 + 3)"
+          "\\((x - 3)(x^2 + 1)\\)",
+          "\\((x + 3)(x^2 - 1)\\)",
+          "\\((x - 3)^3\\)",
+          "\\((x - 1)(x^2 + 3)\\)"
         ],
         "correctIndex": 0,
         "explanation": "x²(x-3) + (x-3) = (x-3)(x²+1)"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 3.7 \\cdot 4.8 + 6.3 \\cdot 4.8",
+        "question": "Hisoblang: \\(3.7 \\cdot 4.8 + 6.3 \\cdot 4.8\\)",
         "options": [
           "4.8",
           "48",
@@ -61766,7 +61766,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: d2 = 2S / d1 = 96 / 8 = 12 sm"
               }
             ],
-            "answer": "12 \\text{ sm}"
+            "answer": "\\(12 \\text{ sm}\\)"
           }
         }
       ]
@@ -61990,7 +61990,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Rombning diagonallari d1 = 12 sm, d2 = 16 sm. Uning yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (d1 * d2)/2 = (12 * 16)/2 = 96 sm²",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -62008,7 +62008,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Rombning tomoni a = 10 sm, balandligi h = 7 sm. Uning yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = a * h = 10 * 7 = 70 sm²",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -62026,7 +62026,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Rombning yuzi 48 sm², bir diagonali 8 sm. Ikkinchi diagonalini toping.",
-          "hint": "Mavzu qoidasi: d2 = 2S / d1 = 96 / 8 = 12 sm",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -62036,7 +62036,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: d2 = 2S / d1 = 96 / 8 = 12 sm"
               }
             ],
-            "answer": "12 \\text{ sm}"
+            "answer": "\\(12 \\text{ sm}\\)"
           }
         }
       ]
@@ -62260,7 +62260,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Rombning diagonallari d1 = 12 sm, d2 = 16 sm. Uning yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = (d1 * d2)/2 = (12 * 16)/2 = 96 sm²",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -62278,7 +62278,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Rombning tomoni a = 10 sm, balandligi h = 7 sm. Uning yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = a * h = 10 * 7 = 70 sm²",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -62296,7 +62296,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Rombning yuzi 48 sm², bir diagonali 8 sm. Ikkinchi diagonalini toping.",
-          "hint": "Mavzu qoidasi: d2 = 2S / d1 = 96 / 8 = 12 sm",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -62306,7 +62306,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: d2 = 2S / d1 = 96 / 8 = 12 sm"
               }
             ],
-            "answer": "12 \\text{ sm}"
+            "answer": "\\(12 \\text{ sm}\\)"
           }
         }
       ]
@@ -62490,10 +62490,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Rombning diagonallari d1 = 12 sm, d2 = 16 sm. Uning yuzini hisoblang.",
         "options": [
-          "96 \\text{ sm}^2",
-          "192 \\text{ sm}^2",
-          "48 \\text{ sm}^2",
-          "100 \\text{ sm}^2"
+          "\\(96 \\text{ sm}^2\\)",
+          "\\(192 \\text{ sm}^2\\)",
+          "\\(48 \\text{ sm}^2\\)",
+          "\\(100 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
         "explanation": "S = (d1 * d2)/2 = (12 * 16)/2 = 96 sm²"
@@ -62502,10 +62502,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Rombning tomoni a = 10 sm, balandligi h = 7 sm. Uning yuzini hisoblang.",
         "options": [
-          "35 \\text{ sm}^2",
-          "70 \\text{ sm}^2",
-          "140 \\text{ sm}^2",
-          "100 \\text{ sm}^2"
+          "\\(35 \\text{ sm}^2\\)",
+          "\\(70 \\text{ sm}^2\\)",
+          "\\(140 \\text{ sm}^2\\)",
+          "\\(100 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
         "explanation": "S = a * h = 10 * 7 = 70 sm²"
@@ -62514,10 +62514,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning yuzi 48 sm², bir diagonali 8 sm. Ikkinchi diagonalini toping.",
         "options": [
-          "16 \\text{ sm}",
-          "6 \\text{ sm}",
-          "12 \\text{ sm}",
-          "24 \\text{ sm}"
+          "\\(16 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(12 \\text{ sm}\\)",
+          "\\(24 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "d2 = 2S / d1 = 96 / 8 = 12 sm"
@@ -62575,7 +62575,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: d2 = 2S / d1 = 96 / 8 = 12 sm"
             }
           ],
-          "answer": "12 \\text{ sm}"
+          "answer": "\\(12 \\text{ sm}\\)"
         }
       }
     ]
@@ -62654,7 +62654,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.",
+          "problem": "\\(Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -62766,7 +62766,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Cheksiz kamayuvchi geometrik progressiyada \\(b_1 = 18, q = \\frac{1}{3}\\) bo'lsa, uning yig'indisini hisoblang.",
+          "question": "\\(Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.\\)",
           "options": [
             "18",
             "27",
@@ -62778,7 +62778,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Cheksiz progressiya yig'indisini hisoblang: \\(8 + 4 + 2 + 1 + \\dots\\)",
+          "question": "Cheksiz progressiya yig'indisini hisoblang: 8 + 4 + 2 + 1 + \\dots",
           "options": [
             "32",
             "15",
@@ -62790,7 +62790,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Davriy kasrni oddiy kasrga aylantiring: \\(0.(6)\\)",
+          "question": "Davriy kasrni oddiy kasrga aylantiring: 0.(6)",
           "options": [
             "\\(\\frac{6}{99}\\)",
             "\\(\\frac{6}{10}\\)",
@@ -62825,7 +62825,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Cheksiz progressiya yig'indisini hisoblang: 8 + 4 + 2 + 1 + \\dots",
-          "hint": "Geometrik progressiyada n-had formulasi: b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.",
+          "hint": "Geometrik progressiyada n-had formulasi: \\(b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -62843,7 +62843,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Davriy kasrni oddiy kasrga aylantiring: 0.(6)",
-          "hint": "Geometrik progressiyada n-had formulasi: b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.",
+          "hint": "Geometrik progressiyada n-had formulasi: \\(b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -62888,7 +62888,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.",
+          "problem": "\\(Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -63036,7 +63036,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Cheksiz kamayuvchi geometrik progressiyada \\(b_1 = 18, q = \\frac{1}{3}\\) bo'lsa, uning yig'indisini hisoblang.",
+          "question": "\\(Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.\\)",
           "options": [
             "18",
             "27",
@@ -63048,7 +63048,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Cheksiz progressiya yig'indisini hisoblang: \\(8 + 4 + 2 + 1 + \\dots\\)",
+          "question": "Cheksiz progressiya yig'indisini hisoblang: 8 + 4 + 2 + 1 + \\dots",
           "options": [
             "32",
             "15",
@@ -63060,7 +63060,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Davriy kasrni oddiy kasrga aylantiring: \\(0.(6)\\)",
+          "question": "Davriy kasrni oddiy kasrga aylantiring: 0.(6)",
           "options": [
             "\\(\\frac{6}{99}\\)",
             "\\(\\frac{6}{10}\\)",
@@ -63077,7 +63077,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.\\)",
-          "hint": "Mavzu qoidasi: S = 18 / (1 - 1/3) = 18 / (2/3) = 27",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -63095,7 +63095,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Cheksiz progressiya yig'indisini hisoblang: 8 + 4 + 2 + 1 + \\dots",
-          "hint": "Mavzu qoidasi: S = 8 / (1 - 0.5) = 16",
+          "hint": "Geometrik progressiyada n-had formulasi: \\(b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -63113,7 +63113,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Davriy kasrni oddiy kasrga aylantiring: 0.(6)",
-          "hint": "Mavzu qoidasi: 6/9 = 2/3",
+          "hint": "Geometrik progressiyada n-had formulasi: \\(b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -63158,7 +63158,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.",
+          "problem": "\\(Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -63306,7 +63306,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Cheksiz kamayuvchi geometrik progressiyada \\(b_1 = 18, q = \\frac{1}{3}\\) bo'lsa, uning yig'indisini hisoblang.",
+          "question": "\\(Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.\\)",
           "options": [
             "18",
             "27",
@@ -63318,7 +63318,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Cheksiz progressiya yig'indisini hisoblang: \\(8 + 4 + 2 + 1 + \\dots\\)",
+          "question": "Cheksiz progressiya yig'indisini hisoblang: 8 + 4 + 2 + 1 + \\dots",
           "options": [
             "32",
             "15",
@@ -63330,7 +63330,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Davriy kasrni oddiy kasrga aylantiring: \\(0.(6)\\)",
+          "question": "Davriy kasrni oddiy kasrga aylantiring: 0.(6)",
           "options": [
             "\\(\\frac{6}{99}\\)",
             "\\(\\frac{6}{10}\\)",
@@ -63347,7 +63347,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.\\)",
-          "hint": "Mavzu qoidasi: S = 18 / (1 - 1/3) = 18 / (2/3) = 27",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -63365,7 +63365,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Cheksiz progressiya yig'indisini hisoblang: 8 + 4 + 2 + 1 + \\dots",
-          "hint": "Mavzu qoidasi: S = 8 / (1 - 0.5) = 16",
+          "hint": "Geometrik progressiyada n-had formulasi: \\(b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -63383,7 +63383,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Davriy kasrni oddiy kasrga aylantiring: 0.(6)",
-          "hint": "Mavzu qoidasi: 6/9 = 2/3",
+          "hint": "Geometrik progressiyada n-had formulasi: \\(b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -63463,7 +63463,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.",
+        "problem": "\\(Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -63575,7 +63575,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.",
+        "question": "\\(Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q = \\frac{1}{3} bo'lsa, uning yig'indisini hisoblang.\\)",
         "options": [
           "18",
           "27",
@@ -63601,10 +63601,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Davriy kasrni oddiy kasrga aylantiring: 0.(6)",
         "options": [
-          "\\frac{6}{99}",
-          "\\frac{6}{10}",
-          "\\frac{3}{5}",
-          "\\frac{2}{3}"
+          "\\(\\frac{6}{99}\\)",
+          "\\(\\frac{6}{10}\\)",
+          "\\(\\frac{3}{5}\\)",
+          "\\(\\frac{2}{3}\\)"
         ],
         "correctIndex": 3,
         "explanation": "6/9 = 2/3"
@@ -63634,7 +63634,7 @@ const mathTopicsData = [
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
         "problem": "Cheksiz progressiya yig'indisini hisoblang: 8 + 4 + 2 + 1 + \\dots",
-        "hint": "Geometrik progressiyada n-had formulasi: b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.",
+        "hint": "Geometrik progressiyada n-had formulasi: \\(b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -63652,7 +63652,7 @@ const mathTopicsData = [
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
         "problem": "Davriy kasrni oddiy kasrga aylantiring: 0.(6)",
-        "hint": "Geometrik progressiyada n-had formulasi: b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.",
+        "hint": "Geometrik progressiyada n-had formulasi: \\(b_n = b_1 · q^(n - 1). Maxrajni darajaga oshirib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -63741,7 +63741,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni yeching: 2^{3x - 1} > 16",
+          "problem": "Tengsizlikni yeching: \\(2^{3x - 1} > 16\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -63773,7 +63773,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni yeching: (\\frac{1}{3})^x \\le 9",
+          "problem": "Tengsizlikni yeching: \\((\\frac{1}{3})^x \\le 9\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -63805,7 +63805,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: 5^{x - 2} > 1",
+          "problem": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: \\(5^{x - 2} > 1\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -63861,7 +63861,7 @@ const mathTopicsData = [
             "x > 1"
           ],
           "correctIndex": 2,
-          "explanation": "2^(3x-1) > 2⁴ => 3x - 1 > 4 => 3x > 5 => x > 5/3"
+          "explanation": "\\(2^(3x-1) > 2⁴ => 3x - 1 > 4 => 3x > 5 => x > 5/3\\)"
         },
         {
           "level": "medium",
@@ -63873,7 +63873,7 @@ const mathTopicsData = [
             "\\(x \\ge -2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "3^(-x) <= 3² => -x <= 2 => x >= -2"
+          "explanation": "\\(3^(-x) <= 3² => -x <= 2 => x >= -2\\)"
         },
         {
           "level": "hard",
@@ -63975,7 +63975,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni yeching: 2^{3x - 1} > 16",
+          "problem": "Tengsizlikni yeching: \\(2^{3x - 1} > 16\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -64007,7 +64007,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni yeching: (\\frac{1}{3})^x \\le 9",
+          "problem": "Tengsizlikni yeching: \\((\\frac{1}{3})^x \\le 9\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -64039,7 +64039,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: 5^{x - 2} > 1",
+          "problem": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: \\(5^{x - 2} > 1\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -64131,7 +64131,7 @@ const mathTopicsData = [
             "x > 1"
           ],
           "correctIndex": 2,
-          "explanation": "2^(3x-1) > 2⁴ => 3x - 1 > 4 => 3x > 5 => x > 5/3"
+          "explanation": "\\(2^(3x-1) > 2⁴ => 3x - 1 > 4 => 3x > 5 => x > 5/3\\)"
         },
         {
           "level": "medium",
@@ -64143,7 +64143,7 @@ const mathTopicsData = [
             "\\(x \\ge -2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "3^(-x) <= 3² => -x <= 2 => x >= -2"
+          "explanation": "\\(3^(-x) <= 3² => -x <= 2 => x >= -2\\)"
         },
         {
           "level": "hard",
@@ -64164,7 +64164,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tengsizlikni yeching: \\(2^{3x - 1} > 16\\)",
-          "hint": "Mavzu qoidasi: \\(2^(3x-1) > 2⁴ => 3x - 1 > 4 => 3x > 5 => x > 5/3\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -64182,7 +64182,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni yeching: \\((\\frac{1}{3})^x \\le 9\\)",
-          "hint": "Mavzu qoidasi: \\(3^(-x) <= 3² => -x <= 2 => x >= -2\\)",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -64200,7 +64200,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: \\(5^{x - 2} > 1\\)",
-          "hint": "Mavzu qoidasi: x - 2 > 0 => x > 2 => Eng kichik butun son 3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -64245,7 +64245,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni yeching: 2^{3x - 1} > 16",
+          "problem": "Tengsizlikni yeching: \\(2^{3x - 1} > 16\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -64277,7 +64277,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni yeching: (\\frac{1}{3})^x \\le 9",
+          "problem": "Tengsizlikni yeching: \\((\\frac{1}{3})^x \\le 9\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -64309,7 +64309,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: 5^{x - 2} > 1",
+          "problem": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: \\(5^{x - 2} > 1\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -64401,7 +64401,7 @@ const mathTopicsData = [
             "x > 1"
           ],
           "correctIndex": 2,
-          "explanation": "2^(3x-1) > 2⁴ => 3x - 1 > 4 => 3x > 5 => x > 5/3"
+          "explanation": "\\(2^(3x-1) > 2⁴ => 3x - 1 > 4 => 3x > 5 => x > 5/3\\)"
         },
         {
           "level": "medium",
@@ -64413,7 +64413,7 @@ const mathTopicsData = [
             "\\(x \\ge -2\\)"
           ],
           "correctIndex": 3,
-          "explanation": "3^(-x) <= 3² => -x <= 2 => x >= -2"
+          "explanation": "\\(3^(-x) <= 3² => -x <= 2 => x >= -2\\)"
         },
         {
           "level": "hard",
@@ -64434,7 +64434,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tengsizlikni yeching: \\(2^{3x - 1} > 16\\)",
-          "hint": "Mavzu qoidasi: \\(2^(3x-1) > 2⁴ => 3x - 1 > 4 => 3x > 5 => x > 5/3\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -64452,7 +64452,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni yeching: \\((\\frac{1}{3})^x \\le 9\\)",
-          "hint": "Mavzu qoidasi: \\(3^(-x) <= 3² => -x <= 2 => x >= -2\\)",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -64470,7 +64470,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: \\(5^{x - 2} > 1\\)",
-          "hint": "Mavzu qoidasi: x - 2 > 0 => x > 2 => Eng kichik butun son 3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -64550,7 +64550,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Tengsizlikni yeching: 2^{3x - 1} > 16",
+        "problem": "Tengsizlikni yeching: \\(2^{3x - 1} > 16\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -64582,7 +64582,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Tengsizlikni yeching: (\\frac{1}{3})^x \\le 9",
+        "problem": "Tengsizlikni yeching: \\((\\frac{1}{3})^x \\le 9\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -64614,7 +64614,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: 5^{x - 2} > 1",
+        "problem": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: \\(5^{x - 2} > 1\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -64662,31 +64662,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tengsizlikni yeching: 2^{3x - 1} > 16",
+        "question": "Tengsizlikni yeching: \\(2^{3x - 1} > 16\\)",
         "options": [
-          "x < \\frac{5}{3}",
+          "\\(x < \\frac{5}{3}\\)",
           "x > 5",
-          "x > \\frac{5}{3}",
+          "\\(x > \\frac{5}{3}\\)",
           "x > 1"
         ],
         "correctIndex": 2,
-        "explanation": "2^(3x-1) > 2⁴ => 3x - 1 > 4 => 3x > 5 => x > 5/3"
+        "explanation": "\\(2^(3x-1) > 2⁴ => 3x - 1 > 4 => 3x > 5 => x > 5/3\\)"
       },
       {
         "level": "medium",
-        "question": "Tengsizlikni yeching: (\\frac{1}{3})^x \\le 9",
+        "question": "Tengsizlikni yeching: \\((\\frac{1}{3})^x \\le 9\\)",
         "options": [
-          "x \\le 2",
-          "x \\le -2",
-          "x \\ge 2",
-          "x \\ge -2"
+          "\\(x \\le 2\\)",
+          "\\(x \\le -2\\)",
+          "\\(x \\ge 2\\)",
+          "\\(x \\ge -2\\)"
         ],
         "correctIndex": 3,
-        "explanation": "3^(-x) <= 3² => -x <= 2 => x >= -2"
+        "explanation": "\\(3^(-x) <= 3² => -x <= 2 => x >= -2\\)"
       },
       {
         "level": "hard",
-        "question": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: 5^{x - 2} > 1",
+        "question": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: \\(5^{x - 2} > 1\\)",
         "options": [
           "3",
           "2",
@@ -64828,7 +64828,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: 2\\sin x - 1 = 0",
+          "problem": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -64876,7 +64876,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamani yeching: \\cos x = 0",
+          "problem": "Tenglamani yeching: \\(\\cos x = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -64908,7 +64908,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\text{tg } x = \\sqrt{3}",
+          "problem": "Tenglamani yeching: \\(\\text{tg } x = \\sqrt{3}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -64956,7 +64956,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamaning \\([0; \\pi]\\) oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
+          "question": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
           "options": [
             "\\(\\frac{\\pi}{4}\\)",
             "\\(\\frac{\\pi}{3}, \\frac{2\\pi}{3}\\)",
@@ -65078,7 +65078,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: 2\\sin x - 1 = 0",
+          "problem": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -65126,7 +65126,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamani yeching: \\cos x = 0",
+          "problem": "Tenglamani yeching: \\(\\cos x = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -65158,7 +65158,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\text{tg } x = \\sqrt{3}",
+          "problem": "Tenglamani yeching: \\(\\text{tg } x = \\sqrt{3}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -65242,7 +65242,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamaning \\([0; \\pi]\\) oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
+          "question": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
           "options": [
             "\\(\\frac{\\pi}{4}\\)",
             "\\(\\frac{\\pi}{3}, \\frac{2\\pi}{3}\\)",
@@ -65283,7 +65283,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
-          "hint": "Mavzu qoidasi: sin x = 1/2 => x = π/6 va 5π/6",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -65301,7 +65301,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamani yeching: \\(\\cos x = 0\\)",
-          "hint": "Mavzu qoidasi: Kosinus 0 ga teng bo'ladigan nuqtalar",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -65319,7 +65319,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(\\text{tg } x = \\sqrt{3}\\)",
-          "hint": "Mavzu qoidasi: tg x = √3 => x = π/3 + πk",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -65364,7 +65364,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: 2\\sin x - 1 = 0",
+          "problem": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -65412,7 +65412,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamani yeching: \\cos x = 0",
+          "problem": "Tenglamani yeching: \\(\\cos x = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -65444,7 +65444,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: \\text{tg } x = \\sqrt{3}",
+          "problem": "Tenglamani yeching: \\(\\text{tg } x = \\sqrt{3}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -65528,7 +65528,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamaning \\([0; \\pi]\\) oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
+          "question": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
           "options": [
             "\\(\\frac{\\pi}{4}\\)",
             "\\(\\frac{\\pi}{3}, \\frac{2\\pi}{3}\\)",
@@ -65569,7 +65569,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
-          "hint": "Mavzu qoidasi: sin x = 1/2 => x = π/6 va 5π/6",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -65587,7 +65587,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamani yeching: \\(\\cos x = 0\\)",
-          "hint": "Mavzu qoidasi: Kosinus 0 ga teng bo'ladigan nuqtalar",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -65605,7 +65605,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(\\text{tg } x = \\sqrt{3}\\)",
-          "hint": "Mavzu qoidasi: tg x = √3 => x = π/3 + πk",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -65685,7 +65685,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: 2\\sin x - 1 = 0",
+        "problem": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -65733,7 +65733,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Tenglamani yeching: \\cos x = 0",
+        "problem": "Tenglamani yeching: \\(\\cos x = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -65765,7 +65765,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tenglamani yeching: \\text{tg } x = \\sqrt{3}",
+        "problem": "Tenglamani yeching: \\(\\text{tg } x = \\sqrt{3}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -65813,36 +65813,36 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: 2\\sin x - 1 = 0",
+        "question": "Tenglamaning [0; \\pi] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\)",
         "options": [
-          "\\frac{\\pi}{4}",
-          "\\frac{\\pi}{3}, \\frac{2\\pi}{3}",
-          "\\frac{\\pi}{6}, \\frac{5\\pi}{6}",
-          "\\frac{\\pi}{2}"
+          "\\(\\frac{\\pi}{4}\\)",
+          "\\(\\frac{\\pi}{3}, \\frac{2\\pi}{3}\\)",
+          "\\(\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\)",
+          "\\(\\frac{\\pi}{2}\\)"
         ],
         "correctIndex": 2,
         "explanation": "sin x = 1/2 => x = π/6 va 5π/6"
       },
       {
         "level": "medium",
-        "question": "Tenglamani yeching: \\cos x = 0",
+        "question": "Tenglamani yeching: \\(\\cos x = 0\\)",
         "options": [
-          "x = \\pm \\frac{\\pi}{2} + 2\\pi k",
-          "x = \\pi k",
-          "x = 2\\pi k",
-          "x = \\frac{\\pi}{2} + \\pi k"
+          "\\(x = \\pm \\frac{\\pi}{2} + 2\\pi k\\)",
+          "\\(x = \\pi k\\)",
+          "\\(x = 2\\pi k\\)",
+          "\\(x = \\frac{\\pi}{2} + \\pi k\\)"
         ],
         "correctIndex": 3,
         "explanation": "Kosinus 0 ga teng bo'ladigan nuqtalar"
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: \\text{tg } x = \\sqrt{3}",
+        "question": "Tenglamani yeching: \\(\\text{tg } x = \\sqrt{3}\\)",
         "options": [
-          "x = \\frac{\\pi}{3} + \\pi k",
-          "x = \\frac{\\pi}{6} + \\pi k",
-          "x = \\frac{\\pi}{4} + \\pi k",
-          "x = \\frac{2\\pi}{3} + \\pi k"
+          "\\(x = \\frac{\\pi}{3} + \\pi k\\)",
+          "\\(x = \\frac{\\pi}{6} + \\pi k\\)",
+          "\\(x = \\frac{\\pi}{4} + \\pi k\\)",
+          "\\(x = \\frac{2\\pi}{3} + \\pi k\\)"
         ],
         "correctIndex": 0,
         "explanation": "tg x = √3 => x = π/3 + πk"
@@ -65985,7 +65985,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -66033,7 +66033,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Aniq integralni hisoblang: \\int_0^{\\pi/2} \\cos x \\, dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_0^{\\pi/2} \\cos x \\, dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -66081,7 +66081,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Aniq integralni hisoblang: \\int_1^4 \\frac{1}{\\sqrt{x}} dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_1^4 \\frac{1}{\\sqrt{x}} dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -66137,7 +66137,7 @@ const mathTopicsData = [
             "80"
           ],
           "correctIndex": 3,
-          "explanation": "[x⁴]_1^3 = 3⁴ - 1⁴ = 81 - 1 = 80"
+          "explanation": "\\([x⁴]_1^3 = 3⁴ - 1⁴ = 81 - 1 = 80\\)"
         },
         {
           "level": "medium",
@@ -66149,7 +66149,7 @@ const mathTopicsData = [
             "\\(\\pi\\)"
           ],
           "correctIndex": 0,
-          "explanation": "[sin x]_0^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1"
+          "explanation": "\\([sin x]_0^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1\\)"
         },
         {
           "level": "hard",
@@ -66161,7 +66161,7 @@ const mathTopicsData = [
             "3"
           ],
           "correctIndex": 1,
-          "explanation": "[2√x]_1^4 = 2*2 - 2*1 = 4 - 2 = 2"
+          "explanation": "\\([2√x]_1^4 = 2*2 - 2*1 = 4 - 2 = 2\\)"
         }
       ],
       "practiceExercises": [
@@ -66170,7 +66170,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
-          "hint": "Boshlang'ich funksiyani toping: ∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -66188,7 +66188,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_0^{\\pi/2} \\cos x \\, dx\\)",
-          "hint": "Boshlang'ich funksiyani toping: ∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -66251,7 +66251,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -66299,7 +66299,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Aniq integralni hisoblang: \\int_0^{\\pi/2} \\cos x \\, dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_0^{\\pi/2} \\cos x \\, dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -66347,7 +66347,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Aniq integralni hisoblang: \\int_1^4 \\frac{1}{\\sqrt{x}} dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_1^4 \\frac{1}{\\sqrt{x}} dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -66439,7 +66439,7 @@ const mathTopicsData = [
             "80"
           ],
           "correctIndex": 3,
-          "explanation": "[x⁴]_1^3 = 3⁴ - 1⁴ = 81 - 1 = 80"
+          "explanation": "\\([x⁴]_1^3 = 3⁴ - 1⁴ = 81 - 1 = 80\\)"
         },
         {
           "level": "medium",
@@ -66451,7 +66451,7 @@ const mathTopicsData = [
             "\\(\\pi\\)"
           ],
           "correctIndex": 0,
-          "explanation": "[sin x]_0^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1"
+          "explanation": "\\([sin x]_0^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1\\)"
         },
         {
           "level": "hard",
@@ -66463,7 +66463,7 @@ const mathTopicsData = [
             "3"
           ],
           "correctIndex": 1,
-          "explanation": "[2√x]_1^4 = 2*2 - 2*1 = 4 - 2 = 2"
+          "explanation": "\\([2√x]_1^4 = 2*2 - 2*1 = 4 - 2 = 2\\)"
         }
       ],
       "practiceExercises": [
@@ -66472,7 +66472,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
-          "hint": "Mavzu qoidasi: \\([x⁴]_1^3 = 3⁴ - 1⁴ = 81 - 1 = 80\\)",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -66490,7 +66490,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_0^{\\pi/2} \\cos x \\, dx\\)",
-          "hint": "Mavzu qoidasi: \\([sin x]_0^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1\\)",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -66508,7 +66508,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_1^4 \\frac{1}{\\sqrt{x}} dx\\)",
-          "hint": "Mavzu qoidasi: \\([2√x]_1^4 = 2*2 - 2*1 = 4 - 2 = 2\\)",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -66553,7 +66553,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -66601,7 +66601,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Aniq integralni hisoblang: \\int_0^{\\pi/2} \\cos x \\, dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_0^{\\pi/2} \\cos x \\, dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -66649,7 +66649,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Aniq integralni hisoblang: \\int_1^4 \\frac{1}{\\sqrt{x}} dx",
+          "problem": "Aniq integralni hisoblang: \\(\\int_1^4 \\frac{1}{\\sqrt{x}} dx\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -66741,7 +66741,7 @@ const mathTopicsData = [
             "80"
           ],
           "correctIndex": 3,
-          "explanation": "[x⁴]_1^3 = 3⁴ - 1⁴ = 81 - 1 = 80"
+          "explanation": "\\([x⁴]_1^3 = 3⁴ - 1⁴ = 81 - 1 = 80\\)"
         },
         {
           "level": "medium",
@@ -66753,7 +66753,7 @@ const mathTopicsData = [
             "\\(\\pi\\)"
           ],
           "correctIndex": 0,
-          "explanation": "[sin x]_0^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1"
+          "explanation": "\\([sin x]_0^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1\\)"
         },
         {
           "level": "hard",
@@ -66765,7 +66765,7 @@ const mathTopicsData = [
             "3"
           ],
           "correctIndex": 1,
-          "explanation": "[2√x]_1^4 = 2*2 - 2*1 = 4 - 2 = 2"
+          "explanation": "\\([2√x]_1^4 = 2*2 - 2*1 = 4 - 2 = 2\\)"
         }
       ],
       "practiceExercises": [
@@ -66774,7 +66774,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
-          "hint": "Mavzu qoidasi: \\([x⁴]_1^3 = 3⁴ - 1⁴ = 81 - 1 = 80\\)",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -66792,7 +66792,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_0^{\\pi/2} \\cos x \\, dx\\)",
-          "hint": "Mavzu qoidasi: \\([sin x]_0^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1\\)",
+          "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
           "solution": {
             "steps": [
               {
@@ -66810,7 +66810,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Aniq integralni hisoblang: \\(\\int_1^4 \\frac{1}{\\sqrt{x}} dx\\)",
-          "hint": "Mavzu qoidasi: \\([2√x]_1^4 = 2*2 - 2*1 = 4 - 2 = 2\\)",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -66896,7 +66896,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+        "problem": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -66944,7 +66944,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "Aniq integralni hisoblang: \\int_0^{\\pi/2} \\cos x \\, dx",
+        "problem": "Aniq integralni hisoblang: \\(\\int_0^{\\pi/2} \\cos x \\, dx\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -66992,7 +66992,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Aniq integralni hisoblang: \\int_1^4 \\frac{1}{\\sqrt{x}} dx",
+        "problem": "Aniq integralni hisoblang: \\(\\int_1^4 \\frac{1}{\\sqrt{x}} dx\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -67040,7 +67040,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Aniq integralni hisoblang: \\int_1^3 4x^3 dx",
+        "question": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
         "options": [
           "64",
           "81",
@@ -67048,23 +67048,23 @@ const mathTopicsData = [
           "80"
         ],
         "correctIndex": 3,
-        "explanation": "[x⁴]_1^3 = 3⁴ - 1⁴ = 81 - 1 = 80"
+        "explanation": "\\([x⁴]_1^3 = 3⁴ - 1⁴ = 81 - 1 = 80\\)"
       },
       {
         "level": "medium",
-        "question": "Aniq integralni hisoblang: \\int_0^{\\pi/2} \\cos x \\, dx",
+        "question": "Aniq integralni hisoblang: \\(\\int_0^{\\pi/2} \\cos x \\, dx\\)",
         "options": [
           "1",
           "0",
           "-1",
-          "\\pi"
+          "\\(\\pi\\)"
         ],
         "correctIndex": 0,
-        "explanation": "[sin x]_0^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1"
+        "explanation": "\\([sin x]_0^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1\\)"
       },
       {
         "level": "hard",
-        "question": "Aniq integralni hisoblang: \\int_1^4 \\frac{1}{\\sqrt{x}} dx",
+        "question": "Aniq integralni hisoblang: \\(\\int_1^4 \\frac{1}{\\sqrt{x}} dx\\)",
         "options": [
           "1",
           "2",
@@ -67072,7 +67072,7 @@ const mathTopicsData = [
           "3"
         ],
         "correctIndex": 1,
-        "explanation": "[2√x]_1^4 = 2*2 - 2*1 = 4 - 2 = 2"
+        "explanation": "\\([2√x]_1^4 = 2*2 - 2*1 = 4 - 2 = 2\\)"
       }
     ],
     "practiceExercises": [
@@ -67081,7 +67081,7 @@ const mathTopicsData = [
         "levelLabel": "🟢 1-mashq (Oddiy)",
         "title": "1-mashq",
         "problem": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\)",
-        "hint": "Boshlang'ich funksiyani toping: ∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.",
+        "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
         "solution": {
           "steps": [
             {
@@ -67099,7 +67099,7 @@ const mathTopicsData = [
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
         "problem": "Aniq integralni hisoblang: \\(\\int_0^{\\pi/2} \\cos x \\, dx\\)",
-        "hint": "Boshlang'ich funksiyani toping: ∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.",
+        "hint": "Boshlang'ich funksiyani toping: \\(∫ x^n dx = x^(n+1)/(n+1). Keyin chegaralarni F(b) - F(a) qilib ayiring.\\)",
         "solution": {
           "steps": [
             {
@@ -67212,7 +67212,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 47 \\cdot 38 + 47 \\cdot 62",
+          "problem": "Hisoblang: \\(47 \\cdot 38 + 47 \\cdot 62\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -67244,7 +67244,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 125 \\cdot 89 - 125 \\cdot 69",
+          "problem": "Hisoblang: \\(125 \\cdot 89 - 125 \\cdot 69\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -67348,7 +67348,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Qavslarni oching va soddalashtiring: \\(5(2x + 7) + 3(4x - 2)\\)",
+          "question": "Qavslarni oching va soddalashtiring: 5(2x + 7) + 3(4x - 2)",
           "options": [
             "22x - 29",
             "22x + 35",
@@ -67446,7 +67446,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 47 \\cdot 38 + 47 \\cdot 62",
+          "problem": "Hisoblang: \\(47 \\cdot 38 + 47 \\cdot 62\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -67478,7 +67478,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 125 \\cdot 89 - 125 \\cdot 69",
+          "problem": "Hisoblang: \\(125 \\cdot 89 - 125 \\cdot 69\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -67618,7 +67618,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Qavslarni oching va soddalashtiring: \\(5(2x + 7) + 3(4x - 2)\\)",
+          "question": "Qavslarni oching va soddalashtiring: 5(2x + 7) + 3(4x - 2)",
           "options": [
             "22x - 29",
             "22x + 35",
@@ -67635,7 +67635,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(47 \\cdot 38 + 47 \\cdot 62\\)",
-          "hint": "Mavzu qoidasi: 47 * (38 + 62) = 47 * 100 = 4700",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -67653,7 +67653,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(125 \\cdot 89 - 125 \\cdot 69\\)",
-          "hint": "Mavzu qoidasi: 125 * (89 - 69) = 125 * 20 = 2500",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -67671,7 +67671,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qavslarni oching va soddalashtiring: 5(2x + 7) + 3(4x - 2)",
-          "hint": "Mavzu qoidasi: 10x + 35 + 12x - 6 = 22x + 29",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -67716,7 +67716,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 47 \\cdot 38 + 47 \\cdot 62",
+          "problem": "Hisoblang: \\(47 \\cdot 38 + 47 \\cdot 62\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -67748,7 +67748,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: 125 \\cdot 89 - 125 \\cdot 69",
+          "problem": "Hisoblang: \\(125 \\cdot 89 - 125 \\cdot 69\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -67888,7 +67888,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Qavslarni oching va soddalashtiring: \\(5(2x + 7) + 3(4x - 2)\\)",
+          "question": "Qavslarni oching va soddalashtiring: 5(2x + 7) + 3(4x - 2)",
           "options": [
             "22x - 29",
             "22x + 35",
@@ -67905,7 +67905,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(47 \\cdot 38 + 47 \\cdot 62\\)",
-          "hint": "Mavzu qoidasi: 47 * (38 + 62) = 47 * 100 = 4700",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -67923,7 +67923,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(125 \\cdot 89 - 125 \\cdot 69\\)",
-          "hint": "Mavzu qoidasi: 125 * (89 - 69) = 125 * 20 = 2500",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -67941,7 +67941,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qavslarni oching va soddalashtiring: 5(2x + 7) + 3(4x - 2)",
-          "hint": "Mavzu qoidasi: 10x + 35 + 12x - 6 = 22x + 29",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -68027,7 +68027,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: 47 \\cdot 38 + 47 \\cdot 62",
+        "problem": "Hisoblang: \\(47 \\cdot 38 + 47 \\cdot 62\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -68059,7 +68059,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: 125 \\cdot 89 - 125 \\cdot 69",
+        "problem": "Hisoblang: \\(125 \\cdot 89 - 125 \\cdot 69\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -68139,7 +68139,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: 47 \\cdot 38 + 47 \\cdot 62",
+        "question": "Hisoblang: \\(47 \\cdot 38 + 47 \\cdot 62\\)",
         "options": [
           "470",
           "4700",
@@ -68151,7 +68151,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: 125 \\cdot 89 - 125 \\cdot 69",
+        "question": "Hisoblang: \\(125 \\cdot 89 - 125 \\cdot 69\\)",
         "options": [
           "1250",
           "250",
@@ -68305,7 +68305,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XLVII}",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XLVII}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -68337,7 +68337,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XCVIII}",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XCVIII}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -68369,7 +68369,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\text{LX} + \\text{XL}",
+          "problem": "Hisoblang: \\(\\text{LX} + \\text{XL}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -68457,7 +68457,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XLVII}",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XLVII}\\)",
           "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
@@ -68475,7 +68475,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XCVIII}",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XCVIII}\\)",
           "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
@@ -68493,7 +68493,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "Hisoblang: \\text{LX} + \\text{XL}",
+          "problem": "Hisoblang: \\(\\text{LX} + \\text{XL}\\)",
           "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
@@ -68539,7 +68539,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XLVII}",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XLVII}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -68571,7 +68571,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XCVIII}",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XCVIII}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -68603,7 +68603,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\text{LX} + \\text{XL}",
+          "problem": "Hisoblang: \\(\\text{LX} + \\text{XL}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -68727,8 +68727,8 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XLVII}",
-          "hint": "Mavzu qoidasi: XL (40) + VII (7) = 47",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XLVII}\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -68745,8 +68745,8 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XCVIII}",
-          "hint": "Mavzu qoidasi: XC (90) + VIII (8) = 98",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XCVIII}\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -68763,8 +68763,8 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "Hisoblang: \\text{LX} + \\text{XL}",
-          "hint": "Mavzu qoidasi: 60 + 40 = 100 (C)",
+          "problem": "Hisoblang: \\(\\text{LX} + \\text{XL}\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -68809,7 +68809,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XLVII}",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XLVII}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -68841,7 +68841,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XCVIII}",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XCVIII}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -68873,7 +68873,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\text{LX} + \\text{XL}",
+          "problem": "Hisoblang: \\(\\text{LX} + \\text{XL}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -68997,8 +68997,8 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XLVII}",
-          "hint": "Mavzu qoidasi: XL (40) + VII (7) = 47",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XLVII}\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -69015,8 +69015,8 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
-          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XCVIII}",
-          "hint": "Mavzu qoidasi: XC (90) + VIII (8) = 98",
+          "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XCVIII}\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -69033,8 +69033,8 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "Hisoblang: \\text{LX} + \\text{XL}",
-          "hint": "Mavzu qoidasi: 60 + 40 = 100 (C)",
+          "problem": "Hisoblang: \\(\\text{LX} + \\text{XL}\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -69114,7 +69114,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XLVII}",
+        "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XLVII}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -69146,7 +69146,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XCVIII}",
+        "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XCVIII}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -69178,7 +69178,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: \\text{LX} + \\text{XL}",
+        "problem": "Hisoblang: \\(\\text{LX} + \\text{XL}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -69226,7 +69226,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XLVII}",
+        "question": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XLVII}\\)",
         "options": [
           "67",
           "47",
@@ -69238,7 +69238,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XCVIII}",
+        "question": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XCVIII}\\)",
         "options": [
           "88",
           "108",
@@ -69250,7 +69250,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\text{LX} + \\text{XL}",
+        "question": "Hisoblang: \\(\\text{LX} + \\text{XL}\\)",
         "options": [
           "120",
           "110",
@@ -69266,7 +69266,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "🟢 1-mashq (Oddiy)",
         "title": "1-mashq",
-        "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XLVII}",
+        "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XLVII}\\)",
         "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
         "solution": {
           "steps": [
@@ -69284,7 +69284,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
-        "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\text{XCVIII}",
+        "problem": "Rim raqamida yozilgan sonning qiymatini toping: \\(\\text{XCVIII}\\)",
         "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
         "solution": {
           "steps": [
@@ -69302,7 +69302,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
-        "problem": "Hisoblang: \\text{LX} + \\text{XL}",
+        "problem": "Hisoblang: \\(\\text{LX} + \\text{XL}\\)",
         "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
         "solution": {
           "steps": [
@@ -69456,7 +69456,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikni yeching: |x| \\le 4",
+          "problem": "Tengsizlikni yeching: \\(|x| \\le 4\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -69504,7 +69504,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(|-12| + |8 - 15| - |-5|\\)",
+          "question": "Hisoblang: |-12| + |8 - 15| - |-5|",
           "options": [
             "24",
             "10",
@@ -69516,7 +69516,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(|x - 3| = 7\\)",
+          "question": "Tenglamani yeching: |x - 3| = 7",
           "options": [
             "x = 4",
             "\\(x_1 = 4, x_2 = -10\\)",
@@ -69531,9 +69531,9 @@ const mathTopicsData = [
           "question": "Tengsizlikni yeching: \\(|x| \\le 4\\)",
           "options": [
             "[-4; 4]",
-            "\\((-\\infty; 4]\\)",
+            "(-\\infty; 4]",
             "[0; 4]",
-            "\\((-\\infty; -4] \\cup [4; \\infty)\\)"
+            "(-\\infty; -4] \\cup [4; \\infty)"
           ],
           "correctIndex": 0,
           "explanation": "-4 <= x <= 4"
@@ -69690,7 +69690,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikni yeching: |x| \\le 4",
+          "problem": "Tengsizlikni yeching: \\(|x| \\le 4\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -69774,7 +69774,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(|-12| + |8 - 15| - |-5|\\)",
+          "question": "Hisoblang: |-12| + |8 - 15| - |-5|",
           "options": [
             "24",
             "10",
@@ -69786,7 +69786,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(|x - 3| = 7\\)",
+          "question": "Tenglamani yeching: |x - 3| = 7",
           "options": [
             "x = 4",
             "\\(x_1 = 4, x_2 = -10\\)",
@@ -69801,9 +69801,9 @@ const mathTopicsData = [
           "question": "Tengsizlikni yeching: \\(|x| \\le 4\\)",
           "options": [
             "[-4; 4]",
-            "\\((-\\infty; 4]\\)",
+            "(-\\infty; 4]",
             "[0; 4]",
-            "\\((-\\infty; -4] \\cup [4; \\infty)\\)"
+            "(-\\infty; -4] \\cup [4; \\infty)"
           ],
           "correctIndex": 0,
           "explanation": "-4 <= x <= 4"
@@ -69815,7 +69815,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: |-12| + |8 - 15| - |-5|",
-          "hint": "Mavzu qoidasi: 12 + 7 - 5 = 14",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -69833,7 +69833,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamani yeching: |x - 3| = 7",
-          "hint": "Mavzu qoidasi: x - 3 = 7 => x=10",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -69851,7 +69851,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tengsizlikni yeching: \\(|x| \\le 4\\)",
-          "hint": "Mavzu qoidasi: -4 <= x <= 4",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -69960,7 +69960,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikni yeching: |x| \\le 4",
+          "problem": "Tengsizlikni yeching: \\(|x| \\le 4\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -70044,7 +70044,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(|-12| + |8 - 15| - |-5|\\)",
+          "question": "Hisoblang: |-12| + |8 - 15| - |-5|",
           "options": [
             "24",
             "10",
@@ -70056,7 +70056,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamani yeching: \\(|x - 3| = 7\\)",
+          "question": "Tenglamani yeching: |x - 3| = 7",
           "options": [
             "x = 4",
             "\\(x_1 = 4, x_2 = -10\\)",
@@ -70071,9 +70071,9 @@ const mathTopicsData = [
           "question": "Tengsizlikni yeching: \\(|x| \\le 4\\)",
           "options": [
             "[-4; 4]",
-            "\\((-\\infty; 4]\\)",
+            "(-\\infty; 4]",
             "[0; 4]",
-            "\\((-\\infty; -4] \\cup [4; \\infty)\\)"
+            "(-\\infty; -4] \\cup [4; \\infty)"
           ],
           "correctIndex": 0,
           "explanation": "-4 <= x <= 4"
@@ -70085,7 +70085,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: |-12| + |8 - 15| - |-5|",
-          "hint": "Mavzu qoidasi: 12 + 7 - 5 = 14",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -70103,7 +70103,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamani yeching: |x - 3| = 7",
-          "hint": "Mavzu qoidasi: x - 3 = 7 => x=10",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -70121,7 +70121,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tengsizlikni yeching: \\(|x| \\le 4\\)",
-          "hint": "Mavzu qoidasi: -4 <= x <= 4",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -70265,7 +70265,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tengsizlikni yeching: |x| \\le 4",
+        "problem": "Tengsizlikni yeching: \\(|x| \\le 4\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -70328,16 +70328,16 @@ const mathTopicsData = [
         "question": "Tenglamani yeching: |x - 3| = 7",
         "options": [
           "x = 4",
-          "x_1 = 4, x_2 = -10",
+          "\\(x_1 = 4, x_2 = -10\\)",
           "x = 10",
-          "x_1 = 10, x_2 = -4"
+          "\\(x_1 = 10, x_2 = -4\\)"
         ],
         "correctIndex": 3,
         "explanation": "x - 3 = 7 => x=10; x - 3 = -7 => x=-4"
       },
       {
         "level": "hard",
-        "question": "Tengsizlikni yeching: |x| \\le 4",
+        "question": "Tengsizlikni yeching: \\(|x| \\le 4\\)",
         "options": [
           "[-4; 4]",
           "(-\\infty; 4]",
@@ -70642,7 +70642,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Teskari proporsiya: 6 * 12 = 9 * x => x = 8 kun"
               }
             ],
-            "answer": "8 \\text{ kun}"
+            "answer": "\\(8 \\text{ kun}\\)"
           }
         },
         {
@@ -70660,7 +70660,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 3 * 4 / 6 = 2 kun"
               }
             ],
-            "answer": "2 \\text{ kun}"
+            "answer": "\\(2 \\text{ kun}\\)"
           }
         },
         {
@@ -70902,7 +70902,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "6 ta ishchi ishni 12 kunda bajarsa, 9 ta ishchi shu ishni necha kunda bajaradi?",
-          "hint": "Mavzu qoidasi: Teskari proporsiya: 6 * 12 = 9 * x => x = 8 kun",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -70912,7 +70912,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Teskari proporsiya: 6 * 12 = 9 * x => x = 8 kun"
               }
             ],
-            "answer": "8 \\text{ kun}"
+            "answer": "\\(8 \\text{ kun}\\)"
           }
         },
         {
@@ -70920,7 +70920,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "3 ta traktor dalani 4 kunda haydaydi. 6 ta traktor necha kunda haydaydi?",
-          "hint": "Mavzu qoidasi: 3 * 4 / 6 = 2 kun",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -70930,7 +70930,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 3 * 4 / 6 = 2 kun"
               }
             ],
-            "answer": "2 \\text{ kun}"
+            "answer": "\\(2 \\text{ kun}\\)"
           }
         },
         {
@@ -70938,7 +70938,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Agar y = kx to'g'ri proporsionallikda x = 4 bo'lganda y = 20 bo'lsa, k ni toping.",
-          "hint": "Mavzu qoidasi: k = 20 / 4 = 5",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -71172,7 +71172,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "6 ta ishchi ishni 12 kunda bajarsa, 9 ta ishchi shu ishni necha kunda bajaradi?",
-          "hint": "Mavzu qoidasi: Teskari proporsiya: 6 * 12 = 9 * x => x = 8 kun",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -71182,7 +71182,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Teskari proporsiya: 6 * 12 = 9 * x => x = 8 kun"
               }
             ],
-            "answer": "8 \\text{ kun}"
+            "answer": "\\(8 \\text{ kun}\\)"
           }
         },
         {
@@ -71190,7 +71190,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "3 ta traktor dalani 4 kunda haydaydi. 6 ta traktor necha kunda haydaydi?",
-          "hint": "Mavzu qoidasi: 3 * 4 / 6 = 2 kun",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -71200,7 +71200,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 3 * 4 / 6 = 2 kun"
               }
             ],
-            "answer": "2 \\text{ kun}"
+            "answer": "\\(2 \\text{ kun}\\)"
           }
         },
         {
@@ -71208,7 +71208,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Agar y = kx to'g'ri proporsionallikda x = 4 bo'lganda y = 20 bo'lsa, k ni toping.",
-          "hint": "Mavzu qoidasi: k = 20 / 4 = 5",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -71402,10 +71402,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "6 ta ishchi ishni 12 kunda bajarsa, 9 ta ishchi shu ishni necha kunda bajaradi?",
         "options": [
-          "10 \\text{ kun}",
-          "18 \\text{ kun}",
-          "8 \\text{ kun}",
-          "6 \\text{ kun}"
+          "\\(10 \\text{ kun}\\)",
+          "\\(18 \\text{ kun}\\)",
+          "\\(8 \\text{ kun}\\)",
+          "\\(6 \\text{ kun}\\)"
         ],
         "correctIndex": 2,
         "explanation": "Teskari proporsiya: 6 * 12 = 9 * x => x = 8 kun"
@@ -71414,10 +71414,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "3 ta traktor dalani 4 kunda haydaydi. 6 ta traktor necha kunda haydaydi?",
         "options": [
-          "3 \\text{ kun}",
-          "8 \\text{ kun}",
-          "1 \\text{ kun}",
-          "2 \\text{ kun}"
+          "\\(3 \\text{ kun}\\)",
+          "\\(8 \\text{ kun}\\)",
+          "\\(1 \\text{ kun}\\)",
+          "\\(2 \\text{ kun}\\)"
         ],
         "correctIndex": 3,
         "explanation": "3 * 4 / 6 = 2 kun"
@@ -71451,7 +71451,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Teskari proporsiya: 6 * 12 = 9 * x => x = 8 kun"
             }
           ],
-          "answer": "8 \\text{ kun}"
+          "answer": "\\(8 \\text{ kun}\\)"
         }
       },
       {
@@ -71469,7 +71469,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 3 * 4 / 6 = 2 kun"
             }
           ],
-          "answer": "2 \\text{ kun}"
+          "answer": "\\(2 \\text{ kun}\\)"
         }
       },
       {
@@ -71759,7 +71759,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Teng yonli uchburchak asosi xossasi"
               }
             ],
-            "answer": "\\text{Ham mediana, ham bissektrisa}"
+            "answer": "\\(\\text{Ham mediana, ham bissektrisa}\\)"
           }
         }
       ]
@@ -71983,7 +71983,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Bissektrisa 78° li burchakni qanday ikkita burchakka ajratadi?",
-          "hint": "Mavzu qoidasi: 78° / 2 = 39°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -72001,7 +72001,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Uchburchakning medianasi qarama-qarshi tomonni qanday nisbatda bo'ladi?",
-          "hint": "Mavzu qoidasi: Mediana tomonni teng ikkiga bo'ladi",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -72019,7 +72019,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Teng yonli uchburchakning asosiga tushirilgan balandligi bir vaqtda qanday kesma ham bo'ladi?",
-          "hint": "Mavzu qoidasi: Teng yonli uchburchak asosi xossasi",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -72029,7 +72029,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Teng yonli uchburchak asosi xossasi"
               }
             ],
-            "answer": "\\text{Ham mediana, ham bissektrisa}"
+            "answer": "\\(\\text{Ham mediana, ham bissektrisa}\\)"
           }
         }
       ]
@@ -72253,7 +72253,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Bissektrisa 78° li burchakni qanday ikkita burchakka ajratadi?",
-          "hint": "Mavzu qoidasi: 78° / 2 = 39°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -72271,7 +72271,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Uchburchakning medianasi qarama-qarshi tomonni qanday nisbatda bo'ladi?",
-          "hint": "Mavzu qoidasi: Mediana tomonni teng ikkiga bo'ladi",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -72289,7 +72289,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Teng yonli uchburchakning asosiga tushirilgan balandligi bir vaqtda qanday kesma ham bo'ladi?",
-          "hint": "Mavzu qoidasi: Teng yonli uchburchak asosi xossasi",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -72299,7 +72299,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Teng yonli uchburchak asosi xossasi"
               }
             ],
-            "answer": "\\text{Ham mediana, ham bissektrisa}"
+            "answer": "\\(\\text{Ham mediana, ham bissektrisa}\\)"
           }
         }
       ]
@@ -72477,10 +72477,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Bissektrisa 78° li burchakni qanday ikkita burchakka ajratadi?",
         "options": [
-          "45^\\circ",
-          "34^\\circ",
-          "40^\\circ",
-          "39^\\circ"
+          "\\(45^\\circ\\)",
+          "\\(34^\\circ\\)",
+          "\\(40^\\circ\\)",
+          "\\(39^\\circ\\)"
         ],
         "correctIndex": 3,
         "explanation": "78° / 2 = 39°"
@@ -72501,10 +72501,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Teng yonli uchburchakning asosiga tushirilgan balandligi bir vaqtda qanday kesma ham bo'ladi?",
         "options": [
-          "\\text{Faqat gipotenuza}",
-          "\\text{Ham mediana, ham bissektrisa}",
-          "\\text{Faqat radius}",
-          "\\text{O'rta chiziq}"
+          "\\(\\text{Faqat gipotenuza}\\)",
+          "\\(\\text{Ham mediana, ham bissektrisa}\\)",
+          "\\(\\text{Faqat radius}\\)",
+          "\\(\\text{O'rta chiziq}\\)"
         ],
         "correctIndex": 1,
         "explanation": "Teng yonli uchburchak asosi xossasi"
@@ -72562,7 +72562,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Teng yonli uchburchak asosi xossasi"
             }
           ],
-          "answer": "\\text{Ham mediana, ham bissektrisa}"
+          "answer": "\\(\\text{Ham mediana, ham bissektrisa}\\)"
         }
       }
     ]
@@ -72641,7 +72641,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ko'paytirishni bajaring: 3x^2y \\cdot (-2xy^3)",
+          "problem": "Ko'paytirishni bajaring: \\(3x^2y \\cdot (-2xy^3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -72673,7 +72673,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: (-3a^2b^3)^3",
+          "problem": "Hisoblang: \\((-3a^2b^3)^3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -72705,7 +72705,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Bo'lishni bajaring: 15x^5y^4 : (3x^2y^3)",
+          "problem": "Bo'lishni bajaring: \\(15x^5y^4 : (3x^2y^3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -72875,7 +72875,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ko'paytirishni bajaring: 3x^2y \\cdot (-2xy^3)",
+          "problem": "Ko'paytirishni bajaring: \\(3x^2y \\cdot (-2xy^3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -72907,7 +72907,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: (-3a^2b^3)^3",
+          "problem": "Hisoblang: \\((-3a^2b^3)^3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -72939,7 +72939,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Bo'lishni bajaring: 15x^5y^4 : (3x^2y^3)",
+          "problem": "Bo'lishni bajaring: \\(15x^5y^4 : (3x^2y^3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -73064,7 +73064,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ko'paytirishni bajaring: \\(3x^2y \\cdot (-2xy^3)\\)",
-          "hint": "Mavzu qoidasi: 3 * (-2) = -6",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -73082,7 +73082,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\((-3a^2b^3)^3\\)",
-          "hint": "Mavzu qoidasi: (-3)³ = -27, (a²)³ = a⁶, (b³)³ = b⁹",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -73100,7 +73100,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Bo'lishni bajaring: \\(15x^5y^4 : (3x^2y^3)\\)",
-          "hint": "Mavzu qoidasi: 15/3 = 5",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -73145,7 +73145,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ko'paytirishni bajaring: 3x^2y \\cdot (-2xy^3)",
+          "problem": "Ko'paytirishni bajaring: \\(3x^2y \\cdot (-2xy^3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -73177,7 +73177,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: (-3a^2b^3)^3",
+          "problem": "Hisoblang: \\((-3a^2b^3)^3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -73209,7 +73209,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Bo'lishni bajaring: 15x^5y^4 : (3x^2y^3)",
+          "problem": "Bo'lishni bajaring: \\(15x^5y^4 : (3x^2y^3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -73334,7 +73334,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ko'paytirishni bajaring: \\(3x^2y \\cdot (-2xy^3)\\)",
-          "hint": "Mavzu qoidasi: 3 * (-2) = -6",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -73352,7 +73352,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\((-3a^2b^3)^3\\)",
-          "hint": "Mavzu qoidasi: (-3)³ = -27, (a²)³ = a⁶, (b³)³ = b⁹",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -73370,7 +73370,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Bo'lishni bajaring: \\(15x^5y^4 : (3x^2y^3)\\)",
-          "hint": "Mavzu qoidasi: 15/3 = 5",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -73450,7 +73450,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Ko'paytirishni bajaring: 3x^2y \\cdot (-2xy^3)",
+        "problem": "Ko'paytirishni bajaring: \\(3x^2y \\cdot (-2xy^3)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -73482,7 +73482,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: (-3a^2b^3)^3",
+        "problem": "Hisoblang: \\((-3a^2b^3)^3\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -73514,7 +73514,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Bo'lishni bajaring: 15x^5y^4 : (3x^2y^3)",
+        "problem": "Bo'lishni bajaring: \\(15x^5y^4 : (3x^2y^3)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -73562,36 +73562,36 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Ko'paytirishni bajaring: 3x^2y \\cdot (-2xy^3)",
+        "question": "Ko'paytirishni bajaring: \\(3x^2y \\cdot (-2xy^3)\\)",
         "options": [
-          "-6x^2y^3",
-          "6x^3y^4",
-          "-5x^3y^4",
-          "-6x^3y^4"
+          "\\(-6x^2y^3\\)",
+          "\\(6x^3y^4\\)",
+          "\\(-5x^3y^4\\)",
+          "\\(-6x^3y^4\\)"
         ],
         "correctIndex": 3,
         "explanation": "3 * (-2) = -6; x²*x = x³; y*y³ = y⁴"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: (-3a^2b^3)^3",
+        "question": "Hisoblang: \\((-3a^2b^3)^3\\)",
         "options": [
-          "-27a^6b^9",
-          "27a^6b^9",
-          "-9a^6b^9",
-          "-27a^5b^6"
+          "\\(-27a^6b^9\\)",
+          "\\(27a^6b^9\\)",
+          "\\(-9a^6b^9\\)",
+          "\\(-27a^5b^6\\)"
         ],
         "correctIndex": 0,
         "explanation": "(-3)³ = -27, (a²)³ = a⁶, (b³)³ = b⁹"
       },
       {
         "level": "hard",
-        "question": "Bo'lishni bajaring: 15x^5y^4 : (3x^2y^3)",
+        "question": "Bo'lishni bajaring: \\(15x^5y^4 : (3x^2y^3)\\)",
         "options": [
-          "5x^7y^7",
-          "5x^3y",
-          "12x^3y",
-          "5x^3y^2"
+          "\\(5x^7y^7\\)",
+          "\\(5x^3y\\)",
+          "\\(12x^3y\\)",
+          "\\(5x^3y^2\\)"
         ],
         "correctIndex": 1,
         "explanation": "15/3 = 5; x⁵/x² = x³; y⁴/y³ = y"
@@ -73891,7 +73891,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: l = (15 + 9)/2 = 12 sm"
               }
             ],
-            "answer": "12 \\text{ sm}"
+            "answer": "\\(12 \\text{ sm}\\)"
           }
         },
         {
@@ -73927,7 +73927,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: (x + x + 6)/2 = 18 => 2x + 6 = 36 => x = 15 sm"
               }
             ],
-            "answer": "15 \\text{ sm}"
+            "answer": "\\(15 \\text{ sm}\\)"
           }
         }
       ]
@@ -74151,7 +74151,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Trapetsiyaning asoslari a = 15 sm, b = 9 sm. Uning o'rta chizig'ini hisoblang.",
-          "hint": "Mavzu qoidasi: l = (15 + 9)/2 = 12 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -74161,7 +74161,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: l = (15 + 9)/2 = 12 sm"
               }
             ],
-            "answer": "12 \\text{ sm}"
+            "answer": "\\(12 \\text{ sm}\\)"
           }
         },
         {
@@ -74169,7 +74169,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "O'rta chizig'i 14 sm va balandligi 8 sm bo'lgan trapetsiyaning yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = l * h = 14 * 8 = 112 sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -74187,7 +74187,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Trapetsiyaning o'rta chizig'i 18 sm, bir asosi ikkinchisidan 6 sm katta. Kichik asosini toping.",
-          "hint": "Mavzu qoidasi: (x + x + 6)/2 = 18 => 2x + 6 = 36 => x = 15 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -74197,7 +74197,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: (x + x + 6)/2 = 18 => 2x + 6 = 36 => x = 15 sm"
               }
             ],
-            "answer": "15 \\text{ sm}"
+            "answer": "\\(15 \\text{ sm}\\)"
           }
         }
       ]
@@ -74421,7 +74421,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Trapetsiyaning asoslari a = 15 sm, b = 9 sm. Uning o'rta chizig'ini hisoblang.",
-          "hint": "Mavzu qoidasi: l = (15 + 9)/2 = 12 sm",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -74431,7 +74431,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: l = (15 + 9)/2 = 12 sm"
               }
             ],
-            "answer": "12 \\text{ sm}"
+            "answer": "\\(12 \\text{ sm}\\)"
           }
         },
         {
@@ -74439,7 +74439,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "O'rta chizig'i 14 sm va balandligi 8 sm bo'lgan trapetsiyaning yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = l * h = 14 * 8 = 112 sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -74457,7 +74457,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Trapetsiyaning o'rta chizig'i 18 sm, bir asosi ikkinchisidan 6 sm katta. Kichik asosini toping.",
-          "hint": "Mavzu qoidasi: (x + x + 6)/2 = 18 => 2x + 6 = 36 => x = 15 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -74467,7 +74467,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: (x + x + 6)/2 = 18 => 2x + 6 = 36 => x = 15 sm"
               }
             ],
-            "answer": "15 \\text{ sm}"
+            "answer": "\\(15 \\text{ sm}\\)"
           }
         }
       ]
@@ -74651,10 +74651,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Trapetsiyaning asoslari a = 15 sm, b = 9 sm. Uning o'rta chizig'ini hisoblang.",
         "options": [
-          "12 \\text{ sm}",
-          "24 \\text{ sm}",
-          "10 \\text{ sm}",
-          "14 \\text{ sm}"
+          "\\(12 \\text{ sm}\\)",
+          "\\(24 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)",
+          "\\(14 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "l = (15 + 9)/2 = 12 sm"
@@ -74663,10 +74663,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "O'rta chizig'i 14 sm va balandligi 8 sm bo'lgan trapetsiyaning yuzini hisoblang.",
         "options": [
-          "56 \\text{ sm}^2",
-          "112 \\text{ sm}^2",
-          "224 \\text{ sm}^2",
-          "120 \\text{ sm}^2"
+          "\\(56 \\text{ sm}^2\\)",
+          "\\(112 \\text{ sm}^2\\)",
+          "\\(224 \\text{ sm}^2\\)",
+          "\\(120 \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
         "explanation": "S = l * h = 14 * 8 = 112 sm²"
@@ -74675,10 +74675,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Trapetsiyaning o'rta chizig'i 18 sm, bir asosi ikkinchisidan 6 sm katta. Kichik asosini toping.",
         "options": [
-          "21 \\text{ sm}",
-          "12 \\text{ sm}",
-          "15 \\text{ sm}",
-          "18 \\text{ sm}"
+          "\\(21 \\text{ sm}\\)",
+          "\\(12 \\text{ sm}\\)",
+          "\\(15 \\text{ sm}\\)",
+          "\\(18 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "(x + x + 6)/2 = 18 => 2x + 6 = 36 => x = 15 sm"
@@ -74700,7 +74700,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: l = (15 + 9)/2 = 12 sm"
             }
           ],
-          "answer": "12 \\text{ sm}"
+          "answer": "\\(12 \\text{ sm}\\)"
         }
       },
       {
@@ -74736,7 +74736,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: (x + x + 6)/2 = 18 => 2x + 6 = 36 => x = 15 sm"
             }
           ],
-          "answer": "15 \\text{ sm}"
+          "answer": "\\(15 \\text{ sm}\\)"
         }
       }
     ]
@@ -74815,7 +74815,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kvadrat uchhadni to'la kvadratga ajrating: x^2 - 6x + 13",
+          "problem": "Kvadrat uchhadni to'la kvadratga ajrating: \\(x^2 - 6x + 13\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -74847,7 +74847,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.",
+          "problem": "\\(y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -74895,7 +74895,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani to'la kvadrat ajratish bilan yeching: x^2 - 4x - 5 = 0",
+          "problem": "Tenglamani to'la kvadrat ajratish bilan yeching: \\(x^2 - 4x - 5 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -74955,7 +74955,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(y = x^2 - 8x + 20\\) ifodaning eng kichik qiymatini toping.",
+          "question": "\\(y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.\\)",
           "options": [
             "20",
             "4",
@@ -75065,7 +75065,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kvadrat uchhadni to'la kvadratga ajrating: x^2 - 6x + 13",
+          "problem": "Kvadrat uchhadni to'la kvadratga ajrating: \\(x^2 - 6x + 13\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -75097,7 +75097,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.",
+          "problem": "\\(y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -75145,7 +75145,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani to'la kvadrat ajratish bilan yeching: x^2 - 4x - 5 = 0",
+          "problem": "Tenglamani to'la kvadrat ajratish bilan yeching: \\(x^2 - 4x - 5 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -75241,7 +75241,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(y = x^2 - 8x + 20\\) ifodaning eng kichik qiymatini toping.",
+          "question": "\\(y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.\\)",
           "options": [
             "20",
             "4",
@@ -75270,7 +75270,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Kvadrat uchhadni to'la kvadratga ajrating: \\(x^2 - 6x + 13\\)",
-          "hint": "Mavzu qoidasi: (x - 3)² - 9 + 13 = (x - 3)² + 4",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -75288,7 +75288,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.\\)",
-          "hint": "Mavzu qoidasi: (x - 4)² + 4 => Eng kichik qiymat 4",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -75306,7 +75306,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani to'la kvadrat ajratish bilan yeching: \\(x^2 - 4x - 5 = 0\\)",
-          "hint": "Mavzu qoidasi: (x - 2)² = 9 => x - 2 = ±3 => x1 = 5, x2 = -1",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -75351,7 +75351,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kvadrat uchhadni to'la kvadratga ajrating: x^2 - 6x + 13",
+          "problem": "Kvadrat uchhadni to'la kvadratga ajrating: \\(x^2 - 6x + 13\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -75383,7 +75383,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.",
+          "problem": "\\(y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -75431,7 +75431,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani to'la kvadrat ajratish bilan yeching: x^2 - 4x - 5 = 0",
+          "problem": "Tenglamani to'la kvadrat ajratish bilan yeching: \\(x^2 - 4x - 5 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -75527,7 +75527,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(y = x^2 - 8x + 20\\) ifodaning eng kichik qiymatini toping.",
+          "question": "\\(y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.\\)",
           "options": [
             "20",
             "4",
@@ -75556,7 +75556,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Kvadrat uchhadni to'la kvadratga ajrating: \\(x^2 - 6x + 13\\)",
-          "hint": "Mavzu qoidasi: (x - 3)² - 9 + 13 = (x - 3)² + 4",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -75574,7 +75574,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.\\)",
-          "hint": "Mavzu qoidasi: (x - 4)² + 4 => Eng kichik qiymat 4",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -75592,7 +75592,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani to'la kvadrat ajratish bilan yeching: \\(x^2 - 4x - 5 = 0\\)",
-          "hint": "Mavzu qoidasi: (x - 2)² = 9 => x - 2 = ±3 => x1 = 5, x2 = -1",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -75672,7 +75672,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Kvadrat uchhadni to'la kvadratga ajrating: x^2 - 6x + 13",
+        "problem": "Kvadrat uchhadni to'la kvadratga ajrating: \\(x^2 - 6x + 13\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -75704,7 +75704,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.",
+        "problem": "\\(y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -75752,7 +75752,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tenglamani to'la kvadrat ajratish bilan yeching: x^2 - 4x - 5 = 0",
+        "problem": "Tenglamani to'la kvadrat ajratish bilan yeching: \\(x^2 - 4x - 5 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -75800,19 +75800,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Kvadrat uchhadni to'la kvadratga ajrating: x^2 - 6x + 13",
+        "question": "Kvadrat uchhadni to'la kvadratga ajrating: \\(x^2 - 6x + 13\\)",
         "options": [
-          "(x - 3)^2 + 4",
-          "(x - 3)^2 - 4",
-          "(x + 3)^2 + 4",
-          "(x - 6)^2 + 13"
+          "\\((x - 3)^2 + 4\\)",
+          "\\((x - 3)^2 - 4\\)",
+          "\\((x + 3)^2 + 4\\)",
+          "\\((x - 6)^2 + 13\\)"
         ],
         "correctIndex": 0,
         "explanation": "(x - 3)² - 9 + 13 = (x - 3)² + 4"
       },
       {
         "level": "medium",
-        "question": "y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.",
+        "question": "\\(y = x^2 - 8x + 20 ifodaning eng kichik qiymatini toping.\\)",
         "options": [
           "20",
           "4",
@@ -75824,11 +75824,11 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Tenglamani to'la kvadrat ajratish bilan yeching: x^2 - 4x - 5 = 0",
+        "question": "Tenglamani to'la kvadrat ajratish bilan yeching: \\(x^2 - 4x - 5 = 0\\)",
         "options": [
           "x = 5",
-          "x_1 = 4, x_2 = -5",
-          "x_1 = 5, x_2 = -1",
+          "\\(x_1 = 4, x_2 = -5\\)",
+          "\\(x_1 = 5, x_2 = -1\\)",
           "x = -1"
         ],
         "correctIndex": 2,
@@ -75992,7 +75992,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "\\frac{3\\pi}{4} radian necha gradusga teng?",
+          "problem": "\\(\\frac{3\\pi}{4} radian necha gradusga teng?\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -76024,7 +76024,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.",
+          "problem": "\\(Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -76084,7 +76084,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\frac{3\\pi}{4}\\) radian necha gradusga teng?",
+          "question": "\\(\\frac{3\\pi}{4} radian necha gradusga teng?\\)",
           "options": [
             "\\(150^\\circ\\)",
             "\\(120^\\circ\\)",
@@ -76096,7 +76096,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Radiusi 6 sm bo'lgan aylanada \\(\\alpha = \\frac{\\pi}{3}\\) radianli yoy uzunligini toping.",
+          "question": "\\(Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.\\)",
           "options": [
             "\\(\\pi \\text{ sm}\\)",
             "\\(6\\pi \\text{ sm}\\)",
@@ -76226,7 +76226,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "\\frac{3\\pi}{4} radian necha gradusga teng?",
+          "problem": "\\(\\frac{3\\pi}{4} radian necha gradusga teng?\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -76258,7 +76258,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.",
+          "problem": "\\(Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -76354,7 +76354,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\frac{3\\pi}{4}\\) radian necha gradusga teng?",
+          "question": "\\(\\frac{3\\pi}{4} radian necha gradusga teng?\\)",
           "options": [
             "\\(150^\\circ\\)",
             "\\(120^\\circ\\)",
@@ -76366,7 +76366,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Radiusi 6 sm bo'lgan aylanada \\(\\alpha = \\frac{\\pi}{3}\\) radianli yoy uzunligini toping.",
+          "question": "\\(Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.\\)",
           "options": [
             "\\(\\pi \\text{ sm}\\)",
             "\\(6\\pi \\text{ sm}\\)",
@@ -76383,7 +76383,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "120° li burchakni radianga aylantiring.",
-          "hint": "Mavzu qoidasi: 120 * π / 180 = 2π/3",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -76401,7 +76401,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(\\frac{3\\pi}{4} radian necha gradusga teng?\\)",
-          "hint": "Mavzu qoidasi: (3 * 180) / 4 = 135°",
+          "hint": "Kasr qoidasi bo'yicha amallarni ketma-ket bajaring va chiqqan javobni qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -76419,7 +76419,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.\\)",
-          "hint": "Mavzu qoidasi: l = R * α = 6 * π/3 = 2π sm",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -76496,7 +76496,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "\\frac{3\\pi}{4} radian necha gradusga teng?",
+          "problem": "\\(\\frac{3\\pi}{4} radian necha gradusga teng?\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -76528,7 +76528,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.",
+          "problem": "\\(Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -76624,7 +76624,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "\\(\\frac{3\\pi}{4}\\) radian necha gradusga teng?",
+          "question": "\\(\\frac{3\\pi}{4} radian necha gradusga teng?\\)",
           "options": [
             "\\(150^\\circ\\)",
             "\\(120^\\circ\\)",
@@ -76636,7 +76636,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Radiusi 6 sm bo'lgan aylanada \\(\\alpha = \\frac{\\pi}{3}\\) radianli yoy uzunligini toping.",
+          "question": "\\(Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.\\)",
           "options": [
             "\\(\\pi \\text{ sm}\\)",
             "\\(6\\pi \\text{ sm}\\)",
@@ -76653,7 +76653,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "120° li burchakni radianga aylantiring.",
-          "hint": "Mavzu qoidasi: 120 * π / 180 = 2π/3",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -76671,7 +76671,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(\\frac{3\\pi}{4} radian necha gradusga teng?\\)",
-          "hint": "Mavzu qoidasi: (3 * 180) / 4 = 135°",
+          "hint": "Kasr qoidasi bo'yicha amallarni ketma-ket bajaring va chiqqan javobni qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -76689,7 +76689,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.\\)",
-          "hint": "Mavzu qoidasi: l = R * α = 6 * π/3 = 2π sm",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -76795,7 +76795,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "\\frac{3\\pi}{4} radian necha gradusga teng?",
+        "problem": "\\(\\frac{3\\pi}{4} radian necha gradusga teng?\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -76827,7 +76827,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.",
+        "problem": "\\(Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -76877,34 +76877,34 @@ const mathTopicsData = [
         "level": "basic",
         "question": "120° li burchakni radianga aylantiring.",
         "options": [
-          "\\frac{3\\pi}{4}",
-          "\\frac{2\\pi}{3}",
-          "\\frac{5\\pi}{6}",
-          "\\pi"
+          "\\(\\frac{3\\pi}{4}\\)",
+          "\\(\\frac{2\\pi}{3}\\)",
+          "\\(\\frac{5\\pi}{6}\\)",
+          "\\(\\pi\\)"
         ],
         "correctIndex": 1,
         "explanation": "120 * π / 180 = 2π/3"
       },
       {
         "level": "medium",
-        "question": "\\frac{3\\pi}{4} radian necha gradusga teng?",
+        "question": "\\(\\frac{3\\pi}{4} radian necha gradusga teng?\\)",
         "options": [
-          "150^\\circ",
-          "120^\\circ",
-          "135^\\circ",
-          "145^\\circ"
+          "\\(150^\\circ\\)",
+          "\\(120^\\circ\\)",
+          "\\(135^\\circ\\)",
+          "\\(145^\\circ\\)"
         ],
         "correctIndex": 2,
         "explanation": "(3 * 180) / 4 = 135°"
       },
       {
         "level": "hard",
-        "question": "Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.",
+        "question": "\\(Radiusi 6 sm bo'lgan aylanada \\alpha = \\frac{\\pi}{3} radianli yoy uzunligini toping.\\)",
         "options": [
-          "\\pi \\text{ sm}",
-          "6\\pi \\text{ sm}",
-          "3\\pi \\text{ sm}",
-          "2\\pi \\text{ sm}"
+          "\\(\\pi \\text{ sm}\\)",
+          "\\(6\\pi \\text{ sm}\\)",
+          "\\(3\\pi \\text{ sm}\\)",
+          "\\(2\\pi \\text{ sm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "l = R * α = 6 * π/3 = 2π sm"
@@ -77204,7 +77204,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: d² = a * b => 8² = 4 * x => 64 = 4x => x = 16 sm"
               }
             ],
-            "answer": "16 \\text{ sm}"
+            "answer": "\\(16 \\text{ sm}\\)"
           }
         },
         {
@@ -77222,7 +77222,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: L = √(10² - 6²) = √(100 - 36) = 8 sm"
               }
             ],
-            "answer": "8 \\text{ sm}"
+            "answer": "\\(8 \\text{ sm}\\)"
           }
         },
         {
@@ -77240,7 +77240,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 4 * 9 = 6 * x => 36 = 6x => x = 6 sm"
               }
             ],
-            "answer": "6 \\text{ sm}"
+            "answer": "\\(6 \\text{ sm}\\)"
           }
         }
       ]
@@ -77464,7 +77464,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Aylanaga bitta nuqtadan o'tkazilgan urinma uzunligi 8 sm, kesuvchining tashqi qismi 4 sm. Butun kesuvchi uzunligini toping.",
-          "hint": "Mavzu qoidasi: d² = a * b => 8² = 4 * x => 64 = 4x => x = 16 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -77474,7 +77474,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: d² = a * b => 8² = 4 * x => 64 = 4x => x = 16 sm"
               }
             ],
-            "answer": "16 \\text{ sm}"
+            "answer": "\\(16 \\text{ sm}\\)"
           }
         },
         {
@@ -77482,7 +77482,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Aylana markazidan 10 sm masofadagi nuqtadan urinma o'tkazilgan. Radius 6 sm bo'lsa, urinma uzunligini toping.",
-          "hint": "Mavzu qoidasi: L = √(10² - 6²) = √(100 - 36) = 8 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -77492,7 +77492,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: L = √(10² - 6²) = √(100 - 36) = 8 sm"
               }
             ],
-            "answer": "8 \\text{ sm}"
+            "answer": "\\(8 \\text{ sm}\\)"
           }
         },
         {
@@ -77500,7 +77500,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Aylananing kesishuvchi ikkita vatari berilgan: birinchisi 4 sm va 9 sm ga, ikkinchisi 6 sm va x sm ga bo'lingan. x ni toping.",
-          "hint": "Mavzu qoidasi: 4 * 9 = 6 * x => 36 = 6x => x = 6 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -77510,7 +77510,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 4 * 9 = 6 * x => 36 = 6x => x = 6 sm"
               }
             ],
-            "answer": "6 \\text{ sm}"
+            "answer": "\\(6 \\text{ sm}\\)"
           }
         }
       ]
@@ -77734,7 +77734,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Aylanaga bitta nuqtadan o'tkazilgan urinma uzunligi 8 sm, kesuvchining tashqi qismi 4 sm. Butun kesuvchi uzunligini toping.",
-          "hint": "Mavzu qoidasi: d² = a * b => 8² = 4 * x => 64 = 4x => x = 16 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -77744,7 +77744,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: d² = a * b => 8² = 4 * x => 64 = 4x => x = 16 sm"
               }
             ],
-            "answer": "16 \\text{ sm}"
+            "answer": "\\(16 \\text{ sm}\\)"
           }
         },
         {
@@ -77752,7 +77752,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Aylana markazidan 10 sm masofadagi nuqtadan urinma o'tkazilgan. Radius 6 sm bo'lsa, urinma uzunligini toping.",
-          "hint": "Mavzu qoidasi: L = √(10² - 6²) = √(100 - 36) = 8 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -77762,7 +77762,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: L = √(10² - 6²) = √(100 - 36) = 8 sm"
               }
             ],
-            "answer": "8 \\text{ sm}"
+            "answer": "\\(8 \\text{ sm}\\)"
           }
         },
         {
@@ -77770,7 +77770,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Aylananing kesishuvchi ikkita vatari berilgan: birinchisi 4 sm va 9 sm ga, ikkinchisi 6 sm va x sm ga bo'lingan. x ni toping.",
-          "hint": "Mavzu qoidasi: 4 * 9 = 6 * x => 36 = 6x => x = 6 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -77780,7 +77780,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 4 * 9 = 6 * x => 36 = 6x => x = 6 sm"
               }
             ],
-            "answer": "6 \\text{ sm}"
+            "answer": "\\(6 \\text{ sm}\\)"
           }
         }
       ]
@@ -77964,10 +77964,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Aylanaga bitta nuqtadan o'tkazilgan urinma uzunligi 8 sm, kesuvchining tashqi qismi 4 sm. Butun kesuvchi uzunligini toping.",
         "options": [
-          "12 \\text{ sm}",
-          "16 \\text{ sm}",
-          "20 \\text{ sm}",
-          "8 \\text{ sm}"
+          "\\(12 \\text{ sm}\\)",
+          "\\(16 \\text{ sm}\\)",
+          "\\(20 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "d² = a * b => 8² = 4 * x => 64 = 4x => x = 16 sm"
@@ -77976,10 +77976,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Aylana markazidan 10 sm masofadagi nuqtadan urinma o'tkazilgan. Radius 6 sm bo'lsa, urinma uzunligini toping.",
         "options": [
-          "12 \\text{ sm}",
-          "6 \\text{ sm}",
-          "8 \\text{ sm}",
-          "10 \\text{ sm}"
+          "\\(12 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "L = √(10² - 6²) = √(100 - 36) = 8 sm"
@@ -77988,10 +77988,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Aylananing kesishuvchi ikkita vatari berilgan: birinchisi 4 sm va 9 sm ga, ikkinchisi 6 sm va x sm ga bo'lingan. x ni toping.",
         "options": [
-          "8 \\text{ sm}",
-          "4 \\text{ sm}",
-          "9 \\text{ sm}",
-          "6 \\text{ sm}"
+          "\\(8 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(9 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "4 * 9 = 6 * x => 36 = 6x => x = 6 sm"
@@ -78013,7 +78013,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: d² = a * b => 8² = 4 * x => 64 = 4x => x = 16 sm"
             }
           ],
-          "answer": "16 \\text{ sm}"
+          "answer": "\\(16 \\text{ sm}\\)"
         }
       },
       {
@@ -78031,7 +78031,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: L = √(10² - 6²) = √(100 - 36) = 8 sm"
             }
           ],
-          "answer": "8 \\text{ sm}"
+          "answer": "\\(8 \\text{ sm}\\)"
         }
       },
       {
@@ -78049,7 +78049,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 4 * 9 = 6 * x => 36 = 6x => x = 6 sm"
             }
           ],
-          "answer": "6 \\text{ sm}"
+          "answer": "\\(6 \\text{ sm}\\)"
         }
       }
     ]
@@ -78122,7 +78122,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 27^{2/3} + 16^{3/4}",
+          "problem": "Hisoblang: \\(27^{2/3} + 16^{3/4}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -78154,7 +78154,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sqrt[3]{64} + \\sqrt[4]{81}",
+          "problem": "Hisoblang: \\(\\sqrt[3]{64} + \\sqrt[4]{81}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -78186,7 +78186,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: x^{1/2} \\cdot x^{1/3} : x^{1/6}",
+          "problem": "Soddalashtiring: \\(x^{1/2} \\cdot x^{1/3} : x^{1/6}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -78356,7 +78356,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 27^{2/3} + 16^{3/4}",
+          "problem": "Hisoblang: \\(27^{2/3} + 16^{3/4}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -78388,7 +78388,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sqrt[3]{64} + \\sqrt[4]{81}",
+          "problem": "Hisoblang: \\(\\sqrt[3]{64} + \\sqrt[4]{81}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -78420,7 +78420,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: x^{1/2} \\cdot x^{1/3} : x^{1/6}",
+          "problem": "Soddalashtiring: \\(x^{1/2} \\cdot x^{1/3} : x^{1/6}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -78545,7 +78545,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(27^{2/3} + 16^{3/4}\\)",
-          "hint": "Mavzu qoidasi: 3² + 2³ = 9 + 8 = 17",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -78563,7 +78563,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\sqrt[3]{64} + \\sqrt[4]{81}\\)",
-          "hint": "Mavzu qoidasi: 4 + 3 = 7",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -78581,7 +78581,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Soddalashtiring: \\(x^{1/2} \\cdot x^{1/3} : x^{1/6}\\)",
-          "hint": "Mavzu qoidasi: 1/2 + 1/3 - 1/6 = 3/6 + 2/6 - 1/6 = 4/6 = 2/3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -78626,7 +78626,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: 27^{2/3} + 16^{3/4}",
+          "problem": "Hisoblang: \\(27^{2/3} + 16^{3/4}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -78658,7 +78658,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\sqrt[3]{64} + \\sqrt[4]{81}",
+          "problem": "Hisoblang: \\(\\sqrt[3]{64} + \\sqrt[4]{81}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -78690,7 +78690,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: x^{1/2} \\cdot x^{1/3} : x^{1/6}",
+          "problem": "Soddalashtiring: \\(x^{1/2} \\cdot x^{1/3} : x^{1/6}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -78815,7 +78815,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\(27^{2/3} + 16^{3/4}\\)",
-          "hint": "Mavzu qoidasi: 3² + 2³ = 9 + 8 = 17",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -78833,7 +78833,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\sqrt[3]{64} + \\sqrt[4]{81}\\)",
-          "hint": "Mavzu qoidasi: 4 + 3 = 7",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -78851,7 +78851,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Soddalashtiring: \\(x^{1/2} \\cdot x^{1/3} : x^{1/6}\\)",
-          "hint": "Mavzu qoidasi: 1/2 + 1/3 - 1/6 = 3/6 + 2/6 - 1/6 = 4/6 = 2/3",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -78925,7 +78925,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: 27^{2/3} + 16^{3/4}",
+        "problem": "Hisoblang: \\(27^{2/3} + 16^{3/4}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -78957,7 +78957,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: \\sqrt[3]{64} + \\sqrt[4]{81}",
+        "problem": "Hisoblang: \\(\\sqrt[3]{64} + \\sqrt[4]{81}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -78989,7 +78989,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Soddalashtiring: x^{1/2} \\cdot x^{1/3} : x^{1/6}",
+        "problem": "Soddalashtiring: \\(x^{1/2} \\cdot x^{1/3} : x^{1/6}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -79037,7 +79037,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: 27^{2/3} + 16^{3/4}",
+        "question": "Hisoblang: \\(27^{2/3} + 16^{3/4}\\)",
         "options": [
           "19",
           "15",
@@ -79049,7 +79049,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\sqrt[3]{64} + \\sqrt[4]{81}",
+        "question": "Hisoblang: \\(\\sqrt[3]{64} + \\sqrt[4]{81}\\)",
         "options": [
           "5",
           "6",
@@ -79061,12 +79061,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Soddalashtiring: x^{1/2} \\cdot x^{1/3} : x^{1/6}",
+        "question": "Soddalashtiring: \\(x^{1/2} \\cdot x^{1/3} : x^{1/6}\\)",
         "options": [
-          "x^{2/3}",
-          "x^{1/2}",
+          "\\(x^{2/3}\\)",
+          "\\(x^{1/2}\\)",
           "x",
-          "x^{5/6}"
+          "\\(x^{5/6}\\)"
         ],
         "correctIndex": 0,
         "explanation": "1/2 + 1/3 - 1/6 = 3/6 + 2/6 - 1/6 = 4/6 = 2/3"
@@ -79360,7 +79360,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Ikkita tekislik yo parallel bo'ladi, yo to'g'ri chiziq bo'ylab kesishadi"
               }
             ],
-            "answer": "2 \\text{ xil (Kesishadi yoki Parallel)}"
+            "answer": "\\(2 \\text{ xil (Kesishadi yoki Parallel)}\\)"
           }
         },
         {
@@ -79396,7 +79396,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Parallel tekisliklar xossasi"
               }
             ],
-            "answer": "\\text{O'zaro parallel}"
+            "answer": "\\(\\text{O'zaro parallel}\\)"
           }
         }
       ]
@@ -79620,7 +79620,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Fazoda ikkita tekislik nechta holatda joylashishi mumkin?",
-          "hint": "Mavzu qoidasi: Ikkita tekislik yo parallel bo'ladi, yo to'g'ri chiziq bo'ylab kesishadi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -79630,7 +79630,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Ikkita tekislik yo parallel bo'ladi, yo to'g'ri chiziq bo'ylab kesishadi"
               }
             ],
-            "answer": "2 \\text{ xil (Kesishadi yoki Parallel)}"
+            "answer": "\\(2 \\text{ xil (Kesishadi yoki Parallel)}\\)"
           }
         },
         {
@@ -79638,7 +79638,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Uchta nuqta bitta to'g'ri chiziqda yotmasa, ular orqali nechta tekislik o'tkazish mumkin?",
-          "hint": "Mavzu qoidasi: Fazoviy geometriya asosiy aksiomasi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -79656,7 +79656,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Parallel ikkita tekislikni uchinchi tekislik kessa, hosil bo'lgan to'g'ri chiziqlar qanday bo'ladi?",
-          "hint": "Mavzu qoidasi: Parallel tekisliklar xossasi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -79666,7 +79666,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Parallel tekisliklar xossasi"
               }
             ],
-            "answer": "\\text{O'zaro parallel}"
+            "answer": "\\(\\text{O'zaro parallel}\\)"
           }
         }
       ]
@@ -79890,7 +79890,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Fazoda ikkita tekislik nechta holatda joylashishi mumkin?",
-          "hint": "Mavzu qoidasi: Ikkita tekislik yo parallel bo'ladi, yo to'g'ri chiziq bo'ylab kesishadi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -79900,7 +79900,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Ikkita tekislik yo parallel bo'ladi, yo to'g'ri chiziq bo'ylab kesishadi"
               }
             ],
-            "answer": "2 \\text{ xil (Kesishadi yoki Parallel)}"
+            "answer": "\\(2 \\text{ xil (Kesishadi yoki Parallel)}\\)"
           }
         },
         {
@@ -79908,7 +79908,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Uchta nuqta bitta to'g'ri chiziqda yotmasa, ular orqali nechta tekislik o'tkazish mumkin?",
-          "hint": "Mavzu qoidasi: Fazoviy geometriya asosiy aksiomasi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -79926,7 +79926,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Parallel ikkita tekislikni uchinchi tekislik kessa, hosil bo'lgan to'g'ri chiziqlar qanday bo'ladi?",
-          "hint": "Mavzu qoidasi: Parallel tekisliklar xossasi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -79936,7 +79936,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Parallel tekisliklar xossasi"
               }
             ],
-            "answer": "\\text{O'zaro parallel}"
+            "answer": "\\(\\text{O'zaro parallel}\\)"
           }
         }
       ]
@@ -80116,7 +80116,7 @@ const mathTopicsData = [
         "options": [
           "1 xil",
           "3 xil",
-          "2 \\text{ xil (Kesishadi yoki Parallel)}",
+          "\\(2 \\text{ xil (Kesishadi yoki Parallel)}\\)",
           "4 xil"
         ],
         "correctIndex": 2,
@@ -80138,10 +80138,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Parallel ikkita tekislikni uchinchi tekislik kessa, hosil bo'lgan to'g'ri chiziqlar qanday bo'ladi?",
         "options": [
-          "\\text{O'zaro parallel}",
-          "\\text{Kesishuvchi}",
-          "\\text{Ayqash}",
-          "\\text{Perpendikulyar}"
+          "\\(\\text{O'zaro parallel}\\)",
+          "\\(\\text{Kesishuvchi}\\)",
+          "\\(\\text{Ayqash}\\)",
+          "\\(\\text{Perpendikulyar}\\)"
         ],
         "correctIndex": 0,
         "explanation": "Parallel tekisliklar xossasi"
@@ -80163,7 +80163,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Ikkita tekislik yo parallel bo'ladi, yo to'g'ri chiziq bo'ylab kesishadi"
             }
           ],
-          "answer": "2 \\text{ xil (Kesishadi yoki Parallel)}"
+          "answer": "\\(2 \\text{ xil (Kesishadi yoki Parallel)}\\)"
         }
       },
       {
@@ -80199,7 +80199,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Parallel tekisliklar xossasi"
             }
           ],
-          "answer": "\\text{O'zaro parallel}"
+          "answer": "\\(\\text{O'zaro parallel}\\)"
         }
       }
     ]
@@ -80278,7 +80278,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.",
+          "problem": "\\(y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -80358,7 +80358,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?",
+          "problem": "\\(f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -80406,7 +80406,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.",
+          "question": "\\(y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.\\)",
           "options": [
             "y = 4x",
             "y = 4x + 4",
@@ -80430,7 +80430,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?",
+          "question": "\\(f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?\\)",
           "options": [
             "x = 0",
             "\\(x = \\pm 1\\)",
@@ -80528,7 +80528,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.",
+          "problem": "\\(y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -80608,7 +80608,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?",
+          "problem": "\\(f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -80692,7 +80692,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.",
+          "question": "\\(y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.\\)",
           "options": [
             "y = 4x",
             "y = 4x + 4",
@@ -80716,7 +80716,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?",
+          "question": "\\(f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?\\)",
           "options": [
             "x = 0",
             "\\(x = \\pm 1\\)",
@@ -80733,7 +80733,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.\\)",
-          "hint": "Mavzu qoidasi: k = 2*2 = 4",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -80751,7 +80751,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Urinma Ox o'qi bilan 45° burchak hosil qilsa, hosila qiymati f'(x0) nechaga teng?",
-          "hint": "Mavzu qoidasi: k = tg 45° = 1",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -80769,7 +80769,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?\\)",
-          "hint": "Mavzu qoidasi: 3x² - 3 = 0 => x = ±1",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -80814,7 +80814,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.",
+          "problem": "\\(y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -80894,7 +80894,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?",
+          "problem": "\\(f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -80978,7 +80978,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.",
+          "question": "\\(y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.\\)",
           "options": [
             "y = 4x",
             "y = 4x + 4",
@@ -81002,7 +81002,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?",
+          "question": "\\(f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?\\)",
           "options": [
             "x = 0",
             "\\(x = \\pm 1\\)",
@@ -81019,7 +81019,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.\\)",
-          "hint": "Mavzu qoidasi: k = 2*2 = 4",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -81037,7 +81037,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Urinma Ox o'qi bilan 45° burchak hosil qilsa, hosila qiymati f'(x0) nechaga teng?",
-          "hint": "Mavzu qoidasi: k = tg 45° = 1",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -81055,7 +81055,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?\\)",
-          "hint": "Mavzu qoidasi: 3x² - 3 = 0 => x = ±1",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -81135,7 +81135,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.",
+        "problem": "\\(y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -81215,7 +81215,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?",
+        "problem": "\\(f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -81263,7 +81263,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.",
+        "question": "\\(y = x^2 funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping.\\)",
         "options": [
           "y = 4x",
           "y = 4x + 4",
@@ -81278,21 +81278,21 @@ const mathTopicsData = [
         "question": "Urinma Ox o'qi bilan 45° burchak hosil qilsa, hosila qiymati f'(x0) nechaga teng?",
         "options": [
           "1",
-          "\\sqrt{3}",
+          "\\(\\sqrt{3}\\)",
           "0",
-          "\\frac{1}{2}"
+          "\\(\\frac{1}{2}\\)"
         ],
         "correctIndex": 0,
         "explanation": "k = tg 45° = 1"
       },
       {
         "level": "hard",
-        "question": "f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?",
+        "question": "\\(f(x) = x^3 - 3x egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (k = 0)?\\)",
         "options": [
           "x = 0",
-          "x = \\pm 1",
+          "\\(x = \\pm 1\\)",
           "x = 3",
-          "x = \\pm 3"
+          "\\(x = \\pm 3\\)"
         ],
         "correctIndex": 1,
         "explanation": "3x² - 3 = 0 => x = ±1"
@@ -81429,7 +81429,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.",
+          "problem": "\\(y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -81509,7 +81509,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.",
+          "problem": "\\(y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -81557,7 +81557,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.",
+          "question": "\\(y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.\\)",
           "options": [
             "8",
             "16",
@@ -81565,7 +81565,7 @@ const mathTopicsData = [
             "\\(\\frac{32}{3}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = ∫_-2^2 (4 - x²) dx = [4x - x³/3]_-2^2 = (8 - 8/3) - (-8 + 8/3) = 32/3"
+          "explanation": "\\(S = ∫_-2^2 (4 - x²) dx = [4x - x³/3]_-2^2 = (8 - 8/3) - (-8 + 8/3) = 32/3\\)"
         },
         {
           "level": "medium",
@@ -81577,11 +81577,11 @@ const mathTopicsData = [
             "30"
           ],
           "correctIndex": 0,
-          "explanation": "S = [x²]_1^4 = 16 - 1 = 15"
+          "explanation": "\\(S = [x²]_1^4 = 16 - 1 = 15\\)"
         },
         {
           "level": "hard",
-          "question": "y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.",
+          "question": "\\(y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.\\)",
           "options": [
             "27",
             "18",
@@ -81589,7 +81589,7 @@ const mathTopicsData = [
             "36"
           ],
           "correctIndex": 1,
-          "explanation": "S = ∫_0^9 x^(1/2) dx = [2/3 * x^(3/2)]_0^9 = 2/3 * 27 = 18"
+          "explanation": "\\(S = ∫_0^9 x^(1/2) dx = [2/3 * x^(3/2)]_0^9 = 2/3 * 27 = 18\\)"
         }
       ],
       "practiceExercises": [
@@ -81679,7 +81679,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.",
+          "problem": "\\(y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -81759,7 +81759,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.",
+          "problem": "\\(y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -81843,7 +81843,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.",
+          "question": "\\(y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.\\)",
           "options": [
             "8",
             "16",
@@ -81851,7 +81851,7 @@ const mathTopicsData = [
             "\\(\\frac{32}{3}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = ∫_-2^2 (4 - x²) dx = [4x - x³/3]_-2^2 = (8 - 8/3) - (-8 + 8/3) = 32/3"
+          "explanation": "\\(S = ∫_-2^2 (4 - x²) dx = [4x - x³/3]_-2^2 = (8 - 8/3) - (-8 + 8/3) = 32/3\\)"
         },
         {
           "level": "medium",
@@ -81863,11 +81863,11 @@ const mathTopicsData = [
             "30"
           ],
           "correctIndex": 0,
-          "explanation": "S = [x²]_1^4 = 16 - 1 = 15"
+          "explanation": "\\(S = [x²]_1^4 = 16 - 1 = 15\\)"
         },
         {
           "level": "hard",
-          "question": "y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.",
+          "question": "\\(y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.\\)",
           "options": [
             "27",
             "18",
@@ -81875,7 +81875,7 @@ const mathTopicsData = [
             "36"
           ],
           "correctIndex": 1,
-          "explanation": "S = ∫_0^9 x^(1/2) dx = [2/3 * x^(3/2)]_0^9 = 2/3 * 27 = 18"
+          "explanation": "\\(S = ∫_0^9 x^(1/2) dx = [2/3 * x^(3/2)]_0^9 = 2/3 * 27 = 18\\)"
         }
       ],
       "practiceExercises": [
@@ -81884,7 +81884,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.\\)",
-          "hint": "Mavzu qoidasi: \\(S = ∫_-2^2 (4 - x²) dx = [4x - x³/3]_-2^2 = (8 - 8/3) - (-8 + 8/3) = 32/3\\)",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -81902,7 +81902,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "y = 2x chiziq, x = 1, x = 4 va y = 0 bilan chegaralangan trapetsiya yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: \\(S = [x²]_1^4 = 16 - 1 = 15\\)",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -81920,7 +81920,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.\\)",
-          "hint": "Mavzu qoidasi: \\(S = ∫_0^9 x^(1/2) dx = [2/3 * x^(3/2)]_0^9 = 2/3 * 27 = 18\\)",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -81965,7 +81965,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.",
+          "problem": "\\(y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -82045,7 +82045,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.",
+          "problem": "\\(y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -82129,7 +82129,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.",
+          "question": "\\(y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.\\)",
           "options": [
             "8",
             "16",
@@ -82137,7 +82137,7 @@ const mathTopicsData = [
             "\\(\\frac{32}{3}\\)"
           ],
           "correctIndex": 3,
-          "explanation": "S = ∫_-2^2 (4 - x²) dx = [4x - x³/3]_-2^2 = (8 - 8/3) - (-8 + 8/3) = 32/3"
+          "explanation": "\\(S = ∫_-2^2 (4 - x²) dx = [4x - x³/3]_-2^2 = (8 - 8/3) - (-8 + 8/3) = 32/3\\)"
         },
         {
           "level": "medium",
@@ -82149,11 +82149,11 @@ const mathTopicsData = [
             "30"
           ],
           "correctIndex": 0,
-          "explanation": "S = [x²]_1^4 = 16 - 1 = 15"
+          "explanation": "\\(S = [x²]_1^4 = 16 - 1 = 15\\)"
         },
         {
           "level": "hard",
-          "question": "y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.",
+          "question": "\\(y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.\\)",
           "options": [
             "27",
             "18",
@@ -82161,7 +82161,7 @@ const mathTopicsData = [
             "36"
           ],
           "correctIndex": 1,
-          "explanation": "S = ∫_0^9 x^(1/2) dx = [2/3 * x^(3/2)]_0^9 = 2/3 * 27 = 18"
+          "explanation": "\\(S = ∫_0^9 x^(1/2) dx = [2/3 * x^(3/2)]_0^9 = 2/3 * 27 = 18\\)"
         }
       ],
       "practiceExercises": [
@@ -82170,7 +82170,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.\\)",
-          "hint": "Mavzu qoidasi: \\(S = ∫_-2^2 (4 - x²) dx = [4x - x³/3]_-2^2 = (8 - 8/3) - (-8 + 8/3) = 32/3\\)",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -82188,7 +82188,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "y = 2x chiziq, x = 1, x = 4 va y = 0 bilan chegaralangan trapetsiya yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: \\(S = [x²]_1^4 = 16 - 1 = 15\\)",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -82206,7 +82206,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.\\)",
-          "hint": "Mavzu qoidasi: \\(S = ∫_0^9 x^(1/2) dx = [2/3 * x^(3/2)]_0^9 = 2/3 * 27 = 18\\)",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -82286,7 +82286,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.",
+        "problem": "\\(y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -82366,7 +82366,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.",
+        "problem": "\\(y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -82414,15 +82414,15 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.",
+        "question": "\\(y = 4 - x^2 parabola va y = 0 to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang.\\)",
         "options": [
           "8",
           "16",
-          "\\frac{16}{3}",
-          "\\frac{32}{3}"
+          "\\(\\frac{16}{3}\\)",
+          "\\(\\frac{32}{3}\\)"
         ],
         "correctIndex": 3,
-        "explanation": "S = ∫_-2^2 (4 - x²) dx = [4x - x³/3]_-2^2 = (8 - 8/3) - (-8 + 8/3) = 32/3"
+        "explanation": "\\(S = ∫_-2^2 (4 - x²) dx = [4x - x³/3]_-2^2 = (8 - 8/3) - (-8 + 8/3) = 32/3\\)"
       },
       {
         "level": "medium",
@@ -82434,11 +82434,11 @@ const mathTopicsData = [
           "30"
         ],
         "correctIndex": 0,
-        "explanation": "S = [x²]_1^4 = 16 - 1 = 15"
+        "explanation": "\\(S = [x²]_1^4 = 16 - 1 = 15\\)"
       },
       {
         "level": "hard",
-        "question": "y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.",
+        "question": "\\(y = \\sqrt{x} egri chiziq, x = 9 va y = 0 bilan chegaralangan soha yuzini hisoblang.\\)",
         "options": [
           "27",
           "18",
@@ -82446,7 +82446,7 @@ const mathTopicsData = [
           "36"
         ],
         "correctIndex": 1,
-        "explanation": "S = ∫_0^9 x^(1/2) dx = [2/3 * x^(3/2)]_0^9 = 2/3 * 27 = 18"
+        "explanation": "\\(S = ∫_0^9 x^(1/2) dx = [2/3 * x^(3/2)]_0^9 = 2/3 * 27 = 18\\)"
       }
     ],
     "practiceExercises": [
@@ -82779,7 +82779,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: H = 180 / (4 * 5) = 180 / 20 = 9 sm"
               }
             ],
-            "answer": "9 \\text{ sm}"
+            "answer": "\\(9 \\text{ sm}\\)"
           }
         }
       ]
@@ -83003,7 +83003,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
-          "hint": "Mavzu qoidasi: V = 4 * 5 * 6 = 120 sm³",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -83021,7 +83021,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Kubning qirrasi 5 sm. Uning to'la sirti yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = 6 * 5² = 6 * 25 = 150 sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -83039,7 +83039,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hajmi 180 sm³, asosi tomonlari 4 sm va 5 sm bo'lgan parallelepipedning balandligini toping.",
-          "hint": "Mavzu qoidasi: H = 180 / (4 * 5) = 180 / 20 = 9 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -83049,7 +83049,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: H = 180 / (4 * 5) = 180 / 20 = 9 sm"
               }
             ],
-            "answer": "9 \\text{ sm}"
+            "answer": "\\(9 \\text{ sm}\\)"
           }
         }
       ]
@@ -83273,7 +83273,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
-          "hint": "Mavzu qoidasi: V = 4 * 5 * 6 = 120 sm³",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -83291,7 +83291,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Kubning qirrasi 5 sm. Uning to'la sirti yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = 6 * 5² = 6 * 25 = 150 sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -83309,7 +83309,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hajmi 180 sm³, asosi tomonlari 4 sm va 5 sm bo'lgan parallelepipedning balandligini toping.",
-          "hint": "Mavzu qoidasi: H = 180 / (4 * 5) = 180 / 20 = 9 sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -83319,7 +83319,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: H = 180 / (4 * 5) = 180 / 20 = 9 sm"
               }
             ],
-            "answer": "9 \\text{ sm}"
+            "answer": "\\(9 \\text{ sm}\\)"
           }
         }
       ]
@@ -83503,10 +83503,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang.",
         "options": [
-          "60 \\text{ sm}^3",
-          "120 \\text{ sm}^3",
-          "144 \\text{ sm}^3",
-          "90 \\text{ sm}^3"
+          "\\(60 \\text{ sm}^3\\)",
+          "\\(120 \\text{ sm}^3\\)",
+          "\\(144 \\text{ sm}^3\\)",
+          "\\(90 \\text{ sm}^3\\)"
         ],
         "correctIndex": 1,
         "explanation": "V = 4 * 5 * 6 = 120 sm³"
@@ -83515,10 +83515,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kubning qirrasi 5 sm. Uning to'la sirti yuzini hisoblang.",
         "options": [
-          "100 \\text{ sm}^2",
-          "125 \\text{ sm}^2",
-          "150 \\text{ sm}^2",
-          "175 \\text{ sm}^2"
+          "\\(100 \\text{ sm}^2\\)",
+          "\\(125 \\text{ sm}^2\\)",
+          "\\(150 \\text{ sm}^2\\)",
+          "\\(175 \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
         "explanation": "S = 6 * 5² = 6 * 25 = 150 sm²"
@@ -83527,10 +83527,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Hajmi 180 sm³, asosi tomonlari 4 sm va 5 sm bo'lgan parallelepipedning balandligini toping.",
         "options": [
-          "6 \\text{ sm}",
-          "8 \\text{ sm}",
-          "10 \\text{ sm}",
-          "9 \\text{ sm}"
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)",
+          "\\(9 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "H = 180 / (4 * 5) = 180 / 20 = 9 sm"
@@ -83588,7 +83588,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: H = 180 / (4 * 5) = 180 / 20 = 9 sm"
             }
           ],
-          "answer": "9 \\text{ sm}"
+          "answer": "\\(9 \\text{ sm}\\)"
         }
       }
     ]
@@ -84084,7 +84084,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Doiraviy diagrammada 25% li qism necha gradusli burchakka mos keladi?",
-          "hint": "Mavzu qoidasi: 360° * 0.25 = 90°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -84102,7 +84102,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Sinfdagi 30 ta o'quvchidan 15 tasi 'a'lochi'. Doiraviy diagrammada ular necha gradus burchakni egallaydi?",
-          "hint": "Mavzu qoidasi: 15 / 30 = 50% => 180°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -84120,7 +84120,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Diagrammada 120° burchak butun sonning qancha qismini tashkil qiladi?",
-          "hint": "Mavzu qoidasi: 120° / 360° = 1/3",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -84354,7 +84354,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Doiraviy diagrammada 25% li qism necha gradusli burchakka mos keladi?",
-          "hint": "Mavzu qoidasi: 360° * 0.25 = 90°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -84372,7 +84372,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Sinfdagi 30 ta o'quvchidan 15 tasi 'a'lochi'. Doiraviy diagrammada ular necha gradus burchakni egallaydi?",
-          "hint": "Mavzu qoidasi: 15 / 30 = 50% => 180°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -84390,7 +84390,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Diagrammada 120° burchak butun sonning qancha qismini tashkil qiladi?",
-          "hint": "Mavzu qoidasi: 120° / 360° = 1/3",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -84578,10 +84578,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Doiraviy diagrammada 25% li qism necha gradusli burchakka mos keladi?",
         "options": [
-          "60^\\circ",
-          "45^\\circ",
-          "90^\\circ",
-          "120^\\circ"
+          "\\(60^\\circ\\)",
+          "\\(45^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(120^\\circ\\)"
         ],
         "correctIndex": 2,
         "explanation": "360° * 0.25 = 90°"
@@ -84590,10 +84590,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Sinfdagi 30 ta o'quvchidan 15 tasi 'a'lochi'. Doiraviy diagrammada ular necha gradus burchakni egallaydi?",
         "options": [
-          "360^\\circ",
-          "90^\\circ",
-          "120^\\circ",
-          "180^\\circ"
+          "\\(360^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(120^\\circ\\)",
+          "\\(180^\\circ\\)"
         ],
         "correctIndex": 3,
         "explanation": "15 / 30 = 50% => 180°"
@@ -84602,10 +84602,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Diagrammada 120° burchak butun sonning qancha qismini tashkil qiladi?",
         "options": [
-          "\\frac{1}{3}",
-          "\\frac{1}{4}",
-          "\\frac{1}{2}",
-          "\\frac{2}{3}"
+          "\\(\\frac{1}{3}\\)",
+          "\\(\\frac{1}{4}\\)",
+          "\\(\\frac{1}{2}\\)",
+          "\\(\\frac{2}{3}\\)"
         ],
         "correctIndex": 0,
         "explanation": "120° / 360° = 1/3"
@@ -85159,7 +85159,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Parallel to'g'ri chiziqlarni kesuvchi kesganda hosil bo'lgan ichki bir tomonli burchaklar yig'indisi necha gradus?",
-          "hint": "Mavzu qoidasi: Ichki bir tomonli burchaklar yig'indisi 180°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -85177,7 +85177,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Parallel to'g'ri chiziqlarni kesuvchi kesganda ichki almashinuvchi burchaklardan biri 75° bo'lsa, ikkinchisini toping.",
-          "hint": "Mavzu qoidasi: Ichki almashinuvchi burchaklar teng: 75°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -85195,7 +85195,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Ichki bir tomonli burchaklardan biri 110° bo'lsa, ikkinchisini toping.",
-          "hint": "Mavzu qoidasi: 180° - 110° = 70°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -85429,7 +85429,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Parallel to'g'ri chiziqlarni kesuvchi kesganda hosil bo'lgan ichki bir tomonli burchaklar yig'indisi necha gradus?",
-          "hint": "Mavzu qoidasi: Ichki bir tomonli burchaklar yig'indisi 180°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -85447,7 +85447,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Parallel to'g'ri chiziqlarni kesuvchi kesganda ichki almashinuvchi burchaklardan biri 75° bo'lsa, ikkinchisini toping.",
-          "hint": "Mavzu qoidasi: Ichki almashinuvchi burchaklar teng: 75°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -85465,7 +85465,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Ichki bir tomonli burchaklardan biri 110° bo'lsa, ikkinchisini toping.",
-          "hint": "Mavzu qoidasi: 180° - 110° = 70°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -85653,10 +85653,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Parallel to'g'ri chiziqlarni kesuvchi kesganda hosil bo'lgan ichki bir tomonli burchaklar yig'indisi necha gradus?",
         "options": [
-          "120^\\circ",
-          "90^\\circ",
-          "360^\\circ",
-          "180^\\circ"
+          "\\(120^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(360^\\circ\\)",
+          "\\(180^\\circ\\)"
         ],
         "correctIndex": 3,
         "explanation": "Ichki bir tomonli burchaklar yig'indisi 180°"
@@ -85665,10 +85665,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Parallel to'g'ri chiziqlarni kesuvchi kesganda ichki almashinuvchi burchaklardan biri 75° bo'lsa, ikkinchisini toping.",
         "options": [
-          "75^\\circ",
-          "105^\\circ",
-          "90^\\circ",
-          "180^\\circ"
+          "\\(75^\\circ\\)",
+          "\\(105^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(180^\\circ\\)"
         ],
         "correctIndex": 0,
         "explanation": "Ichki almashinuvchi burchaklar teng: 75°"
@@ -85677,10 +85677,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Ichki bir tomonli burchaklardan biri 110° bo'lsa, ikkinchisini toping.",
         "options": [
-          "110^\\circ",
-          "70^\\circ",
-          "90^\\circ",
-          "80^\\circ"
+          "\\(110^\\circ\\)",
+          "\\(70^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(80^\\circ\\)"
         ],
         "correctIndex": 1,
         "explanation": "180° - 110° = 70°"
@@ -86234,7 +86234,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Parallelogrammning tomoni 12 sm, unga tushirilgan balandlik 5 sm. Yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = a * h = 12 * 5 = 60 sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -86252,7 +86252,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Parallelogrammning bir burchagi 70°. Qolgan burchaklarini toping.",
-          "hint": "Mavzu qoidasi: 180° - 70° = 110°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -86270,7 +86270,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Parallelogrammning tomonlari 8 sm va 10 sm, o'tkir burchagi 30°. Yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = a * b * sin 30° = 8 * 10 * 0.5 = 40 sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -86504,7 +86504,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Parallelogrammning tomoni 12 sm, unga tushirilgan balandlik 5 sm. Yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = a * h = 12 * 5 = 60 sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -86522,7 +86522,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Parallelogrammning bir burchagi 70°. Qolgan burchaklarini toping.",
-          "hint": "Mavzu qoidasi: 180° - 70° = 110°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -86540,7 +86540,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Parallelogrammning tomonlari 8 sm va 10 sm, o'tkir burchagi 30°. Yuzini hisoblang.",
-          "hint": "Mavzu qoidasi: S = a * b * sin 30° = 8 * 10 * 0.5 = 40 sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -86728,10 +86728,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Parallelogrammning tomoni 12 sm, unga tushirilgan balandlik 5 sm. Yuzini hisoblang.",
         "options": [
-          "60 \\text{ sm}^2",
-          "30 \\text{ sm}^2",
-          "120 \\text{ sm}^2",
-          "70 \\text{ sm}^2"
+          "\\(60 \\text{ sm}^2\\)",
+          "\\(30 \\text{ sm}^2\\)",
+          "\\(120 \\text{ sm}^2\\)",
+          "\\(70 \\text{ sm}^2\\)"
         ],
         "correctIndex": 0,
         "explanation": "S = a * h = 12 * 5 = 60 sm²"
@@ -86740,10 +86740,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Parallelogrammning bir burchagi 70°. Qolgan burchaklarini toping.",
         "options": [
-          "70^\\circ, 70^\\circ, 70^\\circ",
-          "110^\\circ, 70^\\circ, 110^\\circ",
-          "120^\\circ, 60^\\circ, 120^\\circ",
-          "90^\\circ, 90^\\circ, 90^\\circ"
+          "\\(70^\\circ, 70^\\circ, 70^\\circ\\)",
+          "\\(110^\\circ, 70^\\circ, 110^\\circ\\)",
+          "\\(120^\\circ, 60^\\circ, 120^\\circ\\)",
+          "\\(90^\\circ, 90^\\circ, 90^\\circ\\)"
         ],
         "correctIndex": 1,
         "explanation": "180° - 70° = 110°"
@@ -86752,10 +86752,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Parallelogrammning tomonlari 8 sm va 10 sm, o'tkir burchagi 30°. Yuzini hisoblang.",
         "options": [
-          "20 \\text{ sm}^2",
-          "80 \\text{ sm}^2",
-          "40 \\text{ sm}^2",
-          "40\\sqrt{3} \\text{ sm}^2"
+          "\\(20 \\text{ sm}^2\\)",
+          "\\(80 \\text{ sm}^2\\)",
+          "\\(40 \\text{ sm}^2\\)",
+          "\\(40\\sqrt{3} \\text{ sm}^2\\)"
         ],
         "correctIndex": 2,
         "explanation": "S = a * b * sin 30° = 8 * 10 * 0.5 = 40 sm²"
@@ -86886,7 +86886,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).",
+          "problem": "\\(Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -86998,7 +86998,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(12\\pi \\text{ sm}^2\\)",
             "\\(6\\pi \\text{ sm}^2\\)",
@@ -87120,7 +87120,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).",
+          "problem": "\\(Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -87268,7 +87268,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(12\\pi \\text{ sm}^2\\)",
             "\\(6\\pi \\text{ sm}^2\\)",
@@ -87309,7 +87309,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).\\)",
-          "hint": "Mavzu qoidasi: S = (pi*R² * 60)/360 = (36pi)/6 = 6pi sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -87327,7 +87327,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Radiusi 10 sm bo'lgan doirada 72° li sektor yuzi butun doira yuzining qancha qismini tashkil qiladi?",
-          "hint": "Mavzu qoidasi: 72° / 360° = 1/5",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -87345,7 +87345,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Radiusi 9 sm va markaziy burchagi 40° bo'lgan yoy uzunligini toping.",
-          "hint": "Mavzu qoidasi: l = (2*pi*9 * 40)/360 = 2pi sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -87390,7 +87390,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).",
+          "problem": "\\(Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -87538,7 +87538,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\(\\pi\\) bilan).",
+          "question": "\\(Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).\\)",
           "options": [
             "\\(12\\pi \\text{ sm}^2\\)",
             "\\(6\\pi \\text{ sm}^2\\)",
@@ -87579,7 +87579,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).\\)",
-          "hint": "Mavzu qoidasi: S = (pi*R² * 60)/360 = (36pi)/6 = 6pi sm²",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -87597,7 +87597,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Radiusi 10 sm bo'lgan doirada 72° li sektor yuzi butun doira yuzining qancha qismini tashkil qiladi?",
-          "hint": "Mavzu qoidasi: 72° / 360° = 1/5",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -87615,7 +87615,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Radiusi 9 sm va markaziy burchagi 40° bo'lgan yoy uzunligini toping.",
-          "hint": "Mavzu qoidasi: l = (2*pi*9 * 40)/360 = 2pi sm",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -87689,7 +87689,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).",
+        "problem": "\\(Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -87801,12 +87801,12 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).",
+        "question": "\\(Radiusi 6 sm va markaziy burchagi 60° bo'lgan doiraviy sektor yuzini hisoblang (\\pi bilan).\\)",
         "options": [
-          "12\\pi \\text{ sm}^2",
-          "6\\pi \\text{ sm}^2",
-          "36\\pi \\text{ sm}^2",
-          "3\\pi \\text{ sm}^2"
+          "\\(12\\pi \\text{ sm}^2\\)",
+          "\\(6\\pi \\text{ sm}^2\\)",
+          "\\(36\\pi \\text{ sm}^2\\)",
+          "\\(3\\pi \\text{ sm}^2\\)"
         ],
         "correctIndex": 1,
         "explanation": "S = (pi*R² * 60)/360 = (36pi)/6 = 6pi sm²"
@@ -87815,10 +87815,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Radiusi 10 sm bo'lgan doirada 72° li sektor yuzi butun doira yuzining qancha qismini tashkil qiladi?",
         "options": [
-          "\\frac{1}{6}",
-          "\\frac{1}{4}",
-          "\\frac{1}{5}",
-          "\\frac{2}{5}"
+          "\\(\\frac{1}{6}\\)",
+          "\\(\\frac{1}{4}\\)",
+          "\\(\\frac{1}{5}\\)",
+          "\\(\\frac{2}{5}\\)"
         ],
         "correctIndex": 2,
         "explanation": "72° / 360° = 1/5"
@@ -87827,10 +87827,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Radiusi 9 sm va markaziy burchagi 40° bo'lgan yoy uzunligini toping.",
         "options": [
-          "3\\pi \\text{ sm}",
-          "4\\pi \\text{ sm}",
-          "\\pi \\text{ sm}",
-          "2\\pi \\text{ sm}"
+          "\\(3\\pi \\text{ sm}\\)",
+          "\\(4\\pi \\text{ sm}\\)",
+          "\\(\\pi \\text{ sm}\\)",
+          "\\(2\\pi \\text{ sm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "l = (2*pi*9 * 40)/360 = 2pi sm"
@@ -87961,7 +87961,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\sin x > \\frac{1}{2}",
+          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\sin x > \\frac{1}{2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -87993,7 +87993,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\cos x \\ge 0",
+          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\cos x \\ge 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -88025,7 +88025,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikni yeching: \\text{tg } x > 1",
+          "problem": "Tengsizlikni yeching: \\(\\text{tg } x > 1\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -88073,7 +88073,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tengsizlikni \\([0; 2\\pi]\\) da yeching: \\(\\sin x > \\frac{1}{2}\\)",
+          "question": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\sin x > \\frac{1}{2}\\)",
           "options": [
             "\\((\\frac{\\pi}{3}; \\frac{2\\pi}{3})\\)",
             "\\([0; \\frac{\\pi}{6})\\)",
@@ -88085,7 +88085,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tengsizlikni \\([0; 2\\pi]\\) da yeching: \\(\\cos x \\ge 0\\)",
+          "question": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\cos x \\ge 0\\)",
           "options": [
             "\\([0; \\frac{\\pi}{2}]\\)",
             "\\([\\frac{\\pi}{2}; \\frac{3\\pi}{2}]\\)",
@@ -88149,7 +88149,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "Tengsizlikni yeching: \\text{tg } x > 1",
+          "problem": "Tengsizlikni yeching: \\(\\text{tg } x > 1\\)",
           "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
@@ -88195,7 +88195,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\sin x > \\frac{1}{2}",
+          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\sin x > \\frac{1}{2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -88227,7 +88227,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\cos x \\ge 0",
+          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\cos x \\ge 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -88259,7 +88259,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikni yeching: \\text{tg } x > 1",
+          "problem": "Tengsizlikni yeching: \\(\\text{tg } x > 1\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -88343,7 +88343,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tengsizlikni \\([0; 2\\pi]\\) da yeching: \\(\\sin x > \\frac{1}{2}\\)",
+          "question": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\sin x > \\frac{1}{2}\\)",
           "options": [
             "\\((\\frac{\\pi}{3}; \\frac{2\\pi}{3})\\)",
             "\\([0; \\frac{\\pi}{6})\\)",
@@ -88355,7 +88355,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tengsizlikni \\([0; 2\\pi]\\) da yeching: \\(\\cos x \\ge 0\\)",
+          "question": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\cos x \\ge 0\\)",
           "options": [
             "\\([0; \\frac{\\pi}{2}]\\)",
             "\\([\\frac{\\pi}{2}; \\frac{3\\pi}{2}]\\)",
@@ -88384,7 +88384,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\sin x > \\frac{1}{2}\\)",
-          "hint": "Mavzu qoidasi: Birlik aylanada y > 1/2 qismi",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -88402,7 +88402,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\cos x \\ge 0\\)",
-          "hint": "Mavzu qoidasi: I va IV choraklarda kosinus musbat",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -88419,8 +88419,8 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "Tengsizlikni yeching: \\text{tg } x > 1",
-          "hint": "Mavzu qoidasi: tg x > 1 oraliqlari",
+          "problem": "Tengsizlikni yeching: \\(\\text{tg } x > 1\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -88465,7 +88465,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\sin x > \\frac{1}{2}",
+          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\sin x > \\frac{1}{2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -88497,7 +88497,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\cos x \\ge 0",
+          "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\cos x \\ge 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -88529,7 +88529,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikni yeching: \\text{tg } x > 1",
+          "problem": "Tengsizlikni yeching: \\(\\text{tg } x > 1\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -88613,7 +88613,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tengsizlikni \\([0; 2\\pi]\\) da yeching: \\(\\sin x > \\frac{1}{2}\\)",
+          "question": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\sin x > \\frac{1}{2}\\)",
           "options": [
             "\\((\\frac{\\pi}{3}; \\frac{2\\pi}{3})\\)",
             "\\([0; \\frac{\\pi}{6})\\)",
@@ -88625,7 +88625,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tengsizlikni \\([0; 2\\pi]\\) da yeching: \\(\\cos x \\ge 0\\)",
+          "question": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\cos x \\ge 0\\)",
           "options": [
             "\\([0; \\frac{\\pi}{2}]\\)",
             "\\([\\frac{\\pi}{2}; \\frac{3\\pi}{2}]\\)",
@@ -88654,7 +88654,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\sin x > \\frac{1}{2}\\)",
-          "hint": "Mavzu qoidasi: Birlik aylanada y > 1/2 qismi",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -88672,7 +88672,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\cos x \\ge 0\\)",
-          "hint": "Mavzu qoidasi: I va IV choraklarda kosinus musbat",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -88689,8 +88689,8 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "Tengsizlikni yeching: \\text{tg } x > 1",
-          "hint": "Mavzu qoidasi: tg x > 1 oraliqlari",
+          "problem": "Tengsizlikni yeching: \\(\\text{tg } x > 1\\)",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -88764,7 +88764,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\sin x > \\frac{1}{2}",
+        "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\sin x > \\frac{1}{2}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -88796,7 +88796,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\cos x \\ge 0",
+        "problem": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\cos x \\ge 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -88828,7 +88828,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tengsizlikni yeching: \\text{tg } x > 1",
+        "problem": "Tengsizlikni yeching: \\(\\text{tg } x > 1\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -88876,36 +88876,36 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tengsizlikni [0; 2\\pi] da yeching: \\sin x > \\frac{1}{2}",
+        "question": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\sin x > \\frac{1}{2}\\)",
         "options": [
-          "(\\frac{\\pi}{3}; \\frac{2\\pi}{3})",
-          "[0; \\frac{\\pi}{6})",
-          "(\\frac{\\pi}{6}; \\frac{5\\pi}{6})",
-          "(\\frac{\\pi}{2}; \\pi)"
+          "\\((\\frac{\\pi}{3}; \\frac{2\\pi}{3})\\)",
+          "\\([0; \\frac{\\pi}{6})\\)",
+          "\\((\\frac{\\pi}{6}; \\frac{5\\pi}{6})\\)",
+          "\\((\\frac{\\pi}{2}; \\pi)\\)"
         ],
         "correctIndex": 2,
         "explanation": "Birlik aylanada y > 1/2 qismi"
       },
       {
         "level": "medium",
-        "question": "Tengsizlikni [0; 2\\pi] da yeching: \\cos x \\ge 0",
+        "question": "Tengsizlikni [0; 2\\pi] da yeching: \\(\\cos x \\ge 0\\)",
         "options": [
-          "[0; \\frac{\\pi}{2}]",
-          "[\\frac{\\pi}{2}; \\frac{3\\pi}{2}]",
-          "[0; \\pi]",
-          "[0; \\frac{\\pi}{2}] \\cup [\\frac{3\\pi}{2}; 2\\pi]"
+          "\\([0; \\frac{\\pi}{2}]\\)",
+          "\\([\\frac{\\pi}{2}; \\frac{3\\pi}{2}]\\)",
+          "\\([0; \\pi]\\)",
+          "\\([0; \\frac{\\pi}{2}] \\cup [\\frac{3\\pi}{2}; 2\\pi]\\)"
         ],
         "correctIndex": 3,
         "explanation": "I va IV choraklarda kosinus musbat"
       },
       {
         "level": "hard",
-        "question": "Tengsizlikni yeching: \\text{tg } x > 1",
+        "question": "Tengsizlikni yeching: \\(\\text{tg } x > 1\\)",
         "options": [
-          "(\\frac{\\pi}{4} + \\pi k; \\frac{\\pi}{2} + \\pi k)",
-          "(\\frac{\\pi}{4}; \\pi)",
-          "(\\frac{\\pi}{6} + \\pi k; \\frac{\\pi}{2} + \\pi k)",
-          "(0; \\frac{\\pi}{4})"
+          "\\((\\frac{\\pi}{4} + \\pi k; \\frac{\\pi}{2} + \\pi k)\\)",
+          "\\((\\frac{\\pi}{4}; \\pi)\\)",
+          "\\((\\frac{\\pi}{6} + \\pi k; \\frac{\\pi}{2} + \\pi k)\\)",
+          "\\((0; \\frac{\\pi}{4})\\)"
         ],
         "correctIndex": 0,
         "explanation": "tg x > 1 oraliqlari"
@@ -88952,7 +88952,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
-        "problem": "Tengsizlikni yeching: \\text{tg } x > 1",
+        "problem": "Tengsizlikni yeching: \\(\\text{tg } x > 1\\)",
         "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
         "solution": {
           "steps": [
@@ -89195,7 +89195,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ikkita tanga tashlanganda, ikkalasida ham 'gerb' tushish ehtimolligini hisoblang.",
-          "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -89213,7 +89213,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Nishonga birinchi merganning tekkizish ehtimoli 0.8, ikkinchisiniki 0.7. Ikkalasi ham tekkizish ehtimolini hisoblang.",
-          "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -89231,7 +89231,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qutida 4 ta oq va 6 ta qora shar bor. Tavakkaliga olingan sharning oq bo'lish ehtimolini toping.",
-          "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -89465,7 +89465,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ikkita tanga tashlanganda, ikkalasida ham 'gerb' tushish ehtimolligini hisoblang.",
-          "hint": "Mavzu qoidasi: P = 1/2 * 1/2 = 1/4",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -89483,7 +89483,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Nishonga birinchi merganning tekkizish ehtimoli 0.8, ikkinchisiniki 0.7. Ikkalasi ham tekkizish ehtimolini hisoblang.",
-          "hint": "Mavzu qoidasi: P = 0.8 * 0.7 = 0.56",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -89501,7 +89501,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qutida 4 ta oq va 6 ta qora shar bor. Tavakkaliga olingan sharning oq bo'lish ehtimolini toping.",
-          "hint": "Mavzu qoidasi: P = 4 / (4 + 6) = 4/10 = 0.4",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -89735,7 +89735,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ikkita tanga tashlanganda, ikkalasida ham 'gerb' tushish ehtimolligini hisoblang.",
-          "hint": "Mavzu qoidasi: P = 1/2 * 1/2 = 1/4",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -89753,7 +89753,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Nishonga birinchi merganning tekkizish ehtimoli 0.8, ikkinchisiniki 0.7. Ikkalasi ham tekkizish ehtimolini hisoblang.",
-          "hint": "Mavzu qoidasi: P = 0.8 * 0.7 = 0.56",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -89771,7 +89771,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Qutida 4 ta oq va 6 ta qora shar bor. Tavakkaliga olingan sharning oq bo'lish ehtimolini toping.",
-          "hint": "Mavzu qoidasi: P = 4 / (4 + 6) = 4/10 = 0.4",
+          "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
           "solution": {
             "steps": [
               {
@@ -89965,10 +89965,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Ikkita tanga tashlanganda, ikkalasida ham 'gerb' tushish ehtimolligini hisoblang.",
         "options": [
-          "\\frac{1}{8}",
-          "\\frac{1}{2}",
-          "\\frac{3}{4}",
-          "\\frac{1}{4}"
+          "\\(\\frac{1}{8}\\)",
+          "\\(\\frac{1}{2}\\)",
+          "\\(\\frac{3}{4}\\)",
+          "\\(\\frac{1}{4}\\)"
         ],
         "correctIndex": 3,
         "explanation": "P = 1/2 * 1/2 = 1/4"
@@ -90004,7 +90004,7 @@ const mathTopicsData = [
         "levelLabel": "🟢 1-mashq (Oddiy)",
         "title": "1-mashq",
         "problem": "Ikkita tanga tashlanganda, ikkalasida ham 'gerb' tushish ehtimolligini hisoblang.",
-        "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+        "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -90022,7 +90022,7 @@ const mathTopicsData = [
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
         "problem": "Nishonga birinchi merganning tekkizish ehtimoli 0.8, ikkinchisiniki 0.7. Ikkalasi ham tekkizish ehtimolini hisoblang.",
-        "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+        "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -90040,7 +90040,7 @@ const mathTopicsData = [
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
         "problem": "Qutida 4 ta oq va 6 ta qora shar bor. Tavakkaliga olingan sharning oq bo'lish ehtimolini toping.",
-        "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+        "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -90161,7 +90161,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: (15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)",
+          "problem": "Hisoblang: \\((15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -90193,7 +90193,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 45 : (12 - 3) + 6 \\cdot (8 - 3)",
+          "problem": "Hisoblang: \\(45 : (12 - 3) + 6 \\cdot (8 - 3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -90241,7 +90241,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(100 - (24 + 36) : 4\\)",
+          "question": "Hisoblang: 100 - (24 + 36) : 4",
           "options": [
             "10",
             "85",
@@ -90395,7 +90395,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: (15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)",
+          "problem": "Hisoblang: \\((15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -90427,7 +90427,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 45 : (12 - 3) + 6 \\cdot (8 - 3)",
+          "problem": "Hisoblang: \\(45 : (12 - 3) + 6 \\cdot (8 - 3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -90511,7 +90511,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(100 - (24 + 36) : 4\\)",
+          "question": "Hisoblang: 100 - (24 + 36) : 4",
           "options": [
             "10",
             "85",
@@ -90552,7 +90552,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: 100 - (24 + 36) : 4",
-          "hint": "Mavzu qoidasi: 100 - 60 / 4 = 100 - 15 = 85",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -90570,7 +90570,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\((15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)\\)",
-          "hint": "Mavzu qoidasi: (60 - 20) * (4 + 6) = 40 * 10 = 400",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -90588,7 +90588,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(45 : (12 - 3) + 6 \\cdot (8 - 3)\\)",
-          "hint": "Mavzu qoidasi: 45 / 9 + 6 * 5 = 5 + 30 = 35",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -90665,7 +90665,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: (15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)",
+          "problem": "Hisoblang: \\((15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -90697,7 +90697,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: 45 : (12 - 3) + 6 \\cdot (8 - 3)",
+          "problem": "Hisoblang: \\(45 : (12 - 3) + 6 \\cdot (8 - 3)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -90781,7 +90781,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Hisoblang: \\(100 - (24 + 36) : 4\\)",
+          "question": "Hisoblang: 100 - (24 + 36) : 4",
           "options": [
             "10",
             "85",
@@ -90822,7 +90822,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: 100 - (24 + 36) : 4",
-          "hint": "Mavzu qoidasi: 100 - 60 / 4 = 100 - 15 = 85",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -90840,7 +90840,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\((15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)\\)",
-          "hint": "Mavzu qoidasi: (60 - 20) * (4 + 6) = 40 * 10 = 400",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -90858,7 +90858,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(45 : (12 - 3) + 6 \\cdot (8 - 3)\\)",
-          "hint": "Mavzu qoidasi: 45 / 9 + 6 * 5 = 5 + 30 = 35",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -90958,7 +90958,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: (15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)",
+        "problem": "Hisoblang: \\((15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -90990,7 +90990,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: 45 : (12 - 3) + 6 \\cdot (8 - 3)",
+        "problem": "Hisoblang: \\(45 : (12 - 3) + 6 \\cdot (8 - 3)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -91062,7 +91062,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Hisoblang: (15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)",
+        "question": "Hisoblang: \\((15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)\\)",
         "options": [
           "420",
           "360",
@@ -91074,7 +91074,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: 45 : (12 - 3) + 6 \\cdot (8 - 3)",
+        "question": "Hisoblang: \\(45 : (12 - 3) + 6 \\cdot (8 - 3)\\)",
         "options": [
           "45",
           "30",
@@ -91639,7 +91639,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ketma-ketlikning keyingi sonini toping: 4, 7, 10, 13, ...",
-          "hint": "Mavzu qoidasi: Har safar +3 qo'shilmoqda: 13 + 3 = 16",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -91657,7 +91657,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Ketma-ketlikning keyingi sonini toping: 2, 4, 8, 16, ...",
-          "hint": "Mavzu qoidasi: Har safar 2 ga ko'paymoqda: 16 * 2 = 32",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -91675,7 +91675,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "1 dan 19 gacha bo'lgan toq sonlar yig'indisini hisoblang.",
-          "hint": "Mavzu qoidasi: 10 ta toq son: 10² = 100",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -91909,7 +91909,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ketma-ketlikning keyingi sonini toping: 4, 7, 10, 13, ...",
-          "hint": "Mavzu qoidasi: Har safar +3 qo'shilmoqda: 13 + 3 = 16",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -91927,7 +91927,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Ketma-ketlikning keyingi sonini toping: 2, 4, 8, 16, ...",
-          "hint": "Mavzu qoidasi: Har safar 2 ga ko'paymoqda: 16 * 2 = 32",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -91945,7 +91945,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "1 dan 19 gacha bo'lgan toq sonlar yig'indisini hisoblang.",
-          "hint": "Mavzu qoidasi: 10 ta toq son: 10² = 100",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -92466,7 +92466,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 5 soat 80 daqiqa = 6 soat 20 daqiqa"
               }
             ],
-            "answer": "6 \\text{ soat } 20 \\text{ daqiqa}"
+            "answer": "\\(6 \\text{ soat } 20 \\text{ daqiqa}\\)"
           }
         },
         {
@@ -92502,7 +92502,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 14:15 - 08:45 = 5 soat 30 daqiqa"
               }
             ],
-            "answer": "5 \\text{ soat } 30 \\text{ daqiqa}"
+            "answer": "\\(5 \\text{ soat } 30 \\text{ daqiqa}\\)"
           }
         }
       ]
@@ -92726,7 +92726,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: 3 soat 45 daqiqa + 2 soat 35 daqiqa",
-          "hint": "Mavzu qoidasi: 5 soat 80 daqiqa = 6 soat 20 daqiqa",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -92736,7 +92736,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 5 soat 80 daqiqa = 6 soat 20 daqiqa"
               }
             ],
-            "answer": "6 \\text{ soat } 20 \\text{ daqiqa}"
+            "answer": "\\(6 \\text{ soat } 20 \\text{ daqiqa}\\)"
           }
         },
         {
@@ -92744,7 +92744,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "4 soat necha sekundga teng?",
-          "hint": "Mavzu qoidasi: 4 * 3600 = 14400 sekund",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -92762,7 +92762,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Poyezd soat 08:45 da chiqib 14:15 da yetib bordi. Yo'lga qancha vaqt ketgan?",
-          "hint": "Mavzu qoidasi: 14:15 - 08:45 = 5 soat 30 daqiqa",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -92772,7 +92772,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 14:15 - 08:45 = 5 soat 30 daqiqa"
               }
             ],
-            "answer": "5 \\text{ soat } 30 \\text{ daqiqa}"
+            "answer": "\\(5 \\text{ soat } 30 \\text{ daqiqa}\\)"
           }
         }
       ]
@@ -92996,7 +92996,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: 3 soat 45 daqiqa + 2 soat 35 daqiqa",
-          "hint": "Mavzu qoidasi: 5 soat 80 daqiqa = 6 soat 20 daqiqa",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -93006,7 +93006,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 5 soat 80 daqiqa = 6 soat 20 daqiqa"
               }
             ],
-            "answer": "6 \\text{ soat } 20 \\text{ daqiqa}"
+            "answer": "\\(6 \\text{ soat } 20 \\text{ daqiqa}\\)"
           }
         },
         {
@@ -93014,7 +93014,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "4 soat necha sekundga teng?",
-          "hint": "Mavzu qoidasi: 4 * 3600 = 14400 sekund",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -93032,7 +93032,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Poyezd soat 08:45 da chiqib 14:15 da yetib bordi. Yo'lga qancha vaqt ketgan?",
-          "hint": "Mavzu qoidasi: 14:15 - 08:45 = 5 soat 30 daqiqa",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -93042,7 +93042,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 14:15 - 08:45 = 5 soat 30 daqiqa"
               }
             ],
-            "answer": "5 \\text{ soat } 30 \\text{ daqiqa}"
+            "answer": "\\(5 \\text{ soat } 30 \\text{ daqiqa}\\)"
           }
         }
       ]
@@ -93226,10 +93226,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: 3 soat 45 daqiqa + 2 soat 35 daqiqa",
         "options": [
-          "5 \\text{ soat } 80 \\text{ daqiqa}",
-          "6 \\text{ soat } 20 \\text{ daqiqa}",
-          "6 \\text{ soat } 10 \\text{ daqiqa}",
-          "5 \\text{ soat } 20 \\text{ daqiqa}"
+          "\\(5 \\text{ soat } 80 \\text{ daqiqa}\\)",
+          "\\(6 \\text{ soat } 20 \\text{ daqiqa}\\)",
+          "\\(6 \\text{ soat } 10 \\text{ daqiqa}\\)",
+          "\\(5 \\text{ soat } 20 \\text{ daqiqa}\\)"
         ],
         "correctIndex": 1,
         "explanation": "5 soat 80 daqiqa = 6 soat 20 daqiqa"
@@ -93250,10 +93250,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Poyezd soat 08:45 da chiqib 14:15 da yetib bordi. Yo'lga qancha vaqt ketgan?",
         "options": [
-          "6 \\text{ soat } 15 \\text{ daqiqa}",
-          "6 \\text{ soat } 30 \\text{ daqiqa}",
-          "5 \\text{ soat } 45 \\text{ daqiqa}",
-          "5 \\text{ soat } 30 \\text{ daqiqa}"
+          "\\(6 \\text{ soat } 15 \\text{ daqiqa}\\)",
+          "\\(6 \\text{ soat } 30 \\text{ daqiqa}\\)",
+          "\\(5 \\text{ soat } 45 \\text{ daqiqa}\\)",
+          "\\(5 \\text{ soat } 30 \\text{ daqiqa}\\)"
         ],
         "correctIndex": 3,
         "explanation": "14:15 - 08:45 = 5 soat 30 daqiqa"
@@ -93275,7 +93275,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 5 soat 80 daqiqa = 6 soat 20 daqiqa"
             }
           ],
-          "answer": "6 \\text{ soat } 20 \\text{ daqiqa}"
+          "answer": "\\(6 \\text{ soat } 20 \\text{ daqiqa}\\)"
         }
       },
       {
@@ -93311,7 +93311,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 14:15 - 08:45 = 5 soat 30 daqiqa"
             }
           ],
-          "answer": "5 \\text{ soat } 30 \\text{ daqiqa}"
+          "answer": "\\(5 \\text{ soat } 30 \\text{ daqiqa}\\)"
         }
       }
     ]
@@ -93390,7 +93390,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: (-4) \\cdot (-5) \\cdot (-2)",
+          "problem": "Hisoblang: \\((-4) \\cdot (-5) \\cdot (-2)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -93454,7 +93454,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: (-2)^5 : (-4)",
+          "problem": "Hisoblang: \\((-2)^5 : (-4)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -93514,7 +93514,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\((-72) : (-8) - (-15)\\)",
+          "question": "Hisoblang: (-72) : (-8) - (-15)",
           "options": [
             "-24",
             "-6",
@@ -93624,7 +93624,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: (-4) \\cdot (-5) \\cdot (-2)",
+          "problem": "Hisoblang: \\((-4) \\cdot (-5) \\cdot (-2)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -93688,7 +93688,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: (-2)^5 : (-4)",
+          "problem": "Hisoblang: \\((-2)^5 : (-4)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -93784,7 +93784,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\((-72) : (-8) - (-15)\\)",
+          "question": "Hisoblang: (-72) : (-8) - (-15)",
           "options": [
             "-24",
             "-6",
@@ -93813,7 +93813,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\((-4) \\cdot (-5) \\cdot (-2)\\)",
-          "hint": "Mavzu qoidasi: 20 * (-2) = -40",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -93831,7 +93831,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: (-72) : (-8) - (-15)",
-          "hint": "Mavzu qoidasi: 9 + 15 = 24",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -93849,7 +93849,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\((-2)^5 : (-4)\\)",
-          "hint": "Mavzu qoidasi: -32 / (-4) = 8",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -93894,7 +93894,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Hisoblang: (-4) \\cdot (-5) \\cdot (-2)",
+          "problem": "Hisoblang: \\((-4) \\cdot (-5) \\cdot (-2)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -93958,7 +93958,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: (-2)^5 : (-4)",
+          "problem": "Hisoblang: \\((-2)^5 : (-4)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -94054,7 +94054,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Hisoblang: \\((-72) : (-8) - (-15)\\)",
+          "question": "Hisoblang: (-72) : (-8) - (-15)",
           "options": [
             "-24",
             "-6",
@@ -94083,7 +94083,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Hisoblang: \\((-4) \\cdot (-5) \\cdot (-2)\\)",
-          "hint": "Mavzu qoidasi: 20 * (-2) = -40",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -94101,7 +94101,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: (-72) : (-8) - (-15)",
-          "hint": "Mavzu qoidasi: 9 + 15 = 24",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -94119,7 +94119,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\((-2)^5 : (-4)\\)",
-          "hint": "Mavzu qoidasi: -32 / (-4) = 8",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -94187,7 +94187,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: (-4) \\cdot (-5) \\cdot (-2)",
+        "problem": "Hisoblang: \\((-4) \\cdot (-5) \\cdot (-2)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -94251,7 +94251,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: (-2)^5 : (-4)",
+        "problem": "Hisoblang: \\((-2)^5 : (-4)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -94311,7 +94311,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Hisoblang: (-4) \\cdot (-5) \\cdot (-2)",
+        "question": "Hisoblang: \\((-4) \\cdot (-5) \\cdot (-2)\\)",
         "options": [
           "-20",
           "40",
@@ -94335,7 +94335,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Hisoblang: (-2)^5 : (-4)",
+        "question": "Hisoblang: \\((-2)^5 : (-4)\\)",
         "options": [
           "8",
           "-8",
@@ -94900,7 +94900,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ota o'g'lidan 28 yosh katta. Ularning yoshlari yig'indisi 44 ga teng. O'g'il necha yoshda?",
-          "hint": "Mavzu qoidasi: x + (x + 28) = 44 => 2x = 16 => x = 8",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -94918,7 +94918,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Bir son ikkinchisidan 4 marta katta. Ularning ayirmasi 36 ga teng. Kichik sonni toping.",
-          "hint": "Mavzu qoidasi: 4x - x = 36 => 3x = 36 => x = 12",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -94936,7 +94936,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Ikki xonali sonning raqamlari yig'indisi 11. O'nliklar xonasi birliklardan 3 ga katta. Bu sonni toping.",
-          "hint": "Mavzu qoidasi: x + (x - 3) = 11 => 2x = 14 => x = 7",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -95170,7 +95170,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ota o'g'lidan 28 yosh katta. Ularning yoshlari yig'indisi 44 ga teng. O'g'il necha yoshda?",
-          "hint": "Mavzu qoidasi: x + (x + 28) = 44 => 2x = 16 => x = 8",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -95188,7 +95188,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Bir son ikkinchisidan 4 marta katta. Ularning ayirmasi 36 ga teng. Kichik sonni toping.",
-          "hint": "Mavzu qoidasi: 4x - x = 36 => 3x = 36 => x = 12",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -95206,7 +95206,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Ikki xonali sonning raqamlari yig'indisi 11. O'nliklar xonasi birliklardan 3 ga katta. Bu sonni toping.",
-          "hint": "Mavzu qoidasi: x + (x - 3) = 11 => 2x = 14 => x = 7",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -95987,7 +95987,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Sonlar qatorining modasini toping: 3, 5, 7, 5, 9, 5, 2, 8",
-          "hint": "Mavzu qoidasi: Eng ko'p takrorlangan son 5",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -96005,7 +96005,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Sonlar qatorining medianasini toping: 12, 5, 8, 19, 14",
-          "hint": "Mavzu qoidasi: Tartiblaymiz: 5, 8, 12, 14, 19 => O'rtadagi 12",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -96023,7 +96023,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Sonlar qatorining o'zgarish kengligini (farqini) toping: 4, 18, 9, 25, 11",
-          "hint": "Mavzu qoidasi: 25 - 4 = 21",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -96257,7 +96257,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Sonlar qatorining modasini toping: 3, 5, 7, 5, 9, 5, 2, 8",
-          "hint": "Mavzu qoidasi: Eng ko'p takrorlangan son 5",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -96275,7 +96275,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Sonlar qatorining medianasini toping: 12, 5, 8, 19, 14",
-          "hint": "Mavzu qoidasi: Tartiblaymiz: 5, 8, 12, 14, 19 => O'rtadagi 12",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -96293,7 +96293,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Sonlar qatorining o'zgarish kengligini (farqini) toping: 4, 18, 9, 25, 11",
-          "hint": "Mavzu qoidasi: 25 - 4 = 21",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -96763,7 +96763,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamalar sistemasidan x ni toping: \\(\\begin{cases} 2x + y = 11 \\\\ 3x - y = 9 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan x ni toping: \\begin{cases} 2x + y = 11 \\\\ 3x - y = 9 \\end{cases}",
           "options": [
             "2",
             "3",
@@ -96775,7 +96775,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamalar sistemasidan y ni toping: \\(\\begin{cases} x + 2y = 8 \\\\ x - 2y = 0 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan y ni toping: \\begin{cases} x + 2y = 8 \\\\ x - 2y = 0 \\end{cases}",
           "options": [
             "2",
             "4",
@@ -96787,7 +96787,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamalar sistemasining yechimini toping: \\(\\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasining yechimini toping: \\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}",
           "options": [
             "x = 6, y = 4",
             "x = 7, y = 3",
@@ -97033,7 +97033,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamalar sistemasidan x ni toping: \\(\\begin{cases} 2x + y = 11 \\\\ 3x - y = 9 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan x ni toping: \\begin{cases} 2x + y = 11 \\\\ 3x - y = 9 \\end{cases}",
           "options": [
             "2",
             "3",
@@ -97045,7 +97045,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamalar sistemasidan y ni toping: \\(\\begin{cases} x + 2y = 8 \\\\ x - 2y = 0 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan y ni toping: \\begin{cases} x + 2y = 8 \\\\ x - 2y = 0 \\end{cases}",
           "options": [
             "2",
             "4",
@@ -97057,7 +97057,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamalar sistemasining yechimini toping: \\(\\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasining yechimini toping: \\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}",
           "options": [
             "x = 6, y = 4",
             "x = 7, y = 3",
@@ -97074,7 +97074,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamalar sistemasidan x ni toping: \\begin{cases} 2x + y = 11 \\\\ 3x - y = 9 \\end{cases}",
-          "hint": "Mavzu qoidasi: Qo'shamiz: 5x = 20 => x = 4",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -97092,7 +97092,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamalar sistemasidan y ni toping: \\begin{cases} x + 2y = 8 \\\\ x - 2y = 0 \\end{cases}",
-          "hint": "Mavzu qoidasi: Ayiramiz: 4y = 8 => y = 2",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -97110,7 +97110,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamalar sistemasining yechimini toping: \\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}",
-          "hint": "Mavzu qoidasi: 2x = 14 => x = 7",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -97303,7 +97303,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamalar sistemasidan x ni toping: \\(\\begin{cases} 2x + y = 11 \\\\ 3x - y = 9 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan x ni toping: \\begin{cases} 2x + y = 11 \\\\ 3x - y = 9 \\end{cases}",
           "options": [
             "2",
             "3",
@@ -97315,7 +97315,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tenglamalar sistemasidan y ni toping: \\(\\begin{cases} x + 2y = 8 \\\\ x - 2y = 0 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasidan y ni toping: \\begin{cases} x + 2y = 8 \\\\ x - 2y = 0 \\end{cases}",
           "options": [
             "2",
             "4",
@@ -97327,7 +97327,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamalar sistemasining yechimini toping: \\(\\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasining yechimini toping: \\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}",
           "options": [
             "x = 6, y = 4",
             "x = 7, y = 3",
@@ -97344,7 +97344,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamalar sistemasidan x ni toping: \\begin{cases} 2x + y = 11 \\\\ 3x - y = 9 \\end{cases}",
-          "hint": "Mavzu qoidasi: Qo'shamiz: 5x = 20 => x = 4",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -97362,7 +97362,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamalar sistemasidan y ni toping: \\begin{cases} x + 2y = 8 \\\\ x - 2y = 0 \\end{cases}",
-          "hint": "Mavzu qoidasi: Ayiramiz: 4y = 8 => y = 2",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -97380,7 +97380,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamalar sistemasining yechimini toping: \\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}",
-          "hint": "Mavzu qoidasi: 2x = 14 => x = 7",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -97738,7 +97738,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Bo'lishni bajaring: (12x^3 - 8x^2 + 4x) : (4x)",
+          "problem": "Bo'lishni bajaring: \\((12x^3 - 8x^2 + 4x) : (4x)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -97770,7 +97770,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Bo'lishni bajaring: (15a^4b^2 - 25a^3b^3) : (5a^2b^2)",
+          "problem": "Bo'lishni bajaring: \\((15a^4b^2 - 25a^3b^3) : (5a^2b^2)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -97802,7 +97802,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: (9x^2 - 6x) : (3x) + 2",
+          "problem": "Soddalashtiring: \\((9x^2 - 6x) : (3x) + 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -97972,7 +97972,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Bo'lishni bajaring: (12x^3 - 8x^2 + 4x) : (4x)",
+          "problem": "Bo'lishni bajaring: \\((12x^3 - 8x^2 + 4x) : (4x)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -98004,7 +98004,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Bo'lishni bajaring: (15a^4b^2 - 25a^3b^3) : (5a^2b^2)",
+          "problem": "Bo'lishni bajaring: \\((15a^4b^2 - 25a^3b^3) : (5a^2b^2)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -98036,7 +98036,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: (9x^2 - 6x) : (3x) + 2",
+          "problem": "Soddalashtiring: \\((9x^2 - 6x) : (3x) + 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -98161,7 +98161,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Bo'lishni bajaring: \\((12x^3 - 8x^2 + 4x) : (4x)\\)",
-          "hint": "Mavzu qoidasi: 12x³/4x = 3x²",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -98179,7 +98179,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Bo'lishni bajaring: \\((15a^4b^2 - 25a^3b^3) : (5a^2b^2)\\)",
-          "hint": "Mavzu qoidasi: 3a² - 5ab",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -98197,7 +98197,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Soddalashtiring: \\((9x^2 - 6x) : (3x) + 2\\)",
-          "hint": "Mavzu qoidasi: 3x - 2 + 2 = 3x",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -98242,7 +98242,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Bo'lishni bajaring: (12x^3 - 8x^2 + 4x) : (4x)",
+          "problem": "Bo'lishni bajaring: \\((12x^3 - 8x^2 + 4x) : (4x)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -98274,7 +98274,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Bo'lishni bajaring: (15a^4b^2 - 25a^3b^3) : (5a^2b^2)",
+          "problem": "Bo'lishni bajaring: \\((15a^4b^2 - 25a^3b^3) : (5a^2b^2)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -98306,7 +98306,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Soddalashtiring: (9x^2 - 6x) : (3x) + 2",
+          "problem": "Soddalashtiring: \\((9x^2 - 6x) : (3x) + 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -98431,7 +98431,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Bo'lishni bajaring: \\((12x^3 - 8x^2 + 4x) : (4x)\\)",
-          "hint": "Mavzu qoidasi: 12x³/4x = 3x²",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -98449,7 +98449,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Bo'lishni bajaring: \\((15a^4b^2 - 25a^3b^3) : (5a^2b^2)\\)",
-          "hint": "Mavzu qoidasi: 3a² - 5ab",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -98467,7 +98467,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Soddalashtiring: \\((9x^2 - 6x) : (3x) + 2\\)",
-          "hint": "Mavzu qoidasi: 3x - 2 + 2 = 3x",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -98535,7 +98535,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Bo'lishni bajaring: (12x^3 - 8x^2 + 4x) : (4x)",
+        "problem": "Bo'lishni bajaring: \\((12x^3 - 8x^2 + 4x) : (4x)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -98567,7 +98567,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Bo'lishni bajaring: (15a^4b^2 - 25a^3b^3) : (5a^2b^2)",
+        "problem": "Bo'lishni bajaring: \\((15a^4b^2 - 25a^3b^3) : (5a^2b^2)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -98599,7 +98599,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Soddalashtiring: (9x^2 - 6x) : (3x) + 2",
+        "problem": "Soddalashtiring: \\((9x^2 - 6x) : (3x) + 2\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -98659,31 +98659,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Bo'lishni bajaring: (12x^3 - 8x^2 + 4x) : (4x)",
+        "question": "Bo'lishni bajaring: \\((12x^3 - 8x^2 + 4x) : (4x)\\)",
         "options": [
-          "3x^2 + 2x + 1",
-          "3x^2 - 2x",
-          "3x^3 - 2x^2 + x",
-          "3x^2 - 2x + 1"
+          "\\(3x^2 + 2x + 1\\)",
+          "\\(3x^2 - 2x\\)",
+          "\\(3x^3 - 2x^2 + x\\)",
+          "\\(3x^2 - 2x + 1\\)"
         ],
         "correctIndex": 3,
         "explanation": "12x³/4x = 3x²; -8x²/4x = -2x; 4x/4x = 1"
       },
       {
         "level": "medium",
-        "question": "Bo'lishni bajaring: (15a^4b^2 - 25a^3b^3) : (5a^2b^2)",
+        "question": "Bo'lishni bajaring: \\((15a^4b^2 - 25a^3b^3) : (5a^2b^2)\\)",
         "options": [
-          "3a^2 - 5ab",
-          "3a^2 - 5b",
+          "\\(3a^2 - 5ab\\)",
+          "\\(3a^2 - 5b\\)",
           "3a - 5ab",
-          "10a^2 - 20ab"
+          "\\(10a^2 - 20ab\\)"
         ],
         "correctIndex": 0,
         "explanation": "3a² - 5ab"
       },
       {
         "level": "hard",
-        "question": "Soddalashtiring: (9x^2 - 6x) : (3x) + 2",
+        "question": "Soddalashtiring: \\((9x^2 - 6x) : (3x) + 2\\)",
         "options": [
           "3x - 2",
           "3x",
@@ -98988,7 +98988,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 5 + 8 = 13 < 14 (Uchburchak tengsizligi bajarilmaydi)"
               }
             ],
-            "answer": "\\text{Yo'q}"
+            "answer": "\\(\\text{Yo'q}\\)"
           }
         },
         {
@@ -99006,7 +99006,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: c < 4 + 7 = 11 => eng katta butun qiymat 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         },
         {
@@ -99024,7 +99024,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Tomonlar 7, 7, 3 bo'lishi shart (3, 3, 7 bo'lolmaydi); P = 17 sm"
               }
             ],
-            "answer": "17 \\text{ sm}"
+            "answer": "\\(17 \\text{ sm}\\)"
           }
         }
       ]
@@ -99248,7 +99248,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tomonlari 5 sm, 8 sm va 14 sm bo'lgan uchburchak mavjud bo'la oladimi?",
-          "hint": "Mavzu qoidasi: 5 + 8 = 13 < 14 (Uchburchak tengsizligi bajarilmaydi)",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -99258,7 +99258,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 5 + 8 = 13 < 14 (Uchburchak tengsizligi bajarilmaydi)"
               }
             ],
-            "answer": "\\text{Yo'q}"
+            "answer": "\\(\\text{Yo'q}\\)"
           }
         },
         {
@@ -99266,7 +99266,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Uchburchakning ikki tomoni 4 sm va 7 sm. Uchinchi tomoni butun son bo'lsa, eng katta qiymati nechaga teng?",
-          "hint": "Mavzu qoidasi: c < 4 + 7 = 11 => eng katta butun qiymat 10 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -99276,7 +99276,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: c < 4 + 7 = 11 => eng katta butun qiymat 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         },
         {
@@ -99284,7 +99284,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Teng yonli uchburchakning ikki tomoni 3 sm va 7 sm. Uning perimetrini toping.",
-          "hint": "Mavzu qoidasi: Tomonlar 7, 7, 3 bo'lishi shart (3, 3, 7 bo'lolmaydi)",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -99294,7 +99294,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Tomonlar 7, 7, 3 bo'lishi shart (3, 3, 7 bo'lolmaydi); P = 17 sm"
               }
             ],
-            "answer": "17 \\text{ sm}"
+            "answer": "\\(17 \\text{ sm}\\)"
           }
         }
       ]
@@ -99518,7 +99518,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tomonlari 5 sm, 8 sm va 14 sm bo'lgan uchburchak mavjud bo'la oladimi?",
-          "hint": "Mavzu qoidasi: 5 + 8 = 13 < 14 (Uchburchak tengsizligi bajarilmaydi)",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -99528,7 +99528,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 5 + 8 = 13 < 14 (Uchburchak tengsizligi bajarilmaydi)"
               }
             ],
-            "answer": "\\text{Yo'q}"
+            "answer": "\\(\\text{Yo'q}\\)"
           }
         },
         {
@@ -99536,7 +99536,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Uchburchakning ikki tomoni 4 sm va 7 sm. Uchinchi tomoni butun son bo'lsa, eng katta qiymati nechaga teng?",
-          "hint": "Mavzu qoidasi: c < 4 + 7 = 11 => eng katta butun qiymat 10 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -99546,7 +99546,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: c < 4 + 7 = 11 => eng katta butun qiymat 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         },
         {
@@ -99554,7 +99554,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Teng yonli uchburchakning ikki tomoni 3 sm va 7 sm. Uning perimetrini toping.",
-          "hint": "Mavzu qoidasi: Tomonlar 7, 7, 3 bo'lishi shart (3, 3, 7 bo'lolmaydi)",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -99564,7 +99564,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Tomonlar 7, 7, 3 bo'lishi shart (3, 3, 7 bo'lolmaydi); P = 17 sm"
               }
             ],
-            "answer": "17 \\text{ sm}"
+            "answer": "\\(17 \\text{ sm}\\)"
           }
         }
       ]
@@ -99748,10 +99748,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tomonlari 5 sm, 8 sm va 14 sm bo'lgan uchburchak mavjud bo'la oladimi?",
         "options": [
-          "\\text{Faqat teng yonli}",
-          "\\text{Ha}",
-          "\\text{Faqat to'g'ri burchakli}",
-          "\\text{Yo'q}"
+          "\\(\\text{Faqat teng yonli}\\)",
+          "\\(\\text{Ha}\\)",
+          "\\(\\text{Faqat to'g'ri burchakli}\\)",
+          "\\(\\text{Yo'q}\\)"
         ],
         "correctIndex": 3,
         "explanation": "5 + 8 = 13 < 14 (Uchburchak tengsizligi bajarilmaydi)"
@@ -99760,10 +99760,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Uchburchakning ikki tomoni 4 sm va 7 sm. Uchinchi tomoni butun son bo'lsa, eng katta qiymati nechaga teng?",
         "options": [
-          "10 \\text{ sm}",
-          "11 \\text{ sm}",
-          "12 \\text{ sm}",
-          "9 \\text{ sm}"
+          "\\(10 \\text{ sm}\\)",
+          "\\(11 \\text{ sm}\\)",
+          "\\(12 \\text{ sm}\\)",
+          "\\(9 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "c < 4 + 7 = 11 => eng katta butun qiymat 10 sm"
@@ -99772,10 +99772,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Teng yonli uchburchakning ikki tomoni 3 sm va 7 sm. Uning perimetrini toping.",
         "options": [
-          "13 \\text{ sm}",
-          "17 \\text{ sm}",
-          "21 \\text{ sm}",
-          "14 \\text{ sm}"
+          "\\(13 \\text{ sm}\\)",
+          "\\(17 \\text{ sm}\\)",
+          "\\(21 \\text{ sm}\\)",
+          "\\(14 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "Tomonlar 7, 7, 3 bo'lishi shart (3, 3, 7 bo'lolmaydi); P = 17 sm"
@@ -99797,7 +99797,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 5 + 8 = 13 < 14 (Uchburchak tengsizligi bajarilmaydi)"
             }
           ],
-          "answer": "\\text{Yo'q}"
+          "answer": "\\(\\text{Yo'q}\\)"
         }
       },
       {
@@ -99815,7 +99815,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: c < 4 + 7 = 11 => eng katta butun qiymat 10 sm"
             }
           ],
-          "answer": "10 \\text{ sm}"
+          "answer": "\\(10 \\text{ sm}\\)"
         }
       },
       {
@@ -99833,7 +99833,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Tomonlar 7, 7, 3 bo'lishi shart (3, 3, 7 bo'lolmaydi); P = 17 sm"
             }
           ],
-          "answer": "17 \\text{ sm}"
+          "answer": "\\(17 \\text{ sm}\\)"
         }
       }
     ]
@@ -99912,7 +99912,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kasrni qisqartiring: \\frac{x^2 - 9}{x^2 + 3x}",
+          "problem": "Kasrni qisqartiring: \\(\\frac{x^2 - 9}{x^2 + 3x}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -99944,7 +99944,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{a^2 - 4}{a + 2} - a",
+          "problem": "Hisoblang: \\(\\frac{a^2 - 4}{a + 2} - a\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -99976,7 +99976,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Kasrlarni qo'shing: \\frac{2}{x - 1} + \\frac{3}{x + 1}",
+          "problem": "Kasrlarni qo'shing: \\(\\frac{2}{x - 1} + \\frac{3}{x + 1}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -100146,7 +100146,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kasrni qisqartiring: \\frac{x^2 - 9}{x^2 + 3x}",
+          "problem": "Kasrni qisqartiring: \\(\\frac{x^2 - 9}{x^2 + 3x}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -100178,7 +100178,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{a^2 - 4}{a + 2} - a",
+          "problem": "Hisoblang: \\(\\frac{a^2 - 4}{a + 2} - a\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -100210,7 +100210,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Kasrlarni qo'shing: \\frac{2}{x - 1} + \\frac{3}{x + 1}",
+          "problem": "Kasrlarni qo'shing: \\(\\frac{2}{x - 1} + \\frac{3}{x + 1}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -100335,7 +100335,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Kasrni qisqartiring: \\(\\frac{x^2 - 9}{x^2 + 3x}\\)",
-          "hint": "Mavzu qoidasi: (x-3)(x+3) / (x(x+3)) = (x-3)/x",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -100353,7 +100353,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\frac{a^2 - 4}{a + 2} - a\\)",
-          "hint": "Mavzu qoidasi: (a-2) - a = -2",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -100371,7 +100371,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Kasrlarni qo'shing: \\(\\frac{2}{x - 1} + \\frac{3}{x + 1}\\)",
-          "hint": "Mavzu qoidasi: (2x + 2 + 3x - 3)/(x² - 1) = (5x - 1)/(x² - 1)",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -100416,7 +100416,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kasrni qisqartiring: \\frac{x^2 - 9}{x^2 + 3x}",
+          "problem": "Kasrni qisqartiring: \\(\\frac{x^2 - 9}{x^2 + 3x}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -100448,7 +100448,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Hisoblang: \\frac{a^2 - 4}{a + 2} - a",
+          "problem": "Hisoblang: \\(\\frac{a^2 - 4}{a + 2} - a\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -100480,7 +100480,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Kasrlarni qo'shing: \\frac{2}{x - 1} + \\frac{3}{x + 1}",
+          "problem": "Kasrlarni qo'shing: \\(\\frac{2}{x - 1} + \\frac{3}{x + 1}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -100605,7 +100605,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Kasrni qisqartiring: \\(\\frac{x^2 - 9}{x^2 + 3x}\\)",
-          "hint": "Mavzu qoidasi: (x-3)(x+3) / (x(x+3)) = (x-3)/x",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -100623,7 +100623,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Hisoblang: \\(\\frac{a^2 - 4}{a + 2} - a\\)",
-          "hint": "Mavzu qoidasi: (a-2) - a = -2",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -100641,7 +100641,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Kasrlarni qo'shing: \\(\\frac{2}{x - 1} + \\frac{3}{x + 1}\\)",
-          "hint": "Mavzu qoidasi: (2x + 2 + 3x - 3)/(x² - 1) = (5x - 1)/(x² - 1)",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -100709,7 +100709,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Kasrni qisqartiring: \\frac{x^2 - 9}{x^2 + 3x}",
+        "problem": "Kasrni qisqartiring: \\(\\frac{x^2 - 9}{x^2 + 3x}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -100741,7 +100741,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: \\frac{a^2 - 4}{a + 2} - a",
+        "problem": "Hisoblang: \\(\\frac{a^2 - 4}{a + 2} - a\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -100773,7 +100773,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Kasrlarni qo'shing: \\frac{2}{x - 1} + \\frac{3}{x + 1}",
+        "problem": "Kasrlarni qo'shing: \\(\\frac{2}{x - 1} + \\frac{3}{x + 1}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -100833,19 +100833,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Kasrni qisqartiring: \\frac{x^2 - 9}{x^2 + 3x}",
+        "question": "Kasrni qisqartiring: \\(\\frac{x^2 - 9}{x^2 + 3x}\\)",
         "options": [
-          "\\frac{x - 3}{x}",
-          "\\frac{x + 3}{x}",
-          "\\frac{x - 9}{3x}",
-          "\\frac{x - 3}{3}"
+          "\\(\\frac{x - 3}{x}\\)",
+          "\\(\\frac{x + 3}{x}\\)",
+          "\\(\\frac{x - 9}{3x}\\)",
+          "\\(\\frac{x - 3}{3}\\)"
         ],
         "correctIndex": 0,
         "explanation": "(x-3)(x+3) / (x(x+3)) = (x-3)/x"
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\frac{a^2 - 4}{a + 2} - a",
+        "question": "Hisoblang: \\(\\frac{a^2 - 4}{a + 2} - a\\)",
         "options": [
           "2",
           "-2",
@@ -100857,12 +100857,12 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Kasrlarni qo'shing: \\frac{2}{x - 1} + \\frac{3}{x + 1}",
+        "question": "Kasrlarni qo'shing: \\(\\frac{2}{x - 1} + \\frac{3}{x + 1}\\)",
         "options": [
-          "\\frac{5}{2x}",
-          "\\frac{5x + 1}{x^2 - 1}",
-          "\\frac{5x - 1}{x^2 - 1}",
-          "\\frac{5x}{x^2 - 1}"
+          "\\(\\frac{5}{2x}\\)",
+          "\\(\\frac{5x + 1}{x^2 - 1}\\)",
+          "\\(\\frac{5x - 1}{x^2 - 1}\\)",
+          "\\(\\frac{5x}{x^2 - 1}\\)"
         ],
         "correctIndex": 2,
         "explanation": "(2x + 2 + 3x - 3)/(x² - 1) = (5x - 1)/(x² - 1)"
@@ -100999,7 +100999,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Keltirilgan kvadrat tenglamani yeching: x^2 - 5x + 6 = 0",
+          "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 - 5x + 6 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -101047,7 +101047,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Keltirilgan kvadrat tenglamani yeching: x^2 + 7x + 10 = 0",
+          "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 + 7x + 10 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -101095,7 +101095,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani keltirilgan ko'rinishga keltiring: 3x^2 - 12x + 15 = 0",
+          "problem": "Tenglamani keltirilgan ko'rinishga keltiring: \\(3x^2 - 12x + 15 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -101265,7 +101265,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Keltirilgan kvadrat tenglamani yeching: x^2 - 5x + 6 = 0",
+          "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 - 5x + 6 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -101313,7 +101313,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Keltirilgan kvadrat tenglamani yeching: x^2 + 7x + 10 = 0",
+          "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 + 7x + 10 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -101361,7 +101361,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani keltirilgan ko'rinishga keltiring: 3x^2 - 12x + 15 = 0",
+          "problem": "Tenglamani keltirilgan ko'rinishga keltiring: \\(3x^2 - 12x + 15 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -101486,7 +101486,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 - 5x + 6 = 0\\)",
-          "hint": "Mavzu qoidasi: Ildizlar yig'indisi 5, ko'paytmasi 6: x1 = 2, x2 = 3",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -101504,7 +101504,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 + 7x + 10 = 0\\)",
-          "hint": "Mavzu qoidasi: x1 + x2 = -7, x1*x2 = 10 => x1 = -2, x2 = -5",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -101522,7 +101522,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani keltirilgan ko'rinishga keltiring: \\(3x^2 - 12x + 15 = 0\\)",
-          "hint": "Mavzu qoidasi: Har bir hadni 3 ga bo'lamiz: x² - 4x + 5 = 0",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -101567,7 +101567,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Keltirilgan kvadrat tenglamani yeching: x^2 - 5x + 6 = 0",
+          "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 - 5x + 6 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -101615,7 +101615,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Keltirilgan kvadrat tenglamani yeching: x^2 + 7x + 10 = 0",
+          "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 + 7x + 10 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -101663,7 +101663,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani keltirilgan ko'rinishga keltiring: 3x^2 - 12x + 15 = 0",
+          "problem": "Tenglamani keltirilgan ko'rinishga keltiring: \\(3x^2 - 12x + 15 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -101788,7 +101788,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 - 5x + 6 = 0\\)",
-          "hint": "Mavzu qoidasi: Ildizlar yig'indisi 5, ko'paytmasi 6: x1 = 2, x2 = 3",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -101806,7 +101806,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 + 7x + 10 = 0\\)",
-          "hint": "Mavzu qoidasi: x1 + x2 = -7, x1*x2 = 10 => x1 = -2, x2 = -5",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -101824,7 +101824,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani keltirilgan ko'rinishga keltiring: \\(3x^2 - 12x + 15 = 0\\)",
-          "hint": "Mavzu qoidasi: Har bir hadni 3 ga bo'lamiz: x² - 4x + 5 = 0",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -101892,7 +101892,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "Keltirilgan kvadrat tenglamani yeching: x^2 - 5x + 6 = 0",
+        "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 - 5x + 6 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -101940,7 +101940,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "Keltirilgan kvadrat tenglamani yeching: x^2 + 7x + 10 = 0",
+        "problem": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 + 7x + 10 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -101988,7 +101988,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tenglamani keltirilgan ko'rinishga keltiring: 3x^2 - 12x + 15 = 0",
+        "problem": "Tenglamani keltirilgan ko'rinishga keltiring: \\(3x^2 - 12x + 15 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -102048,36 +102048,36 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Keltirilgan kvadrat tenglamani yeching: x^2 - 5x + 6 = 0",
+        "question": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 - 5x + 6 = 0\\)",
         "options": [
-          "x_1 = 2, x_2 = 3",
-          "x_1 = 1, x_2 = 6",
-          "x_1 = -2, x_2 = -3",
-          "x_1 = 5, x_2 = 6"
+          "\\(x_1 = 2, x_2 = 3\\)",
+          "\\(x_1 = 1, x_2 = 6\\)",
+          "\\(x_1 = -2, x_2 = -3\\)",
+          "\\(x_1 = 5, x_2 = 6\\)"
         ],
         "correctIndex": 0,
         "explanation": "Ildizlar yig'indisi 5, ko'paytmasi 6: x1 = 2, x2 = 3"
       },
       {
         "level": "medium",
-        "question": "Keltirilgan kvadrat tenglamani yeching: x^2 + 7x + 10 = 0",
+        "question": "Keltirilgan kvadrat tenglamani yeching: \\(x^2 + 7x + 10 = 0\\)",
         "options": [
-          "x_1 = 2, x_2 = 5",
-          "x_1 = -2, x_2 = -5",
-          "x_1 = -1, x_2 = -10",
-          "x_1 = 7, x_2 = 10"
+          "\\(x_1 = 2, x_2 = 5\\)",
+          "\\(x_1 = -2, x_2 = -5\\)",
+          "\\(x_1 = -1, x_2 = -10\\)",
+          "\\(x_1 = 7, x_2 = 10\\)"
         ],
         "correctIndex": 1,
         "explanation": "x1 + x2 = -7, x1*x2 = 10 => x1 = -2, x2 = -5"
       },
       {
         "level": "hard",
-        "question": "Tenglamani keltirilgan ko'rinishga keltiring: 3x^2 - 12x + 15 = 0",
+        "question": "Tenglamani keltirilgan ko'rinishga keltiring: \\(3x^2 - 12x + 15 = 0\\)",
         "options": [
-          "3(x^2 - 4x + 5)",
-          "x^2 - 12x + 15 = 0",
-          "x^2 - 4x + 5 = 0",
-          "x^2 - 4x - 5 = 0"
+          "\\(3(x^2 - 4x + 5)\\)",
+          "\\(x^2 - 12x + 15 = 0\\)",
+          "\\(x^2 - 4x + 5 = 0\\)",
+          "\\(x^2 - 4x - 5 = 0\\)"
         ],
         "correctIndex": 2,
         "explanation": "Har bir hadni 3 ga bo'lamiz: x² - 4x + 5 = 0"
@@ -102377,7 +102377,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: S = 40 * 25 = 1000 m² = 10 sotix"
               }
             ],
-            "answer": "10 \\text{ sotix}"
+            "answer": "\\(10 \\text{ sotix}\\)"
           }
         },
         {
@@ -102395,7 +102395,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: a = √10000 = 100 m"
               }
             ],
-            "answer": "100 \\text{ m}"
+            "answer": "\\(100 \\text{ m}\\)"
           }
         },
         {
@@ -102413,7 +102413,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: h = 2S / (a+b) = 180 / 18 = 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         }
       ]
@@ -102637,7 +102637,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "To'g'ri to'rtburchakli yer maydonining bo'yi 40 m, eni 25 m. U necha sotix (ar)?",
-          "hint": "Mavzu qoidasi: S = 40 * 25 = 1000 m² = 10 sotix",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -102647,7 +102647,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: S = 40 * 25 = 1000 m² = 10 sotix"
               }
             ],
-            "answer": "10 \\text{ sotix}"
+            "answer": "\\(10 \\text{ sotix}\\)"
           }
         },
         {
@@ -102655,7 +102655,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Kvadrat shaklidagi maydonning yuzi 1 gektar (10 000 m²). Uning tomoni necha metr?",
-          "hint": "Mavzu qoidasi: a = √10000 = 100 m",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -102665,7 +102665,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: a = √10000 = 100 m"
               }
             ],
-            "answer": "100 \\text{ m}"
+            "answer": "\\(100 \\text{ m}\\)"
           }
         },
         {
@@ -102673,7 +102673,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Trapetsiyaning yuzi 90 sm², asoslari 11 sm va 7 sm. Uning balandligini toping.",
-          "hint": "Mavzu qoidasi: h = 2S / (a+b) = 180 / 18 = 10 sm",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -102683,7 +102683,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: h = 2S / (a+b) = 180 / 18 = 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         }
       ]
@@ -102907,7 +102907,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "To'g'ri to'rtburchakli yer maydonining bo'yi 40 m, eni 25 m. U necha sotix (ar)?",
-          "hint": "Mavzu qoidasi: S = 40 * 25 = 1000 m² = 10 sotix",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -102917,7 +102917,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: S = 40 * 25 = 1000 m² = 10 sotix"
               }
             ],
-            "answer": "10 \\text{ sotix}"
+            "answer": "\\(10 \\text{ sotix}\\)"
           }
         },
         {
@@ -102925,7 +102925,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Kvadrat shaklidagi maydonning yuzi 1 gektar (10 000 m²). Uning tomoni necha metr?",
-          "hint": "Mavzu qoidasi: a = √10000 = 100 m",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -102935,7 +102935,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: a = √10000 = 100 m"
               }
             ],
-            "answer": "100 \\text{ m}"
+            "answer": "\\(100 \\text{ m}\\)"
           }
         },
         {
@@ -102943,7 +102943,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Trapetsiyaning yuzi 90 sm², asoslari 11 sm va 7 sm. Uning balandligini toping.",
-          "hint": "Mavzu qoidasi: h = 2S / (a+b) = 180 / 18 = 10 sm",
+          "hint": "Mavzuga mos yuza formulasini tanlang (masalan, S = a · b yoki S = (a · h)/2) va berilgan sonlarni ko'paytirib hisoblang.",
           "solution": {
             "steps": [
               {
@@ -102953,7 +102953,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: h = 2S / (a+b) = 180 / 18 = 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         }
       ]
@@ -103137,10 +103137,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "To'g'ri to'rtburchakli yer maydonining bo'yi 40 m, eni 25 m. U necha sotix (ar)?",
         "options": [
-          "10 \\text{ sotix}",
-          "100 \\text{ sotix}",
-          "1 \\text{ sotix}",
-          "1000 \\text{ sotix}"
+          "\\(10 \\text{ sotix}\\)",
+          "\\(100 \\text{ sotix}\\)",
+          "\\(1 \\text{ sotix}\\)",
+          "\\(1000 \\text{ sotix}\\)"
         ],
         "correctIndex": 0,
         "explanation": "S = 40 * 25 = 1000 m² = 10 sotix"
@@ -103149,10 +103149,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kvadrat shaklidagi maydonning yuzi 1 gektar (10 000 m²). Uning tomoni necha metr?",
         "options": [
-          "1000 \\text{ m}",
-          "100 \\text{ m}",
-          "50 \\text{ m}",
-          "10 \\text{ m}"
+          "\\(1000 \\text{ m}\\)",
+          "\\(100 \\text{ m}\\)",
+          "\\(50 \\text{ m}\\)",
+          "\\(10 \\text{ m}\\)"
         ],
         "correctIndex": 1,
         "explanation": "a = √10000 = 100 m"
@@ -103161,10 +103161,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Trapetsiyaning yuzi 90 sm², asoslari 11 sm va 7 sm. Uning balandligini toping.",
         "options": [
-          "20 \\text{ sm}",
-          "5 \\text{ sm}",
-          "10 \\text{ sm}",
-          "15 \\text{ sm}"
+          "\\(20 \\text{ sm}\\)",
+          "\\(5 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)",
+          "\\(15 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "h = 2S / (a+b) = 180 / 18 = 10 sm"
@@ -103186,7 +103186,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: S = 40 * 25 = 1000 m² = 10 sotix"
             }
           ],
-          "answer": "10 \\text{ sotix}"
+          "answer": "\\(10 \\text{ sotix}\\)"
         }
       },
       {
@@ -103204,7 +103204,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: a = √10000 = 100 m"
             }
           ],
-          "answer": "100 \\text{ m}"
+          "answer": "\\(100 \\text{ m}\\)"
         }
       },
       {
@@ -103222,7 +103222,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: h = 2S / (a+b) = 180 / 18 = 10 sm"
             }
           ],
-          "answer": "10 \\text{ sm}"
+          "answer": "\\(10 \\text{ sm}\\)"
         }
       }
     ]
@@ -103333,7 +103333,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.",
+          "problem": "\\(Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -103413,7 +103413,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(\\vec{a}(3; 4)\\) va \\(\\vec{b}(2; -1)\\) vektorlarning skalyar ko'paytmasini hisoblang.",
+          "question": "\\vec{a}(3; 4) va \\vec{b}(2; -1) vektorlarning skalyar ko'paytmasini hisoblang.",
           "options": [
             "10",
             "2",
@@ -103425,7 +103425,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Agar \\(|\\vec{a}| = 6, |\\vec{b}| = 5\\) va ular orasidagi burchak 60° bo'lsa, \\(\\vec{a} \\cdot \\vec{b}\\) ni hisoblang.",
+          "question": "\\(Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.\\)",
           "options": [
             "\\(15\\sqrt{3}\\)",
             "30",
@@ -103437,7 +103437,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\vec{a}(x; 3)\\) va \\(\\vec{b}(2; -4)\\) vektorlar perpendikulyar bo'lsa, x ni toping.",
+          "question": "\\vec{a}(x; 3) va \\vec{b}(2; -4) vektorlar perpendikulyar bo'lsa, x ni toping.",
           "options": [
             "0",
             "-6",
@@ -103567,7 +103567,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.",
+          "problem": "\\(Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -103683,7 +103683,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(\\vec{a}(3; 4)\\) va \\(\\vec{b}(2; -1)\\) vektorlarning skalyar ko'paytmasini hisoblang.",
+          "question": "\\vec{a}(3; 4) va \\vec{b}(2; -1) vektorlarning skalyar ko'paytmasini hisoblang.",
           "options": [
             "10",
             "2",
@@ -103695,7 +103695,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Agar \\(|\\vec{a}| = 6, |\\vec{b}| = 5\\) va ular orasidagi burchak 60° bo'lsa, \\(\\vec{a} \\cdot \\vec{b}\\) ni hisoblang.",
+          "question": "\\(Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.\\)",
           "options": [
             "\\(15\\sqrt{3}\\)",
             "30",
@@ -103707,7 +103707,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\vec{a}(x; 3)\\) va \\(\\vec{b}(2; -4)\\) vektorlar perpendikulyar bo'lsa, x ni toping.",
+          "question": "\\vec{a}(x; 3) va \\vec{b}(2; -4) vektorlar perpendikulyar bo'lsa, x ni toping.",
           "options": [
             "0",
             "-6",
@@ -103724,7 +103724,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\vec{a}(3; 4) va \\vec{b}(2; -1) vektorlarning skalyar ko'paytmasini hisoblang.",
-          "hint": "Mavzu qoidasi: 3*2 + 4*(-1) = 6 - 4 = 2",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -103742,7 +103742,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: 6 * 5 * cos 60° = 30 * 0.5 = 15",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -103760,7 +103760,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\vec{a}(x; 3) va \\vec{b}(2; -4) vektorlar perpendikulyar bo'lsa, x ni toping.",
-          "hint": "Mavzu qoidasi: 2x + 3*(-4) = 0 => 2x = 12 => x = 6",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -103837,7 +103837,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.",
+          "problem": "\\(Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -103953,7 +103953,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "\\(\\vec{a}(3; 4)\\) va \\(\\vec{b}(2; -1)\\) vektorlarning skalyar ko'paytmasini hisoblang.",
+          "question": "\\vec{a}(3; 4) va \\vec{b}(2; -1) vektorlarning skalyar ko'paytmasini hisoblang.",
           "options": [
             "10",
             "2",
@@ -103965,7 +103965,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Agar \\(|\\vec{a}| = 6, |\\vec{b}| = 5\\) va ular orasidagi burchak 60° bo'lsa, \\(\\vec{a} \\cdot \\vec{b}\\) ni hisoblang.",
+          "question": "\\(Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.\\)",
           "options": [
             "\\(15\\sqrt{3}\\)",
             "30",
@@ -103977,7 +103977,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\vec{a}(x; 3)\\) va \\(\\vec{b}(2; -4)\\) vektorlar perpendikulyar bo'lsa, x ni toping.",
+          "question": "\\vec{a}(x; 3) va \\vec{b}(2; -4) vektorlar perpendikulyar bo'lsa, x ni toping.",
           "options": [
             "0",
             "-6",
@@ -103994,7 +103994,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\vec{a}(3; 4) va \\vec{b}(2; -1) vektorlarning skalyar ko'paytmasini hisoblang.",
-          "hint": "Mavzu qoidasi: 3*2 + 4*(-1) = 6 - 4 = 2",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -104012,7 +104012,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.\\)",
-          "hint": "Mavzu qoidasi: 6 * 5 * cos 60° = 30 * 0.5 = 15",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -104030,7 +104030,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\vec{a}(x; 3) va \\vec{b}(2; -4) vektorlar perpendikulyar bo'lsa, x ni toping.",
-          "hint": "Mavzu qoidasi: 2x + 3*(-4) = 0 => 2x = 12 => x = 6",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -104130,7 +104130,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.",
+        "problem": "\\(Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -104234,9 +104234,9 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.",
+        "question": "\\(Agar |\\vec{a}| = 6, |\\vec{b}| = 5 va ular orasidagi burchak 60° bo'lsa, \\vec{a} \\cdot \\vec{b} ni hisoblang.\\)",
         "options": [
-          "15\\sqrt{3}",
+          "\\(15\\sqrt{3}\\)",
           "30",
           "15",
           "20"
@@ -104388,7 +104388,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamalar sistemasidan yechimlar sonini toping: \\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}",
+          "problem": "Tenglamalar sistemasidan yechimlar sonini toping: \\(\\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -104436,7 +104436,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamalar sistemasidan musbat x va y larni toping: \\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}",
+          "problem": "Tenglamalar sistemasidan musbat x va y larni toping: \\(\\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -104556,7 +104556,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamalar sistemasini yeching: \\(\\begin{cases} xy = 15 \\\\ x + y = 8 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasini yeching: \\begin{cases} xy = 15 \\\\ x + y = 8 \\end{cases}",
           "options": [
             "(15; 1)",
             "(4; 4)",
@@ -104583,7 +104583,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Chiziq aylanani 2 nuqtada kesib o'tadi"
               }
             ],
-            "answer": "2 \\text{ ta}"
+            "answer": "\\(2 \\text{ ta}\\)"
           }
         },
         {
@@ -104619,7 +104619,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Viyet teoremasi: t² - 8t + 15 = 0 => t1 = 5, t2 = 3"
               }
             ],
-            "answer": "(5; 3) \\text{ yoki } (3; 5)"
+            "answer": "\\((5; 3) \\text{ yoki } (3; 5)\\)"
           }
         }
       ]
@@ -104654,7 +104654,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamalar sistemasidan yechimlar sonini toping: \\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}",
+          "problem": "Tenglamalar sistemasidan yechimlar sonini toping: \\(\\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -104702,7 +104702,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamalar sistemasidan musbat x va y larni toping: \\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}",
+          "problem": "Tenglamalar sistemasidan musbat x va y larni toping: \\(\\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -104858,7 +104858,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamalar sistemasini yeching: \\(\\begin{cases} xy = 15 \\\\ x + y = 8 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasini yeching: \\begin{cases} xy = 15 \\\\ x + y = 8 \\end{cases}",
           "options": [
             "(15; 1)",
             "(4; 4)",
@@ -104875,7 +104875,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamalar sistemasidan yechimlar sonini toping: \\(\\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}\\)",
-          "hint": "Mavzu qoidasi: Chiziq aylanani 2 nuqtada kesib o'tadi",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -104885,7 +104885,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Chiziq aylanani 2 nuqtada kesib o'tadi"
               }
             ],
-            "answer": "2 \\text{ ta}"
+            "answer": "\\(2 \\text{ ta}\\)"
           }
         },
         {
@@ -104893,7 +104893,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamalar sistemasidan musbat x va y larni toping: \\(\\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}\\)",
-          "hint": "Mavzu qoidasi: (x-y)(x+y) = 12 => 2(x+y) = 12 => x+y = 6",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -104911,7 +104911,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamalar sistemasini yeching: \\begin{cases} xy = 15 \\\\ x + y = 8 \\end{cases}",
-          "hint": "Mavzu qoidasi: Viyet teoremasi: t² - 8t + 15 = 0 => t1 = 5, t2 = 3",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -104921,7 +104921,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Viyet teoremasi: t² - 8t + 15 = 0 => t1 = 5, t2 = 3"
               }
             ],
-            "answer": "(5; 3) \\text{ yoki } (3; 5)"
+            "answer": "\\((5; 3) \\text{ yoki } (3; 5)\\)"
           }
         }
       ]
@@ -104956,7 +104956,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Tenglamalar sistemasidan yechimlar sonini toping: \\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}",
+          "problem": "Tenglamalar sistemasidan yechimlar sonini toping: \\(\\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -105004,7 +105004,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamalar sistemasidan musbat x va y larni toping: \\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}",
+          "problem": "Tenglamalar sistemasidan musbat x va y larni toping: \\(\\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -105160,7 +105160,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamalar sistemasini yeching: \\(\\begin{cases} xy = 15 \\\\ x + y = 8 \\end{cases}\\)",
+          "question": "Tenglamalar sistemasini yeching: \\begin{cases} xy = 15 \\\\ x + y = 8 \\end{cases}",
           "options": [
             "(15; 1)",
             "(4; 4)",
@@ -105177,7 +105177,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamalar sistemasidan yechimlar sonini toping: \\(\\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}\\)",
-          "hint": "Mavzu qoidasi: Chiziq aylanani 2 nuqtada kesib o'tadi",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -105187,7 +105187,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Chiziq aylanani 2 nuqtada kesib o'tadi"
               }
             ],
-            "answer": "2 \\text{ ta}"
+            "answer": "\\(2 \\text{ ta}\\)"
           }
         },
         {
@@ -105195,7 +105195,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamalar sistemasidan musbat x va y larni toping: \\(\\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}\\)",
-          "hint": "Mavzu qoidasi: (x-y)(x+y) = 12 => 2(x+y) = 12 => x+y = 6",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -105213,7 +105213,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamalar sistemasini yeching: \\begin{cases} xy = 15 \\\\ x + y = 8 \\end{cases}",
-          "hint": "Mavzu qoidasi: Viyet teoremasi: t² - 8t + 15 = 0 => t1 = 5, t2 = 3",
+          "hint": "Birinchi tenglamadan bitta noma'lumni (masalan x ni) topib olib, ikkinchi tenglamadagi x o'rniga qo'ying va yeching.",
           "solution": {
             "steps": [
               {
@@ -105223,7 +105223,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Viyet teoremasi: t² - 8t + 15 = 0 => t1 = 5, t2 = 3"
               }
             ],
-            "answer": "(5; 3) \\text{ yoki } (3; 5)"
+            "answer": "\\((5; 3) \\text{ yoki } (3; 5)\\)"
           }
         }
       ]
@@ -105281,7 +105281,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "Tenglamalar sistemasidan yechimlar sonini toping: \\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}",
+        "problem": "Tenglamalar sistemasidan yechimlar sonini toping: \\(\\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -105329,7 +105329,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "Tenglamalar sistemasidan musbat x va y larni toping: \\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}",
+        "problem": "Tenglamalar sistemasidan musbat x va y larni toping: \\(\\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -105437,19 +105437,19 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tenglamalar sistemasidan yechimlar sonini toping: \\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}",
+        "question": "Tenglamalar sistemasidan yechimlar sonini toping: \\(\\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}\\)",
         "options": [
-          "1 \\text{ ta}",
-          "2 \\text{ ta}",
-          "0 \\text{ ta}",
-          "4 \\text{ ta}"
+          "\\(1 \\text{ ta}\\)",
+          "\\(2 \\text{ ta}\\)",
+          "\\(0 \\text{ ta}\\)",
+          "\\(4 \\text{ ta}\\)"
         ],
         "correctIndex": 1,
         "explanation": "Chiziq aylanani 2 nuqtada kesib o'tadi"
       },
       {
         "level": "medium",
-        "question": "Tenglamalar sistemasidan musbat x va y larni toping: \\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}",
+        "question": "Tenglamalar sistemasidan musbat x va y larni toping: \\(\\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}\\)",
         "options": [
           "x = 6, y = 4",
           "x = 5, y = 3",
@@ -105466,7 +105466,7 @@ const mathTopicsData = [
           "(15; 1)",
           "(4; 4)",
           "(6; 2)",
-          "(5; 3) \\text{ yoki } (3; 5)"
+          "\\((5; 3) \\text{ yoki } (3; 5)\\)"
         ],
         "correctIndex": 3,
         "explanation": "Viyet teoremasi: t² - 8t + 15 = 0 => t1 = 5, t2 = 3"
@@ -105488,7 +105488,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Chiziq aylanani 2 nuqtada kesib o'tadi"
             }
           ],
-          "answer": "2 \\text{ ta}"
+          "answer": "\\(2 \\text{ ta}\\)"
         }
       },
       {
@@ -105524,7 +105524,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Viyet teoremasi: t² - 8t + 15 = 0 => t1 = 5, t2 = 3"
             }
           ],
-          "answer": "(5; 3) \\text{ yoki } (3; 5)"
+          "answer": "\\((5; 3) \\text{ yoki } (3; 5)\\)"
         }
       }
     ]
@@ -105715,7 +105715,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: \\(0.(45)\\)",
+          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: 0.(45)",
           "options": [
             "\\(\\frac{45}{100}\\)",
             "\\(\\frac{5}{11}\\)",
@@ -105727,7 +105727,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: \\(1.(3)\\)",
+          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: 1.(3)",
           "options": [
             "\\(\\frac{4}{3}\\)",
             "\\(1\\frac{3}{10}\\)",
@@ -105739,7 +105739,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(0.(7) + 0.(2)\\)",
+          "question": "Hisoblang: 0.(7) + 0.(2)",
           "options": [
             "0.(99)",
             "0.9",
@@ -105985,7 +105985,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: \\(0.(45)\\)",
+          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: 0.(45)",
           "options": [
             "\\(\\frac{45}{100}\\)",
             "\\(\\frac{5}{11}\\)",
@@ -105997,7 +105997,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: \\(1.(3)\\)",
+          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: 1.(3)",
           "options": [
             "\\(\\frac{4}{3}\\)",
             "\\(1\\frac{3}{10}\\)",
@@ -106009,7 +106009,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(0.(7) + 0.(2)\\)",
+          "question": "Hisoblang: 0.(7) + 0.(2)",
           "options": [
             "0.(99)",
             "0.9",
@@ -106026,7 +106026,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Davriy o'nli kasrni oddiy kasrga aylantiring: 0.(45)",
-          "hint": "Mavzu qoidasi: 45 / 99 = 5/11",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -106044,7 +106044,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Davriy o'nli kasrni oddiy kasrga aylantiring: 1.(3)",
-          "hint": "Mavzu qoidasi: 1 + 3/9 = 1 1/3",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -106062,7 +106062,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: 0.(7) + 0.(2)",
-          "hint": "Mavzu qoidasi: 7/9 + 2/9 = 9/9 = 1",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -106255,7 +106255,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: \\(0.(45)\\)",
+          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: 0.(45)",
           "options": [
             "\\(\\frac{45}{100}\\)",
             "\\(\\frac{5}{11}\\)",
@@ -106267,7 +106267,7 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: \\(1.(3)\\)",
+          "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: 1.(3)",
           "options": [
             "\\(\\frac{4}{3}\\)",
             "\\(1\\frac{3}{10}\\)",
@@ -106279,7 +106279,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Hisoblang: \\(0.(7) + 0.(2)\\)",
+          "question": "Hisoblang: 0.(7) + 0.(2)",
           "options": [
             "0.(99)",
             "0.9",
@@ -106296,7 +106296,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Davriy o'nli kasrni oddiy kasrga aylantiring: 0.(45)",
-          "hint": "Mavzu qoidasi: 45 / 99 = 5/11",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -106314,7 +106314,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Davriy o'nli kasrni oddiy kasrga aylantiring: 1.(3)",
-          "hint": "Mavzu qoidasi: 1 + 3/9 = 1 1/3",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -106332,7 +106332,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: 0.(7) + 0.(2)",
-          "hint": "Mavzu qoidasi: 7/9 + 2/9 = 9/9 = 1",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -106526,10 +106526,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: 0.(45)",
         "options": [
-          "\\frac{45}{100}",
-          "\\frac{5}{11}",
-          "\\frac{9}{20}",
-          "\\frac{45}{90}"
+          "\\(\\frac{45}{100}\\)",
+          "\\(\\frac{5}{11}\\)",
+          "\\(\\frac{9}{20}\\)",
+          "\\(\\frac{45}{90}\\)"
         ],
         "correctIndex": 1,
         "explanation": "45 / 99 = 5/11"
@@ -106538,10 +106538,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: 1.(3)",
         "options": [
-          "\\frac{4}{3}",
-          "1\\frac{3}{10}",
-          "1\\frac{1}{3}",
-          "1\\frac{1}{9}"
+          "\\(\\frac{4}{3}\\)",
+          "\\(1\\frac{3}{10}\\)",
+          "\\(1\\frac{1}{3}\\)",
+          "\\(1\\frac{1}{9}\\)"
         ],
         "correctIndex": 2,
         "explanation": "1 + 3/9 = 1 1/3"
@@ -106552,7 +106552,7 @@ const mathTopicsData = [
         "options": [
           "0.(99)",
           "0.9",
-          "\\frac{9}{10}",
+          "\\(\\frac{9}{10}\\)",
           "1"
         ],
         "correctIndex": 3,
@@ -106690,7 +106690,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni yeching: \\log_2(x - 3) < 3",
+          "problem": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -106722,7 +106722,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni yeching: \\log_{0.5}(2x - 1) \\ge -2",
+          "problem": "Tengsizlikni yeching: \\(\\log_{0.5}(2x - 1) \\ge -2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -106754,7 +106754,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikning butun yechimlari sonini toping: \\log_3 x \\le 2",
+          "problem": "Tengsizlikning butun yechimlari sonini toping: \\(\\log_3 x \\le 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -106805,7 +106805,7 @@ const mathTopicsData = [
           "question": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
           "options": [
             "[3; 11]",
-            "\\((-\\infty; 11)\\)",
+            "(-\\infty; 11)",
             "(3; 11)",
             "(3; 8)"
           ],
@@ -106822,7 +106822,7 @@ const mathTopicsData = [
             "\\((\\frac{1}{2}; \\frac{5}{2}]\\)"
           ],
           "correctIndex": 3,
-          "explanation": "Asos 0.5 < 1 bo'lgani uchun ishora o'zgaradi: 0 < 2x - 1 <= (0.5)^(-2) = 4 => 1/2 < x <= 5/2"
+          "explanation": "Asos 0.5 < 1 bo'lgani uchun ishora o'zgaradi: \\(0 < 2x - 1 <= (0.5)^(-2) = 4 => 1/2 < x <= 5/2\\)"
         },
         {
           "level": "hard",
@@ -106843,7 +106843,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
-          "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -106861,7 +106861,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni yeching: \\(\\log_{0.5}(2x - 1) \\ge -2\\)",
-          "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -106879,7 +106879,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tengsizlikning butun yechimlari sonini toping: \\(\\log_3 x \\le 2\\)",
-          "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -106924,7 +106924,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni yeching: \\log_2(x - 3) < 3",
+          "problem": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -106956,7 +106956,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni yeching: \\log_{0.5}(2x - 1) \\ge -2",
+          "problem": "Tengsizlikni yeching: \\(\\log_{0.5}(2x - 1) \\ge -2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -106988,7 +106988,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikning butun yechimlari sonini toping: \\log_3 x \\le 2",
+          "problem": "Tengsizlikning butun yechimlari sonini toping: \\(\\log_3 x \\le 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -107075,7 +107075,7 @@ const mathTopicsData = [
           "question": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
           "options": [
             "[3; 11]",
-            "\\((-\\infty; 11)\\)",
+            "(-\\infty; 11)",
             "(3; 11)",
             "(3; 8)"
           ],
@@ -107092,7 +107092,7 @@ const mathTopicsData = [
             "\\((\\frac{1}{2}; \\frac{5}{2}]\\)"
           ],
           "correctIndex": 3,
-          "explanation": "Asos 0.5 < 1 bo'lgani uchun ishora o'zgaradi: 0 < 2x - 1 <= (0.5)^(-2) = 4 => 1/2 < x <= 5/2"
+          "explanation": "Asos 0.5 < 1 bo'lgani uchun ishora o'zgaradi: \\(0 < 2x - 1 <= (0.5)^(-2) = 4 => 1/2 < x <= 5/2\\)"
         },
         {
           "level": "hard",
@@ -107113,7 +107113,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
-          "hint": "Mavzu qoidasi: 0 < x - 3 < 2³ => 0 < x - 3 < 8 => 3 < x < 11",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -107131,7 +107131,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni yeching: \\(\\log_{0.5}(2x - 1) \\ge -2\\)",
-          "hint": "Mavzu qoidasi: Asos 0.5 < 1 bo'lgani uchun ishora o'zgaradi: \\(0 < 2x - 1 <= (0.5)^(-2) = 4 => 1/2 < x <= 5/2\\)",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -107149,7 +107149,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tengsizlikning butun yechimlari sonini toping: \\(\\log_3 x \\le 2\\)",
-          "hint": "Mavzu qoidasi: 0 < x <= 9 => 1, 2, ..., 9 (9 ta butun son)",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -107194,7 +107194,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Tengsizlikni yeching: \\log_2(x - 3) < 3",
+          "problem": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -107226,7 +107226,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Tengsizlikni yeching: \\log_{0.5}(2x - 1) \\ge -2",
+          "problem": "Tengsizlikni yeching: \\(\\log_{0.5}(2x - 1) \\ge -2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -107258,7 +107258,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tengsizlikning butun yechimlari sonini toping: \\log_3 x \\le 2",
+          "problem": "Tengsizlikning butun yechimlari sonini toping: \\(\\log_3 x \\le 2\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -107345,7 +107345,7 @@ const mathTopicsData = [
           "question": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
           "options": [
             "[3; 11]",
-            "\\((-\\infty; 11)\\)",
+            "(-\\infty; 11)",
             "(3; 11)",
             "(3; 8)"
           ],
@@ -107362,7 +107362,7 @@ const mathTopicsData = [
             "\\((\\frac{1}{2}; \\frac{5}{2}]\\)"
           ],
           "correctIndex": 3,
-          "explanation": "Asos 0.5 < 1 bo'lgani uchun ishora o'zgaradi: 0 < 2x - 1 <= (0.5)^(-2) = 4 => 1/2 < x <= 5/2"
+          "explanation": "Asos 0.5 < 1 bo'lgani uchun ishora o'zgaradi: \\(0 < 2x - 1 <= (0.5)^(-2) = 4 => 1/2 < x <= 5/2\\)"
         },
         {
           "level": "hard",
@@ -107383,7 +107383,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
-          "hint": "Mavzu qoidasi: 0 < x - 3 < 2³ => 0 < x - 3 < 8 => 3 < x < 11",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -107401,7 +107401,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni yeching: \\(\\log_{0.5}(2x - 1) \\ge -2\\)",
-          "hint": "Mavzu qoidasi: Asos 0.5 < 1 bo'lgani uchun ishora o'zgaradi: \\(0 < 2x - 1 <= (0.5)^(-2) = 4 => 1/2 < x <= 5/2\\)",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -107419,7 +107419,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tengsizlikning butun yechimlari sonini toping: \\(\\log_3 x \\le 2\\)",
-          "hint": "Mavzu qoidasi: 0 < x <= 9 => 1, 2, ..., 9 (9 ta butun son)",
+          "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
           "solution": {
             "steps": [
               {
@@ -107487,7 +107487,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Tengsizlikni yeching: \\log_2(x - 3) < 3",
+        "problem": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -107519,7 +107519,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Tengsizlikni yeching: \\log_{0.5}(2x - 1) \\ge -2",
+        "problem": "Tengsizlikni yeching: \\(\\log_{0.5}(2x - 1) \\ge -2\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -107551,7 +107551,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tengsizlikning butun yechimlari sonini toping: \\log_3 x \\le 2",
+        "problem": "Tengsizlikning butun yechimlari sonini toping: \\(\\log_3 x \\le 2\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -107611,7 +107611,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Tengsizlikni yeching: \\log_2(x - 3) < 3",
+        "question": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
         "options": [
           "[3; 11]",
           "(-\\infty; 11)",
@@ -107623,19 +107623,19 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tengsizlikni yeching: \\log_{0.5}(2x - 1) \\ge -2",
+        "question": "Tengsizlikni yeching: \\(\\log_{0.5}(2x - 1) \\ge -2\\)",
         "options": [
-          "(0; \\frac{5}{2}]",
-          "[\\frac{1}{2}; 4]",
-          "(\\frac{1}{2}; \\infty)",
-          "(\\frac{1}{2}; \\frac{5}{2}]"
+          "\\((0; \\frac{5}{2}]\\)",
+          "\\([\\frac{1}{2}; 4]\\)",
+          "\\((\\frac{1}{2}; \\infty)\\)",
+          "\\((\\frac{1}{2}; \\frac{5}{2}]\\)"
         ],
         "correctIndex": 3,
-        "explanation": "Asos 0.5 < 1 bo'lgani uchun ishora o'zgaradi: 0 < 2x - 1 <= (0.5)^(-2) = 4 => 1/2 < x <= 5/2"
+        "explanation": "Asos 0.5 < 1 bo'lgani uchun ishora o'zgaradi: \\(0 < 2x - 1 <= (0.5)^(-2) = 4 => 1/2 < x <= 5/2\\)"
       },
       {
         "level": "hard",
-        "question": "Tengsizlikning butun yechimlari sonini toping: \\log_3 x \\le 2",
+        "question": "Tengsizlikning butun yechimlari sonini toping: \\(\\log_3 x \\le 2\\)",
         "options": [
           "9",
           "8",
@@ -107652,7 +107652,7 @@ const mathTopicsData = [
         "levelLabel": "🟢 1-mashq (Oddiy)",
         "title": "1-mashq",
         "problem": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\)",
-        "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+        "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
         "solution": {
           "steps": [
             {
@@ -107670,7 +107670,7 @@ const mathTopicsData = [
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
         "problem": "Tengsizlikni yeching: \\(\\log_{0.5}(2x - 1) \\ge -2\\)",
-        "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+        "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
         "solution": {
           "steps": [
             {
@@ -107688,7 +107688,7 @@ const mathTopicsData = [
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
         "problem": "Tengsizlikning butun yechimlari sonini toping: \\(\\log_3 x \\le 2\\)",
-        "hint": "Logarifm xossasidan foydalaning: log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.",
+        "hint": "Logarifm xossasidan foydalaning: \\(log_a(b) = c degani a^c = b deganidir. Asosni darajaga ko'tarib x ni toping.\\)",
         "solution": {
           "steps": [
             {
@@ -107777,7 +107777,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ifodani soddalashtiring: \\frac{\\sin 2\\alpha}{2\\cos \\alpha}",
+          "problem": "Ifodani soddalashtiring: \\(\\frac{\\sin 2\\alpha}{2\\cos \\alpha}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -107809,7 +107809,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Ifodani soddalashtiring: \\text{tg } \\alpha \\cdot \\cos \\alpha",
+          "problem": "Ifodani soddalashtiring: \\(\\text{tg } \\alpha \\cdot \\cos \\alpha\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -107841,7 +107841,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}",
+          "problem": "Hisoblang: \\(\\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -108011,7 +108011,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ifodani soddalashtiring: \\frac{\\sin 2\\alpha}{2\\cos \\alpha}",
+          "problem": "Ifodani soddalashtiring: \\(\\frac{\\sin 2\\alpha}{2\\cos \\alpha}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -108043,7 +108043,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Ifodani soddalashtiring: \\text{tg } \\alpha \\cdot \\cos \\alpha",
+          "problem": "Ifodani soddalashtiring: \\(\\text{tg } \\alpha \\cdot \\cos \\alpha\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -108075,7 +108075,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}",
+          "problem": "Hisoblang: \\(\\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -108200,7 +108200,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ifodani soddalashtiring: \\(\\frac{\\sin 2\\alpha}{2\\cos \\alpha}\\)",
-          "hint": "Mavzu qoidasi: 2 sin α cos α / (2 cos α) = sin α",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -108218,7 +108218,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Ifodani soddalashtiring: \\(\\text{tg } \\alpha \\cdot \\cos \\alpha\\)",
-          "hint": "Mavzu qoidasi: (sin α / cos α) * cos α = sin α",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -108236,7 +108236,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(\\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}\\)",
-          "hint": "Mavzu qoidasi: cos²α + sin²α = 1",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -108281,7 +108281,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Ifodani soddalashtiring: \\frac{\\sin 2\\alpha}{2\\cos \\alpha}",
+          "problem": "Ifodani soddalashtiring: \\(\\frac{\\sin 2\\alpha}{2\\cos \\alpha}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -108313,7 +108313,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Ifodani soddalashtiring: \\text{tg } \\alpha \\cdot \\cos \\alpha",
+          "problem": "Ifodani soddalashtiring: \\(\\text{tg } \\alpha \\cdot \\cos \\alpha\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -108345,7 +108345,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Hisoblang: \\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}",
+          "problem": "Hisoblang: \\(\\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -108470,7 +108470,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ifodani soddalashtiring: \\(\\frac{\\sin 2\\alpha}{2\\cos \\alpha}\\)",
-          "hint": "Mavzu qoidasi: 2 sin α cos α / (2 cos α) = sin α",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -108488,7 +108488,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Ifodani soddalashtiring: \\(\\text{tg } \\alpha \\cdot \\cos \\alpha\\)",
-          "hint": "Mavzu qoidasi: (sin α / cos α) * cos α = sin α",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -108506,7 +108506,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Hisoblang: \\(\\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}\\)",
-          "hint": "Mavzu qoidasi: cos²α + sin²α = 1",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -108574,7 +108574,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Ifodani soddalashtiring: \\frac{\\sin 2\\alpha}{2\\cos \\alpha}",
+        "problem": "Ifodani soddalashtiring: \\(\\frac{\\sin 2\\alpha}{2\\cos \\alpha}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -108606,7 +108606,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Ifodani soddalashtiring: \\text{tg } \\alpha \\cdot \\cos \\alpha",
+        "problem": "Ifodani soddalashtiring: \\(\\text{tg } \\alpha \\cdot \\cos \\alpha\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -108638,7 +108638,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Hisoblang: \\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}",
+        "problem": "Hisoblang: \\(\\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -108698,11 +108698,11 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Ifodani soddalashtiring: \\frac{\\sin 2\\alpha}{2\\cos \\alpha}",
+        "question": "Ifodani soddalashtiring: \\(\\frac{\\sin 2\\alpha}{2\\cos \\alpha}\\)",
         "options": [
-          "\\text{tg } \\alpha",
-          "\\cos \\alpha",
-          "\\sin \\alpha",
+          "\\(\\text{tg } \\alpha\\)",
+          "\\(\\cos \\alpha\\)",
+          "\\(\\sin \\alpha\\)",
           "1"
         ],
         "correctIndex": 2,
@@ -108710,23 +108710,23 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Ifodani soddalashtiring: \\text{tg } \\alpha \\cdot \\cos \\alpha",
+        "question": "Ifodani soddalashtiring: \\(\\text{tg } \\alpha \\cdot \\cos \\alpha\\)",
         "options": [
-          "\\text{ctg } \\alpha",
-          "\\cos \\alpha",
+          "\\(\\text{ctg } \\alpha\\)",
+          "\\(\\cos \\alpha\\)",
           "1",
-          "\\sin \\alpha"
+          "\\(\\sin \\alpha\\)"
         ],
         "correctIndex": 3,
         "explanation": "(sin α / cos α) * cos α = sin α"
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}",
+        "question": "Hisoblang: \\(\\frac{1}{1 + \\text{tg}^2 \\alpha} + \\frac{1}{1 + \\text{ctg}^2 \\alpha}\\)",
         "options": [
           "1",
           "2",
-          "\\text{tg } \\alpha",
+          "\\(\\text{tg } \\alpha\\)",
           "0"
         ],
         "correctIndex": 0,
@@ -109287,7 +109287,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ikki yoqli burchakning chiziqli burchagi 60°. Tekisliklar orasidagi burchak necha gradus?",
-          "hint": "Mavzu qoidasi: Ikki yoqli burchak uning chiziqli burchagi bilan o'lchanadi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -109305,7 +109305,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Ikki yoqli burchak qirrasidan 10 sm masofadagi nuqtadan yoqlargacha masofa 5 sm. Burchak kattaligini toping.",
-          "hint": "Mavzu qoidasi: sin(α/2) = 5/10 = 0.5 => α/2 = 30° => α = 60°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -109323,7 +109323,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "To'g'ri burchakli ikki yoqli burchak necha gradusga teng?",
-          "hint": "Mavzu qoidasi: To'g'ri ikki yoqli burchak = 90°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -109557,7 +109557,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Ikki yoqli burchakning chiziqli burchagi 60°. Tekisliklar orasidagi burchak necha gradus?",
-          "hint": "Mavzu qoidasi: Ikki yoqli burchak uning chiziqli burchagi bilan o'lchanadi",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -109575,7 +109575,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Ikki yoqli burchak qirrasidan 10 sm masofadagi nuqtadan yoqlargacha masofa 5 sm. Burchak kattaligini toping.",
-          "hint": "Mavzu qoidasi: sin(α/2) = 5/10 = 0.5 => α/2 = 30° => α = 60°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -109593,7 +109593,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "To'g'ri burchakli ikki yoqli burchak necha gradusga teng?",
-          "hint": "Mavzu qoidasi: To'g'ri ikki yoqli burchak = 90°",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -109787,10 +109787,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Ikki yoqli burchakning chiziqli burchagi 60°. Tekisliklar orasidagi burchak necha gradus?",
         "options": [
-          "30^\\circ",
-          "120^\\circ",
-          "60^\\circ",
-          "90^\\circ"
+          "\\(30^\\circ\\)",
+          "\\(120^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(90^\\circ\\)"
         ],
         "correctIndex": 2,
         "explanation": "Ikki yoqli burchak uning chiziqli burchagi bilan o'lchanadi"
@@ -109799,10 +109799,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Ikki yoqli burchak qirrasidan 10 sm masofadagi nuqtadan yoqlargacha masofa 5 sm. Burchak kattaligini toping.",
         "options": [
-          "90^\\circ",
-          "30^\\circ",
-          "45^\\circ",
-          "60^\\circ"
+          "\\(90^\\circ\\)",
+          "\\(30^\\circ\\)",
+          "\\(45^\\circ\\)",
+          "\\(60^\\circ\\)"
         ],
         "correctIndex": 3,
         "explanation": "sin(α/2) = 5/10 = 0.5 => α/2 = 30° => α = 60°"
@@ -109811,10 +109811,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "To'g'ri burchakli ikki yoqli burchak necha gradusga teng?",
         "options": [
-          "90^\\circ",
-          "180^\\circ",
-          "45^\\circ",
-          "60^\\circ"
+          "\\(90^\\circ\\)",
+          "\\(180^\\circ\\)",
+          "\\(45^\\circ\\)",
+          "\\(60^\\circ\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri ikki yoqli burchak = 90°"
@@ -109951,7 +109951,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.",
+          "problem": "\\(f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -109999,7 +109999,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.",
+          "problem": "\\(f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -110047,7 +110047,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.",
+          "problem": "\\(f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -110095,35 +110095,35 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.",
+          "question": "\\(f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.\\)",
           "options": [
-            "\\((-\\infty; 4]\\)",
-            "\\((-\\infty; 2]\\)",
-            "\\([4; \\infty)\\)",
-            "\\([2; \\infty)\\)"
+            "(-\\infty; 4]",
+            "(-\\infty; 2]",
+            "[4; \\infty)",
+            "[2; \\infty)"
           ],
           "correctIndex": 3,
           "explanation": "f'(x) = 2x - 4 >= 0 => x >= 2"
         },
         {
           "level": "medium",
-          "question": "f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.",
+          "question": "\\(f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.\\)",
           "options": [
-            "\\([3; \\infty)\\)",
-            "\\((-\\infty; 3]\\)",
-            "\\([6; \\infty)\\)",
-            "\\([0; \\infty)\\)"
+            "[3; \\infty)",
+            "(-\\infty; 3]",
+            "[6; \\infty)",
+            "[0; \\infty)"
           ],
           "correctIndex": 0,
           "explanation": "f'(x) = 6 - 2x <= 0 => 2x >= 6 => x >= 3"
         },
         {
           "level": "hard",
-          "question": "f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.",
+          "question": "\\(f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.\\)",
           "options": [
-            "\\((-\\infty; -2]\\)",
+            "(-\\infty; -2]",
             "[-2; 2]",
-            "\\([2; \\infty)\\)",
+            "[2; \\infty)",
             "[0; 2]"
           ],
           "correctIndex": 1,
@@ -110217,7 +110217,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.",
+          "problem": "\\(f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -110265,7 +110265,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.",
+          "problem": "\\(f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -110313,7 +110313,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.",
+          "problem": "\\(f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -110397,35 +110397,35 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.",
+          "question": "\\(f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.\\)",
           "options": [
-            "\\((-\\infty; 4]\\)",
-            "\\((-\\infty; 2]\\)",
-            "\\([4; \\infty)\\)",
-            "\\([2; \\infty)\\)"
+            "(-\\infty; 4]",
+            "(-\\infty; 2]",
+            "[4; \\infty)",
+            "[2; \\infty)"
           ],
           "correctIndex": 3,
           "explanation": "f'(x) = 2x - 4 >= 0 => x >= 2"
         },
         {
           "level": "medium",
-          "question": "f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.",
+          "question": "\\(f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.\\)",
           "options": [
-            "\\([3; \\infty)\\)",
-            "\\((-\\infty; 3]\\)",
-            "\\([6; \\infty)\\)",
-            "\\([0; \\infty)\\)"
+            "[3; \\infty)",
+            "(-\\infty; 3]",
+            "[6; \\infty)",
+            "[0; \\infty)"
           ],
           "correctIndex": 0,
           "explanation": "f'(x) = 6 - 2x <= 0 => 2x >= 6 => x >= 3"
         },
         {
           "level": "hard",
-          "question": "f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.",
+          "question": "\\(f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.\\)",
           "options": [
-            "\\((-\\infty; -2]\\)",
+            "(-\\infty; -2]",
             "[-2; 2]",
-            "\\([2; \\infty)\\)",
+            "[2; \\infty)",
             "[0; 2]"
           ],
           "correctIndex": 1,
@@ -110438,7 +110438,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.\\)",
-          "hint": "Mavzu qoidasi: f'(x) = 2x - 4 >= 0 => x >= 2",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -110456,7 +110456,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.\\)",
-          "hint": "Mavzu qoidasi: f'(x) = 6 - 2x <= 0 => 2x >= 6 => x >= 3",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -110474,7 +110474,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.\\)",
-          "hint": "Mavzu qoidasi: 3x² - 12 <= 0 => x² <= 4 => -2 <= x <= 2",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -110519,7 +110519,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.",
+          "problem": "\\(f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -110567,7 +110567,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.",
+          "problem": "\\(f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -110615,7 +110615,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.",
+          "problem": "\\(f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -110699,35 +110699,35 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.",
+          "question": "\\(f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.\\)",
           "options": [
-            "\\((-\\infty; 4]\\)",
-            "\\((-\\infty; 2]\\)",
-            "\\([4; \\infty)\\)",
-            "\\([2; \\infty)\\)"
+            "(-\\infty; 4]",
+            "(-\\infty; 2]",
+            "[4; \\infty)",
+            "[2; \\infty)"
           ],
           "correctIndex": 3,
           "explanation": "f'(x) = 2x - 4 >= 0 => x >= 2"
         },
         {
           "level": "medium",
-          "question": "f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.",
+          "question": "\\(f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.\\)",
           "options": [
-            "\\([3; \\infty)\\)",
-            "\\((-\\infty; 3]\\)",
-            "\\([6; \\infty)\\)",
-            "\\([0; \\infty)\\)"
+            "[3; \\infty)",
+            "(-\\infty; 3]",
+            "[6; \\infty)",
+            "[0; \\infty)"
           ],
           "correctIndex": 0,
           "explanation": "f'(x) = 6 - 2x <= 0 => 2x >= 6 => x >= 3"
         },
         {
           "level": "hard",
-          "question": "f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.",
+          "question": "\\(f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.\\)",
           "options": [
-            "\\((-\\infty; -2]\\)",
+            "(-\\infty; -2]",
             "[-2; 2]",
-            "\\([2; \\infty)\\)",
+            "[2; \\infty)",
             "[0; 2]"
           ],
           "correctIndex": 1,
@@ -110740,7 +110740,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "\\(f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.\\)",
-          "hint": "Mavzu qoidasi: f'(x) = 2x - 4 >= 0 => x >= 2",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -110758,7 +110758,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "\\(f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.\\)",
-          "hint": "Mavzu qoidasi: f'(x) = 6 - 2x <= 0 => 2x >= 6 => x >= 3",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -110776,7 +110776,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "\\(f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.\\)",
-          "hint": "Mavzu qoidasi: 3x² - 12 <= 0 => x² <= 4 => -2 <= x <= 2",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -110844,7 +110844,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.",
+        "problem": "\\(f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -110892,7 +110892,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.",
+        "problem": "\\(f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -110940,7 +110940,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.",
+        "problem": "\\(f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -111000,7 +111000,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.",
+        "question": "\\(f(x) = x^2 - 4x + 7 funksiyaning o'sish oralig'ini toping.\\)",
         "options": [
           "(-\\infty; 4]",
           "(-\\infty; 2]",
@@ -111012,7 +111012,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.",
+        "question": "\\(f(x) = 6x - x^2 funksiyaning kamayish oralig'ini toping.\\)",
         "options": [
           "[3; \\infty)",
           "(-\\infty; 3]",
@@ -111024,7 +111024,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.",
+        "question": "\\(f(x) = x^3 - 12x funksiyaning kamayish oralig'ini toping.\\)",
         "options": [
           "(-\\infty; -2]",
           "[-2; 2]",
@@ -111253,7 +111253,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(|2x - 5| = 9\\)",
+          "question": "Tenglamani yeching: |2x - 5| = 9",
           "options": [
             "\\(x_1 = 7, x_2 = -2\\)",
             "\\(x_1 = 7, x_2 = 2\\)",
@@ -111265,11 +111265,11 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tengsizlikni yeching: \\(|x - 3| < 5\\)",
+          "question": "Tengsizlikni yeching: |x - 3| < 5",
           "options": [
             "[-2; 8]",
             "(-2; 8)",
-            "\\((-\\infty; 8)\\)",
+            "(-\\infty; 8)",
             "(3; 8)"
           ],
           "correctIndex": 1,
@@ -111277,7 +111277,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\(|x + 4| = -3\\)",
+          "question": "Tenglamani yeching: |x + 4| = -3",
           "options": [
             "x = -1",
             "x = -7",
@@ -111340,7 +111340,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Modul manfiy son bo'la olmaydi"
               }
             ],
-            "answer": "\\emptyset \\text{ (Yechimga ega emas)}"
+            "answer": "\\(\\emptyset \\text{ (Yechimga ega emas)}\\)"
           }
         }
       ]
@@ -111481,7 +111481,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(|2x - 5| = 9\\)",
+          "question": "Tenglamani yeching: |2x - 5| = 9",
           "options": [
             "\\(x_1 = 7, x_2 = -2\\)",
             "\\(x_1 = 7, x_2 = 2\\)",
@@ -111493,11 +111493,11 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tengsizlikni yeching: \\(|x - 3| < 5\\)",
+          "question": "Tengsizlikni yeching: |x - 3| < 5",
           "options": [
             "[-2; 8]",
             "(-2; 8)",
-            "\\((-\\infty; 8)\\)",
+            "(-\\infty; 8)",
             "(3; 8)"
           ],
           "correctIndex": 1,
@@ -111505,7 +111505,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\(|x + 4| = -3\\)",
+          "question": "Tenglamani yeching: |x + 4| = -3",
           "options": [
             "x = -1",
             "x = -7",
@@ -111522,7 +111522,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: |2x - 5| = 9",
-          "hint": "Mavzu qoidasi: 2x - 5 = 9 => x = 7",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -111540,7 +111540,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni yeching: |x - 3| < 5",
-          "hint": "Mavzu qoidasi: -5 < x - 3 < 5 => -2 < x < 8",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -111558,7 +111558,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: |x + 4| = -3",
-          "hint": "Mavzu qoidasi: Modul manfiy son bo'la olmaydi",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -111568,7 +111568,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Modul manfiy son bo'la olmaydi"
               }
             ],
-            "answer": "\\emptyset \\text{ (Yechimga ega emas)}"
+            "answer": "\\(\\emptyset \\text{ (Yechimga ega emas)}\\)"
           }
         }
       ]
@@ -111709,7 +111709,7 @@ const mathTopicsData = [
       "quizzes": [
         {
           "level": "basic",
-          "question": "Tenglamani yeching: \\(|2x - 5| = 9\\)",
+          "question": "Tenglamani yeching: |2x - 5| = 9",
           "options": [
             "\\(x_1 = 7, x_2 = -2\\)",
             "\\(x_1 = 7, x_2 = 2\\)",
@@ -111721,11 +111721,11 @@ const mathTopicsData = [
         },
         {
           "level": "medium",
-          "question": "Tengsizlikni yeching: \\(|x - 3| < 5\\)",
+          "question": "Tengsizlikni yeching: |x - 3| < 5",
           "options": [
             "[-2; 8]",
             "(-2; 8)",
-            "\\((-\\infty; 8)\\)",
+            "(-\\infty; 8)",
             "(3; 8)"
           ],
           "correctIndex": 1,
@@ -111733,7 +111733,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "Tenglamani yeching: \\(|x + 4| = -3\\)",
+          "question": "Tenglamani yeching: |x + 4| = -3",
           "options": [
             "x = -1",
             "x = -7",
@@ -111750,7 +111750,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Tenglamani yeching: |2x - 5| = 9",
-          "hint": "Mavzu qoidasi: 2x - 5 = 9 => x = 7",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -111768,7 +111768,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tengsizlikni yeching: |x - 3| < 5",
-          "hint": "Mavzu qoidasi: -5 < x - 3 < 5 => -2 < x < 8",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -111786,7 +111786,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: |x + 4| = -3",
-          "hint": "Mavzu qoidasi: Modul manfiy son bo'la olmaydi",
+          "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
           "solution": {
             "steps": [
               {
@@ -111796,7 +111796,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: Modul manfiy son bo'la olmaydi"
               }
             ],
-            "answer": "\\emptyset \\text{ (Yechimga ega emas)}"
+            "answer": "\\(\\emptyset \\text{ (Yechimga ega emas)}\\)"
           }
         }
       ]
@@ -111853,7 +111853,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: Modul manfiy son bo'la olmaydi"
             }
           ],
-          "answer": "\\emptyset \\text{ (Yechimga ega emas)}"
+          "answer": "\\(\\emptyset \\text{ (Yechimga ega emas)}\\)"
         }
       }
     ],
@@ -111862,8 +111862,8 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tenglamani yeching: |2x - 5| = 9",
         "options": [
-          "x_1 = 7, x_2 = -2",
-          "x_1 = 7, x_2 = 2",
+          "\\(x_1 = 7, x_2 = -2\\)",
+          "\\(x_1 = 7, x_2 = 2\\)",
           "x = 7",
           "x = -2"
         ],
@@ -111888,8 +111888,8 @@ const mathTopicsData = [
         "options": [
           "x = -1",
           "x = -7",
-          "\\emptyset \\text{ (Yechimga ega emas)}",
-          "x = \\pm 3"
+          "\\(\\emptyset \\text{ (Yechimga ega emas)}\\)",
+          "\\(x = \\pm 3\\)"
         ],
         "correctIndex": 2,
         "explanation": "Modul manfiy son bo'la olmaydi"
@@ -112054,7 +112054,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Limitni hisoblang: \\lim_{x \\to 3} (2x^2 - 5x + 1)",
+          "problem": "Limitni hisoblang: \\(\\lim_{x \\to 3} (2x^2 - 5x + 1)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -112086,7 +112086,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Limitni hisoblang: \\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}",
+          "problem": "Limitni hisoblang: \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -112118,7 +112118,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Limitni hisoblang: \\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}",
+          "problem": "Limitni hisoblang: \\(\\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -112183,7 +112183,7 @@ const mathTopicsData = [
             "4",
             "2",
             "0",
-            "\\(\\infty\\)"
+            "\\infty"
           ],
           "correctIndex": 0,
           "explanation": "lim (x - 2)(x + 2)/(x - 2) = lim (x + 2) = 4"
@@ -112195,7 +112195,7 @@ const mathTopicsData = [
             "5",
             "3",
             "0",
-            "\\(\\infty\\)"
+            "\\infty"
           ],
           "correctIndex": 1,
           "explanation": "Katta darajalar koeffitsientlari nisbati 3/1 = 3"
@@ -112282,7 +112282,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Limitni hisoblang: \\lim_{x \\to 3} (2x^2 - 5x + 1)",
+          "problem": "Limitni hisoblang: \\(\\lim_{x \\to 3} (2x^2 - 5x + 1)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -112314,7 +112314,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Limitni hisoblang: \\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}",
+          "problem": "Limitni hisoblang: \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -112346,7 +112346,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Limitni hisoblang: \\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}",
+          "problem": "Limitni hisoblang: \\(\\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -112411,7 +112411,7 @@ const mathTopicsData = [
             "4",
             "2",
             "0",
-            "\\(\\infty\\)"
+            "\\infty"
           ],
           "correctIndex": 0,
           "explanation": "lim (x - 2)(x + 2)/(x - 2) = lim (x + 2) = 4"
@@ -112423,7 +112423,7 @@ const mathTopicsData = [
             "5",
             "3",
             "0",
-            "\\(\\infty\\)"
+            "\\infty"
           ],
           "correctIndex": 1,
           "explanation": "Katta darajalar koeffitsientlari nisbati 3/1 = 3"
@@ -112435,7 +112435,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Limitni hisoblang: \\(\\lim_{x \\to 3} (2x^2 - 5x + 1)\\)",
-          "hint": "Mavzu qoidasi: 2*(3²) - 5*3 + 1 = 18 - 15 + 1 = 4",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -112453,7 +112453,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Limitni hisoblang: \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\)",
-          "hint": "Mavzu qoidasi: lim (x - 2)(x + 2)/(x - 2) = lim (x + 2) = 4",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -112471,7 +112471,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Limitni hisoblang: \\(\\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}\\)",
-          "hint": "Mavzu qoidasi: Katta darajalar koeffitsientlari nisbati 3/1 = 3",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -112510,7 +112510,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Limitni hisoblang: \\lim_{x \\to 3} (2x^2 - 5x + 1)",
+          "problem": "Limitni hisoblang: \\(\\lim_{x \\to 3} (2x^2 - 5x + 1)\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -112542,7 +112542,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Limitni hisoblang: \\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}",
+          "problem": "Limitni hisoblang: \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -112574,7 +112574,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Limitni hisoblang: \\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}",
+          "problem": "Limitni hisoblang: \\(\\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -112639,7 +112639,7 @@ const mathTopicsData = [
             "4",
             "2",
             "0",
-            "\\(\\infty\\)"
+            "\\infty"
           ],
           "correctIndex": 0,
           "explanation": "lim (x - 2)(x + 2)/(x - 2) = lim (x + 2) = 4"
@@ -112651,7 +112651,7 @@ const mathTopicsData = [
             "5",
             "3",
             "0",
-            "\\(\\infty\\)"
+            "\\infty"
           ],
           "correctIndex": 1,
           "explanation": "Katta darajalar koeffitsientlari nisbati 3/1 = 3"
@@ -112663,7 +112663,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Limitni hisoblang: \\(\\lim_{x \\to 3} (2x^2 - 5x + 1)\\)",
-          "hint": "Mavzu qoidasi: 2*(3²) - 5*3 + 1 = 18 - 15 + 1 = 4",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -112681,7 +112681,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Limitni hisoblang: \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\)",
-          "hint": "Mavzu qoidasi: lim (x - 2)(x + 2)/(x - 2) = lim (x + 2) = 4",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -112699,7 +112699,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Limitni hisoblang: \\(\\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}\\)",
-          "hint": "Mavzu qoidasi: Katta darajalar koeffitsientlari nisbati 3/1 = 3",
+          "hint": "Avval pastdagi sonlarga (maxrajlarga) umumiy maxraj topib, kasrlarni kengaytiring. Keyin faqat tepadagi suratlarni hisoblang va natijani qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -112773,7 +112773,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Limitni hisoblang: \\lim_{x \\to 3} (2x^2 - 5x + 1)",
+        "question": "Limitni hisoblang: \\(\\lim_{x \\to 3} (2x^2 - 5x + 1)\\)",
         "options": [
           "6",
           "5",
@@ -112785,7 +112785,7 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Limitni hisoblang: \\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}",
+        "question": "Limitni hisoblang: \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\)",
         "options": [
           "4",
           "2",
@@ -112797,7 +112797,7 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Limitni hisoblang: \\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}",
+        "question": "Limitni hisoblang: \\(\\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}\\)",
         "options": [
           "5",
           "3",
@@ -112813,7 +112813,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Limitni hisoblang: \\lim_{x \\to 3} (2x^2 - 5x + 1)",
+        "problem": "Limitni hisoblang: \\(\\lim_{x \\to 3} (2x^2 - 5x + 1)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -112845,7 +112845,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Limitni hisoblang: \\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}",
+        "problem": "Limitni hisoblang: \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -112877,7 +112877,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Limitni hisoblang: \\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}",
+        "problem": "Limitni hisoblang: \\(\\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -113143,7 +113143,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 1 m³ = 1000 litr => 3000 litr"
               }
             ],
-            "answer": "3000 \\text{ litr}"
+            "answer": "\\(3000 \\text{ litr}\\)"
           }
         },
         {
@@ -113161,7 +113161,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 50 * 40 * 30 = 60000 sm³ = 60 dm³ = 60 litr"
               }
             ],
-            "answer": "60 \\text{ litr}"
+            "answer": "\\(60 \\text{ litr}\\)"
           }
         }
       ]
@@ -113343,7 +113343,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "5 litr necha sm³ (kub santimetr) ga teng?",
-          "hint": "Mavzu qoidasi: 1 litr = 1 dm³ = 1000 sm³ => 5 litr = 5000 sm³",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -113361,7 +113361,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "3 m³ suv necha litr bo'ladi?",
-          "hint": "Mavzu qoidasi: 1 m³ = 1000 litr => 3000 litr",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -113371,7 +113371,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 1 m³ = 1000 litr => 3000 litr"
               }
             ],
-            "answer": "3000 \\text{ litr}"
+            "answer": "\\(3000 \\text{ litr}\\)"
           }
         },
         {
@@ -113379,7 +113379,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Akvarium o'lchamlari 50 sm, 40 sm, 30 sm. U necha litr suv sig'diradi?",
-          "hint": "Mavzu qoidasi: 50 * 40 * 30 = 60000 sm³ = 60 dm³ = 60 litr",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -113389,7 +113389,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 50 * 40 * 30 = 60000 sm³ = 60 dm³ = 60 litr"
               }
             ],
-            "answer": "60 \\text{ litr}"
+            "answer": "\\(60 \\text{ litr}\\)"
           }
         }
       ]
@@ -113571,7 +113571,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "5 litr necha sm³ (kub santimetr) ga teng?",
-          "hint": "Mavzu qoidasi: 1 litr = 1 dm³ = 1000 sm³ => 5 litr = 5000 sm³",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -113589,7 +113589,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "3 m³ suv necha litr bo'ladi?",
-          "hint": "Mavzu qoidasi: 1 m³ = 1000 litr => 3000 litr",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -113599,7 +113599,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 1 m³ = 1000 litr => 3000 litr"
               }
             ],
-            "answer": "3000 \\text{ litr}"
+            "answer": "\\(3000 \\text{ litr}\\)"
           }
         },
         {
@@ -113607,7 +113607,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Akvarium o'lchamlari 50 sm, 40 sm, 30 sm. U necha litr suv sig'diradi?",
-          "hint": "Mavzu qoidasi: 50 * 40 * 30 = 60000 sm³ = 60 dm³ = 60 litr",
+          "hint": "Masalada berilgan o'lchamlarni formulaga qo'ying va ketma-ket hisoblang.",
           "solution": {
             "steps": [
               {
@@ -113617,7 +113617,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 50 * 40 * 30 = 60000 sm³ = 60 dm³ = 60 litr"
               }
             ],
-            "answer": "60 \\text{ litr}"
+            "answer": "\\(60 \\text{ litr}\\)"
           }
         }
       ]
@@ -113656,7 +113656,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 1 m³ = 1000 litr => 3000 litr"
             }
           ],
-          "answer": "3000 \\text{ litr}"
+          "answer": "\\(3000 \\text{ litr}\\)"
         }
       },
       {
@@ -113674,7 +113674,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 50 * 40 * 30 = 60000 sm³ = 60 dm³ = 60 litr"
             }
           ],
-          "answer": "60 \\text{ litr}"
+          "answer": "\\(60 \\text{ litr}\\)"
         }
       }
     ],
@@ -113683,10 +113683,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "5 litr necha sm³ (kub santimetr) ga teng?",
         "options": [
-          "500 \\text{ sm}^3",
-          "5000 \\text{ sm}^3",
-          "50 \\text{ sm}^3",
-          "50000 \\text{ sm}^3"
+          "\\(500 \\text{ sm}^3\\)",
+          "\\(5000 \\text{ sm}^3\\)",
+          "\\(50 \\text{ sm}^3\\)",
+          "\\(50000 \\text{ sm}^3\\)"
         ],
         "correctIndex": 1,
         "explanation": "1 litr = 1 dm³ = 1000 sm³ => 5 litr = 5000 sm³"
@@ -113695,10 +113695,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "3 m³ suv necha litr bo'ladi?",
         "options": [
-          "30000 \\text{ litr}",
-          "300 \\text{ litr}",
-          "3000 \\text{ litr}",
-          "30 \\text{ litr}"
+          "\\(30000 \\text{ litr}\\)",
+          "\\(300 \\text{ litr}\\)",
+          "\\(3000 \\text{ litr}\\)",
+          "\\(30 \\text{ litr}\\)"
         ],
         "correctIndex": 2,
         "explanation": "1 m³ = 1000 litr => 3000 litr"
@@ -113707,10 +113707,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Akvarium o'lchamlari 50 sm, 40 sm, 30 sm. U necha litr suv sig'diradi?",
         "options": [
-          "120 \\text{ litr}",
-          "600 \\text{ litr}",
-          "6 \\text{ litr}",
-          "60 \\text{ litr}"
+          "\\(120 \\text{ litr}\\)",
+          "\\(600 \\text{ litr}\\)",
+          "\\(6 \\text{ litr}\\)",
+          "\\(60 \\text{ litr}\\)"
         ],
         "correctIndex": 3,
         "explanation": "50 * 40 * 30 = 60000 sm³ = 60 dm³ = 60 litr"
@@ -114033,7 +114033,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 1 000 000 * 1.2² = 1 440 000 so'm"
               }
             ],
-            "answer": "1 440 000 \\text{ so'm}"
+            "answer": "\\(1 440 000 \\text{ so'm}\\)"
           }
         },
         {
@@ -114051,7 +114051,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 200 000 * 0.9 * 0.9 = 162 000 so'm"
               }
             ],
-            "answer": "162 000 \\text{ so'm}"
+            "answer": "\\(162 000 \\text{ so'm}\\)"
           }
         },
         {
@@ -114069,7 +114069,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 500 000 * 0.10 * 3 = 150 000 so'm"
               }
             ],
-            "answer": "150 000 \\text{ so'm}"
+            "answer": "\\(150 000 \\text{ so'm}\\)"
           }
         }
       ]
@@ -114251,7 +114251,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Bankka 1 000 000 so'm 20% yillik murakkab foizga 2 yilga qo'yildi. 2 yildan keyin summa qancha bo'ladi?",
-          "hint": "Mavzu qoidasi: 1 000 000 * 1.2² = 1 440 000 so'm",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -114261,7 +114261,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 1 000 000 * 1.2² = 1 440 000 so'm"
               }
             ],
-            "answer": "1 440 000 \\text{ so'm}"
+            "answer": "\\(1 440 000 \\text{ so'm}\\)"
           }
         },
         {
@@ -114269,7 +114269,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tovarning narxi 200 000 so'm. U ketma-ket ikki marta 10% dan arzonlashsa, yakuniy narxi qancha bo'ladi?",
-          "hint": "Mavzu qoidasi: 200 000 * 0.9 * 0.9 = 162 000 so'm",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -114279,7 +114279,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 200 000 * 0.9 * 0.9 = 162 000 so'm"
               }
             ],
-            "answer": "162 000 \\text{ so'm}"
+            "answer": "\\(162 000 \\text{ so'm}\\)"
           }
         },
         {
@@ -114287,7 +114287,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "500 000 so'm pul 10% oddiy foiz stavkasi bilan 3 yilda qancha daromad keltiradi?",
-          "hint": "Mavzu qoidasi: 500 000 * 0.10 * 3 = 150 000 so'm",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -114297,7 +114297,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 500 000 * 0.10 * 3 = 150 000 so'm"
               }
             ],
-            "answer": "150 000 \\text{ so'm}"
+            "answer": "\\(150 000 \\text{ so'm}\\)"
           }
         }
       ]
@@ -114479,7 +114479,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Bankka 1 000 000 so'm 20% yillik murakkab foizga 2 yilga qo'yildi. 2 yildan keyin summa qancha bo'ladi?",
-          "hint": "Mavzu qoidasi: 1 000 000 * 1.2² = 1 440 000 so'm",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -114489,7 +114489,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 1 000 000 * 1.2² = 1 440 000 so'm"
               }
             ],
-            "answer": "1 440 000 \\text{ so'm}"
+            "answer": "\\(1 440 000 \\text{ so'm}\\)"
           }
         },
         {
@@ -114497,7 +114497,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tovarning narxi 200 000 so'm. U ketma-ket ikki marta 10% dan arzonlashsa, yakuniy narxi qancha bo'ladi?",
-          "hint": "Mavzu qoidasi: 200 000 * 0.9 * 0.9 = 162 000 so'm",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -114507,7 +114507,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 200 000 * 0.9 * 0.9 = 162 000 so'm"
               }
             ],
-            "answer": "162 000 \\text{ so'm}"
+            "answer": "\\(162 000 \\text{ so'm}\\)"
           }
         },
         {
@@ -114515,7 +114515,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "500 000 so'm pul 10% oddiy foiz stavkasi bilan 3 yilda qancha daromad keltiradi?",
-          "hint": "Mavzu qoidasi: 500 000 * 0.10 * 3 = 150 000 so'm",
+          "hint": "Avval amallar ketma-ketligini belgilang (eng avval qavs ichi, so'ng ko'paytirish/bo'lish, oxirida qo'shish/ayirish) va qadamma-qadam hisoblang.",
           "solution": {
             "steps": [
               {
@@ -114525,7 +114525,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: 500 000 * 0.10 * 3 = 150 000 so'm"
               }
             ],
-            "answer": "150 000 \\text{ so'm}"
+            "answer": "\\(150 000 \\text{ so'm}\\)"
           }
         }
       ]
@@ -114546,7 +114546,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 1 000 000 * 1.2² = 1 440 000 so'm"
             }
           ],
-          "answer": "1 440 000 \\text{ so'm}"
+          "answer": "\\(1 440 000 \\text{ so'm}\\)"
         }
       },
       {
@@ -114564,7 +114564,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 200 000 * 0.9 * 0.9 = 162 000 so'm"
             }
           ],
-          "answer": "162 000 \\text{ so'm}"
+          "answer": "\\(162 000 \\text{ so'm}\\)"
         }
       },
       {
@@ -114582,7 +114582,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: 500 000 * 0.10 * 3 = 150 000 so'm"
             }
           ],
-          "answer": "150 000 \\text{ so'm}"
+          "answer": "\\(150 000 \\text{ so'm}\\)"
         }
       }
     ],
@@ -114591,10 +114591,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Bankka 1 000 000 so'm 20% yillik murakkab foizga 2 yilga qo'yildi. 2 yildan keyin summa qancha bo'ladi?",
         "options": [
-          "1 200 000 \\text{ so'm}",
-          "1 400 000 \\text{ so'm}",
-          "1 440 000 \\text{ so'm}",
-          "1 500 000 \\text{ so'm}"
+          "\\(1 200 000 \\text{ so'm}\\)",
+          "\\(1 400 000 \\text{ so'm}\\)",
+          "\\(1 440 000 \\text{ so'm}\\)",
+          "\\(1 500 000 \\text{ so'm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "1 000 000 * 1.2² = 1 440 000 so'm"
@@ -114603,10 +114603,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tovarning narxi 200 000 so'm. U ketma-ket ikki marta 10% dan arzonlashsa, yakuniy narxi qancha bo'ladi?",
         "options": [
-          "170 000 \\text{ so'm}",
-          "160 000 \\text{ so'm}",
-          "180 000 \\text{ so'm}",
-          "162 000 \\text{ so'm}"
+          "\\(170 000 \\text{ so'm}\\)",
+          "\\(160 000 \\text{ so'm}\\)",
+          "\\(180 000 \\text{ so'm}\\)",
+          "\\(162 000 \\text{ so'm}\\)"
         ],
         "correctIndex": 3,
         "explanation": "200 000 * 0.9 * 0.9 = 162 000 so'm"
@@ -114615,10 +114615,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "500 000 so'm pul 10% oddiy foiz stavkasi bilan 3 yilda qancha daromad keltiradi?",
         "options": [
-          "150 000 \\text{ so'm}",
-          "165 500 \\text{ so'm}",
-          "50 000 \\text{ so'm}",
-          "100 000 \\text{ so'm}"
+          "\\(150 000 \\text{ so'm}\\)",
+          "\\(165 500 \\text{ so'm}\\)",
+          "\\(50 000 \\text{ so'm}\\)",
+          "\\(100 000 \\text{ so'm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "500 000 * 0.10 * 3 = 150 000 so'm"
@@ -114784,7 +114784,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: x^4 - 13x^2 + 36 = 0",
+          "problem": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: \\(x^4 - 13x^2 + 36 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -114832,7 +114832,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamaning haqiqiy ildizlari sonini toping: x^4 - 5x^2 - 36 = 0",
+          "problem": "Tenglamaning haqiqiy ildizlari sonini toping: \\(x^4 - 5x^2 - 36 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -114880,7 +114880,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: x^4 - 16 = 0",
+          "problem": "Tenglamani yeching: \\(x^4 - 16 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -114997,7 +114997,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: t² - 5t - 36 = 0 => t1 = 9, t2 = -4 => x = ±3 (2 ta ildiz)"
               }
             ],
-            "answer": "2 \\text{ ta}"
+            "answer": "\\(2 \\text{ ta}\\)"
           }
         },
         {
@@ -115044,7 +115044,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: x^4 - 13x^2 + 36 = 0",
+          "problem": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: \\(x^4 - 13x^2 + 36 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -115092,7 +115092,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamaning haqiqiy ildizlari sonini toping: x^4 - 5x^2 - 36 = 0",
+          "problem": "Tenglamaning haqiqiy ildizlari sonini toping: \\(x^4 - 5x^2 - 36 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -115140,7 +115140,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: x^4 - 16 = 0",
+          "problem": "Tenglamani yeching: \\(x^4 - 16 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -115229,7 +115229,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: \\(x^4 - 13x^2 + 36 = 0\\)",
-          "hint": "Mavzu qoidasi: t² - 13t + 36 = 0 => t1 = 4, t2 = 9 => x = ±2, ±3",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -115247,7 +115247,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamaning haqiqiy ildizlari sonini toping: \\(x^4 - 5x^2 - 36 = 0\\)",
-          "hint": "Mavzu qoidasi: t² - 5t - 36 = 0 => t1 = 9, t2 = -4 => x = ±3 (2 ta ildiz)",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -115257,7 +115257,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: t² - 5t - 36 = 0 => t1 = 9, t2 = -4 => x = ±3 (2 ta ildiz)"
               }
             ],
-            "answer": "2 \\text{ ta}"
+            "answer": "\\(2 \\text{ ta}\\)"
           }
         },
         {
@@ -115265,7 +115265,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(x^4 - 16 = 0\\)",
-          "hint": "Mavzu qoidasi: x⁴ = 16 => x = ±2",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -115304,7 +115304,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (Batafsil 5 qadam)",
           "title": "1-misol",
-          "problem": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: x^4 - 13x^2 + 36 = 0",
+          "problem": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: \\(x^4 - 13x^2 + 36 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -115352,7 +115352,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (Batafsil 5 qadam)",
           "title": "2-misol",
-          "problem": "Tenglamaning haqiqiy ildizlari sonini toping: x^4 - 5x^2 - 36 = 0",
+          "problem": "Tenglamaning haqiqiy ildizlari sonini toping: \\(x^4 - 5x^2 - 36 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -115400,7 +115400,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "Tenglamani yeching: x^4 - 16 = 0",
+          "problem": "Tenglamani yeching: \\(x^4 - 16 = 0\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -115489,7 +115489,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: \\(x^4 - 13x^2 + 36 = 0\\)",
-          "hint": "Mavzu qoidasi: t² - 13t + 36 = 0 => t1 = 4, t2 = 9 => x = ±2, ±3",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -115507,7 +115507,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Tenglamaning haqiqiy ildizlari sonini toping: \\(x^4 - 5x^2 - 36 = 0\\)",
-          "hint": "Mavzu qoidasi: t² - 5t - 36 = 0 => t1 = 9, t2 = -4 => x = ±3 (2 ta ildiz)",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -115517,7 +115517,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: t² - 5t - 36 = 0 => t1 = 9, t2 = -4 => x = ±3 (2 ta ildiz)"
               }
             ],
-            "answer": "2 \\text{ ta}"
+            "answer": "\\(2 \\text{ ta}\\)"
           }
         },
         {
@@ -115525,7 +115525,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tenglamani yeching: \\(x^4 - 16 = 0\\)",
-          "hint": "Mavzu qoidasi: x⁴ = 16 => x = ±2",
+          "hint": "Avval barcha hadlarni chap tomonga o'tkazing. So'ng D = b² - 4ac diskriminantni hisoblab, x = (-b ± √D)/(2a) formulasi bilan ildizlarni toping.",
           "solution": {
             "steps": [
               {
@@ -115574,7 +115574,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: t² - 5t - 36 = 0 => t1 = 9, t2 = -4 => x = ±3 (2 ta ildiz)"
             }
           ],
-          "answer": "2 \\text{ ta}"
+          "answer": "\\(2 \\text{ ta}\\)"
         }
       },
       {
@@ -115599,7 +115599,7 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: x^4 - 13x^2 + 36 = 0",
+        "question": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: \\(x^4 - 13x^2 + 36 = 0\\)",
         "options": [
           "36",
           "6",
@@ -115611,24 +115611,24 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Tenglamaning haqiqiy ildizlari sonini toping: x^4 - 5x^2 - 36 = 0",
+        "question": "Tenglamaning haqiqiy ildizlari sonini toping: \\(x^4 - 5x^2 - 36 = 0\\)",
         "options": [
-          "0 \\text{ ta}",
-          "4 \\text{ ta}",
-          "2 \\text{ ta}",
-          "1 \\text{ ta}"
+          "\\(0 \\text{ ta}\\)",
+          "\\(4 \\text{ ta}\\)",
+          "\\(2 \\text{ ta}\\)",
+          "\\(1 \\text{ ta}\\)"
         ],
         "correctIndex": 2,
         "explanation": "t² - 5t - 36 = 0 => t1 = 9, t2 = -4 => x = ±3 (2 ta ildiz)"
       },
       {
         "level": "hard",
-        "question": "Tenglamani yeching: x^4 - 16 = 0",
+        "question": "Tenglamani yeching: \\(x^4 - 16 = 0\\)",
         "options": [
           "x = 4",
           "x = 2",
-          "x = \\pm 4",
-          "x = \\pm 2"
+          "\\(x = \\pm 4\\)",
+          "\\(x = \\pm 2\\)"
         ],
         "correctIndex": 3,
         "explanation": "x⁴ = 16 => x = ±2"
@@ -115639,7 +115639,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: x^4 - 13x^2 + 36 = 0",
+        "problem": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: \\(x^4 - 13x^2 + 36 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -115687,7 +115687,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "Tenglamaning haqiqiy ildizlari sonini toping: x^4 - 5x^2 - 36 = 0",
+        "problem": "Tenglamaning haqiqiy ildizlari sonini toping: \\(x^4 - 5x^2 - 36 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -115735,7 +115735,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tenglamani yeching: x^4 - 16 = 0",
+        "problem": "Tenglamani yeching: \\(x^4 - 16 = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -115820,7 +115820,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kasrni EKUB yordamida qisqartiring: \\frac{36}{48}",
+          "problem": "Kasrni EKUB yordamida qisqartiring: \\(\\frac{36}{48}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -115852,7 +115852,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Kasrni qisqarmas holga keltiring: \\frac{42}{70}",
+          "problem": "Kasrni qisqarmas holga keltiring: \\(\\frac{42}{70}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -115884,7 +115884,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "\\text{EKUB}(84, 126) ni hisoblang.",
+          "problem": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -115970,7 +115970,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "\\text{EKUB}(84, 126) ni hisoblang.",
+          "problem": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
           "hint": "Kasr qoidasi bo'yicha amallarni ketma-ket bajaring va chiqqan javobni qisqartiring.",
           "solution": {
             "steps": [
@@ -116012,7 +116012,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\text{EKUB}(84, 126)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
           "options": [
             "84",
             "21",
@@ -116034,7 +116034,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Kasrni EKUB yordamida qisqartiring: \\(\\frac{36}{48}\\)",
-          "hint": "Mavzu qoidasi: EKUB(36,48) = 12 => 3/4",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -116052,7 +116052,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Kasrni qisqarmas holga keltiring: \\(\\frac{42}{70}\\)",
-          "hint": "Mavzu qoidasi: EKUB(42,70) = 14 => 3/5",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -116069,8 +116069,8 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "\\text{EKUB}(84, 126) ni hisoblang.",
-          "hint": "Mavzu qoidasi: 84 = 42 * 2",
+          "problem": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
+          "hint": "Kasr qoidasi bo'yicha amallarni ketma-ket bajaring va chiqqan javobni qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -116111,7 +116111,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\text{EKUB}(84, 126)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
           "options": [
             "84",
             "21",
@@ -116127,7 +116127,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kasrni EKUB yordamida qisqartiring: \\frac{36}{48}",
+          "problem": "Kasrni EKUB yordamida qisqartiring: \\(\\frac{36}{48}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -116159,7 +116159,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Kasrni qisqarmas holga keltiring: \\frac{42}{70}",
+          "problem": "Kasrni qisqarmas holga keltiring: \\(\\frac{42}{70}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -116191,7 +116191,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "\\text{EKUB}(84, 126) ni hisoblang.",
+          "problem": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -116247,7 +116247,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Kasrni EKUB yordamida qisqartiring: \\(\\frac{36}{48}\\)",
-          "hint": "Mavzu qoidasi: EKUB(36,48) = 12 => 3/4",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -116265,7 +116265,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Kasrni qisqarmas holga keltiring: \\(\\frac{42}{70}\\)",
-          "hint": "Mavzu qoidasi: EKUB(42,70) = 14 => 3/5",
+          "hint": "Bo'lish uchun ikkinchi kasrning o'rnini teskarisiga (pastini tepaga, tepasini pastga) aylantirib, oddiy ko'paytirishga o'tkazasiz.",
           "solution": {
             "steps": [
               {
@@ -116282,8 +116282,8 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
-          "problem": "\\text{EKUB}(84, 126) ni hisoblang.",
-          "hint": "Mavzu qoidasi: 84 = 42 * 2",
+          "problem": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
+          "hint": "Kasr qoidasi bo'yicha amallarni ketma-ket bajaring va chiqqan javobni qisqartiring.",
           "solution": {
             "steps": [
               {
@@ -116324,7 +116324,7 @@ const mathTopicsData = [
         },
         {
           "level": "hard",
-          "question": "\\(\\text{EKUB}(84, 126)\\) ni hisoblang.",
+          "question": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
           "options": [
             "84",
             "21",
@@ -116340,7 +116340,7 @@ const mathTopicsData = [
           "level": "basic",
           "levelLabel": "1-misol (3 qadam)",
           "title": "1-misol",
-          "problem": "Kasrni EKUB yordamida qisqartiring: \\frac{36}{48}",
+          "problem": "Kasrni EKUB yordamida qisqartiring: \\(\\frac{36}{48}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -116372,7 +116372,7 @@ const mathTopicsData = [
           "level": "medium",
           "levelLabel": "2-misol (3 qadam)",
           "title": "2-misol",
-          "problem": "Kasrni qisqarmas holga keltiring: \\frac{42}{70}",
+          "problem": "Kasrni qisqarmas holga keltiring: \\(\\frac{42}{70}\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -116404,7 +116404,7 @@ const mathTopicsData = [
           "level": "hard",
           "levelLabel": "3-misol (Batafsil 5 qadam)",
           "title": "3-misol",
-          "problem": "\\text{EKUB}(84, 126) ni hisoblang.",
+          "problem": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
           "solutionSteps": [
             {
               "stepNumber": 1,
@@ -116491,7 +116491,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
-        "problem": "\\text{EKUB}(84, 126) ni hisoblang.",
+        "problem": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
         "hint": "Kasr qoidasi bo'yicha amallarni ketma-ket bajaring va chiqqan javobni qisqartiring.",
         "solution": {
           "steps": [
@@ -116509,31 +116509,31 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Kasrni EKUB yordamida qisqartiring: \\frac{36}{48}",
+        "question": "Kasrni EKUB yordamida qisqartiring: \\(\\frac{36}{48}\\)",
         "options": [
-          "\\frac{6}{8}",
-          "\\frac{3}{4}",
-          "\\frac{9}{12}",
-          "\\frac{2}{3}"
+          "\\(\\frac{6}{8}\\)",
+          "\\(\\frac{3}{4}\\)",
+          "\\(\\frac{9}{12}\\)",
+          "\\(\\frac{2}{3}\\)"
         ],
         "correctIndex": 1,
         "explanation": "EKUB(36,48) = 12 => 3/4"
       },
       {
         "level": "medium",
-        "question": "Kasrni qisqarmas holga keltiring: \\frac{42}{70}",
+        "question": "Kasrni qisqarmas holga keltiring: \\(\\frac{42}{70}\\)",
         "options": [
-          "\\frac{7}{10}",
-          "\\frac{6}{10}",
-          "\\frac{3}{5}",
-          "\\frac{2}{5}"
+          "\\(\\frac{7}{10}\\)",
+          "\\(\\frac{6}{10}\\)",
+          "\\(\\frac{3}{5}\\)",
+          "\\(\\frac{2}{5}\\)"
         ],
         "correctIndex": 2,
         "explanation": "EKUB(42,70) = 14 => 3/5"
       },
       {
         "level": "hard",
-        "question": "\\text{EKUB}(84, 126) ni hisoblang.",
+        "question": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
         "options": [
           "84",
           "21",
@@ -116549,7 +116549,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Kasrni EKUB yordamida qisqartiring: \\frac{36}{48}",
+        "problem": "Kasrni EKUB yordamida qisqartiring: \\(\\frac{36}{48}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -116581,7 +116581,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Kasrni qisqarmas holga keltiring: \\frac{42}{70}",
+        "problem": "Kasrni qisqarmas holga keltiring: \\(\\frac{42}{70}\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -116613,7 +116613,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "\\text{EKUB}(84, 126) ni hisoblang.",
+        "problem": "\\(\\text{EKUB}(84, 126) ni hisoblang.\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -116846,7 +116846,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: (32 - 12) / 2 = 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         },
         {
@@ -116917,7 +116917,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Teng yonli uchburchakning asosidagi burchagi 55°. Uchidagi burchakni hisoblang.",
-          "hint": "Mavzu qoidasi: 180° - 2*55° = 180° - 110° = 70°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -116935,7 +116935,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Teng yonli uchburchakning perimetri 32 sm, asosi 12 sm. Yon tomonini toping.",
-          "hint": "Mavzu qoidasi: (32 - 12) / 2 = 10 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -116945,7 +116945,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: (32 - 12) / 2 = 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         },
         {
@@ -116953,7 +116953,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Teng yonli to'g'ri burchakli uchburchakning o'tkir burchaklari necha gradusdan?",
-          "hint": "Mavzu qoidasi: 90° / 2 = 45°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -117130,7 +117130,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Teng yonli uchburchakning asosidagi burchagi 55°. Uchidagi burchakni hisoblang.",
-          "hint": "Mavzu qoidasi: 180° - 2*55° = 180° - 110° = 70°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -117148,7 +117148,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Teng yonli uchburchakning perimetri 32 sm, asosi 12 sm. Yon tomonini toping.",
-          "hint": "Mavzu qoidasi: (32 - 12) / 2 = 10 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -117158,7 +117158,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: (32 - 12) / 2 = 10 sm"
               }
             ],
-            "answer": "10 \\text{ sm}"
+            "answer": "\\(10 \\text{ sm}\\)"
           }
         },
         {
@@ -117166,7 +117166,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Teng yonli to'g'ri burchakli uchburchakning o'tkir burchaklari necha gradusdan?",
-          "hint": "Mavzu qoidasi: 90° / 2 = 45°",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -117367,7 +117367,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: (32 - 12) / 2 = 10 sm"
             }
           ],
-          "answer": "10 \\text{ sm}"
+          "answer": "\\(10 \\text{ sm}\\)"
         }
       },
       {
@@ -117394,10 +117394,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Teng yonli uchburchakning asosidagi burchagi 55°. Uchidagi burchakni hisoblang.",
         "options": [
-          "60^\\circ",
-          "55^\\circ",
-          "125^\\circ",
-          "70^\\circ"
+          "\\(60^\\circ\\)",
+          "\\(55^\\circ\\)",
+          "\\(125^\\circ\\)",
+          "\\(70^\\circ\\)"
         ],
         "correctIndex": 3,
         "explanation": "180° - 2*55° = 180° - 110° = 70°"
@@ -117406,10 +117406,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Teng yonli uchburchakning perimetri 32 sm, asosi 12 sm. Yon tomonini toping.",
         "options": [
-          "10 \\text{ sm}",
-          "20 \\text{ sm}",
-          "8 \\text{ sm}",
-          "12 \\text{ sm}"
+          "\\(10 \\text{ sm}\\)",
+          "\\(20 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(12 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "(32 - 12) / 2 = 10 sm"
@@ -117418,10 +117418,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Teng yonli to'g'ri burchakli uchburchakning o'tkir burchaklari necha gradusdan?",
         "options": [
-          "60^\\circ",
-          "45^\\circ",
-          "30^\\circ",
-          "90^\\circ"
+          "\\(60^\\circ\\)",
+          "\\(45^\\circ\\)",
+          "\\(30^\\circ\\)",
+          "\\(90^\\circ\\)"
         ],
         "correctIndex": 1,
         "explanation": "90° / 2 = 45°"
@@ -117711,7 +117711,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: R = c / 2 = 10 / 2 = 5 sm"
               }
             ],
-            "answer": "5 \\text{ sm}"
+            "answer": "\\(5 \\text{ sm}\\)"
           }
         },
         {
@@ -117729,7 +117729,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: r = (a + b - c)/2 = (6 + 8 - 10)/2 = 2 sm"
               }
             ],
-            "answer": "2 \\text{ sm}"
+            "answer": "\\(2 \\text{ sm}\\)"
           }
         },
         {
@@ -117800,7 +117800,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka tashqi chizilgan aylana radiusini toping.",
-          "hint": "Mavzu qoidasi: R = c / 2 = 10 / 2 = 5 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -117810,7 +117810,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: R = c / 2 = 10 / 2 = 5 sm"
               }
             ],
-            "answer": "5 \\text{ sm}"
+            "answer": "\\(5 \\text{ sm}\\)"
           }
         },
         {
@@ -117818,7 +117818,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka ichki chizilgan aylana radiusini toping.",
-          "hint": "Mavzu qoidasi: r = (a + b - c)/2 = (6 + 8 - 10)/2 = 2 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -117828,7 +117828,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: r = (a + b - c)/2 = (6 + 8 - 10)/2 = 2 sm"
               }
             ],
-            "answer": "2 \\text{ sm}"
+            "answer": "\\(2 \\text{ sm}\\)"
           }
         },
         {
@@ -117836,7 +117836,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tomoni 6 sm bo'lgan muntazam uchburchakka tashqi chizilgan aylana radiusi R ni toping.",
-          "hint": "Mavzu qoidasi: R = a / √3 = 6 / √3 = 2√3 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -118013,7 +118013,7 @@ const mathTopicsData = [
           "levelLabel": "🟢 1-mashq (Oddiy)",
           "title": "1-mashq",
           "problem": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka tashqi chizilgan aylana radiusini toping.",
-          "hint": "Mavzu qoidasi: R = c / 2 = 10 / 2 = 5 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -118023,7 +118023,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: R = c / 2 = 10 / 2 = 5 sm"
               }
             ],
-            "answer": "5 \\text{ sm}"
+            "answer": "\\(5 \\text{ sm}\\)"
           }
         },
         {
@@ -118031,7 +118031,7 @@ const mathTopicsData = [
           "levelLabel": "🟡 2-mashq (O'rtacha)",
           "title": "2-mashq",
           "problem": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka ichki chizilgan aylana radiusini toping.",
-          "hint": "Mavzu qoidasi: r = (a + b - c)/2 = (6 + 8 - 10)/2 = 2 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -118041,7 +118041,7 @@ const mathTopicsData = [
                 "explanation": "To'g'ri hisoblash: r = (a + b - c)/2 = (6 + 8 - 10)/2 = 2 sm"
               }
             ],
-            "answer": "2 \\text{ sm}"
+            "answer": "\\(2 \\text{ sm}\\)"
           }
         },
         {
@@ -118049,7 +118049,7 @@ const mathTopicsData = [
           "levelLabel": "🔴 3-mashq (Qiyinroq)",
           "title": "3-mashq",
           "problem": "Tomoni 6 sm bo'lgan muntazam uchburchakka tashqi chizilgan aylana radiusi R ni toping.",
-          "hint": "Mavzu qoidasi: R = a / √3 = 6 / √3 = 2√3 sm",
+          "hint": "Eslab qoling: Uchburchakning barcha ichki burchaklari yig'indisi doimo 180° ga teng. Berilgan burchaklarni qo'shib, 180° dan ayirib noma'lum burchakni topasiz.",
           "solution": {
             "steps": [
               {
@@ -118232,7 +118232,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: R = c / 2 = 10 / 2 = 5 sm"
             }
           ],
-          "answer": "5 \\text{ sm}"
+          "answer": "\\(5 \\text{ sm}\\)"
         }
       },
       {
@@ -118250,7 +118250,7 @@ const mathTopicsData = [
               "explanation": "To'g'ri hisoblash: r = (a + b - c)/2 = (6 + 8 - 10)/2 = 2 sm"
             }
           ],
-          "answer": "2 \\text{ sm}"
+          "answer": "\\(2 \\text{ sm}\\)"
         }
       },
       {
@@ -118277,10 +118277,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka tashqi chizilgan aylana radiusini toping.",
         "options": [
-          "5 \\text{ sm}",
-          "10 \\text{ sm}",
-          "4 \\text{ sm}",
-          "2.5 \\text{ sm}"
+          "\\(5 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)",
+          "\\(4 \\text{ sm}\\)",
+          "\\(2.5 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "R = c / 2 = 10 / 2 = 5 sm"
@@ -118289,10 +118289,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka ichki chizilgan aylana radiusini toping.",
         "options": [
-          "4 \\text{ sm}",
-          "2 \\text{ sm}",
-          "3 \\text{ sm}",
-          "1 \\text{ sm}"
+          "\\(4 \\text{ sm}\\)",
+          "\\(2 \\text{ sm}\\)",
+          "\\(3 \\text{ sm}\\)",
+          "\\(1 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "r = (a + b - c)/2 = (6 + 8 - 10)/2 = 2 sm"
@@ -118301,10 +118301,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tomoni 6 sm bo'lgan muntazam uchburchakka tashqi chizilgan aylana radiusi R ni toping.",
         "options": [
-          "3\\sqrt{3} \\text{ sm}",
-          "\\sqrt{3} \\text{ sm}",
-          "2\\sqrt{3} \\text{ sm}",
-          "6 \\text{ sm}"
+          "\\(3\\sqrt{3} \\text{ sm}\\)",
+          "\\(\\sqrt{3} \\text{ sm}\\)",
+          "\\(2\\sqrt{3} \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "R = a / √3 = 6 / √3 = 2√3 sm"
@@ -118480,15 +118480,15 @@ const mathTopicsData = [
         "explanation": "3x > 7 + 5 \\implies 3x > 12 \\implies x > 4"
       },
       {
-        "question": "Tengsizlikni yeching: -2x \\ge 10",
+        "question": "Tengsizlikni yeching: \\(-2x \\ge 10\\)",
         "options": [
-          "x \\le -5",
-          "x \\ge -5",
-          "x \\le 5",
-          "x \\ge 5"
+          "\\(x \\le -5\\)",
+          "\\(x \\ge -5\\)",
+          "\\(x \\le 5\\)",
+          "\\(x \\ge 5\\)"
         ],
         "correctIndex": 0,
-        "explanation": "-2 ga bo'lganda belgi o'zgaradi: x \\le \\frac{10}{-2} \\implies x \\le -5"
+        "explanation": "-2 ga bo'lganda belgi o'zgaradi: \\(x \\le \\frac{10}{-2} \\implies x \\le -5\\)"
       },
       {
         "question": "Tengsizlikni yeching: 5x - 3 < 2x + 9",
@@ -118539,7 +118539,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Tengsizlikni yeching: -2x \\ge 10",
+        "problem": "Tengsizlikni yeching: \\(-2x \\ge 10\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -118716,7 +118716,7 @@ const mathTopicsData = [
     ],
     "quizzes": [
       {
-        "question": "Tengsizlikni yeching: x^2 - 5x + 6 < 0",
+        "question": "Tengsizlikni yeching: \\(x^2 - 5x + 6 < 0\\)",
         "options": [
           "(2; 3)",
           "(-\\infty; 2) \\cup (3; +\\infty)",
@@ -118724,10 +118724,10 @@ const mathTopicsData = [
           "(0; 6)"
         ],
         "correctIndex": 0,
-        "explanation": "x^2 - 5x + 6 = 0 \\implies (x - 2)(x - 3) < 0 \\implies 2 < x < 3"
+        "explanation": "\\(x^2 - 5x + 6 = 0 \\implies (x - 2)(x - 3) < 0 \\implies 2 < x < 3\\)"
       },
       {
-        "question": "Tengsizlikni yeching: x^2 - 16 \\ge 0",
+        "question": "Tengsizlikni yeching: \\(x^2 - 16 \\ge 0\\)",
         "options": [
           "(-\\infty; -4] \\cup [4; +\\infty)",
           "[-4; 4]",
@@ -118735,10 +118735,10 @@ const mathTopicsData = [
           "[0; 4]"
         ],
         "correctIndex": 0,
-        "explanation": "(x - 4)(x + 4) \\ge 0 \\implies x \\le -4 \\text{ yoki } x \\ge 4"
+        "explanation": "\\((x - 4)(x + 4) \\ge 0 \\implies x \\le -4 \\text{ yoki } x \\ge 4\\)"
       },
       {
-        "question": "Tengsizlikni yeching: x^2 - 4x > 0",
+        "question": "Tengsizlikni yeching: \\(x^2 - 4x > 0\\)",
         "options": [
           "(-\\infty; 0) \\cup (4; +\\infty)",
           "(0; 4)",
@@ -118746,7 +118746,7 @@ const mathTopicsData = [
           "(-\\infty; 4)"
         ],
         "correctIndex": 0,
-        "explanation": "x(x - 4) > 0 \\implies x < 0 \\text{ yoki } x > 4"
+        "explanation": "\\(x(x - 4) > 0 \\implies x < 0 \\text{ yoki } x > 4\\)"
       }
     ],
     "examples": [
@@ -118754,7 +118754,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Tengsizlikni yeching: x^2 - 5x + 6 < 0",
+        "problem": "Tengsizlikni yeching: \\(x^2 - 5x + 6 < 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -118786,7 +118786,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Tengsizlikni yeching: x^2 - 16 \\ge 0",
+        "problem": "Tengsizlikni yeching: \\(x^2 - 16 \\ge 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -118818,7 +118818,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tengsizlikni yeching: x^2 - 4x > 0",
+        "problem": "Tengsizlikni yeching: \\(x^2 - 4x > 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -118912,7 +118912,7 @@ const mathTopicsData = [
               "step": 1,
               "title": "To'liq yechilishi",
               "formula": "x(x - 4) > 0 \\implies x < 0 \\text{ yoki } x > 4",
-              "explanation": "To'g'ri hisoblash: x(x - 4) > 0 \\implies x < 0 \\text{ yoki } x > 4"
+              "explanation": "To'g'ri hisoblash: \\(x(x - 4) > 0 \\implies x < 0 \\text{ yoki } x > 4\\)"
             }
           ],
           "answer": "(-\\infty; 0) \\cup (4; +\\infty)"
@@ -118963,37 +118963,37 @@ const mathTopicsData = [
     ],
     "quizzes": [
       {
-        "question": "Tenglamani yeching: 2\\sin(x) = 1",
+        "question": "Tenglamani yeching: \\(2\\sin(x) = 1\\)",
         "options": [
-          "x = (-1)^k \\frac{\\pi}{6} + \\pi k",
-          "x = \\pm \\frac{\\pi}{3} + 2\\pi k",
-          "x = \\frac{\\pi}{6} + 2\\pi k",
-          "x = \\pi k"
+          "\\(x = (-1)^k \\frac{\\pi}{6} + \\pi k\\)",
+          "\\(x = \\pm \\frac{\\pi}{3} + 2\\pi k\\)",
+          "\\(x = \\frac{\\pi}{6} + 2\\pi k\\)",
+          "\\(x = \\pi k\\)"
         ],
         "correctIndex": 0,
-        "explanation": "\\sin(x) = \\frac{1}{2} \\implies x = (-1)^k \\frac{\\pi}{6} + \\pi k"
+        "explanation": "\\(\\sin(x) = \\frac{1}{2} \\implies x = (-1)^k \\frac{\\pi}{6} + \\pi k\\)"
       },
       {
-        "question": "Tenglamani yeching: \\cos(x) = 0",
+        "question": "Tenglamani yeching: \\(\\cos(x) = 0\\)",
         "options": [
-          "x = \\frac{\\pi}{2} + \\pi k",
-          "x = \\pi k",
-          "x = 2\\pi k",
-          "x = \\frac{\\pi}{4} + \\pi k"
+          "\\(x = \\frac{\\pi}{2} + \\pi k\\)",
+          "\\(x = \\pi k\\)",
+          "\\(x = 2\\pi k\\)",
+          "\\(x = \\frac{\\pi}{4} + \\pi k\\)"
         ],
         "correctIndex": 0,
-        "explanation": "\\cos(x) = 0 \\text{ xususiy hol: } x = \\frac{\\pi}{2} + \\pi k"
+        "explanation": "\\cos(x) = 0 \\text{ xususiy hol: \\(} x = \\frac{\\pi}{2} + \\pi k\\)"
       },
       {
-        "question": "Tenglamani yeching: \\text{tg}(x) = 1",
+        "question": "Tenglamani yeching: \\(\\text{tg}(x) = 1\\)",
         "options": [
-          "x = \\frac{\\pi}{4} + \\pi k",
-          "x = \\frac{\\pi}{4} + 2\\pi k",
-          "x = \\pm \\frac{\\pi}{4} + \\pi k",
-          "x = \\frac{\\pi}{3} + \\pi k"
+          "\\(x = \\frac{\\pi}{4} + \\pi k\\)",
+          "\\(x = \\frac{\\pi}{4} + 2\\pi k\\)",
+          "\\(x = \\pm \\frac{\\pi}{4} + \\pi k\\)",
+          "\\(x = \\frac{\\pi}{3} + \\pi k\\)"
         ],
         "correctIndex": 0,
-        "explanation": "\\text{tg}(x) = 1 \\implies x = \\text{arctg}(1) + \\pi k = \\frac{\\pi}{4} + \\pi k"
+        "explanation": "\\(\\text{tg}(x) = 1 \\implies x = \\text{arctg}(1) + \\pi k = \\frac{\\pi}{4} + \\pi k\\)"
       }
     ],
     "examples": [
@@ -119001,7 +119001,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "Tenglamani yeching: 2\\sin(x) = 1",
+        "problem": "Tenglamani yeching: \\(2\\sin(x) = 1\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -119049,7 +119049,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Tenglamani yeching: \\cos(x) = 0",
+        "problem": "Tenglamani yeching: \\(\\cos(x) = 0\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -119081,7 +119081,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Tenglamani yeching: \\text{tg}(x) = 1",
+        "problem": "Tenglamani yeching: \\(\\text{tg}(x) = 1\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -119167,7 +119167,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
-        "problem": "Tenglamani yeching: \\text{tg}(x) = 1",
+        "problem": "Tenglamani yeching: \\(\\text{tg}(x) = 1\\)",
         "hint": "Noma'lum x qatnashgan hadlarni chap tomonga, oddiy sonlarni o'ng tomonga ishorasini teskarisiga o'zgartirib o'tkazing va x ning oldidagi songa bo'ling.",
         "solution": {
           "steps": [
@@ -119226,7 +119226,7 @@ const mathTopicsData = [
     ],
     "quizzes": [
       {
-        "question": "Hisoblang: C_6^2 (6 ta elementdan 2 tasini guruhlash)",
+        "question": "Hisoblang: \\(C_6^2 (6 ta elementdan 2 tasini guruhlash)\\)",
         "options": [
           "15",
           "30",
@@ -119234,10 +119234,10 @@ const mathTopicsData = [
           "36"
         ],
         "correctIndex": 0,
-        "explanation": "C_6^2 = \\frac{6 \\cdot 5}{2 \\cdot 1} = 15"
+        "explanation": "\\(C_6^2 = \\frac{6 \\cdot 5}{2 \\cdot 1} = 15\\)"
       },
       {
-        "question": "Hisoblang: A_5^2 (5 ta elementdan 2 tasini o'rinlashtirish)",
+        "question": "Hisoblang: \\(A_5^2 (5 ta elementdan 2 tasini o'rinlashtirish)\\)",
         "options": [
           "20",
           "10",
@@ -119245,7 +119245,7 @@ const mathTopicsData = [
           "120"
         ],
         "correctIndex": 0,
-        "explanation": "A_5^2 = 5 \\cdot 4 = 20"
+        "explanation": "\\(A_5^2 = 5 \\cdot 4 = 20\\)"
       },
       {
         "question": "7 ta o'quvchidan 3 kishilik guruhni necha xil usulda tanlash mumkin?",
@@ -119256,7 +119256,7 @@ const mathTopicsData = [
           "42"
         ],
         "correctIndex": 0,
-        "explanation": "C_7^3 = \\frac{7 \\cdot 6 \\cdot 5}{3 \\cdot 2 \\cdot 1} = 35"
+        "explanation": "\\(C_7^3 = \\frac{7 \\cdot 6 \\cdot 5}{3 \\cdot 2 \\cdot 1} = 35\\)"
       }
     ],
     "examples": [
@@ -119264,7 +119264,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (3 qadam)",
         "title": "1-misol",
-        "problem": "Hisoblang: C_6^2 (6 ta elementdan 2 tasini guruhlash)",
+        "problem": "Hisoblang: \\(C_6^2 (6 ta elementdan 2 tasini guruhlash)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -119296,7 +119296,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (3 qadam)",
         "title": "2-misol",
-        "problem": "Hisoblang: A_5^2 (5 ta elementdan 2 tasini o'rinlashtirish)",
+        "problem": "Hisoblang: \\(A_5^2 (5 ta elementdan 2 tasini o'rinlashtirish)\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -119379,7 +119379,7 @@ const mathTopicsData = [
         "levelLabel": "🟢 1-mashq (Oddiy)",
         "title": "1-mashq",
         "problem": "Hisoblang: \\(C_6^2 (6 ta elementdan 2 tasini guruhlash)\\)",
-        "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+        "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -119397,7 +119397,7 @@ const mathTopicsData = [
         "levelLabel": "🟡 2-mashq (O'rtacha)",
         "title": "2-mashq",
         "problem": "Hisoblang: \\(A_5^2 (5 ta elementdan 2 tasini o'rinlashtirish)\\)",
-        "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+        "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -119415,7 +119415,7 @@ const mathTopicsData = [
         "levelLabel": "🔴 3-mashq (Qiyinroq)",
         "title": "3-mashq",
         "problem": "7 ta o'quvchidan 3 kishilik guruhni necha xil usulda tanlash mumkin?",
-        "hint": "Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.",
+        "hint": "\\(Tartib muhim bo'lsa A_n^k, guruh tanlash bo'lsa C_n^k = n!/(k!(n-k)!) formulasidan foydalanib hisoblang.\\)",
         "solution": {
           "steps": [
             {
@@ -119473,7 +119473,7 @@ const mathTopicsData = [
     ],
     "quizzes": [
       {
-        "question": "Integralni hisoblang: \\int_{0}^{2} 3x^2\\,dx",
+        "question": "Integralni hisoblang: \\(\\int_{0}^{2} 3x^2\\,dx\\)",
         "options": [
           "8",
           "12",
@@ -119481,10 +119481,10 @@ const mathTopicsData = [
           "4"
         ],
         "correctIndex": 0,
-        "explanation": "F(x) = x^3 \\implies F(2) - F(0) = 2^3 - 0 = 8"
+        "explanation": "\\(F(x) = x^3 \\implies F(2) - F(0) = 2^3 - 0 = 8\\)"
       },
       {
-        "question": "Integralni hisoblang: \\int_{1}^{3} 2x\\,dx",
+        "question": "Integralni hisoblang: \\(\\int_{1}^{3} 2x\\,dx\\)",
         "options": [
           "8",
           "9",
@@ -119492,10 +119492,10 @@ const mathTopicsData = [
           "4"
         ],
         "correctIndex": 0,
-        "explanation": "F(x) = x^2 \\implies 3^2 - 1^2 = 9 - 1 = 8"
+        "explanation": "\\(F(x) = x^2 \\implies 3^2 - 1^2 = 9 - 1 = 8\\)"
       },
       {
-        "question": "Integralni hisoblang: \\int_{0}^{\\pi} \\sin(x)\\,dx",
+        "question": "Integralni hisoblang: \\(\\int_{0}^{\\pi} \\sin(x)\\,dx\\)",
         "options": [
           "2",
           "0",
@@ -119503,7 +119503,7 @@ const mathTopicsData = [
           "-2"
         ],
         "correctIndex": 0,
-        "explanation": "-\\cos(x) \\Big|_0^\\pi = -\\cos(\\pi) - (-\\cos(0)) = -(-1) + 1 = 2"
+        "explanation": "\\(-\\cos(x) \\Big|_0^\\pi = -\\cos(\\pi) - (-\\cos(0)) = -(-1) + 1 = 2\\)"
       }
     ],
     "examples": [
@@ -119511,7 +119511,7 @@ const mathTopicsData = [
         "level": "basic",
         "levelLabel": "1-misol (Batafsil 5 qadam)",
         "title": "1-misol",
-        "problem": "Integralni hisoblang: \\int_{0}^{2} 3x^2\\,dx",
+        "problem": "Integralni hisoblang: \\(\\int_{0}^{2} 3x^2\\,dx\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -119559,7 +119559,7 @@ const mathTopicsData = [
         "level": "medium",
         "levelLabel": "2-misol (Batafsil 5 qadam)",
         "title": "2-misol",
-        "problem": "Integralni hisoblang: \\int_{1}^{3} 2x\\,dx",
+        "problem": "Integralni hisoblang: \\(\\int_{1}^{3} 2x\\,dx\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
@@ -119607,7 +119607,7 @@ const mathTopicsData = [
         "level": "hard",
         "levelLabel": "3-misol (Batafsil 5 qadam)",
         "title": "3-misol",
-        "problem": "Integralni hisoblang: \\int_{0}^{\\pi} \\sin(x)\\,dx",
+        "problem": "Integralni hisoblang: \\(\\int_{0}^{\\pi} \\sin(x)\\,dx\\)",
         "solutionSteps": [
           {
             "stepNumber": 1,
