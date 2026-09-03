@@ -58,7 +58,7 @@ body {
 }
 
 .katex {
-  font-size: 1.1em;
+  font-size: 1.08em;
   text-rendering: optimizeLegibility;
 }
 
@@ -142,23 +142,37 @@ body {
 /* Mobile Safe Area & Touch Optimizations */
 @supports (padding-bottom: env(safe-area-inset-bottom)) {
   .safe-area-bottom {
-    padding-bottom: calc(0.5rem + env(safe-area-inset-bottom)) !important;
+    padding-bottom: calc(0.6rem + env(safe-area-inset-bottom)) !important;
   }
 }
 
-/* Touch feedback for smartphones */
-@media (hover: none) {
-  button, .topic-sidebar-item, .lang-pill-btn, .grade-filter-btn {
-    -webkit-tap-highlight-color: transparent;
+/* Prevent iOS Zoom on Inputs */
+@media (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
   }
-  button:active, .topic-sidebar-item:active {
-    transform: scale(0.97);
+}
+
+/* Touch feedback for smartphones (iPhone/Android) */
+@media (hover: none) {
+  button, .topic-sidebar-item, .lang-pill-btn, .grade-filter-btn, .runner-option-btn, .example-level-tab-btn, .practice-exercise-tab-btn {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  button:active, .topic-sidebar-item:active, .runner-option-btn:active {
+    transform: scale(0.98);
+    opacity: 0.9;
   }
 }
 
 /* Ensure math formulas never overflow on mobile */
-.formula-latex, .solution-step-card, .formula-card {
+.formula-latex, .solution-step-card, .formula-card, .katex-display {
   max-width: 100%;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Mobile Topic Drawer Polish */
+#app-sidebar {
   -webkit-overflow-scrolling: touch;
 }

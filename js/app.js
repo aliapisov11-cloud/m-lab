@@ -133,6 +133,8 @@ function openTestWizard() {
   AppState.currentView = "test_wizard";
   window.location.hash = "test-generator";
   selectAllTopicsForTestWizard();
+  closeMobileSidebar();
+  updateMobileNavState("test");
   renderMainView();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -140,6 +142,8 @@ function openTestWizard() {
 function backToLessons() {
   AppState.currentView = "lesson";
   window.location.hash = AppState.currentTopicId;
+  closeMobileSidebar();
+  updateMobileNavState("lesson");
   renderMainView();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -532,6 +536,9 @@ function selectTopic(topicId) {
   window.location.hash = topicId;
   AppState.activeExampleLevelIndex = 0;
   AppState.activePracticeIndex = 0;
+
+  closeMobileSidebar();
+  updateMobileNavState("lesson");
 
   renderSidebarList();
   renderMainView();
@@ -1724,31 +1731,43 @@ function initEventListeners() {
     });
   });
 
-  // Qidiruv maydoni
+  // Qidiruv maydoni (Desktop & Mobile)
   const searchInput = document.getElementById("search-input");
   const searchClearBtn = document.getElementById("search-clear-btn");
+  const mobileSearchInput = document.getElementById("mobile-search-input");
+  const mobileSearchClearBtn = document.getElementById("mobile-search-clear-btn");
+
+  function handleSearch(val) {
+    AppState.searchQuery = val;
+    if (searchInput && searchInput.value !== val) searchInput.value = val;
+    if (mobileSearchInput && mobileSearchInput.value !== val) mobileSearchInput.value = val;
+
+    if (searchClearBtn) {
+      searchClearBtn.classList.toggle("hidden", val.length === 0);
+    }
+    if (mobileSearchClearBtn) {
+      mobileSearchClearBtn.classList.toggle("hidden", val.length === 0);
+    }
+    renderSidebarList();
+  }
 
   if (searchInput) {
-    searchInput.addEventListener("input", (e) => {
-      AppState.searchQuery = e.target.value;
-      if (searchClearBtn) {
-        if (AppState.searchQuery.length > 0) {
-          searchClearBtn.classList.remove("hidden");
-        } else {
-          searchClearBtn.classList.add("hidden");
-        }
-      }
-      renderSidebarList();
-    });
+    searchInput.addEventListener("input", (e) => handleSearch(e.target.value));
+  }
+  if (mobileSearchInput) {
+    mobileSearchInput.addEventListener("input", (e) => handleSearch(e.target.value));
   }
 
   if (searchClearBtn) {
     searchClearBtn.addEventListener("click", () => {
-      searchInput.value = "";
-      AppState.searchQuery = "";
-      searchClearBtn.classList.add("hidden");
-      renderSidebarList();
+      handleSearch("");
       searchInput.focus();
+    });
+  }
+  if (mobileSearchClearBtn) {
+    mobileSearchClearBtn.addEventListener("click", () => {
+      handleSearch("");
+      mobileSearchInput.focus();
     });
   }
 
@@ -1848,6 +1867,9 @@ function openMobileSidebar() {
   const backdrop = document.getElementById("sidebar-backdrop");
   sidebar?.classList.remove("-translate-x-full");
   backdrop?.classList.remove("hidden");
+  if (document.body && document.body.style) {
+    document.body.style.overflow = "hidden"; // Prevent background body scroll when drawer is open
+  }
 }
 
 function closeMobileSidebar() {
@@ -1855,6 +1877,28 @@ function closeMobileSidebar() {
   const backdrop = document.getElementById("sidebar-backdrop");
   sidebar?.classList.add("-translate-x-full");
   backdrop?.classList.add("hidden");
+  if (document.body && document.body.style) {
+    document.body.style.overflow = ""; // Restore background scroll
+  }
+}
+
+function updateMobileNavState(viewName) {
+  const navLessons = document.getElementById("mobile-nav-lessons");
+  const navTest = document.getElementById("mobile-nav-test");
+  const navFav = document.getElementById("mobile-nav-fav");
+
+  if (!navLessons || !navTest) return;
+
+  const inactiveClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-slate-600 dark:text-slate-400 hover:text-brand-600 font-bold transition";
+  const activeClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-brand-600 dark:text-brand-400 font-extrabold transition bg-brand-50 dark:bg-brand-950/60";
+  const activeTestClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-purple-600 dark:text-purple-400 font-extrabold transition bg-purple-50 dark:bg-purple-950/60";
+  const activeFavClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-amber-600 dark:text-amber-400 font-extrabold transition bg-amber-50 dark:bg-amber-950/60";
+
+  navLessons.className = viewName === "lesson" ? activeClass : inactiveClass;
+  navTest.className = viewName === "test" ? activeTestClass : inactiveClass;
+  if (navFav) {
+    navFav.className = viewName === "fav" ? activeFavClass : inactiveClass;
+  }
 }
 
 function refreshLucide() {
