@@ -648,7 +648,7 @@ function renderSolutionSteps(example) {
                 📐 Misoldagi amaliy ko'rinishi:
               </span>
               <div class="py-1 text-center text-xs sm:text-base text-indigo-600 dark:text-indigo-300 font-bold overflow-x-auto">
-                \\[${step.formula}\\]
+                \\[${sanitizeLatexFractions(step.formula)}\\]
               </div>
             </div>
           ` : ''}
@@ -991,7 +991,7 @@ function renderTopicDetail(topicId) {
                 <!-- Formula -->
                 ${step.formula ? `
                   <div class="py-2 px-3 rounded-xl bg-indigo-50/50 dark:bg-indigo-950/40 border border-indigo-200/60 dark:border-indigo-800/60 text-xs sm:text-sm font-bold text-indigo-900 dark:text-indigo-200 text-center overflow-x-auto">
-                    \\[${step.formula}\\]
+                    \\[${sanitizeLatexFractions(step.formula)}\\]
                   </div>
                 ` : ''}
 
