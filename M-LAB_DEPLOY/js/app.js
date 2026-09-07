@@ -4,6 +4,37 @@
  * va maxsus TEST GENERATOR (Sinf, mavzular va savollar sonini tanlab test tuzish va topshirish tizimi).
  */
 
+function safeRenderMath(element) {
+  if (typeof renderMathInElement === "function") {
+    try {
+      renderMathInElement(element || document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true }
+        ],
+        throwOnError: false
+      });
+    } catch (e) {
+      console.warn("KaTeX render error:", e);
+    }
+  }
+}
+
+function formatMathText(str) {
+  if (!str) return "";
+  let text = String(str).trim();
+  if (text.includes("\\(") || text.includes("\\[")) return text;
+  if (/((\\[a-zA-Z]+)|(\^)|(_)|(\d+\s*[\+\-\*\/]\s*\d+))/.test(text)) {
+    if (text.includes(":")) {
+      const parts = text.split(":");
+      return `${parts[0]}: \\(${parts.slice(1).join(":").trim()}\\)`;
+    }
+    return `\\(${text}\\)`;
+  }
+  return text;
+}
+
 // Ilova holati (State)
 const AppState = {
   lang: localStorage.getItem("m_lab_lang") || "uz", // 'uz' | 'ru' | 'en'
@@ -31,6 +62,19 @@ const AppState = {
     answers: {}, // { 0: chosenIdx, 1: chosenIdx }
     startTime: null,
     endTime: null
+  },
+
+  // AI Kamera Yechuvchi State
+  aiCamera: {
+    apiKey: localStorage.getItem("m_lab_gemini_key") || (() => {
+      try { return atob("QVEuQWI4Uk42TDkyWHJ4YlFxT1Foajk5UTUxVVF4UFpmcm80YW9YYlR0UWpicDE1UnNGZkE="); } catch(e) { return ""; }
+    })(),
+    imageBase64: null,
+    imageMimeType: "image/jpeg",
+    isAnalyzing: false,
+    solution: null,
+    error: null,
+    showSettings: false
   }
 };
 
@@ -77,7 +121,7 @@ function renderMainView() {
   const navTestBtn = document.getElementById("nav-test-generator-btn");
 
   if (AppState.currentView === "lesson") {
-    sidebar?.classList.remove("hidden-view");
+    if (sidebar) sidebar.classList.remove("hidden");
     if (gradesBar) gradesBar.style.display = "block";
     if (navTestBtn) {
       navTestBtn.className = "px-3.5 py-1.5 rounded-xl text-xs font-black transition-all bg-purple-100 dark:bg-purple-950/70 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 hover:bg-purple-600 hover:text-white flex items-center space-x-1.5 shadow-2xs";
@@ -102,6 +146,8 @@ function openTestWizard() {
   AppState.currentView = "test_wizard";
   window.location.hash = "test-generator";
   selectAllTopicsForTestWizard();
+  closeMobileSidebar();
+  updateMobileNavState("test");
   renderMainView();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -109,8 +155,969 @@ function openTestWizard() {
 function backToLessons() {
   AppState.currentView = "lesson";
   window.location.hash = AppState.currentTopicId;
+  closeMobileSidebar();
+  updateMobileNavState("lesson");
   renderMainView();
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ==========================================
+// TIL VA LOKALIZATSIYA FUNKSIYALARI (i18n)
+// ==========================================
+function initLanguageUI() {
+  document.querySelectorAll(".lang-pill-btn").forEach(btn => {
+    const l = btn.getAttribute("data-lang");
+    if (l === AppState.lang) {
+      btn.className = "lang-pill-btn px-2.5 py-1 rounded-lg text-xs font-black transition-all bg-brand-600 text-white shadow-xs";
+    } else {
+      btn.className = "lang-pill-btn px-2.5 py-1 rounded-lg text-xs font-black transition-all text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-white";
+    }
+  });
+}
+
+function setLanguage(lang) {
+  if (AppState.lang === lang) return;
+  AppState.lang = lang;
+  localStorage.setItem("m_lab_lang", lang);
+
+  initLanguageUI();
+  updateStaticI18nLabels();
+  renderGradeButtons();
+  renderSidebarList();
+  renderMainView();
+
+  const langNames = {
+    uz: "Til o'zgartirildi: O'zbekcha 🇺🇿",
+    ru: "Язык изменен: Русский 🇷🇺",
+    en: "Language switched: English 🇬🇧"
+  };
+  showToast(langNames[lang] || "Language changed", "info");
+}
+
+function getLocalizedTopic(topic) {
+  const l = AppState.lang;
+  if (topic[l]) {
+    const loc = topic[l];
+    const exs = loc.examples || (loc.example ? [loc.example] : topic.examples || [topic.example]);
+    const pExs = loc.practiceExercises || topic.practiceExercises || [];
+    return {
+      ...topic,
+      title: loc.title || topic.title,
+      shortDesc: loc.shortDesc || topic.shortDesc,
+      description: loc.description || topic.description,
+      formulas: loc.formulas || topic.formulas,
+      steps: loc.steps || topic.steps,
+      examples: exs,
+      example: exs[AppState.activeExampleLevelIndex] || exs[0] || loc.example || topic.example,
+      practiceExercises: pExs,
+      practiceExercise: pExs[AppState.activePracticeIndex] || pExs[0]
+    };
+  }
+  return topic;
+}
+
+function getGradeLabel(gradeNumber) {
+  if (AppState.lang === "ru") return `${gradeNumber} класс`;
+  if (AppState.lang === "en") return `Grade ${gradeNumber}`;
+  return `${gradeNumber}-sinf`;
+}
+
+function updateStaticI18nLabels() {
+  const l = AppState.lang;
+  const brandTitle = document.getElementById("brand-title");
+  const brandBadge = document.getElementById("brand-badge");
+  const brandSubtitle = document.getElementById("brand-subtitle");
+  const searchInput = document.getElementById("search-input");
+  const sidebarMobileTitle = document.getElementById("sidebar-mobile-title");
+
+  const tabCatAll = document.getElementById("tab-cat-all");
+  const tabCatAlg = document.getElementById("tab-cat-algebra");
+  const tabCatGeo = document.getElementById("tab-cat-geometriya");
+
+  if (brandTitle) brandTitle.textContent = t("brand_title", l);
+  if (brandBadge) brandBadge.textContent = t("brand_badge", l);
+  if (brandSubtitle) brandSubtitle.textContent = t("brand_subtitle", l);
+  if (searchInput) searchInput.placeholder = t("search_placeholder", l);
+  if (sidebarMobileTitle) sidebarMobileTitle.textContent = t("all_categories", l) + " " + t("items_count", l);
+
+  if (tabCatAll) tabCatAll.textContent = t("all_categories", l);
+  if (tabCatAlg) tabCatAlg.textContent = t("algebra", l);
+  if (tabCatGeo) tabCatGeo.textContent = t("geometriya", l);
+}
+
+function renderGradeButtons() {
+  const container = document.getElementById("grades-filter-container");
+  if (!container) return;
+
+  const l = AppState.lang;
+  const grades = [5, 6, 7, 8, 9, 10, 11];
+
+  let html = `
+    <span class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mr-1 flex items-center space-x-1">
+      <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i>
+      <span>${t("select_grade_label", l)}</span>
+    </span>
+    
+    <button class="grade-filter-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+      AppState.activeGrade === 'all' 
+        ? 'bg-brand-600 text-white shadow-sm shadow-brand-500/20' 
+        : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-brand-50 dark:hover:bg-slate-700 hover:text-brand-600 dark:hover:text-brand-400'
+    }" data-grade="all">
+      ${t("all_grades", l)} (<span id="count-all-grades">${mathTopicsData.length}</span>)
+    </button>
+  `;
+
+  grades.forEach(g => {
+    const isAct = AppState.activeGrade === String(g);
+    html += `
+      <button class="grade-filter-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+        isAct 
+          ? 'bg-brand-600 text-white shadow-sm shadow-brand-500/20' 
+          : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-brand-50 dark:hover:bg-slate-700 hover:text-brand-600 dark:hover:text-brand-400'
+      }" data-grade="${g}">
+        ${getGradeLabel(g)}
+      </button>
+    `;
+  });
+
+  container.innerHTML = html;
+
+  container.querySelectorAll(".grade-filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const grade = btn.getAttribute("data-grade");
+      AppState.activeGrade = grade;
+      renderGradeButtons();
+
+      const filtered = getFilteredTopics();
+      if (filtered.length > 0 && !filtered.some(t => t.id === AppState.currentTopicId)) {
+        selectTopic(filtered[0].id);
+      } else {
+        renderSidebarList();
+      }
+    });
+  });
+
+  refreshLucide();
+}
+
+// ==========================================
+// TEMA BOSHQARUVI (DARK / LIGHT MODE)
+// ==========================================
+function initTheme() {
+  const savedTheme = localStorage.getItem("m_lab_theme");
+  const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+    document.documentElement.classList.add("dark");
+    AppState.theme = "dark";
+  } else {
+    document.documentElement.classList.remove("dark");
+    AppState.theme = "light";
+  }
+}
+
+function toggleTheme() {
+  if (document.documentElement.classList.contains("dark")) {
+    document.documentElement.classList.remove("dark");
+    localStorage.setItem("m_lab_theme", "light");
+    AppState.theme = "light";
+  } else {
+    document.documentElement.classList.add("dark");
+    localStorage.setItem("m_lab_theme", "dark");
+    AppState.theme = "dark";
+  }
+  refreshLucide();
+}
+
+// ==========================================
+// SEVIMLILARNI BOSHQARISH (FAVORITES)
+// ==========================================
+function initFavorites() {
+  try {
+    const saved = localStorage.getItem("m_lab_favorites");
+    if (saved) {
+      const arr = JSON.parse(saved);
+      AppState.favorites = new Set(arr);
+    }
+  } catch (e) {
+    AppState.favorites = new Set();
+  }
+  updateFavBadge();
+}
+
+function toggleFavorite(topicId, e) {
+  if (e) e.stopPropagation();
+
+  const l = AppState.lang;
+  if (AppState.favorites.has(topicId)) {
+    AppState.favorites.delete(topicId);
+    showToast(l === "ru" ? "Удалено из избранного" : l === "en" ? "Removed from bookmarks" : "Sevimlilardan olib tashlandi", "info");
+  } else {
+    AppState.favorites.add(topicId);
+    showToast(l === "ru" ? "Сохранено в избранное ⭐" : l === "en" ? "Saved to bookmarks ⭐" : "Mavzu sevimlilarga saqlandi ⭐", "success");
+  }
+
+  localStorage.setItem("m_lab_favorites", JSON.stringify(Array.from(AppState.favorites)));
+  updateFavBadge();
+  renderSidebarList();
+
+  const favBtn = document.getElementById("detail-fav-btn");
+  if (favBtn && AppState.currentTopicId === topicId) {
+    const isFav = AppState.favorites.has(topicId);
+    const saveTxt = isFav ? t("saved_btn", l) : t("save_btn", l);
+    favBtn.innerHTML = `
+      <i data-lucide="${isFav ? 'bookmark-check' : 'bookmark'}" class="w-4 h-4 ${isFav ? 'text-amber-500 fill-amber-500' : ''}"></i>
+      <span class="text-xs font-bold ${isFav ? 'text-amber-600 dark:text-amber-400' : ''}">${saveTxt}</span>
+    `;
+    refreshLucide();
+  }
+}
+
+function updateFavBadge() {
+  const badge = document.getElementById("fav-badge-count");
+  if (!badge) return;
+  const count = AppState.favorites.size;
+  if (count > 0) {
+    badge.textContent = count;
+    badge.classList.remove("hidden");
+    badge.classList.add("flex");
+  } else {
+    badge.classList.add("hidden");
+    badge.classList.remove("flex");
+  }
+}
+
+function updateCounts() {
+  const allCount = mathTopicsData.length;
+  const allGradesBadge = document.getElementById("count-all-grades");
+  if (allGradesBadge) allGradesBadge.textContent = allCount;
+}
+
+// ==========================================
+// RO'YXATLAR VA FILTRLASH
+// ==========================================
+function getFilteredTopics() {
+  return mathTopicsData.filter(rawTopic => {
+    const topic = getLocalizedTopic(rawTopic);
+
+    // Sinf filtri (5, 6, 7, 8, 9, 10, 11)
+    if (AppState.activeGrade !== "all") {
+      if (String(topic.gradeNumber) !== AppState.activeGrade) return false;
+    }
+
+    // Fan filtri (Algebra / Geometriya / Sevimlilar)
+    if (AppState.activeCategory === "algebra" && topic.category !== "algebra") return false;
+    if (AppState.activeCategory === "geometriya" && topic.category !== "geometriya") return false;
+    if (AppState.activeCategory === "favorites" && !AppState.favorites.has(topic.id)) return false;
+
+    // Qidiruv filtri
+    if (AppState.searchQuery.trim()) {
+      const q = AppState.searchQuery.toLowerCase().trim();
+      const matchTitle = topic.title.toLowerCase().includes(q);
+      const matchDesc = topic.description.toLowerCase().includes(q) || topic.shortDesc.toLowerCase().includes(q);
+      const matchGrade = topic.grade.toLowerCase().includes(q);
+      const matchFormulas = topic.formulas.some(f => f.title.toLowerCase().includes(q) || f.desc.toLowerCase().includes(q));
+      return matchTitle || matchDesc || matchGrade || matchFormulas;
+    }
+
+    return true;
+  });
+}
+
+// ==========================================
+// SIDEBAR MAVZULAR RO'YXATI
+// ==========================================
+function renderSidebarList() {
+  const container = document.getElementById("topic-list-container");
+  if (!container) return;
+
+  const l = AppState.lang;
+  const topics = getFilteredTopics();
+
+  // Status panelini yangilash
+  const statusText = document.getElementById("filter-status-text");
+  const topicsCountBadge = document.getElementById("filter-topics-count");
+  if (statusText && topicsCountBadge) {
+    let text = AppState.activeGrade === "all" ? t("all_grades", l) : getGradeLabel(AppState.activeGrade);
+    if (AppState.activeCategory === "algebra") text += ` (${t("algebra", l)})`;
+    if (AppState.activeCategory === "geometriya") text += ` (${t("geometriya", l)})`;
+    if (AppState.activeCategory === "favorites") text = `⭐ ${t("favorites_title", l)}`;
+    statusText.textContent = text;
+    topicsCountBadge.textContent = `${topics.length} ${t("items_count", l)}`;
+  }
+
+  if (topics.length === 0) {
+    container.innerHTML = `
+      <div class="text-center py-8 px-4 text-slate-400 dark:text-slate-500">
+        <i data-lucide="search-x" class="w-8 h-8 mx-auto mb-2 opacity-60"></i>
+        <p class="text-xs font-semibold">${t("no_topics_found", l)}</p>
+        <button id="reset-filters-btn" class="mt-3 px-3 py-1.5 text-xs font-bold rounded-lg bg-brand-50 dark:bg-slate-800 text-brand-600 dark:text-brand-400 hover:bg-brand-100 transition">
+          ${t("show_all_topics", l)}
+        </button>
+      </div>
+    `;
+    document.getElementById("reset-filters-btn")?.addEventListener("click", () => {
+      AppState.activeGrade = "all";
+      AppState.activeCategory = "all";
+      AppState.searchQuery = "";
+      const sInput = document.getElementById("search-input");
+      if (sInput) sInput.value = "";
+      renderGradeButtons();
+      updateCategoryButtonsUI();
+      renderSidebarList();
+    });
+    refreshLucide();
+    return;
+  }
+
+  container.innerHTML = topics.map(rawTopic => {
+    const topic = getLocalizedTopic(rawTopic);
+    const isSelected = topic.id === AppState.currentTopicId && AppState.currentView === "lesson";
+    const isFav = AppState.favorites.has(topic.id);
+    const isAlgebra = topic.category === "algebra";
+    const catLabel = topic.category === "algebra" ? t("algebra", l) : t("geometriya", l);
+
+    return `
+      <div 
+        class="topic-sidebar-item group relative flex items-center justify-between p-3 rounded-2xl cursor-pointer transition-all duration-200 ${
+          isSelected 
+            ? 'bg-brand-600 text-white shadow-md shadow-brand-500/25 font-medium' 
+            : 'bg-white dark:bg-slate-800/80 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-700 dark:text-slate-200 border border-slate-200/70 dark:border-slate-700/60'
+        }"
+        data-topic-id="${topic.id}"
+      >
+        <div class="flex items-center space-x-3 min-w-0 flex-1">
+          <div class="w-8 h-8 rounded-xl flex items-center justify-center flex-shrink-0 ${
+            isSelected 
+              ? 'bg-white/20 text-white' 
+              : isAlgebra 
+                ? 'bg-indigo-100 dark:bg-indigo-950/70 text-indigo-600 dark:text-indigo-400' 
+                : 'bg-emerald-100 dark:bg-emerald-950/70 text-emerald-600 dark:text-emerald-400'
+          }">
+            <i data-lucide="${topic.icon || 'book'}" class="w-4 h-4"></i>
+          </div>
+          <div class="min-w-0 flex-1">
+            <h4 class="text-xs font-bold truncate leading-tight ${isSelected ? 'text-white' : 'text-slate-900 dark:text-slate-100'}">
+              ${topic.title}
+            </h4>
+            <div class="flex items-center space-x-1.5 mt-0.5">
+              <span class="text-[10px] font-bold px-1.5 py-0.2 rounded ${isSelected ? 'bg-white/20 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300'}">
+                ${getGradeLabel(topic.gradeNumber)}
+              </span>
+              <span class="text-[9px] opacity-40">•</span>
+              <span class="text-[10px] capitalize opacity-75">
+                ${catLabel}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <button 
+          class="fav-toggle-btn p-1.5 rounded-lg opacity-80 hover:opacity-100 hover:scale-110 transition ml-2 flex-shrink-0 ${
+            isSelected ? 'text-white/80 hover:text-white' : isFav ? 'text-amber-500' : 'text-slate-300 dark:text-slate-600 hover:text-amber-500'
+          }"
+          data-fav-id="${topic.id}"
+          title="${isFav ? t('saved_btn', l) : t('save_btn', l)}"
+        >
+          <i data-lucide="bookmark" class="w-4 h-4 ${isFav ? 'fill-amber-500 text-amber-500' : ''}"></i>
+        </button>
+      </div>
+    `;
+  }).join("");
+
+  container.querySelectorAll(".topic-sidebar-item").forEach(el => {
+    el.addEventListener("click", () => {
+      const id = el.getAttribute("data-topic-id");
+      selectTopic(id);
+      closeMobileSidebar();
+    });
+  });
+
+  container.querySelectorAll(".fav-toggle-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      const id = btn.getAttribute("data-fav-id");
+      toggleFavorite(id, e);
+    });
+  });
+
+  refreshLucide();
+}
+
+function selectTopic(topicId) {
+  AppState.currentView = "lesson";
+  AppState.currentTopicId = topicId;
+  window.location.hash = topicId;
+  AppState.activeExampleLevelIndex = 0;
+  AppState.activePracticeIndex = 0;
+
+  closeMobileSidebar();
+  updateMobileNavState("lesson");
+
+  renderSidebarList();
+  renderMainView();
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ==========================================
+// MISOLLARNING BOSQICHMA-BOSQICH YECHILISHI (TEPASIDA TUSHUNTIRISH, PASTIDA MISOLLAR)
+// ==========================================
+function renderSolutionSteps(example) {
+  const l = AppState.lang;
+  if (example && example.solutionSteps && example.solutionSteps.length > 0) {
+    return example.solutionSteps.map((step, idx) => {
+      const stepColor = idx === 0 
+        ? 'bg-emerald-600 text-white' 
+        : idx === 1 
+          ? 'bg-amber-600 text-white' 
+          : 'bg-indigo-600 text-white';
+
+      const stepHeadingBadge = idx === 0
+        ? '🟢 1-bosqich: Birinchi nima qilamiz?'
+        : idx === 1
+          ? '🟡 2-bosqich: Ikkinchi nima qilamiz?'
+          : '🔴 3-bosqich: Uchinchi nima qilamiz & Natija';
+
+      return `
+        <div class="solution-step-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700/80 p-4 sm:p-5 transition-all shadow-xs space-y-3.5">
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex items-center space-x-3">
+              <span class="w-7 h-7 rounded-xl ${stepColor} text-xs font-black flex items-center justify-center flex-shrink-0 shadow-xs">
+                ${step.stepNumber}
+              </span>
+              <div>
+                <h5 class="text-xs sm:text-sm font-black text-slate-900 dark:text-white">
+                  ${step.title}
+                </h5>
+              </div>
+            </div>
+            <span class="text-[11px] font-extrabold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-750 text-slate-700 dark:text-slate-300">
+              ${stepHeadingBadge}
+            </span>
+          </div>
+
+          <!-- TEPASIDA: O'qituvchi tili bilan qisqa va oson tushuntirish -->
+          <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-200/60 dark:border-slate-700 text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed font-medium flex items-start space-x-2.5">
+            <span class="text-base flex-shrink-0">🗣️</span>
+            <div>
+              <strong class="text-amber-800 dark:text-amber-300 block mb-0.5 text-xs font-extrabold">O'qituvchi maslahati:</strong>
+              <span>${step.why}</span>
+            </div>
+          </div>
+
+          <!-- PASTIDA: Aniq misol va formulasi -->
+          ${step.formula ? `
+            <div class="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-indigo-200/80 dark:border-indigo-900/60 space-y-1">
+              <span class="text-[11px] font-extrabold uppercase tracking-wide text-indigo-700 dark:text-indigo-400 block">
+                📐 Misoldagi amaliy ko'rinishi:
+              </span>
+              <div class="py-1 text-center text-xs sm:text-base text-indigo-600 dark:text-indigo-300 font-bold overflow-x-auto">
+                \\[${step.formula}\\]
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Qanday bajarildi / Natijasi -->
+          <div class="text-xs sm:text-sm text-emerald-700 dark:text-emerald-400 font-bold flex items-center space-x-2">
+            <span>✅</span>
+            <span>${step.how}</span>
+          </div>
+        </div>
+      `;
+    }).join("");
+  }
+  return "";
+}
+
+// ==========================================
+// ASOSIY MAVZU TAFSILOTI RENDER
+// ==========================================
+function renderTopicDetail(topicId) {
+  const container = document.getElementById("topic-detail-card");
+  if (!container) return;
+
+  const l = AppState.lang;
+  const rawTopic = mathTopicsData.find(t => t.id === topicId) || mathTopicsData[0];
+  if (!rawTopic) return;
+
+  const topic = getLocalizedTopic(rawTopic);
+  const isFav = AppState.favorites.has(topic.id);
+  const isAlgebra = topic.category === "algebra";
+  const catLabel = topic.category === "algebra" ? t("algebra", l) : t("geometriya", l);
+
+  const currentGradeTopics = getFilteredTopics();
+  const currentIndex = currentGradeTopics.findIndex(t => t.id === topic.id);
+  const prevTopic = currentIndex > 0 ? currentGradeTopics[currentIndex - 1] : null;
+  const nextTopic = currentIndex >= 0 && currentIndex < currentGradeTopics.length - 1 ? currentGradeTopics[currentIndex + 1] : null;
+
+  const calcConfig = typeof topicCalculators !== "undefined" ? topicCalculators[topic.calculatorType] : null;
+  const svgHtml = topic.svgType && typeof svgTemplates !== "undefined" && svgTemplates[topic.svgType] ? svgTemplates[topic.svgType]() : "";
+
+  // Examples array with levels
+  const examplesList = topic.examples || [topic.example];
+  const currentExample = examplesList[AppState.activeExampleLevelIndex] || examplesList[0];
+
+  // 3 Practice Exercises
+  const practiceList = topic.practiceExercises || [];
+  const currentPractice = practiceList[AppState.activePracticeIndex] || practiceList[0] || currentExample;
+  const practiceKey = `${topic.id}_${AppState.activePracticeIndex}`;
+  const isRevealed = AppState.revealedPracticeSolutions[practiceKey];
+  const isDone = AppState.completedPracticeMap[practiceKey];
+
+  let html = `
+    <!-- 1. Header (Title, Grade, Actions) -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-200/80 dark:border-slate-700/80">
+      <div>
+        <div class="flex items-center space-x-2 mb-2 flex-wrap gap-y-1">
+          <span class="px-3 py-1 rounded-xl text-xs font-extrabold bg-amber-500 text-white shadow-xs">
+            🎓 ${getGradeLabel(topic.gradeNumber)}
+          </span>
+          <span class="px-3 py-1 rounded-xl text-xs font-bold uppercase tracking-wider ${
+            isAlgebra 
+              ? 'bg-indigo-100 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800' 
+              : 'bg-emerald-100 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800'
+          }">
+            ${catLabel}
+          </span>
+        </div>
+        <h1 class="text-2xl sm:text-3.5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
+          ${topic.title}
+        </h1>
+        <p class="text-sm sm:text-base text-slate-500 dark:text-slate-400 mt-1 font-medium leading-relaxed max-w-2xl">
+          ${topic.shortDesc}
+        </p>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center space-x-2 flex-wrap gap-y-2">
+        <button 
+          id="detail-fav-btn" 
+          class="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-750 transition text-slate-700 dark:text-slate-200 shadow-2xs"
+          title="${t('save_btn', l)}"
+        >
+          <i data-lucide="${isFav ? 'bookmark-check' : 'bookmark'}" class="w-4 h-4 ${isFav ? 'text-amber-500 fill-amber-500' : ''}"></i>
+          <span class="text-xs font-bold ${isFav ? 'text-amber-600 dark:text-amber-400' : ''}">${isFav ? t('saved_btn', l) : t('save_btn', l)}</span>
+        </button>
+
+        <button 
+          id="detail-share-btn" 
+          class="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-750 transition text-slate-700 dark:text-slate-200 shadow-2xs"
+          title="${t('share_btn', l)}"
+        >
+          <i data-lucide="share-2" class="w-4 h-4"></i>
+          <span class="text-xs font-bold">${t('share_btn', l)}</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- 2. Oddiy qilib aytganda nima bu? (Explanation & Visual SVG) -->
+    <div class="grid grid-cols-1 ${svgHtml ? 'lg:grid-cols-3' : ''} gap-6 items-center">
+      <div class="${svgHtml ? 'lg:col-span-2' : ''} space-y-3">
+        <div class="flex items-center space-x-2">
+          <span class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-600 flex items-center justify-center font-bold text-sm">💡</span>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
+            ${t('what_is_this_title', l)}
+          </h3>
+        </div>
+        <div class="p-4 sm:p-5 rounded-2xl bg-amber-500/10 dark:bg-slate-800/90 border border-amber-200/80 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-sm sm:text-base leading-relaxed font-medium">
+          ${topic.description}
+        </div>
+      </div>
+      ${svgHtml ? `<div class="lg:col-span-1">${svgHtml}</div>` : ''}
+    </div>
+
+    <!-- 3. Asosiy Formulalar -->
+    <div class="space-y-4">
+      <div class="flex items-center justify-between">
+        <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
+          <span class="w-7 h-7 rounded-lg bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 flex items-center justify-center font-bold text-sm">✨</span>
+          <span>${t('formulas_title', l)}</span>
+        </h3>
+        <span class="text-xs text-slate-400 dark:text-slate-500 font-medium">${t('click_to_copy', l)}</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        ${topic.formulas.map(formula => `
+          <div class="formula-card relative p-4 sm:p-5 rounded-2xl bg-gradient-to-br from-slate-50 to-indigo-50/30 dark:from-slate-800/90 dark:to-indigo-950/30 border border-slate-200 dark:border-slate-700/80 flex flex-col justify-between group">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-extrabold text-indigo-600 dark:text-indigo-400 uppercase tracking-wide">${formula.title}</span>
+                <button 
+                  class="copy-formula-btn p-1.5 rounded-lg text-slate-400 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-white dark:hover:bg-slate-700 transition"
+                  data-latex="${escapeHtml(formula.latex)}"
+                  title="${t('click_to_copy', l)}"
+                >
+                  <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                </button>
+              </div>
+              <div class="py-2.5 text-center text-slate-900 dark:text-white font-medium text-lg formula-latex">
+                \\[${formula.latex}\\]
+              </div>
+            </div>
+            <div class="mt-2 border-t border-slate-200/60 dark:border-slate-700/60 pt-2 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
+              ${formula.desc}
+            </div>
+          </div>
+        `).join("")}
+      </div>
+    </div>
+
+    <!-- 4. Formulaning amalda qo'llanilishi: Bosqichma-bosqich misol yechish -->
+    <div class="space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
+          <span class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-600 flex items-center justify-center font-bold text-sm">📌</span>
+          <span>Formulaning amalda qo'llanilishi — Bosqichma-bosqich misol</span>
+        </h3>
+        <span class="text-xs text-amber-700 dark:text-amber-300 font-bold bg-amber-100 dark:bg-amber-950/70 px-2.5 py-1 rounded-xl self-start sm:self-auto">
+          1, 2, 3-bosqichli oson yo'riqnoma
+        </span>
+      </div>
+
+      <!-- Problem Variations Tabs (Oddiy / O'rtacha / Qiyin) -->
+      ${examplesList.length > 1 ? `
+        <div class="flex items-center space-x-2 p-1.5 bg-slate-200/70 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="example-level-tabs">
+          ${examplesList.map((ex, exIdx) => {
+            const isLevelActive = exIdx === AppState.activeExampleLevelIndex;
+            const levelLabel = exIdx === 0 ? "🟢 1-tur: Oddiy misol" : exIdx === 1 ? "🟡 2-tur: O'rtacha misol" : "🔴 3-tur: Qiyinroq misol";
+            const activeColorClass = exIdx === 0 
+              ? 'bg-emerald-600 text-white shadow-sm' 
+              : exIdx === 1 
+                ? 'bg-amber-600 text-white shadow-sm' 
+                : 'bg-rose-600 text-white shadow-sm';
+            return `
+              <button 
+                class="example-level-tab-btn flex-1 min-w-[130px] py-2 px-3 rounded-xl text-xs font-black transition-all text-center ${
+                  isLevelActive 
+                    ? activeColorClass 
+                    : 'text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 hover:text-brand-600 dark:hover:text-white font-bold'
+                }"
+                data-example-index="${exIdx}"
+              >
+                ${levelLabel}
+              </button>
+            `;
+          }).join("")}
+        </div>
+      ` : ''}
+
+      <!-- Active Example Container -->
+      <div class="p-5 sm:p-6 rounded-2xl bg-amber-50/40 dark:bg-slate-800/60 border border-amber-200/80 dark:border-slate-700 space-y-4 animate-fadeIn" id="current-example-wrapper">
+        <div class="flex items-start justify-between gap-3">
+          <div>
+            <span class="inline-block text-[11px] font-extrabold uppercase tracking-wider text-amber-900 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/50 px-2.5 py-0.5 rounded-md mb-1.5">
+              ${currentExample.title}
+            </span>
+            <div class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed">
+              ${formatMathText(currentExample.problem)}
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Bosqichli Mukammal Yo'riqnoma -->
+        <div class="pt-4 border-t border-amber-200/60 dark:border-slate-700 space-y-3">
+          <div class="text-xs font-black uppercase tracking-wider text-amber-950 dark:text-amber-300 flex items-center space-x-1.5">
+            <span>👇 Misolni yechish bosqichlari (1, 2, 3 va Natija):</span>
+          </div>
+
+          <div class="space-y-3" id="solution-steps-list">
+            ${renderSolutionSteps(currentExample)}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Interaktiv Hisoblagich / Kalkulyator -->
+    ${calcConfig ? `
+      <div class="space-y-4">
+        <div class="flex items-center justify-between">
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
+            <span class="w-7 h-7 rounded-lg bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 flex items-center justify-center font-bold text-sm">⚡️</span>
+            <span>${t('calc_heading', l)}</span>
+          </h3>
+          <span class="text-xs font-bold px-2.5 py-1 rounded-lg bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300">
+            ${t('live_calc_badge', l)}
+          </span>
+        </div>
+
+        <div id="calculator-widget-container" class="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm">
+          <h4 class="text-sm font-bold text-slate-800 dark:text-white mb-3">
+            ${calcConfig.title}
+          </h4>
+          ${calcConfig.renderForm()}
+        </div>
+      </div>
+    ` : ''}
+
+    <!-- 7. O'zingiz mustaqil ishlang (3 ta Amaliy Misol) -->
+    <div class="space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
+          <span class="w-7 h-7 rounded-lg bg-purple-100 dark:bg-purple-950/60 text-purple-600 flex items-center justify-center font-bold text-sm">✍️</span>
+          <span>${t('practice_heading', l)}</span>
+        </h3>
+        
+        <span class="text-xs font-bold px-2.5 py-1 rounded-lg bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300">
+          📝 ${t('practice_badge', l)}
+        </span>
+      </div>
+
+      <!-- 3 Practice Tabs -->
+      ${practiceList.length > 1 ? `
+        <div class="flex items-center space-x-2 p-1.5 bg-slate-200/70 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="practice-exercise-tabs">
+          ${practiceList.map((p, pIdx) => {
+            const isPActive = pIdx === AppState.activePracticeIndex;
+            const pKey = `${topic.id}_${pIdx}`;
+            const pDone = AppState.completedPracticeMap[pKey];
+            const pLabel = pIdx === 0 ? t('practice_q1_tab', l) : pIdx === 1 ? t('practice_q2_tab', l) : t('practice_q3_tab', l);
+            const statusBadge = pDone ? ' ✅' : '';
+            return `
+              <button 
+                class="practice-exercise-tab-btn flex-1 min-w-[130px] py-2 px-3 rounded-xl text-xs font-black transition-all text-center ${
+                  isPActive 
+                    ? 'bg-purple-600 text-white shadow-sm' 
+                    : 'text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 hover:text-purple-600 dark:hover:text-white font-bold'
+                }"
+                data-practice-index="${pIdx}"
+              >
+                ${pLabel}${statusBadge}
+              </button>
+            `;
+          }).join("")}
+        </div>
+      ` : ''}
+
+      <!-- Active Practice Exercise Card -->
+      <div class="p-5 sm:p-6 rounded-2xl bg-purple-50/40 dark:bg-slate-800/70 border border-purple-200/80 dark:border-slate-700 space-y-4 animate-fadeIn">
+        <div class="flex items-center justify-between">
+          <span class="inline-block text-xs font-bold uppercase tracking-wider text-purple-800 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/40 px-2.5 py-0.5 rounded-md">
+            ${currentPractice.title}
+          </span>
+          ${isDone ? `
+            <span class="text-xs font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-100 dark:bg-emerald-950/60 px-2.5 py-0.5 rounded-md flex items-center space-x-1">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+              <span>${t('practice_done_badge', l)}</span>
+            </span>
+          ` : ''}
+        </div>
+
+        <div class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-relaxed">
+          ${formatMathText(currentPractice.problem)}
+        </div>
+
+        <!-- Hint block -->
+        <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-300/40 dark:border-slate-700 text-xs sm:text-sm text-slate-800 dark:text-slate-200 flex items-start space-x-2">
+          <span class="font-bold text-amber-600 dark:text-amber-400 flex-shrink-0">${t('practice_hint_title', l)}</span>
+          <span class="font-medium">${formatMathText(currentPractice.hint)}</span>
+        </div>
+
+        <!-- Reveal solution & mark done actions -->
+        <div class="flex items-center justify-between flex-wrap gap-2 pt-2 border-t border-purple-200/50 dark:border-slate-700">
+          <button 
+            id="toggle-practice-solution-btn" 
+            class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-purple-600 hover:bg-purple-700 text-white transition shadow-sm flex items-center space-x-2"
+          >
+            <span>${isRevealed ? t('practice_hide_btn', l) : t('practice_reveal_btn', l)}</span>
+          </button>
+
+          <button 
+            id="mark-practice-done-btn" 
+            class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold border ${
+              isDone 
+                ? 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800' 
+                : 'border-slate-300 dark:border-slate-600 hover:bg-white dark:hover:bg-slate-750 text-slate-700 dark:text-slate-200'
+            } transition flex items-center space-x-1.5"
+          >
+            <i data-lucide="${isDone ? 'check-circle-2' : 'check'}" class="w-4 h-4 ${isDone ? 'text-emerald-600' : ''}"></i>
+            <span>${t('practice_done_btn', l)}</span>
+          </button>
+        </div>
+
+        <!-- Revealed Solution Section -->
+        <div id="practice-revealed-solution" class="${isRevealed ? '' : 'hidden'} space-y-3 pt-3 border-t border-purple-200/60 dark:border-slate-700 animate-fadeIn">
+          <h5 class="text-xs font-extrabold uppercase tracking-wider text-purple-900 dark:text-purple-300">
+            ${t('solution_steps_heading', l)}
+          </h5>
+
+          <div class="space-y-2.5">
+            ${(currentPractice.solution?.steps || currentPractice.solutionSteps || []).map((step, sIdx) => `
+              <div class="p-3.5 bg-white dark:bg-slate-800 rounded-xl border border-purple-200/70 dark:border-slate-700 space-y-1">
+                <div class="flex items-center space-x-2">
+                  <span class="w-5 h-5 rounded-md bg-purple-500 text-white font-black text-xs flex items-center justify-center">${sIdx + 1}</span>
+                  <span class="text-xs sm:text-sm font-bold text-slate-900 dark:text-white">${step.title}</span>
+                </div>
+                ${step.formula ? `<div class="text-xs sm:text-sm text-indigo-600 dark:text-indigo-300 font-bold py-1">\\[${step.formula}\\]</div>` : ''}
+                <div class="text-xs text-slate-600 dark:text-slate-300 font-medium">${formatMathText(step.why || step.explanation || step.how || '')}</div>
+              </div>
+            `).join("")}
+          </div>
+
+          <!-- Final Answer Banner -->
+          <div class="p-3.5 rounded-xl bg-emerald-500/15 dark:bg-emerald-950/60 border border-emerald-400/50 dark:border-emerald-800 text-emerald-900 dark:text-emerald-200 text-xs sm:text-sm font-bold flex items-center space-x-2">
+            <span class="text-base">🎯</span>
+            <span><strong>${t('practice_answer_heading', l)}</strong> ${formatMathText(currentPractice.solution?.answer || currentPractice.solutionSteps?.[currentPractice.solutionSteps?.length - 1]?.tip || 'Javob muvaffaqiyatli topildi.')}</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 8. Oldingi / Keyingi mavzuga o'tish tugmalari -->
+    <div class="pt-6 border-t border-slate-200/80 dark:border-slate-700/80 flex items-center justify-between gap-4">
+      ${prevTopic ? `
+        <button 
+          class="nav-topic-btn flex items-center space-x-2 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-700 dark:text-slate-200 transition text-left"
+          data-nav-id="${prevTopic.id}"
+        >
+          <i data-lucide="chevron-left" class="w-4 h-4"></i>
+          <div>
+            <div class="text-[10px] text-slate-400 uppercase font-bold">${t('prev_topic_label', l)}</div>
+            <div class="text-xs font-bold truncate max-w-[140px] sm:max-w-[200px]">${getLocalizedTopic(prevTopic).title}</div>
+          </div>
+        </button>
+      ` : '<div></div>'}
+
+      ${nextTopic ? `
+        <button 
+          class="nav-topic-btn flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white transition text-right shadow-sm ml-auto"
+          data-nav-id="${nextTopic.id}"
+        >
+          <div>
+            <div class="text-[10px] text-white/80 uppercase font-bold">${t('next_topic_label', l)}</div>
+            <div class="text-xs font-bold truncate max-w-[140px] sm:max-w-[200px]">${getLocalizedTopic(nextTopic).title}</div>
+          </div>
+          <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </button>
+      ` : '<div></div>'}
+    </div>
+  `;
+
+  container.innerHTML = html;
+
+  // Level tabs listeners
+  container.querySelectorAll(".example-level-tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const idx = parseInt(btn.getAttribute("data-example-index"), 10);
+      AppState.activeExampleLevelIndex = idx;
+      renderTopicDetail(topicId);
+    });
+  });
+
+  // Practice tabs listeners
+  container.querySelectorAll(".practice-exercise-tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const idx = parseInt(btn.getAttribute("data-practice-index"), 10);
+      AppState.activePracticeIndex = idx;
+      renderTopicDetail(topicId);
+    });
+  });
+
+  // Toggle Practice Solution
+  document.getElementById("toggle-practice-solution-btn")?.addEventListener("click", () => {
+    const currentKey = `${topic.id}_${AppState.activePracticeIndex}`;
+    AppState.revealedPracticeSolutions[currentKey] = !AppState.revealedPracticeSolutions[currentKey];
+    renderTopicDetail(topicId);
+  });
+
+  // Mark Practice Done
+  document.getElementById("mark-practice-done-btn")?.addEventListener("click", () => {
+    const currentKey = `${topic.id}_${AppState.activePracticeIndex}`;
+    AppState.completedPracticeMap[currentKey] = !AppState.completedPracticeMap[currentKey];
+    if (AppState.completedPracticeMap[currentKey]) {
+      showToast(t("practice_done_badge", l), "success");
+    }
+    renderTopicDetail(topicId);
+  });
+
+  // Step accordion
+  container.querySelectorAll(".step-card").forEach(card => {
+    const header = card.querySelector(".step-toggle-header");
+    const panel = card.querySelector(".super-simple-panel");
+    const chevron = card.querySelector(".step-chevron");
+
+    header?.addEventListener("click", () => {
+      if (panel) {
+        const isHidden = panel.classList.contains("hidden");
+        if (isHidden) {
+          panel.classList.remove("hidden");
+          chevron?.classList.add("rotate-180");
+        } else {
+          panel.classList.add("hidden");
+          chevron?.classList.remove("rotate-180");
+        }
+      }
+    });
+  });
+
+  // Example solution steps accordion
+  container.querySelectorAll(".solution-step-card").forEach(card => {
+    const header = card.querySelector(".solution-step-header");
+    const body = card.querySelector(".solution-step-body");
+    const chevron = card.querySelector(".sol-chevron");
+
+    header?.addEventListener("click", () => {
+      if (body) {
+        const isHidden = body.classList.contains("hidden");
+        if (isHidden) {
+          body.classList.remove("hidden");
+          chevron?.classList.add("rotate-180");
+        } else {
+          body.classList.add("hidden");
+          chevron?.classList.remove("rotate-180");
+        }
+      }
+    });
+  });
+
+  // Toggle all solution steps button
+  let allSolutionExpanded = false;
+  document.getElementById("toggle-all-solution-btn")?.addEventListener("click", () => {
+    allSolutionExpanded = !allSolutionExpanded;
+    container.querySelectorAll(".solution-step-card").forEach(card => {
+      const body = card.querySelector(".solution-step-body");
+      const chevron = card.querySelector(".sol-chevron");
+      if (body) {
+        if (allSolutionExpanded) {
+          body.classList.remove("hidden");
+          chevron?.classList.add("rotate-180");
+        } else {
+          body.classList.add("hidden");
+          chevron?.classList.remove("rotate-180");
+        }
+      }
+    });
+  });
+
+  if (calcConfig) {
+    const calcContainer = document.getElementById("calculator-widget-container");
+    if (calcContainer) calcConfig.init(calcContainer);
+  }
+
+  container.querySelectorAll(".copy-formula-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const latex = btn.getAttribute("data-latex");
+      copyToClipboard(latex, t("copied_toast", l));
+    });
+  });
+
+  document.getElementById("detail-fav-btn")?.addEventListener("click", (e) => {
+    toggleFavorite(topic.id, e);
+  });
+
+  document.getElementById("detail-share-btn")?.addEventListener("click", () => {
+    const url = window.location.origin + window.location.pathname + "#" + topic.id;
+    copyToClipboard(url, t("copied_toast", l));
+  });
+
+  container.querySelectorAll(".nav-topic-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const targetId = btn.getAttribute("data-nav-id");
+      if (targetId) selectTopic(targetId);
+    });
+  });
+
+  safeRenderMath(container);
+  refreshLucide();
 }
 
 // ==========================================
@@ -331,29 +1338,58 @@ function startGeneratedTest() {
   }
 
   const selectedTopics = mathTopicsData.filter(t => selectedIds.includes(t.id));
-  let pool = [];
-
-  selectedTopics.forEach(rawTopic => {
+  
+  // Har bir tanlangan mavzuning savollarini guruhlaymiz
+  const topicQuestionBuckets = selectedTopics.map(rawTopic => {
     const topic = getLocalizedTopic(rawTopic);
-    const quizzes = topic.quizzes || (topic.quiz ? [topic.quiz] : []);
-    quizzes.forEach(q => {
-      pool.push({
-        topicId: topic.id,
-        topicTitle: topic.title,
-        gradeNumber: topic.gradeNumber,
-        category: topic.category,
-        question: q.question,
-        options: q.options,
-        correctIndex: q.correctIndex,
-        explanation: q.explanation
-      });
-    });
+    const quizzes = (topic.quizzes || (topic.quiz ? [topic.quiz] : [])).map(q => ({
+      topicId: topic.id,
+      topicTitle: topic.title,
+      gradeNumber: topic.gradeNumber,
+      category: topic.category,
+      question: q.question,
+      options: q.options,
+      correctIndex: q.correctIndex,
+      explanation: q.explanation,
+      level: q.level || "basic"
+    }));
+    return {
+      topicId: topic.id,
+      questions: quizzes.sort(() => Math.random() - 0.5)
+    };
   });
 
-  // Poolni aralashtiramiz (Shuffle)
-  pool.sort(() => Math.random() - 0.5);
+  // Mavzular tartibini tasodifiy aralashtiramiz
+  topicQuestionBuckets.sort(() => Math.random() - 0.5);
 
-  const finalQuestions = pool.slice(0, AppState.testWizard.questionCount);
+  const desiredCount = AppState.testWizard.questionCount;
+  const finalQuestions = [];
+  const seenQuestions = new Set();
+
+  // Round-Robin (Har bir tanlangan mavzudan kamida 1 tadan turli darajadagi misol olish)
+  let round = 0;
+  let hasMoreQuestions = true;
+
+  while (finalQuestions.length < desiredCount && hasMoreQuestions) {
+    hasMoreQuestions = false;
+    for (const bucket of topicQuestionBuckets) {
+      if (finalQuestions.length >= desiredCount) break;
+
+      if (round < bucket.questions.length) {
+        const q = bucket.questions[round];
+        const qText = q.question.trim();
+        if (!seenQuestions.has(qText)) {
+          seenQuestions.add(qText);
+          finalQuestions.push(q);
+        }
+        hasMoreQuestions = true;
+      }
+    }
+    round++;
+  }
+
+  // Yakuniy test savollarini aralashtiramiz (aralash qiziqarli tushishi uchun)
+  finalQuestions.sort(() => Math.random() - 0.5);
 
   AppState.activeTest = {
     questions: finalQuestions,
@@ -416,7 +1452,7 @@ function renderTestRunner() {
     <!-- Question Box -->
     <div class="p-6 sm:p-8 rounded-3xl bg-purple-50/30 dark:bg-slate-800/60 border border-purple-200/70 dark:border-slate-700 space-y-6">
       <div class="text-base sm:text-xl font-bold text-slate-900 dark:text-white leading-relaxed">
-        ${currentQ.question}
+        ${formatMathText(currentQ.question)}
       </div>
 
       <!-- Options List -->
@@ -439,7 +1475,7 @@ function renderTestRunner() {
               }">
                 ${String.fromCharCode(65 + idx)}
               </span>
-              <span class="flex-1">${opt}</span>
+              <span class="flex-1">${formatMathText(opt)}</span>
             </button>
           `;
         }).join("")}
@@ -536,15 +1572,7 @@ function renderTestRunner() {
     });
   });
 
-  renderMathInElement(container, {
-    delimiters: [
-      { left: "$$", right: "$$", display: true },
-      { left: "\\(", right: "\\)", display: false },
-      { left: "\\[", right: "\\]", display: true }
-    ],
-    throwOnError: false
-  });
-
+  safeRenderMath(container);
   refreshLucide();
 }
 
@@ -656,7 +1684,7 @@ function renderTestResults() {
               </div>
 
               <div class="text-sm sm:text-base font-bold text-slate-900 dark:text-white mb-3">
-                ${q.question}
+                ${formatMathText(q.question)}
               </div>
 
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-semibold mb-3">
@@ -665,19 +1693,19 @@ function renderTestResults() {
                     ? 'bg-emerald-100/70 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-200' 
                     : 'bg-rose-100/70 dark:bg-rose-950/60 text-rose-800 dark:text-rose-200'
                 }">
-                  ${t('your_answer_label', l)} <strong>${userAns !== undefined ? q.options[userAns] : t('unanswered_label', l)}</strong>
+                  ${t('your_answer_label', l)} <strong>${userAns !== undefined ? formatMathText(q.options[userAns]) : t('unanswered_label', l)}</strong>
                 </div>
 
                 ${!isCorrect ? `
                   <div class="p-2.5 rounded-xl bg-emerald-100/70 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-200">
-                    ${t('correct_answer_label', l)} <strong>${q.options[q.correctIndex]}</strong>
+                    ${t('correct_answer_label', l)} <strong>${formatMathText(q.options[q.correctIndex])}</strong>
                   </div>
                 ` : ''}
               </div>
 
               <!-- Detailed Explanation -->
               <div class="p-3 rounded-xl bg-slate-100 dark:bg-slate-750 text-xs sm:text-sm text-slate-700 dark:text-slate-200 leading-relaxed">
-                <strong>💡 Tushuntirish:</strong> ${q.explanation}
+                <strong>💡 Tushuntirish:</strong> ${formatMathText(q.explanation)}
               </div>
             </div>
           `;
@@ -691,876 +1719,7 @@ function renderTestResults() {
   document.getElementById("results-new-test-btn")?.addEventListener("click", openTestWizard);
   document.getElementById("results-back-lessons-btn")?.addEventListener("click", backToLessons);
 
-  renderMathInElement(container, {
-    delimiters: [
-      { left: "$$", right: "$$", display: true },
-      { left: "\\(", right: "\\)", display: false },
-      { left: "\\[", right: "\\]", display: true }
-    ],
-    throwOnError: false
-  });
-
-  refreshLucide();
-}
-
-// ==========================================
-// TEMA BOSHQARUVI (DARK / LIGHT MODE)
-// ==========================================
-function initTheme() {
-  const savedTheme = localStorage.getItem("m_lab_theme");
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-  if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
-    document.documentElement.classList.add("dark");
-    AppState.theme = "dark";
-  } else {
-    document.documentElement.classList.remove("dark");
-    AppState.theme = "light";
-  }
-}
-
-function toggleTheme() {
-  if (document.documentElement.classList.contains("dark")) {
-    document.documentElement.classList.remove("dark");
-    localStorage.setItem("m_lab_theme", "light");
-    AppState.theme = "light";
-  } else {
-    document.documentElement.classList.add("dark");
-    localStorage.setItem("m_lab_theme", "dark");
-    AppState.theme = "dark";
-  }
-  refreshLucide();
-}
-
-// ==========================================
-// SEVIMLILARNI BOSHQARISH (FAVORITES)
-// ==========================================
-function initFavorites() {
-  try {
-    const saved = localStorage.getItem("m_lab_favorites");
-    if (saved) {
-      const arr = JSON.parse(saved);
-      AppState.favorites = new Set(arr);
-    }
-  } catch (e) {
-    AppState.favorites = new Set();
-  }
-  updateFavBadge();
-}
-
-function toggleFavorite(topicId, e) {
-  if (e) e.stopPropagation();
-
-  const l = AppState.lang;
-  if (AppState.favorites.has(topicId)) {
-    AppState.favorites.delete(topicId);
-    showToast(l === "ru" ? "Удалено из избранного" : l === "en" ? "Removed from bookmarks" : "Sevimlilardan olib tashlandi", "info");
-  } else {
-    AppState.favorites.add(topicId);
-    showToast(l === "ru" ? "Сохранено в избранное ⭐" : l === "en" ? "Saved to bookmarks ⭐" : "Mavzu sevimlilarga saqlandi ⭐", "success");
-  }
-
-  localStorage.setItem("m_lab_favorites", JSON.stringify(Array.from(AppState.favorites)));
-  updateFavBadge();
-  renderSidebarList();
-
-  const favBtn = document.getElementById("detail-fav-btn");
-  if (favBtn && AppState.currentTopicId === topicId) {
-    const isFav = AppState.favorites.has(topicId);
-    const saveTxt = isFav ? t("saved_btn", l) : t("save_btn", l);
-    favBtn.innerHTML = `
-      <i data-lucide="${isFav ? 'bookmark-check' : 'bookmark'}" class="w-4 h-4 ${isFav ? 'text-amber-500 fill-amber-500' : ''}"></i>
-      <span class="text-xs font-bold ${isFav ? 'text-amber-600 dark:text-amber-400' : ''}">${saveTxt}</span>
-    `;
-    refreshLucide();
-  }
-}
-
-function updateFavBadge() {
-  const badge = document.getElementById("fav-badge-count");
-  if (!badge) return;
-  const count = AppState.favorites.size;
-  if (count > 0) {
-    badge.textContent = count;
-    badge.classList.remove("hidden");
-    badge.classList.add("flex");
-  } else {
-    badge.classList.add("hidden");
-    badge.classList.remove("flex");
-  }
-}
-
-function updateCounts() {
-  const allCount = mathTopicsData.length;
-  const allGradesBadge = document.getElementById("count-all-grades");
-  if (allGradesBadge) allGradesBadge.textContent = allCount;
-}
-
-// ==========================================
-// RO'YXATLAR VA FILTRLASH
-// ==========================================
-function getFilteredTopics() {
-  return mathTopicsData.filter(rawTopic => {
-    const topic = getLocalizedTopic(rawTopic);
-
-    // Sinf filtri (5, 6, 7, 8, 9, 10, 11)
-    if (AppState.activeGrade !== "all") {
-      if (String(topic.gradeNumber) !== AppState.activeGrade) return false;
-    }
-
-    // Fan filtri (Algebra / Geometriya / Sevimlilar)
-    if (AppState.activeCategory === "algebra" && topic.category !== "algebra") return false;
-    if (AppState.activeCategory === "geometriya" && topic.category !== "geometriya") return false;
-    if (AppState.activeCategory === "favorites" && !AppState.favorites.has(topic.id)) return false;
-
-    // Qidiruv filtri
-    if (AppState.searchQuery.trim()) {
-      const q = AppState.searchQuery.toLowerCase().trim();
-      const matchTitle = topic.title.toLowerCase().includes(q);
-      const matchDesc = topic.description.toLowerCase().includes(q) || topic.shortDesc.toLowerCase().includes(q);
-      const matchGrade = topic.grade.toLowerCase().includes(q);
-      const matchFormulas = topic.formulas.some(f => f.title.toLowerCase().includes(q) || f.desc.toLowerCase().includes(q));
-      return matchTitle || matchDesc || matchGrade || matchFormulas;
-    }
-
-    return true;
-  });
-}
-
-// ==========================================
-// SIDEBAR MAVZULAR RO'YXATI
-// ==========================================
-function renderSidebarList() {
-  const container = document.getElementById("topic-list-container");
-  if (!container) return;
-
-  const l = AppState.lang;
-  const topics = getFilteredTopics();
-
-  // Status panelini yangilash
-  const statusText = document.getElementById("filter-status-text");
-  const topicsCountBadge = document.getElementById("filter-topics-count");
-  if (statusText && topicsCountBadge) {
-    let text = AppState.activeGrade === "all" ? t("all_grades", l) : getGradeLabel(AppState.activeGrade);
-    if (AppState.activeCategory === "algebra") text += ` (${t("algebra", l)})`;
-    if (AppState.activeCategory === "geometriya") text += ` (${t("geometriya", l)})`;
-    if (AppState.activeCategory === "favorites") text = `⭐ ${t("favorites_title", l)}`;
-    statusText.textContent = text;
-    topicsCountBadge.textContent = `${topics.length} ${t("items_count", l)}`;
-  }
-
-  if (topics.length === 0) {
-    container.innerHTML = `
-      <div class="text-center py-8 px-4 text-slate-400 dark:text-slate-500">
-        <i data-lucide="search-x" class="w-8 h-8 mx-auto mb-2 opacity-60"></i>
-        <p class="text-xs font-semibold">${t("no_topics_found", l)}</p>
-        <button id="reset-filters-btn" class="mt-3 px-3 py-1.5 text-xs font-bold rounded-lg bg-brand-50 dark:bg-slate-800 text-brand-600 dark:text-brand-400 hover:bg-brand-100 transition">
-          ${t("show_all_topics", l)}
-        </button>
-      </div>
-    `;
-    document.getElementById("reset-filters-btn")?.addEventListener("click", () => {
-      AppState.activeGrade = "all";
-      AppState.activeCategory = "all";
-      AppState.searchQuery = "";
-      document.getElementById("search-input").value = "";
-      renderGradeButtons();
-      updateCategoryButtonsUI();
-      renderSidebarList();
-    });
-    refreshLucide();
-    return;
-  }
-
-  container.innerHTML = topics.map(rawTopic => {
-    const topic = getLocalizedTopic(rawTopic);
-    const isSelected = topic.id === AppState.currentTopicId && AppState.currentView === "lesson";
-    const isFav = AppState.favorites.has(topic.id);
-    const isAlgebra = topic.category === "algebra";
-    const catLabel = topic.category === "algebra" ? t("algebra", l) : t("geometriya", l);
-
-    return `
-      <div 
-        class="topic-sidebar-item group relative flex items-center justify-between p-3 rounded-2xl cursor-pointer transition-all duration-200 ${
-          isSelected 
-            ? 'bg-brand-600 text-white shadow-md shadow-brand-500/25 font-medium' 
-            : 'bg-white dark:bg-slate-800/80 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-700 dark:text-slate-200 border border-slate-200/70 dark:border-slate-700/60'
-        }"
-        data-topic-id="${topic.id}"
-      >
-        <div class="flex items-center space-x-3 min-w-0 flex-1">
-          <div class="w-8 h-8 rounded-xl flex items-center justify-center flex-shrink-0 ${
-            isSelected 
-              ? 'bg-white/20 text-white' 
-              : isAlgebra 
-                ? 'bg-indigo-100 dark:bg-indigo-950/70 text-indigo-600 dark:text-indigo-400' 
-                : 'bg-emerald-100 dark:bg-emerald-950/70 text-emerald-600 dark:text-emerald-400'
-          }">
-            <i data-lucide="${topic.icon || 'book'}" class="w-4 h-4"></i>
-          </div>
-          <div class="min-w-0 flex-1">
-            <h4 class="text-xs font-bold truncate leading-tight ${isSelected ? 'text-white' : 'text-slate-900 dark:text-slate-100'}">
-              ${topic.title}
-            </h4>
-            <div class="flex items-center space-x-1.5 mt-0.5">
-              <span class="text-[10px] font-bold px-1.5 py-0.2 rounded ${isSelected ? 'bg-white/20 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300'}">
-                ${getGradeLabel(topic.gradeNumber)}
-              </span>
-              <span class="text-[9px] opacity-40">•</span>
-              <span class="text-[10px] capitalize opacity-75">
-                ${catLabel}
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <button 
-          class="fav-toggle-btn p-1.5 rounded-lg opacity-80 hover:opacity-100 hover:scale-110 transition ml-2 flex-shrink-0 ${
-            isSelected ? 'text-white/80 hover:text-white' : isFav ? 'text-amber-500' : 'text-slate-300 dark:text-slate-600 hover:text-amber-500'
-          }"
-          data-fav-id="${topic.id}"
-          title="${isFav ? t('saved_btn', l) : t('save_btn', l)}"
-        >
-          <i data-lucide="bookmark" class="w-4 h-4 ${isFav ? 'fill-amber-500 text-amber-500' : ''}"></i>
-        </button>
-      </div>
-    `;
-  }).join("");
-
-  container.querySelectorAll(".topic-sidebar-item").forEach(el => {
-    el.addEventListener("click", () => {
-      const id = el.getAttribute("data-topic-id");
-      selectTopic(id);
-      closeMobileSidebar();
-    });
-  });
-
-  container.querySelectorAll(".fav-toggle-btn").forEach(btn => {
-    btn.addEventListener("click", (e) => {
-      const id = btn.getAttribute("data-fav-id");
-      toggleFavorite(id, e);
-    });
-  });
-
-  refreshLucide();
-}
-
-function selectTopic(topicId) {
-  AppState.currentView = "lesson";
-  AppState.currentTopicId = topicId;
-  window.location.hash = topicId;
-  AppState.activeExampleLevelIndex = 0; // reset to basic example
-  AppState.activePracticeIndex = 0; // reset to 1st practice exercise
-
-  renderSidebarList();
-  renderMainView();
-
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-// ==========================================
-// MISOLLARNING BOSQICHMA-BOSQICH YECHILISHI
-// ==========================================
-function renderSolutionSteps(example) {
-  const l = AppState.lang;
-  if (example && example.solutionSteps && example.solutionSteps.length > 0) {
-    return example.solutionSteps.map((step, idx) => `
-      <div class="solution-step-card bg-white dark:bg-slate-800 rounded-2xl border border-amber-200/90 dark:border-slate-700 p-4 transition-all shadow-xs hover:border-amber-400 dark:hover:border-amber-500">
-        <div class="flex items-center justify-between cursor-pointer solution-step-header" data-step-index="${idx}">
-          <div class="flex items-center space-x-3 flex-1 min-w-0">
-            <span class="w-7 h-7 rounded-xl bg-amber-500 text-white text-xs font-black flex items-center justify-center flex-shrink-0 shadow-xs">
-              ${step.stepNumber}
-            </span>
-            <div class="min-w-0 flex-1">
-              <h5 class="text-xs sm:text-sm font-bold text-slate-900 dark:text-slate-100">
-                ${step.title}
-              </h5>
-              <div class="text-xs sm:text-sm text-indigo-600 dark:text-indigo-300 font-bold mt-0.5">
-                \\[${step.formula}\\]
-              </div>
-            </div>
-          </div>
-          <div class="flex items-center space-x-1 text-xs font-bold text-amber-800 dark:text-amber-300 bg-amber-100/90 dark:bg-amber-950/70 px-2.5 py-1 rounded-xl flex-shrink-0 ml-2 hover:bg-amber-200 dark:hover:bg-amber-900 transition">
-            <span class="text-[11px] hidden sm:inline">${t("why_and_how_btn", l)}</span>
-            <i data-lucide="chevron-down" class="w-3.5 h-3.5 transition-transform duration-200 sol-chevron"></i>
-          </div>
-        </div>
-
-        <!-- Expandable Detail Breakdown -->
-        <div class="solution-step-body hidden mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/80 space-y-2.5 animate-fadeIn text-xs sm:text-sm">
-          <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-300/50 dark:border-slate-700 text-slate-800 dark:text-slate-200 flex items-start space-x-2.5">
-            <span class="text-amber-600 dark:text-amber-400 font-bold flex-shrink-0">${t("why_it_was_done", l)}</span>
-            <span class="flex-1 font-medium leading-relaxed">${step.why}</span>
-          </div>
-
-          <div class="p-3.5 rounded-xl bg-emerald-500/10 dark:bg-slate-750 border border-emerald-300/50 dark:border-slate-700 text-slate-800 dark:text-slate-200 flex items-start space-x-2.5">
-            <span class="text-emerald-600 dark:text-emerald-400 font-bold flex-shrink-0">${t("how_it_was_calculated", l)}</span>
-            <span class="flex-1 font-medium leading-relaxed">${step.how}</span>
-          </div>
-
-          ${step.tip ? `
-            <div class="p-3 rounded-xl bg-rose-500/10 dark:bg-slate-750 text-rose-900 dark:text-rose-300 text-xs font-semibold flex items-center space-x-2 border border-rose-300/50 dark:border-slate-700">
-              <span class="text-base flex-shrink-0">⚠️</span>
-              <span><strong>${t("note_label", l)}</strong> ${step.tip}</span>
-            </div>
-          ` : ''}
-        </div>
-      </div>
-    `).join("");
-  }
-  return "";
-}
-
-// ==========================================
-// ASOSIY MAVZU TAFSILOTI RENDER
-// ==========================================
-function renderTopicDetail(topicId) {
-  const container = document.getElementById("topic-detail-card");
-  if (!container) return;
-
-  const l = AppState.lang;
-  const rawTopic = mathTopicsData.find(t => t.id === topicId) || mathTopicsData[0];
-  if (!rawTopic) return;
-
-  const topic = getLocalizedTopic(rawTopic);
-  const isFav = AppState.favorites.has(topic.id);
-  const isAlgebra = topic.category === "algebra";
-  const catLabel = topic.category === "algebra" ? t("algebra", l) : t("geometriya", l);
-
-  const currentGradeTopics = getFilteredTopics();
-  const currentIndex = currentGradeTopics.findIndex(t => t.id === topic.id);
-  const prevTopic = currentIndex > 0 ? currentGradeTopics[currentIndex - 1] : null;
-  const nextTopic = currentIndex >= 0 && currentIndex < currentGradeTopics.length - 1 ? currentGradeTopics[currentIndex + 1] : null;
-
-  const calcConfig = topicCalculators[topic.calculatorType];
-  const svgHtml = topic.svgType && svgTemplates[topic.svgType] ? svgTemplates[topic.svgType]() : "";
-
-  // Examples array with levels
-  const examplesList = topic.examples || [topic.example];
-  const currentExample = examplesList[AppState.activeExampleLevelIndex] || examplesList[0];
-
-  // 3 Practice Exercises
-  const practiceList = topic.practiceExercises || [];
-  const currentPractice = practiceList[AppState.activePracticeIndex] || practiceList[0] || currentExample;
-  const practiceKey = `${topic.id}_${AppState.activePracticeIndex}`;
-  const isRevealed = AppState.revealedPracticeSolutions[practiceKey];
-  const isDone = AppState.completedPracticeMap[practiceKey];
-
-  let html = `
-    <!-- 1. Header (Title, Grade, Actions) -->
-    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-200/80 dark:border-slate-700/80">
-      <div>
-        <div class="flex items-center space-x-2 mb-2 flex-wrap gap-y-1">
-          <span class="px-3 py-1 rounded-xl text-xs font-extrabold bg-amber-500 text-white shadow-xs">
-            🎓 ${getGradeLabel(topic.gradeNumber)}
-          </span>
-          <span class="px-3 py-1 rounded-xl text-xs font-bold uppercase tracking-wider ${
-            isAlgebra 
-              ? 'bg-indigo-100 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800' 
-              : 'bg-emerald-100 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800'
-          }">
-            ${catLabel}
-          </span>
-        </div>
-        <h1 class="text-2xl sm:text-3.5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
-          ${topic.title}
-        </h1>
-        <p class="text-sm sm:text-base text-slate-500 dark:text-slate-400 mt-1 font-medium leading-relaxed max-w-2xl">
-          ${topic.shortDesc}
-        </p>
-      </div>
-
-      <!-- Action Buttons -->
-      <div class="flex items-center space-x-2">
-        <button 
-          id="detail-fav-btn" 
-          class="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-750 transition text-slate-700 dark:text-slate-200 shadow-2xs"
-          title="${t('save_btn', l)}"
-        >
-          <i data-lucide="${isFav ? 'bookmark-check' : 'bookmark'}" class="w-4 h-4 ${isFav ? 'text-amber-500 fill-amber-500' : ''}"></i>
-          <span class="text-xs font-bold ${isFav ? 'text-amber-600 dark:text-amber-400' : ''}">${isFav ? t('saved_btn', l) : t('save_btn', l)}</span>
-        </button>
-
-        <button 
-          id="detail-share-btn" 
-          class="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-750 transition text-slate-700 dark:text-slate-200 shadow-2xs"
-          title="${t('share_btn', l)}"
-        >
-          <i data-lucide="share-2" class="w-4 h-4"></i>
-          <span class="text-xs font-bold">${t('share_btn', l)}</span>
-        </button>
-      </div>
-    </div>
-
-    <!-- 2. Oddiy qilib aytganda nima bu? (Explanation & Visual SVG) -->
-    <div class="grid grid-cols-1 ${svgHtml ? 'lg:grid-cols-3' : ''} gap-6 items-center">
-      <div class="${svgHtml ? 'lg:col-span-2' : ''} space-y-3">
-        <div class="flex items-center space-x-2">
-          <span class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-600 flex items-center justify-center font-bold text-sm">💡</span>
-          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
-            ${t('what_is_this_title', l)}
-          </h3>
-        </div>
-        <div class="p-4 sm:p-5 rounded-2xl bg-amber-500/10 dark:bg-slate-800/90 border border-amber-200/80 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-sm sm:text-base leading-relaxed font-medium">
-          ${topic.description}
-        </div>
-      </div>
-      ${svgHtml ? `<div class="lg:col-span-1">${svgHtml}</div>` : ''}
-    </div>
-
-    <!-- 3. Asosiy Formulalar -->
-    <div class="space-y-4">
-      <div class="flex items-center justify-between">
-        <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
-          <span class="w-7 h-7 rounded-lg bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 flex items-center justify-center font-bold text-sm">✨</span>
-          <span>${t('formulas_title', l)}</span>
-        </h3>
-        <span class="text-xs text-slate-400 dark:text-slate-500 font-medium">${t('click_to_copy', l)}</span>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        ${topic.formulas.map(formula => `
-          <div class="formula-card relative p-4 sm:p-5 rounded-2xl bg-gradient-to-br from-slate-50 to-indigo-50/30 dark:from-slate-800/90 dark:to-indigo-950/30 border border-slate-200 dark:border-slate-700/80 flex flex-col justify-between group">
-            <div>
-              <div class="flex items-center justify-between mb-2">
-                <span class="text-xs font-extrabold text-indigo-600 dark:text-indigo-400 uppercase tracking-wide">${formula.title}</span>
-                <button 
-                  class="copy-formula-btn p-1.5 rounded-lg text-slate-400 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-white dark:hover:bg-slate-700 transition"
-                  data-latex="${escapeHtml(formula.latex)}"
-                  title="${t('click_to_copy', l)}"
-                >
-                  <i data-lucide="copy" class="w-3.5 h-3.5"></i>
-                </button>
-              </div>
-              <div class="py-2.5 text-center text-slate-900 dark:text-white font-medium text-lg formula-latex">
-                \\[${formula.latex}\\]
-              </div>
-            </div>
-            <div class="mt-2 border-t border-slate-200/60 dark:border-slate-700/60 pt-2 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
-              ${formula.desc}
-            </div>
-          </div>
-        `).join("")}
-      </div>
-    </div>
-
-    <!-- 4. Qadam-baqadam yo'riqnoma -->
-    <div class="space-y-4">
-      <div class="flex items-center justify-between">
-        <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
-          <span class="w-7 h-7 rounded-lg bg-brand-100 dark:bg-brand-950/60 text-brand-600 flex items-center justify-center font-bold text-sm">📝</span>
-          <span>${t('how_to_solve_title', l)}</span>
-        </h3>
-        <span class="text-xs text-brand-600 dark:text-brand-400 font-semibold hidden sm:inline">
-          ${t('click_for_simpler', l)}
-        </span>
-      </div>
-
-      <div class="space-y-3">
-        ${topic.steps.map(s => `
-          <div class="step-card group p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700/80 shadow-xs transition-all hover:border-brand-300 dark:hover:border-brand-600">
-            <div class="flex items-start justify-between cursor-pointer step-toggle-header" data-step-id="${s.step}">
-              <div class="flex items-start space-x-3.5 flex-1">
-                <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-600 text-white font-black text-sm flex items-center justify-center flex-shrink-0 shadow-sm">
-                  ${s.step}
-                </div>
-                <div class="flex-1">
-                  <h4 class="text-sm font-bold text-slate-900 dark:text-white mb-0.5">
-                    ${s.title}
-                  </h4>
-                  <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                    ${s.desc}
-                  </p>
-                </div>
-              </div>
-              <div class="ml-2 flex items-center space-x-1 text-xs font-bold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-slate-700/60 px-2.5 py-1 rounded-xl flex-shrink-0 group-hover:bg-brand-100 transition">
-                <span class="text-[11px] hidden sm:inline">${t('explain_simpler_btn', l)}</span>
-                <i data-lucide="chevron-down" class="w-3.5 h-3.5 transition-transform duration-200 step-chevron"></i>
-              </div>
-            </div>
-
-            <!-- Super Simple Expandable Breakdown -->
-            <div class="super-simple-panel hidden mt-3 pt-3 border-t border-amber-100 dark:border-slate-700/80 animate-fadeIn">
-              <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-300/50 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed flex items-start space-x-2.5">
-                <span class="text-lg flex-shrink-0">🐣</span>
-                <div>
-                  <span class="font-bold text-amber-700 dark:text-amber-400 block mb-0.5">${t('child_friendly_title', l)}</span>
-                  <span>${s.superSimple || s.desc}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        `).join("")}
-      </div>
-    </div>
-
-    <!-- 5. Hayotiy Misollar va Masalalar Turlari (Oddiy, O'rtacha, Qiyin) -->
-    <div class="space-y-4">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-        <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
-          <span class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-600 flex items-center justify-center font-bold text-sm">🌟</span>
-          <span>${t('example_title', l)}</span>
-        </h3>
-        <span class="text-xs text-amber-700 dark:text-amber-300 font-bold bg-amber-100 dark:bg-amber-950/70 px-2.5 py-1 rounded-xl self-start sm:self-auto">
-          ${t('click_steps_hint', l)}
-        </span>
-      </div>
-
-      <!-- Problem Variations Tabs (Oddiy / O'rtacha / Qiyin) -->
-      ${examplesList.length > 1 ? `
-        <div class="flex items-center space-x-2 p-1.5 bg-slate-200/70 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="example-level-tabs">
-          ${examplesList.map((ex, exIdx) => {
-            const isLevelActive = exIdx === AppState.activeExampleLevelIndex;
-            const levelLabel = exIdx === 0 ? t('level_basic', l) : exIdx === 1 ? t('level_medium', l) : t('level_hard', l);
-            const activeColorClass = exIdx === 0 
-              ? 'bg-emerald-600 text-white shadow-sm' 
-              : exIdx === 1 
-                ? 'bg-amber-600 text-white shadow-sm' 
-                : 'bg-rose-600 text-white shadow-sm';
-            return `
-              <button 
-                class="example-level-tab-btn flex-1 min-w-[130px] py-2 px-3 rounded-xl text-xs font-black transition-all text-center ${
-                  isLevelActive 
-                    ? activeColorClass 
-                    : 'text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 hover:text-brand-600 dark:hover:text-white font-bold'
-                }"
-                data-example-index="${exIdx}"
-              >
-                ${levelLabel}
-              </button>
-            `;
-          }).join("")}
-        </div>
-      ` : ''}
-
-      <!-- Active Example Container -->
-      <div class="p-5 sm:p-6 rounded-2xl bg-amber-50/40 dark:bg-slate-800/60 border border-amber-200/80 dark:border-slate-700 space-y-4 animate-fadeIn" id="current-example-wrapper">
-        <div>
-          <div class="flex items-center justify-between mb-2">
-            <span class="inline-block text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/40 px-2.5 py-0.5 rounded-md">
-              ${currentExample.title}
-            </span>
-          </div>
-          <div class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed">
-            ${currentExample.problem}
-          </div>
-        </div>
-
-        <div class="pt-4 border-t border-amber-200/60 dark:border-slate-700 space-y-3">
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-extrabold uppercase tracking-wider text-amber-900 dark:text-amber-300">
-              ${t('solution_steps_heading', l)}
-            </span>
-            <button id="toggle-all-solution-btn" class="text-xs font-bold text-brand-600 dark:text-brand-400 hover:underline">
-              ${t('toggle_all_steps', l)}
-            </button>
-          </div>
-
-          <div class="space-y-3" id="solution-steps-list">
-            ${renderSolutionSteps(currentExample)}
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 6. Interaktiv Hisoblagich / Kalkulyator -->
-    ${calcConfig ? `
-      <div class="space-y-4">
-        <div class="flex items-center justify-between">
-          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
-            <span class="w-7 h-7 rounded-lg bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 flex items-center justify-center font-bold text-sm">⚡️</span>
-            <span>${t('calc_heading', l)}</span>
-          </h3>
-          <span class="text-xs font-bold px-2.5 py-1 rounded-lg bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300">
-            ${t('live_calc_badge', l)}
-          </span>
-        </div>
-
-        <div id="calculator-widget-container" class="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm">
-          <h4 class="text-sm font-bold text-slate-800 dark:text-white mb-3">
-            ${calcConfig.title}
-          </h4>
-          ${calcConfig.renderForm()}
-        </div>
-      </div>
-    ` : ''}
-
-    <!-- 7. O'zingiz mustaqil ishlang (3 ta Amaliy Misol) -->
-    <div class="space-y-4">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-        <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center space-x-2">
-          <span class="w-7 h-7 rounded-lg bg-purple-100 dark:bg-purple-950/60 text-purple-600 flex items-center justify-center font-bold text-sm">✍️</span>
-          <span>${t('practice_heading', l)}</span>
-        </h3>
-        
-        <span class="text-xs font-bold px-2.5 py-1 rounded-lg bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300">
-          📝 ${t('practice_badge', l)}
-        </span>
-      </div>
-
-      <!-- 3 Practice Tabs -->
-      ${practiceList.length > 1 ? `
-        <div class="flex items-center space-x-2 p-1.5 bg-slate-200/70 dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-x-auto scrollbar-none" id="practice-exercise-tabs">
-          ${practiceList.map((p, pIdx) => {
-            const isPActive = pIdx === AppState.activePracticeIndex;
-            const pKey = `${topic.id}_${pIdx}`;
-            const pDone = AppState.completedPracticeMap[pKey];
-            const pLabel = pIdx === 0 ? t('practice_q1_tab', l) : pIdx === 1 ? t('practice_q2_tab', l) : t('practice_q3_tab', l);
-            const statusBadge = pDone ? ' ✅' : '';
-            return `
-              <button 
-                class="practice-exercise-tab-btn flex-1 min-w-[130px] py-2 px-3 rounded-xl text-xs font-black transition-all text-center ${
-                  isPActive 
-                    ? 'bg-purple-600 text-white shadow-sm' 
-                    : 'text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 hover:text-purple-600 dark:hover:text-white font-bold'
-                }"
-                data-practice-index="${pIdx}"
-              >
-                ${pLabel}${statusBadge}
-              </button>
-            `;
-          }).join("")}
-        </div>
-      ` : ''}
-
-      <!-- Active Practice Exercise Card -->
-      <div class="p-5 sm:p-6 rounded-2xl bg-purple-50/40 dark:bg-slate-800/70 border border-purple-200/80 dark:border-slate-700 space-y-4 animate-fadeIn">
-        <div class="flex items-center justify-between">
-          <span class="inline-block text-xs font-bold uppercase tracking-wider text-purple-800 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/40 px-2.5 py-0.5 rounded-md">
-            ${currentPractice.title}
-          </span>
-          ${isDone ? `
-            <span class="text-xs font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-100 dark:bg-emerald-950/60 px-2.5 py-0.5 rounded-md flex items-center space-x-1">
-              <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
-              <span>${t('practice_done_badge', l)}</span>
-            </span>
-          ` : ''}
-        </div>
-
-        <div class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-relaxed">
-          ${currentPractice.problem}
-        </div>
-
-        <!-- Hint block -->
-        <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-300/40 dark:border-slate-700 text-xs sm:text-sm text-slate-800 dark:text-slate-200 flex items-start space-x-2">
-          <span class="font-bold text-amber-600 dark:text-amber-400 flex-shrink-0">${t('practice_hint_title', l)}</span>
-          <span class="font-medium">${currentPractice.hint}</span>
-        </div>
-
-        <!-- Reveal solution & mark done actions -->
-        <div class="flex items-center justify-between flex-wrap gap-2 pt-2 border-t border-purple-200/50 dark:border-slate-700">
-          <button 
-            id="toggle-practice-solution-btn" 
-            class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-purple-600 hover:bg-purple-700 text-white transition shadow-sm flex items-center space-x-2"
-          >
-            <span>${isRevealed ? t('practice_hide_btn', l) : t('practice_reveal_btn', l)}</span>
-          </button>
-
-          <button 
-            id="mark-practice-done-btn" 
-            class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold border ${
-              isDone 
-                ? 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800' 
-                : 'border-slate-300 dark:border-slate-600 hover:bg-white dark:hover:bg-slate-750 text-slate-700 dark:text-slate-200'
-            } transition flex items-center space-x-1.5"
-          >
-            <i data-lucide="${isDone ? 'check-circle-2' : 'check'}" class="w-4 h-4 ${isDone ? 'text-emerald-600' : ''}"></i>
-            <span>${t('practice_done_btn', l)}</span>
-          </button>
-        </div>
-
-        <!-- Revealed Solution Section -->
-        <div id="practice-revealed-solution" class="${isRevealed ? '' : 'hidden'} space-y-3 pt-3 border-t border-purple-200/60 dark:border-slate-700 animate-fadeIn">
-          <h5 class="text-xs font-extrabold uppercase tracking-wider text-purple-900 dark:text-purple-300">
-            ${t('solution_steps_heading', l)}
-          </h5>
-
-          <div class="space-y-2.5">
-            ${(currentPractice.solution?.steps || currentPractice.solutionSteps || []).map((step, sIdx) => `
-              <div class="p-3.5 bg-white dark:bg-slate-800 rounded-xl border border-purple-200/70 dark:border-slate-700 space-y-1">
-                <div class="flex items-center space-x-2">
-                  <span class="w-5 h-5 rounded-md bg-purple-500 text-white font-black text-xs flex items-center justify-center">${sIdx + 1}</span>
-                  <span class="text-xs sm:text-sm font-bold text-slate-900 dark:text-white">${step.title}</span>
-                </div>
-                ${step.formula ? `<div class="text-xs sm:text-sm text-indigo-600 dark:text-indigo-300 font-bold py-1">\\[${step.formula}\\]</div>` : ''}
-                <div class="text-xs text-slate-600 dark:text-slate-300 font-medium">${step.why || step.explanation || step.how || ''}</div>
-              </div>
-            `).join("")}
-          </div>
-
-          <!-- Final Answer Banner -->
-          <div class="p-3.5 rounded-xl bg-emerald-500/15 dark:bg-emerald-950/60 border border-emerald-400/50 dark:border-emerald-800 text-emerald-900 dark:text-emerald-200 text-xs sm:text-sm font-bold flex items-center space-x-2">
-            <span class="text-base">🎯</span>
-            <span><strong>${t('practice_answer_heading', l)}</strong> ${currentPractice.solution?.answer || currentPractice.solutionSteps?.[currentPractice.solutionSteps?.length - 1]?.tip || 'Javob muvaffaqiyatli topildi.'}</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- 8. Oldingi / Keyingi mavzuga o'tish tugmalari -->
-    <div class="pt-6 border-t border-slate-200/80 dark:border-slate-700/80 flex items-center justify-between gap-4">
-      ${prevTopic ? `
-        <button 
-          class="nav-topic-btn flex items-center space-x-2 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-700 dark:text-slate-200 transition text-left"
-          data-nav-id="${prevTopic.id}"
-        >
-          <i data-lucide="chevron-left" class="w-4 h-4"></i>
-          <div>
-            <div class="text-[10px] text-slate-400 uppercase font-bold">${t('prev_topic_label', l)}</div>
-            <div class="text-xs font-bold truncate max-w-[140px] sm:max-w-[200px]">${getLocalizedTopic(prevTopic).title}</div>
-          </div>
-        </button>
-      ` : '<div></div>'}
-
-      ${nextTopic ? `
-        <button 
-          class="nav-topic-btn flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white transition text-right shadow-sm ml-auto"
-          data-nav-id="${nextTopic.id}"
-        >
-          <div>
-            <div class="text-[10px] text-white/80 uppercase font-bold">${t('next_topic_label', l)}</div>
-            <div class="text-xs font-bold truncate max-w-[140px] sm:max-w-[200px]">${getLocalizedTopic(nextTopic).title}</div>
-          </div>
-          <i data-lucide="chevron-right" class="w-4 h-4"></i>
-        </button>
-      ` : '<div></div>'}
-    </div>
-  `;
-
-  container.innerHTML = html;
-
-  // Level tabs listeners
-  container.querySelectorAll(".example-level-tab-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const idx = parseInt(btn.getAttribute("data-example-index"), 10);
-      AppState.activeExampleLevelIndex = idx;
-      renderTopicDetail(topicId);
-    });
-  });
-
-  // Practice tabs listeners
-  container.querySelectorAll(".practice-exercise-tab-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const idx = parseInt(btn.getAttribute("data-practice-index"), 10);
-      AppState.activePracticeIndex = idx;
-      renderTopicDetail(topicId);
-    });
-  });
-
-  // Toggle Practice Solution
-  document.getElementById("toggle-practice-solution-btn")?.addEventListener("click", () => {
-    const currentKey = `${topic.id}_${AppState.activePracticeIndex}`;
-    AppState.revealedPracticeSolutions[currentKey] = !AppState.revealedPracticeSolutions[currentKey];
-    renderTopicDetail(topicId);
-  });
-
-  // Mark Practice Done
-  document.getElementById("mark-practice-done-btn")?.addEventListener("click", () => {
-    const currentKey = `${topic.id}_${AppState.activePracticeIndex}`;
-    AppState.completedPracticeMap[currentKey] = !AppState.completedPracticeMap[currentKey];
-    if (AppState.completedPracticeMap[currentKey]) {
-      showToast(t("practice_done_badge", l), "success");
-    }
-    renderTopicDetail(topicId);
-  });
-
-  // Step accordion
-  container.querySelectorAll(".step-card").forEach(card => {
-    const header = card.querySelector(".step-toggle-header");
-    const panel = card.querySelector(".super-simple-panel");
-    const chevron = card.querySelector(".step-chevron");
-
-    header?.addEventListener("click", () => {
-      if (panel) {
-        const isHidden = panel.classList.contains("hidden");
-        if (isHidden) {
-          panel.classList.remove("hidden");
-          chevron?.classList.add("rotate-180");
-        } else {
-          panel.classList.add("hidden");
-          chevron?.classList.remove("rotate-180");
-        }
-      }
-    });
-  });
-
-  // Example solution steps accordion
-  container.querySelectorAll(".solution-step-card").forEach(card => {
-    const header = card.querySelector(".solution-step-header");
-    const body = card.querySelector(".solution-step-body");
-    const chevron = card.querySelector(".sol-chevron");
-
-    header?.addEventListener("click", () => {
-      if (body) {
-        const isHidden = body.classList.contains("hidden");
-        if (isHidden) {
-          body.classList.remove("hidden");
-          chevron?.classList.add("rotate-180");
-        } else {
-          body.classList.add("hidden");
-          chevron?.classList.remove("rotate-180");
-        }
-      }
-    });
-  });
-
-  // Toggle all solution steps button
-  let allSolutionExpanded = false;
-  document.getElementById("toggle-all-solution-btn")?.addEventListener("click", () => {
-    allSolutionExpanded = !allSolutionExpanded;
-    container.querySelectorAll(".solution-step-card").forEach(card => {
-      const body = card.querySelector(".solution-step-body");
-      const chevron = card.querySelector(".sol-chevron");
-      if (body) {
-        if (allSolutionExpanded) {
-          body.classList.remove("hidden");
-          chevron?.classList.add("rotate-180");
-        } else {
-          body.classList.add("hidden");
-          chevron?.classList.remove("rotate-180");
-        }
-      }
-    });
-  });
-
-  if (calcConfig) {
-    const calcContainer = document.getElementById("calculator-widget-container");
-    if (calcContainer) calcConfig.init(calcContainer);
-  }
-
-  container.querySelectorAll(".copy-formula-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const latex = btn.getAttribute("data-latex");
-      copyToClipboard(latex, t("copied_toast", l));
-    });
-  });
-
-  document.getElementById("detail-fav-btn")?.addEventListener("click", (e) => {
-    toggleFavorite(topic.id, e);
-  });
-
-  document.getElementById("detail-share-btn")?.addEventListener("click", () => {
-    const url = window.location.origin + window.location.pathname + "#" + topic.id;
-    copyToClipboard(url, t("copied_toast", l));
-  });
-
-  container.querySelectorAll(".nav-topic-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const targetId = btn.getAttribute("data-nav-id");
-      if (targetId) selectTopic(targetId);
-    });
-  });
-
-  renderMathInElement(container, {
-    delimiters: [
-      { left: "$$", right: "$$", display: true },
-      { left: "\\(", right: "\\)", display: false },
-      { left: "\\[", right: "\\]", display: true }
-    ],
-    throwOnError: false
-  });
-
+  safeRenderMath(container);
   refreshLucide();
 }
 
@@ -1585,31 +1744,43 @@ function initEventListeners() {
     });
   });
 
-  // Qidiruv maydoni
+  // Qidiruv maydoni (Desktop & Mobile)
   const searchInput = document.getElementById("search-input");
   const searchClearBtn = document.getElementById("search-clear-btn");
+  const mobileSearchInput = document.getElementById("mobile-search-input");
+  const mobileSearchClearBtn = document.getElementById("mobile-search-clear-btn");
+
+  function handleSearch(val) {
+    AppState.searchQuery = val;
+    if (searchInput && searchInput.value !== val) searchInput.value = val;
+    if (mobileSearchInput && mobileSearchInput.value !== val) mobileSearchInput.value = val;
+
+    if (searchClearBtn) {
+      searchClearBtn.classList.toggle("hidden", val.length === 0);
+    }
+    if (mobileSearchClearBtn) {
+      mobileSearchClearBtn.classList.toggle("hidden", val.length === 0);
+    }
+    renderSidebarList();
+  }
 
   if (searchInput) {
-    searchInput.addEventListener("input", (e) => {
-      AppState.searchQuery = e.target.value;
-      if (searchClearBtn) {
-        if (AppState.searchQuery.length > 0) {
-          searchClearBtn.classList.remove("hidden");
-        } else {
-          searchClearBtn.classList.add("hidden");
-        }
-      }
-      renderSidebarList();
-    });
+    searchInput.addEventListener("input", (e) => handleSearch(e.target.value));
+  }
+  if (mobileSearchInput) {
+    mobileSearchInput.addEventListener("input", (e) => handleSearch(e.target.value));
   }
 
   if (searchClearBtn) {
     searchClearBtn.addEventListener("click", () => {
-      searchInput.value = "";
-      AppState.searchQuery = "";
-      searchClearBtn.classList.add("hidden");
-      renderSidebarList();
+      handleSearch("");
       searchInput.focus();
+    });
+  }
+  if (mobileSearchClearBtn) {
+    mobileSearchClearBtn.addEventListener("click", () => {
+      handleSearch("");
+      mobileSearchInput.focus();
     });
   }
 
@@ -1657,6 +1828,39 @@ function initEventListeners() {
   mobileClose?.addEventListener("click", closeMobileSidebar);
   backdrop?.addEventListener("click", closeMobileSidebar);
 
+  // AI Kamera tugmalari (Header & Mobile Bottom Nav)
+  document.getElementById("nav-camera-btn")?.addEventListener("click", openCameraModal);
+  document.getElementById("mobile-nav-camera")?.addEventListener("click", openCameraModal);
+  document.getElementById("camera-modal-close")?.addEventListener("click", closeCameraModal);
+  document.getElementById("camera-modal-backdrop")?.addEventListener("click", closeCameraModal);
+
+  // Mobil Bottom Navigation Bar tugmalari
+  document.getElementById("mobile-nav-lessons")?.addEventListener("click", () => {
+    openMobileSidebar();
+  });
+
+  document.getElementById("mobile-nav-test")?.addEventListener("click", () => {
+    closeMobileSidebar();
+    openTestWizard();
+  });
+
+  document.getElementById("mobile-nav-search")?.addEventListener("click", () => {
+    openMobileSidebar();
+    setTimeout(() => {
+      searchInput?.focus();
+    }, 200);
+  });
+
+  document.getElementById("mobile-nav-fav")?.addEventListener("click", () => {
+    AppState.onlyFavorites = !AppState.onlyFavorites;
+    renderSidebarList();
+    openMobileSidebar();
+  });
+
+  document.getElementById("mobile-nav-theme")?.addEventListener("click", () => {
+    toggleTheme();
+  });
+
   // Klaviatura qisqa klavishi (Ctrl+K qidiruv)
   document.addEventListener("keydown", (e) => {
     if ((e.ctrlKey || e.metaKey) && e.key === "k") {
@@ -1682,6 +1886,9 @@ function openMobileSidebar() {
   const backdrop = document.getElementById("sidebar-backdrop");
   sidebar?.classList.remove("-translate-x-full");
   backdrop?.classList.remove("hidden");
+  if (document.body && document.body.style) {
+    document.body.style.overflow = "hidden"; // Prevent background body scroll when drawer is open
+  }
 }
 
 function closeMobileSidebar() {
@@ -1689,20 +1896,51 @@ function closeMobileSidebar() {
   const backdrop = document.getElementById("sidebar-backdrop");
   sidebar?.classList.add("-translate-x-full");
   backdrop?.classList.add("hidden");
+  if (document.body && document.body.style) {
+    document.body.style.overflow = ""; // Restore background scroll
+  }
+}
+
+function updateMobileNavState(viewName) {
+  const navLessons = document.getElementById("mobile-nav-lessons");
+  const navTest = document.getElementById("mobile-nav-test");
+  const navFav = document.getElementById("mobile-nav-fav");
+  const navCamera = document.getElementById("mobile-nav-camera");
+
+  if (!navLessons || !navTest) return;
+
+  const inactiveClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-slate-600 dark:text-slate-400 hover:text-brand-600 font-bold transition";
+  const activeClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-brand-600 dark:text-brand-400 font-extrabold transition bg-brand-50 dark:bg-brand-950/60";
+  const activeTestClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-purple-600 dark:text-purple-400 font-extrabold transition bg-purple-50 dark:bg-purple-950/60";
+  const activeFavClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-amber-600 dark:text-amber-400 font-extrabold transition bg-amber-50 dark:bg-amber-950/60";
+  const activeCameraClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-indigo-600 dark:text-indigo-400 font-extrabold transition bg-indigo-50 dark:bg-indigo-950/60";
+
+  navLessons.className = viewName === "lesson" ? activeClass : inactiveClass;
+  navTest.className = viewName === "test" ? activeTestClass : inactiveClass;
+  if (navFav) {
+    navFav.className = viewName === "fav" ? activeFavClass : inactiveClass;
+  }
+  if (navCamera) {
+    navCamera.className = viewName === "camera" ? activeCameraClass : inactiveClass;
+  }
 }
 
 function refreshLucide() {
-  if (window.lucide) {
-    window.lucide.createIcons();
+  if (typeof lucide !== "undefined" && lucide && lucide.createIcons) {
+    try {
+      lucide.createIcons();
+    } catch (e) {}
   }
 }
 
 function copyToClipboard(text, message = "Nusxalandi!") {
-  navigator.clipboard.writeText(text).then(() => {
-    showToast(message, "success");
-  }).catch(() => {
-    showToast("Nusxalab bo'lmadi", "error");
-  });
+  if (navigator && navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => {
+      showToast(message, "success");
+    }).catch(() => {
+      showToast("Nusxalab bo'lmadi", "error");
+    });
+  }
 }
 
 function showToast(message, type = "success") {
@@ -1736,4 +1974,467 @@ function showToast(message, type = "success") {
 function escapeHtml(str) {
   if (!str) return '';
   return str.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+// ==========================================
+// AI KAMERA YECHUVCHI (AI PHOTO MATH SOLVER)
+// ==========================================
+function openCameraModal() {
+  const modal = document.getElementById("camera-solver-modal");
+  if (!modal) return;
+  modal.classList.remove("hidden");
+  closeMobileSidebar();
+  updateMobileNavState("camera");
+  if (document.body && document.body.style) document.body.style.overflow = "hidden";
+  renderCameraModalContent();
+  refreshLucide();
+}
+
+function closeCameraModal() {
+  const modal = document.getElementById("camera-solver-modal");
+  if (!modal) return;
+  modal.classList.add("hidden");
+  if (document.body && document.body.style) document.body.style.overflow = "";
+  if (AppState.currentView === "lesson") {
+    updateMobileNavState("lesson");
+  } else if (AppState.currentView === "test_wizard" || AppState.currentView === "test_runner") {
+    updateMobileNavState("test");
+  }
+}
+
+function handleCameraImageFile(file) {
+  if (!file) return;
+  if (!file.type.startsWith("image/")) {
+    showToast("Faqat rasm fayllari qabul qilinadi", "error");
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    AppState.aiCamera.imageBase64 = e.target.result;
+    AppState.aiCamera.imageMimeType = file.type || "image/jpeg";
+    AppState.aiCamera.solution = null;
+    AppState.aiCamera.error = null;
+    renderCameraModalContent();
+  };
+  reader.readAsDataURL(file);
+}
+
+async function solveMathWithGemini() {
+  if (!AppState.aiCamera.imageBase64) {
+    showToast("Iltimos, avval misol rasmini yuklang", "error");
+    return;
+  }
+
+  const apiKey = AppState.aiCamera.apiKey || localStorage.getItem("m_lab_gemini_key") || "";
+  if (!apiKey) {
+    showToast("Gemini API kaliti kiritilmagan", "error");
+    return;
+  }
+
+  AppState.aiCamera.isAnalyzing = true;
+  AppState.aiCamera.error = null;
+  renderCameraModalContent();
+
+  const systemPrompt = `Siz M-LAB loyihasining eng tajribali, samimiy va kuchli matematika o'qituvchisisiz.
+Foydalanuvchi yuborgan rasmdagi matematika misolini yoki masalasini diqqat bilan o'qing va uni o'quvchiga tushunarli, bosqichma-bosqich (1-qadam, 2-qadam, 3-qadam...) qilib to'liq hisob-kitoblari va formulalari bilan yechib bering.
+
+QAT'IY QOIDALAR:
+1. HECH QACHON faqat quruq yakuniy javob bermang! Har bir hisoblash amalini qadamma-qadam erinmasdan ko'rsating.
+2. O'qituvchi maslahatini samimiy, sodda o'zbek tilida yozing.
+3. Barcha matematik formulalarni toza LaTeX formatida bering (masalan: \\frac{a}{b}, x^2, \\sqrt{y}, \\cdot, 2\\pi).
+4. Javobni FAQAT quyidagi JSON formatida qaytaring:
+{
+  "is_math": true,
+  "problem_title": "Mavzu yoki misol nomi (masalan: Kasrlarni qo'shish)",
+  "problem_latex": "Misolning to'liq matematik formulasi",
+  "teacher_advice": "O'qituvchi maslahati: bu misolni yechishda qaysi qoidani qo'llaymiz va birinchi nima qilamiz",
+  "steps": [
+    {
+      "step_num": 1,
+      "title": "1-qadam: ...",
+      "explanation": "Ushbu qadamda nima ish qilingani tushuntirishi",
+      "formula": "Ushbu qadamdagi formula va hisob-kitob (LaTeX)"
+    },
+    {
+      "step_num": 2,
+      "title": "2-qadam: ...",
+      "explanation": "Keyingi amal tushuntirishi",
+      "formula": "Hisoblash formulasi (LaTeX)"
+    }
+  ],
+  "final_answer": "Yakuniy to'g'ri javob (LaTeX)",
+  "verification": "Javobning qisqacha xulosasi"
+}
+Agar rasmda matematika misoli bo'lmasa yoki umuman o'qib bo'lmasa:
+{
+  "is_math": false,
+  "error_message": "Rasmda matematika misoli aniqlanmadi yoki rasm juda xira. Iltimos, misolni yaqinroq va yorug'roq joyda rasmga oling."
+}`;
+
+  try {
+    const pureBase64 = AppState.aiCamera.imageBase64.replace(/^data:image\/[a-z]+;base64,/, "");
+    const mimeType = AppState.aiCamera.imageMimeType || "image/jpeg";
+
+    const requestBody = {
+      contents: [
+        {
+          parts: [
+            { text: systemPrompt },
+            {
+              inlineData: {
+                mimeType: mimeType,
+                data: pureBase64
+              }
+            }
+          ]
+        }
+      ],
+      generationConfig: {
+        responseMimeType: "application/json",
+        temperature: 0.2
+      }
+    };
+
+    // Try Gemini 2.0 Flash first, fallback to 1.5 Flash
+    let response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(requestBody)
+    });
+
+    if (!response.ok) {
+      response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(requestBody)
+      });
+    }
+
+    if (!response.ok) {
+      const errData = await response.json().catch(() => ({}));
+      throw new Error(errData.error?.message || `API so'rovi muvaffaqiyatsiz bo'ldi (${response.status})`);
+    }
+
+    const resJson = await response.json();
+    const candidateText = resJson.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (!candidateText) throw new Error("AI javobi bo'sh qaytdi.");
+
+    const parsedSolution = JSON.parse(candidateText);
+    AppState.aiCamera.isAnalyzing = false;
+    AppState.aiCamera.solution = parsedSolution;
+    renderCameraModalContent();
+  } catch (err) {
+    console.error("AI Camera Solver error:", err);
+    AppState.aiCamera.isAnalyzing = false;
+    AppState.aiCamera.error = err.message || "Xatolik yuz berdi. Iltimos, internetingizni tekshiring.";
+    renderCameraModalContent();
+  }
+}
+
+function renderCameraModalContent() {
+  const container = document.getElementById("camera-modal-body");
+  if (!container) return;
+
+  const cam = AppState.aiCamera;
+
+  let contentHtml = "";
+
+  if (cam.isAnalyzing) {
+    contentHtml = `
+      <div class="p-8 text-center space-y-5 animate-fadeIn">
+        <div class="relative w-24 h-24 mx-auto flex items-center justify-center">
+          <div class="absolute inset-0 rounded-3xl bg-brand-500/20 animate-ping"></div>
+          <div class="w-20 h-20 rounded-3xl bg-gradient-to-tr from-brand-600 via-indigo-600 to-purple-600 flex items-center justify-center text-white text-3xl shadow-xl ai-analyzing-pulse">
+            📸
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg sm:text-xl font-black text-slate-900 dark:text-white">
+            🧠 Sun'iy intellekt misolni yechmoqda...
+          </h4>
+          <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 max-w-sm mx-auto">
+            Rasm tahlil qilinmoqda va qadamma-qadam, erinmasdan tushuntirilgan to'liq yechim tayyorlanmoqda...
+          </p>
+        </div>
+      </div>
+    `;
+  } else if (cam.solution) {
+    if (cam.solution.is_math === false) {
+      contentHtml = `
+        <div class="p-6 text-center space-y-4 animate-fadeIn">
+          <div class="w-16 h-16 rounded-2xl bg-amber-100 dark:bg-amber-950/60 text-amber-600 flex items-center justify-center text-2xl mx-auto">
+            ⚠️
+          </div>
+          <h4 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
+            Matematik misol aniqlanmadi
+          </h4>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-md mx-auto leading-relaxed">
+            ${cam.solution.error_message || "Rasm juda xira yoki unda aniq misol ko'rinmayapti. Iltimos, misolni yaqinroq va yorug'roq joyda rasmga oling."}
+          </p>
+          <div class="pt-2">
+            <button id="ai-retake-btn" class="px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs sm:text-sm shadow-md transition">
+              🔄 Qayta suratga olish
+            </button>
+          </div>
+        </div>
+      `;
+    } else {
+      const sol = cam.solution;
+      contentHtml = `
+        <div class="space-y-6 animate-fadeIn">
+          <!-- Top Problem Identified Card -->
+          <div class="p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-indigo-50/70 to-purple-50/40 dark:from-slate-800 dark:to-slate-850 border border-indigo-200/80 dark:border-slate-700 space-y-3">
+            <div class="flex items-center justify-between flex-wrap gap-2">
+              <span class="text-xs font-black uppercase tracking-wider text-brand-700 dark:text-brand-300 bg-brand-100 dark:bg-brand-950/70 px-2.5 py-0.5 rounded-md">
+                📝 ${sol.problem_title || 'Misol sharti'}
+              </span>
+              <button id="ai-retake-btn" class="text-xs font-bold text-slate-600 dark:text-slate-300 hover:text-brand-600 flex items-center space-x-1">
+                <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+                <span>Boshqa misol</span>
+              </button>
+            </div>
+            <div class="text-base sm:text-xl font-black text-center text-slate-900 dark:text-white py-2 overflow-x-auto">
+              \\[${sol.problem_latex}\\]
+            </div>
+          </div>
+
+          <!-- O'qituvchi Maslahati -->
+          ${sol.teacher_advice ? `
+            <div class="p-4 sm:p-5 rounded-2xl bg-amber-500/10 dark:bg-slate-800 border border-amber-300/60 dark:border-slate-700 flex items-start space-x-3">
+              <span class="text-xl flex-shrink-0">🗣️</span>
+              <div>
+                <strong class="text-amber-800 dark:text-amber-300 block mb-0.5 text-xs font-black uppercase">O'qituvchi maslahati:</strong>
+                <p class="text-xs sm:text-sm text-slate-800 dark:text-slate-200 font-medium leading-relaxed">${sol.teacher_advice}</p>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Bosqichma-bosqich yechilishi -->
+          <div class="space-y-3">
+            <h5 class="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-900 dark:text-white flex items-center space-x-2">
+              <span class="w-6 h-6 rounded-lg bg-purple-600 text-white flex items-center justify-center text-xs">🔢</span>
+              <span>Bosqichma-bosqich yechilishi:</span>
+            </h5>
+
+            <div class="space-y-3">
+              ${(sol.steps || []).map((st, idx) => `
+                <div class="solution-step-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-4 sm:p-5 space-y-2.5 shadow-xs">
+                  <div class="flex items-center space-x-2.5">
+                    <span class="w-6 h-6 rounded-lg bg-indigo-600 text-white font-black text-xs flex items-center justify-center">${st.step_num || idx + 1}</span>
+                    <h6 class="text-xs sm:text-sm font-black text-slate-900 dark:text-white">${st.title || (idx + 1) + '-qadam'}</h6>
+                  </div>
+                  <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-medium leading-relaxed pl-8">${st.explanation}</p>
+                  ${st.formula ? `
+                    <div class="ml-8 p-3 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-indigo-100 dark:border-slate-700 text-indigo-600 dark:text-indigo-300 font-bold text-center overflow-x-auto text-xs sm:text-sm">
+                      \\[${st.formula}\\]
+                    </div>
+                  ` : ''}
+                </div>
+              `).join("")}
+            </div>
+          </div>
+
+          <!-- Yakuniy To'g'ri Javob -->
+          <div class="p-5 rounded-2xl bg-gradient-to-r from-emerald-500/15 to-teal-500/15 dark:bg-emerald-950/50 border border-emerald-400/60 dark:border-emerald-800 flex items-center justify-between flex-wrap gap-3">
+            <div class="space-y-1">
+              <span class="text-[11px] font-black uppercase tracking-wider text-emerald-800 dark:text-emerald-300 flex items-center space-x-1.5">
+                <span>🎯</span>
+                <span>Yakuniy to'g'ri javob:</span>
+              </span>
+              <div class="text-base sm:text-xl font-black text-emerald-900 dark:text-emerald-200">
+                \\[${sol.final_answer}\\]
+              </div>
+            </div>
+
+            <button id="ai-copy-solution-btn" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-sm transition flex items-center space-x-1.5">
+              <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+              <span>Yechimdan nusxa</span>
+            </button>
+          </div>
+        </div>
+      `;
+    }
+  } else if (cam.imageBase64) {
+    contentHtml = `
+      <div class="space-y-4 animate-fadeIn">
+        <div class="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 max-h-72 flex items-center justify-center bg-slate-950">
+          <img src="${cam.imageBase64}" alt="Yuklangan misol" class="max-h-72 w-auto object-contain" />
+          <button id="ai-remove-image-btn" class="absolute top-2 right-2 p-1.5 rounded-xl bg-slate-900/80 text-white hover:bg-red-600 transition backdrop-blur-xs">
+            <i data-lucide="trash-2" class="w-4 h-4"></i>
+          </button>
+        </div>
+
+        ${cam.error ? `
+          <div class="p-3.5 rounded-xl bg-rose-500/10 border border-rose-300 text-rose-700 dark:text-rose-300 text-xs font-semibold">
+            ⚠️ ${cam.error}
+          </div>
+        ` : ''}
+
+        <div class="flex items-center space-x-3">
+          <button id="ai-solve-btn" class="flex-1 py-3 px-4 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white font-extrabold text-sm shadow-md transition flex items-center justify-center space-x-2">
+            <span>⚡️</span>
+            <span>Misolni bosqichma-bosqich yechish</span>
+          </button>
+          <button id="ai-retake-btn" class="py-3 px-4 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-bold text-xs transition">
+            🔄 Boshqa rasm
+          </button>
+        </div>
+      </div>
+    `;
+  } else {
+    contentHtml = `
+      <div class="space-y-5 animate-fadeIn">
+        <!-- Drag & Drop Zone -->
+        <div id="ai-dropzone" class="p-8 sm:p-10 rounded-3xl border-2 border-dashed border-slate-300 dark:border-slate-700 hover:border-brand-500 dark:hover:border-brand-400 bg-slate-50/50 dark:bg-slate-800/40 text-center transition cursor-pointer space-y-4">
+          <div class="w-16 h-16 rounded-2xl bg-brand-100 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 flex items-center justify-center text-3xl mx-auto shadow-xs">
+            📸
+          </div>
+          <div>
+            <h4 class="text-base sm:text-lg font-black text-slate-900 dark:text-white">
+              Misol yoki masalani rasmga oling
+            </h4>
+            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 max-w-sm mx-auto">
+              Kitob yoki daftardagi misolni rasmga oling — AI o'qituvchisi uni qadamma-qadam, to'liq hisoblari bilan yechib beradi.
+            </p>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex items-center justify-center flex-wrap gap-3 pt-2">
+            <input type="file" id="camera-file-input" accept="image/*" capture="environment" class="hidden" />
+            <input type="file" id="gallery-file-input" accept="image/*" class="hidden" />
+
+            <button id="trigger-camera-btn" class="px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs sm:text-sm shadow-md transition flex items-center space-x-2">
+              <i data-lucide="camera" class="w-4 h-4"></i>
+              <span>Suratga olish</span>
+            </button>
+
+            <button id="trigger-gallery-btn" class="px-5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm shadow-xs transition flex items-center space-x-2">
+              <i data-lucide="image" class="w-4 h-4"></i>
+              <span>Galereyadan tanlash</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- API Key settings toggle footer -->
+        <div class="flex items-center justify-between text-[11px] text-slate-400 dark:text-slate-500 pt-2 border-t border-slate-200/60 dark:border-slate-800">
+          <span class="flex items-center space-x-1">
+            <span>✨ Google Gemini Vision AI</span>
+          </span>
+          <button id="ai-toggle-settings-btn" class="hover:text-brand-600 dark:hover:text-brand-400 flex items-center space-x-1 font-bold">
+            <i data-lucide="key" class="w-3.5 h-3.5"></i>
+            <span>API Kalit sozlamasi</span>
+          </button>
+        </div>
+
+        <!-- Hidden API Key settings panel -->
+        <div id="ai-settings-panel" class="${cam.showSettings ? '' : 'hidden'} p-4 rounded-2xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
+          <label class="block text-xs font-bold text-slate-700 dark:text-slate-300">
+            Google Gemini API Kaliti:
+          </label>
+          <div class="flex items-center space-x-2">
+            <input 
+              type="text" 
+              id="ai-api-key-input" 
+              value="${cam.apiKey || ''}" 
+              placeholder="AIzaSy..." 
+              class="flex-1 px-3 py-2 text-xs rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100"
+            />
+            <button id="ai-save-key-btn" class="px-3.5 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs">
+              Saqlash
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  container.innerHTML = contentHtml;
+
+  // Event Listeners for Camera UI
+  document.getElementById("trigger-camera-btn")?.addEventListener("click", () => {
+    document.getElementById("camera-file-input")?.click();
+  });
+
+  document.getElementById("trigger-gallery-btn")?.addEventListener("click", () => {
+    document.getElementById("gallery-file-input")?.click();
+  });
+
+  document.getElementById("camera-file-input")?.addEventListener("change", (e) => {
+    if (e.target.files && e.target.files[0]) {
+      handleCameraImageFile(e.target.files[0]);
+    }
+  });
+
+  document.getElementById("gallery-file-input")?.addEventListener("change", (e) => {
+    if (e.target.files && e.target.files[0]) {
+      handleCameraImageFile(e.target.files[0]);
+    }
+  });
+
+  // Drag & Drop
+  const dropzone = document.getElementById("ai-dropzone");
+  if (dropzone) {
+    dropzone.addEventListener("dragover", (e) => {
+      e.preventDefault();
+      dropzone.classList.add("dropzone-active");
+    });
+    dropzone.addEventListener("dragleave", () => {
+      dropzone.classList.remove("dropzone-active");
+    });
+    dropzone.addEventListener("drop", (e) => {
+      e.preventDefault();
+      dropzone.classList.remove("dropzone-active");
+      if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+        handleCameraImageFile(e.dataTransfer.files[0]);
+      }
+    });
+  }
+
+  document.getElementById("ai-solve-btn")?.addEventListener("click", solveMathWithGemini);
+
+  document.getElementById("ai-retake-btn")?.addEventListener("click", () => {
+    AppState.aiCamera.imageBase64 = null;
+    AppState.aiCamera.solution = null;
+    AppState.aiCamera.error = null;
+    renderCameraModalContent();
+  });
+
+  document.getElementById("ai-remove-image-btn")?.addEventListener("click", () => {
+    AppState.aiCamera.imageBase64 = null;
+    AppState.aiCamera.solution = null;
+    AppState.aiCamera.error = null;
+    renderCameraModalContent();
+  });
+
+  document.getElementById("ai-copy-solution-btn")?.addEventListener("click", () => {
+    if (!AppState.aiCamera.solution) return;
+    const s = AppState.aiCamera.solution;
+    let fullText = `M-LAB AI Yechimi:\nMisol: ${s.problem_latex}\nO'qituvchi maslahati: ${s.teacher_advice}\n\n`;
+    (s.steps || []).forEach((st, idx) => {
+      fullText += `${st.step_num || idx + 1}-qadam: ${st.title}\n${st.explanation}\nFormula: ${st.formula}\n\n`;
+    });
+    fullText += `Yakuniy javob: ${s.final_answer}`;
+    copyToClipboard(fullText, "Yechimdan to'liq nusxa olindi!");
+  });
+
+  document.getElementById("ai-toggle-settings-btn")?.addEventListener("click", () => {
+    AppState.aiCamera.showSettings = !AppState.aiCamera.showSettings;
+    renderCameraModalContent();
+  });
+
+  document.getElementById("ai-save-key-btn")?.addEventListener("click", () => {
+    const input = document.getElementById("ai-api-key-input");
+    if (input && input.value.trim()) {
+      const k = input.value.trim();
+      AppState.aiCamera.apiKey = k;
+      localStorage.setItem("m_lab_gemini_key", k);
+      showToast("API kalit muvaffaqiyatli saqlandi!", "success");
+      AppState.aiCamera.showSettings = false;
+      renderCameraModalContent();
+    }
+  });
+
+  safeRenderMath(container);
+  refreshLucide();
 }

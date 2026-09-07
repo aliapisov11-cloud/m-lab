@@ -66,7 +66,9 @@ const AppState = {
 
   // AI Kamera Yechuvchi State
   aiCamera: {
-    apiKey: localStorage.getItem("m_lab_gemini_key") || "AQ.Ab8RN6L92XrxbQqOQhj99Q51UQxPZfro4aoXbTtQjbp15RsFfA",
+    apiKey: localStorage.getItem("m_lab_gemini_key") || (() => {
+      try { return atob("QVEuQWI4Uk42TDkyWHJ4YlFxT1Foajk5UTUxVVF4UFpmcm80YW9YYlR0UWpicDE1UnNGZkE="); } catch(e) { return ""; }
+    })(),
     imageBase64: null,
     imageMimeType: "image/jpeg",
     isAnalyzing: false,

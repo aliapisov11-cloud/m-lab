@@ -58,7 +58,7 @@ body {
 }
 
 .katex {
-  font-size: 1.1em;
+  font-size: 1.08em;
   text-rendering: optimizeLegibility;
 }
 
@@ -137,4 +137,63 @@ body {
 
 .geom-shape-main:hover {
   stroke-width: 3;
+}
+
+/* Mobile Safe Area & Touch Optimizations */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .safe-area-bottom {
+    padding-bottom: calc(0.6rem + env(safe-area-inset-bottom)) !important;
+  }
+}
+
+/* Prevent iOS Zoom on Inputs */
+@media (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* Touch feedback for smartphones (iPhone/Android) */
+@media (hover: none) {
+  button, .topic-sidebar-item, .lang-pill-btn, .grade-filter-btn, .runner-option-btn, .example-level-tab-btn, .practice-exercise-tab-btn {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  button:active, .topic-sidebar-item:active, .runner-option-btn:active {
+    transform: scale(0.98);
+    opacity: 0.9;
+  }
+}
+
+/* Ensure math formulas never overflow on mobile */
+.formula-latex, .solution-step-card, .formula-card, .katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Mobile Topic Drawer Polish */
+#app-sidebar {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* AI Camera Dropzone & Animations */
+.dropzone-active {
+  border-color: #6366f1 !important;
+  background-color: rgba(99, 102, 241, 0.08) !important;
+}
+
+@keyframes pulseBorder {
+  0%, 100% {
+    border-color: rgba(99, 102, 241, 0.4);
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.2);
+  }
+  50% {
+    border-color: rgba(99, 102, 241, 0.8);
+    box-shadow: 0 0 0 8px rgba(99, 102, 241, 0);
+  }
+}
+
+.ai-analyzing-pulse {
+  animation: pulseBorder 1.5s infinite;
 }
