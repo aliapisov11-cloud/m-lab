@@ -2113,7 +2113,12 @@ Agar rasmda matematika misoli bo'lmasa yoki umuman o'qib bo'lmasa:
 
     if (!response.ok) {
       const errData = await response.json().catch(() => ({}));
-      throw new Error(errData.error?.message || `API so'rovi muvaffaqiyatsiz bo'ldi (${response.status})`);
+      const rawMsg = errData.error?.message || "";
+      if (response.status === 401 || rawMsg.includes("invalid authentication") || rawMsg.includes("UNAUTHENTICATED") || rawMsg.includes("API_KEY_INVALID")) {
+        AppState.aiCamera.showSettings = true;
+        throw new Error("Google Gemini API kaliti kiritilmagan yoki noto'g'ri. Iltimos, pastdagi sozlamalardan Google AI Studio'dan olingan bepul kalitni (AIzaSy...) kiriting.");
+      }
+      throw new Error(rawMsg || `API so'rovi muvaffaqiyatsiz bo'ldi (${response.status})`);
     }
 
     const resJson = await response.json();
@@ -2127,7 +2132,12 @@ Agar rasmda matematika misoli bo'lmasa yoki umuman o'qib bo'lmasa:
   } catch (err) {
     console.error("AI Camera Solver error:", err);
     AppState.aiCamera.isAnalyzing = false;
-    AppState.aiCamera.error = err.message || "Xatolik yuz berdi. Iltimos, internetingizni tekshiring.";
+    let msg = err.message || "Xatolik yuz berdi. Iltimos, internetingizni tekshiring.";
+    if (msg.includes("invalid authentication") || msg.includes("UNAUTHENTICATED") || msg.includes("OAuth")) {
+      msg = "Google Gemini API kaliti kiritilmagan yoki noto'g'ri. Iltimos, pastdagi 'API Kalit sozlamasi' orqali Google AI Studio kalitini (AIzaSy...) kiriting.";
+      AppState.aiCamera.showSettings = true;
+    }
+    AppState.aiCamera.error = msg;
     renderCameraModalContent();
   }
 }
@@ -2329,9 +2339,15 @@ function renderCameraModalContent() {
 
         <!-- Hidden API Key settings panel -->
         <div id="ai-settings-panel" class="${cam.showSettings ? '' : 'hidden'} p-4 rounded-2xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
-          <label class="block text-xs font-bold text-slate-700 dark:text-slate-300">
-            Google Gemini API Kaliti:
-          </label>
+          <div class="flex items-center justify-between">
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300">
+              🔑 Google Gemini API Kaliti:
+            </label>
+            <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" class="text-[11px] font-bold text-brand-600 dark:text-brand-400 hover:underline flex items-center space-x-1">
+              <span>Bepul kalit olish</span>
+              <span>↗</span>
+            </a>
+          </div>
           <div class="flex items-center space-x-2">
             <input 
               type="text" 
@@ -2344,6 +2360,9 @@ function renderCameraModalContent() {
               Saqlash
             </button>
           </div>
+          <p class="text-[10px] text-slate-500 dark:text-slate-400">
+            💡 Google AI Studio kaliti <code>AIzaSy...</code> bilan boshlanadi va 100% bepul beriladi. Kalitingiz brauzerda eslab qolinadi.
+          </p>
         </div>
       </div>
     `;
