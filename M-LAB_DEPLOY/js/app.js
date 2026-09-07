@@ -24,8 +24,10 @@ function safeRenderMath(element) {
 function formatMathText(str) {
   if (!str) return "";
   let text = String(str).trim();
-  if (text.includes("\\(") || text.includes("\\[")) return text;
-  if (/((\\[a-zA-Z]+)|(\^)|(_)|(\d+\s*[\+\-\*\/]\s*\d+))/.test(text)) {
+  if (text.includes("\\[") || text.includes("\\(")) return text;
+  // Convert simple ASCII fractions like 11/15 or 6/15 to \frac{11}{15}
+  text = text.replace(/(?<!\\frac\{)(\b\d+)\/(\d+\b)/g, "\\frac{$1}{$2}");
+  if (/((\\[a-zA-Z]+)|(\^)|(_)|(\d+\s*[\+\-\*\/=]\s*\d+))/.test(text)) {
     if (text.includes(":")) {
       const parts = text.split(":");
       return `${parts[0]}: \\(${parts.slice(1).join(":").trim()}\\)`;
@@ -59,9 +61,10 @@ const AppState = {
   activeTest: {
     questions: [],
     currentIndex: 0,
-    answers: {}, // { 0: chosenIdx, 1: chosenIdx }
-    startTime: null,
-    endTime: null
+    userAnswers: {},
+    timeRemaining: 0,
+    timerInterval: null,
+    isFinished: false
   },
 
   // AI Kamera Yechuvchi State
@@ -73,7 +76,10 @@ const AppState = {
     isAnalyzing: false,
     solution: null,
     error: null,
-    showSettings: false
+    showSettings: false,
+    isStreaming: false,
+    stream: null,
+    facingMode: "environment"
   }
 };
 
@@ -2592,6 +2598,9 @@ function solveMathExpressionLocally(rawExpr) {
 // ==========================================
 // AI KAMERA VA TEZKOR YECHUVCHI MODALI
 // ==========================================
+// ==========================================
+// AI JONLI KAMERA VA TEZKOR YECHUVCHI MODALI
+// ==========================================
 function openCameraModal() {
   const modal = document.getElementById("camera-solver-modal");
   if (!modal) return;
@@ -2604,6 +2613,7 @@ function openCameraModal() {
 }
 
 function closeCameraModal() {
+  stopLiveCamera();
   const modal = document.getElementById("camera-solver-modal");
   if (!modal) return;
   modal.classList.add("hidden");
@@ -2615,13 +2625,83 @@ function closeCameraModal() {
   }
 }
 
+async function startLiveCamera() {
+  try {
+    if (AppState.aiCamera.stream) {
+      AppState.aiCamera.stream.getTracks().forEach(t => t.stop());
+    }
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      showToast("Brauzeringizda jonli kamera qo'llab-quvvatlanmaydi. Rasm yuklashingiz mumkin.", "info");
+      document.getElementById("camera-file-input")?.click();
+      return;
+    }
+    const constraints = {
+      video: {
+        facingMode: { ideal: AppState.aiCamera.facingMode },
+        width: { ideal: 1280 },
+        height: { ideal: 720 }
+      },
+      audio: false
+    };
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    AppState.aiCamera.stream = stream;
+    AppState.aiCamera.isStreaming = true;
+    AppState.aiCamera.solution = null;
+    AppState.aiCamera.imageBase64 = null;
+    AppState.aiCamera.error = null;
+    renderCameraModalContent();
+
+    setTimeout(() => {
+      const video = document.getElementById("ai-camera-live-video");
+      if (video) {
+        video.srcObject = stream;
+        video.play().catch(e => console.warn("Video play error:", e));
+      }
+    }, 50);
+  } catch (err) {
+    console.warn("Live camera access failed or denied:", err);
+    AppState.aiCamera.isStreaming = false;
+    AppState.aiCamera.stream = null;
+    showToast("Kameraga ruxsat berilmadi yoki kamera topilmadi. Rasm yuklashingiz mumkin.", "info");
+    renderCameraModalContent();
+  }
+}
+
+function stopLiveCamera() {
+  if (AppState.aiCamera.stream) {
+    AppState.aiCamera.stream.getTracks().forEach(t => t.stop());
+    AppState.aiCamera.stream = null;
+  }
+  AppState.aiCamera.isStreaming = false;
+}
+
+function flipLiveCamera() {
+  AppState.aiCamera.facingMode = AppState.aiCamera.facingMode === "environment" ? "user" : "environment";
+  startLiveCamera();
+}
+
+function captureLiveSnapshot() {
+  const video = document.getElementById("ai-camera-live-video");
+  if (!video || !AppState.aiCamera.isStreaming) return;
+  const canvas = document.createElement("canvas");
+  canvas.width = video.videoWidth || 640;
+  canvas.height = video.videoHeight || 480;
+  const ctx = canvas.getContext("2d");
+  ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  const dataUrl = canvas.toDataURL("image/jpeg", 0.85);
+  AppState.aiCamera.imageBase64 = dataUrl;
+  AppState.aiCamera.imageMimeType = "image/jpeg";
+  stopLiveCamera();
+  solveMathWithGemini();
+}
+
 function handleCameraImageFile(file) {
   if (!file) return;
   if (!file.type.startsWith("image/")) {
     showToast("Faqat rasm fayllari qabul qilinadi", "error");
     return;
   }
-
+  stopLiveCamera();
   const reader = new FileReader();
   reader.onload = (e) => {
     AppState.aiCamera.imageBase64 = e.target.result;
@@ -2634,6 +2714,7 @@ function handleCameraImageFile(file) {
 }
 
 async function solveMathWithGemini(explicitExpression = null) {
+  stopLiveCamera();
   const exprInput = document.getElementById("ai-expr-input");
   let queryText = (typeof explicitExpression === "string" && explicitExpression) 
     ? explicitExpression 
@@ -2738,8 +2819,8 @@ QAT'IY QOIDALAR:
   const targetText = queryText || "5/8 + 7/12 - 1/6";
   const localSolution = solveMathExpressionLocally(targetText);
 
-  // Artificial short delay for smooth teacher UX feeling
-  await new Promise(r => setTimeout(r, 450));
+  // Short delay for smooth UX transition
+  await new Promise(r => setTimeout(r, 400));
 
   AppState.aiCamera.isAnalyzing = false;
 
@@ -2778,6 +2859,46 @@ function renderCameraModalContent() {
           <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 max-w-sm mx-auto">
             Matematik ifoda tahlil qilinmoqda va qadamma-qadam, erinmasdan tushuntirilgan to'liq yechim tayyorlanmoqda...
           </p>
+        </div>
+      </div>
+    `;
+  } else if (cam.isStreaming) {
+    // Live WebRTC Viewfinder
+    contentHtml = `
+      <div class="space-y-4 animate-fadeIn">
+        <div class="relative w-full rounded-3xl overflow-hidden bg-black aspect-video max-h-80 flex items-center justify-center shadow-xl border-2 border-brand-500">
+          <video id="ai-camera-live-video" autoplay playsinline muted class="w-full h-full object-cover"></video>
+          
+          <!-- Viewfinder HUD / Scanning Target box -->
+          <div class="absolute inset-8 sm:inset-12 border-2 border-dashed border-white/70 rounded-2xl pointer-events-none flex flex-col justify-between p-3">
+            <div class="flex justify-between">
+              <span class="w-4 h-4 border-t-2 border-l-2 border-brand-400"></span>
+              <span class="w-4 h-4 border-t-2 border-r-2 border-brand-400"></span>
+            </div>
+            <div class="w-full h-0.5 bg-gradient-to-r from-transparent via-brand-400 to-transparent shadow-[0_0_10px_#818cf8] animate-pulse"></div>
+            <div class="flex justify-between">
+              <span class="w-4 h-4 border-b-2 border-l-2 border-brand-400"></span>
+              <span class="w-4 h-4 border-b-2 border-r-2 border-brand-400"></span>
+            </div>
+          </div>
+
+          <!-- Top Action Buttons on Video -->
+          <div class="absolute top-3 right-3 flex items-center space-x-2">
+            <button id="ai-flip-camera-btn" class="p-2 rounded-xl bg-slate-900/80 hover:bg-slate-800 text-white backdrop-blur-xs transition shadow-md" title="Kamerani almashtirish">
+              <i data-lucide="refresh-cw" class="w-4 h-4"></i>
+            </button>
+            <button id="ai-stop-camera-btn" class="p-2 rounded-xl bg-slate-900/80 hover:bg-red-600 text-white backdrop-blur-xs transition shadow-md" title="Kamerani yopish">
+              <i data-lucide="x" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Capture button -->
+        <div class="flex items-center justify-center gap-3 pt-1">
+          <button id="ai-capture-snapshot-btn" class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white font-black text-sm shadow-lg shadow-brand-500/30 transition transform active:scale-95 flex items-center justify-center space-x-2.5">
+            <span class="text-xl">📸</span>
+            <span>Suratga olish va yechish</span>
+          </button>
         </div>
       </div>
     `;
@@ -2903,52 +3024,64 @@ function renderCameraModalContent() {
       `;
     }
   } else {
-    // Initial State: Image Upload + Direct Expression Input
+    // Initial State: Live Camera / Image Upload + Direct Expression Input
     contentHtml = `
       <div class="space-y-6 animate-fadeIn">
         
-        <!-- SECTION 1: PHOTO / CAMERA UPLOAD -->
+        <!-- SECTION 1: PHOTO / LIVE CAMERA UPLOAD -->
         <div class="p-5 rounded-3xl bg-slate-50/70 dark:bg-slate-800/50 border border-slate-200/80 dark:border-slate-700/80 space-y-4">
           <div class="flex items-center justify-between">
             <h4 class="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-900 dark:text-white flex items-center space-x-2">
               <span>📸</span>
-              <span>1. Rasmdan misol yuklash</span>
+              <span>1. Jonli Kamera yoki Rasmdan yuklash</span>
             </h4>
-            <span class="text-[11px] font-bold text-brand-600 dark:text-brand-400">Kamera yoki fayl</span>
+            <span class="text-[11px] font-bold text-brand-600 dark:text-brand-400">Webcam / Telefon kamerasi</span>
           </div>
 
           ${cam.imageBase64 ? `
-            <div class="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 max-h-56 flex items-center justify-center bg-slate-950">
-              <img src="${cam.imageBase64}" alt="Yuklangan misol" class="max-h-56 w-auto object-contain" />
-              <button id="ai-remove-image-btn" class="absolute top-2 right-2 p-1.5 rounded-xl bg-slate-900/80 text-white hover:bg-red-600 transition backdrop-blur-xs">
-                <i data-lucide="trash-2" class="w-4 h-4"></i>
-              </button>
+            <div class="space-y-3">
+              <div class="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 max-h-56 flex items-center justify-center bg-slate-950">
+                <img src="${cam.imageBase64}" alt="Yuklangan misol" class="max-h-56 w-auto object-contain" />
+                <button id="ai-remove-image-btn" class="absolute top-2 right-2 p-1.5 rounded-xl bg-slate-900/80 text-white hover:bg-red-600 transition backdrop-blur-xs">
+                  <i data-lucide="trash-2" class="w-4 h-4"></i>
+                </button>
+              </div>
+
+              <div class="flex items-center space-x-2">
+                <button id="ai-solve-image-btn" class="flex-1 py-3 px-4 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white font-extrabold text-xs sm:text-sm shadow-md transition flex items-center justify-center space-x-2">
+                  <span>⚡️</span>
+                  <span>Rasmdagi misolni yechish</span>
+                </button>
+                <button id="ai-retake-btn" class="py-3 px-3.5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-bold text-xs transition">
+                  🔄 Boshqa
+                </button>
+              </div>
             </div>
           ` : `
-            <div id="ai-dropzone" class="p-6 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700 hover:border-brand-500 dark:hover:border-brand-400 bg-white/60 dark:bg-slate-900/40 text-center transition cursor-pointer space-y-3">
+            <div class="p-6 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700 hover:border-brand-500 dark:hover:border-brand-400 bg-white/60 dark:bg-slate-900/40 text-center transition space-y-3">
               <div class="w-12 h-12 rounded-2xl bg-brand-100 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 flex items-center justify-center text-2xl mx-auto shadow-xs">
                 📷
               </div>
               <div>
                 <p class="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200">
-                  Daftar yoki kitobdagi misolni rasmga oling
+                  Kitob yoki daftardagi misolni rasmga oling
                 </p>
                 <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
-                  JPG, PNG formatidagi rasmlar
+                  Jonli video orqali yoki galereyadan tanlab yuklang
                 </p>
               </div>
-              <div class="flex items-center justify-center gap-2 pt-1">
-                <input type="file" id="camera-file-input" accept="image/*" capture="environment" class="hidden" />
+              <div class="flex items-center justify-center flex-wrap gap-2.5 pt-1">
+                <input type="file" id="camera-file-input" accept="image/*" class="hidden" />
                 <input type="file" id="gallery-file-input" accept="image/*" class="hidden" />
 
-                <button id="trigger-camera-btn" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs shadow-sm transition flex items-center space-x-1.5">
-                  <i data-lucide="camera" class="w-3.5 h-3.5"></i>
-                  <span>Suratga olish</span>
+                <button id="trigger-live-camera-btn" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white font-black text-xs sm:text-sm shadow-md transition flex items-center space-x-2">
+                  <i data-lucide="video" class="w-4 h-4"></i>
+                  <span>Jonli Kamerani ochish</span>
                 </button>
 
-                <button id="trigger-gallery-btn" class="px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-800 dark:text-slate-100 font-bold text-xs shadow-xs transition flex items-center space-x-1.5">
-                  <i data-lucide="image" class="w-3.5 h-3.5"></i>
-                  <span>Galereyadan tanlash</span>
+                <button id="trigger-gallery-btn" class="px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm shadow-xs transition flex items-center space-x-1.5">
+                  <i data-lucide="image" class="w-4 h-4"></i>
+                  <span>Galereyadan yuklash</span>
                 </button>
               </div>
             </div>
@@ -3051,19 +3184,14 @@ function renderCameraModalContent() {
 
   container.innerHTML = contentHtml;
 
-  // Event Listeners for Camera & Expression UI
-  document.getElementById("trigger-camera-btn")?.addEventListener("click", () => {
-    document.getElementById("camera-file-input")?.click();
-  });
+  // Event Listeners for Live Camera & Expression UI
+  document.getElementById("trigger-live-camera-btn")?.addEventListener("click", startLiveCamera);
+  document.getElementById("ai-capture-snapshot-btn")?.addEventListener("click", captureLiveSnapshot);
+  document.getElementById("ai-stop-camera-btn")?.addEventListener("click", stopLiveCamera);
+  document.getElementById("ai-flip-camera-btn")?.addEventListener("click", flipLiveCamera);
 
   document.getElementById("trigger-gallery-btn")?.addEventListener("click", () => {
     document.getElementById("gallery-file-input")?.click();
-  });
-
-  document.getElementById("camera-file-input")?.addEventListener("change", (e) => {
-    if (e.target.files && e.target.files[0]) {
-      handleCameraImageFile(e.target.files[0]);
-    }
   });
 
   document.getElementById("gallery-file-input")?.addEventListener("change", (e) => {
@@ -3072,24 +3200,15 @@ function renderCameraModalContent() {
     }
   });
 
-  // Drag & Drop
-  const dropzone = document.getElementById("ai-dropzone");
-  if (dropzone) {
-    dropzone.addEventListener("dragover", (e) => {
-      e.preventDefault();
-      dropzone.classList.add("dropzone-active");
-    });
-    dropzone.addEventListener("dragleave", () => {
-      dropzone.classList.remove("dropzone-active");
-    });
-    dropzone.addEventListener("drop", (e) => {
-      e.preventDefault();
-      dropzone.classList.remove("dropzone-active");
-      if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-        handleCameraImageFile(e.dataTransfer.files[0]);
-      }
-    });
-  }
+  document.getElementById("camera-file-input")?.addEventListener("change", (e) => {
+    if (e.target.files && e.target.files[0]) {
+      handleCameraImageFile(e.target.files[0]);
+    }
+  });
+
+  document.getElementById("ai-solve-image-btn")?.addEventListener("click", () => {
+    solveMathWithGemini();
+  });
 
   // Solve button
   document.getElementById("ai-solve-text-btn")?.addEventListener("click", () => {
@@ -3122,6 +3241,7 @@ function renderCameraModalContent() {
     AppState.aiCamera.imageBase64 = null;
     AppState.aiCamera.solution = null;
     AppState.aiCamera.error = null;
+    stopLiveCamera();
     renderCameraModalContent();
   });
 
