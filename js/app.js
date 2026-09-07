@@ -21,16 +21,47 @@ function safeRenderMath(element) {
   }
 }
 
+function sanitizeLatexFractions(str) {
+  if (!str) return "";
+  let s = String(str).trim();
+  
+  // EKUK / EKUB
+  s = s.replace(/EKUK\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{EKUK}(${a}, ${b}${c ? ', ' + c : ''})`);
+  s = s.replace(/EKUB\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{EKUB}(${a}, ${b}${c ? ', ' + c : ''})`);
+
+  // Mixed numbers: e.g. "5 7/10" -> "5\frac{7}{10}"
+  s = s.replace(/(\b\d+)\s+(\d+)\/(\d+\b)/g, "$1\\frac{$2}{$3}");
+
+  // Parenthesized fractions: e.g. "(15 + 14 - 4)/24" -> "\frac{15 + 14 - 4}{24}"
+  s = s.replace(/\(([^)]+)\)\/(\d+\b)/g, "\\frac{$1}{$2}");
+
+  // Simple fractions: e.g. "25/24" -> "\frac{25}{24}"
+  s = s.replace(/(?<!\\frac\{)(?<!\w)(\d+)\/(\d+)(?!\w)/g, "\\frac{$1}{$2}");
+
+  // Multiplication signs
+  s = s.replace(/(?<=\d)\s*\*\s*(?=\d)/g, " \\cdot ");
+  s = s.replace(/\s*\\times\s*/g, " \\cdot ");
+
+  // Implications
+  s = s.replace(/=>/g, " \\implies ");
+  s = s.replace(/To'g'ri hisoblash:\s*/g, "");
+  s = s.replace(/Правильный расчет:\s*/g, "");
+  s = s.replace(/Correct calculation:\s*/g, "");
+
+  return s.trim();
+}
+
 function formatMathText(str) {
   if (!str) return "";
   let text = String(str).trim();
+  text = sanitizeLatexFractions(text);
+  
   if (text.includes("\\[") || text.includes("\\(")) return text;
-  // Convert simple ASCII fractions like 11/15 or 6/15 to \frac{11}{15}
-  text = text.replace(/(?<!\\frac\{)(\b\d+)\/(\d+\b)/g, "\\frac{$1}{$2}");
+  
   if (/((\\[a-zA-Z]+)|(\^)|(_)|(\d+\s*[\+\-\*\/=]\s*\d+))/.test(text)) {
-    if (text.includes(":")) {
+    if (text.includes(":") && !text.startsWith("\\")) {
       const parts = text.split(":");
-      return `${parts[0]}: \\(${parts.slice(1).join(":").trim()}\\)`;
+      return `${parts[0]}: \\(${sanitizeLatexFractions(parts.slice(1).join(":").trim())}\\)`;
     }
     return `\\(${text}\\)`;
   }
@@ -2039,11 +2070,13 @@ function normalizeMathExpr(raw) {
        .replace(/−/g, "-")
        .replace(/–/g, "-")
        .replace(/\\sqrt\{([^}]+)\}/g, "sqrt($1)")
-       .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, "($1)/($2)")
+       .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, " $1/$2 ")
        .replace(/\\left|\\right/g, "")
+       .replace(/\((\d+)\)\/\((\d+)\)/g, "$1/$2")
+       .replace(/\((\d+)\)/g, "$1")
        .replace(/[{}]/g, "")
        .replace(/\s+/g, " ");
-  return s;
+  return s.trim();
 }
 
 class Fraction {
@@ -2104,8 +2137,8 @@ function trySolveFractionMulDiv(expr) {
     return `${num}/${d}`;
   });
 
-  const mulMatch = clean.match(/^(\d+)\/(\d+)\s*\*\s*(\d+)\/(\d+)$/);
-  const divMatch = clean.match(/^(\d+)\/(\d+)\s*\/\s*\(?(\d+)\/(\d+)\)?$/);
+  const mulMatch = clean.match(/^(\d+)\/(\d+)\s*[\*xX]\s*(\d+)\/(\d+)$/);
+  const divMatch = clean.match(/^(\d+)\/(\d+)\s*[\/:]\s*\(?(\d+)\/(\d+)\)?$/);
 
   if (mulMatch) {
     const [_, n1, d1, n2, d2] = mulMatch.map(Number);
@@ -2725,7 +2758,7 @@ async function solveMathWithGemini(explicitExpression = null) {
   }
 
   const hasImage = !!AppState.aiCamera.imageBase64;
-  const rawKey = AppState.aiCamera.apiKey || localStorage.getItem("m_lab_gemini_key") || "";
+  const rawKey = (AppState.aiCamera.apiKey || localStorage.getItem("m_lab_gemini_key") || "").trim();
   const isValidGeminiKey = rawKey.startsWith("AIzaSy");
 
   AppState.aiCamera.isAnalyzing = true;
@@ -2740,7 +2773,7 @@ Foydalanuvchi yuborgan rasmdagi matematika misolini yoki masalasini diqqat bilan
 QAT'IY QOIDALAR:
 1. HECH QACHON faqat quruq yakuniy javob bermang! Har bir hisoblash amalini qadamma-qadam erinmasdan ko'rsating.
 2. O'qituvchi maslahatini samimiy, sodda o'zbek tilida yozing.
-3. Barcha matematik formulalarni toza LaTeX formatida bering (masalan: \\frac{a}{b}, x^2, \\sqrt{y}, \\cdot, 2\\pi).
+3. Barcha matematik formulalarni toza LaTeX formatida bering (masalan: \\frac{a}{b}, x^2, \\sqrt{y}, \\cdot, 2\\pi). Barcha kasrlarni \\frac{a}{b} ko'rinishida yozing.
 4. Javobni FAQAT quyidagi JSON formatida qaytaring:
 {
   "is_math": true,
@@ -2809,9 +2842,13 @@ QAT'IY QOIDALAR:
           renderCameraModalContent();
           return;
         }
+      } else {
+        console.warn("Gemini API error status:", response.status);
+        showToast("⚠️ Gemini API kaliti xato yoki cheklovga uchragan. M-LAB o'rnatilgan dvigateli ishlatilmoqda.", "warning");
       }
     } catch (err) {
       console.warn("Gemini API call failed, falling back to M-LAB engine:", err);
+      showToast("⚠️ Google AI Studio bilan bog'lanishda xatolik. M-LAB o'rnatilgan dvigateli ishlatildi.", "info");
     }
   }
 
@@ -2820,7 +2857,7 @@ QAT'IY QOIDALAR:
   const localSolution = solveMathExpressionLocally(targetText);
 
   // Short delay for smooth UX transition
-  await new Promise(r => setTimeout(r, 400));
+  await new Promise(r => setTimeout(r, 350));
 
   AppState.aiCamera.isAnalyzing = false;
 
@@ -2841,6 +2878,8 @@ function renderCameraModalContent() {
   if (!container) return;
 
   const cam = AppState.aiCamera;
+  const rawKey = (cam.apiKey || localStorage.getItem("m_lab_gemini_key") || "").trim();
+  const hasValidKey = rawKey.startsWith("AIzaSy");
   let contentHtml = "";
 
   if (cam.isAnalyzing) {
@@ -2857,7 +2896,7 @@ function renderCameraModalContent() {
             🧠 M-LAB Aqlli Dvigateli misolni yechmoqda...
           </h4>
           <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 max-w-sm mx-auto">
-            Matematik ifoda tahlil qilinmoqda va qadamma-qadam, erinmasdan tushuntirilgan to'liq yechim tayyorlanmoqda...
+            Matematik ifoda tahlil qilinmoqda va qadamma-qadam, erinmasdan tushuntirilgan to'liq 3 bosqichli yechim tayyorlanmoqda...
           </p>
         </div>
       </div>
@@ -2944,7 +2983,7 @@ function renderCameraModalContent() {
               </button>
             </div>
             <div class="text-base sm:text-xl font-black text-center text-slate-900 dark:text-white py-2 overflow-x-auto">
-              \\[${sol.problem_latex}\\]
+              \\[${sanitizeLatexFractions(sol.problem_latex)}\\]
             </div>
           </div>
 
@@ -2954,7 +2993,7 @@ function renderCameraModalContent() {
               <span class="text-xl flex-shrink-0">🗣️</span>
               <div>
                 <strong class="text-amber-800 dark:text-amber-300 block mb-0.5 text-xs font-black uppercase">O'qituvchi maslahati:</strong>
-                <p class="text-xs sm:text-sm text-slate-800 dark:text-slate-200 font-medium leading-relaxed">${sol.teacher_advice}</p>
+                <p class="text-xs sm:text-sm text-slate-800 dark:text-slate-200 font-medium leading-relaxed">${formatMathText(sol.teacher_advice)}</p>
               </div>
             </div>
           ` : ''}
@@ -2973,10 +3012,10 @@ function renderCameraModalContent() {
                     <span class="w-6 h-6 rounded-lg bg-indigo-600 text-white font-black text-xs flex items-center justify-center">${st.step_num || idx + 1}</span>
                     <h6 class="text-xs sm:text-sm font-black text-slate-900 dark:text-white">${st.title || (idx + 1) + '-qadam'}</h6>
                   </div>
-                  <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-medium leading-relaxed pl-8">${st.explanation}</p>
+                  <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-medium leading-relaxed pl-8">${formatMathText(st.explanation || '')}</p>
                   ${st.formula ? `
                     <div class="ml-8 p-3 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-indigo-100 dark:border-slate-700 text-indigo-600 dark:text-indigo-300 font-bold text-center overflow-x-auto text-xs sm:text-sm">
-                      \\[${st.formula}\\]
+                      \\[${sanitizeLatexFractions(st.formula)}\\]
                     </div>
                   ` : ''}
                 </div>
@@ -2992,7 +3031,7 @@ function renderCameraModalContent() {
                 <span>Yakuniy to'g'ri javob:</span>
               </span>
               <div class="text-base sm:text-xl font-black text-emerald-900 dark:text-emerald-200">
-                \\[${sol.final_answer}\\]
+                \\[${sanitizeLatexFractions(sol.final_answer)}\\]
               </div>
             </div>
 
@@ -3035,14 +3074,16 @@ function renderCameraModalContent() {
               <span>📸</span>
               <span>1. Jonli Kamera yoki Rasmdan yuklash</span>
             </h4>
-            <span class="text-[11px] font-bold text-brand-600 dark:text-brand-400">Webcam / Telefon kamerasi</span>
+            <span class="text-[11px] font-bold ${hasValidKey ? 'text-purple-600 dark:text-purple-400' : 'text-emerald-600 dark:text-emerald-400'}">
+              ${hasValidKey ? '🟢 Gemini AI Ulangan' : '⚡️ M-LAB Dvigateli'}
+            </span>
           </div>
 
           ${cam.imageBase64 ? `
             <div class="space-y-3">
               <div class="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 max-h-56 flex items-center justify-center bg-slate-950">
                 <img src="${cam.imageBase64}" alt="Yuklangan misol" class="max-h-56 w-auto object-contain" />
-                <button id="ai-remove-image-btn" class="absolute top-2 right-2 p-1.5 rounded-xl bg-slate-900/80 text-white hover:bg-red-600 transition backdrop-blur-xs">
+                <button id="ai-remove-image-btn" class="absolute top-2 right-2 p-1.5 rounded-xl bg-slate-900/80 text-white hover:bg-red-600 transition backdrop-blur-xs" title="Rasmni o'chirish">
                   <i data-lucide="trash-2" class="w-4 h-4"></i>
                 </button>
               </div>
@@ -3104,7 +3145,7 @@ function renderCameraModalContent() {
               id="ai-expr-input" 
               value="${cam.inputText || '5/8 + 7/12 - 1/6'}" 
               placeholder="Masalan: 5/8 + 7/12 - 1/6 yoki 2x + 5 = 15 yoki x^2 - 5x + 6 = 0" 
-              class="flex-1 px-4 py-3 text-xs sm:text-sm rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100 font-mono focus:ring-2 focus:ring-brand-500 focus:outline-none"
+              class="flex-1 px-4 py-3 text-xs sm:text-sm rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100 font-mono focus:ring-2 focus:ring-brand-500 focus:outline-none shadow-xs"
             />
             <button id="ai-solve-text-btn" class="px-5 py-3 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white font-extrabold text-xs sm:text-sm shadow-md transition flex items-center space-x-1.5 flex-shrink-0">
               <span>⚡️</span>
@@ -3112,21 +3153,46 @@ function renderCameraModalContent() {
             </button>
           </div>
 
+          <!-- Virtual Math Helper Buttons -->
+          <div class="space-y-1.5 pt-1">
+            <span class="text-[11px] font-bold text-slate-500 dark:text-slate-400 block">
+              ⌨️ Matematik belgilar (kiritish uchun bosing):
+            </span>
+            <div class="flex items-center flex-wrap gap-1.5" id="virtual-math-keypad">
+              ${[
+                { label: "a/b", insert: " / " },
+                { label: "+", insert: " + " },
+                { label: "−", insert: " - " },
+                { label: "×", insert: " * " },
+                { label: "÷", insert: " : " },
+                { label: "x²", insert: "^2" },
+                { label: "√x", insert: "sqrt()" },
+                { label: "( )", insert: "()" },
+                { label: "=", insert: " = " },
+                { label: "x", insert: "x" }
+              ].map(k => `
+                <button class="ai-key-btn px-2.5 py-1.5 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 hover:border-indigo-400 hover:bg-indigo-50 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 text-xs font-mono font-bold transition shadow-2xs" data-insert="${k.insert}">
+                  ${k.label}
+                </button>
+              `).join("")}
+            </div>
+          </div>
+
           <!-- Quick Example Chips -->
           <div class="space-y-1.5 pt-1">
             <span class="text-[11px] font-bold text-slate-500 dark:text-slate-400 block">
-              💡 Tezkor namunalar (ustiga bosing):
+              💡 Tezkor namunalar:
             </span>
             <div class="flex items-center flex-wrap gap-1.5">
               ${[
                 "5/8 + 7/12 - 1/6",
                 "3/4 * 4/15",
+                "2/3 : 4/9",
                 "2x + 5 = 15",
                 "x^2 - 5x + 6 = 0",
-                "sqrt(144) + 2^3 * 5",
                 "2 1/3 + 3 1/2"
               ].map(chip => `
-                <button class="ai-chip-btn px-2.5 py-1 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 hover:border-brand-500 hover:bg-brand-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 text-[11px] font-mono transition">
+                <button class="ai-chip-btn px-2.5 py-1 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 hover:border-brand-500 hover:bg-brand-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 text-[11px] font-mono transition shadow-2xs">
                   ${chip}
                 </button>
               `).join("")}
@@ -3206,6 +3272,12 @@ function renderCameraModalContent() {
     }
   });
 
+  document.getElementById("ai-remove-image-btn")?.addEventListener("click", () => {
+    AppState.aiCamera.imageBase64 = null;
+    AppState.aiCamera.solution = null;
+    renderCameraModalContent();
+  });
+
   document.getElementById("ai-solve-image-btn")?.addEventListener("click", () => {
     solveMathWithGemini();
   });
@@ -3227,7 +3299,23 @@ function renderCameraModalContent() {
     }
   });
 
-  // Quick Chips
+  // Virtual Keypad Button listeners
+  container.querySelectorAll(".ai-key-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const toInsert = btn.getAttribute("data-insert") || "";
+      const input = document.getElementById("ai-expr-input");
+      if (input) {
+        const start = input.selectionStart || input.value.length;
+        const end = input.selectionEnd || input.value.length;
+        const val = input.value;
+        input.value = val.substring(0, start) + toInsert + val.substring(end);
+        input.focus();
+        input.setSelectionRange(start + toInsert.length, start + toInsert.length);
+      }
+    });
+  });
+
+  // Quick Chips click listeners
   container.querySelectorAll(".ai-chip-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       const expr = btn.textContent.trim();
@@ -3237,47 +3325,54 @@ function renderCameraModalContent() {
     });
   });
 
+  // Retake / Try another button
   document.getElementById("ai-retake-btn")?.addEventListener("click", () => {
-    AppState.aiCamera.imageBase64 = null;
     AppState.aiCamera.solution = null;
-    AppState.aiCamera.error = null;
-    stopLiveCamera();
-    renderCameraModalContent();
-  });
-
-  document.getElementById("ai-remove-image-btn")?.addEventListener("click", () => {
     AppState.aiCamera.imageBase64 = null;
-    AppState.aiCamera.solution = null;
     AppState.aiCamera.error = null;
     renderCameraModalContent();
   });
 
+  // Copy solution button
   document.getElementById("ai-copy-solution-btn")?.addEventListener("click", () => {
-    if (!AppState.aiCamera.solution) return;
-    const s = AppState.aiCamera.solution;
-    let fullText = `M-LAB AI Yechimi:\nMisol: ${s.problem_latex}\nO'qituvchi maslahati: ${s.teacher_advice}\n\n`;
-    (s.steps || []).forEach((st, idx) => {
-      fullText += `${st.step_num || idx + 1}-qadam: ${st.title}\n${st.explanation}\nFormula: ${st.formula}\n\n`;
-    });
-    fullText += `Yakuniy javob: ${s.final_answer}`;
-    copyToClipboard(fullText, "Yechimdan to'liq nusxa olindi!");
+    if (!cam.solution) return;
+    const sol = cam.solution;
+    const text = `M-LAB Yechimi: ${sol.problem_title || 'Misol'}\nMisol: ${sol.problem_latex}\n\nO'qituvchi maslahati: ${sol.teacher_advice || ''}\n\n` +
+      (sol.steps || []).map((s, i) => `${i + 1}-qadam: ${s.title}\n${s.explanation}\nFormula: ${s.formula || ''}`).join("\n\n") +
+      `\n\nYakuniy javob: ${sol.final_answer}`;
+    
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(() => {
+        showToast("✅ Yechimdan to'liq nusxa olindi!", "success");
+      }).catch(() => {
+        showToast("Nusxa olindi", "success");
+      });
+    } else {
+      showToast("✅ Yechimdan nusxa olindi!", "success");
+    }
   });
 
+  // Settings panel toggle
   document.getElementById("ai-toggle-settings-btn")?.addEventListener("click", () => {
     AppState.aiCamera.showSettings = !AppState.aiCamera.showSettings;
-    renderCameraModalContent();
+    const panel = document.getElementById("ai-settings-panel");
+    if (panel) panel.classList.toggle("hidden", !AppState.aiCamera.showSettings);
   });
 
+  // Save API key
   document.getElementById("ai-save-key-btn")?.addEventListener("click", () => {
     const input = document.getElementById("ai-api-key-input");
-    if (input) {
-      const k = input.value.trim();
-      AppState.aiCamera.apiKey = k;
-      localStorage.setItem("m_lab_gemini_key", k);
-      showToast("API kalit muvaffaqiyatli saqlandi!", "success");
-      AppState.aiCamera.showSettings = false;
-      renderCameraModalContent();
+    const val = input ? input.value.trim() : "";
+    AppState.aiCamera.apiKey = val;
+    if (val) {
+      localStorage.setItem("m_lab_gemini_key", val);
+      showToast("✅ Google AI Studio API kaliti saqlandi!", "success");
+    } else {
+      localStorage.removeItem("m_lab_gemini_key");
+      showToast("Google API kaliti tozalandi. M-LAB o'rnatilgan dvigateli ishlaydi.", "info");
     }
+    AppState.aiCamera.showSettings = false;
+    renderCameraModalContent();
   });
 
   safeRenderMath(container);
