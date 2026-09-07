@@ -229,6 +229,27 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+/* AI Camera Dropzone & Animations */
+.dropzone-active {
+  border-color: #6366f1 !important;
+  background-color: rgba(99, 102, 241, 0.08) !important;
+}
+
+@keyframes pulseBorder {
+  0%, 100% {
+    border-color: rgba(99, 102, 241, 0.4);
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.2);
+  }
+  50% {
+    border-color: rgba(99, 102, 241, 0.8);
+    box-shadow: 0 0 0 8px rgba(99, 102, 241, 0);
+  }
+}
+
+.ai-analyzing-pulse {
+  animation: pulseBorder 1.5s infinite;
+}
+
   </style>
 </head>
 <body class="h-full bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 flex flex-col transition-colors duration-200">
@@ -277,6 +298,12 @@ body {
       <!-- Actions (Test Generator, Instant 1-Click Language Switcher, Theme Toggle, Bookmarks) -->
       <div class="flex items-center space-x-2 flex-shrink-0">
         
+        <!-- AI Kamera Yechuvchi Nav Button -->
+        <button id="nav-camera-btn" class="px-3.5 py-1.5 rounded-xl text-xs font-black transition-all bg-indigo-100 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800 hover:bg-indigo-600 hover:text-white flex items-center space-x-1.5 shadow-2xs" title="📸 AI Kamera Yechuvchi">
+          <i data-lucide="camera" class="w-4 h-4"></i>
+          <span>📸 AI Kamera</span>
+        </button>
+
         <!-- Test Generator Nav Button -->
         <button id="nav-test-generator-btn" class="px-3.5 py-1.5 rounded-xl text-xs font-black transition-all bg-purple-100 dark:bg-purple-950/70 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 hover:bg-purple-600 hover:text-white flex items-center space-x-1.5 shadow-2xs hidden sm:flex" title="Test Generator">
           <i data-lucide="file-question" class="w-4 h-4"></i>
@@ -410,9 +437,13 @@ body {
       <i data-lucide="book-open" class="w-5 h-5 mb-0.5"></i>
       <span class="text-[10px]" id="mobile-nav-lessons-text">Darslar</span>
     </button>
+    <button id="mobile-nav-camera" class="flex flex-col items-center justify-center p-1.5 rounded-xl text-indigo-600 dark:text-indigo-400 font-bold transition">
+      <i data-lucide="camera" class="w-5 h-5 mb-0.5"></i>
+      <span class="text-[10px]" id="mobile-nav-camera-text">Kamera</span>
+    </button>
     <button id="mobile-nav-test" class="flex flex-col items-center justify-center p-1.5 rounded-xl text-purple-600 dark:text-purple-400 font-bold transition">
       <i data-lucide="file-question" class="w-5 h-5 mb-0.5"></i>
-      <span class="text-[10px]" id="mobile-nav-test-text">Test Tuzish</span>
+      <span class="text-[10px]" id="mobile-nav-test-text">Test</span>
     </button>
     <button id="mobile-nav-search" class="flex flex-col items-center justify-center p-1.5 rounded-xl text-slate-600 dark:text-slate-400 hover:text-brand-600 font-bold transition">
       <i data-lucide="search" class="w-5 h-5 mb-0.5"></i>
@@ -428,6 +459,44 @@ body {
       <span class="text-[10px]" id="mobile-nav-theme-text">Rejim</span>
     </button>
   </nav>
+
+  <!-- ========================================== -->
+  <!-- AI CAMERA SOLVER MODAL                     -->
+  <!-- ========================================== -->
+  <div id="camera-solver-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-fadeIn">
+    <!-- Backdrop -->
+    <div id="camera-modal-backdrop" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm"></div>
+
+    <!-- Modal Content Window -->
+    <div class="relative w-full max-w-2xl bg-white dark:bg-slate-850 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-2xl overflow-hidden my-auto z-10 max-h-[90vh] flex flex-col">
+      
+      <!-- Modal Header -->
+      <div class="px-5 py-4 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between bg-slate-50/70 dark:bg-slate-800/70 flex-shrink-0">
+        <div class="flex items-center space-x-2.5">
+          <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-brand-600 to-purple-600 flex items-center justify-center text-white text-sm font-black shadow-xs">
+            📸
+          </div>
+          <div>
+            <h3 class="text-sm sm:text-base font-black text-slate-900 dark:text-white">
+              M-LAB AI Kamera Yechuvchi
+            </h3>
+            <p class="text-[11px] text-slate-500 dark:text-slate-400 font-medium">
+              Rasmga oling — to'liq bosqichma-bosqich yechib beradi
+            </p>
+          </div>
+        </div>
+
+        <button id="camera-modal-close" class="p-2 rounded-xl text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-200/60 dark:hover:bg-slate-700 transition">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body (Dynamic content rendered via app.js) -->
+      <div id="camera-modal-body" class="p-5 sm:p-6 overflow-y-auto space-y-5 flex-1">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
 
   <!-- Toast Notification Container -->
   <div id="toast-container" class="fixed bottom-20 md:bottom-6 left-1/2 -translate-x-1/2 z-50 pointer-events-none flex flex-col items-center space-y-2"></div>
@@ -121941,6 +122010,17 @@ const AppState = {
     answers: {}, // { 0: chosenIdx, 1: chosenIdx }
     startTime: null,
     endTime: null
+  },
+
+  // AI Kamera Yechuvchi State
+  aiCamera: {
+    apiKey: localStorage.getItem("m_lab_gemini_key") || "AQ.Ab8RN6L92XrxbQqOQhj99Q51UQxPZfro4aoXbTtQjbp15RsFfA",
+    imageBase64: null,
+    imageMimeType: "image/jpeg",
+    isAnalyzing: false,
+    solution: null,
+    error: null,
+    showSettings: false
   }
 };
 
@@ -123694,6 +123774,12 @@ function initEventListeners() {
   mobileClose?.addEventListener("click", closeMobileSidebar);
   backdrop?.addEventListener("click", closeMobileSidebar);
 
+  // AI Kamera tugmalari (Header & Mobile Bottom Nav)
+  document.getElementById("nav-camera-btn")?.addEventListener("click", openCameraModal);
+  document.getElementById("mobile-nav-camera")?.addEventListener("click", openCameraModal);
+  document.getElementById("camera-modal-close")?.addEventListener("click", closeCameraModal);
+  document.getElementById("camera-modal-backdrop")?.addEventListener("click", closeCameraModal);
+
   // Mobil Bottom Navigation Bar tugmalari
   document.getElementById("mobile-nav-lessons")?.addEventListener("click", () => {
     openMobileSidebar();
@@ -123765,6 +123851,7 @@ function updateMobileNavState(viewName) {
   const navLessons = document.getElementById("mobile-nav-lessons");
   const navTest = document.getElementById("mobile-nav-test");
   const navFav = document.getElementById("mobile-nav-fav");
+  const navCamera = document.getElementById("mobile-nav-camera");
 
   if (!navLessons || !navTest) return;
 
@@ -123772,11 +123859,15 @@ function updateMobileNavState(viewName) {
   const activeClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-brand-600 dark:text-brand-400 font-extrabold transition bg-brand-50 dark:bg-brand-950/60";
   const activeTestClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-purple-600 dark:text-purple-400 font-extrabold transition bg-purple-50 dark:bg-purple-950/60";
   const activeFavClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-amber-600 dark:text-amber-400 font-extrabold transition bg-amber-50 dark:bg-amber-950/60";
+  const activeCameraClass = "flex flex-col items-center justify-center p-1.5 rounded-xl text-indigo-600 dark:text-indigo-400 font-extrabold transition bg-indigo-50 dark:bg-indigo-950/60";
 
   navLessons.className = viewName === "lesson" ? activeClass : inactiveClass;
   navTest.className = viewName === "test" ? activeTestClass : inactiveClass;
   if (navFav) {
     navFav.className = viewName === "fav" ? activeFavClass : inactiveClass;
+  }
+  if (navCamera) {
+    navCamera.className = viewName === "camera" ? activeCameraClass : inactiveClass;
   }
 }
 
@@ -123829,6 +123920,469 @@ function showToast(message, type = "success") {
 function escapeHtml(str) {
   if (!str) return '';
   return str.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+// ==========================================
+// AI KAMERA YECHUVCHI (AI PHOTO MATH SOLVER)
+// ==========================================
+function openCameraModal() {
+  const modal = document.getElementById("camera-solver-modal");
+  if (!modal) return;
+  modal.classList.remove("hidden");
+  closeMobileSidebar();
+  updateMobileNavState("camera");
+  if (document.body && document.body.style) document.body.style.overflow = "hidden";
+  renderCameraModalContent();
+  refreshLucide();
+}
+
+function closeCameraModal() {
+  const modal = document.getElementById("camera-solver-modal");
+  if (!modal) return;
+  modal.classList.add("hidden");
+  if (document.body && document.body.style) document.body.style.overflow = "";
+  if (AppState.currentView === "lesson") {
+    updateMobileNavState("lesson");
+  } else if (AppState.currentView === "test_wizard" || AppState.currentView === "test_runner") {
+    updateMobileNavState("test");
+  }
+}
+
+function handleCameraImageFile(file) {
+  if (!file) return;
+  if (!file.type.startsWith("image/")) {
+    showToast("Faqat rasm fayllari qabul qilinadi", "error");
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    AppState.aiCamera.imageBase64 = e.target.result;
+    AppState.aiCamera.imageMimeType = file.type || "image/jpeg";
+    AppState.aiCamera.solution = null;
+    AppState.aiCamera.error = null;
+    renderCameraModalContent();
+  };
+  reader.readAsDataURL(file);
+}
+
+async function solveMathWithGemini() {
+  if (!AppState.aiCamera.imageBase64) {
+    showToast("Iltimos, avval misol rasmini yuklang", "error");
+    return;
+  }
+
+  const apiKey = AppState.aiCamera.apiKey || localStorage.getItem("m_lab_gemini_key") || "";
+  if (!apiKey) {
+    showToast("Gemini API kaliti kiritilmagan", "error");
+    return;
+  }
+
+  AppState.aiCamera.isAnalyzing = true;
+  AppState.aiCamera.error = null;
+  renderCameraModalContent();
+
+  const systemPrompt = `Siz M-LAB loyihasining eng tajribali, samimiy va kuchli matematika o'qituvchisisiz.
+Foydalanuvchi yuborgan rasmdagi matematika misolini yoki masalasini diqqat bilan o'qing va uni o'quvchiga tushunarli, bosqichma-bosqich (1-qadam, 2-qadam, 3-qadam...) qilib to'liq hisob-kitoblari va formulalari bilan yechib bering.
+
+QAT'IY QOIDALAR:
+1. HECH QACHON faqat quruq yakuniy javob bermang! Har bir hisoblash amalini qadamma-qadam erinmasdan ko'rsating.
+2. O'qituvchi maslahatini samimiy, sodda o'zbek tilida yozing.
+3. Barcha matematik formulalarni toza LaTeX formatida bering (masalan: \\frac{a}{b}, x^2, \\sqrt{y}, \\cdot, 2\\pi).
+4. Javobni FAQAT quyidagi JSON formatida qaytaring:
+{
+  "is_math": true,
+  "problem_title": "Mavzu yoki misol nomi (masalan: Kasrlarni qo'shish)",
+  "problem_latex": "Misolning to'liq matematik formulasi",
+  "teacher_advice": "O'qituvchi maslahati: bu misolni yechishda qaysi qoidani qo'llaymiz va birinchi nima qilamiz",
+  "steps": [
+    {
+      "step_num": 1,
+      "title": "1-qadam: ...",
+      "explanation": "Ushbu qadamda nima ish qilingani tushuntirishi",
+      "formula": "Ushbu qadamdagi formula va hisob-kitob (LaTeX)"
+    },
+    {
+      "step_num": 2,
+      "title": "2-qadam: ...",
+      "explanation": "Keyingi amal tushuntirishi",
+      "formula": "Hisoblash formulasi (LaTeX)"
+    }
+  ],
+  "final_answer": "Yakuniy to'g'ri javob (LaTeX)",
+  "verification": "Javobning qisqacha xulosasi"
+}
+Agar rasmda matematika misoli bo'lmasa yoki umuman o'qib bo'lmasa:
+{
+  "is_math": false,
+  "error_message": "Rasmda matematika misoli aniqlanmadi yoki rasm juda xira. Iltimos, misolni yaqinroq va yorug'roq joyda rasmga oling."
+}`;
+
+  try {
+    const pureBase64 = AppState.aiCamera.imageBase64.replace(/^data:image\/[a-z]+;base64,/, "");
+    const mimeType = AppState.aiCamera.imageMimeType || "image/jpeg";
+
+    const requestBody = {
+      contents: [
+        {
+          parts: [
+            { text: systemPrompt },
+            {
+              inlineData: {
+                mimeType: mimeType,
+                data: pureBase64
+              }
+            }
+          ]
+        }
+      ],
+      generationConfig: {
+        responseMimeType: "application/json",
+        temperature: 0.2
+      }
+    };
+
+    // Try Gemini 2.0 Flash first, fallback to 1.5 Flash
+    let response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(requestBody)
+    });
+
+    if (!response.ok) {
+      response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(requestBody)
+      });
+    }
+
+    if (!response.ok) {
+      const errData = await response.json().catch(() => ({}));
+      throw new Error(errData.error?.message || `API so'rovi muvaffaqiyatsiz bo'ldi (${response.status})`);
+    }
+
+    const resJson = await response.json();
+    const candidateText = resJson.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (!candidateText) throw new Error("AI javobi bo'sh qaytdi.");
+
+    const parsedSolution = JSON.parse(candidateText);
+    AppState.aiCamera.isAnalyzing = false;
+    AppState.aiCamera.solution = parsedSolution;
+    renderCameraModalContent();
+  } catch (err) {
+    console.error("AI Camera Solver error:", err);
+    AppState.aiCamera.isAnalyzing = false;
+    AppState.aiCamera.error = err.message || "Xatolik yuz berdi. Iltimos, internetingizni tekshiring.";
+    renderCameraModalContent();
+  }
+}
+
+function renderCameraModalContent() {
+  const container = document.getElementById("camera-modal-body");
+  if (!container) return;
+
+  const cam = AppState.aiCamera;
+
+  let contentHtml = "";
+
+  if (cam.isAnalyzing) {
+    contentHtml = `
+      <div class="p-8 text-center space-y-5 animate-fadeIn">
+        <div class="relative w-24 h-24 mx-auto flex items-center justify-center">
+          <div class="absolute inset-0 rounded-3xl bg-brand-500/20 animate-ping"></div>
+          <div class="w-20 h-20 rounded-3xl bg-gradient-to-tr from-brand-600 via-indigo-600 to-purple-600 flex items-center justify-center text-white text-3xl shadow-xl ai-analyzing-pulse">
+            📸
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg sm:text-xl font-black text-slate-900 dark:text-white">
+            🧠 Sun'iy intellekt misolni yechmoqda...
+          </h4>
+          <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 max-w-sm mx-auto">
+            Rasm tahlil qilinmoqda va qadamma-qadam, erinmasdan tushuntirilgan to'liq yechim tayyorlanmoqda...
+          </p>
+        </div>
+      </div>
+    `;
+  } else if (cam.solution) {
+    if (cam.solution.is_math === false) {
+      contentHtml = `
+        <div class="p-6 text-center space-y-4 animate-fadeIn">
+          <div class="w-16 h-16 rounded-2xl bg-amber-100 dark:bg-amber-950/60 text-amber-600 flex items-center justify-center text-2xl mx-auto">
+            ⚠️
+          </div>
+          <h4 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
+            Matematik misol aniqlanmadi
+          </h4>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-md mx-auto leading-relaxed">
+            ${cam.solution.error_message || "Rasm juda xira yoki unda aniq misol ko'rinmayapti. Iltimos, misolni yaqinroq va yorug'roq joyda rasmga oling."}
+          </p>
+          <div class="pt-2">
+            <button id="ai-retake-btn" class="px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs sm:text-sm shadow-md transition">
+              🔄 Qayta suratga olish
+            </button>
+          </div>
+        </div>
+      `;
+    } else {
+      const sol = cam.solution;
+      contentHtml = `
+        <div class="space-y-6 animate-fadeIn">
+          <!-- Top Problem Identified Card -->
+          <div class="p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-indigo-50/70 to-purple-50/40 dark:from-slate-800 dark:to-slate-850 border border-indigo-200/80 dark:border-slate-700 space-y-3">
+            <div class="flex items-center justify-between flex-wrap gap-2">
+              <span class="text-xs font-black uppercase tracking-wider text-brand-700 dark:text-brand-300 bg-brand-100 dark:bg-brand-950/70 px-2.5 py-0.5 rounded-md">
+                📝 ${sol.problem_title || 'Misol sharti'}
+              </span>
+              <button id="ai-retake-btn" class="text-xs font-bold text-slate-600 dark:text-slate-300 hover:text-brand-600 flex items-center space-x-1">
+                <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+                <span>Boshqa misol</span>
+              </button>
+            </div>
+            <div class="text-base sm:text-xl font-black text-center text-slate-900 dark:text-white py-2 overflow-x-auto">
+              \\[${sol.problem_latex}\\]
+            </div>
+          </div>
+
+          <!-- O'qituvchi Maslahati -->
+          ${sol.teacher_advice ? `
+            <div class="p-4 sm:p-5 rounded-2xl bg-amber-500/10 dark:bg-slate-800 border border-amber-300/60 dark:border-slate-700 flex items-start space-x-3">
+              <span class="text-xl flex-shrink-0">🗣️</span>
+              <div>
+                <strong class="text-amber-800 dark:text-amber-300 block mb-0.5 text-xs font-black uppercase">O'qituvchi maslahati:</strong>
+                <p class="text-xs sm:text-sm text-slate-800 dark:text-slate-200 font-medium leading-relaxed">${sol.teacher_advice}</p>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Bosqichma-bosqich yechilishi -->
+          <div class="space-y-3">
+            <h5 class="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-900 dark:text-white flex items-center space-x-2">
+              <span class="w-6 h-6 rounded-lg bg-purple-600 text-white flex items-center justify-center text-xs">🔢</span>
+              <span>Bosqichma-bosqich yechilishi:</span>
+            </h5>
+
+            <div class="space-y-3">
+              ${(sol.steps || []).map((st, idx) => `
+                <div class="solution-step-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-4 sm:p-5 space-y-2.5 shadow-xs">
+                  <div class="flex items-center space-x-2.5">
+                    <span class="w-6 h-6 rounded-lg bg-indigo-600 text-white font-black text-xs flex items-center justify-center">${st.step_num || idx + 1}</span>
+                    <h6 class="text-xs sm:text-sm font-black text-slate-900 dark:text-white">${st.title || (idx + 1) + '-qadam'}</h6>
+                  </div>
+                  <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-medium leading-relaxed pl-8">${st.explanation}</p>
+                  ${st.formula ? `
+                    <div class="ml-8 p-3 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-indigo-100 dark:border-slate-700 text-indigo-600 dark:text-indigo-300 font-bold text-center overflow-x-auto text-xs sm:text-sm">
+                      \\[${st.formula}\\]
+                    </div>
+                  ` : ''}
+                </div>
+              `).join("")}
+            </div>
+          </div>
+
+          <!-- Yakuniy To'g'ri Javob -->
+          <div class="p-5 rounded-2xl bg-gradient-to-r from-emerald-500/15 to-teal-500/15 dark:bg-emerald-950/50 border border-emerald-400/60 dark:border-emerald-800 flex items-center justify-between flex-wrap gap-3">
+            <div class="space-y-1">
+              <span class="text-[11px] font-black uppercase tracking-wider text-emerald-800 dark:text-emerald-300 flex items-center space-x-1.5">
+                <span>🎯</span>
+                <span>Yakuniy to'g'ri javob:</span>
+              </span>
+              <div class="text-base sm:text-xl font-black text-emerald-900 dark:text-emerald-200">
+                \\[${sol.final_answer}\\]
+              </div>
+            </div>
+
+            <button id="ai-copy-solution-btn" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-sm transition flex items-center space-x-1.5">
+              <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+              <span>Yechimdan nusxa</span>
+            </button>
+          </div>
+        </div>
+      `;
+    }
+  } else if (cam.imageBase64) {
+    contentHtml = `
+      <div class="space-y-4 animate-fadeIn">
+        <div class="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 max-h-72 flex items-center justify-center bg-slate-950">
+          <img src="${cam.imageBase64}" alt="Yuklangan misol" class="max-h-72 w-auto object-contain" />
+          <button id="ai-remove-image-btn" class="absolute top-2 right-2 p-1.5 rounded-xl bg-slate-900/80 text-white hover:bg-red-600 transition backdrop-blur-xs">
+            <i data-lucide="trash-2" class="w-4 h-4"></i>
+          </button>
+        </div>
+
+        ${cam.error ? `
+          <div class="p-3.5 rounded-xl bg-rose-500/10 border border-rose-300 text-rose-700 dark:text-rose-300 text-xs font-semibold">
+            ⚠️ ${cam.error}
+          </div>
+        ` : ''}
+
+        <div class="flex items-center space-x-3">
+          <button id="ai-solve-btn" class="flex-1 py-3 px-4 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white font-extrabold text-sm shadow-md transition flex items-center justify-center space-x-2">
+            <span>⚡️</span>
+            <span>Misolni bosqichma-bosqich yechish</span>
+          </button>
+          <button id="ai-retake-btn" class="py-3 px-4 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-bold text-xs transition">
+            🔄 Boshqa rasm
+          </button>
+        </div>
+      </div>
+    `;
+  } else {
+    contentHtml = `
+      <div class="space-y-5 animate-fadeIn">
+        <!-- Drag & Drop Zone -->
+        <div id="ai-dropzone" class="p-8 sm:p-10 rounded-3xl border-2 border-dashed border-slate-300 dark:border-slate-700 hover:border-brand-500 dark:hover:border-brand-400 bg-slate-50/50 dark:bg-slate-800/40 text-center transition cursor-pointer space-y-4">
+          <div class="w-16 h-16 rounded-2xl bg-brand-100 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 flex items-center justify-center text-3xl mx-auto shadow-xs">
+            📸
+          </div>
+          <div>
+            <h4 class="text-base sm:text-lg font-black text-slate-900 dark:text-white">
+              Misol yoki masalani rasmga oling
+            </h4>
+            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 max-w-sm mx-auto">
+              Kitob yoki daftardagi misolni rasmga oling — AI o'qituvchisi uni qadamma-qadam, to'liq hisoblari bilan yechib beradi.
+            </p>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex items-center justify-center flex-wrap gap-3 pt-2">
+            <input type="file" id="camera-file-input" accept="image/*" capture="environment" class="hidden" />
+            <input type="file" id="gallery-file-input" accept="image/*" class="hidden" />
+
+            <button id="trigger-camera-btn" class="px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs sm:text-sm shadow-md transition flex items-center space-x-2">
+              <i data-lucide="camera" class="w-4 h-4"></i>
+              <span>Suratga olish</span>
+            </button>
+
+            <button id="trigger-gallery-btn" class="px-5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm shadow-xs transition flex items-center space-x-2">
+              <i data-lucide="image" class="w-4 h-4"></i>
+              <span>Galereyadan tanlash</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- API Key settings toggle footer -->
+        <div class="flex items-center justify-between text-[11px] text-slate-400 dark:text-slate-500 pt-2 border-t border-slate-200/60 dark:border-slate-800">
+          <span class="flex items-center space-x-1">
+            <span>✨ Google Gemini Vision AI</span>
+          </span>
+          <button id="ai-toggle-settings-btn" class="hover:text-brand-600 dark:hover:text-brand-400 flex items-center space-x-1 font-bold">
+            <i data-lucide="key" class="w-3.5 h-3.5"></i>
+            <span>API Kalit sozlamasi</span>
+          </button>
+        </div>
+
+        <!-- Hidden API Key settings panel -->
+        <div id="ai-settings-panel" class="${cam.showSettings ? '' : 'hidden'} p-4 rounded-2xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
+          <label class="block text-xs font-bold text-slate-700 dark:text-slate-300">
+            Google Gemini API Kaliti:
+          </label>
+          <div class="flex items-center space-x-2">
+            <input 
+              type="text" 
+              id="ai-api-key-input" 
+              value="${cam.apiKey || ''}" 
+              placeholder="AIzaSy..." 
+              class="flex-1 px-3 py-2 text-xs rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100"
+            />
+            <button id="ai-save-key-btn" class="px-3.5 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs">
+              Saqlash
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  container.innerHTML = contentHtml;
+
+  // Event Listeners for Camera UI
+  document.getElementById("trigger-camera-btn")?.addEventListener("click", () => {
+    document.getElementById("camera-file-input")?.click();
+  });
+
+  document.getElementById("trigger-gallery-btn")?.addEventListener("click", () => {
+    document.getElementById("gallery-file-input")?.click();
+  });
+
+  document.getElementById("camera-file-input")?.addEventListener("change", (e) => {
+    if (e.target.files && e.target.files[0]) {
+      handleCameraImageFile(e.target.files[0]);
+    }
+  });
+
+  document.getElementById("gallery-file-input")?.addEventListener("change", (e) => {
+    if (e.target.files && e.target.files[0]) {
+      handleCameraImageFile(e.target.files[0]);
+    }
+  });
+
+  // Drag & Drop
+  const dropzone = document.getElementById("ai-dropzone");
+  if (dropzone) {
+    dropzone.addEventListener("dragover", (e) => {
+      e.preventDefault();
+      dropzone.classList.add("dropzone-active");
+    });
+    dropzone.addEventListener("dragleave", () => {
+      dropzone.classList.remove("dropzone-active");
+    });
+    dropzone.addEventListener("drop", (e) => {
+      e.preventDefault();
+      dropzone.classList.remove("dropzone-active");
+      if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+        handleCameraImageFile(e.dataTransfer.files[0]);
+      }
+    });
+  }
+
+  document.getElementById("ai-solve-btn")?.addEventListener("click", solveMathWithGemini);
+
+  document.getElementById("ai-retake-btn")?.addEventListener("click", () => {
+    AppState.aiCamera.imageBase64 = null;
+    AppState.aiCamera.solution = null;
+    AppState.aiCamera.error = null;
+    renderCameraModalContent();
+  });
+
+  document.getElementById("ai-remove-image-btn")?.addEventListener("click", () => {
+    AppState.aiCamera.imageBase64 = null;
+    AppState.aiCamera.solution = null;
+    AppState.aiCamera.error = null;
+    renderCameraModalContent();
+  });
+
+  document.getElementById("ai-copy-solution-btn")?.addEventListener("click", () => {
+    if (!AppState.aiCamera.solution) return;
+    const s = AppState.aiCamera.solution;
+    let fullText = `M-LAB AI Yechimi:\nMisol: ${s.problem_latex}\nO'qituvchi maslahati: ${s.teacher_advice}\n\n`;
+    (s.steps || []).forEach((st, idx) => {
+      fullText += `${st.step_num || idx + 1}-qadam: ${st.title}\n${st.explanation}\nFormula: ${st.formula}\n\n`;
+    });
+    fullText += `Yakuniy javob: ${s.final_answer}`;
+    copyToClipboard(fullText, "Yechimdan to'liq nusxa olindi!");
+  });
+
+  document.getElementById("ai-toggle-settings-btn")?.addEventListener("click", () => {
+    AppState.aiCamera.showSettings = !AppState.aiCamera.showSettings;
+    renderCameraModalContent();
+  });
+
+  document.getElementById("ai-save-key-btn")?.addEventListener("click", () => {
+    const input = document.getElementById("ai-api-key-input");
+    if (input && input.value.trim()) {
+      const k = input.value.trim();
+      AppState.aiCamera.apiKey = k;
+      localStorage.setItem("m_lab_gemini_key", k);
+      showToast("API kalit muvaffaqiyatli saqlandi!", "success");
+      AppState.aiCamera.showSettings = false;
+      renderCameraModalContent();
+    }
+  });
+
+  safeRenderMath(container);
+  refreshLucide();
 }
 
   </script>
