@@ -939,23 +939,46 @@ function renderTopicDetail(topicId) {
             ${t('solution_steps_heading', l)}
           </h5>
 
-          <div class="space-y-2.5">
+          <div class="space-y-3">
             ${(currentPractice.solution?.steps || currentPractice.solutionSteps || []).map((step, sIdx) => `
-              <div class="p-3.5 bg-white dark:bg-slate-800 rounded-xl border border-purple-200/70 dark:border-slate-700 space-y-1">
+              <div class="p-4 bg-white dark:bg-slate-800 rounded-2xl border border-purple-200/80 dark:border-slate-700 shadow-2xs space-y-2.5">
                 <div class="flex items-center space-x-2">
-                  <span class="w-5 h-5 rounded-md bg-purple-500 text-white font-black text-xs flex items-center justify-center">${sIdx + 1}</span>
-                  <span class="text-xs sm:text-sm font-bold text-slate-900 dark:text-white">${step.title}</span>
+                  <span class="w-6 h-6 rounded-lg bg-purple-600 text-white font-black text-xs flex items-center justify-center shadow-xs">${sIdx + 1}</span>
+                  <span class="text-xs sm:text-sm font-black text-slate-900 dark:text-white">${step.title}</span>
                 </div>
-                ${step.formula ? `<div class="text-xs sm:text-sm text-indigo-600 dark:text-indigo-300 font-bold py-1">\\[${step.formula}\\]</div>` : ''}
-                <div class="text-xs text-slate-600 dark:text-slate-300 font-medium">${formatMathText(step.why || step.explanation || step.how || '')}</div>
+                
+                <!-- O'qituvchi tushuntirishi -->
+                <div class="text-xs sm:text-sm text-slate-700 dark:text-slate-200 font-medium leading-relaxed bg-purple-500/5 dark:bg-slate-750/50 p-3 rounded-xl border border-purple-100 dark:border-slate-700/60">
+                  ${formatMathText(step.explanation || step.why || step.how || '')}
+                </div>
+
+                <!-- Formula -->
+                ${step.formula ? `
+                  <div class="py-2 px-3 rounded-xl bg-indigo-50/50 dark:bg-indigo-950/40 border border-indigo-200/60 dark:border-indigo-800/60 text-xs sm:text-sm font-bold text-indigo-900 dark:text-indigo-200 text-center overflow-x-auto">
+                    \\[${step.formula}\\]
+                  </div>
+                ` : ''}
+
+                <!-- Maslahat/Eslatma -->
+                ${step.tip ? `
+                  <div class="text-[11px] text-amber-700 dark:text-amber-300 font-bold flex items-center space-x-1 pt-1">
+                    <span>💡 Maslahat:</span>
+                    <span>${formatMathText(step.tip)}</span>
+                  </div>
+                ` : ''}
               </div>
             `).join("")}
           </div>
 
           <!-- Final Answer Banner -->
-          <div class="p-3.5 rounded-xl bg-emerald-500/15 dark:bg-emerald-950/60 border border-emerald-400/50 dark:border-emerald-800 text-emerald-900 dark:text-emerald-200 text-xs sm:text-sm font-bold flex items-center space-x-2">
-            <span class="text-base">🎯</span>
-            <span><strong>${t('practice_answer_heading', l)}</strong> ${formatMathText(currentPractice.solution?.answer || currentPractice.solutionSteps?.[currentPractice.solutionSteps?.length - 1]?.tip || 'Javob muvaffaqiyatli topildi.')}</span>
+          <div class="p-4 rounded-2xl bg-gradient-to-r from-emerald-500/15 to-teal-500/15 dark:bg-emerald-950/60 border border-emerald-400/50 dark:border-emerald-800 text-emerald-900 dark:text-emerald-200 text-xs sm:text-sm font-bold flex items-center justify-between flex-wrap gap-2">
+            <span class="flex items-center space-x-2">
+              <span class="text-lg">🎯</span>
+              <span><strong>${t('practice_answer_heading', l)}</strong></span>
+            </span>
+            <span class="text-sm sm:text-base font-black px-3 py-1 rounded-xl bg-white/80 dark:bg-slate-800 border border-emerald-300 dark:border-emerald-700 text-emerald-700 dark:text-emerald-300">
+              ${formatMathText(currentPractice.solution?.answer || currentPractice.solutionSteps?.[currentPractice.solutionSteps?.length - 1]?.tip || 'Javob muvaffaqiyatli topildi.')}
+            </span>
           </div>
         </div>
 
