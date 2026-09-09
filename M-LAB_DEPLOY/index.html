@@ -290939,15 +290939,15 @@ async function testGeminiApiKey(keyToTest) {
 
   if (cleanKey.startsWith("ghp_") || cleanKey.startsWith("github_pat_")) {
     AppState.aiCamera.apiKeyStatus = "invalid";
-    AppState.aiCamera.apiKeyError = "Siz GitHub tokeni kiritdingiz (" + cleanKey.substring(0, 8) + "...). Matematikani yechish uchun Google AI Studio ('AIzaSy...') kaliti kerak.";
+    AppState.aiCamera.apiKeyError = "Siz GitHub tokeni kiritdingiz (" + cleanKey.substring(0, 8) + "...). Matematikani yechish uchun Google AI Studio ('AIzaSy...' yoki 'AQ...') kaliti kerak.";
     showToast("⚠️ Bu GitHub kaliti. Google AI Studio kaliti kerak.", "error");
     renderCameraModalContent();
     return false;
   }
 
-  if (!cleanKey.startsWith("AIzaSy")) {
+  if (cleanKey.length < 15) {
     AppState.aiCamera.apiKeyStatus = "invalid";
-    AppState.aiCamera.apiKeyError = "Google AI Studio kaliti odatda 'AIzaSy' bilan boshlanadi. Kalitni to'g'ri ko'chirganingizga ishonch hosil qiling.";
+    AppState.aiCamera.apiKeyError = "Google AI Studio kaliti juda qisqa ko'rinmoqda. Kalitni to'g'ri ko'chirganingizga ishonch hosil qiling.";
     renderCameraModalContent();
     return false;
   }
@@ -290962,45 +290962,47 @@ async function testGeminiApiKey(keyToTest) {
     ]
   };
 
-  try {
-    let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${cleanKey}`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(pingBody)
-    });
+  const modelsToTest = [
+    "gemini-3.6-flash",
+    "gemini-2.5-flash",
+    "gemini-2.0-flash",
+    "gemini-1.5-flash"
+  ];
 
-    if (!res.ok) {
-      res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${cleanKey}`, {
+  let testSuccess = false;
+  let lastErrorMsg = "";
+
+  for (const model of modelsToTest) {
+    try {
+      let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${cleanKey}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(pingBody)
       });
-    }
 
-    if (res.ok) {
-      AppState.aiCamera.apiKey = cleanKey;
-      AppState.aiCamera.apiKeyStatus = "valid";
-      AppState.aiCamera.apiKeyError = null;
-      localStorage.setItem("m_lab_gemini_key", cleanKey);
-      showToast("✅ Google AI Studio API kaliti muvaffaqiyatli ulandi va tekshirildi!", "success");
-      renderCameraModalContent();
-      return true;
-    } else {
-      const errJson = await res.json().catch(() => ({}));
-      const errorMsg = errJson.error?.message || `Google API javobi: HTTP ${res.status}`;
-      AppState.aiCamera.apiKeyStatus = "invalid";
-      AppState.aiCamera.apiKeyError = errorMsg;
-      showToast(`❌ Kalitda xatolik: ${errorMsg}`, "error");
-      renderCameraModalContent();
-      return false;
+      if (res.ok) {
+        testSuccess = true;
+        AppState.aiCamera.apiKey = cleanKey;
+        AppState.aiCamera.apiKeyStatus = "valid";
+        AppState.aiCamera.apiKeyError = null;
+        localStorage.setItem("m_lab_gemini_key", cleanKey);
+        showToast(`✅ Google AI Studio API kaliti muvaffaqiyatli ulandi (${model})!`, "success");
+        renderCameraModalContent();
+        return true;
+      } else {
+        const errJson = await res.json().catch(() => ({}));
+        lastErrorMsg = errJson.error?.message || `HTTP ${res.status}`;
+      }
+    } catch (e) {
+      lastErrorMsg = e.message || "Ulanishda xatolik";
     }
-  } catch (netErr) {
-    AppState.aiCamera.apiKeyStatus = "invalid";
-    AppState.aiCamera.apiKeyError = "Internet aloqasi yoki Google API serveri bilan bog'lanib bo'lmadi.";
-    showToast("Internet aloqasini tekshiring", "error");
-    renderCameraModalContent();
-    return false;
   }
+
+  AppState.aiCamera.apiKeyStatus = "invalid";
+  AppState.aiCamera.apiKeyError = lastErrorMsg;
+  showToast(`❌ Kalitda xatolik: ${lastErrorMsg}`, "error");
+  renderCameraModalContent();
+  return false;
 }
 
 async function solveMathWithGemini(explicitExpression = null) {
@@ -291016,7 +291018,7 @@ async function solveMathWithGemini(explicitExpression = null) {
 
   const hasImage = !!AppState.aiCamera.imageBase64;
   const rawKey = (AppState.aiCamera.apiKey || localStorage.getItem("m_lab_gemini_key") || "").trim().replace(/^["']|["']$/g, '');
-  const isValidGeminiKey = rawKey.startsWith("AIzaSy");
+  const isValidGeminiKey = rawKey.length >= 15 && !rawKey.startsWith("ghp_") && !rawKey.startsWith("github_pat_");
 
   AppState.aiCamera.isAnalyzing = true;
   AppState.aiCamera.error = null;
@@ -291075,8 +291077,9 @@ QAT'IY QOIDALAR:
       };
 
       const modelsToTry = [
-        "gemini-2.0-flash",
+        "gemini-3.6-flash",
         "gemini-2.5-flash",
+        "gemini-2.0-flash",
         "gemini-1.5-flash"
       ];
 
@@ -291145,7 +291148,7 @@ function renderCameraModalContent() {
 
   const cam = AppState.aiCamera;
   const rawKey = (cam.apiKey || localStorage.getItem("m_lab_gemini_key") || "").trim().replace(/^["']|["']$/g, '');
-  const isKeyValid = cam.apiKeyStatus === "valid" || (rawKey.startsWith("AIzaSy") && cam.apiKeyStatus !== "invalid");
+  const isKeyValid = cam.apiKeyStatus === "valid" || (rawKey.length >= 15 && !rawKey.startsWith("ghp_") && !rawKey.startsWith("github_pat_") && cam.apiKeyStatus !== "invalid");
   let contentHtml = "";
 
   if (cam.isAnalyzing) {
