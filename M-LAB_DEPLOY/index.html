@@ -288279,6 +288279,8 @@ const AppState = {
   // AI Kamera Yechuvchi State
   aiCamera: {
     apiKey: localStorage.getItem("m_lab_gemini_key") || "",
+    apiKeyStatus: localStorage.getItem("m_lab_gemini_key") ? "valid" : null,
+    apiKeyError: null,
     imageBase64: null,
     imageMimeType: "image/jpeg",
     inputText: "5/8 + 7/12 - 1/6",
@@ -290842,8 +290844,8 @@ async function startLiveCamera() {
       AppState.aiCamera.stream.getTracks().forEach(t => t.stop());
     }
     if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-      showToast("Brauzeringizda jonli kamera qo'llab-quvvatlanmaydi. Rasm yuklashingiz mumkin.", "info");
-      document.getElementById("camera-file-input")?.click();
+      showToast("Brauzeringizda jonli video qo'llab-quvvatlanmaydi. 'Suratga olish' orqali rasm oling.", "info");
+      document.getElementById("native-camera-input")?.click();
       return;
     }
     const constraints = {
@@ -290873,7 +290875,7 @@ async function startLiveCamera() {
     console.warn("Live camera access failed or denied:", err);
     AppState.aiCamera.isStreaming = false;
     AppState.aiCamera.stream = null;
-    showToast("Kameraga ruxsat berilmadi yoki kamera topilmadi. Rasm yuklashingiz mumkin.", "info");
+    showToast("Kameraga ruxsat cheklangan. '📸 Suratga olish' yoki '🖼️ Galereya' tugmasidan foydalaning.", "info");
     renderCameraModalContent();
   }
 }
@@ -290924,6 +290926,83 @@ function handleCameraImageFile(file) {
   reader.readAsDataURL(file);
 }
 
+async function testGeminiApiKey(keyToTest) {
+  const cleanKey = (keyToTest || "").trim().replace(/^["']|["']$/g, '');
+  if (!cleanKey) {
+    AppState.aiCamera.apiKey = "";
+    AppState.aiCamera.apiKeyStatus = "invalid";
+    AppState.aiCamera.apiKeyError = "Kalit kiritilmagan. Iltimos, Google AI Studio API kalitini kiriting.";
+    localStorage.removeItem("m_lab_gemini_key");
+    renderCameraModalContent();
+    return false;
+  }
+
+  if (cleanKey.startsWith("ghp_") || cleanKey.startsWith("github_pat_")) {
+    AppState.aiCamera.apiKeyStatus = "invalid";
+    AppState.aiCamera.apiKeyError = "Siz GitHub tokeni kiritdingiz (" + cleanKey.substring(0, 8) + "...). Matematikani yechish uchun Google AI Studio ('AIzaSy...') kaliti kerak.";
+    showToast("⚠️ Bu GitHub kaliti. Google AI Studio kaliti kerak.", "error");
+    renderCameraModalContent();
+    return false;
+  }
+
+  if (!cleanKey.startsWith("AIzaSy")) {
+    AppState.aiCamera.apiKeyStatus = "invalid";
+    AppState.aiCamera.apiKeyError = "Google AI Studio kaliti odatda 'AIzaSy' bilan boshlanadi. Kalitni to'g'ri ko'chirganingizga ishonch hosil qiling.";
+    renderCameraModalContent();
+    return false;
+  }
+
+  AppState.aiCamera.apiKeyStatus = "testing";
+  AppState.aiCamera.apiKeyError = null;
+  renderCameraModalContent();
+
+  const pingBody = {
+    contents: [
+      { parts: [{ text: "Salom, 2+2 nechaga teng?" }] }
+    ]
+  };
+
+  try {
+    let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${cleanKey}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(pingBody)
+    });
+
+    if (!res.ok) {
+      res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${cleanKey}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(pingBody)
+      });
+    }
+
+    if (res.ok) {
+      AppState.aiCamera.apiKey = cleanKey;
+      AppState.aiCamera.apiKeyStatus = "valid";
+      AppState.aiCamera.apiKeyError = null;
+      localStorage.setItem("m_lab_gemini_key", cleanKey);
+      showToast("✅ Google AI Studio API kaliti muvaffaqiyatli ulandi va tekshirildi!", "success");
+      renderCameraModalContent();
+      return true;
+    } else {
+      const errJson = await res.json().catch(() => ({}));
+      const errorMsg = errJson.error?.message || `Google API javobi: HTTP ${res.status}`;
+      AppState.aiCamera.apiKeyStatus = "invalid";
+      AppState.aiCamera.apiKeyError = errorMsg;
+      showToast(`❌ Kalitda xatolik: ${errorMsg}`, "error");
+      renderCameraModalContent();
+      return false;
+    }
+  } catch (netErr) {
+    AppState.aiCamera.apiKeyStatus = "invalid";
+    AppState.aiCamera.apiKeyError = "Internet aloqasi yoki Google API serveri bilan bog'lanib bo'lmadi.";
+    showToast("Internet aloqasini tekshiring", "error");
+    renderCameraModalContent();
+    return false;
+  }
+}
+
 async function solveMathWithGemini(explicitExpression = null) {
   stopLiveCamera();
   const exprInput = document.getElementById("ai-expr-input");
@@ -290936,7 +291015,7 @@ async function solveMathWithGemini(explicitExpression = null) {
   }
 
   const hasImage = !!AppState.aiCamera.imageBase64;
-  const rawKey = (AppState.aiCamera.apiKey || localStorage.getItem("m_lab_gemini_key") || "").trim();
+  const rawKey = (AppState.aiCamera.apiKey || localStorage.getItem("m_lab_gemini_key") || "").trim().replace(/^["']|["']$/g, '');
   const isValidGeminiKey = rawKey.startsWith("AIzaSy");
 
   AppState.aiCamera.isAnalyzing = true;
@@ -290995,33 +291074,42 @@ QAT'IY QOIDALAR:
         }
       };
 
-      let response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${rawKey}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(requestBody)
-      });
+      const modelsToTry = [
+        "gemini-2.0-flash",
+        "gemini-2.5-flash",
+        "gemini-1.5-flash"
+      ];
 
-      if (!response.ok) {
-        response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${rawKey}`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(requestBody)
-        });
+      let solved = false;
+      for (const model of modelsToTry) {
+        try {
+          const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${rawKey}`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(requestBody)
+          });
+
+          if (response.ok) {
+            const resJson = await response.json();
+            const candidateText = resJson.candidates?.[0]?.content?.parts?.[0]?.text;
+            if (candidateText) {
+              const cleanedText = candidateText.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim();
+              const parsedSolution = JSON.parse(cleanedText);
+              parsedSolution.engine = "gemini_ai";
+              AppState.aiCamera.isAnalyzing = false;
+              AppState.aiCamera.solution = parsedSolution;
+              AppState.aiCamera.apiKeyStatus = "valid";
+              renderCameraModalContent();
+              solved = true;
+              return;
+            }
+          }
+        } catch (mErr) {
+          console.warn(`Model ${model} try failed:`, mErr);
+        }
       }
 
-      if (response.ok) {
-        const resJson = await response.json();
-        const candidateText = resJson.candidates?.[0]?.content?.parts?.[0]?.text;
-        if (candidateText) {
-          const parsedSolution = JSON.parse(candidateText);
-          parsedSolution.engine = "gemini_ai";
-          AppState.aiCamera.isAnalyzing = false;
-          AppState.aiCamera.solution = parsedSolution;
-          renderCameraModalContent();
-          return;
-        }
-      } else {
-        console.warn("Gemini API error status:", response.status);
+      if (!solved) {
         showToast("⚠️ Gemini API kaliti xato yoki cheklovga uchragan. M-LAB o'rnatilgan dvigateli ishlatilmoqda.", "warning");
       }
     } catch (err) {
@@ -291056,8 +291144,8 @@ function renderCameraModalContent() {
   if (!container) return;
 
   const cam = AppState.aiCamera;
-  const rawKey = (cam.apiKey || localStorage.getItem("m_lab_gemini_key") || "").trim();
-  const hasValidKey = rawKey.startsWith("AIzaSy");
+  const rawKey = (cam.apiKey || localStorage.getItem("m_lab_gemini_key") || "").trim().replace(/^["']|["']$/g, '');
+  const isKeyValid = cam.apiKeyStatus === "valid" || (rawKey.startsWith("AIzaSy") && cam.apiKeyStatus !== "invalid");
   let contentHtml = "";
 
   if (cam.isAnalyzing) {
@@ -291074,7 +291162,7 @@ function renderCameraModalContent() {
             🧠 M-LAB Aqlli Dvigateli misolni yechmoqda...
           </h4>
           <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 max-w-sm mx-auto">
-            Matematik ifoda tahlil qilinmoqda va qadamma-qadam, erinmasdan tushuntirilgan to'liq 3 bosqichli yechim tayyorlanmoqda...
+            Matematik ifoda tahlil qilinmoqda va qadamma-qadam, to'liq erinmasdan tushuntirilgan 3 bosqichli yechim tayyorlanmoqda...
           </p>
         </div>
       </div>
@@ -291250,10 +291338,10 @@ function renderCameraModalContent() {
           <div class="flex items-center justify-between">
             <h4 class="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-900 dark:text-white flex items-center space-x-2">
               <span>📸</span>
-              <span>1. Jonli Kamera yoki Rasmdan yuklash</span>
+              <span>1. Kamera yoki Rasmdan misol yuklash</span>
             </h4>
-            <span class="text-[11px] font-bold ${hasValidKey ? 'text-purple-600 dark:text-purple-400' : 'text-emerald-600 dark:text-emerald-400'}">
-              ${hasValidKey ? '🟢 Gemini AI Ulangan' : '⚡️ M-LAB Dvigateli'}
+            <span class="text-[11px] font-bold px-2 py-0.5 rounded-md ${isKeyValid ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950/70 dark:text-emerald-300' : 'bg-indigo-100 text-indigo-700 dark:bg-indigo-950/70 dark:text-indigo-300'}">
+              ${isKeyValid ? '🟢 Gemini AI Ulangan' : '⚡️ M-LAB Dvigateli'}
             </span>
           </div>
 
@@ -291272,35 +291360,45 @@ function renderCameraModalContent() {
                   <span>Rasmdagi misolni yechish</span>
                 </button>
                 <button id="ai-retake-btn" class="py-3 px-3.5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-bold text-xs transition">
-                  🔄 Boshqa
+                  🔄 Boshqa rasm
                 </button>
               </div>
             </div>
           ` : `
-            <div class="p-6 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700 hover:border-brand-500 dark:hover:border-brand-400 bg-white/60 dark:bg-slate-900/40 text-center transition space-y-3">
+            <div class="p-6 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700 hover:border-brand-500 dark:hover:border-brand-400 bg-white/60 dark:bg-slate-900/40 text-center transition space-y-4">
               <div class="w-12 h-12 rounded-2xl bg-brand-100 dark:bg-brand-950/60 text-brand-600 dark:text-brand-400 flex items-center justify-center text-2xl mx-auto shadow-xs">
                 📷
               </div>
               <div>
                 <p class="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200">
-                  Kitob yoki daftardagi misolni rasmga oling
+                  Kitob yoki daftardagi misolni rasmga oling yoki yuklang
                 </p>
                 <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
-                  Jonli video orqali yoki galereyadan tanlab yuklang
+                  Smartfon kamerasidan to'g'ridan-to'g'ri suratga olish yoki galereyadan tanlash
                 </p>
               </div>
-              <div class="flex items-center justify-center flex-wrap gap-2.5 pt-1">
-                <input type="file" id="camera-file-input" accept="image/*" class="hidden" />
-                <input type="file" id="gallery-file-input" accept="image/*" class="hidden" />
 
-                <button id="trigger-live-camera-btn" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white font-black text-xs sm:text-sm shadow-md transition flex items-center space-x-2">
-                  <i data-lucide="video" class="w-4 h-4"></i>
-                  <span>Jonli Kamerani ochish</span>
+              <!-- Hidden Native Camera and Gallery Inputs -->
+              <input type="file" id="native-camera-input" accept="image/*" capture="environment" class="hidden" />
+              <input type="file" id="gallery-file-input" accept="image/*" class="hidden" />
+
+              <div class="flex items-center justify-center flex-wrap gap-2.5 pt-1">
+                <!-- 1. Native Camera Button (Primary, 100% Mobile Reliable) -->
+                <button id="trigger-native-camera-btn" class="px-5 py-3 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white font-black text-xs sm:text-sm shadow-md shadow-brand-500/20 transition flex items-center space-x-2 transform active:scale-95">
+                  <i data-lucide="camera" class="w-4 h-4"></i>
+                  <span>📸 Suratga olish</span>
                 </button>
 
-                <button id="trigger-gallery-btn" class="px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm shadow-xs transition flex items-center space-x-1.5">
-                  <i data-lucide="image" class="w-4 h-4"></i>
-                  <span>Galereyadan yuklash</span>
+                <!-- 2. Live Video WebRTC Button -->
+                <button id="trigger-live-camera-btn" class="px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm shadow-2xs transition flex items-center space-x-1.5">
+                  <i data-lucide="video" class="w-4 h-4 text-indigo-500"></i>
+                  <span>📹 Jonli video</span>
+                </button>
+
+                <!-- 3. Gallery Upload Button -->
+                <button id="trigger-gallery-btn" class="px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm shadow-2xs transition flex items-center space-x-1.5">
+                  <i data-lucide="image" class="w-4 h-4 text-emerald-500"></i>
+                  <span>🖼️ Galereya</span>
                 </button>
               </div>
             </div>
@@ -291384,51 +291482,101 @@ function renderCameraModalContent() {
           </div>
         ` : ''}
 
-        <!-- API Key settings toggle footer -->
-        <div class="flex items-center justify-between text-[11px] text-slate-400 dark:text-slate-500 pt-1 border-t border-slate-200/60 dark:border-slate-800">
-          <span class="flex items-center space-x-1">
-            <span>✨ M-LAB Aqlli Matematika Dvigateli & Gemini Vision</span>
-          </span>
-          <button id="ai-toggle-settings-btn" class="hover:text-brand-600 dark:hover:text-brand-400 flex items-center space-x-1 font-bold">
-            <i data-lucide="key" class="w-3.5 h-3.5"></i>
-            <span>Google API Kaliti sozlamasi</span>
-          </button>
-        </div>
-
-        <!-- Hidden API Key settings panel -->
-        <div id="ai-settings-panel" class="${cam.showSettings ? '' : 'hidden'} p-4 rounded-2xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
-          <div class="flex items-center justify-between">
-            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300">
-              🔑 Google Gemini API Kaliti (AI Studio):
-            </label>
-            <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" class="text-[11px] font-bold text-brand-600 dark:text-brand-400 hover:underline flex items-center space-x-1">
-              <span>Bepul kalit olish</span>
-              <span>↗</span>
-            </a>
-          </div>
-          <div class="flex items-center space-x-2">
-            <input 
-              type="text" 
-              id="ai-api-key-input" 
-              value="${cam.apiKey || ''}" 
-              placeholder="AIzaSy..." 
-              class="flex-1 px-3 py-2 text-xs rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100"
-            />
-            <button id="ai-save-key-btn" class="px-3.5 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs">
-              Saqlash
+        <!-- SECTION 3: API Key & Status Bar -->
+        <div class="p-4 rounded-2xl bg-slate-100 dark:bg-slate-800/80 border border-slate-200/80 dark:border-slate-700 space-y-3">
+          <div class="flex items-center justify-between flex-wrap gap-2">
+            <div class="flex items-center space-x-2">
+              <span class="text-sm">🔑</span>
+              <div>
+                <span class="text-xs font-bold text-slate-800 dark:text-slate-200 block">
+                  Google Gemini AI Kaliti Holati
+                </span>
+                <span class="text-[11px] ${isKeyValid ? 'text-emerald-600 dark:text-emerald-400 font-bold' : (cam.apiKeyStatus === 'invalid' ? 'text-rose-600 dark:text-rose-400 font-bold' : 'text-slate-500 dark:text-slate-400')}">
+                  ${cam.apiKeyStatus === 'testing' ? '⏳ Kalit tekshirilmoqda...' : (isKeyValid ? '🟢 Ulangan va faol (Google AI Studio)' : (cam.apiKeyStatus === 'invalid' ? '🔴 Kalitda xatolik mavjud' : '⚡️ Oflayn rejim (M-LAB dvigateli faol)'))}
+                </span>
+              </div>
+            </div>
+            <button id="ai-toggle-settings-btn" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 hover:border-brand-500 text-slate-700 dark:text-slate-200 text-xs font-bold transition flex items-center space-x-1.5 shadow-2xs">
+              <i data-lucide="settings" class="w-3.5 h-3.5"></i>
+              <span>${cam.showSettings ? "Yopish" : "Kalitni sozlash / Tekshirish"}</span>
             </button>
           </div>
-          <p class="text-[10px] text-slate-500 dark:text-slate-400">
-            💡 Google AI Studio kaliti <code>AIzaSy...</code> bilan boshlanadi va 100% bepul beriladi. Agar kalit kiritilmasa, M-LAB o'rnatilgan aqlli dvigateli orqali avtomatik to'liq yechib beradi.
-          </p>
+
+          <!-- Collapsible API Key settings panel -->
+          <div id="ai-settings-panel" class="${cam.showSettings ? '' : 'hidden'} pt-3 border-t border-slate-200/80 dark:border-slate-700/80 space-y-3">
+            <div class="flex items-center justify-between">
+              <label class="block text-xs font-bold text-slate-700 dark:text-slate-300">
+                Google AI Studio API Kaliti (<code>AIzaSy...</code>):
+              </label>
+              <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" class="text-[11px] font-bold text-brand-600 dark:text-brand-400 hover:underline flex items-center space-x-1">
+                <span>100% Bepul kalit olish</span>
+                <span>↗</span>
+              </a>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <input 
+                type="text" 
+                id="ai-api-key-input" 
+                value="${cam.apiKey || ''}" 
+                placeholder="AIzaSy..." 
+                class="flex-1 px-3.5 py-2.5 text-xs rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100 font-mono focus:ring-2 focus:ring-brand-500 focus:outline-none"
+              />
+              <button id="ai-test-key-btn" class="px-3.5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs shadow-xs transition flex items-center space-x-1 flex-shrink-0">
+                <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+                <span>Kalitni tekshirish</span>
+              </button>
+              <button id="ai-clear-key-btn" class="px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 hover:bg-rose-50 dark:hover:bg-rose-950/40 text-slate-600 dark:text-slate-300 hover:text-rose-600 text-xs font-bold transition flex-shrink-0" title="Kalitni tozalash">
+                <i data-lucide="trash-2" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+
+            ${cam.apiKeyError ? `
+              <div class="p-3 rounded-xl bg-rose-50 dark:bg-rose-950/50 border border-rose-200 dark:border-rose-900/60 text-rose-700 dark:text-rose-300 text-xs leading-relaxed">
+                <strong>❌ Kalit xatosi:</strong> ${cam.apiKeyError}
+              </div>
+            ` : ''}
+
+            ${isKeyValid ? `
+              <div class="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 border border-emerald-200 dark:border-emerald-900/60 text-emerald-700 dark:text-emerald-300 text-xs leading-relaxed">
+                <strong>✅ Google AI Studio ulandi!</strong> Barcha modellar (<code>gemini-2.0-flash</code>, <code>gemini-1.5-flash</code>) faol. Rasmdagi misollar to'g'ridan-to'g'ri sun'iy intellekt orqali tahlil qilinadi.
+              </div>
+            ` : ''}
+
+            <!-- 3-Step Guide to get free API key -->
+            <div class="p-3.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 space-y-2 text-[11px] text-slate-600 dark:text-slate-400">
+              <strong class="text-slate-900 dark:text-white block text-xs">
+                📌 1 daqiqada 100% bepul API kalit olish:
+              </strong>
+              <ol class="list-decimal list-inside space-y-1">
+                <li><a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-400 font-bold hover:underline">aistudio.google.com/app/apikey</a> sahifasiga o'ting.</li>
+                <li><strong>"Create API key"</strong> tugmasini bosing va chiqqan kodni nusxalang (kod <code>AIzaSy...</code> bilan boshlanadi).</li>
+                <li>Yuqoridagi maydonga qo'yib, <strong>"Kalitni tekshirish"</strong> tugmasini bosing.</li>
+              </ol>
+              <p class="text-[10px] text-slate-500 pt-1">
+                💡 Agar kalit kiritilmasa ham, M-LAB ning o'rnatilgan aqlli matematika dvigateli barcha kasrlar, tenglamalar va misollarni 100% bepul va qadamma-qadam yechib beradi.
+              </p>
+            </div>
+          </div>
         </div>
+
       </div>
     `;
   }
 
   container.innerHTML = contentHtml;
 
-  // Event Listeners for Live Camera & Expression UI
+  // Event Listeners for Native Camera, Live Camera & Gallery
+  document.getElementById("trigger-native-camera-btn")?.addEventListener("click", () => {
+    document.getElementById("native-camera-input")?.click();
+  });
+
+  document.getElementById("native-camera-input")?.addEventListener("change", (e) => {
+    if (e.target.files && e.target.files[0]) {
+      handleCameraImageFile(e.target.files[0]);
+    }
+  });
+
   document.getElementById("trigger-live-camera-btn")?.addEventListener("click", startLiveCamera);
   document.getElementById("ai-capture-snapshot-btn")?.addEventListener("click", captureLiveSnapshot);
   document.getElementById("ai-stop-camera-btn")?.addEventListener("click", stopLiveCamera);
@@ -291439,12 +291587,6 @@ function renderCameraModalContent() {
   });
 
   document.getElementById("gallery-file-input")?.addEventListener("change", (e) => {
-    if (e.target.files && e.target.files[0]) {
-      handleCameraImageFile(e.target.files[0]);
-    }
-  });
-
-  document.getElementById("camera-file-input")?.addEventListener("change", (e) => {
     if (e.target.files && e.target.files[0]) {
       handleCameraImageFile(e.target.files[0]);
     }
@@ -291533,23 +291675,23 @@ function renderCameraModalContent() {
   // Settings panel toggle
   document.getElementById("ai-toggle-settings-btn")?.addEventListener("click", () => {
     AppState.aiCamera.showSettings = !AppState.aiCamera.showSettings;
-    const panel = document.getElementById("ai-settings-panel");
-    if (panel) panel.classList.toggle("hidden", !AppState.aiCamera.showSettings);
+    renderCameraModalContent();
   });
 
-  // Save API key
-  document.getElementById("ai-save-key-btn")?.addEventListener("click", () => {
+  // Test & Save API key
+  document.getElementById("ai-test-key-btn")?.addEventListener("click", () => {
     const input = document.getElementById("ai-api-key-input");
     const val = input ? input.value.trim() : "";
-    AppState.aiCamera.apiKey = val;
-    if (val) {
-      localStorage.setItem("m_lab_gemini_key", val);
-      showToast("✅ Google AI Studio API kaliti saqlandi!", "success");
-    } else {
-      localStorage.removeItem("m_lab_gemini_key");
-      showToast("Google API kaliti tozalandi. M-LAB o'rnatilgan dvigateli ishlaydi.", "info");
-    }
-    AppState.aiCamera.showSettings = false;
+    testGeminiApiKey(val);
+  });
+
+  // Clear API key
+  document.getElementById("ai-clear-key-btn")?.addEventListener("click", () => {
+    AppState.aiCamera.apiKey = "";
+    AppState.aiCamera.apiKeyStatus = null;
+    AppState.aiCamera.apiKeyError = null;
+    localStorage.removeItem("m_lab_gemini_key");
+    showToast("Google API kaliti tozalandi. M-LAB o'rnatilgan dvigateli ishlaydi.", "info");
     renderCameraModalContent();
   });
 
