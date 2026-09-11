@@ -32,6 +32,9 @@ function sanitizeLatexFractions(str) {
   // Degree symbol
   s = s.replace(/°/g, "^\\circ");
 
+  // Fix \text{ sm^2} or \text{ sm^3}
+  s = s.replace(/\\text\{\s*([a-zA-ZА-Яа-яЁё]+)\^([0-9]+)\s*\}/g, "\\text{ $1 }^$2");
+
   // EKUK / EKUB / NOD / NOK / LCM / GCD
   s = s.replace(/\bEKUK\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{EKUK}(${a}, ${b}${c ? ', ' + c : ''})`);
   s = s.replace(/\bEKUB\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{EKUB}(${a}, ${b}${c ? ', ' + c : ''})`);
@@ -57,16 +60,13 @@ function sanitizeLatexFractions(str) {
   s = s.replace(/=>/g, " \\implies ");
 
   // Units
-  s = s.replace(/\b(\d+)\s*sm\^2\b/g, "$1 \\text{ sm}^2");
-  s = s.replace(/\b(\d+)\s*sm²\b/g, "$1 \\text{ sm}^2");
-  s = s.replace(/\b(\d+)\s*sm\b/g, "$1 \\text{ sm}");
-  s = s.replace(/\b(\d+)\s*см\^2\b/g, "$1 \\text{ см}^2");
-  s = s.replace(/\b(\d+)\s*см²\b/g, "$1 \\text{ см}^2");
-  s = s.replace(/\b(\d+)\s*см\b/g, "$1 \\text{ см}");
+  s = s.replace(/\b(\d+)\s*(sm|dm|km|m|cm|мм|см|дм|м|км)\^([23])\b/g, "$1 \\text{ $2 }^$3");
+  s = s.replace(/\b(\d+)\s*(sm|dm|km|m|cm|мм|см|дм|м|км)[²]\b/g, "$1 \\text{ $2 }^2");
+  s = s.replace(/\b(\d+)\s*(sm|dm|km|m|cm|мм|см|дм|м|км)[³]\b/g, "$1 \\text{ $2 }^3");
+  s = s.replace(/\b(\d+)\s*(sm|dm|km|kg|litr|so\'m|so‘m|som|sotix|ta|kun|soat|ga|см|дм|кг|литр|сум)\b/g, "$1 \\text{ $2 }");
 
   s = s.replace(/To'g'ri hisoblash:\s*/gi, "");
   s = s.replace(/Правильный расчет:\s*/gi, "");
-  s = s.replace(/Correct calculation:\s*/gi, "");
 
   return s.trim();
 }
@@ -74,6 +74,11 @@ function sanitizeLatexFractions(str) {
 function formatMathText(str) {
   if (!str) return "";
   let text = String(str).trim();
+
+  // Normalize units & carets first
+  text = text.replace(/\\text\{\s*([a-zA-ZА-Яа-яЁё]+)\^([0-9]+)\s*\}/g, "\\text{ $1 }^$2");
+  text = text.replace(/\b(\d+)\s*(sm|dm|km|m|cm|мм|см|дм|м|км)\^([23])\b/g, "$1 \\text{ $2 }^$3");
+  text = text.replace(/\b(\d+)\s*(sm|dm|km|kg|litr|so\'m|so‘m|som|sotix|ta|kun|soat|ga|см|дм|кг|литр|сум)\b/g, "$1 \\text{ $2 }");
 
   // 1. Tokenize existing math delimiters: \( ... \), \[ ... \], $$ ... $$
   const mathBlocks = [];
@@ -120,7 +125,7 @@ function formatMathText(str) {
   });
 
   // Wrap \sqrt{...}
-  text = text.replace(/\\sqrt\{[^{}]+\}/g, (m) => {
+  text = text.replace(/\\sqrt(?:\[\d+\])?\{[^{}]+\}/g, (m) => {
     const id = mathBlocks.length;
     mathBlocks.push(`\\(${m.trim()}\\)`);
     return `___MATH_HOLD_${id}___`;
@@ -128,6 +133,13 @@ function formatMathText(str) {
 
   // Wrap \frac{...}{...}
   text = text.replace(/(?:-?\d*\s*)?\\frac\{[^{}]+\}\{[^{}]+\}/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
+
+  // Wrap \text{...} units and formulas
+  text = text.replace(/(?:[-+]?\d*\s*)?\\text\{[^{}]+\}(?:\^[0-9]+)?/g, (m) => {
     const id = mathBlocks.length;
     mathBlocks.push(`\\(${m.trim()}\\)`);
     return `___MATH_HOLD_${id}___`;
@@ -182,17 +194,30 @@ function formatMathText(str) {
   });
 
   // Pure math strings without text
-  const hasLongWords = /[a-zA-ZА-Яа-яЁё'ʼ]{3,}\s+[a-zA-ZА-Яа-яЁё'ʼ]{3,}/.test(text);
+  const hasLongWords = /[a-zA-ZА-Яа-яЁё'ʼ]{4,}\s+[a-zA-ZА-Яа-яЁё'ʼ]{4,}/.test(text);
   if (!hasLongWords && mathBlocks.length === 0) {
-    if (/^[-+]?\d+[\d\s\+\-\*\/\=\(\)\.\,\:\;\\_^\^a-zA-Z]*$/.test(text) && /[\\^_=\+\-\*\/]/.test(text)) {
+    if (/^[-+]?\d+[\d\s\+\-\*\/\=\(\)\.\,\:\;\\_\^\^a-zA-Z\{\}]*$/.test(text) && /[\\^_=\+\-\*\/]/.test(text)) {
       return `\\(${text.trim()}\\)`;
     }
   }
 
-  // Restore placeholders
-  for (let i = 0; i < mathBlocks.length; i++) {
-    text = text.replace(`___MATH_HOLD_${i}___`, mathBlocks[i]);
+  // Restore placeholders recursively in a while loop
+  let changed = true;
+  while (changed) {
+    changed = false;
+    for (let i = 0; i < mathBlocks.length; i++) {
+      const token = `___MATH_HOLD_${i}___`;
+      if (text.includes(token)) {
+        text = text.replace(token, mathBlocks[i]);
+        changed = true;
+      }
+    }
   }
+
+  // Delimiter merging & cleanup
+  text = text.replace(/\\\)\s*([=+\-*/,;]|\\approx|\\le|\\ge|\\implies|\\cup|\\cap|\\cdot)\s*\\\( /g, " $1 ");
+  text = text.replace(/\\\)\s*\\\(/g, " ");
+  text = text.replace(/\\\(\\\((.*?)\\\)\\\)/g, "\\($1\\)");
 
   // Final cleanup of spaces around colons/punctuation
   text = text.replace(/\s+([.,;:!?])/g, "$1");
