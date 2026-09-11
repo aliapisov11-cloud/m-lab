@@ -10,8 +10,9 @@ function safeRenderMath(element) {
       renderMathInElement(element || document.body, {
         delimiters: [
           { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
           { left: "\\(", right: "\\)", display: false },
-          { left: "\\[", right: "\\]", display: true }
+          { left: "$", right: "$", display: false }
         ],
         throwOnError: false
       });
@@ -25,12 +26,22 @@ function sanitizeLatexFractions(str) {
   if (!str) return "";
   let s = String(str).trim();
   
-  // EKUK / EKUB
-  s = s.replace(/EKUK\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{EKUK}(${a}, ${b}${c ? ', ' + c : ''})`);
-  s = s.replace(/EKUB\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{EKUB}(${a}, ${b}${c ? ', ' + c : ''})`);
+  // Remove delimiters if embedded inside display formula
+  s = s.replace(/\\\(|\\\)|\\\[|\\\]|\$/g, "").trim();
+
+  // Degree symbol
+  s = s.replace(/°/g, "^\\circ");
+
+  // EKUK / EKUB / NOD / NOK / LCM / GCD
+  s = s.replace(/\bEKUK\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{EKUK}(${a}, ${b}${c ? ', ' + c : ''})`);
+  s = s.replace(/\bEKUB\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{EKUB}(${a}, ${b}${c ? ', ' + c : ''})`);
+  s = s.replace(/\bНОК\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{НОК}(${a}, ${b}${c ? ', ' + c : ''})`);
+  s = s.replace(/\bНОД\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{НОД}(${a}, ${b}${c ? ', ' + c : ''})`);
+  s = s.replace(/\bLCM\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{LCM}(${a}, ${b}${c ? ', ' + c : ''})`);
+  s = s.replace(/\bGCD\((\d+),\s*(\d+)(?:,\s*(\d+))?\)/g, (m, a, b, c) => `\\text{GCD}(${a}, ${b}${c ? ', ' + c : ''})`);
 
   // Mixed numbers: e.g. "5 7/10" -> "5\frac{7}{10}"
-  s = s.replace(/(\b\d+)\s+(\d+)\/(\d+\b)/g, "$1\\frac{$2}{$3}");
+  s = s.replace(/\b(\d+)\s+(\d+)\/(\d+\b)/g, "$1\\frac{$2}{$3}");
 
   // Parenthesized fractions: e.g. "(15 + 14 - 4)/24" -> "\frac{15 + 14 - 4}{24}"
   s = s.replace(/\(([^)]+)\)\/(\d+\b)/g, "\\frac{$1}{$2}");
@@ -44,9 +55,18 @@ function sanitizeLatexFractions(str) {
 
   // Implications
   s = s.replace(/=>/g, " \\implies ");
-  s = s.replace(/To'g'ri hisoblash:\s*/g, "");
-  s = s.replace(/Правильный расчет:\s*/g, "");
-  s = s.replace(/Correct calculation:\s*/g, "");
+
+  // Units
+  s = s.replace(/\b(\d+)\s*sm\^2\b/g, "$1 \\text{ sm}^2");
+  s = s.replace(/\b(\d+)\s*sm²\b/g, "$1 \\text{ sm}^2");
+  s = s.replace(/\b(\d+)\s*sm\b/g, "$1 \\text{ sm}");
+  s = s.replace(/\b(\d+)\s*см\^2\b/g, "$1 \\text{ см}^2");
+  s = s.replace(/\b(\d+)\s*см²\b/g, "$1 \\text{ см}^2");
+  s = s.replace(/\b(\d+)\s*см\b/g, "$1 \\text{ см}");
+
+  s = s.replace(/To'g'ri hisoblash:\s*/gi, "");
+  s = s.replace(/Правильный расчет:\s*/gi, "");
+  s = s.replace(/Correct calculation:\s*/gi, "");
 
   return s.trim();
 }
@@ -54,17 +74,39 @@ function sanitizeLatexFractions(str) {
 function formatMathText(str) {
   if (!str) return "";
   let text = String(str).trim();
-  text = sanitizeLatexFractions(text);
   
-  if (text.includes("\\[") || text.includes("\\(")) return text;
+  // Convert loose fractions like 3/4 or 5 7/10
+  text = text.replace(/\b(\d+)\s+(\d+)\/(\d+\b)/g, "$1\\frac{$2}{$3}");
+  text = text.replace(/(?<!\\frac\{)(?<!\w)(\d+)\/(\d+)(?!\w)/g, "\\frac{$1}{$2}");
   
-  if (/((\\[a-zA-Z]+)|(\^)|(_)|(\d+\s*[\+\-\*\/=]\s*\d+))/.test(text)) {
-    if (text.includes(":") && !text.startsWith("\\")) {
-      const parts = text.split(":");
-      return `${parts[0]}: \\(${sanitizeLatexFractions(parts.slice(1).join(":").trim())}\\)`;
+  // Wrap loose \frac, \sqrt, or ^\circ in \( \) if not already enclosed
+  text = text.replace(/(?<!\\\()(?<!\\\[)(?:-?\d*\s*)?\\frac\{[^{}]+\}\{[^{}]+\}(?!\\\))(?!\\\])/g, (m) => `\\(${m}\\)`);
+  text = text.replace(/(?<!\\\()(?<!\\\[)\\sqrt\{[^{}]+\}(?!\\\))(?!\\\])/g, (m) => `\\(${m}\\)`);
+  text = text.replace(/(?<!\\\()(?<!\\\[)\b\d+\^\\circ(?!\\\))(?!\\\])/g, (m) => `\\(${m}\\)`);
+
+  // Handle prefix like "To'g'ri natija: \frac{31}{36}" or "Javob: \frac{1}{3}"
+  if (text.includes(":") && !text.startsWith("\\(") && !text.startsWith("\\[")) {
+    const colonIdx = text.indexOf(":");
+    const label = text.slice(0, colonIdx + 1);
+    const content = text.slice(colonIdx + 1).trim();
+    if (content) {
+      if (content.startsWith("\\(") && content.endsWith("\\)")) {
+        return `${label} ${content}`;
+      }
+      if (/((\\[a-zA-Z]+)|(\^)|(_)|(\d+\s*[\+\-\*\/=]))/.test(content)) {
+        return `${label} \\(${content}\\)`;
+      }
     }
+  }
+
+  if (text.startsWith("\\(") || text.startsWith("\\[") || text.includes("\\(") || text.includes("\\[")) {
+    return text;
+  }
+
+  if (/((\\[a-zA-Z]+)|(\^)|(_)|(^\d+\s*[\+\-\*\/=]))/.test(text)) {
     return `\\(${text}\\)`;
   }
+
   return text;
 }
 
@@ -603,6 +645,26 @@ function selectTopic(topicId) {
 function renderSolutionSteps(example) {
   const l = AppState.lang;
   if (example && example.solutionSteps && example.solutionSteps.length > 0) {
+    const badges = {
+      uz: ['🟢 1-bosqich: Birinchi nima qilamiz?', '🟡 2-bosqich: Ikkinchi nima qilamiz?', '🔴 3-bosqich: Natija va javob'],
+      ru: ['🟢 Шаг 1: С чего начинаем?', '🟡 Шаг 2: Основное вычисление', '🔴 Шаг 3: Результат и ответ'],
+      en: ['🟢 Step 1: Starting point', '🟡 Step 2: Main calculation', '🔴 Step 3: Result & final answer']
+    };
+    const teacherLabels = {
+      uz: "O'qituvchi maslahati:",
+      ru: 'Совет учителя:',
+      en: "Teacher's Tip:"
+    };
+    const formulaLabels = {
+      uz: "📐 Misoldagi amaliy ko'rinishi:",
+      ru: '📐 Наглядный пример и формула:',
+      en: '📐 Applied Formula & Calculation:'
+    };
+
+    const currentBadges = badges[l] || badges.uz;
+    const teacherLabel = teacherLabels[l] || teacherLabels.uz;
+    const formulaLabel = formulaLabels[l] || formulaLabels.uz;
+
     return example.solutionSteps.map((step, idx) => {
       const stepColor = idx === 0 
         ? 'bg-emerald-600 text-white' 
@@ -610,22 +672,18 @@ function renderSolutionSteps(example) {
           ? 'bg-amber-600 text-white' 
           : 'bg-indigo-600 text-white';
 
-      const stepHeadingBadge = idx === 0
-        ? '🟢 1-bosqich: Birinchi nima qilamiz?'
-        : idx === 1
-          ? '🟡 2-bosqich: Ikkinchi nima qilamiz?'
-          : '🔴 3-bosqich: Uchinchi nima qilamiz & Natija';
+      const stepHeadingBadge = currentBadges[Math.min(idx, currentBadges.length - 1)];
 
       return `
         <div class="solution-step-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700/80 p-4 sm:p-5 transition-all shadow-xs space-y-3.5">
           <div class="flex items-start justify-between gap-3">
             <div class="flex items-center space-x-3">
               <span class="w-7 h-7 rounded-xl ${stepColor} text-xs font-black flex items-center justify-center flex-shrink-0 shadow-xs">
-                ${step.stepNumber}
+                ${step.stepNumber || (idx + 1)}
               </span>
               <div>
                 <h5 class="text-xs sm:text-sm font-black text-slate-900 dark:text-white">
-                  ${step.title}
+                  ${formatMathText(step.title || '')}
                 </h5>
               </div>
             </div>
@@ -638,8 +696,8 @@ function renderSolutionSteps(example) {
           <div class="p-3.5 rounded-xl bg-amber-500/10 dark:bg-slate-750 border border-amber-200/60 dark:border-slate-700 text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed font-medium flex items-start space-x-2.5">
             <span class="text-base flex-shrink-0">🗣️</span>
             <div>
-              <strong class="text-amber-800 dark:text-amber-300 block mb-0.5 text-xs font-extrabold">O'qituvchi maslahati:</strong>
-              <span>${step.why}</span>
+              <strong class="text-amber-800 dark:text-amber-300 block mb-0.5 text-xs font-extrabold">${teacherLabel}</strong>
+              <span>${formatMathText(step.why || step.explanation || '')}</span>
             </div>
           </div>
 
@@ -647,7 +705,7 @@ function renderSolutionSteps(example) {
           ${step.formula ? `
             <div class="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-indigo-200/80 dark:border-indigo-900/60 space-y-1">
               <span class="text-[11px] font-extrabold uppercase tracking-wide text-indigo-700 dark:text-indigo-400 block">
-                📐 Misoldagi amaliy ko'rinishi:
+                ${formulaLabel}
               </span>
               <div class="py-1 text-center text-xs sm:text-base text-indigo-600 dark:text-indigo-300 font-bold overflow-x-auto">
                 \\[${sanitizeLatexFractions(step.formula)}\\]
@@ -658,7 +716,7 @@ function renderSolutionSteps(example) {
           <!-- Qanday bajarildi / Natijasi -->
           <div class="text-xs sm:text-sm text-emerald-700 dark:text-emerald-400 font-bold flex items-center space-x-2">
             <span>✅</span>
-            <span>${step.how}</span>
+            <span>${formatMathText(step.how || step.tip || '')}</span>
           </div>
         </div>
       `;
@@ -758,7 +816,7 @@ function renderTopicDetail(topicId) {
           </h3>
         </div>
         <div class="p-4 sm:p-5 rounded-2xl bg-amber-500/10 dark:bg-slate-800/90 border border-amber-200/80 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-sm sm:text-base leading-relaxed font-medium">
-          ${topic.description}
+          ${formatMathText(topic.description)}
         </div>
       </div>
       ${svgHtml ? `<div class="lg:col-span-1">${svgHtml}</div>` : ''}
@@ -793,7 +851,7 @@ function renderTopicDetail(topicId) {
               </div>
             </div>
             <div class="mt-2 border-t border-slate-200/60 dark:border-slate-700/60 pt-2 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
-              ${formula.desc}
+              ${formatMathText(formula.desc)}
             </div>
           </div>
         `).join("")}
