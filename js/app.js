@@ -75,54 +75,129 @@ function formatMathText(str) {
   if (!str) return "";
   let text = String(str).trim();
 
-  // If already cleanly enclosed in \( \) or \[ \]
-  if ((text.startsWith("\\(") && text.endsWith("\\)")) || (text.startsWith("\\[") && text.endsWith("\\]"))) {
-    return text;
-  }
+  // 1. Tokenize existing math delimiters: \( ... \), \[ ... \], $$ ... $$
+  const mathBlocks = [];
+  text = text.replace(/\\\[([\s\S]*?)\\\]/g, (_, math) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\[${math.trim()}\\]`);
+    return `___MATH_HOLD_${id}___`;
+  });
+  text = text.replace(/\\\(([\s\S]*?)\\\)/g, (_, math) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${math.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
+  text = text.replace(/\$\$([\s\S]*?)\$\$/g, (_, math) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\[${math.trim()}\\]`);
+    return `___MATH_HOLD_${id}___`;
+  });
 
-  // 1. Convert simple slash fractions to LaTeX \frac: e.g. "5 7/10" -> "5\frac{7}{10}", "1/4" -> "\frac{1}{4}"
-  text = text.replace(/\b(\d+)\s+(\d+)\/(\d+\b)/g, " $1\\frac{$2}{$3} ");
-  text = text.replace(/(?<!\\frac\{)(?<!\w)(\d+)\/(\d+)(?!\w)/g, " \\frac{$1}{$2} ");
+  // 2. Wrap complex LaTeX blocks outside placeholders
+  text = text.replace(/\\begin\{cases\}[\s\S]*?\\end\{cases\}/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
 
-  // 2. Wrap \begin{cases} ... \end{cases}
-  text = text.replace(/(?<!\\\()(?<!\\\[)\\begin\{cases\}[\s\S]*?\\end\{cases\}(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+  // Wrap vectors
+  text = text.replace(/\\vec\{[a-zA-Z]\}(?:\([^\)]+\))?/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
 
-  // 3. Wrap vectors
-  text = text.replace(/(?<!\\\()(?<!\\\[)\\vec\{[a-zA-Z]\}(?:\([^\)]+\))?(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+  // Wrap integrals and limits
+  text = text.replace(/\\int(?:_[0-9a-zA-Z\\\{\}]+)?(?:\^[0-9a-zA-Z\\\{\}]+)?\s*[\s\S]+?(?:\\,)?d[a-z]/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
+  text = text.replace(/\\lim_\{[^{}]+\}\s*(?:\([^\)]+\)|[a-zA-Z0-9\+\-\*\/\\\{\}\^]+)/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
 
-  // 4. Wrap integrals and limits
-  text = text.replace(/(?<!\\\()(?<!\\\[)\\int(?:_[0-9a-zA-Z\\\{\}]+)?(?:\^[0-9a-zA-Z\\\{\}]+)?\s*[\s\S]+?(?:\\,)?d[a-z](?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
-  text = text.replace(/(?<!\\\()(?<!\\\[)\\lim_\{[^{}]+\}\s*(?:\([^\)]+\)|[a-zA-Z0-9\+\-\*\/\\\{\}\^]+)(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+  // Wrap \sqrt{...}
+  text = text.replace(/\\sqrt\{[^{}]+\}/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
 
-  // 5. Wrap all individual \frac{...}{...} that are NOT inside \( \) or \[ \]
-  text = text.replace(/(?<!\\\()(?<!\\\[)(?:-?\d*\s*)?\\frac\{[^{}]+\}\{[^{}]+\}(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+  // Wrap \frac{...}{...}
+  text = text.replace(/(?:-?\d*\s*)?\\frac\{[^{}]+\}\{[^{}]+\}/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
 
-  // 6. Wrap \sqrt{...}
-  text = text.replace(/(?<!\\\()(?<!\\\[)\\sqrt\{[^{}]+\}(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+  // Wrap simple slash fractions e.g. 5 7/10 or 1/4
+  text = text.replace(/\b(\d+)\s+(\d+)\/(\d+)\b/g, (_, whole, num, den) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${whole}\\frac{${num}}{${den}}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
+  text = text.replace(/(?<!\w)(\d+)\/(\d+)(?!\w)/g, (_, num, den) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(\\frac{${num}}{${den}}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
 
-  // 7. Wrap degree notations e.g. 90^\circ or 90°
-  text = text.replace(/\b(\d+)°/g, " \\($1^\\circ\\) ");
-  text = text.replace(/(?<!\\\()(?<!\\\[)\b\d+\^\\circ(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+  // Wrap degree notations
+  text = text.replace(/\b(\d+)°/g, (_, deg) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${deg}^\\circ\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
+  text = text.replace(/\b(\d+)\^\\circ\b/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
 
-  // 8. Wrap standalone math symbols e.g. \alpha, \beta, \pi, \infty, \emptyset, \cdot, \le, \ge, \neq, \approx
-  text = text.replace(/(?<!\\\()(?<!\\\[)\\(?:alpha|beta|gamma|theta|pi|infty|emptyset|cdot|le|ge|neq|approx|implies|pm)\b(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+  // Wrap standalone math symbols
+  text = text.replace(/\\(?:alpha|beta|gamma|theta|pi|infty|emptyset|cdot|le|ge|neq|approx|implies|pm)\b/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
 
-  // 9. Clean extra spaces around punctuation and delimiters
-  text = text.replace(/\\\)\s*\\\(/g, " ");
-  text = text.replace(/\\\(\\\((.*?)\\\)\\\)/g, "\\($1\\)");
-  text = text.replace(/\s+([.,;:!?])/g, "$1");
-  text = text.replace(/:\s*\\\(/g, ": \\(");
-  text = text.replace(/\(\s*\\\(/g, "(\\(");
-  text = text.replace(/\\\)\s*\)/g, "\\))");
-  text = text.replace(/[ \t]+/g, " ");
+  // Polynomials and equations e.g. x^2 - 5x + 6 = 0, (x-3)^2 + 4, x_1 = 2, x_2 = 3
+  text = text.replace(/\b(?:x_1\s*=\s*[-+]?\d+,\s*x_2\s*=\s*[-+]?\d+)\b/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
+  text = text.replace(/(?:\([a-zA-Z]\s*[-+]\s*\d+\)\^2(?:\s*[-+]\s*\d+)?)/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
+  text = text.replace(/\b(?:[-+]?\d*[a-zA-Z]\^[0-9]+(?:\s*[-+]\s*\d*[a-zA-Z])*(?:\s*[-+]\s*\d+)*(?:\s*=\s*[-+]?\d+)?)\b/g, (m) => {
+    const id = mathBlocks.length;
+    mathBlocks.push(`\\(${m.trim()}\\)`);
+    return `___MATH_HOLD_${id}___`;
+  });
 
-  // 10. If the entire string is pure math without long text words, e.g. "x = 4" or "25 + 14 = 39"
+  // Pure math strings without text
   const hasLongWords = /[a-zA-ZА-Яа-яЁё'ʼ]{3,}\s+[a-zA-ZА-Яа-яЁё'ʼ]{3,}/.test(text);
-  if (!hasLongWords && !text.includes("\\(") && !text.includes("\\[")) {
+  if (!hasLongWords && mathBlocks.length === 0) {
     if (/^[-+]?\d+[\d\s\+\-\*\/\=\(\)\.\,\:\;\\_^\^a-zA-Z]*$/.test(text) && /[\\^_=\+\-\*\/]/.test(text)) {
       return `\\(${text.trim()}\\)`;
     }
   }
+
+  // Restore placeholders
+  for (let i = 0; i < mathBlocks.length; i++) {
+    text = text.replace(`___MATH_HOLD_${i}___`, mathBlocks[i]);
+  }
+
+  // Final cleanup of spaces around colons/punctuation
+  text = text.replace(/\s+([.,;:!?])/g, "$1");
+  text = text.replace(/:\s*\\\(/g, ": \\(");
+  text = text.replace(/[ \t]+/g, " ");
 
   return text.trim();
 }
