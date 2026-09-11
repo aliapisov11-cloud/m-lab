@@ -84,24 +84,39 @@ function formatMathText(str) {
   text = text.replace(/\b(\d+)\s+(\d+)\/(\d+\b)/g, " $1\\frac{$2}{$3} ");
   text = text.replace(/(?<!\\frac\{)(?<!\w)(\d+)\/(\d+)(?!\w)/g, " \\frac{$1}{$2} ");
 
-  // 2. Wrap all individual \frac{...}{...} that are NOT inside \( \) or \[ \]
+  // 2. Wrap \begin{cases} ... \end{cases}
+  text = text.replace(/(?<!\\\()(?<!\\\[)\\begin\{cases\}[\s\S]*?\\end\{cases\}(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+
+  // 3. Wrap vectors
+  text = text.replace(/(?<!\\\()(?<!\\\[)\\vec\{[a-zA-Z]\}(?:\([^\)]+\))?(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+
+  // 4. Wrap integrals and limits
+  text = text.replace(/(?<!\\\()(?<!\\\[)\\int(?:_[0-9a-zA-Z\\\{\}]+)?(?:\^[0-9a-zA-Z\\\{\}]+)?\s*[\s\S]+?(?:\\,)?d[a-z](?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+  text = text.replace(/(?<!\\\()(?<!\\\[)\\lim_\{[^{}]+\}\s*(?:\([^\)]+\)|[a-zA-Z0-9\+\-\*\/\\\{\}\^]+)(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+
+  // 5. Wrap all individual \frac{...}{...} that are NOT inside \( \) or \[ \]
   text = text.replace(/(?<!\\\()(?<!\\\[)(?:-?\d*\s*)?\\frac\{[^{}]+\}\{[^{}]+\}(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
 
-  // 3. Wrap \sqrt{...}
+  // 6. Wrap \sqrt{...}
   text = text.replace(/(?<!\\\()(?<!\\\[)\\sqrt\{[^{}]+\}(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
 
-  // 4. Wrap degree notations e.g. 90^\circ or 90°
+  // 7. Wrap degree notations e.g. 90^\circ or 90°
   text = text.replace(/\b(\d+)°/g, " \\($1^\\circ\\) ");
   text = text.replace(/(?<!\\\()(?<!\\\[)\b\d+\^\\circ(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
 
-  // 5. Clean extra spaces around punctuation
+  // 8. Wrap standalone math symbols e.g. \alpha, \beta, \pi, \infty, \emptyset, \cdot, \le, \ge, \neq, \approx
+  text = text.replace(/(?<!\\\()(?<!\\\[)\\(?:alpha|beta|gamma|theta|pi|infty|emptyset|cdot|le|ge|neq|approx|implies|pm)\b(?!\\\))(?!\\\])/g, (m) => ` \\(${m.trim()}\\) `);
+
+  // 9. Clean extra spaces around punctuation and delimiters
+  text = text.replace(/\\\)\s*\\\(/g, " ");
+  text = text.replace(/\\\(\\\((.*?)\\\)\\\)/g, "\\($1\\)");
   text = text.replace(/\s+([.,;:!?])/g, "$1");
   text = text.replace(/:\s*\\\(/g, ": \\(");
   text = text.replace(/\(\s*\\\(/g, "(\\(");
   text = text.replace(/\\\)\s*\)/g, "\\))");
   text = text.replace(/[ \t]+/g, " ");
 
-  // 6. If the entire string is pure math without long text words, e.g. "x = 4" or "25 + 14 = 39"
+  // 10. If the entire string is pure math without long text words, e.g. "x = 4" or "25 + 14 = 39"
   const hasLongWords = /[a-zA-ZА-Яа-яЁё'ʼ]{3,}\s+[a-zA-ZА-Яа-яЁё'ʼ]{3,}/.test(text);
   if (!hasLongWords && !text.includes("\\(") && !text.includes("\\[")) {
     if (/^[-+]?\d+[\d\s\+\-\*\/\=\(\)\.\,\:\;\\_^\^a-zA-Z]*$/.test(text) && /[\\^_=\+\-\*\/]/.test(text)) {
