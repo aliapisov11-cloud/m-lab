@@ -1900,9 +1900,9 @@ const mathTopicsData = [
         "question": "Hisoblang: \\(\\frac{7}{12} + \\frac{5}{18}\\)",
         "options": [
           "\\(\\frac{31}{36}\\)",
-          "\\(\\frac{32}{36}\\)",
-          "\\(\\frac{36}{31}\\)",
-          "\\(-\\frac{31}{36}\\)"
+          "\\(-\\frac{31}{36}\\)",
+          "\\(\\frac{31}{36^2}\\)",
+          "\\(\\frac{36}{31}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: \\(\\frac{31}{36}\\). 12 va 18 sonlarining ikkalasiga ham bo'linadigan eng kichik umumiy karralisi (EKUK) 36 ga teng. Ikkala kasrning maxrajini 36 ga keltiramiz. 1-kasr suratini 3 ga (7 · 3 = 21), 2-kasr suratini 2 ga (5 · 2 = 10) ko'paytirib, bir maxraj ostida qo'shamiz."
@@ -1911,25 +1911,25 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(\\frac{11}{15} - \\frac{4}{10}\\)",
         "options": [
-          "\\(\\frac{2}{3}\\)",
+          "\\(-\\frac{1}{3}\\)",
           "\\(\\frac{1}{3}\\)",
-          "\\(\\frac{3}{1}\\)",
-          "\\(-\\frac{1}{3}\\)"
+          "\\(\\frac{1}{3^2}\\)",
+          "\\(\\frac{3}{1}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(\\frac{1}{3}\\). 15 va 10 sonlari uchun EKUK 30 ga teng. Yoki\\(\\frac{4}{10}\\) kasrni 2 ga qisqartirib\\(\\frac{2}{5} = \\frac{6}{15}\\) ko'rinishida yozamiz. Maxraj 15 o'zgarishsiz qoladi, suratlarni ayiramiz: 11 - 6 = 5."
       },
       {
         "level": "hard",
-        "question": "Hisoblang: \\(\\frac{5}{8} + \\frac{7}{12} - \\frac{1}{6}\\)",
+        "question": "Hisoblang: \\(\\frac{7}{8} + \\frac{5}{6} - \\frac{2}{3}\\)",
         "options": [
-          "\\(1\\frac{1}{24}\\)  yoki  \\(\\frac{25}{24}\\) + 1",
-          "2 \\(\\cdot\\) (\\(1\\frac{1}{24}\\)  yoki  \\(\\frac{25}{24}\\))",
-          "\\(1\\frac{1}{24}\\)  yoki  \\(\\frac{25}{24}\\)",
-          "-(\\(1\\frac{1}{24}\\)  yoki  \\(\\frac{25}{24}\\))"
+          "\\(1\\frac{5}{24}\\)",
+          "\\(2\\frac{1}{24}\\)",
+          "\\(1\\frac{1}{24}\\)",
+          "\\(\\frac{23}{24}\\)"
         ],
         "correctIndex": 2,
-        "explanation": "To'g'ri javob: \\(1\\frac{1}{24}\\)  yoki  \\(\\frac{25}{24}\\). 8, 12 va 6 sonlariga bir vaqtda bo'linadigan eng kichik son 24 ga teng. Qo'shimcha ko'paytuvchilar: 24:8=3, 24:12=2, 24:6=4. Har bir kasrning suratini o'zining ko'paytuvchisiga ko'paytirib, suratlarni ketma-ket qo'shamiz va ayiramiz: 15 + 14 - 4 = 25."
+        "explanation": "To'g'ri javob: \\(1\\frac{1}{24}\\). Umumiy maxraj 24:\\(\\frac{21}{24} + \\frac{20}{24} - \\frac{16}{24} = \\frac{25}{24} = 1\\frac{1}{24}\\)."
       }
     ],
     "practiceExercises": [
@@ -4164,9 +4164,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(3\\frac{2}{5} + 2\\frac{3}{10}\\)",
         "options": [
-          "\\(5\\frac{8}{10}\\)",
+          "\\(4\\frac{6}{9}\\)",
           "\\(5\\frac{7}{10}\\)",
-          "\\(5\\frac{10}{7}\\)",
+          "\\(6\\frac{8}{11}\\)",
           "\\(-5\\frac{7}{10}\\)"
         ],
         "correctIndex": 1,
@@ -4176,9 +4176,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(5\\frac{1}{4} - 2\\frac{3}{4}\\)",
         "options": [
-          "\\(2\\frac{2}{1}\\)",
+          "\\(3\\frac{2}{3}\\)",
           "\\(-2\\frac{1}{2}\\)",
-          "\\(2\\frac{2}{2}\\)",
+          "\\(1\\frac{1}{1}\\)",
           "\\(2\\frac{1}{2}\\)"
         ],
         "correctIndex": 3,
@@ -4189,9 +4189,9 @@ const mathTopicsData = [
         "question": "Noto'g'ri kasrga aylantiring: \\(4\\frac{3}{7}\\):",
         "options": [
           "\\(\\frac{31}{7}\\)",
-          "\\(\\frac{7}{31}\\)",
-          "\\(\\frac{32}{7}\\)",
-          "\\(-\\frac{31}{7}\\)"
+          "\\(\\frac{31}{7^2}\\)",
+          "\\(-\\frac{31}{7}\\)",
+          "\\(\\frac{7}{31}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: \\(\\frac{31}{7}\\). \\(4\\frac{3}{7}\\) aralash sonini noto'g'ri kasrga aylantirish uchun butun qism 4 ni maxraj 7 ga ko'paytirib, surat 3 ni qo'shamiz. 4 · 7 = 28, so'ngra 28 + 3 = 31."
@@ -6452,7 +6452,7 @@ const mathTopicsData = [
           "\\(210^\\circ\\)",
           "\\(180^\\circ\\)",
           "\\(150^\\circ\\)",
-          "\\(0^\\circ\\)"
+          "\\(225^\\circ\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(180^\\circ\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -6463,7 +6463,7 @@ const mathTopicsData = [
         "options": [
           "\\(155^\\circ\\)",
           "\\(55^\\circ\\)",
-          "\\(-5^\\circ\\)",
+          "\\(85^\\circ\\)",
           "\\(25^\\circ\\)"
         ],
         "correctIndex": 3,
@@ -8702,9 +8702,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(384 + 529 - 213\\)",
         "options": [
-          "\\(800\\)",
-          "\\(1400\\)",
-          "\\(600\\)",
+          "\\(60 0\\)",
+          "\\(80 0\\)",
+          "\\(140 0\\)",
           "\\(700\\)"
         ],
         "correctIndex": 3,
@@ -8715,9 +8715,9 @@ const mathTopicsData = [
         "question": "Hisoblang: \\(48 \\cdot 25 - 350 : 7\\)",
         "options": [
           "\\(1150\\)",
-          "\\(1250\\)",
-          "\\(1050\\)",
-          "\\(2300\\)"
+          "\\(65 0\\)",
+          "\\(230 0\\)",
+          "\\(165 0\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 1150. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -8727,9 +8727,9 @@ const mathTopicsData = [
         "question": "Qoldiqli bo'lish: 154 sonini 12 ga bo'lgandagi qoldiqni toping:",
         "options": [
           "\\(10\\)",
-          "\\(1\\)",
-          "\\(-10\\)",
-          "\\(20\\)"
+          "\\(1 0\\)",
+          "\\(3 0\\)",
+          "\\(2 0\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 10. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -10987,10 +10987,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "To'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm. Uning perimetrini hisoblang:",
         "options": [
-          "\\(26 \\text{ sm} + 1\\)",
-          "\\(-(26 \\text{ sm})\\)",
+          "\\(36 \\text{ sm}\\)",
+          "\\(16 \\text{ sm}\\)",
           "\\(26 \\text{ sm}\\)",
-          "\\(\\frac{26 \\text{ sm}}{2}\\)"
+          "\\(52 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 26 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -10999,9 +10999,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kvadratning perimetri 36 sm. Uning yuzini hisoblang:",
         "options": [
-          "\\(\\frac{81 \\text{ sm^2}}{2}\\)",
-          "\\(81 \\text{ sm^2} + 1\\)",
-          "\\(-(81 \\text{ sm^2})\\)",
+          "\\(162 \\text{ sm^2}\\)",
+          "\\(91 \\text{ sm^2}\\)",
+          "\\(71 \\text{ sm^2}\\)",
           "\\(81 \\text{ sm^2}\\)"
         ],
         "correctIndex": 3,
@@ -11011,10 +11011,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Yuzi 72 sm^2 va bir tomoni 9 sm bo'lgan to'rtburchakning perimetrini toping:",
         "options": [
-          "\\(-(34 \\text{ sm})\\)",
-          "\\(\\frac{34 \\text{ sm}}{2}\\)",
+          "\\(24 \\text{ sm}\\)",
+          "\\(68 \\text{ sm}\\)",
           "\\(34 \\text{ sm}\\)",
-          "\\(34 \\text{ sm} + 1\\)"
+          "\\(44 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 34 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -13261,9 +13261,9 @@ const mathTopicsData = [
         "question": "Qaysi son 9 ga qoldiqsiz bo'linadi: 453, 576, 812, 913?",
         "options": [
           "\\(576\\)",
-          "\\(476\\)",
-          "\\(676\\)",
-          "\\(1152\\)"
+          "\\(114 6\\)",
+          "\\(47 6\\)",
+          "\\(67 6\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 576. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -13273,9 +13273,9 @@ const mathTopicsData = [
         "question": "Yulduzcha o'rniga qanday raqam qo'yilsa, 72*4 soni 9 ga qoldiqsiz bo'linadi?",
         "options": [
           "\\(5\\)",
-          "\\(3\\)",
-          "\\(10\\)",
-          "\\(7\\)"
+          "\\(-5\\)",
+          "\\(7\\)",
+          "\\(3\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -13284,10 +13284,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Qaysi son bir vaqtda ham 2 ga, ham 3 ga bo'linadi: 412, 534, 625, 713?",
         "options": [
-          "\\(434\\)",
-          "\\(634\\)",
+          "\\(106 4\\)",
+          "\\(43 4\\)",
           "\\(534\\)",
-          "\\(1068\\)"
+          "\\(63 4\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 534. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -15525,10 +15525,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Sonlarning o'rta arifmetigini hisoblang: 12, 18, 24, 30:",
         "options": [
-          "\\(11\\)",
-          "\\(31\\)",
+          "\\(4 1\\)",
+          "\\(1 1\\)",
           "\\(21\\)",
-          "\\(42\\)"
+          "\\(3 1\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 21. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -15538,9 +15538,9 @@ const mathTopicsData = [
         "question": "Baholar o'rtachasini hisoblang: 5, 4, 3, 4:",
         "options": [
           "\\(4\\)",
-          "\\(8\\)",
-          "\\(2\\)",
-          "\\(6\\)"
+          "\\(6\\)",
+          "\\(-4\\)",
+          "\\(2\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 4. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -15549,10 +15549,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Uchta sonning o'rta arifmetigi 28 ga teng. Ulardan ikkitasi 24 va 32 bo'lsa, uchinchi sonni toping:",
         "options": [
-          "\\(38\\)",
-          "\\(56\\)",
+          "\\(1 8\\)",
+          "\\(3 8\\)",
           "\\(28\\)",
-          "\\(18\\)"
+          "\\(4 8\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 28. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -17790,10 +17790,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(3.45 + 7.85 - 2.1\\)",
         "options": [
-          "\\(18.4\\)",
+          "\\(-9.2\\)",
           "\\(9.2\\)",
-          "\\(9.7\\)",
-          "\\(8.7\\)"
+          "\\(11.2\\)",
+          "\\(7.199999999999999\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 9.2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -17803,9 +17803,9 @@ const mathTopicsData = [
         "question": "Hisoblang: \\(0.25 \\cdot 4.8 + 1.2 : 0.4\\)",
         "options": [
           "\\(4.2\\)",
-          "\\(4.7\\)",
-          "\\(8.4\\)",
-          "\\(3.7\\)"
+          "\\(6.2\\)",
+          "\\(-4.2\\)",
+          "\\(2.2\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 4.2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -17814,9 +17814,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tenglamani yeching: \\(2.5x - 3.75 = 6.25\\)",
         "options": [
-          "\\(6\\)",
-          "\\(8\\)",
           "\\(2\\)",
+          "\\(6\\)",
+          "\\(-4\\)",
           "\\(4\\)"
         ],
         "correctIndex": 3,
@@ -20075,10 +20075,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(\\frac{3}{4} \\cdot \\frac{8}{9}\\)",
         "options": [
-          "\\(\\frac{3}{2}\\)",
+          "\\(\\frac{2}{3^2}\\)",
           "\\(\\frac{2}{3}\\)",
-          "\\(-\\frac{2}{3}\\)",
-          "\\(\\frac{3}{3}\\)"
+          "\\(\\frac{3}{2}\\)",
+          "\\(-\\frac{2}{3}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(\\frac{2}{3}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -20087,10 +20087,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(\\frac{5}{12} : \\frac{15}{16}\\)",
         "options": [
-          "\\(-\\frac{4}{9}\\)",
-          "\\(\\frac{4}{9}\\)",
           "\\(\\frac{9}{4}\\)",
-          "\\(\\frac{5}{9}\\)"
+          "\\(\\frac{4}{9}\\)",
+          "\\(\\frac{4}{9^2}\\)",
+          "\\(-\\frac{4}{9}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(\\frac{4}{9}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -20101,8 +20101,8 @@ const mathTopicsData = [
         "options": [
           "\\(-2\\frac{1}{6}\\)",
           "\\(2\\frac{1}{6}\\)",
-          "\\(2\\frac{2}{6}\\)",
-          "\\(2\\frac{6}{1}\\)"
+          "\\(1\\frac{1}{5}\\)",
+          "\\(3\\frac{2}{7}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(2\\frac{1}{6}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -22340,10 +22340,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(-15 + 28 - (-7)\\)",
         "options": [
-          "\\(40\\)",
-          "\\(10\\)",
+          "\\(3 0\\)",
+          "\\(4 0\\)",
           "\\(20\\)",
-          "\\(30\\)"
+          "\\(1 0\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 20. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -22352,10 +22352,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(-6 \\cdot (-4) - 36 : (-9)\\)",
         "options": [
-          "\\(18\\)",
-          "\\(38\\)",
+          "\\(4 8\\)",
+          "\\(1 8\\)",
           "\\(28\\)",
-          "\\(56\\)"
+          "\\(3 8\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 28. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -22364,10 +22364,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Hisoblang: \\((-2)^3 \\cdot (-3)^2 - (-50)\\)",
         "options": [
-          "\\(+22\\)",
-          "\\(2 \\cdot (-22)\\)",
+          "\\(22\\)",
+          "\\(-17\\)",
           "\\(-22\\)",
-          "\\(22\\)"
+          "\\(-27\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: -22. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -24625,9 +24625,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tenglamani yeching: \\(\\frac{x}{6} = \\frac{15}{10}\\)",
         "options": [
-          "\\(11\\)",
-          "\\(18\\)",
           "\\(7\\)",
+          "\\(11\\)",
+          "\\(-9\\)",
           "\\(9\\)"
         ],
         "correctIndex": 3,
@@ -24637,10 +24637,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "5 kg olma 35 000 so'm tursa, 8 kg olma qancha turadi?",
         "options": [
-          "\\(2 \\cdot (56 000 \\text{ so'm})\\)",
-          "\\(56 000 \\text{ so'm} + 1\\)",
+          "\\(112000 \\text{ so'm}\\)",
+          "\\(156000 \\text{ so'm}\\)",
           "\\(56 000 \\text{ so'm}\\)",
-          "\\(-(56 000 \\text{ so'm})\\)"
+          "\\(1 \\text{ so'm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 56 000 so'm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -24650,9 +24650,9 @@ const mathTopicsData = [
         "question": "Tenglamani yeching: \\(\\frac{3x - 1}{4} = \\frac{7}{2}\\)",
         "options": [
           "\\(5\\)",
-          "\\(7\\)",
           "\\(3\\)",
-          "\\(10\\)"
+          "\\(-5\\)",
+          "\\(7\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -26891,9 +26891,9 @@ const mathTopicsData = [
         "question": "Tenglamani yeching: \\(4x - 7 = 21\\)",
         "options": [
           "\\(7\\)",
+          "\\(5\\)",
           "\\(9\\)",
-          "\\(14\\)",
-          "\\(5\\)"
+          "\\(-7\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 7. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -26903,9 +26903,9 @@ const mathTopicsData = [
         "question": "Tenglamani yeching: \\(3(2x - 4) = 4x + 6\\)",
         "options": [
           "\\(9\\)",
-          "\\(18\\)",
           "\\(11\\)",
-          "\\(7\\)"
+          "\\(7\\)",
+          "\\(-9\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 9. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -26914,8 +26914,8 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tenglamani yeching: \\(\\frac{x + 3}{2} - \\frac{x - 1}{3} = 2\\)",
         "options": [
+          "\\(5\\)",
           "\\(3\\)",
-          "\\(2\\)",
           "\\(-1\\)",
           "\\(1\\)"
         ],
@@ -29175,10 +29175,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Radiusi R = 7sm bo'lgan aylananing uzunligini hisoblang (\\(\\pi \\approx \\frac{22}{7}\\)):",
         "options": [
-          "\\(\\frac{44 \\text{ sm}}{2}\\)",
+          "\\(88 \\text{ sm}\\)",
           "\\(44 \\text{ sm}\\)",
-          "\\(44 \\text{ sm} + 1\\)",
-          "\\(-(44 \\text{ sm})\\)"
+          "\\(54 \\text{ sm}\\)",
+          "\\(34 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 44 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -29187,10 +29187,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Radiusi R = 6sm bo'lgan doiraning yuzini hisoblang (\\\\(\\pi\\) bilan):",
         "options": [
-          "\\(36\\pi  sm^2 + 1\\)",
+          "\\(-36\\pi  sm^2\\)",
           "\\(36\\pi  sm^2\\)",
-          "\\(\\frac{36\\pi  sm^2}{2}\\)",
-          "\\(-(36\\pi  sm^2)\\)"
+          "\\(35\\pi  sm^1\\)",
+          "\\(37\\pi  sm^3\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 36\\(\\pi\\)  sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -29200,9 +29200,9 @@ const mathTopicsData = [
         "question": "Diametri D = 20sm bo'lgan doiraning yuzini hisoblang (\\\\(\\pi\\) bilan):",
         "options": [
           "\\(100\\pi  sm^2\\)",
-          "\\(100\\pi  sm^2 + 1\\)",
-          "\\(-(100\\pi  sm^2)\\)",
-          "\\(\\frac{100\\pi  sm^2}{2}\\)"
+          "\\(-100\\pi  sm^2\\)",
+          "\\(101\\pi  sm^3\\)",
+          "\\(99\\pi  sm^1\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 100\\(\\pi\\)  sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -31440,10 +31440,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Xarita masshtabi 1 : 1 000 000. Xaritada 4 sm masofa joyda necha km bo'ladi?",
         "options": [
-          "\\(-(40 \\text{ km})\\)",
+          "\\(30 \\text{ km}\\)",
           "\\(40 \\text{ km}\\)",
-          "\\(2 \\cdot (40 \\text{ km})\\)",
-          "\\(40 \\text{ km} + 1\\)"
+          "\\(80 \\text{ km}\\)",
+          "\\(50 \\text{ km}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 40 km. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -31452,9 +31452,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Ikki shahar orasidagi haqiqiy masofa 150 km. 1 : 3 000 000 masshtabli xaritada bu masofa necha sm bo'ladi?",
         "options": [
-          "\\(5 \\text{ sm} + 1\\)",
-          "\\(-(5 \\text{ sm})\\)",
-          "\\(\\frac{5 \\text{ sm}}{2}\\)",
+          "\\(7 \\text{ sm}\\)",
+          "\\(3 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)",
           "\\(5 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
@@ -31462,15 +31462,15 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Xaritada 3 sm bo'lgan oraliq joyda 18 km bo'lsa, masshtabni toping:",
+        "question": "Xaritada 5 sm bo'lgan masofa joyda 30 km ga to'g'ri keladi. Masshtabni toping:",
         "options": [
-          "\\(2 \\cdot (1: 600 000)\\)",
-          "\\(-(1: 600 000)\\)",
-          "\\(1: 600 000 + 1\\)",
+          "\\(1: 300 000\\)",
+          "\\(1: 6 000 000\\)",
+          "\\(1: 60 000\\)",
           "\\(1: 600 000\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: 1: 600 000. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: \\(1: 600 000. 30 \\text{ km} = 3 000 000 \\text{ sm}. Masshtab = 5 : 3 000 000 = 1 : 600 000\\)."
       }
     ],
     "practiceExercises": [
@@ -33705,9 +33705,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "EKUK(36, 48) ni hisoblang:",
         "options": [
-          "\\(244\\)",
-          "\\(288\\)",
-          "\\(44\\)",
+          "\\(12 4\\)",
+          "\\(16 4\\)",
+          "\\(28 4\\)",
           "\\(144\\)"
         ],
         "correctIndex": 3,
@@ -33717,10 +33717,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "EKUB(48, 72) ni hisoblang:",
         "options": [
-          "\\(14\\)",
+          "\\(4 4\\)",
           "\\(24\\)",
-          "\\(48\\)",
-          "\\(34\\)"
+          "\\(3 4\\)",
+          "\\(1 4\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 24. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -33730,9 +33730,9 @@ const mathTopicsData = [
         "question": "EKUK(24, 36) - EKUB(24, 36) ni hisoblang:",
         "options": [
           "\\(60\\)",
-          "\\(120\\)",
-          "\\(50\\)",
-          "\\(70\\)"
+          "\\(8 0\\)",
+          "\\(12 0\\)",
+          "\\(4 0\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 60. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -36010,9 +36010,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(98^2 - 2^2\\)",
         "options": [
-          "\\(9500\\)",
-          "\\(9700\\)",
-          "\\(19200\\)",
+          "\\(1920 0\\)",
+          "\\(860 0\\)",
+          "\\(1060 0\\)",
           "\\(9600\\)"
         ],
         "correctIndex": 3,
@@ -36023,8 +36023,8 @@ const mathTopicsData = [
         "question": "Soddalashtiring: \\((2a + 3b)^2 - 12ab\\):",
         "options": [
           "\\(4a^2 - 9b^2\\)",
-          "\\(-(4a^2 + 9b^2)\\)",
-          "\\(2 \\cdot (4a^2 + 9b^2)\\)",
+          "\\(5a^3 + 10b^3\\)",
+          "\\(3a^1 + 8b^1\\)",
           "\\(4a^2 + 9b^2\\)"
         ],
         "correctIndex": 3,
@@ -36034,9 +36034,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Hisoblang: \\(53^2 - 47^2\\)",
         "options": [
-          "\\(700\\)",
-          "\\(1200\\)",
-          "\\(500\\)",
+          "\\(50 0\\)",
+          "\\(70 0\\)",
+          "\\(120 0\\)",
           "\\(600\\)"
         ],
         "correctIndex": 3,
@@ -38315,9 +38315,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(\\frac{2^8 \\cdot 4^3}{8^4}\\)",
         "options": [
-          "\\(6\\)",
           "\\(2\\)",
-          "\\(8\\)",
+          "\\(-4\\)",
+          "\\(6\\)",
           "\\(4\\)"
         ],
         "correctIndex": 3,
@@ -38327,9 +38327,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\((3^2)^3 : 3^4\\)",
         "options": [
-          "\\(11\\)",
-          "\\(18\\)",
           "\\(7\\)",
+          "\\(11\\)",
+          "\\(-9\\)",
           "\\(9\\)"
         ],
         "correctIndex": 3,
@@ -38339,9 +38339,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Soddalashtiring: \\((a^3 \\cdot a^5)^2 : a^{12}\\):",
         "options": [
-          "\\(-(a^4)\\)",
-          "\\(a^4 + 1\\)",
-          "\\(2 \\cdot (a^4)\\)",
+          "\\(3a^4\\)",
+          "\\(-a^4\\)",
+          "\\(1a^4\\)",
           "\\(a^4\\)"
         ],
         "correctIndex": 3,
@@ -40581,7 +40581,7 @@ const mathTopicsData = [
         "question": "\\(y = 3\\)x - 6 funksiyaning Ox o'qi bilan kesishish nuqtasi abssissasini toping:",
         "options": [
           "\\(4\\)",
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(2\\)",
           "\\(-2\\)"
         ],
@@ -40590,23 +40590,23 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "\\(y = -2\\)x + 8 to'g'ri chiziqqa parallel va koordinata boshidan o'tuvchi to'g'ri chiziq tenglamasini toping:",
+        "question": "Koordinatalar boshidan o'tuvchi va \\(k = -2\\) bo'lgan to'g'ri chiziq tenglamasini yozing:",
         "options": [
           "\\(y = -2x\\)",
-          "\\(-(y = -2x)\\)",
-          "\\(y = +2x\\)",
-          "\\(\\frac{y = -2x}{2}\\)"
+          "\\(y = -\\frac{1}{2}x\\)",
+          "\\(y = 2x\\)",
+          "\\(y = -2x + 1\\)"
         ],
         "correctIndex": 0,
-        "explanation": "To'g'ri javob: \\(y = -2\\)x. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: \\(y = -2\\)x. Koordinatalar boshidan o'tganligi sababli \\(b = 0\\), shuning uchun \\(y = k\\)x = -2x."
       },
       {
         "level": "hard",
         "question": "\\(y = 4\\)x - 5 funksiya grafigi A\\((3; y0)\\) nuqtadan o'tsa, y0 ni toping:",
         "options": [
-          "\\(14\\)",
-          "\\(5\\)",
           "\\(9\\)",
+          "\\(-7\\)",
+          "\\(5\\)",
           "\\(7\\)"
         ],
         "correctIndex": 3,
@@ -42845,8 +42845,8 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Ko'phadni soddalashtiring: \\(3x^2 + 5x - 2x\\)^2 + 7 - 3x:",
         "options": [
-          "\\(-(x^2 + 2x + 7)\\)",
-          "\\(2 \\cdot (x^2 + 2x + 7)\\)",
+          "\\(x^3 + 3x + 8\\)",
+          "\\(x^1 + 1x + 6\\)",
           "\\(x^2 + 2x + 7\\)",
           "\\(x^2 - 2x - 7\\)"
         ],
@@ -42858,8 +42858,8 @@ const mathTopicsData = [
         "question": "Qavslarni oching va soddalashtiring: 2a(3a - 4b) - 5a(a - b):",
         "options": [
           "\\(a^2 + 3ab\\)",
-          "\\(-(a^2 - 3ab)\\)",
-          "\\(2 \\cdot (a^2 - 3ab)\\)",
+          "\\(a^3 - 4ab\\)",
+          "\\(a^1 - 2ab\\)",
           "\\(a^2 - 3ab\\)"
         ],
         "correctIndex": 3,
@@ -42867,15 +42867,15 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Ko'paytirishni bajaring: (2x - 3)(3x + 4) - \\(6x^2\\):",
+        "question": "Ko'phadlarni ayiring: (2x - 5) - (3x + 7)",
         "options": [
           "\\(-x - 12\\)",
-          "\\(+x + 12\\)",
+          "\\(-x + 12\\)",
           "\\(x - 12\\)",
-          "\\(2 \\cdot (-x - 12)\\)"
+          "\\(x + 12\\)"
         ],
         "correctIndex": 0,
-        "explanation": "To'g'ri javob: -x - 12. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: -x - 12. Qavslarni ochamiz: 2x - 5 - 3x - 7 = -x - 12."
       }
     ],
     "practiceExercises": [
@@ -47436,9 +47436,9 @@ const mathTopicsData = [
         "question": "Uchburchaklar tengligining I alomati bo'yicha qaysi elementlar teng bo'lishi kerak?",
         "options": [
           "2 tomon va ular orasidagi burchak",
-          "2 \\(\\cdot\\) (2 tomon va ular orasidagi burchak)",
-          "-(2 tomon va ular orasidagi burchak)",
-          "2 tomon va ular orasidagi burchak + 1"
+          "4 tomon va ular orasidagi burchak",
+          "1 tomon va ular orasidagi burchak",
+          "3 tomon va ular orasidagi burchak"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 2 tomon va ular orasidagi burchak. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -47447,10 +47447,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "\\(\\Delta ABC = \\Delta A_1B_1C_1\\). Agar AB = 8 sm, BC = 6 sm bo'lsa, A1B1 ni toping:",
         "options": [
-          "\\(8 \\text{ sm} + 1\\)",
+          "\\(10 \\text{ sm}\\)",
           "\\(8 \\text{ sm}\\)",
-          "\\(-(8 \\text{ sm})\\)",
-          "\\(\\frac{8 \\text{ sm}}{2}\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(16 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 8 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -49718,39 +49718,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Ko'paytuvchilarga ajrating: \\(a^3 - 8\\):",
+        "question": "Ko'paytuvchilarga ajrating: \\(a^3 - 8\\)",
         "options": [
-          "\\((a + 2)(a^2 - 2a - 4)\\)",
-          "\\(2 \\cdot ((a - 2)(a^2 + 2a + 4))\\)",
+          "\\((a + 2)(a^2 - 2a + 4)\\)",
+          "\\((a - 2)^3\\)",
           "\\((a - 2)(a^2 + 2a + 4)\\)",
-          "\\(-((a - 2)(a^2 + 2a + 4))\\)"
+          "\\((a - 2)(a^2 - 2a + 4)\\)"
         ],
         "correctIndex": 2,
-        "explanation": "To'g'ri javob: (a - 2)(\\(a^2 + 2a + 4\\)). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: (a - 2)(\\(a^2 + 2a + 4\\)). Kublar ayirmasi formulasi: \\(a^3 - b\\)^3 = (a - b)(\\(a^2\\) + ab + \\(b^2\\))."
       },
       {
         "level": "medium",
         "question": "Hisoblang: \\(\\frac{53^3 + 47^3}{100} + 53 \\cdot 47\\)",
         "options": [
-          "\\(2909\\)",
+          "\\(230 9\\)",
           "\\(2809\\)",
-          "\\(5618\\)",
-          "\\(2709\\)"
+          "\\(330 9\\)",
+          "\\(560 9\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 2809. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
       },
       {
         "level": "hard",
-        "question": "Soddalashtiring: \\((x + 1)(x^2 - x + 1)\\):",
+        "question": "Soddalashtiring: \\((x + 1)(x^2 - x + 1)\\)",
         "options": [
           "\\(x^3 + 1\\)",
-          "\\(2 \\cdot (x^3 + 1)\\)",
+          "\\(x^3 + 3x + 1\\)",
           "\\(x^3 - 1\\)",
-          "\\(-(x^3 + 1)\\)"
+          "\\((x + 1)^3\\)"
         ],
         "correctIndex": 0,
-        "explanation": "To'g'ri javob: \\(x^3 + 1\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: \\(x^3 + 1\\). Bu kublar yig'indisi formulasining yoyilmasidir."
       }
     ],
     "practiceExercises": [
@@ -54387,20 +54387,20 @@ const mathTopicsData = [
         "question": "Tenglamani yeching: \\(2x^2 - 9x + 4 = 0\\)",
         "options": [
           "\\(x_1 = 4, x_2 = 0.5\\)",
-          "\\(-(x_1 = 4, x_2 = 0.5)\\)",
-          "\\(x_1 = 4, x_2 = 0.5 (3)\\)",
-          "\\(\\frac{x_1 = 4, x_2 = 0.5}{2}\\)"
+          "\\(x_1 = -4, x_2 = -0.5\\)",
+          "\\(x_1 = 2, x_2 = 1\\)",
+          "\\(x_1 = 4, x_2 = -0.5\\)"
         ],
         "correctIndex": 0,
-        "explanation": "To'g'ri javob: \\(x_1 = 4, x_2 = 0\\).5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: \\(x_1 = 4, x_2 = 0\\).5. Diskriminant \\(D = 81\\) - 32 = 49. Ildizlar x = \frac{9 \\(\\pm\\) 7}{4}."
       },
       {
         "level": "medium",
         "question": "Tenglamaning musbat ildizini toping: \\(x^2 - 6x - 16 = 0\\):",
         "options": [
+          "\\(-8\\)",
           "\\(6\\)",
           "\\(10\\)",
-          "\\(16\\)",
           "\\(8\\)"
         ],
         "correctIndex": 3,
@@ -54410,10 +54410,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tenglamani yeching: \\(3x^2 - 12 = 0\\)",
         "options": [
-          "\\(\\frac{x = \\pm 2}{2}\\)",
+          "\\(x = \\pm 4\\)",
           "\\(x = \\pm 2\\)",
-          "\\(-(x = \\pm 2)\\)",
-          "\\(x = \\pm 2 (3)\\)"
+          "\\(x = \\pm 3\\)",
+          "\\(x = 2\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(x = \\pm 2\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -56651,10 +56651,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(\\sqrt{144} + \\sqrt{81} - \\sqrt{25}\\)",
         "options": [
-          "\\(32\\)",
-          "\\(26\\)",
+          "\\(2 6\\)",
+          "\\(1 6\\)",
           "\\(16\\)",
-          "\\(6\\)"
+          "\\(3 6\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 16. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -56663,9 +56663,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(\\sqrt{48} - 2\\sqrt{27} + \\sqrt{75}\\)",
         "options": [
-          "\\(\\sqrt{29}\\)",
-          "\\(4\\sqrt{3}\\)",
-          "\\(2\\sqrt{3}\\)",
+          "\\(2\\sqrt{2}\\)",
+          "\\(-3\\sqrt{3}\\)",
+          "\\(4\\sqrt{4}\\)",
           "\\(3\\sqrt{3}\\)"
         ],
         "correctIndex": 3,
@@ -56676,9 +56676,9 @@ const mathTopicsData = [
         "question": "Hisoblang: \\((\\sqrt{7} - \\sqrt{3})(\\sqrt{7} + \\sqrt{3}) + \\sqrt{36}\\)",
         "options": [
           "\\(10\\)",
-          "\\(-10\\)",
-          "\\(1\\)",
-          "\\(20\\)"
+          "\\(3 0\\)",
+          "\\(1 0\\)",
+          "\\(2 0\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 10. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -58937,9 +58937,9 @@ const mathTopicsData = [
         "question": "Katetlari a = 9sm, b = 12sm bo'lgan to'g'ri burchakli uchburchak gipotenuzasini toping:",
         "options": [
           "\\(15 \\text{ sm}\\)",
-          "\\(-(15 \\text{ sm})\\)",
-          "\\(\\frac{15 \\text{ sm}}{2}\\)",
-          "\\(15 \\text{ sm} + 1\\)"
+          "\\(13 \\text{ sm}\\)",
+          "\\(30 \\text{ sm}\\)",
+          "\\(17 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 15 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -58949,9 +58949,9 @@ const mathTopicsData = [
         "question": "Gipotenuzasi 17 sm, bir kateti 8 sm bo'lsa, ikkinchi katetni toping:",
         "options": [
           "\\(15 \\text{ sm}\\)",
-          "\\(\\frac{15 \\text{ sm}}{2}\\)",
-          "\\(-(15 \\text{ sm})\\)",
-          "\\(15 \\text{ sm} + 1\\)"
+          "\\(30 \\text{ sm}\\)",
+          "\\(13 \\text{ sm}\\)",
+          "\\(17 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 15 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -58960,9 +58960,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Katetlari 10 sm va 24 sm bo'lgan to'g'ri burchakli uchburchak yuzini hisoblang:",
         "options": [
-          "\\(-(120 \\text{ sm^2})\\)",
-          "\\(120 \\text{ sm^2} + 1\\)",
-          "\\(\\frac{120 \\text{ sm^2}}{2}\\)",
+          "\\(70 \\text{ sm^2}\\)",
+          "\\(170 \\text{ sm^2}\\)",
+          "\\(240 \\text{ sm^2}\\)",
           "\\(120 \\text{ sm^2}\\)"
         ],
         "correctIndex": 3,
@@ -61202,9 +61202,9 @@ const mathTopicsData = [
         "question": "Uchburchakning asosi a = 16sm, balandligi h = 7sm. Uning yuzini hisoblang:",
         "options": [
           "\\(56 \\text{ sm^2}\\)",
-          "\\(-(56 \\text{ sm^2})\\)",
-          "\\(56 \\text{ sm^2} + 1\\)",
-          "\\(\\frac{56 \\text{ sm^2}}{2}\\)"
+          "\\(46 \\text{ sm^2}\\)",
+          "\\(66 \\text{ sm^2}\\)",
+          "\\(112 \\text{ sm^2}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 56 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -61213,10 +61213,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tomoni 8 sm bo'lgan teng tomonli uchburchak yuzini hisoblang:",
         "options": [
-          "\\(16\\sqrt{3}  sm^2 + 1\\)",
+          "\\(-16\\sqrt{3}  sm^2\\)",
           "\\(16\\sqrt{3}  sm^2\\)",
-          "\\(-(16\\sqrt{3}  sm^2)\\)",
-          "\\(\\frac{16\\sqrt{3}  sm^2}{2}\\)"
+          "\\(17\\sqrt{4}  sm^3\\)",
+          "\\(15\\sqrt{2}  sm^1\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 16\\(\\sqrt{3}\\)  sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -61226,9 +61226,9 @@ const mathTopicsData = [
         "question": "Gipotenuza 20 sm, unga tushirilgan balandlik 6 sm. Uchburchak yuzini hisoblang:",
         "options": [
           "\\(60 \\text{ sm^2}\\)",
-          "\\(-(60 \\text{ sm^2})\\)",
-          "\\(\\frac{60 \\text{ sm^2}}{2}\\)",
-          "\\(60 \\text{ sm^2} + 1\\)"
+          "\\(50 \\text{ sm^2}\\)",
+          "\\(120 \\text{ sm^2}\\)",
+          "\\(70 \\text{ sm^2}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 60 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -63467,9 +63467,9 @@ const mathTopicsData = [
         "question": "Kvadratning diagonali 8\\(\\sqrt{2}\\) sm bo'lsa, uning yuzini hisoblang:",
         "options": [
           "\\(64 \\text{ sm^2}\\)",
-          "\\(\\frac{64 \\text{ sm^2}}{2}\\)",
-          "\\(64 \\text{ sm^2} + 1\\)",
-          "\\(-(64 \\text{ sm^2})\\)"
+          "\\(128 \\text{ sm^2}\\)",
+          "\\(74 \\text{ sm^2}\\)",
+          "\\(54 \\text{ sm^2}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 64 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -63478,10 +63478,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "To'g'ri to'rtburchakning perimetri 38 sm, bir tomoni 11 sm. Yuzini hisoblang:",
         "options": [
-          "\\(-(88 \\text{ sm^2})\\)",
+          "\\(78 \\text{ sm^2}\\)",
           "\\(88 \\text{ sm^2}\\)",
-          "\\(\\frac{88 \\text{ sm^2}}{2}\\)",
-          "\\(88 \\text{ sm^2} + 1\\)"
+          "\\(176 \\text{ sm^2}\\)",
+          "\\(98 \\text{ sm^2}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 88 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -63490,9 +63490,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Trapetsiyaning asoslari 14 sm va 8 sm, balandligi 6 sm. Yuzini hisoblang:",
         "options": [
-          "\\(-(66 \\text{ sm^2})\\)",
-          "\\(66 \\text{ sm^2} + 1\\)",
-          "\\(\\frac{66 \\text{ sm^2}}{2}\\)",
+          "\\(56 \\text{ sm^2}\\)",
+          "\\(76 \\text{ sm^2}\\)",
+          "\\(132 \\text{ sm^2}\\)",
           "\\(66 \\text{ sm^2}\\)"
         ],
         "correctIndex": 3,
@@ -65731,10 +65731,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tenglamalar sistemasidan x ni toping: \\(\\begin{cases} 3x + 2y = 17 \\\\ 2x - y = 2 \\end{cases}\\):",
         "options": [
+          "\\(-3\\)",
           "\\(1\\)",
-          "\\(5\\)",
           "\\(3\\)",
-          "\\(6\\)"
+          "\\(5\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -65743,10 +65743,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tenglamalar sistemasidan y ni toping: \\(\\begin{cases} 4x + 3y = 25 \\\\ x = 2y - 2 \\end{cases}\\):",
         "options": [
-          "\\(5\\)",
           "\\(1\\)",
+          "\\(-3\\)",
           "\\(3\\)",
-          "\\(6\\)"
+          "\\(5\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -65755,10 +65755,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tenglamalar sistemasini yeching: \\(\\begin{cases} x + y = 9 \\\\ xy = 20 \\end{cases}\\):",
         "options": [
-          "\\((5; 4)\\)  yoki  \\((4; 5)\\) + 1",
+          "\\((5; -3)\\)  yoki  \\((-3; 5)\\)",
           "\\((5; 4)\\)  yoki  \\((4; 5)\\)",
-          "-(\\((5; 4)\\)  yoki  \\((4; 5)\\))",
-          "2 \\(\\cdot\\) (\\((5; 4)\\)  yoki  \\((4; 5)\\))"
+          "\\((-5; -3)\\)  yoki  \\((-3; -5)\\)",
+          "\\((5; 5)\\)  yoki  \\((3; 3)\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\((5; 4)\\)  yoki  \\((4; 5)\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -68124,10 +68124,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "\\(x^2 - 12x + 35 = 0\\) tenglamaning ildizlari yig'indisini toping:",
         "options": [
-          "\\(24\\)",
-          "\\(2\\)",
+          "\\(2 2\\)",
+          "\\(3 2\\)",
           "\\(12\\)",
-          "\\(22\\)"
+          "\\(1 2\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 12. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -68136,10 +68136,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "\\(x^2 - 5x - 14 = 0\\) tenglamaning ildizlari ko'paytmasini toping:",
         "options": [
-          "\\(2 \\cdot (-14)\\)",
-          "\\(14\\)",
+          "\\(-9\\)",
+          "\\(-19\\)",
           "\\(-14\\)",
-          "\\(+14\\)"
+          "\\(14\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: -14. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -70378,33 +70378,33 @@ const mathTopicsData = [
         "question": "O'xshash uchburchaklarning o'xshashlik koeffitsienti \\(k = 3\\). Yuzalari nisbati nechaga teng?",
         "options": [
           "\\(9\\)",
+          "\\(7\\)",
           "\\(11\\)",
-          "\\(18\\)",
-          "\\(7\\)"
+          "\\(-9\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 9. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
       },
       {
         "level": "medium",
-        "question": "O'xshash uchburchaklar perimetrlari nisbati 2 : 5. Mos tomonlari nisbatini toping:",
+        "question": "Ikki o'xshash uchburchak yuzlari nisbati 4:25 bo'lsa, ularning mos tomonlari nisbatini toping:",
         "options": [
-          "\\(-(2: 5)\\)",
+          "\\(4: 25\\)",
           "\\(2: 5\\)",
-          "\\(2: 5 + 1\\)",
-          "\\(2 \\cdot (2: 5)\\)"
+          "\\(5: 2\\)",
+          "\\(1: 5\\)"
         ],
         "correctIndex": 1,
-        "explanation": "To'g'ri javob: 2: 5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: 2: 5. Yuzlar nisbati o'xshashlik koeffitsiyentining kvadratiga teng: \\(k^2\\) = \frac{4}{25} \\(\\implies\\) k = \frac{2}{5}."
       },
       {
         "level": "hard",
         "question": "Uchburchakning o'rta chizig'i 7 sm bo'lsa, unga parallel asosi uzunligini toping:",
         "options": [
           "\\(14 \\text{ sm}\\)",
-          "\\(-(14 \\text{ sm})\\)",
-          "\\(\\frac{14 \\text{ sm}}{2}\\)",
-          "\\(14 \\text{ sm} + 1\\)"
+          "\\(12 \\text{ sm}\\)",
+          "\\(28 \\text{ sm}\\)",
+          "\\(16 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 14 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -72663,9 +72663,9 @@ const mathTopicsData = [
         "question": "Arifmetik progressiyada a_1 = 3, d = 4bo'lsa, 10-hadi a_{10} ni hisoblang:",
         "options": [
           "\\(39\\)",
-          "\\(78\\)",
-          "\\(49\\)",
-          "\\(29\\)"
+          "\\(4 9\\)",
+          "\\(2 9\\)",
+          "\\(6 9\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 39. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -72674,9 +72674,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Arifmetik progressiyada a_1 = 2, d = 3bo'lsa, dastlabki 10 ta hadi yig'indisi S_{10} ni hisoblang:",
         "options": [
-          "\\(255\\)",
-          "\\(55\\)",
-          "\\(310\\)",
+          "\\(13 5\\)",
+          "\\(30 5\\)",
+          "\\(17 5\\)",
           "\\(155\\)"
         ],
         "correctIndex": 3,
@@ -72687,9 +72687,9 @@ const mathTopicsData = [
         "question": "Arifmetik progressiyada a_1 = 5, a_{20} = 62 bo'lsa, ayirma d ni toping:",
         "options": [
           "\\(3\\)",
-          "\\(6\\)",
-          "\\(1\\)",
-          "\\(5\\)"
+          "\\(5\\)",
+          "\\(-3\\)",
+          "\\(1\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -74948,9 +74948,9 @@ const mathTopicsData = [
         "question": "Geometrik progressiyada b_1 = 2, q = 3bo'lsa, 4-hadi b_4 ni hisoblang:",
         "options": [
           "\\(54\\)",
-          "\\(108\\)",
-          "\\(64\\)",
-          "\\(44\\)"
+          "\\(7 4\\)",
+          "\\(3 4\\)",
+          "\\(10 4\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 54. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -74959,10 +74959,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Geometrik progressiyada b_1 = 3, q = 2bo'lsa, dastlabki 5 ta hadi yig'indisi S_5 ni hisoblang:",
         "options": [
-          "\\(103\\)",
-          "\\(83\\)",
+          "\\(7 3\\)",
+          "\\(18 3\\)",
           "\\(93\\)",
-          "\\(186\\)"
+          "\\(11 3\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 93. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -74973,7 +74973,7 @@ const mathTopicsData = [
         "options": [
           "\\(2\\)",
           "\\(-2\\)",
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(4\\)"
         ],
         "correctIndex": 0,
@@ -77235,7 +77235,7 @@ const mathTopicsData = [
           "\\(4\\)",
           "\\(-2\\)",
           "\\(2\\)",
-          "\\(1\\)"
+          "\\(6\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -77244,10 +77244,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(\\sin^2 40^\\circ + \\cos^2 40^\\circ + 5\\)",
         "options": [
-          "\\(12\\)",
           "\\(8\\)",
+          "\\(4\\)",
           "\\(6\\)",
-          "\\(4\\)"
+          "\\(-6\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 6. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -77256,10 +77256,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Hisoblang: \\(2 \\sin 30^\\circ \\cdot \\cos 30^\\circ\\)",
         "options": [
-          "\\(2 \\cdot (\\frac{\\sqrt{3}}{2})\\)",
-          "\\(\\frac{\\sqrt{3}}{2} + 1\\)",
+          "\\(\\frac{\\sqrt{2}}{1}\\)",
+          "\\(-\\frac{\\sqrt{3}}{2}\\)",
           "\\(\\frac{\\sqrt{3}}{2}\\)",
-          "\\(-(\\frac{\\sqrt{3}}{2})\\)"
+          "\\(\\frac{\\sqrt{4}}{3}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(\\frac{\\sqrt{3}}{2}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -79517,10 +79517,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Uchburchakda a = 8sm, unga qarama-qarshi burchak \\(30^\\circ\\). Uchburchakka tashqi chizilgan aylana radiusi R ni toping:",
         "options": [
-          "\\(-(8 \\text{ sm})\\)",
-          "\\(\\frac{8 \\text{ sm}}{2}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(16 \\text{ sm}\\)",
           "\\(8 \\text{ sm}\\)",
-          "\\(8 \\text{ sm} + 1\\)"
+          "\\(10 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 8 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -79529,10 +79529,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Uchburchakning tomonlari a = 5sm, b = 8sm va ular orasidagi burchak \\(60^\\circ\\). Uchinchi tomon c ni toping:",
         "options": [
-          "\\(-(7 \\text{ sm})\\)",
+          "\\(5 \\text{ sm}\\)",
           "\\(7 \\text{ sm}\\)",
-          "\\(7 \\text{ sm} + 1\\)",
-          "\\(\\frac{7 \\text{ sm}}{2}\\)"
+          "\\(9 \\text{ sm}\\)",
+          "\\(14 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 7 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -81782,10 +81782,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "\\(\\vec{a} (3; -4)\\) vektorning uzunligini hisoblang:",
         "options": [
+          "\\(3\\)",
           "\\(7\\)",
-          "\\(10\\)",
           "\\(5\\)",
-          "\\(3\\)"
+          "\\(-5\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -81794,10 +81794,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "\\(\\vec{a} (2; 5)\\) va \\(\\vec{b} (4; -1)\\) vektorlar yig'indisi koordinatalarini toping:",
         "options": [
-          "\\((-6; 4)\\)",
+          "\\([6; 4]\\)",
           "\\((6; 4)\\)",
-          "\\((4; 6)\\)",
-          "\\((6; -4)\\)"
+          "\\((5; 5)\\)",
+          "\\((-4; -6)\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\((6; 4)\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -81806,9 +81806,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "\\(\\vec{a} (3; -2)\\) bo'lsa, 4\\(\\vec{a}\\) vektor koordinatalarini toping:",
         "options": [
-          "\\((-12; -8)\\)",
-          "\\((12; 8)\\)",
-          "\\((-8; 12)\\)",
+          "\\([12; -8]\\)",
+          "\\((8; -12)\\)",
+          "\\((11; -7)\\)",
           "\\((12; -8)\\)"
         ],
         "correctIndex": 3,
@@ -84047,9 +84047,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tomonlari 13 sm, 14 sm, 15 sm bo'lgan uchburchakning yuzini Geron formulasi bilan hisoblang:",
         "options": [
-          "\\(-(84 \\text{ sm^2})\\)",
-          "\\(\\frac{84 \\text{ sm^2}}{2}\\)",
-          "\\(84 \\text{ sm^2} + 1\\)",
+          "\\(74 \\text{ sm^2}\\)",
+          "\\(168 \\text{ sm^2}\\)",
+          "\\(94 \\text{ sm^2}\\)",
           "\\(84 \\text{ sm^2}\\)"
         ],
         "correctIndex": 3,
@@ -84059,10 +84059,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tomonlari 5 sm, 5 sm, 6 sm bo'lgan uchburchak yuzini toping:",
         "options": [
-          "\\(12 \\text{ sm^2} + 1\\)",
-          "\\(-(12 \\text{ sm^2})\\)",
+          "\\(14 \\text{ sm^2}\\)",
+          "\\(10 \\text{ sm^2}\\)",
           "\\(12 \\text{ sm^2}\\)",
-          "\\(\\frac{12 \\text{ sm^2}}{2}\\)"
+          "\\(24 \\text{ sm^2}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 12 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -84071,9 +84071,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tomonlari 6 sm, 8 sm, 10 sm bo'lgan uchburchak yuzini hisoblang:",
         "options": [
-          "\\(-(24 \\text{ sm^2})\\)",
-          "\\(\\frac{24 \\text{ sm^2}}{2}\\)",
-          "\\(24 \\text{ sm^2} + 1\\)",
+          "\\(14 \\text{ sm^2}\\)",
+          "\\(48 \\text{ sm^2}\\)",
+          "\\(34 \\text{ sm^2}\\)",
           "\\(24 \\text{ sm^2}\\)"
         ],
         "correctIndex": 3,
@@ -86312,34 +86312,34 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tengsizlikni yeching: \\(x^2 - 5x + 6 < 0\\):",
         "options": [
-          "\\((3; 2)\\)",
+          "\\((1; 4)\\)",
           "\\((2; 3)\\)",
-          "\\((2; -3)\\)",
-          "\\((-2; 3)\\)"
+          "\\((-3; -2)\\)",
+          "\\([2; 3]\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\((2; 3)\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
       },
       {
         "level": "medium",
-        "question": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\):",
+        "question": "Tengsizlikni yeching: \\(x^2 - 9 \\ge 0\\)",
         "options": [
-          "\\(-((-\\infty; -3] \\cup [3; \\infty))\\)",
-          "\\(2 \\cdot ((-\\infty; -3] \\cup [3; \\infty))\\)",
-          "\\((+\\infty; +3] \\cup [3; \\infty)\\)",
+          "\\((-\\infty; 3]\\)",
+          "\\([9; \\infty)\\)",
+          "\\([-3; 3]\\)",
           "\\((-\\infty; -3] \\cup [3; \\infty)\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: \\((-\\infty; -3] \\cup [3; \\infty)\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: \\((-\\infty; -3] \\cup [3; \\infty)\\). Ko'paytuvchilarga ajratamiz: (x - 3)(x + 3) \\(\\ge\\) 0."
       },
       {
         "level": "hard",
         "question": "Tengsizlikning butun musbat yechimlari sonini toping: \\(x^2 - 4x \\le 0\\):",
         "options": [
-          "\\(8\\)",
           "\\(6\\)",
+          "\\(2\\)",
           "\\(4\\)",
-          "\\(2\\)"
+          "\\(-4\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 4. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -88566,9 +88566,9 @@ const mathTopicsData = [
         "question": "Hisoblang: \\(\\tan  60^\\circ \\cdot \\cot  30^\\circ\\)",
         "options": [
           "\\(3\\)",
-          "\\(1\\)",
-          "\\(6\\)",
-          "\\(5\\)"
+          "\\(-3\\)",
+          "\\(5\\)",
+          "\\(1\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -88577,10 +88577,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(\\sin 45^\\circ \\cdot \\cos 45^\\circ\\)",
         "options": [
+          "\\(\\frac{1}{2^2}\\)",
           "\\(\\frac{2}{1}\\)",
-          "\\(-\\frac{1}{2}\\)",
           "\\(\\frac{1}{2}\\)",
-          "\\(\\frac{2}{2}\\)"
+          "\\(-\\frac{1}{2}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(\\frac{1}{2}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -88592,7 +88592,7 @@ const mathTopicsData = [
           "\\(4\\)",
           "\\(-2\\)",
           "\\(2\\)",
-          "\\(1\\)"
+          "\\(6\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -90850,10 +90850,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(\\log_2 48 - \\log_2 3 + \\log_3 81\\)",
         "options": [
-          "\\(6\\)",
+          "\\(-8\\)",
           "\\(8\\)",
-          "\\(10\\)",
-          "\\(16\\)"
+          "\\(6\\)",
+          "\\(10\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 8. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -90862,10 +90862,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(\\log_5 250 - \\log_5 2\\)",
         "options": [
-          "\\(5\\)",
-          "\\(3\\)",
           "\\(1\\)",
-          "\\(6\\)"
+          "\\(3\\)",
+          "\\(-3\\)",
+          "\\(5\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -90874,10 +90874,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Hisoblang: \\(2^{\\log_2 7} + 3^{\\log_3 5}\\)",
         "options": [
-          "\\(2\\)",
-          "\\(24\\)",
+          "\\(3 2\\)",
+          "\\(2 2\\)",
           "\\(12\\)",
-          "\\(22\\)"
+          "\\(1 2\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 12. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -93136,9 +93136,9 @@ const mathTopicsData = [
         "question": "Hisoblang: \\(\\sin 75^\\circ \\cos 15^\\circ + \\cos 75^\\circ \\sin 15^\\circ\\)",
         "options": [
           "\\(1\\)",
-          "\\(2\\)",
+          "\\(3\\)",
           "\\(-1\\)",
-          "\\(3\\)"
+          "\\(5\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 1. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -93147,10 +93147,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(\\cos 70^\\circ \\cos 10^\\circ + \\sin 70^\\circ \\sin 10^\\circ\\)",
         "options": [
-          "\\(-\\frac{1}{2}\\)",
           "\\(\\frac{2}{1}\\)",
+          "\\(\\frac{1}{2^2}\\)",
           "\\(\\frac{1}{2}\\)",
-          "\\(\\frac{2}{2}\\)"
+          "\\(-\\frac{1}{2}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(\\frac{1}{2}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -93161,8 +93161,8 @@ const mathTopicsData = [
         "options": [
           "\\(1\\)",
           "\\(-1\\)",
-          "\\(2\\)",
-          "\\(3\\)"
+          "\\(3\\)",
+          "\\(5\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 1. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -95401,7 +95401,7 @@ const mathTopicsData = [
         "question": "Tenglamani yeching: \\(2^{x + 2} + 2^x = 20\\)",
         "options": [
           "\\(-2\\)",
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(2\\)",
           "\\(4\\)"
         ],
@@ -95413,7 +95413,7 @@ const mathTopicsData = [
         "question": "Tenglamani yeching: \\(3^{2x - 1} = 27\\)",
         "options": [
           "\\(4\\)",
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(2\\)",
           "\\(-2\\)"
         ],
@@ -97665,10 +97665,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tenglamani yeching: \\(\\log_3(2x - 5) = 2\\)",
         "options": [
-          "\\(14\\)",
+          "\\(9\\)",
           "\\(7\\)",
-          "\\(5\\)",
-          "\\(9\\)"
+          "\\(-7\\)",
+          "\\(5\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 7. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -97678,9 +97678,9 @@ const mathTopicsData = [
         "question": "Tenglamani yeching: \\(\\log_2 x + \\log_2(x - 2) = 3\\)",
         "options": [
           "\\(4\\)",
-          "\\(8\\)",
           "\\(6\\)",
-          "\\(2\\)"
+          "\\(2\\)",
+          "\\(-4\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 4. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -97690,9 +97690,9 @@ const mathTopicsData = [
         "question": "Tenglamani yeching: \\(\\log_5(x^2 - 11) = \\log_5(5x + 3)\\)",
         "options": [
           "\\(7\\)",
-          "\\(9\\)",
           "\\(5\\)",
-          "\\(14\\)"
+          "\\(-7\\)",
+          "\\(9\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 7. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -99930,9 +99930,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Kubning qirrasi a = 6sm. Uning to'la sirti yuzini hisoblang:",
         "options": [
-          "\\(\\frac{216 \\text{ sm^2}}{2}\\)",
-          "\\(216 \\text{ sm^2} + 1\\)",
-          "\\(-(216 \\text{ sm^2})\\)",
+          "\\(432 \\text{ sm^2}\\)",
+          "\\(266 \\text{ sm^2}\\)",
+          "\\(166 \\text{ sm^2}\\)",
           "\\(216 \\text{ sm^2}\\)"
         ],
         "correctIndex": 3,
@@ -99942,9 +99942,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "To'g'ri to'rtburchakli parallelepipedning o'lchamlari 3 sm, 4 sm, 12 sm. Uning fazoviy diagonalini hisoblang:",
         "options": [
-          "\\(\\frac{13 \\text{ sm}}{2}\\)",
-          "\\(13 \\text{ sm} + 1\\)",
-          "\\(-(13 \\text{ sm})\\)",
+          "\\(26 \\text{ sm}\\)",
+          "\\(15 \\text{ sm}\\)",
+          "\\(11 \\text{ sm}\\)",
           "\\(13 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
@@ -99954,10 +99954,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "To'g'ri prizmaning asosi yuzi 24 sm^2, balandligi 10 sm. Uning hajmini hisoblang:",
         "options": [
-          "\\(240 \\text{ sm^3} + 1\\)",
-          "\\(-(240 \\text{ sm^3})\\)",
+          "\\(290 \\text{ sm^3}\\)",
+          "\\(190 \\text{ sm^3}\\)",
           "\\(240 \\text{ sm^3}\\)",
-          "\\(\\frac{240 \\text{ sm^3}}{2}\\)"
+          "\\(480 \\text{ sm^3}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 240 sm^3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -102196,9 +102196,9 @@ const mathTopicsData = [
         "question": "Piramidaning asosi yuzi 45 sm^2, balandligi 8 sm. Uning hajmini hisoblang:",
         "options": [
           "\\(120 \\text{ sm^3}\\)",
-          "\\(\\frac{120 \\text{ sm^3}}{2}\\)",
-          "\\(120 \\text{ sm^3} + 1\\)",
-          "\\(-(120 \\text{ sm^3})\\)"
+          "\\(240 \\text{ sm^3}\\)",
+          "\\(170 \\text{ sm^3}\\)",
+          "\\(70 \\text{ sm^3}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 120 sm^3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -102207,10 +102207,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Muntazam to'rtburchakli piramidaning asosi tomoni 6 sm, balandligi 4 sm. Uning hajmini hisoblang:",
         "options": [
-          "\\(48 \\text{ sm^3} + 1\\)",
+          "\\(58 \\text{ sm^3}\\)",
           "\\(48 \\text{ sm^3}\\)",
-          "\\(-(48 \\text{ sm^3})\\)",
-          "\\(\\frac{48 \\text{ sm^3}}{2}\\)"
+          "\\(38 \\text{ sm^3}\\)",
+          "\\(96 \\text{ sm^3}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 48 sm^3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -102219,10 +102219,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Muntazam piramida apofemasi 5 sm, asosining perimetri 24 sm. Yon sirti yuzini hisoblang:",
         "options": [
-          "\\(-(60 \\text{ sm^2})\\)",
-          "\\(60 \\text{ sm^2} + 1\\)",
+          "\\(50 \\text{ sm^2}\\)",
+          "\\(70 \\text{ sm^2}\\)",
           "\\(60 \\text{ sm^2}\\)",
-          "\\(\\frac{60 \\text{ sm^2}}{2}\\)"
+          "\\(120 \\text{ sm^2}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 60 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -104458,39 +104458,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Fazoda ikkita to'g'ri chiziq bitta tekislikda yotmasa va kesishmasa, ular qanday chiziqlar deyiladi?",
+        "question": "Bitta tekislikda yotmaydigan va kesishmaydigan to'g'ri chiziqlar qanday ataladi?",
         "options": [
-          "2 \\(\\cdot\\) (Ayqash to'g'ri chiziqlar)",
+          "Ustma-ust to'g'ri chiziqlar",
           "Ayqash to'g'ri chiziqlar",
-          "Ayqash to'g'ri chiziqlar + 1",
-          "-(Ayqash to'g'ri chiziqlar)"
+          "Parallel to'g'ri chiziqlar",
+          "Kesishuvchi to'g'ri chiziqlar"
         ],
         "correctIndex": 1,
-        "explanation": "To'g'ri javob: Ayqash to'g'ri chiziqlar. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: Ayqash to'g'ri chiziqlar. Fazoda kesishmaydigan va bitta tekislikda yotmaydigan chiziqlar ayqash deb ataladi."
       },
       {
         "level": "medium",
-        "question": "Fazoda berilgan to'g'ri chiziqqa parallel bo'lgan nechta to'g'ri chiziq o'tkazish mumkin?",
+        "question": "Fazoda berilgan to'g'ri chiziqqa tegishli bo'lmagan nuqta orqali unga parallel nechta to'g'ri chiziq o'tkazish mumkin?",
         "options": [
-          "-(Cheksiz ko'p)",
-          "Cheksiz ko'p + 1",
+          "Faqat 2 ta",
           "Cheksiz ko'p",
-          "2 \\(\\cdot\\) (Cheksiz ko'p)"
+          "Faqat 1 ta",
+          "Birorta ham emas"
         ],
         "correctIndex": 2,
-        "explanation": "To'g'ri javob: Cheksiz ko'p. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: Faqat 1 ta. Evklid geometriyasi aksiomasiga ko'ra yagona parallel to'g'ri chiziq o'tkazish mumkin."
       },
       {
         "level": "hard",
-        "question": "To'g'ri chiziq tekislikka perpendikulyar bo'lsa, u tekislikdagi barcha to'g'ri chiziqlarga qanday bo'ladi?",
+        "question": "Agar to'g'ri chiziq tekislikdagi kesishuvchi ikki to'g'ri chiziqqa perpendikulyar bo'lsa, u bu tekislikka nisbatan qanday joylashgan?",
         "options": [
-          "-(Perpendikulyar)",
-          "2 \\(\\cdot\\) (Perpendikulyar)",
+          "Ayqash",
+          "Ustma-ust",
           "Perpendikulyar",
-          "Perpendikulyar + 1"
+          "Parallel"
         ],
         "correctIndex": 2,
-        "explanation": "To'g'ri javob: Perpendikulyar. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: Perpendikulyar. To'g'ri chiziq va tekislik perpendikulyarligi alomatiga asosan."
       }
     ],
     "practiceExercises": [
@@ -106725,10 +106725,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Silindr asosining radiusi R = 3sm, balandligi H = 5sm. Uning hajmini hisoblang (\\\\(\\pi\\) bilan):",
         "options": [
-          "\\(45\\pi  sm^3 + 1\\)",
-          "\\(\\frac{45\\pi  sm^3}{2}\\)",
+          "\\(-45\\pi  sm^3\\)",
+          "\\(44\\pi  sm^2\\)",
           "\\(45\\pi  sm^3\\)",
-          "\\(-(45\\pi  sm^3)\\)"
+          "\\(46\\pi  sm^4\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 45\\(\\pi\\)  sm^3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -106738,9 +106738,9 @@ const mathTopicsData = [
         "question": "Konus asosining radiusi R = 6sm, balandligi H = 8sm. Uning yasovchisi l ni toping:",
         "options": [
           "\\(10 \\text{ sm}\\)",
-          "\\(10 \\text{ sm} + 1\\)",
-          "\\(\\frac{10 \\text{ sm}}{2}\\)",
-          "\\(-(10 \\text{ sm})\\)"
+          "\\(12 \\text{ sm}\\)",
+          "\\(20 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 10 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -106750,9 +106750,9 @@ const mathTopicsData = [
         "question": "Shar radiusi R = 3sm. Uning hajmini hisoblang (\\\\(\\pi\\) bilan):",
         "options": [
           "\\(36\\pi  sm^3\\)",
-          "\\(36\\pi  sm^3 + 1\\)",
-          "\\(-(36\\pi  sm^3)\\)",
-          "\\(\\frac{36\\pi  sm^3}{2}\\)"
+          "\\(-36\\pi  sm^3\\)",
+          "\\(37\\pi  sm^4\\)",
+          "\\(35\\pi  sm^2\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 36\\(\\pi\\)  sm^3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -109119,9 +109119,9 @@ const mathTopicsData = [
         "question": "\\(y = x^2 - 6x + 13\\) parabolaning uchi koordinatalarini toping:",
         "options": [
           "\\((3; 4)\\)",
-          "\\((-3; 4)\\)",
-          "\\((4; 3)\\)",
-          "\\((3; -4)\\)"
+          "\\([3; 4]\\)",
+          "\\((2; 5)\\)",
+          "\\((-4; -3)\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: \\((3; 4)\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -109130,10 +109130,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "f(x) = -\\(2x^2 + 8x - 3\\) funksiyaning eng katta qiymatini toping:",
         "options": [
-          "\\(10\\)",
+          "\\(7\\)",
           "\\(5\\)",
-          "\\(3\\)",
-          "\\(7\\)"
+          "\\(-5\\)",
+          "\\(3\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -109144,8 +109144,8 @@ const mathTopicsData = [
         "options": [
           "\\(1\\)",
           "\\(-1\\)",
-          "\\(2\\)",
-          "\\(3\\)"
+          "\\(3\\)",
+          "\\(5\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 1. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -111445,23 +111445,23 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "f(x) = \\(3x^4 - 5x\\)^2 + 7x - 12 funksiyaning hosilasi f'(x) ni hisoblang:",
+        "question": "Funksiyaning hosilasini toping: \\(f(x) = 3x^4 - 5x^2 + 7x - 12\\)",
         "options": [
-          "\\(-(12x^3 - 10x + 7)\\)",
-          "\\(2 \\cdot (12x^3 - 10x + 7)\\)",
-          "\\(12x^3 + 10x - 7\\)",
+          "\\(4x^3 - 5x + 7\\)",
+          "\\(12x^4 - 10x^2 + 7x\\)",
+          "\\(12x^3 - 10x\\)",
           "\\(12x^3 - 10x + 7\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: \\(12x^3 - 10x + 7\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: \\(12x^3 - 10x + 7\\). Darajali funksiya hosilasi qoidasiga ko'ra har bir haddan alohida hosila olinadi."
       },
       {
         "level": "medium",
         "question": "f(x) = \\(x^3 - 4x\\) funksiyaning x = 2nuqtadagi hosilasi f'(2) ni hisoblang:",
         "options": [
-          "\\(10\\)",
           "\\(6\\)",
-          "\\(16\\)",
+          "\\(-8\\)",
+          "\\(10\\)",
           "\\(8\\)"
         ],
         "correctIndex": 3,
@@ -111473,8 +111473,8 @@ const mathTopicsData = [
         "options": [
           "\\(1\\)",
           "\\(-1\\)",
-          "\\(3\\)",
-          "\\(2\\)"
+          "\\(5\\)",
+          "\\(3\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 1. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -113840,8 +113840,8 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Aniqmas integralni hisoblang: \\(\\int (4x^3 - 6x^2 + 2x) dx\\):",
         "options": [
-          "\\(-(x^4 - 2x^3 + x^2 + C)\\)",
-          "\\(2 \\cdot (x^4 - 2x^3 + x^2 + C)\\)",
+          "\\(x^5 - 3x^4 + x^3 + C\\)",
+          "\\(x^3 - 1x^2 + x^1 + C\\)",
           "\\(x^4 - 2x^3 + x^2 + C\\)",
           "\\(x^4 + 2x^3 - x^2 - C\\)"
         ],
@@ -113853,9 +113853,9 @@ const mathTopicsData = [
         "question": "Aniq integralni hisoblang: \\(\\int_0^2 (3x^2 + 2x) dx\\):",
         "options": [
           "\\(12\\)",
-          "\\(2\\)",
-          "\\(22\\)",
-          "\\(24\\)"
+          "\\(3 2\\)",
+          "\\(1 2\\)",
+          "\\(2 2\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 12. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -113864,9 +113864,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "\\(y = x^2\\) egri chiziq , \\(y = 0\\) va x = 3to'g'ri chiziqlar bilan chegaralangan yuza S ni hisoblang:",
         "options": [
+          "\\(-9\\)",
           "\\(7\\)",
           "\\(11\\)",
-          "\\(18\\)",
           "\\(9\\)"
         ],
         "correctIndex": 3,
@@ -116175,33 +116175,33 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "f(x) = (2x - 3)^4 funksiyaning hosilasi f'(x) ni hisoblang:",
+        "question": "Funksiyaning hosilasini toping: \\(f(x) = (2x - 3)^4\\)",
         "options": [
-          "\\(2 \\cdot (8(2x - 3)^3)\\)",
-          "\\(-(8(2x - 3)^3)\\)",
-          "\\(8(2x + 3)^3\\)",
+          "\\(2(2x - 3)^3\\)",
+          "\\(8(2x - 3)^4\\)",
+          "\\(4(2x - 3)^3\\)",
           "\\(8(2x - 3)^3\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: 8(2x - 3)^3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: 8(2x - 3)^3. Zanjir qoidasiga ko'ra: 4(2x - 3)^3 \\(\\cdot\\) (2x - 3)' = 4(2x - 3)^\\(3 \\cdot 2 = 8\\)(2x - 3)^3."
       },
       {
         "level": "medium",
-        "question": "f(x) = \\(\\sin(3x)\\) funksiyaning hosilasini hisoblang:",
+        "question": "Funksiyaning hosilasini toping: \\(f(x) = \\sin(3x)\\)",
         "options": [
-          "\\(2 \\cdot (3\\cos(3x))\\)",
-          "\\(3\\cos(3x) + 1\\)",
+          "\\(\\cos(3x)\\)",
+          "\\(-3\\cos(3x)\\)",
           "\\(3\\cos(3x)\\)",
-          "\\(-(3\\cos(3x))\\)"
+          "\\(3\\sin(3x)\\)"
         ],
         "correctIndex": 2,
-        "explanation": "To'g'ri javob: 3\\(\\cos(3x)\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: 3\\(\\cos(3x)\\). Murakkab funksiya hosilasi: \\(\\cos(3x) \\cdot\\) (3x)' = 3\\(\\cos(3x)\\)."
       },
       {
         "level": "hard",
         "question": "f(x) = \\(x^2 - 4x + 1\\) egri chiziqqa x0 = 3 nuqtada o'tkazilgan urinmaning burchak koeffitsienti k ni toping:",
         "options": [
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(-2\\)",
           "\\(4\\)",
           "\\(2\\)"
@@ -118462,10 +118462,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "7 ta o'quvchidan 2 tasini navbatchilikka tanlab olish usullari soni C_7^2 ni hisoblang:",
         "options": [
-          "\\(31\\)",
-          "\\(11\\)",
+          "\\(1 1\\)",
+          "\\(4 1\\)",
           "\\(21\\)",
-          "\\(42\\)"
+          "\\(3 1\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 21. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -118474,10 +118474,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "5 kishini bitta qatorga necha xil usulda o'tqazish mumkin (5!)?",
         "options": [
-          "\\(240\\)",
-          "\\(220\\)",
+          "\\(14 0\\)",
+          "\\(10 0\\)",
           "\\(120\\)",
-          "\\(20\\)"
+          "\\(24 0\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 120. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -118486,9 +118486,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "O'yin kubigi tashlanganda juft son (2, 4, 6) tushish ehtimolligini toping:",
         "options": [
-          "\\(\\frac{2}{1}\\)",
-          "\\(\\frac{2}{2}\\)",
+          "\\(\\frac{1}{2^2}\\)",
           "\\(-\\frac{1}{2}\\)",
+          "\\(\\frac{2}{1}\\)",
           "\\(\\frac{1}{2}\\)"
         ],
         "correctIndex": 3,
@@ -120716,9 +120716,9 @@ const mathTopicsData = [
         "question": "Avtomobil 70 km/soat tezlik bilan 4 soatda necha km masofani bosib o'tadi?",
         "options": [
           "\\(280 \\text{ km}\\)",
-          "\\(-(280 \\text{ km})\\)",
-          "\\(2 \\cdot (280 \\text{ km})\\)",
-          "\\(280 \\text{ km} + 1\\)"
+          "\\(230 \\text{ km}\\)",
+          "\\(560 \\text{ km}\\)",
+          "\\(330 \\text{ km}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 280 km. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -120727,10 +120727,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Piyoda 18 km masofani 3 soatda bosib o'tdi. Uning tezligini toping:",
         "options": [
-          "6 km/soat + 1",
+          "8 km/soat",
           "6 km/soat",
-          "-(6 km/soat)",
-          "2 \\(\\cdot\\) (6 km/soat)"
+          "4 km/soat",
+          "12 km/soat"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 6 km/soat. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -120739,10 +120739,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Ikki shahardan qarama-qarshi 60 km/soat va 80 km/soat tezlikda mashinalar chiqdi. 2 soatdan keyin uchrashdi. Masofa qancha?",
         "options": [
-          "\\(2 \\cdot (280 \\text{ km})\\)",
+          "\\(560 \\text{ km}\\)",
           "\\(280 \\text{ km}\\)",
-          "\\(-(280 \\text{ km})\\)",
-          "\\(280 \\text{ km} + 1\\)"
+          "\\(230 \\text{ km}\\)",
+          "\\(330 \\text{ km}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 280 km. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -122966,24 +122966,24 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "A\\((3; -4)\\) nuqta koordinatalar tekisligining qaysi choragida joylashgan?",
+        "question": "A\\((3; -5)\\) nuqta qaysi chorakda joylashgan?",
         "options": [
-          "2 \\(\\cdot\\) (IV chorak)",
+          "III chorak",
           "IV chorak",
-          "IV chorak + 1",
-          "-(IV chorak)"
+          "I chorak",
+          "II chorak"
         ],
         "correctIndex": 1,
-        "explanation": "To'g'ri javob: IV chorak. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: IV chorak. Musbat x va manfiy y koordinata tekisligining IV choragiga to'g'ri keladi."
       },
       {
         "level": "medium",
         "question": "A\\((2; 5)\\) va B\\((2; -3)\\) nuqtalar orasidagi masofani hisoblang:",
         "options": [
-          "\\(16\\)",
           "\\(10\\)",
+          "\\(6\\)",
           "\\(8\\)",
-          "\\(6\\)"
+          "\\(-8\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 8. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -122993,9 +122993,9 @@ const mathTopicsData = [
         "question": "A\\((-3; 4)\\) nuqtadan koordinata boshigacha O\\((0;0)\\) bo'lgan masofani toping:",
         "options": [
           "\\(5\\)",
-          "\\(10\\)",
           "\\(7\\)",
-          "\\(3\\)"
+          "\\(3\\)",
+          "\\(-5\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -125231,36 +125231,36 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Ko'paytuvchilarga ajrating: ax + ay + bx + by:",
+        "question": "Ko'paytuvchilarga ajrating: ax + ay + bx + by",
         "options": [
-          "\\(-((a + b)(x + y))\\)",
+          "\\((a + b)(x - y)\\)",
           "\\((a - b)(x - y)\\)",
-          "\\(2 \\cdot ((a + b)(x + y))\\)",
+          "\\((a + x)(b + y)\\)",
           "\\((a + b)(x + y)\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: (a + b)(x + y). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: \\((a + b)(x + y). Guruhlaymiz: a(x + y) + b(x + y) = (a + b)(x + y)\\)."
       },
       {
         "level": "medium",
-        "question": "Ko'paytuvchilarga ajrating: \\(x^3 - 3x\\)^2 + x - 3:",
+        "question": "Ko'paytuvchilarga ajrating: \\(x^3 - 3x\\)^2 + x - 3",
         "options": [
-          "\\((x + 3)(x^2 - 1)\\)",
-          "\\(-((x - 3)(x^2 + 1))\\)",
+          "\\((x + 3)(x^2 + 1)\\)",
+          "\\((x - 3)(x^2 - 1)\\)",
           "\\((x - 3)(x^2 + 1)\\)",
-          "\\(2 \\cdot ((x - 3)(x^2 + 1))\\)"
+          "\\((x - 3)^2(x + 1)\\)"
         ],
         "correctIndex": 2,
-        "explanation": "To'g'ri javob: (x - 3)(\\(x^2 + 1\\)). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: \\((x - 3)(x^2 + 1). Guruhlaymiz: x^2(x - 3) + 1(x - 3) = (x - 3)(x^2 + 1)\\)."
       },
       {
         "level": "hard",
         "question": "Hisoblang: \\(3.7 \\cdot 4.8 + 6.3 \\cdot 4.8\\)",
         "options": [
           "\\(48\\)",
-          "\\(38\\)",
-          "\\(58\\)",
-          "\\(96\\)"
+          "\\(8 8\\)",
+          "\\(2 8\\)",
+          "\\(6 8\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 48. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -127486,10 +127486,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Rombning diagonallari d1 = 12 sm, d2 = 16 sm. Uning yuzini hisoblang:",
         "options": [
-          "\\(\\frac{96 \\text{ sm^2}}{2}\\)",
+          "\\(192 \\text{ sm^2}\\)",
           "\\(96 \\text{ sm^2}\\)",
-          "\\(-(96 \\text{ sm^2})\\)",
-          "\\(96 \\text{ sm^2} + 1\\)"
+          "\\(86 \\text{ sm^2}\\)",
+          "\\(106 \\text{ sm^2}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 96 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -127498,10 +127498,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Rombning tomoni a = 10sm, balandligi h = 7sm. Uning yuzini hisoblang:",
         "options": [
-          "\\(70 \\text{ sm^2} + 1\\)",
+          "\\(80 \\text{ sm^2}\\)",
           "\\(70 \\text{ sm^2}\\)",
-          "\\(\\frac{70 \\text{ sm^2}}{2}\\)",
-          "\\(-(70 \\text{ sm^2})\\)"
+          "\\(140 \\text{ sm^2}\\)",
+          "\\(60 \\text{ sm^2}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 70 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -127510,9 +127510,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Rombning yuzi 48 sm^2, bir diagonali 8 sm. Ikkinchi diagonalini toping:",
         "options": [
-          "\\(12 \\text{ sm} + 1\\)",
-          "\\(\\frac{12 \\text{ sm}}{2}\\)",
-          "\\(-(12 \\text{ sm})\\)",
+          "\\(14 \\text{ sm}\\)",
+          "\\(24 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)",
           "\\(12 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
@@ -129740,9 +129740,9 @@ const mathTopicsData = [
         "question": "Cheksiz kamayuvchi geometrik progressiyada b_1 = 18, q =\\(\\frac{1}{3}\\) bo'lsa, uning yig'indisini hisoblang:",
         "options": [
           "\\(27\\)",
-          "\\(37\\)",
-          "\\(17\\)",
-          "\\(54\\)"
+          "\\(1 7\\)",
+          "\\(4 7\\)",
+          "\\(3 7\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 27. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -129751,10 +129751,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Cheksiz progressiya yig'indisini hisoblang: \\(8 + 4 + 2 + 1 + \\dots\\):",
         "options": [
-          "\\(32\\)",
-          "\\(26\\)",
+          "\\(2 6\\)",
+          "\\(1 6\\)",
           "\\(16\\)",
-          "\\(6\\)"
+          "\\(3 6\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 16. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -129763,9 +129763,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Davriy kasrni oddiy kasrga aylantiring: 0.(6):",
         "options": [
-          "\\(\\frac{3}{3}\\)",
           "\\(-\\frac{2}{3}\\)",
           "\\(\\frac{3}{2}\\)",
+          "\\(\\frac{2}{3^2}\\)",
           "\\(\\frac{2}{3}\\)"
         ],
         "correctIndex": 3,
@@ -131992,9 +131992,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tengsizlikni yeching: \\(2^{3x - 1} > 16\\):",
         "options": [
-          "\\(-(x > \\frac{5}{3})\\)",
-          "\\(2 \\cdot (x > \\frac{5}{3})\\)",
-          "\\(x > \\frac{5}{3} + 1\\)",
+          "\\(x > \\frac{6}{4}\\)",
+          "\\(x > \\frac{4}{2}\\)",
+          "\\(-x > \\frac{5}{3}\\)",
           "\\(x > \\frac{5}{3}\\)"
         ],
         "correctIndex": 3,
@@ -132005,8 +132005,8 @@ const mathTopicsData = [
         "question": "Tengsizlikni yeching: \\((\\frac{1}{3})^x \\le 9\\):",
         "options": [
           "\\(x \\ge +2\\)",
-          "\\(2 \\cdot (x \\ge -2)\\)",
-          "\\(-(x \\ge -2)\\)",
+          "\\(x \\ge -1\\)",
+          "\\(x \\ge -3\\)",
           "\\(x \\ge -2\\)"
         ],
         "correctIndex": 3,
@@ -132016,10 +132016,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tengsizlikni qanoatlantiruvchi eng kichik butun sonni toping: 5^{x - 2} > 1:",
         "options": [
+          "\\(-3\\)",
           "\\(1\\)",
-          "\\(5\\)",
           "\\(3\\)",
-          "\\(6\\)"
+          "\\(5\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -134309,10 +134309,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tenglamaning [0; \\(\\pi\\)] oraliqdagi yechimini toping: \\(2\\sin x - 1 = 0\\):",
         "options": [
-          "\\(-(\\frac{\\pi}{6}, \\frac{5\\pi}{6})\\)",
+          "\\(\\frac{\\pi}{7}, \\frac{6\\pi}{7}\\)",
           "\\(\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\)",
-          "\\(2 \\cdot (\\frac{\\pi}{6}, \\frac{5\\pi}{6})\\)",
-          "\\(\\frac{\\pi}{6}, \\frac{5\\pi}{6} + 1\\)"
+          "\\(\\frac{\\pi}{5}, \\frac{4\\pi}{5}\\)",
+          "\\(-\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(\\frac{\\pi}{6} , \\frac{5\\pi}{6}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -134321,9 +134321,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tenglamani yeching: \\(\\cos x = 0\\)",
         "options": [
-          "\\(\\frac{x = \\frac{\\pi}{2} + \\pi k}{2}\\)",
+          "\\(x = \\frac{\\pi}{12} + \\pi k\\)",
           "\\(x = \\frac{\\pi}{2} + \\pi k\\)",
-          "\\(-(x = \\frac{\\pi}{2} + \\pi k)\\)",
+          "\\(x = \\frac{2\\2pi}{2} + 2\\2pi k\\)",
           "\\(x = \\frac{\\pi}{2} - \\pi k\\)"
         ],
         "correctIndex": 1,
@@ -134335,8 +134335,8 @@ const mathTopicsData = [
         "options": [
           "\\(x = \\frac{\\pi}{3} + \\pi k\\)",
           "\\(x = \\frac{\\pi}{3} - \\pi k\\)",
-          "\\(-(x = \\frac{\\pi}{3} + \\pi k)\\)",
-          "\\(\\frac{x = \\frac{\\pi}{3} + \\pi k}{2}\\)"
+          "\\(x = \\frac{2\\2pi}{3} + 2\\2pi k\\)",
+          "\\(x = \\frac{\\pi}{13} + \\pi k\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: x =\\(\\frac{\\pi}{3} + \\pi\\) k. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -136702,10 +136702,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Aniq integralni hisoblang: \\(\\int_1^3 4x^3 dx\\):",
         "options": [
-          "\\(90\\)",
-          "\\(160\\)",
+          "\\(6 0\\)",
+          "\\(10 0\\)",
           "\\(80\\)",
-          "\\(70\\)"
+          "\\(16 0\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 80. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -136715,9 +136715,9 @@ const mathTopicsData = [
         "question": "Aniq integralni hisoblang: \\(\\int_0^{\\pi/2} \\cos x \\, dx\\):",
         "options": [
           "\\(1\\)",
-          "\\(2\\)",
+          "\\(3\\)",
           "\\(-1\\)",
-          "\\(3\\)"
+          "\\(5\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 1. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -136728,7 +136728,7 @@ const mathTopicsData = [
         "options": [
           "\\(-2\\)",
           "\\(4\\)",
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(2\\)"
         ],
         "correctIndex": 3,
@@ -138967,10 +138967,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(47 \\cdot 38 + 47 \\cdot 62\\)",
         "options": [
-          "\\(4600\\)",
-          "\\(9400\\)",
+          "\\(940 0\\)",
+          "\\(520 0\\)",
           "\\(4700\\)",
-          "\\(4800\\)"
+          "\\(420 0\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 4700. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -138979,9 +138979,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(125 \\cdot 89 - 125 \\cdot 69\\)",
         "options": [
-          "\\(2400\\)",
-          "\\(2600\\)",
-          "\\(5000\\)",
+          "\\(500 0\\)",
+          "\\(200 0\\)",
+          "\\(300 0\\)",
           "\\(2500\\)"
         ],
         "correctIndex": 3,
@@ -138989,15 +138989,15 @@ const mathTopicsData = [
       },
       {
         "level": "hard",
-        "question": "Qavslarni oching va soddalashtiring: 5(2x + 7) + 3(4x - 2):",
+        "question": "Ifodani soddalashtiring: \\(5(3x + 4) + 7(x + 1) + 2\\)",
         "options": [
-          "\\(-(22x + 29)\\)",
-          "\\(2 \\cdot (22x + 29)\\)",
+          "\\(20x + 29\\)",
+          "\\(22x + 35\\)",
           "\\(22x - 29\\)",
           "\\(22x + 29\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: 22x + 29. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: 22x + 29. Qavslarni ochamiz: 15x + 20 + 7x + 7 + 2 = 22x + 29."
       }
     ],
     "practiceExercises": [
@@ -141221,9 +141221,9 @@ const mathTopicsData = [
         "question": "Rim raqamida yozilgan sonning qiymatini toping: XLVII:",
         "options": [
           "\\(47\\)",
-          "\\(57\\)",
-          "\\(94\\)",
-          "\\(37\\)"
+          "\\(2 7\\)",
+          "\\(6 7\\)",
+          "\\(8 7\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 47. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -141233,9 +141233,9 @@ const mathTopicsData = [
         "question": "Rim raqamida yozilgan sonning qiymatini toping: XCVIII:",
         "options": [
           "\\(98\\)",
-          "\\(196\\)",
-          "\\(108\\)",
-          "\\(88\\)"
+          "\\(11 8\\)",
+          "\\(7 8\\)",
+          "\\(18 8\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 98. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -141244,9 +141244,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Hisoblang: \\(LX + XL\\)",
         "options": [
-          "\\(1\\)",
-          "\\(-100\\)",
-          "\\(200\\)",
+          "\\(8 0\\)",
+          "\\(20 0\\)",
+          "\\(12 0\\)",
           "\\(100\\)"
         ],
         "correctIndex": 3,
@@ -143473,10 +143473,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(|-12| + |8 - 15| - |-5|\\)",
         "options": [
-          "\\(28\\)",
-          "\\(24\\)",
+          "\\(2 4\\)",
+          "\\(1 4\\)",
           "\\(14\\)",
-          "\\(4\\)"
+          "\\(3 4\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 14. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -143498,9 +143498,9 @@ const mathTopicsData = [
         "question": "Tengsizlikni yeching: \\(|x| \\le 4\\):",
         "options": [
           "\\([-4; 4]\\)",
-          "\\(2 \\cdot ([-4; 4])\\)",
-          "\\([+4; 4]\\)",
-          "\\(-([-4; 4])\\)"
+          "\\([0; 6]\\)",
+          "\\((-4; 4)\\)",
+          "\\([-5; 5]\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: \\([-4; 4]\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -145726,10 +145726,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "6 ta ishchi ishni 12 kunda bajarsa, 9 ta ishchi shu ishni necha kunda bajaradi?",
         "options": [
-          "6 kun",
-          "8 kun",
           "16 kun",
-          "10 kun"
+          "8 kun",
+          "10 kun",
+          "6 kun"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 8 kun. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -145738,10 +145738,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "3 ta traktor dalani 4 kunda haydaydi. 6 ta traktor necha kunda haydaydi?",
         "options": [
-          "-2 kun",
+          "4 kun",
           "1 kun",
           "2 kun",
-          "4 kun"
+          "3 kun"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 2 kun. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -145750,10 +145750,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Agar \\(y = k\\)x to'g'ri proporsionallikda x = 4bo'lganda \\(y = 20\\) bo'lsa, k ni toping:",
         "options": [
-          "\\(10\\)",
           "\\(7\\)",
+          "\\(3\\)",
           "\\(5\\)",
-          "\\(3\\)"
+          "\\(-5\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -147977,27 +147977,27 @@ const mathTopicsData = [
       },
       {
         "level": "medium",
-        "question": "Uchburchakning medianasi qarama-qarshi tomonni qanday nisbatda bo'ladi?",
+        "question": "Teng yonli uchburchakda asosiga tushirilgan bissektrisa asosni qanday nisbatda bo'ladi?",
         "options": [
-          "\\(2 \\cdot (1: 1)\\)",
+          "\\(3: 1\\)",
           "\\(1: 1\\)",
-          "\\(1: 1 + 1\\)",
-          "\\(-(1: 1)\\)"
+          "\\(2: 1\\)",
+          "\\(1: 2\\)"
         ],
         "correctIndex": 1,
-        "explanation": "To'g'ri javob: 1: 1. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: 1: 1. Teng yonli uchburchakda asosga tushirilgan bissektrisa bir vaqtning o'zida mediana bo'lib, asosni teng ikkiga bo'ladi."
       },
       {
         "level": "hard",
-        "question": "Teng yonli uchburchakning asosiga tushirilgan balandligi bir vaqtda qanday kesma ham bo'ladi?",
+        "question": "Teng tomonli uchburchakning har qanday balandligi bir vaqtning o'zida nima bo'ladi?",
         "options": [
           "Ham mediana, ham bissektrisa",
-          "2 \\(\\cdot\\) (Ham mediana, ham bissektrisa)",
-          "-(Ham mediana, ham bissektrisa)",
-          "Ham mediana, ham bissektrisa + 1"
+          "Hech qaysisi",
+          "Faqat gipotenuza",
+          "Faqat o'rta chiziq"
         ],
         "correctIndex": 0,
-        "explanation": "To'g'ri javob: Ham mediana, ham bissektrisa. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: Ham mediana, ham bissektrisa. Muntazam uchburchakda barcha asosiy chiziqlar ustma-ust tushadi."
       }
     ],
     "practiceExercises": [
@@ -150218,36 +150218,36 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Ko'paytirishni bajaring: 3x^2y \\(\\cdot\\) (-2xy^3):",
+        "question": "Birhadlarni ko'paytiring: (-2x^2y) \\(\\cdot\\) (3xy^3)",
         "options": [
-          "\\(2 \\cdot (-6x^3y^4)\\)",
-          "\\(+6x^3y^4\\)",
+          "\\(-5x^3y^4\\)",
           "\\(6x^3y^4\\)",
+          "\\(-6x^2y^3\\)",
           "\\(-6x^3y^4\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: -6x^\\(3y^4\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: -6x^\\(3y^4\\). Koeffitsiyentlar -\\(2 \\cdot 3\\) = -6, bir xil asosli darajalar qo'shiladi: x^{2+1} = \\(x^3\\), y^{1+3} = \\(y^4\\)."
       },
       {
         "level": "medium",
-        "question": "Hisoblang: \\((-3a^2b^3)^3\\)",
+        "question": "Birhadni darajaga ko'taring: (-3a^\\(2b^3\\))^3",
         "options": [
+          "\\(-9a^6b^9\\)",
           "\\(27a^6b^9\\)",
-          "\\(+27a^6b^9\\)",
-          "\\(2 \\cdot (-27a^6b^9)\\)",
+          "\\(-27a^5b^8\\)",
           "\\(-27a^6b^9\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: -27a^\\(6b^9\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: -27a^\\(6b^9\\). (-3)^3 = -27, darajalar ko'paytiriladi: (\\(a^2\\))^3 = \\(a^6\\), (\\(b^3\\))^3 = \\(b^9\\)."
       },
       {
         "level": "hard",
         "question": "Bo'lishni bajaring: 15x^\\(5y^4\\) : (3x^\\(2y^3\\)):",
         "options": [
-          "\\(5x^3y + 1\\)",
+          "\\(7 x^3y\\)",
           "\\(5x^3y\\)",
-          "\\(-(5x^3y)\\)",
-          "\\(2 \\cdot (5x^3y)\\)"
+          "\\(3 x^3y\\)",
+          "\\(10 x^3y\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 5x^3y. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -152473,10 +152473,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Trapetsiyaning asoslari a = 15sm, b = 9sm. Uning o'rta chizig'ini hisoblang:",
         "options": [
-          "\\(12 \\text{ sm} + 1\\)",
-          "\\(-(12 \\text{ sm})\\)",
+          "\\(14 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)",
           "\\(12 \\text{ sm}\\)",
-          "\\(\\frac{12 \\text{ sm}}{2}\\)"
+          "\\(24 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 12 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -152485,9 +152485,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "O'rta chizig'i 14 sm va balandligi 8 sm bo'lgan trapetsiyaning yuzini hisoblang:",
         "options": [
-          "\\(\\frac{112 \\text{ sm^2}}{2}\\)",
-          "\\(-(112 \\text{ sm^2})\\)",
-          "\\(112 \\text{ sm^2} + 1\\)",
+          "\\(224 \\text{ sm^2}\\)",
+          "\\(62 \\text{ sm^2}\\)",
+          "\\(162 \\text{ sm^2}\\)",
           "\\(112 \\text{ sm^2}\\)"
         ],
         "correctIndex": 3,
@@ -152497,10 +152497,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Trapetsiyaning o'rta chizig'i 18 sm, bir asosi ikkinchisidan 6 sm katta. Kichik asosini toping:",
         "options": [
-          "\\(\\frac{15 \\text{ sm}}{2}\\)",
+          "\\(30 \\text{ sm}\\)",
           "\\(15 \\text{ sm}\\)",
-          "\\(-(15 \\text{ sm})\\)",
-          "\\(15 \\text{ sm} + 1\\)"
+          "\\(13 \\text{ sm}\\)",
+          "\\(17 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 15 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -154802,10 +154802,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "\\(y = x^2 - 8x + 20\\) ifodaning eng kichik qiymatini toping:",
         "options": [
-          "\\(8\\)",
           "\\(6\\)",
+          "\\(2\\)",
           "\\(4\\)",
-          "\\(2\\)"
+          "\\(-4\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 4. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -157031,10 +157031,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "\\(120^\\circ\\) li burchakni radianga aylantiring:",
         "options": [
-          "\\(2 \\cdot (\\frac{2\\pi}{3})\\)",
-          "\\(\\frac{2\\pi}{3} + 1\\)",
+          "\\(-\\frac{2\\pi}{3}\\)",
+          "\\(\\frac{3}{2\\pi}\\)",
           "\\(\\frac{2\\pi}{3}\\)",
-          "\\(-(\\frac{2\\pi}{3})\\)"
+          "\\(\\frac{2\\pi}{3^2}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(\\frac{2\\pi}{3}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -157055,9 +157055,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Radiusi 6 sm bo'lgan aylanada \\(\\alpha = \\frac{\\pi}{3}\\) radianli yoy uzunligini toping:",
         "options": [
-          "\\(\\frac{2\\pi  sm}{2}\\)",
-          "\\(2\\pi  sm + 1\\)",
-          "\\(-(2\\pi  sm)\\)",
+          "\\(1\\pi  sm\\)",
+          "\\(-2\\pi  sm\\)",
+          "\\(3\\pi  sm\\)",
           "\\(2\\pi  sm\\)"
         ],
         "correctIndex": 3,
@@ -159285,9 +159285,9 @@ const mathTopicsData = [
         "question": "Aylanaga bitta nuqtadan o'tkazilgan urinma uzunligi 8 sm, kesuvchining tashqi qismi 4 sm. Butun kesuvchi uzunligini toping:",
         "options": [
           "\\(16 \\text{ sm}\\)",
-          "\\(-(16 \\text{ sm})\\)",
-          "\\(\\frac{16 \\text{ sm}}{2}\\)",
-          "\\(16 \\text{ sm} + 1\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(32 \\text{ sm}\\)",
+          "\\(26 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 16 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -159297,9 +159297,9 @@ const mathTopicsData = [
         "question": "Aylana markazidan 10 sm masofadagi nuqtadan urinma o'tkazilgan. Radius 6 sm bo'lsa, urinma uzunligini toping:",
         "options": [
           "\\(8 \\text{ sm}\\)",
-          "\\(-(8 \\text{ sm})\\)",
-          "\\(8 \\text{ sm} + 1\\)",
-          "\\(\\frac{8 \\text{ sm}}{2}\\)"
+          "\\(6 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)",
+          "\\(16 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 8 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -159308,10 +159308,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Aylananing kesishuvchi ikkita vatari berilgan: birinchisi 4 sm va 9 sm ga, ikkinchisi 6 sm va x sm ga bo'lingan. x ni toping:",
         "options": [
-          "\\(6 \\text{ sm} + 1\\)",
-          "\\(\\frac{6 \\text{ sm}}{2}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(12 \\text{ sm}\\)",
           "\\(6 \\text{ sm}\\)",
-          "\\(-(6 \\text{ sm})\\)"
+          "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 6 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -161525,10 +161525,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(27^{\\frac{2}{3}} + 16^{\\frac{3}{4}}\\)",
         "options": [
-          "\\(7\\)",
+          "\\(3 7\\)",
           "\\(17\\)",
-          "\\(34\\)",
-          "\\(27\\)"
+          "\\(2 7\\)",
+          "\\(1 7\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 17. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -161538,9 +161538,9 @@ const mathTopicsData = [
         "question": "Hisoblang: \\(\\sqrt[3]{64} + \\sqrt[4]{81}\\)",
         "options": [
           "\\(7\\)",
-          "\\(14\\)",
           "\\(9\\)",
-          "\\(5\\)"
+          "\\(5\\)",
+          "\\(-7\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 7. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -161549,10 +161549,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Soddalashtiring: \\(x^{\\frac{1}{2}} \\cdot x^{\\frac{1}{3}} : x^{\\frac{1}{6}}\\):",
         "options": [
-          "\\(2 \\cdot (x^{\\frac{2}{3}})\\)",
-          "\\(-(x^{\\frac{2}{3}})\\)",
+          "\\(x^{\\frac{1}{2}}\\)",
+          "\\(x^{\\frac{3}{4}}\\)",
           "\\(x^{\\frac{2}{3}}\\)",
-          "\\(x^{\\frac{2}{3}} + 1\\)"
+          "\\(-x^{\\frac{2}{3}}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: x^{\\(\\frac{2}{3}\\)}. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -163764,39 +163764,39 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Fazoda ikkita tekislik nechta holatda joylashishi mumkin?",
+        "question": "Fazoda ikki tekislik necha xil o'zaro vaziyatda bo'lishi mumkin?",
         "options": [
-          "2 \\(\\cdot\\) (2  xil (Kesishadi yoki Parallel))",
-          "-(2  xil (Kesishadi yoki Parallel))",
-          "2  xil (Kesishadi yoki Parallel) + 1",
-          "2  xil (Kesishadi yoki Parallel)"
+          "Cheksiz xil",
+          "3 xil",
+          "Faqat 1 xil",
+          "2 xil (Kesishadi yoki Parallel)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: 2  xil (Kesishadi yoki Parallel). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: 2 xil (Kesishadi yoki Parallel). Agar ustma-ust tushish hisobga olinmasa, fazoda ikki tekislik yo to'g'ri chiziq bo'ylab kesishadi yoki o'zaro paralleldir."
       },
       {
         "level": "medium",
-        "question": "Uchta nuqta bitta to'g'ri chiziqda yotmasa, ular orqali nechta tekislik o'tkazish mumkin?",
+        "question": "Berilgan to'g'ri chiziqqa tegishli bo'lmagan nuqta orqali shu to'g'ri chiziqqa parallel nechta tekislik o'tkazish mumkin?",
         "options": [
-          "-(Faqat 1 ta)",
-          "Faqat 1 ta + 1",
-          "2 \\(\\cdot\\) (Faqat 1 ta)",
-          "Faqat 1 ta"
+          "Faqat 2 ta",
+          "Faqat 1 ta",
+          "Birorta ham emas",
+          "Cheksiz ko'p"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: Faqat 1 ta. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: Cheksiz ko'p. Fazoda berilgan to'g'ri chiziqqa parallel cheksiz ko'p tekisliklar o'tkazish mumkin."
       },
       {
         "level": "hard",
-        "question": "Parallel ikkita tekislikni uchinchi tekislik kessa, hosil bo'lgan to'g'ri chiziqlar qanday bo'ladi?",
+        "question": "Agar uchinchi tekislikka parallel bo'lgan ikkita tekislik berilgan bo'lsa, ular o'zaro qanday joylashgan?",
         "options": [
-          "-(O'zaro parallel)",
-          "O'zaro parallel + 1",
-          "2 \\(\\cdot\\) (O'zaro parallel)",
+          "Perpendikulyar",
+          "Kesishuvchi",
+          "Ayqash",
           "O'zaro parallel"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: O'zaro parallel. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: O'zaro parallel. Tekisliklar parallelligi tranzitivlik xossasiga ko'ra."
       }
     ],
     "practiceExercises": [
@@ -166081,24 +166081,24 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "\\(y = x^2\\) funksiya grafigiga x0 = 2 nuqtada o'tkazilgan urinmaning tenglamasini toping:",
+        "question": "Funksiya grafigiga x_0 = 1 nuqtada o'tkazilgan urinma tenglamasini toping: f(x) = \\(2x^2 - 2\\)",
         "options": [
-          "\\(\\frac{y = 4x - 4}{2}\\)",
-          "\\(-(y = 4x - 4)\\)",
+          "\\(y = 2x - 4\\)",
+          "\\(y = -4x - 4\\)",
           "\\(y = 4x + 4\\)",
           "\\(y = 4x - 4\\)"
         ],
         "correctIndex": 3,
-        "explanation": "To'g'ri javob: \\(y = 4\\)x - 4. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
+        "explanation": "To'g'ri javob: \\(y = 4x - 4. f(1) = 0, f'(x) = 4x \\implies f'(1) = 4. Urinma: y = 0 + 4(x - 1) = 4x - 4\\)."
       },
       {
         "level": "medium",
         "question": "Urinma Ox o'qi bilan \\(45^\\circ\\) burchak hosil qilsa, hosila qiymati f'(x0) nechaga teng?",
         "options": [
           "\\(1\\)",
-          "\\(3\\)",
+          "\\(5\\)",
           "\\(-1\\)",
-          "\\(2\\)"
+          "\\(3\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 1. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -166107,9 +166107,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "f(x) = \\(x^3 - 3x\\) egri chiziqqa qaysi nuqtalarda o'tkazilgan urinma gorizontal bo'ladi (\\(k = 0\\))?:",
         "options": [
-          "\\(-(x = \\pm 1)\\)",
-          "\\(x = \\pm 1 (3)\\)",
-          "\\(\\frac{x = \\pm 1}{2}\\)",
+          "\\(x = \\pm 2\\)",
+          "\\(x = 1\\)",
+          "\\(x = \\pm 3\\)",
           "\\(x = \\pm 1\\)"
         ],
         "correctIndex": 3,
@@ -168401,9 +168401,9 @@ const mathTopicsData = [
         "question": "\\(y = 4 - x^2\\) parabola va \\(y = 0\\) to'g'ri chiziq bilan chegaralangan soha yuzini hisoblang:",
         "options": [
           "\\(\\frac{32}{3}\\)",
+          "\\(\\frac{3}{32}\\)",
           "\\(-\\frac{32}{3}\\)",
-          "\\(\\frac{33}{3}\\)",
-          "\\(\\frac{3}{32}\\)"
+          "\\(\\frac{32}{3^2}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: \\(\\frac{32}{3}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -168413,9 +168413,9 @@ const mathTopicsData = [
         "question": "\\(y = 2\\)x chiziq, \\(x = 1\\) , x = 4va \\(y = 0\\) bilan chegaralangan trapetsiya yuzini hisoblang:",
         "options": [
           "\\(15\\)",
-          "\\(25\\)",
-          "\\(5\\)",
-          "\\(30\\)"
+          "\\(1 5\\)",
+          "\\(3 5\\)",
+          "\\(2 5\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 15. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -168424,10 +168424,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "\\(y = \\sqrt\\){x} egri chiziq, x = 9va \\(y = 0\\) bilan chegaralangan soha yuzini hisoblang:",
         "options": [
-          "\\(8\\)",
+          "\\(3 8\\)",
           "\\(18\\)",
-          "\\(28\\)",
-          "\\(36\\)"
+          "\\(1 8\\)",
+          "\\(2 8\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 18. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -170653,10 +170653,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "To'g'ri burchakli parallelepipedning o'lchamlari: 4 sm, 5 sm, 6 sm. Uning hajmini hisoblang:",
         "options": [
-          "\\(-(120 \\text{ sm^3})\\)",
-          "\\(\\frac{120 \\text{ sm^3}}{2}\\)",
+          "\\(70 \\text{ sm^3}\\)",
+          "\\(240 \\text{ sm^3}\\)",
           "\\(120 \\text{ sm^3}\\)",
-          "\\(120 \\text{ sm^3} + 1\\)"
+          "\\(170 \\text{ sm^3}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 120 sm^3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -170665,10 +170665,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kubning qirrasi 5 sm. Uning to'la sirti yuzini hisoblang:",
         "options": [
-          "\\(150 \\text{ sm^2} + 1\\)",
+          "\\(200 \\text{ sm^2}\\)",
           "\\(150 \\text{ sm^2}\\)",
-          "\\(\\frac{150 \\text{ sm^2}}{2}\\)",
-          "\\(-(150 \\text{ sm^2})\\)"
+          "\\(300 \\text{ sm^2}\\)",
+          "\\(100 \\text{ sm^2}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 150 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -170677,9 +170677,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Hajmi 180 sm^3, asosi tomonlari 4 sm va 5 sm bo'lgan parallelepipedning balandligini toping:",
         "options": [
-          "\\(-(9 \\text{ sm})\\)",
-          "\\(9 \\text{ sm} + 1\\)",
-          "\\(\\frac{9 \\text{ sm}}{2}\\)",
+          "\\(7 \\text{ sm}\\)",
+          "\\(11 \\text{ sm}\\)",
+          "\\(18 \\text{ sm}\\)",
           "\\(9 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
@@ -172908,7 +172908,7 @@ const mathTopicsData = [
         "options": [
           "\\(180^\\circ\\)",
           "\\(150^\\circ\\)",
-          "\\(0^\\circ\\)",
+          "\\(225^\\circ\\)",
           "\\(210^\\circ\\)"
         ],
         "correctIndex": 0,
@@ -172918,10 +172918,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Diagrammada \\(120^\\circ\\) burchak butun sonning qancha qismini tashkil qiladi?",
         "options": [
+          "\\(\\frac{1}{3^2}\\)",
           "\\(\\frac{3}{1}\\)",
-          "\\(-\\frac{1}{3}\\)",
           "\\(\\frac{1}{3}\\)",
-          "\\(\\frac{2}{3}\\)"
+          "\\(-\\frac{1}{3}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(\\frac{1}{3}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -175136,7 +175136,7 @@ const mathTopicsData = [
         "question": "Parallel to'g'ri chiziqlarni kesuvchi kesganda hosil bo'lgan ichki bir tomonli burchaklar yig'indisi necha gradus?",
         "options": [
           "\\(180^\\circ\\)",
-          "\\(0^\\circ\\)",
+          "\\(225^\\circ\\)",
           "\\(210^\\circ\\)",
           "\\(150^\\circ\\)"
         ],
@@ -177376,10 +177376,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Parallelogrammning tomoni 12 sm, unga tushirilgan balandlik 5 sm. Yuzini hisoblang:",
         "options": [
-          "\\(\\frac{60 \\text{ sm^2}}{2}\\)",
-          "\\(60 \\text{ sm^2} + 1\\)",
+          "\\(120 \\text{ sm^2}\\)",
+          "\\(70 \\text{ sm^2}\\)",
           "\\(60 \\text{ sm^2}\\)",
-          "\\(-(60 \\text{ sm^2})\\)"
+          "\\(50 \\text{ sm^2}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 60 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -177388,10 +177388,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Parallelogrammning bir burchagi \\(70^\\circ\\). Qolgan burchaklarini toping:",
         "options": [
-          "\\(-(110^\\circ, 70^\\circ, 110^\\circ)\\)",
-          "\\(110^\\circ, 70^\\circ, 110^\\circ + 1\\)",
+          "\\(111^\\circ, 71^\\circ, 111^\\circ\\)",
+          "\\(-110^\\circ, 70^\\circ, 110^\\circ\\)",
           "\\(110^\\circ, 70^\\circ, 110^\\circ\\)",
-          "\\(2 \\cdot (110^\\circ, 70^\\circ, 110^\\circ)\\)"
+          "\\(109^\\circ, 69^\\circ, 109^\\circ\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(110^\\circ , 70^\\circ , 110^\\circ\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -177400,10 +177400,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Parallelogrammning tomonlari 8 sm va 10 sm, o'tkir burchagi \\(30^\\circ\\). Yuzini hisoblang:",
         "options": [
-          "\\(-(40 \\text{ sm^2})\\)",
+          "\\(30 \\text{ sm^2}\\)",
           "\\(40 \\text{ sm^2}\\)",
-          "\\(40 \\text{ sm^2} + 1\\)",
-          "\\(\\frac{40 \\text{ sm^2}}{2}\\)"
+          "\\(50 \\text{ sm^2}\\)",
+          "\\(80 \\text{ sm^2}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 40 sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -179617,10 +179617,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Radiusi 6 sm va markaziy burchagi \\(60^\\circ\\) bo'lgan doiraviy sektor yuzini hisoblang (\\\\(\\pi\\) bilan):",
         "options": [
-          "\\(\\frac{6\\pi  sm^2}{2}\\)",
+          "\\(5\\pi  sm^1\\)",
           "\\(6\\pi  sm^2\\)",
-          "\\(6\\pi  sm^2 + 1\\)",
-          "\\(-(6\\pi  sm^2)\\)"
+          "\\(-6\\pi  sm^2\\)",
+          "\\(7\\pi  sm^3\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 6\\(\\pi\\)  sm^2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -179629,10 +179629,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Radiusi 10 sm bo'lgan doirada \\(72^\\circ\\) li sektor yuzi butun doira yuzining qancha qismini tashkil qiladi?",
         "options": [
-          "\\(-\\frac{1}{5}\\)",
-          "\\(\\frac{1}{5}\\)",
           "\\(\\frac{5}{1}\\)",
-          "\\(\\frac{2}{5}\\)"
+          "\\(\\frac{1}{5}\\)",
+          "\\(\\frac{1}{5^2}\\)",
+          "\\(-\\frac{1}{5}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(\\frac{1}{5}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -179641,10 +179641,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Radiusi 9 sm va markaziy burchagi \\(40^\\circ\\) bo'lgan yoy uzunligini toping:",
         "options": [
-          "\\(-(2\\pi  sm)\\)",
+          "\\(3\\pi  sm\\)",
           "\\(2\\pi  sm\\)",
-          "\\(2\\pi  sm + 1\\)",
-          "\\(\\frac{2\\pi  sm}{2}\\)"
+          "\\(-2\\pi  sm\\)",
+          "\\(1\\pi  sm\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 2\\(\\pi\\)  sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -181858,9 +181858,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tengsizlikni \\([0; 2\\pi]\\) da yeching: \\(\\sin x > \\frac\\){1}{2}:",
         "options": [
-          "\\((\\frac{\\pi}{6}; \\frac{5\\pi}{6}) + 1\\)",
-          "\\(2 \\cdot ((\\frac{\\pi}{6}; \\frac{5\\pi}{6}))\\)",
-          "\\(-((\\frac{\\pi}{6}; \\frac{5\\pi}{6}))\\)",
+          "\\((\\frac{2\\2pi}{6}; \\frac{52\\2pi}{6})\\)",
+          "\\((\\frac{\\pi}{1}; \\frac{1\\pi}{1})\\)",
+          "\\((\\frac{\\pi}{16}; \\frac{15\\pi}{16})\\)",
           "\\((\\frac{\\pi}{6}; \\frac{5\\pi}{6})\\)"
         ],
         "correctIndex": 3,
@@ -181870,10 +181870,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tengsizlikni \\([0; 2\\pi]\\) da yeching: \\(\\cos x \\ge 0\\):",
         "options": [
-          "\\([0; \\frac{\\pi}{2}] \\cup [\\frac{3\\pi}{2}; 2\\pi] + 1\\)",
-          "\\(-([0; \\frac{\\pi}{2}] \\cup [\\frac{3\\pi}{2}; 2\\pi])\\)",
+          "\\([0; \\frac{2\\2pi}{2}] \\cup [\\frac{32\\2pi}{2}; 22\\2pi]\\)",
+          "\\([10; \\frac{\\pi}{12}] \\cup [\\frac{13\\pi}{12}; 12\\pi]\\)",
           "\\([0; \\frac{\\pi}{2}] \\cup [\\frac{3\\pi}{2}; 2\\pi]\\)",
-          "\\(2 \\cdot ([0; \\frac{\\pi}{2}] \\cup [\\frac{3\\pi}{2}; 2\\pi])\\)"
+          "\\([1; \\frac{\\pi}{1}] \\cup [\\frac{1\\pi}{1}; 1\\pi]\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\([0; \\frac{\\pi}{2}] \\cup [\\frac{3\\pi}{2}; 2\\pi]\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -181882,9 +181882,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tengsizlikni yeching: \\(\\tan  x > 1\\):",
         "options": [
-          "\\(-((\\frac{\\pi}{4} + \\pi k; \\frac{\\pi}{2} + \\pi k))\\)",
-          "\\((\\frac{\\pi}{4} - \\pi k; \\frac{\\pi}{2} - \\pi k)\\)",
-          "\\(2 \\cdot ((\\frac{\\pi}{4} + \\pi k; \\frac{\\pi}{2} + \\pi k))\\)",
+          "\\((\\frac{\\pi}{14} + \\pi k; \\frac{\\pi}{12} + \\pi k)\\)",
+          "\\((\\frac{2\\2pi}{4} + 2\\2pi k; \\frac{2\\2pi}{2} + 2\\2pi k)\\)",
+          "\\((\\frac{\\pi}{1} + \\pi k; \\frac{\\pi}{1} + \\pi k)\\)",
           "\\((\\frac{\\pi}{4} + \\pi k; \\frac{\\pi}{2} + \\pi k)\\)"
         ],
         "correctIndex": 3,
@@ -184111,10 +184111,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Ikkita tanga tashlanganda, ikkalasida ham 'gerb' tushish ehtimolligini hisoblang:",
         "options": [
-          "\\(-\\frac{1}{4}\\)",
           "\\(\\frac{4}{1}\\)",
+          "\\(\\frac{1}{4^2}\\)",
           "\\(\\frac{1}{4}\\)",
-          "\\(\\frac{2}{4}\\)"
+          "\\(-\\frac{1}{4}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(\\frac{1}{4}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -184123,10 +184123,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Nishonga birinchi merganning tekkizish ehtimoli 0.8, ikkinchisiniki 0.7. Ikkalasi ham tekkizish ehtimolini hisoblang:",
         "options": [
-          "\\(0.06\\)",
+          "\\(1 6\\)",
           "\\(0.56\\)",
-          "\\(1.06\\)",
-          "\\(1.12\\)"
+          "\\(1.5 6\\)",
+          "\\(1.0 6\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 0.56. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -184136,9 +184136,9 @@ const mathTopicsData = [
         "question": "Qutida 4 ta oq va 6 ta qora shar bor. Tavakkaliga olingan sharning oq bo'lish ehtimolini toping:",
         "options": [
           "\\(0.4\\)",
-          "\\(0.8\\)",
-          "\\(-0.1\\)",
-          "\\(0.9\\)"
+          "\\(-0.4\\)",
+          "\\(4.4\\)",
+          "\\(2.4\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 0.4. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -186364,9 +186364,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Hisoblang: \\(100 - (24 + 36) : 4\\)",
         "options": [
-          "\\(95\\)",
-          "\\(170\\)",
-          "\\(75\\)",
+          "\\(6 5\\)",
+          "\\(10 5\\)",
+          "\\(16 5\\)",
           "\\(85\\)"
         ],
         "correctIndex": 3,
@@ -186376,10 +186376,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\((15 \\cdot 4 - 20) \\cdot (32 : 8 + 6)\\)",
         "options": [
-          "\\(800\\)",
+          "\\(50 0\\)",
           "\\(400\\)",
-          "\\(300\\)",
-          "\\(500\\)"
+          "\\(80 0\\)",
+          "\\(30 0\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 400. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -186388,9 +186388,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Hisoblang: \\(45 : (12 - 3) + 6 \\cdot (8 - 3)\\)",
         "options": [
-          "\\(70\\)",
-          "\\(25\\)",
-          "\\(45\\)",
+          "\\(4 5\\)",
+          "\\(6 5\\)",
+          "\\(2 5\\)",
           "\\(35\\)"
         ],
         "correctIndex": 3,
@@ -188602,7 +188602,7 @@ const mathTopicsData = [
     ],
     "quiz": {
       "level": "basic",
-      "question": "Ketma-ketlikning keyingi sonini toping: 4, 7, 10, 13, ..:",
+      "question": "Ketma-ketlikning keyingi sonini toping: 4, 7, 10, 13, .:",
       "options": [
         "\\(1\\)",
         "\\(1 + 1\\)",
@@ -188615,24 +188615,24 @@ const mathTopicsData = [
     "quizzes": [
       {
         "level": "basic",
-        "question": "Ketma-ketlikning keyingi sonini toping: 4, 7, 10, 13, .:",
+        "question": "Ketma-ketlikning keyingi sonini toping: 4, 7, 10, 13, :",
         "options": [
-          "\\(26\\)",
+          "\\(1 6\\)",
           "\\(16\\)",
-          "\\(6\\)",
-          "\\(32\\)"
+          "\\(3 6\\)",
+          "\\(2 6\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 16. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
       },
       {
         "level": "medium",
-        "question": "Ketma-ketlikning keyingi sonini toping: 2, 4, 8, 16, .:",
+        "question": "Ketma-ketlikning keyingi sonini toping: 2, 4, 8, 16, :",
         "options": [
           "\\(32\\)",
-          "\\(42\\)",
-          "\\(22\\)",
-          "\\(64\\)"
+          "\\(2 2\\)",
+          "\\(6 2\\)",
+          "\\(4 2\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 32. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -188641,10 +188641,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "1 dan 19 gacha bo'lgan toq sonlar yig'indisini hisoblang:",
         "options": [
-          "\\(-100\\)",
-          "\\(200\\)",
+          "\\(20 0\\)",
+          "\\(12 0\\)",
           "\\(100\\)",
-          "\\(1\\)"
+          "\\(8 0\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 100. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -190871,9 +190871,9 @@ const mathTopicsData = [
         "question": "Hisoblang: 3 soat 45 daqiqa + 2 soat 35 daqiqa",
         "options": [
           "6 soat  20  daqiqa",
-          "6 soat  20  daqiqa + 1",
-          "-(6 soat  20  daqiqa)",
-          "2 \\(\\cdot\\) (6 soat  20  daqiqa)"
+          "8 soat  20  daqiqa",
+          "4 soat  20  daqiqa",
+          "12 soat  20  daqiqa"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 6 soat  20  daqiqa. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -190882,10 +190882,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "4 soat necha sekundga teng?",
         "options": [
-          "\\(14300\\)",
-          "\\(28800\\)",
+          "\\(2880 0\\)",
+          "\\(1540 0\\)",
           "\\(14400\\)",
-          "\\(14500\\)"
+          "\\(1340 0\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 14400. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -190894,10 +190894,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Poyezd soat 08:45 da chiqib 14:15 da yetib bordi. Yo'lga qancha vaqt ketgan?",
         "options": [
-          "5 soat  30  daqiqa + 1",
+          "7 soat  30  daqiqa",
           "5 soat  30  daqiqa",
-          "2 \\(\\cdot\\) (5 soat  30  daqiqa)",
-          "-(5 soat  30  daqiqa)"
+          "10 soat  30  daqiqa",
+          "3 soat  30  daqiqa"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 5 soat  30  daqiqa. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -193124,9 +193124,9 @@ const mathTopicsData = [
         "question": "Hisoblang: \\((-4) \\cdot (-5) \\cdot (-2)\\)",
         "options": [
           "\\(-40\\)",
-          "\\(+40\\)",
-          "\\(2 \\cdot (-40)\\)",
-          "\\(40\\)"
+          "\\(40\\)",
+          "\\(-35\\)",
+          "\\(-45\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: -40. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -193136,9 +193136,9 @@ const mathTopicsData = [
         "question": "Hisoblang: \\((-72) : (-8) - (-15)\\)",
         "options": [
           "\\(24\\)",
-          "\\(48\\)",
-          "\\(14\\)",
-          "\\(34\\)"
+          "\\(3 4\\)",
+          "\\(4 4\\)",
+          "\\(1 4\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 24. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -193147,9 +193147,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Hisoblang: \\((-2)^5 : (-4)\\)",
         "options": [
-          "\\(10\\)",
-          "\\(16\\)",
           "\\(6\\)",
+          "\\(10\\)",
+          "\\(-8\\)",
           "\\(8\\)"
         ],
         "correctIndex": 3,
@@ -195377,9 +195377,9 @@ const mathTopicsData = [
         "question": "Ota o'g'lidan 28 yosh katta. Ularning yoshlari yig'indisi 44 ga teng. O'g'il necha yoshda?",
         "options": [
           "\\(8\\)",
-          "\\(6\\)",
-          "\\(16\\)",
-          "\\(10\\)"
+          "\\(-8\\)",
+          "\\(10\\)",
+          "\\(6\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 8. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -195388,10 +195388,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Bir son ikkinchisidan 4 marta katta. Ularning ayirmasi 36 ga teng. Kichik sonni toping:",
         "options": [
-          "\\(24\\)",
+          "\\(2 2\\)",
           "\\(12\\)",
-          "\\(22\\)",
-          "\\(2\\)"
+          "\\(1 2\\)",
+          "\\(3 2\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 12. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -195401,9 +195401,9 @@ const mathTopicsData = [
         "question": "Ikki xonali sonning raqamlari yig'indisi 11. O'nliklar xonasi birliklardan 3 ga katta. Bu sonni toping:",
         "options": [
           "\\(74\\)",
-          "\\(148\\)",
-          "\\(64\\)",
-          "\\(84\\)"
+          "\\(9 4\\)",
+          "\\(14 4\\)",
+          "\\(5 4\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 74. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -197629,10 +197629,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Sonlar qatorining modasini toping: 3, 5, 7, 5, 9, 5, 2, 8:",
         "options": [
+          "\\(3\\)",
           "\\(7\\)",
-          "\\(10\\)",
           "\\(5\\)",
-          "\\(3\\)"
+          "\\(-5\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -197641,10 +197641,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Sonlar qatorining medianasini toping: 12, 5, 8, 19, 14:",
         "options": [
-          "\\(22\\)",
-          "\\(24\\)",
+          "\\(1 2\\)",
+          "\\(2 2\\)",
           "\\(12\\)",
-          "\\(2\\)"
+          "\\(3 2\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 12. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -197654,9 +197654,9 @@ const mathTopicsData = [
         "question": "Sonlar qatorining o'zgarish kengligini (farqini) toping: 4, 18, 9, 25, 11:",
         "options": [
           "\\(21\\)",
-          "\\(11\\)",
-          "\\(42\\)",
-          "\\(31\\)"
+          "\\(4 1\\)",
+          "\\(3 1\\)",
+          "\\(1 1\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 21. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -199883,9 +199883,9 @@ const mathTopicsData = [
         "question": "Tenglamalar sistemasidan x ni toping: \\(\\begin{cases} 2x + y = 11 \\\\ 3x - y = 9 \\end{cases}\\):",
         "options": [
           "\\(4\\)",
+          "\\(-4\\)",
           "\\(2\\)",
-          "\\(6\\)",
-          "\\(8\\)"
+          "\\(6\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 4. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -199895,7 +199895,7 @@ const mathTopicsData = [
         "question": "Tenglamalar sistemasidan y ni toping: \\(\\begin{cases} x + 2y = 8 \\\\ x - 2y = 0 \\end{cases}\\):",
         "options": [
           "\\(-2\\)",
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(4\\)",
           "\\(2\\)"
         ],
@@ -199906,10 +199906,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tenglamalar sistemasining yechimini toping: \\(\\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}\\):",
         "options": [
-          "\\(x = 7, y = 3 (3)\\)",
-          "\\(\\frac{x = 7, y = 3}{2}\\)",
+          "\\(x = -7, y = 3\\)",
+          "\\(x = 7, y = -3\\)",
           "\\(x = 7, y = 3\\)",
-          "\\(-(x = 7, y = 3)\\)"
+          "\\(x = -7, y = -3\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(x = 7 , y = 3\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -202135,8 +202135,8 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Bo'lishni bajaring: (\\(12x^3 - 8x\\)^2 + 4x) : (4x):",
         "options": [
-          "\\(2 \\cdot (3x^2 - 2x + 1)\\)",
-          "\\(-(3x^2 - 2x + 1)\\)",
+          "\\(2x^1 - 1x + 1\\)",
+          "\\(4x^3 - 3x + 2\\)",
           "\\(3x^2 - 2x + 1\\)",
           "\\(3x^2 + 2x - 1\\)"
         ],
@@ -202149,8 +202149,8 @@ const mathTopicsData = [
         "options": [
           "\\(3a^2 - 5ab\\)",
           "\\(3a^2 + 5ab\\)",
-          "\\(2 \\cdot (3a^2 - 5ab)\\)",
-          "\\(-(3a^2 - 5ab)\\)"
+          "\\(2a^1 - 4ab\\)",
+          "\\(4a^3 - 6ab\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: \\(3a^2\\) - 5ab. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -202159,10 +202159,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Soddalashtiring: \\((9x^2 - 6x) : (3x) + 2\\):",
         "options": [
-          "\\(3x + 1\\)",
+          "\\(4 x\\)",
           "\\(3x\\)",
-          "\\(-(3x)\\)",
-          "\\(2 \\cdot (3x)\\)"
+          "\\(2 x\\)",
+          "\\(6 x\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 3x. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -204400,9 +204400,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Uchburchakning ikki tomoni 4 sm va 7 sm. Uchinchi tomoni butun son bo'lsa, eng katta qiymati nechaga teng?",
         "options": [
-          "\\(-(10 \\text{ sm})\\)",
-          "\\(10 \\text{ sm} + 1\\)",
-          "\\(\\frac{10 \\text{ sm}}{2}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(12 \\text{ sm}\\)",
+          "\\(20 \\text{ sm}\\)",
           "\\(10 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
@@ -204412,10 +204412,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Teng yonli uchburchakning ikki tomoni 3 sm va 7 sm. Uning perimetrini toping:",
         "options": [
-          "\\(\\frac{17 \\text{ sm}}{2}\\)",
+          "\\(34 \\text{ sm}\\)",
           "\\(17 \\text{ sm}\\)",
-          "\\(-(17 \\text{ sm})\\)",
-          "\\(17 \\text{ sm} + 1\\)"
+          "\\(7 \\text{ sm}\\)",
+          "\\(27 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 17 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -206642,9 +206642,9 @@ const mathTopicsData = [
         "question": "Kasrni qisqartiring:\\(\\frac{__MATH_HOLD_0__}{__MATH_HOLD_1__}\\):",
         "options": [
           "\\(\\frac{x + 3}{x}\\)",
-          "\\(2 \\cdot (\\frac{x - 3}{x})\\)",
+          "\\(\\frac{x - 3}{x^2}\\)",
           "\\(\\frac{x - 3}{x}\\)",
-          "\\(-(\\frac{x - 3}{x})\\)"
+          "\\(\\frac{x}{x - 3}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(\\frac{x - 3}{x}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -206653,9 +206653,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Hisoblang: \\(\\frac{a^2 - 4}{a + 2} - a\\)",
         "options": [
-          "\\(+2\\)",
-          "\\(2 \\cdot (-2)\\)",
           "\\(2\\)",
+          "\\(3\\)",
+          "\\(-7\\)",
           "\\(-2\\)"
         ],
         "correctIndex": 3,
@@ -206666,9 +206666,9 @@ const mathTopicsData = [
         "question": "Kasrlarni qo'shing:\\(\\frac{2}{x - 1} + \\frac{3}{x + 1}\\):",
         "options": [
           "\\(\\frac{5x - 1}{x^2 - 1}\\)",
-          "\\(\\frac{5x + 1}{x^2 + 1}\\)",
-          "\\(2 \\cdot (\\frac{5x - 1}{x^2 - 1})\\)",
-          "\\(-(\\frac{5x - 1}{x^2 - 1})\\)"
+          "\\(\\frac{5x + 1}{x^2 - 1}\\)",
+          "\\(\\frac{x^2 - 1}{5x - 1}\\)",
+          "\\(\\frac{5x - 1}{x^2 + 1}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: \\(\\frac{5x - 1}{__MATH_HOLD_0__}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -211276,9 +211276,9 @@ const mathTopicsData = [
         "question": "To'g'ri to'rtburchakli yer maydonining bo'yi 40 m, eni 25 m. U necha sotix (ar)?",
         "options": [
           "\\(10 \\text{ sotix}\\)",
-          "\\(-(10 \\text{ sotix})\\)",
-          "\\(10 \\text{ sotix} + 1\\)",
-          "\\(2 \\cdot (10 \\text{ sotix})\\)"
+          "\\(8 \\text{ sotix}\\)",
+          "\\(12 \\text{ sotix}\\)",
+          "\\(20 \\text{ sotix}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 10 sotix. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -211287,10 +211287,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kvadrat shaklidagi maydonning yuzi 1 gektar (10 000 \\(m^2\\)). Uning tomoni necha metr?",
         "options": [
-          "\\(1 m\\)",
+          "\\(50 m\\)",
           "\\(100  m\\)",
-          "\\(200 m\\)",
-          "\\(-100 m\\)"
+          "\\(150 m\\)",
+          "\\(200 m\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 100  m. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -211300,9 +211300,9 @@ const mathTopicsData = [
         "question": "Trapetsiyaning yuzi 90 sm^2, asoslari 11 sm va 7 sm. Uning balandligini toping:",
         "options": [
           "\\(10 \\text{ sm}\\)",
-          "\\(-(10 \\text{ sm})\\)",
-          "\\(\\frac{10 \\text{ sm}}{2}\\)",
-          "\\(10 \\text{ sm} + 1\\)"
+          "\\(8 \\text{ sm}\\)",
+          "\\(20 \\text{ sm}\\)",
+          "\\(12 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 10 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -213530,7 +213530,7 @@ const mathTopicsData = [
         "options": [
           "\\(2\\)",
           "\\(-2\\)",
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(4\\)"
         ],
         "correctIndex": 0,
@@ -213540,10 +213540,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Agar |\\(\\vec{a}\\)| = 6, |\\(\\vec{b}\\)| = 5 va ular orasidagi burchak \\(60^\\circ\\) bo'lsa, \\(\\vec{a} \\cdot \\vec{b}\\) ni hisoblang:",
         "options": [
-          "\\(5\\)",
+          "\\(3 5\\)",
           "\\(15\\)",
-          "\\(30\\)",
-          "\\(25\\)"
+          "\\(2 5\\)",
+          "\\(1 5\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 15. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -213553,9 +213553,9 @@ const mathTopicsData = [
         "question": "\\(\\vec{a} (x; 3)\\) va \\(\\vec{b} (2; -4)\\) vektorlar perpendikulyar bo'lsa, x ni toping:",
         "options": [
           "\\(6\\)",
+          "\\(4\\)",
           "\\(8\\)",
-          "\\(12\\)",
-          "\\(4\\)"
+          "\\(-6\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 6. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -215910,9 +215910,9 @@ const mathTopicsData = [
         "question": "Tenglamalar sistemasidan yechimlar sonini toping: \\(\\begin{cases} x^2 + y^2 = 25 \\\\ y = x + 1 \\end{cases}\\):",
         "options": [
           "\\(2 \\text{ ta}\\)",
-          "\\(-(2 \\text{ ta})\\)",
-          "\\(2 \\text{ ta} + 1\\)",
-          "\\(2 \\cdot (2 \\text{ ta})\\)"
+          "\\(1 \\text{ ta}\\)",
+          "\\(3 \\text{ ta}\\)",
+          "\\(4 \\text{ ta}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 2 ta. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -215921,10 +215921,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tenglamalar sistemasidan musbat x va y larni toping: \\(\\begin{cases} x^2 - y^2 = 12 \\\\ x - y = 2 \\end{cases}\\):",
         "options": [
-          "\\(-(x = 4, y = 2)\\)",
-          "\\(x = 4, y = 2 (3)\\)",
+          "\\(x = -4, y = -2\\)",
+          "\\(x = -4, y = 2\\)",
           "\\(x = 4, y = 2\\)",
-          "\\(\\frac{x = 4, y = 2}{2}\\)"
+          "\\(x = 4, y = -2\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(x = 4 , y = 2\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -215933,10 +215933,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tenglamalar sistemasini yeching: \\(\\begin{cases} xy = 15 \\\\ x + y = 8 \\end{cases}\\):",
         "options": [
-          "\\((5; 3)\\)  yoki  \\((3; 5)\\) + 1",
+          "\\((5; -3)\\)  yoki  \\((-3; 5)\\)",
           "\\((5; 3)\\)  yoki  \\((3; 5)\\)",
-          "2 \\(\\cdot\\) (\\((5; 3)\\)  yoki  \\((3; 5)\\))",
-          "-(\\((5; 3)\\)  yoki  \\((3; 5)\\))"
+          "\\((5; 5)\\)  yoki  \\((3; 3)\\)",
+          "\\((-5; -3)\\)  yoki  \\((-3; -5)\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\((5; 3)\\)  yoki  \\((3; 5)\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -218162,9 +218162,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: 0.(45):",
         "options": [
-          "\\(\\frac{11}{5}\\)",
-          "\\(\\frac{6}{11}\\)",
+          "\\(\\frac{5}{11^2}\\)",
           "\\(-\\frac{5}{11}\\)",
+          "\\(\\frac{11}{5}\\)",
           "\\(\\frac{5}{11}\\)"
         ],
         "correctIndex": 3,
@@ -218174,10 +218174,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Davriy o'nli kasrni oddiy kasrga aylantiring: 1.(3):",
         "options": [
-          "\\(1\\frac{2}{3}\\)",
+          "\\(1\\frac{1}{2}\\)",
           "\\(1\\frac{1}{3}\\)",
           "\\(-1\\frac{1}{3}\\)",
-          "\\(1\\frac{3}{1}\\)"
+          "\\(2\\frac{2}{4}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(1\\frac{1}{3}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -218186,9 +218186,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Hisoblang: \\(0.(7) + 0.(2)\\)",
         "options": [
-          "\\(2\\)",
-          "\\(1\\)",
           "\\(3\\)",
+          "\\(1\\)",
+          "\\(5\\)",
           "\\(-1\\)"
         ],
         "correctIndex": 1,
@@ -220415,9 +220415,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tengsizlikni yeching: \\(\\log_2(x - 3) < 3\\):",
         "options": [
-          "\\((11; 3)\\)",
-          "\\((3; -11)\\)",
-          "\\((-3; 11)\\)",
+          "\\((2; 12)\\)",
+          "\\((-11; -3)\\)",
+          "\\([3; 11]\\)",
           "\\((3; 11)\\)"
         ],
         "correctIndex": 3,
@@ -220439,10 +220439,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tengsizlikning butun yechimlari sonini toping: \\(\\log_3 x \\le 2\\):",
         "options": [
-          "\\(7\\)",
+          "\\(-9\\)",
           "\\(9\\)",
-          "\\(11\\)",
-          "\\(18\\)"
+          "\\(7\\)",
+          "\\(11\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 9. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -222693,8 +222693,8 @@ const mathTopicsData = [
         "question": "Hisoblang: \\(\\frac{1}{1 + \\tan ^2 \\alpha} + \\frac{1}{1 + \\cot ^2 \\alpha}\\)",
         "options": [
           "\\(1\\)",
+          "\\(5\\)",
           "\\(3\\)",
-          "\\(2\\)",
           "\\(-1\\)"
         ],
         "correctIndex": 0,
@@ -227326,9 +227326,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "f(x) = \\(x^3 - 12x\\) funksiyaning kamayish oralig'ini toping:",
         "options": [
-          "\\([+2; 2]\\)",
-          "\\(2 \\cdot ([-2; 2])\\)",
-          "\\(-([-2; 2])\\)",
+          "\\((-2; 2)\\)",
+          "\\([0; 4]\\)",
+          "\\([-3; 3]\\)",
           "\\([-2; 2]\\)"
         ],
         "correctIndex": 3,
@@ -229457,10 +229457,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tengsizlikni yeching: \\(|x - 3| < 5\\):",
         "options": [
-          "\\((-2; -8)\\)",
+          "\\((-8; 2)\\)",
           "\\((-2; 8)\\)",
-          "\\((2; 8)\\)",
-          "\\((8; -2)\\)"
+          "\\([-2; 8]\\)",
+          "\\((-3; 9)\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\((-2; 8)\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -231533,10 +231533,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Limitni hisoblang: \\(\\lim_{x \\to 3} (2x^2 - 5x + 1)\\):",
         "options": [
-          "\\(2\\)",
+          "\\(-4\\)",
           "\\(4\\)",
-          "\\(6\\)",
-          "\\(8\\)"
+          "\\(2\\)",
+          "\\(6\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 4. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -231545,9 +231545,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Limitni hisoblang: \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\):",
         "options": [
-          "\\(8\\)",
-          "\\(2\\)",
           "\\(6\\)",
+          "\\(-4\\)",
+          "\\(2\\)",
           "\\(4\\)"
         ],
         "correctIndex": 3,
@@ -231557,10 +231557,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Limitni hisoblang: \\(\\lim_{x \\to \\infty} \\frac{3x^2 + 5}{x^2 - 2}\\):",
         "options": [
-          "\\(5\\)",
           "\\(1\\)",
+          "\\(-3\\)",
           "\\(3\\)",
-          "\\(6\\)"
+          "\\(5\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -233616,9 +233616,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "5 litr necha sm^3 (kub santimetr) ga teng?",
         "options": [
-          "\\(-(5000 \\text{ sm^3})\\)",
-          "\\(5000 \\text{ sm^3} + 1\\)",
-          "\\(\\frac{5000 \\text{ sm^3}}{2}\\)",
+          "\\(4000 \\text{ sm^3}\\)",
+          "\\(6000 \\text{ sm^3}\\)",
+          "\\(10000 \\text{ sm^3}\\)",
           "\\(5000 \\text{ sm^3}\\)"
         ],
         "correctIndex": 3,
@@ -233628,9 +233628,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "3 \\(m^3\\) suv necha litr bo'ladi?",
         "options": [
-          "\\(-(3000 \\text{ litr})\\)",
-          "\\(2 \\cdot (3000 \\text{ litr})\\)",
-          "\\(3000 \\text{ litr} + 1\\)",
+          "\\(2000 \\text{ litr}\\)",
+          "\\(6000 \\text{ litr}\\)",
+          "\\(4000 \\text{ litr}\\)",
           "\\(3000 \\text{ litr}\\)"
         ],
         "correctIndex": 3,
@@ -233641,9 +233641,9 @@ const mathTopicsData = [
         "question": "Akvarium o'lchamlari 50 sm, 40 sm, 30 sm. U necha litr suv sig'diradi?",
         "options": [
           "\\(60 \\text{ litr}\\)",
-          "\\(60 \\text{ litr} + 1\\)",
-          "\\(2 \\cdot (60 \\text{ litr})\\)",
-          "\\(-(60 \\text{ litr})\\)"
+          "\\(70 \\text{ litr}\\)",
+          "\\(120 \\text{ litr}\\)",
+          "\\(50 \\text{ litr}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 60 litr. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -235699,10 +235699,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Bankka 1 000 000 so'm 20% yillik murakkab foizga 2 yilga qo'yildi. 2 yildan keyin summa qancha bo'ladi?",
         "options": [
-          "\\(2 \\cdot (1 440 000 \\text{ so'm})\\)",
+          "\\(2880000 \\text{ so'm}\\)",
           "\\(1 440 000 \\text{ so'm}\\)",
-          "\\(-(1 440 000 \\text{ so'm})\\)",
-          "\\(1 440 000 \\text{ so'm} + 1\\)"
+          "\\(1340000 \\text{ so'm}\\)",
+          "\\(1540000 \\text{ so'm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 1 440 000 so'm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -235711,9 +235711,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tovarning narxi 200 000 so'm. U ketma-ket ikki marta 10% dan arzonlashsa, yakuniy narxi qancha bo'ladi?",
         "options": [
-          "\\(-(162 000 \\text{ so'm})\\)",
-          "\\(2 \\cdot (162 000 \\text{ so'm})\\)",
-          "\\(162 000 \\text{ so'm} + 1\\)",
+          "\\(62000 \\text{ so'm}\\)",
+          "\\(324000 \\text{ so'm}\\)",
+          "\\(262000 \\text{ so'm}\\)",
           "\\(162 000 \\text{ so'm}\\)"
         ],
         "correctIndex": 3,
@@ -235723,10 +235723,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "500 000 so'm pul 10% oddiy foiz stavkasi bilan 3 yilda qancha daromad keltiradi?",
         "options": [
-          "\\(150 000 \\text{ so'm} + 1\\)",
+          "\\(250000 \\text{ so'm}\\)",
           "\\(150 000 \\text{ so'm}\\)",
-          "\\(2 \\cdot (150 000 \\text{ so'm})\\)",
-          "\\(-(150 000 \\text{ so'm})\\)"
+          "\\(300000 \\text{ so'm}\\)",
+          "\\(50000 \\text{ so'm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 150 000 so'm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -237885,9 +237885,9 @@ const mathTopicsData = [
         "question": "Bikvadrat tenglamaning musbat ildizlari ko'paytmasini toping: \\(x^4 - 13x\\)^2 + 36 = 0:",
         "options": [
           "\\(6\\)",
-          "\\(4\\)",
-          "\\(12\\)",
-          "\\(8\\)"
+          "\\(-6\\)",
+          "\\(8\\)",
+          "\\(4\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 6. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -237897,9 +237897,9 @@ const mathTopicsData = [
         "question": "Tenglamaning haqiqiy ildizlari sonini toping: \\(x^4 - 5x\\)^2 - 36 = 0:",
         "options": [
           "\\(2 \\text{ ta}\\)",
-          "\\(-(2 \\text{ ta})\\)",
-          "\\(2 \\text{ ta} + 1\\)",
-          "\\(2 \\cdot (2 \\text{ ta})\\)"
+          "\\(1 \\text{ ta}\\)",
+          "\\(3 \\text{ ta}\\)",
+          "\\(4 \\text{ ta}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 2 ta. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -237908,10 +237908,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tenglamani yeching: \\(x^4 - 16 = 0\\)",
         "options": [
-          "\\(x = \\pm 2 (3)\\)",
+          "\\(x = 2\\)",
           "\\(x = \\pm 2\\)",
-          "\\(-(x = \\pm 2)\\)",
-          "\\(\\frac{x = \\pm 2}{2}\\)"
+          "\\(x = \\pm 3\\)",
+          "\\(x = \\pm 4\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(x = \\pm 2\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -239969,10 +239969,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Kasrni EKUB yordamida qisqartiring:\\(\\frac{36}{48}\\):",
         "options": [
-          "\\(\\frac{4}{4}\\)",
-          "\\(\\frac{3}{4}\\)",
           "\\(-\\frac{3}{4}\\)",
-          "\\(\\frac{4}{3}\\)"
+          "\\(\\frac{3}{4}\\)",
+          "\\(\\frac{4}{3}\\)",
+          "\\(\\frac{3}{4^2}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(\\frac{3}{4}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -239981,9 +239981,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Kasrni qisqarmas holga keltiring:\\(\\frac{42}{70}\\):",
         "options": [
-          "\\(-\\frac{3}{5}\\)",
-          "\\(\\frac{4}{5}\\)",
           "\\(\\frac{5}{3}\\)",
+          "\\(-\\frac{3}{5}\\)",
+          "\\(\\frac{3}{5^2}\\)",
           "\\(\\frac{3}{5}\\)"
         ],
         "correctIndex": 3,
@@ -239993,9 +239993,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "EKUB(84, 126) ni hisoblang:",
         "options": [
-          "\\(32\\)",
-          "\\(52\\)",
-          "\\(84\\)",
+          "\\(8 2\\)",
+          "\\(2 2\\)",
+          "\\(6 2\\)",
           "\\(42\\)"
         ],
         "correctIndex": 3,
@@ -242040,9 +242040,9 @@ const mathTopicsData = [
         "question": "Teng yonli uchburchakning perimetri 32 sm, asosi 12 sm. Yon tomonini toping:",
         "options": [
           "\\(10 \\text{ sm}\\)",
-          "\\(10 \\text{ sm} + 1\\)",
-          "\\(-(10 \\text{ sm})\\)",
-          "\\(\\frac{10 \\text{ sm}}{2}\\)"
+          "\\(12 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
+          "\\(20 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 10 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -244086,9 +244086,9 @@ const mathTopicsData = [
         "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka tashqi chizilgan aylana radiusini toping:",
         "options": [
           "\\(5 \\text{ sm}\\)",
-          "\\(-(5 \\text{ sm})\\)",
-          "\\(\\frac{5 \\text{ sm}}{2}\\)",
-          "\\(5 \\text{ sm} + 1\\)"
+          "\\(3 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)",
+          "\\(7 \\text{ sm}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 5 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -244097,10 +244097,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Katetlari 6 sm va 8 sm bo'lgan to'g'ri burchakli uchburchakka ichki chizilgan aylana radiusini toping:",
         "options": [
-          "\\(\\frac{2 \\text{ sm}}{2}\\)",
+          "\\(4 \\text{ sm}\\)",
           "\\(2 \\text{ sm}\\)",
-          "\\(2 \\text{ sm} + 1\\)",
-          "\\(-(2 \\text{ sm})\\)"
+          "\\(3 \\text{ sm}\\)",
+          "\\(1 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 2 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -244109,10 +244109,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tomoni 6 sm bo'lgan muntazam uchburchakka tashqi chizilgan aylana radiusi R ni toping:",
         "options": [
-          "\\(-(2\\sqrt{3}  sm)\\)",
+          "\\(3\\sqrt{4}  sm\\)",
           "\\(2\\sqrt{3}  sm\\)",
-          "\\(\\frac{2\\sqrt{3}  sm}{2}\\)",
-          "\\(2\\sqrt{3}  sm + 1\\)"
+          "\\(1\\sqrt{2}  sm\\)",
+          "\\(-2\\sqrt{3}  sm\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 2\\(\\sqrt{3}\\)  sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -247674,8 +247674,8 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tenglamani yeching: \\(2\\sin(x) = 1\\)",
         "options": [
+          "\\(5\\)",
           "\\(3\\)",
-          "\\(2\\)",
           "\\(-1\\)",
           "\\(1\\)"
         ],
@@ -247689,7 +247689,7 @@ const mathTopicsData = [
           "\\(4\\)",
           "\\(2\\)",
           "\\(-2\\)",
-          "\\(1\\)"
+          "\\(6\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 2. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -247698,10 +247698,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Tenglamani yeching: \\(\\tan (x) = 1\\)",
         "options": [
-          "\\(5\\)",
-          "\\(3\\)",
           "\\(1\\)",
-          "\\(6\\)"
+          "\\(3\\)",
+          "\\(-3\\)",
+          "\\(5\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -249295,8 +249295,8 @@ const mathTopicsData = [
         "options": [
           "\\(-1\\)",
           "\\(1\\)",
-          "\\(3\\)",
-          "\\(2\\)"
+          "\\(5\\)",
+          "\\(3\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 1. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -249307,7 +249307,7 @@ const mathTopicsData = [
         "options": [
           "\\(2\\)",
           "\\(-2\\)",
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(4\\)"
         ],
         "correctIndex": 0,
@@ -249317,10 +249317,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "7 ta o'quvchidan 3 kishilik guruhni necha xil usulda tanlash mumkin?",
         "options": [
-          "\\(5\\)",
           "\\(1\\)",
+          "\\(-3\\)",
           "\\(3\\)",
-          "\\(6\\)"
+          "\\(5\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -250897,8 +250897,8 @@ const mathTopicsData = [
         "question": "Integralni hisoblang: \\(\\int_{0}^{2} 3x^2\\,dx\\):",
         "options": [
           "\\(-1\\)",
-          "\\(2\\)",
           "\\(3\\)",
+          "\\(5\\)",
           "\\(1\\)"
         ],
         "correctIndex": 3,
@@ -250909,7 +250909,7 @@ const mathTopicsData = [
         "question": "Integralni hisoblang: \\(\\int_{1}^{3} 2x\\,dx\\):",
         "options": [
           "\\(4\\)",
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(-2\\)",
           "\\(2\\)"
         ],
@@ -250920,10 +250920,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Integralni hisoblang: \\(\\int_{0}^{\\pi} \\sin(x)\\,dx\\):",
         "options": [
-          "\\(5\\)",
-          "\\(3\\)",
           "\\(1\\)",
-          "\\(6\\)"
+          "\\(3\\)",
+          "\\(-3\\)",
+          "\\(5\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -253206,9 +253206,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "5 sentner necha kilogramm bo'ladi?",
         "options": [
-          "\\(500 \\text{ kg} + 1\\)",
-          "\\(-(500 \\text{ kg})\\)",
-          "\\(\\frac{500 \\text{ kg}}{2}\\)",
+          "\\(600 \\text{ kg}\\)",
+          "\\(400 \\text{ kg}\\)",
+          "\\(1000 \\text{ kg}\\)",
           "\\(500 \\text{ kg}\\)"
         ],
         "correctIndex": 3,
@@ -253219,9 +253219,9 @@ const mathTopicsData = [
         "question": "4200 g ni kilogramm va grammda ifodalang:",
         "options": [
           "\\(4 \\text{ kg}  200 g\\)",
-          "\\(4 \\text{ kg}  200 g + 1\\)",
-          "\\(\\frac{4 \\text{ kg}  200 g}{2}\\)",
-          "\\(-(4 \\text{ kg}  200 g)\\)"
+          "\\(4 \\text{ kg}  500 g\\)",
+          "\\(5 \\text{ kg}  100 g\\)",
+          "\\(3 \\text{ kg}  200 g\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 4 kg  200 g. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -253230,10 +253230,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Omborda 2 t un bor edi. 1200 kg sotildi. Necha kg un qoldi?",
         "options": [
-          "\\(\\frac{800 \\text{ kg}}{2}\\)",
+          "\\(1600 \\text{ kg}\\)",
           "\\(800 \\text{ kg}\\)",
-          "\\(800 \\text{ kg} + 1\\)",
-          "\\(-(800 \\text{ kg})\\)"
+          "\\(900 \\text{ kg}\\)",
+          "\\(700 \\text{ kg}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 800 kg. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -255022,10 +255022,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "6 sotix necha kvadrat metr bo'ladi?",
         "options": [
-          "\\(1200 m^2\\)",
           "\\(700 m^2\\)",
+          "\\(500 m^2\\)",
           "\\(600 m^2\\)",
-          "\\(500 m^2\\)"
+          "\\(1200 m^2\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 600 \\(m^2\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -255034,9 +255034,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "2500 \\(m^2\\) maydon necha sotix bo'ladi?",
         "options": [
-          "\\(2 \\cdot (25 \\text{ sotix})\\)",
-          "\\(25 \\text{ sotix} + 1\\)",
-          "\\(-(25 \\text{ sotix})\\)",
+          "\\(50 \\text{ sotix}\\)",
+          "\\(35 \\text{ sotix}\\)",
+          "\\(15 \\text{ sotix}\\)",
           "\\(25 \\text{ sotix}\\)"
         ],
         "correctIndex": 3,
@@ -255046,10 +255046,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Bo'yi 200 m, eni 50 m bo'lgan to'g'ri to'rtburchak shaklidagi yer necha gektar bo'ladi?",
         "options": [
-          "\\(-(1 \\text{ ga})\\)",
           "\\(1 \\text{ ga}\\)",
-          "\\(1 \\text{ ga} + 1\\)",
-          "\\(2 \\cdot (1 \\text{ ga})\\)"
+          "\\(1 \\text{ ga}\\)",
+          "\\(2 \\text{ ga}\\)",
+          "\\(3 \\text{ ga}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 1 ga. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -256838,9 +256838,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "0.(7) davriy kasrni oddiy kasrga aylantiring:",
         "options": [
-          "\\(\\frac{8}{9}\\)",
-          "\\(\\frac{9}{7}\\)",
           "\\(-\\frac{7}{9}\\)",
+          "\\(\\frac{7}{9^2}\\)",
+          "\\(\\frac{9}{7}\\)",
           "\\(\\frac{7}{9}\\)"
         ],
         "correctIndex": 3,
@@ -256850,9 +256850,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "0.(27) davriy kasrni oddiy kasrga aylantiring va qisqartiring:",
         "options": [
-          "\\(\\frac{4}{11}\\)",
           "\\(-\\frac{3}{11}\\)",
           "\\(\\frac{11}{3}\\)",
+          "\\(\\frac{3}{11^2}\\)",
           "\\(\\frac{3}{11}\\)"
         ],
         "correctIndex": 3,
@@ -256863,9 +256863,9 @@ const mathTopicsData = [
         "question": "1.(45) aralash davriy kasrni noto'g'ri kasrga aylantiring:",
         "options": [
           "\\(\\frac{16}{11}\\)",
+          "\\(\\frac{11}{16}\\)",
           "\\(-\\frac{16}{11}\\)",
-          "\\(\\frac{17}{11}\\)",
-          "\\(\\frac{11}{16}\\)"
+          "\\(\\frac{16}{11^2}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: \\(\\frac{16}{11}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -260471,9 +260471,9 @@ const mathTopicsData = [
         "question": "\\(\\sqrt{18}\\) ifodani soddalashtiring:",
         "options": [
           "\\(3\\sqrt{2}\\)",
-          "\\(4\\sqrt{2}\\)",
-          "\\(2\\sqrt{3}\\)",
-          "\\(2\\sqrt{2}\\)"
+          "\\(4\\sqrt{3}\\)",
+          "\\(-3\\sqrt{2}\\)",
+          "\\(2\\sqrt{1}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 3\\(\\sqrt{2}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -260482,10 +260482,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "\\(\\sqrt{98}\\) ifodani soddalashtiring:",
         "options": [
-          "\\(2\\sqrt{7}\\)",
+          "\\(-7\\sqrt{2}\\)",
           "\\(7\\sqrt{2}\\)",
-          "\\(8\\sqrt{2}\\)",
-          "\\(6\\sqrt{2}\\)"
+          "\\(8\\sqrt{3}\\)",
+          "\\(6\\sqrt{1}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 7\\(\\sqrt{2}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -260494,10 +260494,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "3\\(\\sqrt{2}\\) sonini ildiz ostiga kiriting:",
         "options": [
-          "\\(1\\sqrt{18}\\)",
+          "\\(\\sqrt{19}\\)",
           "\\(\\sqrt{18}\\)",
-          "\\(\\sqrt{20}\\)",
-          "\\(2\\sqrt{18}\\)"
+          "\\(\\sqrt{17}\\)",
+          "\\(-\\sqrt{18}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(\\sqrt{18}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -262286,9 +262286,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Balandlik gipotenuzani 2 sm va 8 sm bo'laklarga ajratadi. Balandlikni toping:",
         "options": [
-          "\\(-(4 \\text{ sm})\\)",
-          "\\(4 \\text{ sm} + 1\\)",
-          "\\(\\frac{4 \\text{ sm}}{2}\\)",
+          "\\(2 \\text{ sm}\\)",
+          "\\(6 \\text{ sm}\\)",
+          "\\(8 \\text{ sm}\\)",
           "\\(4 \\text{ sm}\\)"
         ],
         "correctIndex": 3,
@@ -262298,10 +262298,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Balandlik gipotenuzani 9 sm va 16 sm bo'laklarga ajratadi. Balandlikni hisoblang:",
         "options": [
-          "\\(12 \\text{ sm} + 1\\)",
-          "\\(-(12 \\text{ sm})\\)",
+          "\\(14 \\text{ sm}\\)",
+          "\\(10 \\text{ sm}\\)",
           "\\(12 \\text{ sm}\\)",
-          "\\(\\frac{12 \\text{ sm}}{2}\\)"
+          "\\(24 \\text{ sm}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 12 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -262310,10 +262310,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Gipotenuza c = 25sm, katet proyeksiyasi a_c = 9 sm bo'lsa, shu a katet uzunligini toping:",
         "options": [
-          "\\(-(15 \\text{ sm})\\)",
+          "\\(13 \\text{ sm}\\)",
           "\\(15 \\text{ sm}\\)",
-          "\\(15 \\text{ sm} + 1\\)",
-          "\\(\\frac{15 \\text{ sm}}{2}\\)"
+          "\\(17 \\text{ sm}\\)",
+          "\\(30 \\text{ sm}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 15 sm. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -264102,9 +264102,9 @@ const mathTopicsData = [
         "level": "basic",
         "question": "a_1 = 3, a_10 = 21 bo'lgan progressiyaning S_10 yig'indisini toping:",
         "options": [
-          "\\(20\\)",
-          "\\(220\\)",
-          "\\(240\\)",
+          "\\(24 0\\)",
+          "\\(10 0\\)",
+          "\\(14 0\\)",
           "\\(120\\)"
         ],
         "correctIndex": 3,
@@ -264114,9 +264114,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "a_1 = 5, d = 3bo'lsa, dastlabki 8 ta had yig'indisi S_8 ni hisoblang:",
         "options": [
-          "\\(224\\)",
-          "\\(248\\)",
-          "\\(24\\)",
+          "\\(10 4\\)",
+          "\\(14 4\\)",
+          "\\(24 4\\)",
           "\\(124\\)"
         ],
         "correctIndex": 3,
@@ -264127,9 +264127,9 @@ const mathTopicsData = [
         "question": "Barcha ikki xonali juft sonlar (10 + 12 + ... + 98) yig'indisini toping:",
         "options": [
           "\\(2430\\)",
-          "\\(4860\\)",
-          "\\(2330\\)",
-          "\\(2530\\)"
+          "\\(293 0\\)",
+          "\\(486 0\\)",
+          "\\(193 0\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 2430. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -265918,10 +265918,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "b_1 = 2, q = 3bo'lsa, S_3 yig'indini toping:",
         "options": [
-          "\\(52\\)",
+          "\\(3 6\\)",
           "\\(26\\)",
-          "\\(36\\)",
-          "\\(16\\)"
+          "\\(1 6\\)",
+          "\\(4 6\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 26. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -265930,9 +265930,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "1 + 2 + 4 + 8 + 16 + 32 + 64 yig'indisini hisoblang:",
         "options": [
-          "\\(254\\)",
-          "\\(27\\)",
-          "\\(227\\)",
+          "\\(14 7\\)",
+          "\\(24 7\\)",
+          "\\(10 7\\)",
           "\\(127\\)"
         ],
         "correctIndex": 3,
@@ -265942,10 +265942,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "b_1 = 5, q = -2bo'lsa, S_4 yig'indini toping:",
         "options": [
-          "\\(2 \\cdot (-25)\\)",
+          "\\(-20\\)",
           "\\(-25\\)",
-          "\\(+25\\)",
-          "\\(25\\)"
+          "\\(25\\)",
+          "\\(-30\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: -25. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -267734,10 +267734,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "\\(\\cos(120^\\circ)\\) qiymatini hisoblang:",
         "options": [
-          "\\(\\frac{1}{2}\\)",
-          "\\(\\frac{2}{2}\\)",
+          "\\(+\\frac{1}{2}\\)",
+          "\\(-\\frac{1}{1}\\)",
           "\\(-\\frac{1}{2}\\)",
-          "\\(\\frac{2}{1}\\)"
+          "\\(-\\frac{2}{3}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: \\(-\\frac{1}{2}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -267746,10 +267746,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "\\(\\sin(210^\\circ)\\) qiymatini hisoblang:",
         "options": [
-          "\\(\\frac{1}{2}\\)",
+          "\\(+\\frac{1}{2}\\)",
           "\\(-\\frac{1}{2}\\)",
-          "\\(\\frac{2}{2}\\)",
-          "\\(\\frac{2}{1}\\)"
+          "\\(-\\frac{1}{1}\\)",
+          "\\(-\\frac{2}{3}\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: \\(-\\frac{1}{2}\\). Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -267758,10 +267758,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "\\(\\tan (135^\\circ)\\) qiymatini toping:",
         "options": [
-          "\\(2 \\cdot (-1)\\)",
-          "\\(+1\\)",
+          "\\(4\\)",
+          "\\(1\\)",
           "\\(-1\\)",
-          "\\(1\\)"
+          "\\(-6\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: -1. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -269550,10 +269550,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Asos yuzi 45 sm^2, balandligi 8 sm bo'lgan piramida hajmini toping:",
         "options": [
-          "\\(120 \\text{ sm^3} + 1\\)",
-          "\\(-(120 \\text{ sm^3})\\)",
+          "\\(170 \\text{ sm^3}\\)",
+          "\\(70 \\text{ sm^3}\\)",
           "\\(120 \\text{ sm^3}\\)",
-          "\\(\\frac{120 \\text{ sm^3}}{2}\\)"
+          "\\(240 \\text{ sm^3}\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 120 sm^3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -269562,9 +269562,9 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Konus asosi radiusi R = 3sm, balandligi H = 7sm bo'lsa, uning hajmini hisoblang:",
         "options": [
-          "\\(21\\pi sm^3 + 1\\)",
-          "\\(-(21\\pi sm^3)\\)",
-          "\\(\\frac{21\\pi sm^3}{2}\\)",
+          "\\(-21\\pi sm^3\\)",
+          "\\(22\\pi sm^4\\)",
+          "\\(20\\pi sm^2\\)",
           "\\(21\\pi sm^3\\)"
         ],
         "correctIndex": 3,
@@ -269575,9 +269575,9 @@ const mathTopicsData = [
         "question": "Asosi tomoni 6 sm bo'lgan kvadrat, balandligi 12 sm bo'lgan to'g'ri to'rtburchakli piramida hajmini toping:",
         "options": [
           "\\(144 \\text{ sm^3}\\)",
-          "\\(-(144 \\text{ sm^3})\\)",
-          "\\(144 \\text{ sm^3} + 1\\)",
-          "\\(\\frac{144 \\text{ sm^3}}{2}\\)"
+          "\\(94 \\text{ sm^3}\\)",
+          "\\(194 \\text{ sm^3}\\)",
+          "\\(288 \\text{ sm^3}\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 144 sm^3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -270919,10 +270919,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "4 soat necha minut bo'ladi?",
         "options": [
-          "\\(340\\)",
-          "\\(480\\)",
+          "\\(14 0\\)",
+          "\\(34 0\\)",
           "\\(240\\)",
-          "\\(140\\)"
+          "\\(48 0\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 240. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -270933,7 +270933,7 @@ const mathTopicsData = [
         "options": [
           "\\(-2\\)",
           "\\(2\\)",
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(4\\)"
         ],
         "correctIndex": 1,
@@ -270943,10 +270943,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "2 sutka necha soat bo'ladi?",
         "options": [
-          "\\(58\\)",
-          "\\(96\\)",
+          "\\(2 8\\)",
+          "\\(6 8\\)",
           "\\(48\\)",
-          "\\(38\\)"
+          "\\(8 8\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 48. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -272444,10 +272444,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tomoni 9 sm bo'lgan kvadrat perimetrini toping:",
         "options": [
-          "\\(72\\)",
-          "\\(26\\)",
+          "\\(4 6\\)",
+          "\\(6 6\\)",
           "\\(36\\)",
-          "\\(46\\)"
+          "\\(2 6\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 36. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -272457,9 +272457,9 @@ const mathTopicsData = [
         "question": "Tomonlari 4 sm, 5 sm, 6 sm bo'lgan uchburchak perimetri qancha?",
         "options": [
           "\\(15\\)",
-          "\\(5\\)",
-          "\\(30\\)",
-          "\\(25\\)"
+          "\\(3 5\\)",
+          "\\(2 5\\)",
+          "\\(1 5\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 15. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -272468,9 +272468,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Bo'yi 10 sm, eni 4 sm bo'lgan to'g'ri to'rtburchak perimetri qancha?",
         "options": [
-          "\\(56\\)",
-          "\\(18\\)",
-          "\\(38\\)",
+          "\\(3 8\\)",
+          "\\(4 8\\)",
+          "\\(1 8\\)",
           "\\(28\\)"
         ],
         "correctIndex": 3,
@@ -273962,9 +273962,9 @@ const mathTopicsData = [
         "question": "80 sonining\\(\\frac{3}{4}\\) qismini toping:",
         "options": [
           "\\(60\\)",
-          "\\(70\\)",
-          "\\(50\\)",
-          "\\(120\\)"
+          "\\(4 0\\)",
+          "\\(12 0\\)",
+          "\\(8 0\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 60. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -273973,10 +273973,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "400 sonining 15% ini hisoblang:",
         "options": [
-          "\\(50\\)",
+          "\\(12 0\\)",
           "\\(60\\)",
-          "\\(70\\)",
-          "\\(120\\)"
+          "\\(4 0\\)",
+          "\\(8 0\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 60. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -275511,9 +275511,9 @@ const mathTopicsData = [
         "question": "40 sonini 1:3 nisbatda bo'ling. Kichik bo'lagi qancha?",
         "options": [
           "\\(10\\)",
-          "\\(1\\)",
-          "\\(-10\\)",
-          "\\(20\\)"
+          "\\(1 0\\)",
+          "\\(3 0\\)",
+          "\\(2 0\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 10. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -275522,10 +275522,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "100 sonini 2:3 nisbatda bo'ling. Katta bo'lagi qancha?",
         "options": [
-          "\\(70\\)",
-          "\\(50\\)",
+          "\\(4 0\\)",
+          "\\(12 0\\)",
           "\\(60\\)",
-          "\\(120\\)"
+          "\\(8 0\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 60. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -275534,9 +275534,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "90 sonini 4:5 nisbatda bo'ling. Kichik bo'lagi qancha?",
         "options": [
-          "\\(80\\)",
-          "\\(30\\)",
-          "\\(50\\)",
+          "\\(6 0\\)",
+          "\\(8 0\\)",
+          "\\(2 0\\)",
           "\\(40\\)"
         ],
         "correctIndex": 3,
@@ -277047,10 +277047,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tomonlari 6 sm va 10 sm bo'lgan uchburchakning uchinchi tomoni eng ko'pi bilan necha sm butun son bo'lishi mumkin?",
         "options": [
-          "\\(25\\)",
-          "\\(30\\)",
+          "\\(1 5\\)",
+          "\\(2 5\\)",
           "\\(15\\)",
-          "\\(5\\)"
+          "\\(3 5\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 15. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -277060,9 +277060,9 @@ const mathTopicsData = [
         "question": "Tomonlari 7 sm va 12 sm bo'lgan uchburchakning uchinchi tomoni eng kamida necha sm butun son bo'ladi?",
         "options": [
           "\\(6\\)",
-          "\\(8\\)",
           "\\(4\\)",
-          "\\(12\\)"
+          "\\(-6\\)",
+          "\\(8\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 6. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -278586,8 +278586,8 @@ const mathTopicsData = [
         "options": [
           "\\(-1\\)",
           "\\(1\\)",
-          "\\(3\\)",
-          "\\(2\\)"
+          "\\(5\\)",
+          "\\(3\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 1. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -278596,7 +278596,7 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Sistemani yeching va y ni toping: x - \\(y = 1\\), 2x + \\(y = 8\\):",
         "options": [
-          "\\(1\\)",
+          "\\(6\\)",
           "\\(2\\)",
           "\\(-2\\)",
           "\\(4\\)"
@@ -278608,10 +278608,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Sistemani yeching va x + y ni toping: x = 2y, x - \\(y = 5\\):",
         "options": [
-          "\\(5\\)",
-          "\\(30\\)",
+          "\\(3 5\\)",
+          "\\(2 5\\)",
           "\\(15\\)",
-          "\\(25\\)"
+          "\\(1 5\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 15. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -280109,8 +280109,8 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Tenglamani yeching: \\((2x - 6) / (x + 1) = 0\\)",
         "options": [
-          "\\(2\\)",
           "\\(3\\)",
+          "\\(5\\)",
           "\\(-1\\)",
           "\\(1\\)"
         ],
@@ -280121,10 +280121,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tenglamani yeching: \\(10 / x = 2\\)",
         "options": [
+          "\\(-5\\)",
           "\\(3\\)",
-          "\\(7\\)",
           "\\(5\\)",
-          "\\(10\\)"
+          "\\(7\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -280134,9 +280134,9 @@ const mathTopicsData = [
         "question": "Tenglamani yeching: \\((x^2 - 4) / (x - 2) = 4\\)",
         "options": [
           "\\(3\\)",
+          "\\(1\\)",
           "\\(5\\)",
-          "\\(6\\)",
-          "\\(1\\)"
+          "\\(-3\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 3. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -281634,10 +281634,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Asosi 10 sm, balandligi 6 sm bo'lgan uchburchak yuzi qancha?",
         "options": [
-          "\\(60\\)",
+          "\\(4 0\\)",
           "\\(30\\)",
-          "\\(20\\)",
-          "\\(40\\)"
+          "\\(6 0\\)",
+          "\\(2 0\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 30. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -281646,10 +281646,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Tomonlari 4 va 6, burchagi 30 gradus bo'lgan uchburchak yuzi qancha?",
         "options": [
-          "\\(12\\)",
-          "\\(6\\)",
           "\\(8\\)",
-          "\\(4\\)"
+          "\\(6\\)",
+          "\\(4\\)",
+          "\\(-6\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 6. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -281658,10 +281658,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Yarim perimetri p = 15sm, ichki aylana radiusi r = 4sm bo'lgan uchburchak yuzi qancha?",
         "options": [
-          "\\(120\\)",
+          "\\(8 0\\)",
           "\\(60\\)",
-          "\\(50\\)",
-          "\\(70\\)"
+          "\\(12 0\\)",
+          "\\(4 0\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 60. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -283151,10 +283151,10 @@ const mathTopicsData = [
         "level": "basic",
         "question": "Perpendikulyar 4 sm, proyeksiya 3 sm bo'lsa, og'ma uzunligi qancha?",
         "options": [
-          "\\(3\\)",
+          "\\(-5\\)",
           "\\(5\\)",
-          "\\(10\\)",
-          "\\(7\\)"
+          "\\(7\\)",
+          "\\(3\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 5. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -283163,10 +283163,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Og'ma 10 sm, perpendikulyar 6 sm bo'lsa, proyeksiya qancha?",
         "options": [
-          "\\(16\\)",
+          "\\(10\\)",
           "\\(8\\)",
-          "\\(6\\)",
-          "\\(10\\)"
+          "\\(-8\\)",
+          "\\(6\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 8. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -283175,10 +283175,10 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Nuqtadan tekislikka 45 gradus ostida o'tkazilgan og'ma 6*sqrt(2) bo'lsa, perpendikulyar qancha?",
         "options": [
-          "\\(8\\)",
-          "\\(6\\)",
           "\\(4\\)",
-          "\\(12\\)"
+          "\\(6\\)",
+          "\\(-6\\)",
+          "\\(8\\)"
         ],
         "correctIndex": 1,
         "explanation": "To'g'ri javob: 6. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -284685,9 +284685,9 @@ const mathTopicsData = [
         "question": "Asoslari S1 = 9, S2 = 4 va H = 3bo'lgan kesik piramida hajmini toping:",
         "options": [
           "\\(19\\)",
-          "\\(38\\)",
-          "\\(29\\)",
-          "\\(9\\)"
+          "\\(2 9\\)",
+          "\\(1 9\\)",
+          "\\(3 9\\)"
         ],
         "correctIndex": 0,
         "explanation": "To'g'ri javob: 19. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -284696,10 +284696,10 @@ const mathTopicsData = [
         "level": "medium",
         "question": "Radiuslari \\(R = 3\\) , r = 1va H = 3bo'lgan kesik konus hajmini toping (pi orqali koeffitsiyent):",
         "options": [
-          "\\(23\\)",
-          "\\(3\\)",
+          "\\(1 3\\)",
+          "\\(3 3\\)",
           "\\(13\\)",
-          "\\(26\\)"
+          "\\(2 3\\)"
         ],
         "correctIndex": 2,
         "explanation": "To'g'ri javob: 13. Ushbu masalada qoidani belgilab olamiz. Dastlabki berilgan qiymatlarni mos formulaga keltiramiz. Tanlangan qoida va formulaga ko'ra oraliq hisob-kitob amallarini ketma-ket bajaramiz."
@@ -284708,9 +284708,9 @@ const mathTopicsData = [
         "level": "hard",
         "question": "Asoslari S1 = 16, S2 = 1 va H = 6bo'lgan kesik piramida hajmini toping:",
         "options": [
-          "\\(52\\)",
-          "\\(84\\)",
-          "\\(32\\)",
+          "\\(2 2\\)",
+          "\\(6 2\\)",
+          "\\(8 2\\)",
           "\\(42\\)"
         ],
         "correctIndex": 3,
