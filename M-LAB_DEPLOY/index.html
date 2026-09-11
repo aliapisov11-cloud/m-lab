@@ -291638,7 +291638,7 @@ function renderTestRunner() {
             ${t('test_progress_label', l)} ${test.currentIndex + 1} / ${total}
           </span>
           <span class="text-xs font-bold text-slate-500 dark:text-slate-400">
-            ${currentQ.topicTitle} (${getGradeLabel(currentQ.gradeNumber)})
+            ${currentQ.topicTitle || (AppState.currentTopicId ? getLocalizedTopic(mathTopicsData.find(t => t.id === AppState.currentTopicId))?.title : '') || ''} ${currentQ.gradeNumber ? `(${getGradeLabel(currentQ.gradeNumber)})` : ''}
           </span>
         </div>
       </div>
